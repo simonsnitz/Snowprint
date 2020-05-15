@@ -7,8 +7,9 @@ from Bio import Entrez, SeqIO
 import requests
 import json
 import time
+import pickle
 
-Entrez.email = os.getenv("EMAIL", "danny.diaz@utexas.edu")
+Entrez.email = os.getenv("EMAIL", "doelsnitz@utexas.edu")
 headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36'} 
 
 
@@ -67,70 +68,106 @@ def getStrand(seq_start, seq_stop):
         return "-"
 
 def getTU(uid, seq_start, strand):
-    
+
+    '''
+    Rules for inclusion/exclusion of genes from operon:
+        - always take immediately adjacent genes
+        - if query gene is in same direction as regulator, include it.
+        - if query gene is expressed divergently from regulator, 
+                grab all adjacent genes that are expressed divergently (change strand direction for next genes)
+        - if query gene is expressed divergently from a co-transcribed neighbor of the regulaor, 
+                grab that gene. (it may be another regulator. Important to know).
+        - if query gene direction converges with regulator, exclude it.
+    '''
+
     def getGene(geneStrand, direction, nextGene, geneList, UID):
-        print('starting '+direction)
+        #print('starting '+direction)
         while geneStrand == nextGene[4]:
-            print(geneStrand, nextGene[4])
+            #print(geneStrand, nextGene[4])
             if direction == '+':
                 UID += 1
             elif direction == '-':
                 UID -= 1
             nextGene = uid2MetaData(UID)
-            if geneStrand == nextGene[4]:
+            if geneStrand == '-' and nextGene[4] == '+' and direction == '+':
+                geneList.append(nextGene)
+            elif geneStrand == nextGene[4]:
                 geneList.append(nextGene)
             time.sleep(1)
     
-    uidUP = uid+1
-    upGene = uid2MetaData(uidUP)
     geneStrand = strand
-    if seq_start > upGene[2]:
-        print('upGene is behind')
-        if strand == '+' and upGene[2] == '-':
-            geneStrand = upGene[4]
-    else:
-        print('upGene is in front')
-    upgenes = [upGene]
-    getGene(geneStrand,'+',upGene,upgenes, uidUP)
-
+    
     uidDOWN = uid-1
     downGene = uid2MetaData(uidDOWN)
     if seq_start > downGene[2]:
-        print('downGene is behind')
-        if strand == '+' and upGene[2] == '-':
-            geneStrand = upGene[4]
+        #print('downGene is behind')
+        if strand == '+' and downGene[4] == '-':
+            geneStrand = downGene[4]
     else:
         print('downGene is in front')
     downgenes = [downGene]
     getGene(geneStrand,'-',downGene, downgenes, uidDOWN)
+    
+    geneArray = list(reversed(downgenes))
+    geneArray.append(uid2MetaData(uid))
+    regulatorIndex = (len(geneArray)-1)
 
-    return upgenes, downgenes
+    geneStrand = strand
+
+    uidUP = uid+1
+    upGene = uid2MetaData(uidUP)
+    if seq_start > upGene[2]:
+        #print('upGene is behind')
+        if strand == '+' and upGene[4] == '-':
+            geneStrand = upGene[4]
+    else:
+        print('upGene is in front')
+    #upgenes = [upGene]
+    geneArray.append(upGene)
+
+    getGene(geneStrand,'+',upGene,geneArray, uidUP)
+
+    return geneArray, regulatorIndex
 
 
 
 if __name__=="__main__":
-    ramr = "WP_000113609"
-    ttgr = "WP_014859138"
-    hrtr = "NP_266817.1"
-    bioq = "WP_011728885.1"
-    actr = "WP_011030045.1"
-    camr = "WP_146114525.1"
-    acur = "WP_011336736.1"
+    ramr = "WP_000113609" #good
+    ttgr = "WP_014859138" #good
+    hrtr = "NP_266817.1" #good
+    bioq = "WP_011728885.1" #UIDs aren't neighbors
+    actr = "WP_011030045.1" #good
+    camr = "WP_146114525.1" #No UID
+    acur = "WP_011336736.1" #good
+    qacr = "WP_001807342.1" #UIDs aren't neighbors
+    #beti = "NP_414847.3" #UIDs aren't neighbors
+    beti = "WP_001335745.1" #UIDs still aren't neighbors
+    eilr = "WP_013366341.1" #UIDs aren't neighbors
+    tetr = "WP_000113282.1" #good
+    bm3r1 = "WP_013083972.1" #good
+    pfmr = "WP_011229253.1" #UIDs aren't neighbors
+    cgmr = "WP_011015249.1" #good
+    cmer = "WP_002857627.1" #UIDs aren't neighbors
+    sco7222 = "NP_631278.1" #good
+    eca1819 = "WP_011093392.1" #good
 
-
-    Meta = acc2MetaData(acur)
+    regName = hrtr
+    Meta = acc2MetaData(regName)
     #Meta = ['NC_003197.2', '638149', '638730', '-']
     print(Meta)
     UID = getUID(Meta[0],Meta[1],Meta[2])
     print(UID)
     MetaData = uid2MetaData(UID)
-    #print(MetaData)
     
     time.sleep(1)
-    TU = getTU(UID, MetaData[2], MetaData[4])
-    print(TU)
-    if abs(MetaData[2]-TU[0][0][2]) > 10000:
+    TU, regIndex = getTU(UID, MetaData[2], MetaData[4])
+    pprint(TU)
+    print(TU[regIndex])
+    if abs(MetaData[2]-TU[0][2]) > 10000:
         print('something went wrong')
     else:
         print('everything checks out')
+
+    with open('operon.data', mode='wb') as f:
+        pickle.dump(TU, f)
 
