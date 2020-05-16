@@ -104,7 +104,8 @@ def getTU(uid, seq_start, strand):
         if strand == '+' and downGene[4] == '-':
             geneStrand = downGene[4]
     else:
-        print('downGene is in front')
+        pass
+        #print('downGene is in front')
     downgenes = [downGene]
     getGene(geneStrand,'-',downGene, downgenes, uidDOWN)
     
@@ -121,7 +122,8 @@ def getTU(uid, seq_start, strand):
         if strand == '+' and upGene[4] == '-':
             geneStrand = upGene[4]
     else:
-        print('upGene is in front')
+        pass
+        #print('upGene is in front')
     #upgenes = [upGene]
     geneArray.append(upGene)
 
@@ -132,37 +134,37 @@ def getTU(uid, seq_start, strand):
 
 
 if __name__=="__main__":
-    ramr = "WP_000113609" #good
-    ttgr = "WP_014859138" #good
-    hrtr = "NP_266817.1" #good
+    ramr = "WP_000113609" #good 7170
+    ttgr = "WP_014859138" #good 10681
+    hrtr = "NP_266817.1" #good 5147
     bioq = "WP_011728885.1" #UIDs aren't neighbors
-    actr = "WP_011030045.1" #good
+    actr = "WP_011030045.1" #good 2933
     camr = "WP_146114525.1" #No UID
-    acur = "WP_011336736.1" #good
+    acur = "WP_011336736.1" #good 5253
     qacr = "WP_001807342.1" #UIDs aren't neighbors
     #beti = "NP_414847.3" #UIDs aren't neighbors
     beti = "WP_001335745.1" #UIDs still aren't neighbors
     eilr = "WP_013366341.1" #UIDs aren't neighbors
-    tetr = "WP_000113282.1" #good
-    bm3r1 = "WP_013083972.1" #good
+    tetr = "WP_000113282.1" #good 3586
+    bm3r1 = "WP_013083972.1" #good 4426
     pfmr = "WP_011229253.1" #UIDs aren't neighbors
-    cgmr = "WP_011015249.1" #good
+    cgmr = "WP_011015249.1" #good 3353 
     cmer = "WP_002857627.1" #UIDs aren't neighbors
-    sco7222 = "NP_631278.1" #good
-    eca1819 = "WP_011093392.1" #good
+    sco7222 = "NP_631278.1" #good 6564
+    eca1819 = "WP_011093392.1" #good 3363
 
-    regName = hrtr
+    regName = sco7222
     Meta = acc2MetaData(regName)
     #Meta = ['NC_003197.2', '638149', '638730', '-']
-    print(Meta)
+    #print(Meta)
     UID = getUID(Meta[0],Meta[1],Meta[2])
-    print(UID)
+    #print(UID)
     MetaData = uid2MetaData(UID)
     
     time.sleep(1)
     TU, regIndex = getTU(UID, MetaData[2], MetaData[4])
     pprint(TU)
-    print(TU[regIndex])
+    #print(TU[regIndex])
     if abs(MetaData[2]-TU[0][2]) > 10000:
         print('something went wrong')
     else:

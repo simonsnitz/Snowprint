@@ -4,6 +4,54 @@
 		<title>Operon Graphic</title>
 
 		<script src="graphic.js"></script>
+<style>
+.operonContainer{
+	width: 100vw;
+	margin: auto;
+	height: 20vh;
+	margin-top: 10vh;
+}
+
+.Rgene{
+	height: 40px;
+	display: inline-block;
+	position: relative;
+}
+
+
+.Rgene:before{
+	content:"";
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-left: var(--color);
+	border-top: 20px solid white;
+	border-bottom: 20px solid white;
+	z-index: 1;
+}
+
+.Lgene {
+	height: 40px;
+	display: inline-block;
+	position: relative;
+}
+
+.Lgene:after{
+	content:"";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-right: var(--color);
+	border-top: 20px solid white;
+	border-bottom: 20px solid white;
+	z-index: 1;
+}
+
+</style>
 
 			
 	</head>
@@ -13,38 +61,30 @@
 	</body>
 
 
-<style>
-.operonContainer{
-	width: 80vw;
-	border: 1px solid black;
-	margin: auto;
-	height: 20vh;
-	margin-top: 10vh;
-}
-
-.gene{
-	width: 10%;
-	height: 50%;
-	border: 1px solid black;
-	display: inline-block;
-	margin-left: 5%;
-}	
-</style>
 
 <script>
 
 	var data = JSON.parse(graphic);
 
 	for (i in data) {
+		
 		let container = document.getElementById("operon");
 		let gene = document.createElement('div');
-		gene.classList.add("gene");
-		gene.setAttribute("style", "background-color: "+data[i]["color"])
-		//gene.title = data[i]["description"];
+		let thing = "#bfbfbf";
+		if (data[i]["direction"] == "+"){
+			gene.classList.add("Rgene");
+		} else {
+			gene.classList.add("Lgene");
+		}
+
+		gene.setAttribute("style", "background-color: "+data[i]["color"]+
+			"; width:"+data[i]["length"]+
+			"; margin-right:"+data[i]["spacer"])
+		
+		gene.style.setProperty('--color', '20px solid '+data[i]["color"]);
 		
 		container.appendChild(gene);
 		
-		//alert(data[i]["description"]);
 	}
 
 </script>
