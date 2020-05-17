@@ -90,6 +90,8 @@ def createGraphic(operon):
         spacer = calcSpacer(operon, i, displayLength)
         graphic[i]["spacer"] = str(spacer)+'%'
         
+        graphic[i]["link"] = operon[i][5]
+
         #totalLength += graphic[i]["length"]
         #totalLength += graphic[i]["spacer"]
 

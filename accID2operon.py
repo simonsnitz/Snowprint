@@ -56,9 +56,40 @@ def uid2MetaData(uid):
         seq_start = gdata["chrstart"]
         seq_stop = gdata["chrstop"]
         strand = getStrand(seq_start, seq_stop)
-        return [description, NCacc, seq_start, seq_stop, strand]
+        return [description, NCacc, seq_start, seq_stop, strand, uid]
     else:
         print(response.status_code)
+
+
+def getLinkID(uid):
+    uid = str(uid)
+
+    response = requests.get('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=gene&db=protein&id='+uid+'&retmode=json&idtype=acc', headers=headers)
+    if response.ok: 
+        P_ACC = json.loads(response.text)["linksets"][0]["linksetdbs"][0]["links"]
+        try:
+            P_ACC = P_ACC[0]
+        except:
+            print("elink couldn't find any accession associated with input uid")
+            return
+    else:
+        print('bad elink request')
+        return
+    
+    print(P_ACC)
+    
+    payload = {'from': 'P_REFSEQ_AC',
+                'to': 'ACC',
+                'format': 'list',
+                'query': P_ACC,
+                }
+
+    response = requests.get('https://www.uniprot.org/uploadlists/', params=payload, headers=headers)
+    if response.ok: 
+        return response.text
+    else:
+        response.raise_for_status()
+
 
 
 def getStrand(seq_start, seq_stop):
@@ -142,8 +173,7 @@ if __name__=="__main__":
     camr = "WP_146114525.1" #No UID
     acur = "WP_011336736.1" #good 5253
     qacr = "WP_001807342.1" #UIDs aren't neighbors
-    #beti = "NP_414847.3" #UIDs aren't neighbors
-    beti = "WP_001335745.1" #UIDs still aren't neighbors
+    beti = "NP_414847.3" #UIDs aren't neighbors
     eilr = "WP_013366341.1" #UIDs aren't neighbors
     tetr = "WP_000113282.1" #good 3586
     bm3r1 = "WP_013083972.1" #good 4426
@@ -153,13 +183,19 @@ if __name__=="__main__":
     sco7222 = "NP_631278.1" #good 6564
     eca1819 = "WP_011093392.1" #good 3363
 
-    regName = sco7222
+    regName = bioq
     Meta = acc2MetaData(regName)
     #Meta = ['NC_003197.2', '638149', '638730', '-']
     #print(Meta)
     UID = getUID(Meta[0],Meta[1],Meta[2])
-    #print(UID)
+    print(UID)
+    
+    #linkID = getLinkID(UID)
+    #print(linkID)
+    
+    '''
     MetaData = uid2MetaData(UID)
+    
     
     time.sleep(1)
     TU, regIndex = getTU(UID, MetaData[2], MetaData[4])
@@ -172,4 +208,4 @@ if __name__=="__main__":
 
     with open('operon.data', mode='wb') as f:
         pickle.dump(TU, f)
-
+   ''' 

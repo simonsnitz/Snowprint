@@ -5,17 +5,17 @@
 
 		<script src="graphic.js"></script>
 <style>
-.operonContainer{
-	width: 100vw;
+#operonContainer{
+	width: 90vw;
 	margin: auto;
 	height: 20vh;
-	margin-top: 10vh;
 }
 
 .Rgene{
 	height: 40px;
 	display: inline-block;
 	position: relative;
+	z-index: 1;
 }
 
 
@@ -29,13 +29,32 @@
 	border-left: var(--color);
 	border-top: 20px solid white;
 	border-bottom: 20px solid white;
-	z-index: 1;
+	z-index: 2;
+}
+
+.Rgene .description {
+	visibility: hidden;
+	width: 9rem;
+	text-align: center;
+	padding: 5px 0;
+	border: 1px solid black;
+	position: absolute;
+	top: 250%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	color: black;
+}
+
+.Rgene:hover .description {
+	visibility: visible;
 }
 
 .Lgene {
 	height: 40px;
 	display: inline-block;
 	position: relative;
+	z-index:1;
 }
 
 .Lgene:after{
@@ -48,7 +67,33 @@
 	border-right: var(--color);
 	border-top: 20px solid white;
 	border-bottom: 20px solid white;
-	z-index: 1;
+	z-index: 2;
+}
+
+.Lgene .description {
+	visibility: hidden;
+	width: 9rem;
+	text-align: center;
+	padding: 5px 0;
+	border: 1px solid black;
+	position: absolute;
+	top: 250%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	color: black;
+}
+
+.Lgene:hover .description {
+	visibility: visible;
+}
+
+#line{
+	background-color: black;
+	height:2px;
+	width: 90%;
+	position: absolute;
+	top: 19px;
 }
 
 </style>
@@ -57,7 +102,7 @@
 	</head>
 
 	<body>
-		<div id="operon" class="operonContainer"></div>
+		<div id="operonContainer"></div>
 	</body>
 
 
@@ -65,12 +110,14 @@
 <script>
 
 	var data = JSON.parse(graphic);
+	let container = document.getElementById("operonContainer");
 
 	for (i in data) {
 		
-		let container = document.getElementById("operon");
+		let link = document.createElement('a');
+		link.setAttribute("href", "https://ncbi.nlm.nih.gov/gene/"+data[i]['link']);
+		link.setAttribute("target", "_blank");
 		let gene = document.createElement('div');
-		let thing = "#bfbfbf";
 		if (data[i]["direction"] == "+"){
 			gene.classList.add("Rgene");
 		} else {
@@ -83,9 +130,18 @@
 		
 		gene.style.setProperty('--color', '20px solid '+data[i]["color"]);
 		
-		container.appendChild(gene);
-		
+		description = document.createElement('span');
+		description.innerText = data[i]["description"];
+		description.classList.add("description");
+		gene.appendChild(description)
+		link.appendChild(gene);
+		container.appendChild(link);
 	}
+	let line = document.createElement('hr');
+	line.id = "line";
+	//line.setAttribute("id", "line");
+	container.appendChild(line);
+	
 
 </script>
 			}
