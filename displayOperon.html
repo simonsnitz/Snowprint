@@ -115,7 +115,7 @@
 	for (i in data) {
 		
 		let link = document.createElement('a');
-		link.setAttribute("href", "https://ncbi.nlm.nih.gov/gene/"+data[i]['link']);
+		link.setAttribute("href", "https://uniprot.org/uniprot/"+data[i]['link']);
 		link.setAttribute("target", "_blank");
 		let gene = document.createElement('div');
 		if (data[i]["direction"] == "+"){
