@@ -21,8 +21,8 @@ def calcLength(seq_start, seq_stop, operonLength):
 def type2color(geneName):
     regulator = re.compile(r"regulator|repressor")
     hypothetical = re.compile(r"hypothetical")
-    transporter = re.compile(r"port|pump")
-    enzyme = re.compile(r"ase")
+    transporter = re.compile(r"transport|pump")
+    enzyme = re.compile(r"reductase|synthase|synthetase")
 
     if regulator.search(geneName):
         #regulator = green
@@ -43,9 +43,9 @@ def type2color(geneName):
 
     #calculate the spacer length between a gene and its downstream neighbor
 def calcSpacer(operon, index, operonLength):
-    geneEnd = max(operon[index]['start'],operon[index]['stop'])
+    geneEnd = max(operon[index][2],operon[index][3])
     try:
-        nextGeneStart = min(operon[index+1]['start'],operon[index+1]['stop'])
+        nextGeneStart = min(operon[index+1][2],operon[index+1][3])
     except:
         nextGeneStart = geneEnd
     spacer = nextGeneStart - geneEnd
@@ -65,8 +65,8 @@ def createGraphic(operon):
    
 
         #calculate total length of operon
-    operonStart = min(operon[0]['start'], operon[0]['stop'])
-    operonEnd = max(operon[-1]['start'], operon[-1]['stop'])
+    operonStart = min(operon[0][2], operon[0][3])
+    operonEnd = max(operon[-1][2], operon[-1][3])
     operonLength = operonEnd - operonStart
 
     if operonLength >= 6000:
@@ -77,20 +77,20 @@ def createGraphic(operon):
 
         #populate graphic dictionary with operon gene info
     for i in range(0, len(graphic)):
-        genLen = calcLength(operon[i]['start'], operon[i]['stop'], displayLength)
+        genLen = calcLength(operon[i][2], operon[i][3], displayLength)
         graphic[i]["length"] = str(genLen)+'%'
    
-        graphic[i]["description"] = operon[i]['description']
+        graphic[i]["description"] = operon[i][0]
 
-        geneType = type2color(operon[i]['description'])
+        geneType = type2color(operon[i][0])
         graphic[i]["color"] = geneType
 
-        graphic[i]["direction"] = operon[i]['direction']
+        graphic[i]["direction"] = operon[i][4]
 
         spacer = calcSpacer(operon, i, displayLength)
         graphic[i]["spacer"] = str(spacer)+'%'
         
-        graphic[i]["link"] = operon[i]['link']
+        graphic[i]["link"] = operon[i][5]
 
         #totalLength += graphic[i]["length"]
         #totalLength += graphic[i]["spacer"]

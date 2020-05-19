@@ -38,6 +38,8 @@
 	text-align: center;
 	padding: 5px 0;
 	border: 1px solid black;
+	border-radius: 3px;
+	border-color: #225470;
 	position: absolute;
 	top: 250%;
 	left:50%;
@@ -76,6 +78,8 @@
 	text-align: center;
 	padding: 5px 0;
 	border: 1px solid black;
+	border-radius: 3px;
+	border-color: #225470;
 	position: absolute;
 	top: 250%;
 	left:50%;
@@ -115,7 +119,8 @@
 	for (i in data) {
 		
 		let link = document.createElement('a');
-		link.setAttribute("href", "https://uniprot.org/uniprot/"+data[i]['link']);
+		if (data[i]['link'].length !== 0){
+			link.setAttribute("href", "https://uniprot.org/uniprot/"+data[i]['link']); }
 		link.setAttribute("target", "_blank");
 		let gene = document.createElement('div');
 		if (data[i]["direction"] == "+"){

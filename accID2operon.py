@@ -47,7 +47,8 @@ def getUID(NCacc, seq_start, seq_stop):
 
 def alias2MetaData(alias):
     
-    time.sleep(0.5)
+    time.sleep(0.1)
+    
     response = requests.get('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gene&term='+alias+'&retmode=json', headers=headers)
     if response.ok: 
         try:
@@ -63,7 +64,7 @@ def alias2MetaData(alias):
         print("alias to uid esearch failed")
         return
     
-    time.sleep(0.5)
+    time.sleep(0.1)
     
     response = requests.get('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gene&id='+uid+'&retmode=json', headers=headers)
     if response.ok: 
@@ -189,7 +190,7 @@ def getOperon(alias, seq_start, strand, shiftBy):
                 geneList.append(nextGene)
             print(nextAlias)
             ALIAS = nextAlias
-            time.sleep(0.5)
+            time.sleep(0.1)
     
     def shiftAlias(direction, alias, shiftBy, digits):
 
@@ -258,8 +259,16 @@ if __name__=="__main__":
     cmer = "WP_002857627.1" #UIDs aren't neighbors  #alias good (fixed)
     sco7222 = "NP_631278.1" #good 6564              #alias good
     eca1819 = "WP_011093392.1" #good 3363           #alias good
+    acnr = "WP_003856101.1"                         #alias good
+    ethr = "WP_003399797.1"                 #downstream alias has "c" in name. Rv3855 -> Rv3854c -> Rv3853
+    rutr = "WP_000191701.1"                         #alias good
+    acrr = "WP_000101737.1"                         #alias good
+    fadr = "WP_003229547.1"                         #alias number changes by 5, but doesn't have _RS   (Does has NP_accession)
+    fadr2 = "NP_390733.1"
+    marr = "WP_000843414.1"                         #alias good
+    trpr = "WP_000068679.1"
 
-    regName = eilr
+    regName = trpr
     Meta = acc2MetaData(regName)
     #Meta = ['NC_003197.2', '638149', '638730', '-']
     UID = getUID(Meta[0],Meta[1],Meta[2])
@@ -269,7 +278,7 @@ if __name__=="__main__":
 
     MetaData = alias2MetaData(alias)
 
-    time.sleep(0.5)
+    time.sleep(0.1)
 
     re1 = re.compile(r'_RS')
     if re1.search(alias):
@@ -296,7 +305,7 @@ if __name__=="__main__":
     MetaData = uid2MetaData(UID)
     
     
-    time.sleep(0.5)
+    time.sleep(0.1)
     TU, regIndex = getTU(UID, MetaData[2], MetaData[4])
     pprint(TU)
     #print(TU[regIndex])
