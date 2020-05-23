@@ -5,18 +5,7 @@ import json
 import time
 import pickle
 from Bio import Entrez
-''' available functions: 
-
-#main:
-    acc2operon(protein_accession)
-
-acc2MetaData(acc)
-NC2genome(NCacc)
-parseGenome(genome, seq_start, seq_stop)
-fasta2MetaData(allGenes[index])
-getOperon(allGenes, index, seq_start, direction)
-
-'''    
+from findOperator import getOperator
 
 Entrez.email = os.getenv("EMAIL", "doelsnitz@utexas.edu")
 headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36'} 
@@ -34,9 +23,9 @@ def acc2MetaData(access_id: str):
         proteinList = [{}]
 
     protein = proteinList.get("CDSList", "MT")[0].attributes
+    print(protein)
 
-    return protein
-    #[protein['accver'],protein['start'],protein['stop'],protein['strand']]
+    return [protein['accver'],protein['start'],protein['stop'],protein['strand']]
 
 
 def NC2genome(NCacc):
@@ -46,9 +35,9 @@ def NC2genome(NCacc):
         data = response.text
         with open('genome.txt', mode='w+') as f:
             f.write(data)
+            print('got genome')
     else:
-        print(response.status_code)
-        print('efetch query unsuccessful. Genome could not be found')
+        print('bad reqiuest')
     
     with open('genome.txt', mode='r+') as f:
         genome = f.readlines()
@@ -65,12 +54,11 @@ def parseGenome(genome, start, stop):
             if re1.search(i):
                 if re2.search(i):
                     regIndex = geneIndex
+                    print(i)
+                    print('regulator found at index '+str(regIndex))
             geneIndex += 1
             allGenes.append(i)
-    try:
-        return allGenes, regIndex
-    except:
-        print('regulator not found in genome')
+    return allGenes, regIndex
 
 
 def fasta2MetaData(fasta):
@@ -84,6 +72,7 @@ def fasta2MetaData(fasta):
             metaData['description'] = i[8:-1].replace("'", "")
         elif i[:11] == 'protein_id=':
             metaData['link'] = i[11:-1]
+            print(metaData['link'])
         elif i[:9] == 'location=':
             if i[9:20] == 'complement(':
                 metaData['direction'] = '-'
@@ -98,7 +87,7 @@ def fasta2MetaData(fasta):
                 metaData['start'] = int(re.sub("\D", "", location[0]))
                 metaData['stop'] = int(re.sub("\D", "", location[1]))
     
-    '''
+    print('getting uniprotID')
     if 'link' in metaData.keys():
         try:
             #metaData['link'] = accession2UniprotID(metaData['link'])
@@ -106,8 +95,6 @@ def fasta2MetaData(fasta):
         except:
             pass
     else:
-    '''
-    if 'link' not in metaData.keys():
         metaData['link'] = ""   #eventually should be empty. Jinja checks if it should set a link or not
     
     return metaData
@@ -141,45 +128,36 @@ def getOperon(allGenes, index, seq_start, strand):
                     geneList.append(nextGene)
                 elif geneStrand == nextGene['direction']:
                     geneList.append(nextGene)
+                print(nextGene['alias'])
                 index = nextIndex
             except:
                 break
 
     geneStrand = strand
     
-    #attempt to get downstream genes, if there are any genes downstream
-    try:
-        indexDOWN = index-1
-        downGene = fasta2MetaData(allGenes[indexDOWN])
-        #if seq_start > downGene['start']:
-        if strand == '+' and downGene['direction'] == '-':
-            geneStrand = downGene['direction']
+    indexDOWN = index-1
+    downGene = fasta2MetaData(allGenes[indexDOWN])
+    #if seq_start > downGene['start']:
+    if strand == '+' and downGene['direction'] == '-':
+        geneStrand = downGene['direction']
     
-        downgenes = [downGene]
-        getGene(geneStrand,'-',downGene, downgenes, indexDOWN)
+    downgenes = [downGene]
+    getGene(geneStrand,'-',downGene, downgenes, indexDOWN)
     
-        geneArray = list(reversed(downgenes))
-    except:
-        geneArray = []
-
+    geneArray = list(reversed(downgenes))
     geneArray.append(fasta2MetaData(allGenes[index]))
     regulatorIndex = (len(geneArray)-1)
 
     geneStrand = strand
     
-    #attempt to get upstream genes, if there are any genes upstream
-    try:
-        indexUP = index+1
-        upGene = fasta2MetaData(allGenes[indexUP])
-        #if seq_start > upGene['start']:
-        if strand == '-' and upGene['direction'] == '+':
-            geneStrand = upGene['direction']
-        
-        geneArray.append(upGene)
+    indexUP = index+1
+    upGene = fasta2MetaData(allGenes[indexUP])
+    #if seq_start > upGene['start']:
+    if strand == '-' and upGene['direction'] == '+':
+        geneStrand = upGene['direction']
+    geneArray.append(upGene)
 
-        getGene(geneStrand, '+', upGene, geneArray, indexUP)
-    except:
-        return geneArray, regulatorIndex
+    getGene(geneStrand, '+', upGene, geneArray, indexUP)
 
     return geneArray, regulatorIndex
 
@@ -203,27 +181,14 @@ def accession2UniprotID(alias):
     else:
         response.raise_for_status()
 
-def acc2operon(accession):
-    time.sleep(0.25)
-    metaData = acc2MetaData(accession)
-    time.sleep(0.25)
-    genome = NC2genome(metaData["accver"])
-    allGenes, index = parseGenome(genome, metaData["start"], metaData["stop"])
-    reg = fasta2MetaData(allGenes[index])
-    operon, regIndex = getOperon(allGenes, index, reg['start'], reg['direction'])
-
-    data = {"operon": operon, "regIndex": regIndex, "genome": metaData["accver"] }
-
-    return data
-
 
 if __name__ == "__main__":
     
     #acc2MetaData(acc)
     #NC2genome(NCacc)
-    #parseGenome(genome, seq_start, seq_stop)
+    #parseGenome(genome, regulator)
     #fasta2MetaData(allGenes[index])
-    #getOperon(allGenes, index, seq_start, direction)
+    #getOperon(allGenes, index, seq_start, strand)
     
     ramr = "WP_000113609" #good 7170                #alias good                     #genomeGood 289
     ttgr = "WP_014859138" #good 10681               #alias good                     #genomeGood 258 
@@ -252,19 +217,7 @@ if __name__ == "__main__":
     trpr = "WP_000068679.1"                                                         #genomeGood 211
     camr = 'BAA03510.1'                                                             #plasmidGood 323
     tcuCamr = "WP_145928353.1"                                                      #genomeGood 280
-    
 
-    data = acc2operon(camr)
-
-    from getIntergenic import getIntergenicSeq
-
-    intergenic = getIntergenicSeq(data["operon"], data["regIndex"], data["genome"])
-    print(intergenic)
-
-    with open('intergenic.txt', mode='w+') as f:
-        f.write(intergenic)
-
-    '''
     regACC = ttgr
     MetaData = acc2MetaData(regACC)
     NCacc = MetaData[0]
@@ -285,4 +238,3 @@ if __name__ == "__main__":
 
     with open('operon.data', mode='wb') as f:
         pickle.dump(operon, f)
-    '''

@@ -22,7 +22,7 @@ def type2color(geneName):
     regulator = re.compile(r"regulator|repressor")
     hypothetical = re.compile(r"hypothetical")
     transporter = re.compile(r"port|pump")
-    enzyme = re.compile(r"ase")
+    enzyme = re.compile(r"ase|P450")
 
     if regulator.search(geneName):
         #regulator = green
@@ -72,7 +72,7 @@ def createGraphic(operon):
     if operonLength >= 6000:
         displayLength = operonLength*1.05
     else:
-        displayLength = 6000
+        displayLength = 6500
     totalLength = 0
 
         #populate graphic dictionary with operon gene info
