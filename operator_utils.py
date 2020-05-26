@@ -7,25 +7,18 @@ def findOperatorInIntergenic(intergenic, operator):
     """
         Do a local alignment with gap penalties:
             Identical characters add 2 points
-            Non-Identical characters deduct 1 point
-            Opening Gap deduct 1 point
-            Extending a Gap  deduct 1 point
+            Non-Identical characters deduct 0.5 point
+            Opening Gap deduct 100 points
+            Extending a Gap  deduct 0 points
         Arguments:
-            upstream: SeqRecord of upstream DNA region
-            operator: SeqRecord of operator DNA sequence
-        Return:
-            Void
+            intergenic: Intergenic DNA region (string)
+            operator: Known operator for regulator or its homolog (string)
     """
-    #Decides if input is string or SeqRecord
-    if type(operator) == str:
-        pass
-    else:
-        operator = operator.seq
-
     operator_length = len(operator)
-
-    #this function is needed to extract the ENTIRE aligned region.
-        #Otherwise, mismatched ends will not be extracted.
+    '''
+        This function is needed to extract the ENTIRE aligned region.
+        Otherwise, mismatched ends will not be extracted.
+    '''
     def extractOperator(intergenic, operator):
         beginning = 0
         for i in operator:
@@ -37,19 +30,15 @@ def findOperatorInIntergenic(intergenic, operator):
             #can change position of output sequence to include more or less
         return intergenic[beginning-3:end+3]
 
-
     try:
         upstr_align, op_align, score, startPos, endPos = \
         align.localms(intergenic, operator, 2, -0.5, -100, 0)[0]
     except:
         return "no intergenic region found"
-
-    #Heavily penalizing gap opening avoids errors with downstream data processing,
-    #but may miss out on interesting biological features
-
-    #returns the aligned operator sequence if a similarity threshold is met.
-        #score threshold should be tuned.
-
+    '''
+    Heavily penalizing gap opening avoids errors with downstream data processing, but may miss out on interesting biological features
+    Returns the aligned operator sequence if a similarity threshold is met. Score threshold (7) should be tuned.
+    '''
     if score > 7:
         operator = extractOperator(upstr_align, op_align)
         return operator, score
@@ -63,7 +52,6 @@ def complement(sequence):
             "C":"G",
             "T":"A",
             "G":"C"}
-
     complement = ""
     for i in sequence:
         try:
@@ -72,6 +60,7 @@ def complement(sequence):
             print('non standard base found!!!')
             break
     return complement
+
 
 def findInvertedRepeat(intergenic, size):
     for i in range(0,len(intergenic)-((2*size))):
@@ -92,26 +81,13 @@ def findInvertedRepeat(intergenic, size):
                 return operator
 
 
-def getBestOperator(intergenic):
+def getBestInvertedRepeat(intergenic):
     stringency = [10,9,8,7,6,5,4]
     if intergenic != None:
         for i in stringency:
             operator = findInvertedRepeat(intergenic, i)
             if operator:
                 return [operator, i]
-
-
-
-def calcHairpin(operator):
-    """
-    Calculate the free energy (deltaG) of hairpin formation
-    within the operator sequence.
-
-    A lower deltaG value indicates a more symmetric operator
-    sequence and may allow tighter regulator binding.
-    """
-    deltaG = primer3.calcHairpin(operator).dg
-    return deltaG
 
 
 def appendOperatorMetadata(homologListFile, knownOperator):
@@ -121,8 +97,9 @@ def appendOperatorMetadata(homologListFile, knownOperator):
         for i in homologList:
             try:
                 i["operator"] = findOperatorInIntergenic(i["intergenic"], knownOperator)
-                i["invRepeat"] = getBestOperator(i["operator"][0])
-                i["deltaG"] = calcHairpin(i["invRepeat"][0])
+                i["invRepeat"] = getBestInvertedRepeat(i["operator"][0])
+                    #Calculate the free energy (deltaG) of hairpin formation within the operator sequence.
+                i["deltaG"] = primer3.calcHairpin(i["invRepeat"][0]).dg
                 print(i)
             except:
                 print("data not found")

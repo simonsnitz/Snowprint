@@ -1,7 +1,7 @@
 import pickle
 import requests
 from Bio import SeqIO
-import accID2operon as a2o
+import acc2operon as a2o
 
 
 #def getIntergenicSeq(operon, regIndex, NCacc):
@@ -58,7 +58,7 @@ def operon2Intergenic(operon, regIndex, NCacc):
 
     if response.ok:
         intergenic = response.text
-        with open('intergenic.fasta', mode='w+') as f:
+        with open('cache/intergenic.fasta', mode='w+') as f:
             f.write(intergenic)
     else:
         print('bad request')

@@ -37,11 +37,6 @@ def blast_and_cache(sequence, cacheFile, perc_ident, db="nr"):
             print('cached blast result')
             return blast_results.read()
 
-#not used now, maybe in the future?
-def openFasta(filePath: str) -> SeqRecord:
-    with open(filePath, mode = "r") as f:
-        return SeqIO.read(f, 'fasta')
-
 
 #def getHomologAccessionIDs(fileIN, fileOUT):
 def homologs2accID_ident(fileIN, fileOUT):

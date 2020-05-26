@@ -1,0 +1,30 @@
+
+	#Simon is currently working on this
+(1) Extend "operator_utils.py" to pick out (A) consensus and (B) most symmetric operators among homologs
+	#Simon is currently working on this
+(2) Extend "operator_utils.py" (or create new file) to narrow down intergenic regions to a conserved subset via a multiple sequence alignment.
+
+(3) Extend "acc2operon.py" to find any regulators within a given operon (to go from input:enzyme to output:regulator)
+
+(4) Create functional "chemical2enzyme.py" file to pull out a list of enzymes (ACC IDs) known to interact with an input chemical
+
+
+
+(5) Piece together functional 'constructor programs' (ENZYME_TO SENSORS, CHEMICAL_TO_SENSORS, PREDICT_OPERATOR, OPTIMIZE_OPERATOR).
+
+(6) Stress test above functions with a bunch of regulators, enzymes, and chemicals
+
+
+
+
+
+
+(7) Test out predictions on the bench!!!
+
+
+
+
+
+
+
+(8) Incorporate tools on Flask web app.
