@@ -5,6 +5,7 @@ import json
 import time
 import pickle
 from Bio import Entrez
+
 ''' available functions: 
 
 #main:
@@ -33,7 +34,11 @@ def acc2MetaData(access_id: str):
         print('ProteinList KeyError avoided')
         proteinList = [{}]
 
-    protein = proteinList.get("CDSList", "MT")[0].attributes
+    protein = proteinList.get("CDSList", "EMPTY")
+    try:
+        protein = protein[0].attributes
+    except:
+        pass
 
     return protein
     #[protein['accver'],protein['start'],protein['stop'],protein['strand']]
@@ -206,15 +211,18 @@ def accession2UniprotID(alias):
 def acc2operon(accession):
     time.sleep(0.25)
     metaData = acc2MetaData(accession)
-    time.sleep(0.25)
-    genome = NC2genome(metaData["accver"])
-    allGenes, index = parseGenome(genome, metaData["start"], metaData["stop"])
-    reg = fasta2MetaData(allGenes[index])
-    operon, regIndex = getOperon(allGenes, index, reg['start'], reg['direction'])
+    if metaData != "EMPTY":
+        time.sleep(0.25)
+        genome = NC2genome(metaData["accver"])
+        allGenes, index = parseGenome(genome, metaData["start"], metaData["stop"])
+        reg = fasta2MetaData(allGenes[index])
+        operon, regIndex = getOperon(allGenes, index, reg['start'], reg['direction'])
 
-    data = {"operon": operon, "regIndex": regIndex, "genome": metaData["accver"] }
+        data = {"operon": operon, "regIndex": regIndex, "genome": metaData["accver"] }
 
-    return data
+        return data
+    else:
+        return "EMPTY"
 
 
 if __name__ == "__main__":
@@ -225,6 +233,7 @@ if __name__ == "__main__":
     #fasta2MetaData(allGenes[index])
     #getOperon(allGenes, index, seq_start, direction)
     
+    #testing a BUNCH of accessions to make sure it's robust
     ramr = "WP_000113609" #good 7170                #alias good                     #genomeGood 289
     ttgr = "WP_014859138" #good 10681               #alias good                     #genomeGood 258 
     hrtr = "NP_266817.1" #good 5147                 #Not working with alias         #genomeGood 188
@@ -258,7 +267,7 @@ if __name__ == "__main__":
 
     from getIntergenic import getIntergenicSeq
 
-    intergenic = getIntergenicSeq(data["operon"], data["regIndex"], data["genome"])
+    intergenic = operon2Intergenic(data["operon"], data["regIndex"], data["genome"])
     print(intergenic)
 
     with open('intergenic.txt', mode='w+') as f:
