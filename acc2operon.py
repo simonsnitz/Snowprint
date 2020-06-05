@@ -224,6 +224,13 @@ def acc2operon(accession):
     else:
         return "EMPTY"
 
+def enzyme_acc2regulator(accession):
+    
+    operon = acc2operon(accession)
+
+    print("still working on this part")
+
+
 
 if __name__ == "__main__":
     

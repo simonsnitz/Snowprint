@@ -77,6 +77,8 @@ def appendIntergenic(homologListFile):
     with open(f'{homologListFile}', mode="rb") as f:
         homologList = pickle.load(f)
 
+    noDataCount = 0
+    preFilteredLength = str(len(homologList))
     for i in range(0,len(homologList)):
         protein = homologList[i]
         data = a2o.acc2operon(protein["accession"])
@@ -84,13 +86,18 @@ def appendIntergenic(homologListFile):
             intergenic = operon2Intergenic(data["operon"], data["regIndex"], data["genome"])
             homologList[i]["intergenic"] = intergenic["intergenicSeq"]
             homologList[i]["regType"] = intergenic["regType"]
+            print('got intergenic region')
+            print(intergenic)
         except:
-            print("no data for intergenic region")
-        print('got intergenic region')
-        print(intergenic)
+            print("no data for intergenic region at position "+str(i))
+            homologList.remove(homologList[i])
+            noDataCount += 1
+
             #save updated homologListFile everytime new intergenic region appended
         with open(f'{homologListFile}', mode="wb") as f:
             pickle.dump(homologList,f)
+
+    print("data not found for "+str(noDataCount)+" out of "+preFilteredLength)
 
 
 if __name__ == "__main__":

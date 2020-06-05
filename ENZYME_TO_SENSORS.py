@@ -22,3 +22,12 @@ getIntergenic.py            -get intergenic region for each homolog
 operator_utils.py           -get predicted operator for enzyme-associated regulator
 
 ===> Return list of enzyme:regulator:operator sets (with % confidence in operator prediction)
+'''
+
+from acc2homologs import acc2homolog_list
+
+from acc2operon import enzyme_acc2regulators
+
+
+
+

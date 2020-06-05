@@ -2,6 +2,14 @@ import pickle
 from  pprint import pprint
 from Bio.pairwise2 import format_alignment, align
 import primer3
+from Bio.Alphabet import generic_dna
+from Bio.Seq import Seq
+from Bio.SeqRecord import SeqRecord
+from Bio import AlignIO
+from Bio import SeqIO
+from Bio.Align.Applications import MuscleCommandline
+from io import StringIO
+
 
 def findOperatorInIntergenic(intergenic, operator):
     """
@@ -89,6 +97,51 @@ def getBestInvertedRepeat(intergenic):
             if operator:
                 return [operator, i]
 
+'''
+def alignIntergenic(homologList):
+    allIntergenic = []
+    for i in homologList:
+        if "intergenic" in i.keys():
+            if i["identity"] >= 50:
+                #print(i["intergenic"], i["identity"])
+                allIntergenic.append(SeqRecord(Seq(i["intergenic"], generic_dna), id=str(i["identity"])))
+
+    SeqIO.write(allIntergenic, "cache/camrIntergenic.fasta", "fasta")
+
+    cline = MuscleCommandline(input="cache/camrIntergenic.fasta", gapopen=-200.0, gapextend=-10.0)
+    std_out, std_err = cline()
+    align = AlignIO.read(StringIO(std_out), "fasta")
+    print(align[2].seq)
+'''
+    
+def getConsensus(homologList, max_ident=100, min_ident=65):      #DUUUDE! Mad list comprehension!!!
+    
+    allOperators = [ i["operator"][0] for i in homologList
+            if "operator" in i.keys() and i["identity"] >= min_ident and i["identity"] <= max_ident ]
+
+    bases_at_each_position = [ [i[pos] for i in allOperators if len(i) == 27]   #added if statement do deal with weirdness
+            for pos in range(0, len(allOperators[0])) ] 
+
+    def mostFrequent(List):         #function to make it more readable
+        return max(set(List), key=List.count)
+
+    consensusOperator = "".join(mostFrequent(i) for i in bases_at_each_position)
+    
+    return getBestInvertedRepeat(consensusOperator)
+
+
+def getMostSymmetric(homologList, min_identity=65):
+
+    bestIR = max([i["invRepeat"][1] for i in homologList if i["invRepeat"] != None if "invRepeat" in i.keys()  if i["identity"] >= min_identity])
+
+    for i in homologList:
+        if i["invRepeat"] != None:
+            if i["invRepeat"][1] == bestIR:
+                mostSymmetric = i["invRepeat"]
+                break
+
+    return mostSymmetric
+
 
 def appendOperatorMetadata(homologListFile, knownOperator):
     
@@ -99,37 +152,38 @@ def appendOperatorMetadata(homologListFile, knownOperator):
                 i["operator"] = findOperatorInIntergenic(i["intergenic"], knownOperator)
                 i["invRepeat"] = getBestInvertedRepeat(i["operator"][0])
                     #Calculate the free energy (deltaG) of hairpin formation within the operator sequence.
-                i["deltaG"] = primer3.calcHairpin(i["invRepeat"][0]).dg
-                print(i)
+                #Actually not that useful
+                #i["deltaG"] = primer3.calcHairpin(i["operator"][0]).dg
             except:
-                print("data not found")
+                pass
+                #print("data not found")
         
         return homologList
             
 
 if __name__ == "__main__":
 
-    with open('homolog_ramrIntergenic.pkl', mode="rb") as f:
+    ramr_operator = "ATGAGTGAGTACGCAACTCAT"
+    camr_operator = "GTATATCGCAGATATAG"
+
+    #print('getting operators')
+
+    #homologList = appendOperatorMetadata('homolog_metadata/ramr50.pkl', ramr_operator)
+    with open('homolog_metadata/ramr50.pkl', mode='rb') as f:
         homologList = pickle.load(f)
-
-    #camr
-    #operator = "GTATATCGCAGATATAG"
-
-    #ramr
-    operator = "ATGAGTGAGTACGCAACTCAT"
-
-    for i in homologList:
-        try:
-            i["operator"] = findOperatorInUpstream(i["intergenic"], operator)
-            i["invRepeat"] = getBestOperator(i["operator"][0])
-            i["deltaG"] = calcHairpin(i["invRepeat"][0])
-            #pprint(i)
-            print(i["identity"],i["regType"], i["invRepeat"], i["deltaG"])
-        except:
-            print("data not found")
     
-    maxScore = len(operator)*2
-    print("max score = "+str(maxScore))
+    #with open('ramr50.pkl', mode="wb") as f:
+    #    pickle.dump(homologList, f)
+   
+    #pprint(homologList)
+
+    consensus = getConsensus(homologList)
+    print("consensus operator: "+str(consensus))
+
+    mostSymmetric = getMostSymmetric(homologList)
+    print("most symmetric operator: "+str(mostSymmetric))
     
-    with open('ramr_homologOperators.pkl', mode="wb") as f:
-        pickle.dump(homologList, f)
+    #alignIntergenic(homologList)
+    
+    #print("max score = "+str(len(operator)*2)
+    
