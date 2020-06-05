@@ -60,6 +60,7 @@ if __name__ == "__main__":
     
     term = "txid2[ORGN] OR txid2157[ORGN] AND ( marr family OR marr repressor OR marr regulator )" 
 
-    searchTerms2UIDs("MarR_ACCs_100K.pkl", term)
+    searchTerms2UIDs("poop.pkl", term)
+    #searchTerms2UIDs("MarR_ACCs_100K.pkl", term)
 
 
