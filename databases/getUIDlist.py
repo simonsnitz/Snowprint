@@ -7,7 +7,7 @@ import pickle
 
 def searchTerms2UIDs(outfile, **kwargs):
 
-    with open(f"{outfile}", mode="wb") as f:
+    with open(f"{outfile}", mode="w+") as f:
             
         URL_COUNT = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?"+\
             "db=protein&&retmode=json&rettype=count&term="
@@ -29,7 +29,7 @@ def searchTerms2UIDs(outfile, **kwargs):
             print('Request to count number of UIDs failed')
             print(response.status_code)
 
-        protein_list = []
+        protein_list = ""
 
         for i in range(0,numRequests):
             time.sleep(0.5)
@@ -50,20 +50,20 @@ def searchTerms2UIDs(outfile, **kwargs):
             if response.ok:
                 print(str(i+1)+" out of "+str(numRequests))
                 data = response.text
-                idList = jsons.load(data)["esearchresult"]["idlist"]
-                indexList = ""
+                idList = json.loads(data)["esearchresult"]["idlist"]
+                #indexList = ""
                 for idItem in idList:
-                    indexList += (idItem+",")
+                    protein_list += (idItem+"\n")
                     #f.write('%s,' % idItem)
-                protein_list.append(indexList)
+                #protein_list.join(indexList)
             else:
                 print('Request to get UIDs at iteration '+str(i)+" failed")
                 print(response.status_code)
         
-        pickle.dump(protein_list, f)
+        f.write(protein_list)
 
 if __name__ == "__main__":
 
-    searchTerms2UIDs("MarR_ACCs_100K.pkl")
+    searchTerms2UIDs("MarR_UIDs_100K.txt")
 
 

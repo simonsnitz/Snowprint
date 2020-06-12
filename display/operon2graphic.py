@@ -3,11 +3,6 @@ from pprint import pprint
 import re
 import json
 
-with open('operon.data', 'rb') as f:
-    operon = pickle.load(f)
-
-#pprint(operon)
-
 
     #calculate length of gene, return % size compared to total operon length
 def calcLength(seq_start, seq_stop, operonLength):
@@ -95,14 +90,30 @@ def createGraphic(operon):
         #totalLength += graphic[i]["length"]
         #totalLength += graphic[i]["spacer"]
 
-    print(operonLength)
+    #print(operonLength)
     #print(totalLength)
     jsonGraphic = json.dumps(graphic)
     return jsonGraphic
-    #return graphic
 
-graphic = createGraphic(operon)
-pprint(graphic)
+#def saveGraphic(infile, outfile):
+def saveGraphic(operons, outfile):
+    
+    #with open(f'{infile}', 'rb') as f:
+    #operons = pickle.load(f)
 
-with open("graphic.js", "w+") as f:
-    f.write("var graphic = '"+graphic+"'")
+    graphic = [ createGraphic(i["operon"]) for i in operons ]
+    
+    #pprint(graphic[1])
+
+    with open(f"{outfile}", "w+") as f:
+        f.write("var graphic = ["+str(graphic)[1:-1]+"]")
+
+
+if __name__ == "__main__":
+
+    inputFile = "octanol_operons2.pkl"
+    outputFile = "octanol_graphic_native.js"
+
+    saveGraphic(inputFile, outputFile)
+
+

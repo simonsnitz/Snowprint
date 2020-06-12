@@ -11,9 +11,9 @@ Entrez.api_key = "2885054140ec08a730e578c2741ff3af2008"
 
 
 
-def searchTerms2UIDs(outfile, term):
+def searchTerms2ACCs(outfile, term):
 
-    with open(f"{outfile}", mode="wb") as f:
+    with open(f"{outfile}", mode="w+") as f:
         
             #count number of proteins in NCBI database that fit your query
         total_ACCs = Entrez.read(Entrez.esearch(db="protein", idtype="acc", term=term, usehistory="Y"))["Count"]
@@ -22,7 +22,7 @@ def searchTerms2UIDs(outfile, term):
             #calculate number of requests you need to make based on above number
         numRequests = math.ceil(int(total_ACCs)/100000)
 
-        accession_list = []
+        accession_list = ""
 
         for i in range(0,numRequests):
             time.sleep(3)
@@ -48,19 +48,28 @@ def searchTerms2UIDs(outfile, term):
                 break
             
             idlist = record["IdList"]
-            accString = "".join((item+",") for item in idlist)
+            #accString = "".join((item+",") for item in idlist)
+            accString = "".join((item+"\n") for item in idlist)
         
             print("got accessions for iteration "+str(i)+" out of "+str(numRequests))
 
-            accession_list.append(accString)
+            accession_list.join(accString)
         
-        pickle.dump(accession_list, f)
+        f.write(accession_list)
 
 if __name__ == "__main__":
     
-    term = "txid2[ORGN] OR txid2157[ORGN] AND ( marr family OR marr repressor OR marr regulator )" 
+        # MarRs
+    #term = "txid2[ORGN] OR txid2157[ORGN] AND ( marr family OR marr repressor OR marr regulator )" 
+        
+        # TetRs
+    term = "txid2[ORGN] OR txid2157[ORGN] AND ( tetr family OR tetr repressor OR tetr regulator )" 
+    
+        # Octanol
+    #term = "txid2[ORGN] OR txid2157[ORGN] AND octanol" 
 
-    searchTerms2UIDs("poop.pkl", term)
-    #searchTerms2UIDs("MarR_ACCs_100K.pkl", term)
+    #searchTerms2ACCs("octanol.pkl", term)
+    #searchTerms2ACCs("MarR_ACCs_100K.pkl", term)
+    searchTerms2ACCs("TetR_ACCs_100K.txt", term)
 
 

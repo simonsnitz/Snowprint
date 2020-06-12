@@ -25,9 +25,10 @@ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KH
 def acc2MetaData(access_id: str):
     
     handle= Entrez.efetch(db='protein',id=access_id, rettype="ipg")
-    
+
     #sometimes the 'ProteinList' Key is not present.
     #In that case, return a list with an empty dictionary
+    
     try:
         proteinList = Entrez.read(handle)['IPGReport']["ProteinList"][0]
     except KeyError:
@@ -224,15 +225,66 @@ def acc2operon(accession):
     else:
         return "EMPTY"
 
-def enzyme_acc2regulator(accession):
+#def enzyme_acc2regulator(accessions, outfile):
+def enzyme_acc2regulator(accessions, max_regulators=20):
     
-    operon = acc2operon(accession)
+    regulator = re.compile(r"regulator|repressor|activator")
+    operons_with_regulators = []
 
-    print("still working on this part")
+    accessions = accessions[:-1].split("\n")
+    number_accessions = len(accessions)
 
+    current_accession = 0
+    total_regulators = 0
+
+    for i in accessions:
+        
+        if total_regulators == max_regulators:
+            return operons_with_regulators    
+        
+        if i[4] == "_":
+            pass
+        else:
+            number_regulators = 0
+            try:
+                operon = acc2operon(i)
+                #regDirection = operon["regIndex"]["direction"]
+                #direction = operon["operon"][regIndex]["direction"]
+                for j in operon["operon"]:
+                    if regulator.search(j["description"]) and number_regulators == 0:
+                    
+                        #if regDirection == "-" and j["direction"] == "+":   #not working(?)
+                        #    print('wrong direction')
+                        #    pass
+                        #else:
+                        print('found regulator for '+str(i)+"! accession #: "+str(current_accession))
+                        operons_with_regulators.append(operon)
+                        number_regulators += 1
+                        total_regulators += 1
+                current_accession += 1
+                #if number_regulators == 0:
+                    #print("no regulator in operon found for "+str(i))
+            except:
+                print('no operon data for '+str(i)+". accession #: "+str(current_accession))
+                current_accession += 1
+            print("total number of regulators = "+str(total_regulators))
+            
+
+    
+    return operons_with_regulators
+    
+    #with open(f"{outfile}", mode="wb") as out:
+        #pickle.dump(operons_with_regulators, out)
 
 
 if __name__ == "__main__":
+    
+    with open("octanol.pkl", mode="rb") as f:
+        proteins = pickle.load(f)
+        proteins = proteins[0].split(",")
+
+    #enzyme_acc2regulator("WP_033004998.1")
+    enzyme_acc2regulator(proteins, "octanol_operons2.pkl")
     
     #acc2MetaData(acc)
     #NC2genome(NCacc)
@@ -269,7 +321,7 @@ if __name__ == "__main__":
     camr = 'BAA03510.1'                                                             #plasmidGood 323
     tcuCamr = "WP_145928353.1"                                                      #genomeGood 280
     
-
+    '''
     data = acc2operon(camr)
 
     from getIntergenic import getIntergenicSeq
@@ -280,7 +332,7 @@ if __name__ == "__main__":
     with open('cache/intergenic.txt', mode='w+') as f:
         f.write(intergenic)
 
-    '''
+    
     regACC = ttgr
     MetaData = acc2MetaData(regACC)
     NCacc = MetaData[0]

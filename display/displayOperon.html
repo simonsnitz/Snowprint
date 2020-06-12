@@ -3,11 +3,17 @@
 	<head>
 		<title>Operon Graphic</title>
 
-		<script src="graphic.js"></script>
+		<script src="octanol_graphic.js"></script>
 <style>
+
 #operonContainer{
 	width: 90vw;
 	margin: auto;
+	height: 100vh;
+}
+
+.spacer{
+	display: block;
 	height: 20vh;
 }
 
@@ -113,41 +119,66 @@
 
 <script>
 
-	var data = JSON.parse(graphic);
+	
+	function renderOperon(operon) {
+
 	let container = document.getElementById("operonContainer");
 
-	for (i in data) {
+	for (i in operon) {
 		
 		let link = document.createElement('a');
-		if (data[i]['link'].length !== 0){
-			link.setAttribute("href", "https://ncbi.nlm.nih.gov/protein/"+data[i]['link']); }
+		if (operon[i]['link'].length !== 0){
+			link.setAttribute("href", "https://ncbi.nlm.nih.gov/protein/"+operon[i]['link']); }
 		link.setAttribute("target", "_blank");
 		let gene = document.createElement('div');
-		if (data[i]["direction"] == "+"){
+		if (operon[i]["direction"] == "+"){
 			gene.classList.add("Rgene");
 		} else {
 			gene.classList.add("Lgene");
 		}
 
-		gene.setAttribute("style", "background-color: "+data[i]["color"]+
-			"; width:"+data[i]["length"]+
-			"; margin-right:"+data[i]["spacer"])
+		gene.setAttribute("style", "background-color: "+operon[i]["color"]+
+			"; width:"+operon[i]["length"]+
+			"; margin-right:"+operon[i]["spacer"])
 		
-		gene.style.setProperty('--color', '20px solid '+data[i]["color"]);
+		gene.style.setProperty('--color', '20px solid '+operon[i]["color"]);
 		
 		description = document.createElement('span');
-		description.innerText = data[i]["description"];
+		description.innerText = operon[i]["description"];
 		description.classList.add("description");
 		gene.appendChild(description)
 		link.appendChild(gene);
 		container.appendChild(link);
+
+		spacer = document.createElement('span');
+		spacer.classList.add("spacer");
+		//spacer.innerHTML = "the";
+
 	}
 	let line = document.createElement('hr');
 	line.id = "line";
-	//line.setAttribute("id", "line");
 	container.appendChild(line);
-	
+	container.appendChild(spacer);
+	}
+
+
+	//since javascript doesn't have a built-in range function	
+	function range(start, stop){
+		var myList = [];
+		for (let i = start; i <= (stop-1); i++){
+			myList.push(i);
+		}
+		return myList;
+	}
+
+	var len = graphic.length
+	for (i in range(0,len)) {
+		var data = JSON.parse(graphic[i])
+		renderOperon(data)
+	}
+
+
 
 </script>
-			}
+			
 </html>
