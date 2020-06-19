@@ -141,7 +141,9 @@ def getOperon(allGenes, index, seq_start, strand):
             try:
                 nextGene = fasta2MetaData(allGenes[nextIndex])
 
-                if geneStrand == '-' and nextGene['direction'] == '+' and direction == '+':
+                if abs(seq_start - nextGene['start']) > 8000:       #added this. break if too far away
+                    break
+                elif geneStrand == '-' and nextGene['direction'] == '+' and direction == '+':
                     geneList.append(nextGene)
                 elif geneStrand == '+' and nextGene['direction'] == '-' and direction == '-':
                     geneList.append(nextGene)
@@ -234,6 +236,8 @@ def enzyme_acc2regulator(accessions, max_regulators=20):
     accessions = accessions[:-1].split("\n")
     number_accessions = len(accessions)
 
+    max_regulators = int(max_regulators)
+
     current_accession = 0
     total_regulators = 0
 
@@ -261,13 +265,13 @@ def enzyme_acc2regulator(accessions, max_regulators=20):
                         operons_with_regulators.append(operon)
                         number_regulators += 1
                         total_regulators += 1
+                        print("total number of regulators = "+str(total_regulators))
                 current_accession += 1
-                #if number_regulators == 0:
-                    #print("no regulator in operon found for "+str(i))
+                if number_regulators == 0:
+                    print('no regulator for '+str(i)+". accession #: "+str(current_accession))
             except:
                 print('no operon data for '+str(i)+". accession #: "+str(current_accession))
                 current_accession += 1
-            print("total number of regulators = "+str(total_regulators))
             
 
     

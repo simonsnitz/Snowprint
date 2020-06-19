@@ -25,15 +25,15 @@ def searchTerms2ACCs(search_term, application):
 
     elif application == "create_graphic":
 
-        accession_list = getACCs(search_term)
+        accession_list = getACCs(term)
         return accession_list
 
 
 
-def getACCs(search_term):
+def getACCs(term):
 
         #count number of proteins in NCBI database that fit your query
-    total_ACCs = Entrez.read(Entrez.esearch(db="protein", idtype="acc", term=search_term+" AND srcdb_genbank[PROP]", usehistory="Y"))["Count"]
+    total_ACCs = Entrez.read(Entrez.esearch(db="protein", idtype="acc", term=term+" AND srcdb_genbank[PROP]", usehistory="Y"))["Count"]
     print("total number of accessions: "+str(total_ACCs))
         
         #calculate number of requests you need to make based on above number
@@ -52,7 +52,7 @@ def getACCs(search_term):
 
         while not read_success:
             try:
-                record = Entrez.read(Entrez.esearch(db="protein", retmax=100000, retstart=retstart, idtype="acc", term=search_term+" AND srcdb_genbank[PROP]", usehistory="Y"))
+                record = Entrez.read(Entrez.esearch(db="protein", retmax=100000, retstart=retstart, idtype="acc", term=term+" AND srcdb_genbank[PROP]", usehistory="Y"))
                 read_success = True
             except RuntimeError:
                 read_attempts += 1
