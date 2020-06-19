@@ -1,10 +1,12 @@
 import sys
-import acc2homologs.py as a2h
+import acc2homologs as a2h
 
 
 
 
 
-acc = sys.argv[1]
+acc = str(sys.argv[1])
 
-a2h.acc2homolog_list(acc, , 50, )
+homologDict = a2h.acc2homolog_list(acc, 50)
+
+print(homologDict)

@@ -26,8 +26,8 @@ def accID2sequence(accID):
         print(response.status_code)
 
 
-def blast_and_cache(sequence, cacheFile, perc_ident, db="nr"):
-        with open(f'{cacheFile}', mode="w+") as f:
+def blast_and_cache(sequence, acc, perc_ident=60, db="nr"):
+        with open(f'cache/blast_cache/{acc}.xml', mode="w+") as f:
             print("found this sequence:\n"+sequence)
             print('entering blast function')
             blast_results = qblast("blastp", db, sequence, perc_ident=perc_ident)
@@ -39,8 +39,8 @@ def blast_and_cache(sequence, cacheFile, perc_ident, db="nr"):
 
 
 #def getHomologAccessionIDs(fileIN, fileOUT):
-def homologs2accID_ident(fileIN, fileOUT):
-    with open(f'{fileIN}', 'r') as f:
+def homologs2accID_ident(acc):
+    with open(f'cache/blast_cache/{acc}.xml', 'r') as f:
         
         blast_results = read(f)
         '''     more readable, but slower
@@ -66,22 +66,28 @@ def homologs2accID_ident(fileIN, fileOUT):
     #reduce homolog list (so you don't have to wait forever)
     #homologList = homologList[0:10]
 
-    with open(f'{fileOUT}', 'wb') as f:
+    with open(f'cache/homolog_metadata/{acc}.pkl', 'wb') as f:
         pickle.dump(homologList, f)
     
     return homologList
 
 
-def acc2homolog_list(acc, blastCache, perc_ident, homologListFile):
-    sequence = accID2sequence(acc)
-    blast_and_cache(sequence, blastCache, perc_ident)
-    homologs2accID_ident(blastCache, homologListFile)
+def acc2homolog_list(acc, perc_ident):
+
+        #check to see if blast result is already cached
+    try:
+        homologs = homologs2accID_ident(acc)
+    except:
+        sequence = accID2sequence(acc)
+        blast_and_cache(sequence, acc, perc_ident)
+        homologs = homologs2accID_ident(acc)
+    return homologs
 
 
 if __name__=="__main__":
 
     #camr
-    acc = "BAA03510.1"
+    acc = "BAA03510"
 
     #ramr
     #acc = "WP_000113609.1"
