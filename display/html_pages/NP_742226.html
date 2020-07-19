@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Operon Graphic</title>
+
+<style>
+
+#operonContainer{
+	width: 90vw;
+	margin: auto;
+	height: 100vh;
+}
+
+.spacer{
+	display: block;
+	height: 20vh;
+}
+
+.Rgene{
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+}
+
+
+.Rgene:before{
+	content:"";
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-left: var(--color);
+	border-top: 20px solid white;
+	border-bottom: 20px solid white;
+	z-index: 2;
+}
+
+.Rgene .description {
+	visibility: hidden;
+	width: 9rem;
+	text-align: center;
+	padding: 5px 0;
+	border: 1px solid black;
+	border-radius: 3px;
+	border-color: #225470;
+	position: absolute;
+	top: 250%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	color: black;
+}
+
+.Rgene:hover .description {
+	visibility: visible;
+}
+
+.Lgene {
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	z-index:1;
+}
+
+.Lgene:after{
+	content:"";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-right: var(--color);
+	border-top: 20px solid white;
+	border-bottom: 20px solid white;
+	z-index: 2;
+}
+
+.Lgene .description {
+	visibility: hidden;
+	width: 9rem;
+	text-align: center;
+	padding: 5px 0;
+	border: 1px solid black;
+	border-radius: 3px;
+	border-color: #225470;
+	position: absolute;
+	top: 250%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	color: black;
+}
+
+.Lgene:hover .description {
+	visibility: visible;
+}
+
+#line{
+	background-color: black;
+	height:2px;
+	width: 90%;
+	position: absolute;
+	top: 19px;
+}
+
+</style>
+
+			
+	</head>
+
+	<body>
+		<div id="operonContainer"></div>
+	</body>
+
+
+
+<script>
+
+	
+	function renderOperon(operon) {
+
+	let container = document.getElementById("operonContainer");
+
+	for (i in operon) {
+		
+		let link = document.createElement('a');
+		if (operon[i]['link'].length !== 0){
+			link.setAttribute("href", "https://ncbi.nlm.nih.gov/protein/"+operon[i]['link']); }
+		link.setAttribute("target", "_blank");
+		let gene = document.createElement('div');
+		if (operon[i]["direction"] == "+"){
+			gene.classList.add("Rgene");
+		} else {
+			gene.classList.add("Lgene");
+		}
+
+		gene.setAttribute("style", "background-color: "+operon[i]["color"]+
+			"; width:"+operon[i]["length"]+
+			"; margin-right:"+operon[i]["spacer"])
+		
+		gene.style.setProperty('--color', '20px solid '+operon[i]["color"]);
+		
+		description = document.createElement('span');
+		description.innerText = operon[i]["description"];
+		description.classList.add("description");
+		gene.appendChild(description)
+		link.appendChild(gene);
+		container.appendChild(link);
+
+		spacer = document.createElement('span');
+		spacer.classList.add("spacer");
+		//spacer.innerHTML = "the";
+
+	}
+	let line = document.createElement('hr');
+	line.id = "line";
+	container.appendChild(line);
+	container.appendChild(spacer);
+	}
+
+
+	//since javascript doesn't have a built-in range function	
+	function range(start, stop){
+		var myList = [];
+		for (let i = start; i <= (stop-1); i++){
+			myList.push(i);
+		}
+		return myList;
+	}
+
+
+
+            // new section appended below //
+
+            var graphic = ['{"0": {"length": "6.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "+", "spacer": "1.0%", "link": "WP_173483291.1"}, "1": {"length": "25.0%", "description": "GMC family oxidoreductase N-terminal domain-containing protein", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_173507672.1"}, "2": {"length": "14.0%", "description": "LysR family transcriptional regulator", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "WP_173480577.1"}}', '{"0": {"length": "6.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "+", "spacer": "1.0%", "link": "WP_173483291.1"}, "1": {"length": "25.0%", "description": "GMC family oxidoreductase N-terminal domain-containing protein", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_173484652.1"}, "2": {"length": "14.0%", "description": "LysR family transcriptional regulator", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "WP_173480577.1"}}', '{"0": {"length": "6.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "+", "spacer": "1.0%", "link": "WP_173483291.1"}, "1": {"length": "25.0%", "description": "GMC family oxidoreductase N-terminal domain-containing protein", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_173488588.1"}, "2": {"length": "14.0%", "description": "LysR family transcriptional regulator", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "WP_173480577.1"}}', '{"0": {"length": "14.0%", "description": "LysR family transcriptional regulator", "color": "#6eff42", "direction": "-", "spacer": "2.0%", "link": "WP_173480577.1"}, "1": {"length": "25.0%", "description": "GMC family oxidoreductase N-terminal domain-containing protein", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_173480576.1"}, "2": {"length": "6.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "-", "spacer": "0.0%", "link": "WP_173480575.1"}}', '{"0": {"length": "7.0%", "description": "sulfate/molybdate ABC transporter ATP-binding protein", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_105419786.1"}, "1": {"length": "6.0%", "description": "sulfate ABC transporter permease subunit CysW", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_105419788.1"}, "2": {"length": "6.0%", "description": "sulfate ABC transporter permease subunit CysT", "color": "#ffe042", "direction": "-", "spacer": "1.0%", "link": "WP_046666499.1"}, "3": {"length": "7.0%", "description": "thiosulfate ABC transporter substrate-binding protein CysP", "color": "#ffe042", "direction": "-", "spacer": "1.0%", "link": "WP_105419790.1"}, "4": {"length": "1.0%", "description": "DUF1059 domain-containing protein", "color": "black", "direction": "-", "spacer": "1.0%", "link": "WP_105419792.1"}, "5": {"length": "6.0%", "description": "3-hydroxyisobutyrate dehydrogenase", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_105419794.1"}, "6": {"length": "7.0%", "description": "enoyl-CoA hydratase/isomerase family protein", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_105419796.1"}, "7": {"length": "11.0%", "description": "GMC family oxidoreductase", "color": "blue", "direction": "-", "spacer": "0.0%", "link": "WP_105419798.1"}, "8": {"length": "7.0%", "description": "branched-chain amino acid ABC transporter permease", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_046666493.1"}, "9": {"length": "6.0%", "description": "branched-chain amino acid ABC transporter permease", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_105419800.1"}, "10": {"length": "5.0%", "description": "ABC transporter ATP-binding protein", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_046666491.1"}, "11": {"length": "5.0%", "description": "ABC transporter ATP-binding protein", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_105419802.1"}, "12": {"length": "8.0%", "description": "ABC transporter substrate-binding protein", "color": "#ffe042", "direction": "-", "spacer": "1.0%", "link": "WP_105419804.1"}, "13": {"length": "7.0%", "description": "LysR family transcriptional regulator", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "WP_105400023.1"}}', '{"0": {"length": "14.0%", "description": "LysR family transcriptional regulator", "color": "#6eff42", "direction": "-", "spacer": "2.0%", "link": "WP_173506528.1"}, "1": {"length": "25.0%", "description": "GMC family oxidoreductase N-terminal domain-containing protein", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_173506529.1"}, "2": {"length": "6.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "-", "spacer": "0.0%", "link": "WP_173483291.1"}}', '{"0": {"length": "10.0%", "description": "ABC transporter permease", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_094577950.1"}, "1": {"length": "10.0%", "description": "sugar-binding transcriptional regulator", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "WP_094577922.1"}, "2": {"length": "10.0%", "description": "aldo/keto reductase", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "WP_094577923.1"}, "3": {"length": "17.0%", "description": "glycerol-3-phosphate dehydrogenase/oxidase", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "WP_094577924.1"}, "4": {"length": "8.0%", "description": "aldolase", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "WP_094577925.1"}, "5": {"length": "15.0%", "description": "carbohydrate kinase", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "WP_094577926.1"}, "6": {"length": "16.0%", "description": "GMC family oxidoreductase", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_094577927.1"}, "7": {"length": "9.0%", "description": "LysR family transcriptional regulator", "color": "#6eff42", "direction": "-", "spacer": "0.0%", "link": "WP_094577928.1"}}', '{"0": {"length": "8.0%", "description": "ABC transporter permease", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_063286315.1"}, "1": {"length": "8.0%", "description": "sugar-binding transcriptional regulator", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "WP_063286316.1"}, "2": {"length": "8.0%", "description": "aldo/keto reductase", "color": "#ff4242", "direction": "+", "spacer": "1.0%", "link": "WP_063286317.1"}, "3": {"length": "14.0%", "description": "glycerol-3-phosphate dehydrogenase/oxidase", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "WP_063286318.1"}, "4": {"length": "7.0%", "description": "aldolase", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "WP_153041641.1"}, "5": {"length": "12.0%", "description": "carbohydrate kinase", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "WP_082830465.1"}, "6": {"length": "13.0%", "description": "GMC family oxidoreductase N-terminal domain-containing protein", "color": "blue", "direction": "+", "spacer": "2.0%", "link": "WP_063286319.1"}, "7": {"length": "22.0%", "description": "bifunctional aconitate hydratase 2/2-methylisocitrate dehydratase", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "WP_063286320.1"}}', '{"0": {"length": "8.0%", "description": "YihY/virulence factor BrkB family protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_074397201.1"}, "1": {"length": "14.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "-", "spacer": "0.0%", "link": "WP_074397202.1"}, "2": {"length": "12.0%", "description": "NADH dehydrogenase", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_074397203.1"}, "3": {"length": "12.0%", "description": "NADH-ubiquinone oxidoreductase", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_074397204.1"}, "4": {"length": "5.0%", "description": "DUF4040 domain-containing protein", "color": "black", "direction": "-", "spacer": "1.0%", "link": "WP_074397205.1"}, "5": {"length": "5.0%", "description": "dienelactone hydrolase family protein", "color": "#ff4242", "direction": "-", "spacer": "1.0%", "link": "WP_074397206.1"}, "6": {"length": "2.0%", "description": "cold-shock protein", "color": "black", "direction": "-", "spacer": "2.0%", "link": "WP_009101184.1"}, "7": {"length": "13.0%", "description": "GMC family oxidoreductase N-terminal domain-containing protein", "color": "blue", "direction": "-", "spacer": "0.0%", "link": "WP_074397207.1"}, "8": {"length": "12.0%", "description": "CoA-acylating methylmalonate-semialdehyde dehydrogenase", "color": "#ff4242", "direction": "-", "spacer": "1.0%", "link": "WP_074397208.1"}, "9": {"length": "7.0%", "description": "LysR family transcriptional regulator", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "WP_074397209.1"}}', '{"0": {"length": "13.0%", "description": "monovalent cation/H+ antiporter subunit D family protein", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "HDZ48481.1"}, "1": {"length": "13.0%", "description": "NADH-ubiquinone oxidoreductase", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "HDZ48482.1"}, "2": {"length": "6.0%", "description": "DUF4040 domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "HDZ48483.1"}, "3": {"length": "6.0%", "description": "carboxylesterase", "color": "#ff4242", "direction": "-", "spacer": "1.0%", "link": "HDZ48484.1"}, "4": {"length": "15.0%", "description": "SLC13 family permease", "color": "#ff4242", "direction": "-", "spacer": "2.0%", "link": "HDZ48485.1"}, "5": {"length": "2.0%", "description": "cold-shock protein", "color": "black", "direction": "-", "spacer": "2.0%", "link": "HDZ48486.1"}, "6": {"length": "14.0%", "description": "FAD-binding protein", "color": "blue", "direction": "-", "spacer": "0.0%", "link": "HDZ48487.1"}, "7": {"length": "13.0%", "description": "CoA-acylating methylmalonate-semialdehyde dehydrogenase", "color": "#ff4242", "direction": "-", "spacer": "1.0%", "link": "HDZ48488.1"}, "8": {"length": "8.0%", "description": "LysR family transcriptional regulator", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "HDZ48489.1"}}', '{"0": {"length": "7.0%", "description": "sulfate/molybdate ABC transporter ATP-binding protein", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_037077573.1"}, "1": {"length": "6.0%", "description": "sulfate ABC transporter permease subunit CysW", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_037077575.1"}, "2": {"length": "6.0%", "description": "sulfate ABC transporter permease subunit CysT", "color": "#ffe042", "direction": "-", "spacer": "1.0%", "link": "WP_037077579.1"}, "3": {"length": "7.0%", "description": "thiosulfate ABC transporter substrate-binding protein CysP", "color": "#ffe042", "direction": "-", "spacer": "1.0%", "link": "WP_037077582.1"}, "4": {"length": "1.0%", "description": "DUF1059 domain-containing protein", "color": "black", "direction": "-", "spacer": "1.0%", "link": "WP_037077586.1"}, "5": {"length": "6.0%", "description": "3-hydroxyisobutyrate dehydrogenase", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_037077589.1"}, "6": {"length": "7.0%", "description": "enoyl-CoA hydratase/isomerase family protein", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_037077593.1"}, "7": {"length": "11.0%", "description": "GMC family oxidoreductase", "color": "blue", "direction": "-", "spacer": "0.0%", "link": "WP_037077598.1"}, "8": {"length": "7.0%", "description": "branched-chain amino acid ABC transporter permease", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_037077599.1"}, "9": {"length": "6.0%", "description": "branched-chain amino acid ABC transporter permease", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_037077600.1"}, "10": {"length": "5.0%", "description": "ABC transporter ATP-binding protein", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_037077603.1"}, "11": {"length": "5.0%", "description": "ABC transporter ATP-binding protein", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_037077606.1"}, "12": {"length": "8.0%", "description": "ABC transporter substrate-binding protein", "color": "#ffe042", "direction": "-", "spacer": "1.0%", "link": "WP_037077607.1"}, "13": {"length": "7.0%", "description": "LysR family transcriptional regulator", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "WP_084682960.1"}}', '{"0": {"length": "8.0%", "description": "LysR family transcriptional regulator", "color": "#6eff42", "direction": "-", "spacer": "2.0%", "link": "WP_112729220.1"}, "1": {"length": "11.0%", "description": "ABC transporter substrate-binding protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_112729254.1"}, "2": {"length": "7.0%", "description": "ABC transporter ATP-binding protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_112729219.1"}, "3": {"length": "6.0%", "description": "ABC transporter ATP-binding protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_112729218.1"}, "4": {"length": "8.0%", "description": "branched-chain amino acid ABC transporter permease", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_112729217.1"}, "5": {"length": "9.0%", "description": "branched-chain amino acid ABC transporter permease", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_112729216.1"}, "6": {"length": "15.0%", "description": "GMC family oxidoreductase N-terminal domain-containing protein", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_112729215.1"}, "7": {"length": "8.0%", "description": "3-hydroxyisobutyrate dehydrogenase", "color": "#ff4242", "direction": "+", "spacer": "3.0%", "link": "WP_112729214.1"}, "8": {"length": "16.0%", "description": "ABC transporter ATP-binding protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_112729213.1"}}', '{"0": {"length": "7.0%", "description": "LysR family transcriptional regulator", "color": "#6eff42", "direction": "-", "spacer": "1.0%", "link": "KAB1123998.1"}, "1": {"length": "8.0%", "description": "ABC transporter substrate-binding protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "KAB1123999.1"}, "2": {"length": "5.0%", "description": "ABC transporter ATP-binding protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "KAB1124000.1"}, "3": {"length": "5.0%", "description": "ABC transporter ATP-binding protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "KAB1124001.1"}, "4": {"length": "6.0%", "description": "branched-chain amino acid ABC transporter permease", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "KAB1124002.1"}, "5": {"length": "7.0%", "description": "branched-chain amino acid ABC transporter permease", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "KAB1124003.1"}, "6": {"length": "11.0%", "description": "GMC family oxidoreductase", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "KAB1124004.1"}, "7": {"length": "7.0%", "description": "enoyl-CoA hydratase/isomerase family protein", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "KAB1124005.1"}, "8": {"length": "6.0%", "description": "3-hydroxyisobutyrate dehydrogenase", "color": "#ff4242", "direction": "+", "spacer": "1.0%", "link": "KAB1124006.1"}, "9": {"length": "1.0%", "description": "DUF1059 domain-containing protein", "color": "black", "direction": "+", "spacer": "1.0%", "link": "KAB1124007.1"}, "10": {"length": "7.0%", "description": "sulfate ABC transporter substrate-binding protein", "color": "#ffe042", "direction": "+", "spacer": "1.0%", "link": "KAB1124008.1"}, "11": {"length": "6.0%", "description": "sulfate ABC transporter permease subunit CysT", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "KAB1124009.1"}, "12": {"length": "6.0%", "description": "sulfate ABC transporter permease subunit CysW", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "KAB1124010.1"}, "13": {"length": "7.0%", "description": "sulfate/molybdate ABC transporter ATP-binding protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "KAB1124011.1"}}', '{"0": {"length": "13.0%", "description": "transporter substrate-binding domain-containing protein", "color": "#ffe042", "direction": "-", "spacer": "5.0%", "link": "WP_103221391.1"}, "1": {"length": "25.0%", "description": "GMC family oxidoreductase N-terminal domain-containing protein", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_103221392.1"}, "2": {"length": "7.0%", "description": "Lrp/AsnC family transcriptional regulator", "color": "#6eff42", "direction": "-", "spacer": "0.0%", "link": "WP_103221393.1"}}', '{"0": {"length": "9.0%", "description": "DMT family transporter", "color": "#ffe042", "direction": "-", "spacer": "1.0%", "link": "WP_113570335.1"}, "1": {"length": "9.0%", "description": "3-hydroxyisobutyrate dehydrogenase", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_113570221.1"}, "2": {"length": "16.0%", "description": "GMC family oxidoreductase", "color": "blue", "direction": "-", "spacer": "0.0%", "link": "WP_113570222.1"}, "3": {"length": "10.0%", "description": "branched-chain amino acid ABC transporter permease", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_113570223.1"}, "4": {"length": "9.0%", "description": "branched-chain amino acid ABC transporter permease", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_113570224.1"}, "5": {"length": "7.0%", "description": "ABC transporter ATP-binding protein", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_113570225.1"}, "6": {"length": "8.0%", "description": "ABC transporter ATP-binding protein", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_113570226.1"}, "7": {"length": "12.0%", "description": "ABC transporter substrate-binding protein", "color": "#ffe042", "direction": "-", "spacer": "3.0%", "link": "WP_113570227.1"}, "8": {"length": "9.0%", "description": "LysR family transcriptional regulator", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "WP_113570228.1"}}', '{"0": {"length": "39.0%", "description": "CoA transferase", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_071835133.1"}, "1": {"length": "26.0%", "description": "GMC family oxidoreductase N-terminal domain-containing protein", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_071835125.1"}, "2": {"length": "15.0%", "description": "LysR family transcriptional regulator", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "WP_071835126.1"}}', '{"0": {"length": "12.0%", "description": "LysR family transcriptional regulator", "color": "#6eff42", "direction": "-", "spacer": "2.0%", "link": "WP_023850680.1"}, "1": {"length": "22.0%", "description": "GMC family oxidoreductase N-terminal domain-containing protein", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_023850679.1"}, "2": {"length": "34.0%", "description": "CoA transferase", "color": "#ff4242", "direction": "+", "spacer": "2.0%", "link": "WP_039615786.1"}, "3": {"length": "22.0%", "description": "BCCT family transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_039615787.1"}}', '{"0": {"length": "20.0%", "description": "CoA transferase", "color": "#ff4242", "direction": "-", "spacer": "1.0%", "link": "WP_043336172.1"}, "1": {"length": "13.0%", "description": "BCCT family transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_084589613.1"}, "2": {"length": "3.0%", "description": "tautomerase family protein", "color": "#ff4242", "direction": "-", "spacer": "1.0%", "link": "WP_043336174.1"}, "3": {"length": "7.0%", "description": "enoyl-CoA hydratase/isomerase family protein", "color": "#ff4242", "direction": "-", "spacer": "3.0%", "link": "WP_052384845.1"}, "4": {"length": "9.0%", "description": "CoA transferase", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": ""}, "5": {"length": "14.0%", "description": "GMC family oxidoreductase N-terminal domain-containing protein", "color": "blue", "direction": "-", "spacer": "1.0%", "link": "WP_084589614.1"}, "6": {"length": "12.0%", "description": "CoA-acylating methylmalonate-semialdehyde dehydrogenase", "color": "#ff4242", "direction": "-", "spacer": "4.0%", "link": "WP_043336175.1"}, "7": {"length": "7.0%", "description": "LysR family transcriptional regulator", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "WP_043336176.1"}}', '{"0": {"length": "7.0%", "description": "sulfate/molybdate ABC transporter ATP-binding protein", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_105439584.1"}, "1": {"length": "6.0%", "description": "sulfate ABC transporter permease subunit CysW", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_105439585.1"}, "2": {"length": "6.0%", "description": "sulfate ABC transporter permease subunit CysT", "color": "#ffe042", "direction": "-", "spacer": "1.0%", "link": "WP_105439586.1"}, "3": {"length": "7.0%", "description": "thiosulfate ABC transporter substrate-binding protein CysP", "color": "#ffe042", "direction": "-", "spacer": "1.0%", "link": "WP_105439587.1"}, "4": {"length": "1.0%", "description": "DUF1059 domain-containing protein", "color": "black", "direction": "-", "spacer": "1.0%", "link": "WP_105439588.1"}, "5": {"length": "6.0%", "description": "3-hydroxyisobutyrate dehydrogenase", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_105439589.1"}, "6": {"length": "7.0%", "description": "enoyl-CoA hydratase/isomerase family protein", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_105439590.1"}, "7": {"length": "11.0%", "description": "GMC family oxidoreductase", "color": "blue", "direction": "-", "spacer": "0.0%", "link": "WP_105439591.1"}, "8": {"length": "7.0%", "description": "branched-chain amino acid ABC transporter permease", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_046666493.1"}, "9": {"length": "6.0%", "description": "branched-chain amino acid ABC transporter permease", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_046666492.1"}, "10": {"length": "5.0%", "description": "ABC transporter ATP-binding protein", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_105439592.1"}, "11": {"length": "5.0%", "description": "ABC transporter ATP-binding protein", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_105419802.1"}, "12": {"length": "8.0%", "description": "ABC transporter substrate-binding protein", "color": "#ffe042", "direction": "-", "spacer": "1.0%", "link": "WP_105439593.1"}, "13": {"length": "7.0%", "description": "LysR family transcriptional regulator", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "WP_105400023.1"}}', '{"0": {"length": "3.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "-", "spacer": "1.0%", "link": "WP_077377628.1"}, "1": {"length": "5.0%", "description": "ankyrin repeat domain-containing protein", "color": "black", "direction": "-", "spacer": "1.0%", "link": "WP_170877455.1"}, "2": {"length": "14.0%", "description": "catalase", "color": "#ff4242", "direction": "-", "spacer": "5.0%", "link": "WP_077377683.1"}, "3": {"length": "14.0%", "description": "BCCT family transporter", "color": "#ffe042", "direction": "-", "spacer": "6.0%", "link": "WP_077377685.1"}, "4": {"length": "17.0%", "description": "GMC family oxidoreductase N-terminal domain-containing protein", "color": "blue", "direction": "-", "spacer": "1.0%", "link": "WP_077377634.1"}, "5": {"length": "14.0%", "description": "CoA-acylating methylmalonate-semialdehyde dehydrogenase", "color": "#ff4242", "direction": "-", "spacer": "4.0%", "link": "WP_077377637.1"}, "6": {"length": "8.0%", "description": "LysR family transcriptional regulator", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "WP_077377639.1"}}']
+
+            var len = graphic.length
+            for (i in range(0, len)){
+                var data = JSON.parse(graphic[i])
+                renderOperon(data)
+            }
+
+
+    </script>
+
+    </html>
+    

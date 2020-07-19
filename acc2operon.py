@@ -233,7 +233,9 @@ def enzyme_acc2regulator(accessions, max_regulators=20):
     regulator = re.compile(r"regulator|repressor|activator")
     operons_with_regulators = []
 
-    accessions = accessions[:-1].split("\n")
+    if type(accessions) != list:
+        accessions = accessions[:-1].split("\n")
+    
     number_accessions = len(accessions)
 
     max_regulators = int(max_regulators)
