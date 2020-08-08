@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<body>
+	<div id="container3">
+	</div>
+</body>
+
+
+<style>
+#container3{
+	margin-left: 20vw;
+	margin-top:50vh;
+	position: relative;
+	border: 1px solid black;
+}
+</style>
+
+	<script>
+		let letters = ["A","T","C","G"];
+		let letterColors = {"A":"red", "T":"green", "C":"blue","G":"black"};
+		let scale = [1,2,1,3];
+
+		let container = document.getElementById("container3");
+		var bottom = 0;	
+		var counter = 0;
+		for (i in letters) {
+			let letter = document.createElement('div');
+			letter.innerText = letters[i];
+			letter.setAttribute("style", "color:"+letterColors[letters[i]]+"; font-size:40px; transform:scaleY("+scale[i].toString()+"); position:absolute; bottom:"+bottom.toString()+"px;")
+			bottom += 40*scale[counter];
+			counter += 1;
+
+			container.appendChild(letter);
+		}
+
+
+
+	</script>
+
+
+</html>
+
