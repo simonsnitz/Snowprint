@@ -3,7 +3,10 @@ import acc2operon
 from display import test_operon2graphic as o2g
 import sys
 
-
+"""
+    This function takes in a search term and # of max regulators to limit search.
+    Returns an HTML page with a list of operons containing at least 1 regulator and a gene that fits the search term
+"""
 
 search_term = sys.argv[1]
 

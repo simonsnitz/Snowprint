@@ -22,12 +22,12 @@
 
 		let container = document.getElementById("container3");
 		var bottom = 0;	
-		var counter = 0;
+		var counter = 0.0;
 		for (i in letters) {
 			let letter = document.createElement('div');
 			letter.innerText = letters[i];
 			letter.setAttribute("style", "color:"+letterColors[letters[i]]+"; font-size:40px; transform:scaleY("+scale[i].toString()+"); position:absolute; bottom:"+bottom.toString()+"px;")
-			bottom += 40*scale[counter];
+			bottom += 40*(scale[counter]*1);
 			counter += 1;
 
 			container.appendChild(letter);

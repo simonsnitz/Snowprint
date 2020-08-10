@@ -1,3 +1,12 @@
+"""
+***ABOUT***
+
+    This is a prototype function for extracting the intergenic region from an operon.
+
+    An improved version of this function is found in the 'getIntergenic.py' file
+
+"""
+
 import pickle
 import requests
 
