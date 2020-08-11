@@ -19,8 +19,14 @@ appendOperatorMetadata(homologListFile, knownOperator)
 acur_accession = "WP_011336736.1"
 camr_accession = "BAA03510.1"
 lrpr_accession = "WP_019744253"
+alkx_accession = "AEM66515.1"
 
-acc = lrpr_accession
+acc = alkx_accession
+
+    #having period in accession name screws things up
+if acc[-2] == ".":
+    acc = acc[0:-2]
+print(acc)
 
 perc_ident = 50
 
@@ -36,20 +42,40 @@ perc_ident = 50
     #homologListFile = "homolog_metadata/"+regulator_name+str(perc_ident)+".pkl"
 
 #operator = regulator_name+".txt"
-operator = "lrpr.txt"
+operator = "alkx.txt"
 
 with open(f"knownOperators/{operator}") as f:
     knownOperator = f.read().replace('\n','')
 
-print(knownOperator)
+print("Input operator: "+knownOperator)
+
+#appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
+#appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", knownOperator)
+
+
+#"""
+try:
+    appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", knownOperator)
+except:
+    print("no intergenic data cached. Pulling intergenic data")
+    try:
+        appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
+        appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", knownOperator)
+    except:
+        print("no homolog data cached. Blasting protein")
+        acc2homolog_list(acc, perc_ident)
+        appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
+        appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", knownOperator)
+#"""
+
+
 
 #######  PROGRAMS TO RUN ########
     #acc2homolog_list(accession, blastCacheFile, perc_ident, homologListFile)
-acc2homolog_list(acc, perc_ident)
 
     #appendIntergenic(homologListFile)
-appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
-
+#appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
+    
     #appendOperatorMetadata(homologListFile, knownOperator)
-appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", knownOperator)
+#appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", knownOperator)
 

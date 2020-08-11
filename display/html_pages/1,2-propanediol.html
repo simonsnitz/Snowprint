@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Operon Graphic</title>
+
+<style>
+
+#operonContainer{
+	width: 90vw;
+	margin: auto;
+	height: 100vh;
+}
+
+.spacer{
+	display: block;
+	height: 20vh;
+}
+
+.Rgene{
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+}
+
+
+.Rgene:before{
+	content:"";
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-left: var(--color);
+	border-top: 20px solid white;
+	border-bottom: 20px solid white;
+	z-index: 2;
+}
+
+.Rgene .description {
+	visibility: hidden;
+	width: 9rem;
+	text-align: center;
+	padding: 5px 0;
+	border: 1px solid black;
+	border-radius: 3px;
+	border-color: #225470;
+	position: absolute;
+	top: 250%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	color: black;
+}
+
+.Rgene:hover .description {
+	visibility: visible;
+}
+
+.Lgene {
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	z-index:1;
+}
+
+.Lgene:after{
+	content:"";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-right: var(--color);
+	border-top: 20px solid white;
+	border-bottom: 20px solid white;
+	z-index: 2;
+}
+
+.Lgene .description {
+	visibility: hidden;
+	width: 9rem;
+	text-align: center;
+	padding: 5px 0;
+	border: 1px solid black;
+	border-radius: 3px;
+	border-color: #225470;
+	position: absolute;
+	top: 250%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	color: black;
+}
+
+.Lgene:hover .description {
+	visibility: visible;
+}
+
+#line{
+	background-color: black;
+	height:2px;
+	width: 90%;
+	position: absolute;
+	top: 19px;
+}
+
+</style>
+
+			
+	</head>
+
+	<body>
+		<div id="operonContainer"></div>
+	</body>
+
+
+
+<script>
+
+	
+	function renderOperon(operon) {
+
+	let container = document.getElementById("operonContainer");
+
+	for (i in operon) {
+		
+		let link = document.createElement('a');
+		if (operon[i]['link'].length !== 0){
+			link.setAttribute("href", "https://ncbi.nlm.nih.gov/protein/"+operon[i]['link']); }
+		link.setAttribute("target", "_blank");
+		let gene = document.createElement('div');
+		if (operon[i]["direction"] == "+"){
+			gene.classList.add("Rgene");
+		} else {
+			gene.classList.add("Lgene");
+		}
+
+		gene.setAttribute("style", "background-color: "+operon[i]["color"]+
+			"; width:"+operon[i]["length"]+
+			"; margin-right:"+operon[i]["spacer"])
+		
+		gene.style.setProperty('--color', '20px solid '+operon[i]["color"]);
+		
+		description = document.createElement('span');
+		description.innerText = operon[i]["description"];
+		description.classList.add("description");
+		gene.appendChild(description)
+		link.appendChild(gene);
+		container.appendChild(link);
+
+		spacer = document.createElement('span');
+		spacer.classList.add("spacer");
+		//spacer.innerHTML = "the";
+
+	}
+	let line = document.createElement('hr');
+	line.id = "line";
+	container.appendChild(line);
+	container.appendChild(spacer);
+	}
+
+
+	//since javascript doesn't have a built-in range function	
+	function range(start, stop){
+		var myList = [];
+		for (let i = start; i <= (stop-1); i++){
+			myList.push(i);
+		}
+		return myList;
+	}
+
+
+
+            // new section appended below //
+
+            var graphic = ['{"0": {"length": "7.0%", "description": "GntR family transcriptional regulator", "color": "#6eff42", "direction": "-", "spacer": "0.0%", "link": "KPP94901.1"}, "1": {"length": "12.0%", "description": "putative protein involved in propionate catabolism", "color": "black", "direction": "+", "spacer": "0.0%", "link": "KPP94902.1"}, "2": {"length": "13.0%", "description": "putative protein involved in propionate catabolism", "color": "black", "direction": "+", "spacer": "0.0%", "link": "KPP94903.1"}, "3": {"length": "13.0%", "description": "phenylacetyl-CoA ligase PaaK", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "KPP94904.1"}, "4": {"length": "11.0%", "description": "aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit A", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "KPP94905.1"}, "5": {"length": "3.0%", "description": "REDY-like protein HapK", "color": "black", "direction": "+", "spacer": "0.0%", "link": "KPP94906.1"}, "6": {"length": "8.0%", "description": "meso-butanediol dehydrogenase / (S,S)-butanediol dehydrogenase / diacetyl reductase", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "KPP94907.1"}, "7": {"length": "8.0%", "description": "putative xylanase/chitin deacetylase", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "KPP94908.1"}, "8": {"length": "7.0%", "description": "Enoyl-CoA hydratase/carnithine racemase", "color": "#ff4242", "direction": "+", "spacer": "1.0%", "link": "KPP94909.1"}, "9": {"length": "9.0%", "description": "putative lyase", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "KPP94910.1"}, "10": {"length": "3.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "+", "spacer": "0.0%", "link": "KPP94911.1"}}', '{"0": {"length": "9.0%", "description": "Putative metabolite transport protein NicT", "color": "#ffe042", "direction": "-", "spacer": "1.0%", "link": "CAB3786765.1"}, "1": {"length": "7.0%", "description": "HTH-type transcriptional activator CmpR", "color": "black", "direction": "+", "spacer": "5.0%", "link": "CAB3786770.1"}, "2": {"length": "13.0%", "description": "Putative thiamine pyrophosphate-containing protein YdaP", "color": "black", "direction": "+", "spacer": "0.0%", "link": "CAB3786775.1"}, "3": {"length": "8.0%", "description": "3,6-anhydro-alpha-L-galactonate cycloisomerase", "color": "#ff4242", "direction": "+", "spacer": "1.0%", "link": "CAB3786780.1"}, "4": {"length": "6.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "+", "spacer": "0.0%", "link": "CAB3786785.1"}, "5": {"length": "5.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "+", "spacer": "0.0%", "link": "CAB3786790.1"}, "6": {"length": "12.0%", "description": "2-methyl-1,2-propanediol dehydrogenase", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "CAB3786795.1"}, "7": {"length": "7.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "+", "spacer": "0.0%", "link": "CAB3786800.1"}, "8": {"length": "13.0%", "description": "Trehalase", "color": "#ff4242", "direction": "+", "spacer": "1.0%", "link": "CAB3786805.1"}, "9": {"length": "3.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "+", "spacer": "2.0%", "link": "CAB3786810.1"}, "10": {"length": "2.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "+", "spacer": "0.0%", "link": "CAB3786816.1"}}']
+
+            var len = graphic.length
+            for (i in range(0, len)){
+                var data = JSON.parse(graphic[i])
+                renderOperon(data)
+            }
+
+
+    </script>
+
+    </html>
+    

@@ -47,6 +47,7 @@ def acc2MetaData(access_id: str):
 
 
 def NC2genome(NCacc):
+    #this has failed in the past due to error: 'requests.exceptions.NetworkError'. Failed to establist new connection. Find fix for this?.
     response = requests.get('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id='+NCacc+'&rettype=fasta_cds_aa')
 
     if response.ok:

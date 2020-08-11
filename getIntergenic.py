@@ -77,29 +77,55 @@ def appendIntergenic(homologListFile):
     with open(f'{homologListFile}', mode="rb") as f:
         homologList = pickle.load(f)
 
+    print("original length "+str(len(homologList)))
+
     noDataCount = 0
-    preFilteredLength = str(len(homologList))
+    preFilteredLength = len(homologList)
+    flaggedHomologs = []
     for i in range(0,len(homologList)):
+        #print(str(i)+" out of "+str(len(homologList)))
         protein = homologList[i]
         data = a2o.acc2operon(protein["accession"])
         try:
             intergenic = operon2Intergenic(data["operon"], data["regIndex"], data["genome"])
             homologList[i]["intergenic"] = intergenic["intergenicSeq"]
             homologList[i]["regType"] = intergenic["regType"]
-            print('got intergenic region')
-            print(intergenic)
+            print('got intergenic region for '+str(i)+" out of "+str(len(homologList)))
+            #print(intergenic)
         except:
             print("no data for intergenic region at position "+str(i))
-            homologList.remove(homologList[i])
+            flaggedHomologs.append(homologList[i])
+            #homologList.remove(homologList[i])
             noDataCount += 1
 
-            #save updated homologListFile everytime new intergenic region appended
-        with open(f'{homologListFile}', mode="wb") as f:
-            pickle.dump(homologList,f)
 
-    print("data not found for "+str(noDataCount)+" out of "+preFilteredLength)
+        #create new homolog list without flagged homologs
+    new_homologList = [i for i in homologList if i not in flaggedHomologs]
+    print(new_homologList)
+
+        #save updated homologListFile everytime new intergenic region appended
+    with open(f'{homologListFile}', mode="wb") as f:
+            pickle.dump(new_homologList,f)
+            print("cached homolog file with intergenic regions appended")
+
+    print("data not found for "+str(noDataCount)+" out of "+str(preFilteredLength))
 
 
+def check4intergenic(homologListFile):
+    with open(f'{homologListFile}', mode='rb') as f:
+        homologList = pickle.load(f)
+        print(homologList)
+        try:
+            print(homologList[0]["intergenic"])
+            print("intergenic data cached")
+        except:
+            print("cached data not found")
+            #print('getting intergenic')
+            #appendIntergenic(homologListFile)
+
+
+
+\
 if __name__ == "__main__":
 
     print('main')    

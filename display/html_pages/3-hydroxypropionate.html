@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Operon Graphic</title>
+
+<style>
+
+#operonContainer{
+	width: 90vw;
+	margin: auto;
+	height: 100vh;
+}
+
+.spacer{
+	display: block;
+	height: 20vh;
+}
+
+.Rgene{
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+}
+
+
+.Rgene:before{
+	content:"";
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-left: var(--color);
+	border-top: 20px solid white;
+	border-bottom: 20px solid white;
+	z-index: 2;
+}
+
+.Rgene .description {
+	visibility: hidden;
+	width: 9rem;
+	text-align: center;
+	padding: 5px 0;
+	border: 1px solid black;
+	border-radius: 3px;
+	border-color: #225470;
+	position: absolute;
+	top: 250%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	color: black;
+}
+
+.Rgene:hover .description {
+	visibility: visible;
+}
+
+.Lgene {
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	z-index:1;
+}
+
+.Lgene:after{
+	content:"";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-right: var(--color);
+	border-top: 20px solid white;
+	border-bottom: 20px solid white;
+	z-index: 2;
+}
+
+.Lgene .description {
+	visibility: hidden;
+	width: 9rem;
+	text-align: center;
+	padding: 5px 0;
+	border: 1px solid black;
+	border-radius: 3px;
+	border-color: #225470;
+	position: absolute;
+	top: 250%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	color: black;
+}
+
+.Lgene:hover .description {
+	visibility: visible;
+}
+
+#line{
+	background-color: black;
+	height:2px;
+	width: 90%;
+	position: absolute;
+	top: 19px;
+}
+
+</style>
+
+			
+	</head>
+
+	<body>
+		<div id="operonContainer"></div>
+	</body>
+
+
+
+<script>
+
+	
+	function renderOperon(operon) {
+
+	let container = document.getElementById("operonContainer");
+
+	for (i in operon) {
+		
+		let link = document.createElement('a');
+		if (operon[i]['link'].length !== 0){
+			link.setAttribute("href", "https://ncbi.nlm.nih.gov/protein/"+operon[i]['link']); }
+		link.setAttribute("target", "_blank");
+		let gene = document.createElement('div');
+		if (operon[i]["direction"] == "+"){
+			gene.classList.add("Rgene");
+		} else {
+			gene.classList.add("Lgene");
+		}
+
+		gene.setAttribute("style", "background-color: "+operon[i]["color"]+
+			"; width:"+operon[i]["length"]+
+			"; margin-right:"+operon[i]["spacer"])
+		
+		gene.style.setProperty('--color', '20px solid '+operon[i]["color"]);
+		
+		description = document.createElement('span');
+		description.innerText = operon[i]["description"];
+		description.classList.add("description");
+		gene.appendChild(description)
+		link.appendChild(gene);
+		container.appendChild(link);
+
+		spacer = document.createElement('span');
+		spacer.classList.add("spacer");
+		//spacer.innerHTML = "the";
+
+	}
+	let line = document.createElement('hr');
+	line.id = "line";
+	container.appendChild(line);
+	container.appendChild(spacer);
+	}
+
+
+	//since javascript doesn't have a built-in range function	
+	function range(start, stop){
+		var myList = [];
+		for (let i = start; i <= (stop-1); i++){
+			myList.push(i);
+		}
+		return myList;
+	}
+
+
+
+            // new section appended below //
+
+            var graphic = ['{"0": {"length": "10.0%", "description": "HTH-type transcriptional regulator RutR", "color": "#6eff42", "direction": "-", "spacer": "4.0%", "link": "QMT04798.1"}, "1": {"length": "16.0%", "description": "pyrimidine utilization protein A", "color": "black", "direction": "+", "spacer": "0.0%", "link": "QMT04799.1"}, "2": {"length": "10.0%", "description": "pyrimidine utilization protein B", "color": "black", "direction": "+", "spacer": "0.0%", "link": "QMT04800.1"}, "3": {"length": "6.0%", "description": "pyrimidine utilization protein C", "color": "black", "direction": "+", "spacer": "0.0%", "link": "QMT04801.1"}, "4": {"length": "12.0%", "description": "pyrimidine utilization protein D", "color": "black", "direction": "+", "spacer": "0.0%", "link": "QMT04802.1"}, "5": {"length": "9.0%", "description": "malonic semialdehyde reductase", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "QMT04803.1"}, "6": {"length": "7.0%", "description": "pyrimidine utilization flavin reductase protein F", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "QMT04804.1"}, "7": {"length": "20.0%", "description": "pyrimidine utilization transport protein G", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "QMT04805.1"}}', '{"0": {"length": "37.0%", "description": "EAL domain-containing protein", "color": "black", "direction": "-", "spacer": "4.0%", "link": "QMT04390.1"}, "1": {"length": "29.0%", "description": "peptidyl-dipeptidase Dcp", "color": "#ff4242", "direction": "-", "spacer": "2.0%", "link": "QMT04391.1"}, "2": {"length": "11.0%", "description": "bifunctional NADP-dependent 3-hydroxy acid dehydrogenase/3-hydroxypropionate dehydrogenase YdfG", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "QMT04392.1"}, "3": {"length": "10.0%", "description": "GntR family transcriptional regulator", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "QMT04393.1"}}', '{"0": {"length": "13.0%", "description": "LysR family transcriptional regulator", "color": "#6eff42", "direction": "-", "spacer": "2.0%", "link": "WP_070398361.1"}, "1": {"length": "11.0%", "description": "intradiol ring-cleavage dioxygenase", "color": "#ff4242", "direction": "+", "spacer": "1.0%", "link": "WP_116957279.1"}, "2": {"length": "15.0%", "description": "C4-dicarboxylate TRAP transporter substrate-binding protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_116957280.1"}, "3": {"length": "8.0%", "description": "TRAP transporter small permease", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_116957281.1"}, "4": {"length": "18.0%", "description": "TRAP transporter large permease", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_116957282.1"}, "5": {"length": "4.0%", "description": "YciI family protein", "color": "black", "direction": "+", "spacer": "0.0%", "link": "WP_116957283.1"}, "6": {"length": "4.0%", "description": "Dabb family protein", "color": "black", "direction": "+", "spacer": "0.0%", "link": "WP_116957539.1"}, "7": {"length": "8.0%", "description": "malonic semialdehyde reductase", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_116957284.1"}, "8": {"length": "11.0%", "description": "peptidylprolyl isomerase", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_116957285.1"}}', '{"0": {"length": "10.0%", "description": "HTH-type transcriptional regulator RutR", "color": "#6eff42", "direction": "-", "spacer": "4.0%", "link": "QMS70121.1"}, "1": {"length": "16.0%", "description": "pyrimidine utilization protein A", "color": "black", "direction": "+", "spacer": "0.0%", "link": "QMS70122.1"}, "2": {"length": "11.0%", "description": "pyrimidine utilization protein B", "color": "black", "direction": "+", "spacer": "0.0%", "link": "QMS70123.1"}, "3": {"length": "6.0%", "description": "pyrimidine utilization protein C", "color": "black", "direction": "+", "spacer": "0.0%", "link": "QMS70124.1"}, "4": {"length": "12.0%", "description": "pyrimidine utilization protein D", "color": "black", "direction": "+", "spacer": "0.0%", "link": "QMS70125.1"}, "5": {"length": "9.0%", "description": "malonic semialdehyde reductase", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "QMS70126.1"}, "6": {"length": "7.0%", "description": "pyrimidine utilization flavin reductase protein F", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "QMS70127.1"}, "7": {"length": "20.0%", "description": "pyrimidine utilization transport protein G", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "QMS70128.1"}}', '{"0": {"length": "31.0%", "description": "peptidyl-dipeptidase Dcp", "color": "#ff4242", "direction": "-", "spacer": "2.0%", "link": "QMS69615.1"}, "1": {"length": "12.0%", "description": "bifunctional NADP-dependent 3-hydroxy acid dehydrogenase/3-hydroxypropionate dehydrogenase YdfG", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "QMS69616.1"}, "2": {"length": "11.0%", "description": "GntR family transcriptional regulator", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "QMS69617.1"}}', '{"0": {"length": "3.0%", "description": "putative selenium delivery protein YdfZ", "color": "black", "direction": "-", "spacer": "3.0%", "link": "QMQ41448.1"}, "1": {"length": "11.0%", "description": "DNA-binding transcriptional regulator YdfH", "color": "#6eff42", "direction": "-", "spacer": "1.0%", "link": "QMQ41449.1"}, "2": {"length": "11.0%", "description": "bifunctional NADP-dependent 3-hydroxy acid dehydrogenase/3-hydroxypropionate dehydrogenase YdfG", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "QMQ41450.1"}, "3": {"length": "31.0%", "description": "peptidyl-dipeptidase Dcp", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "QMQ41451.1"}}', '{"0": {"length": "10.0%", "description": "HTH-type transcriptional regulator RutR", "color": "#6eff42", "direction": "-", "spacer": "4.0%", "link": "QMQ50618.1"}, "1": {"length": "16.0%", "description": "pyrimidine utilization protein A", "color": "black", "direction": "+", "spacer": "0.0%", "link": "QMQ52311.1"}, "2": {"length": "10.0%", "description": "peroxyureidoacrylate/ureidoacrylate amidohydrolase RutB", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "QMQ52312.1"}, "3": {"length": "6.0%", "description": "pyrimidine utilization protein C", "color": "black", "direction": "+", "spacer": "0.0%", "link": "QMQ50619.1"}, "4": {"length": "12.0%", "description": "pyrimidine utilization protein D", "color": "black", "direction": "+", "spacer": "0.0%", "link": "QMQ50620.1"}, "5": {"length": "9.0%", "description": "malonic semialdehyde reductase", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "QMQ50621.1"}, "6": {"length": "7.0%", "description": "pyrimidine utilization flavin reductase protein F", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "QMQ50622.1"}, "7": {"length": "20.0%", "description": "pyrimidine utilization transport protein G", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "QMQ50623.1"}}', '{"0": {"length": "3.0%", "description": "putative selenium delivery protein YdfZ", "color": "black", "direction": "-", "spacer": "3.0%", "link": "QMQ50159.1"}, "1": {"length": "11.0%", "description": "DNA-binding transcriptional regulator YdfH", "color": "#6eff42", "direction": "-", "spacer": "1.0%", "link": "QMQ50160.1"}, "2": {"length": "11.0%", "description": "bifunctional NADP-dependent 3-hydroxy acid dehydrogenase/3-hydroxypropionate dehydrogenase YdfG", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "QMQ50161.1"}, "3": {"length": "31.0%", "description": "peptidyl-dipeptidase Dcp", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "QMQ50162.1"}}', '{"0": {"length": "17.0%", "description": "[protein-PII] uridylyltransferase", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "WP_181336791.1"}, "1": {"length": "9.0%", "description": "murein biosynthesis integral membrane protein MurJ", "color": "black", "direction": "+", "spacer": "0.0%", "link": "WP_181336792.1"}, "2": {"length": "6.0%", "description": "tryptophan--tRNA ligase", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "WP_181336793.1"}, "3": {"length": "3.0%", "description": "universal stress protein", "color": "black", "direction": "+", "spacer": "1.0%", "link": "WP_181336794.1"}, "4": {"length": "3.0%", "description": "NifU N-terminal domain-containing protein", "color": "black", "direction": "+", "spacer": "0.0%", "link": "WP_181336795.1"}, "5": {"length": "4.0%", "description": "malonic semialdehyde reductase", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_181336796.1"}, "6": {"length": "4.0%", "description": "tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex dimerization subunit type 1 TsaB", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "WP_181336797.1"}, "7": {"length": "3.0%", "description": "ribosomal protein S18-alanine N-acetyltransferase", "color": "#ff4242", "direction": "+", "spacer": "1.0%", "link": "WP_181336798.1"}, "8": {"length": "3.0%", "description": "transcriptional repressor", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "WP_181336799.1"}, "9": {"length": "5.0%", "description": "1-acyl-sn-glycerol-3-phosphate acyltransferase", "color": "#ff4242", "direction": "+", "spacer": "1.0%", "link": "WP_181336800.1"}, "10": {"length": "8.0%", "description": "tRNA (N6-isopentenyl adenosine(37)-C2)-methylthiotransferase MiaB", "color": "#ff4242", "direction": "+", "spacer": "1.0%", "link": "WP_181338257.1"}, "11": {"length": "6.0%", "description": "PhoH family protein", "color": "black", "direction": "+", "spacer": "0.0%", "link": "WP_181336801.1"}, "12": {"length": "3.0%", "description": "rRNA maturation RNase YbeY", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "WP_181336802.1"}, "13": {"length": "6.0%", "description": "CBS domain-containing protein", "color": "black", "direction": "+", "spacer": "0.0%", "link": "WP_181336803.1"}, "14": {"length": "10.0%", "description": "apolipoprotein N-acyltransferase", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "WP_181336804.1"}}', '{"0": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "#6eff42", "direction": "-", "spacer": "2.0%", "link": "WP_181311917.1"}, "1": {"length": "33.0%", "description": "ABC transporter permease", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_181311918.1"}, "2": {"length": "9.0%", "description": "malonic semialdehyde reductase", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_181311919.1"}, "3": {"length": "6.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "+", "spacer": "0.0%", "link": "WP_181311920.1"}, "4": {"length": "7.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "+", "spacer": "0.0%", "link": "WP_181311921.1"}}', '{"0": {"length": "8.0%", "description": "HlyC/CorC family transporter", "color": "#ffe042", "direction": "-", "spacer": "1.0%", "link": "WP_066277979.1"}, "1": {"length": "4.0%", "description": "rRNA maturation RNase YbeY", "color": "#ff4242", "direction": "-", "spacer": "1.0%", "link": "WP_181267046.1"}, "2": {"length": "8.0%", "description": "PhoH family protein", "color": "black", "direction": "-", "spacer": "1.0%", "link": "WP_181267919.1"}, "3": {"length": "11.0%", "description": "tRNA (N6-isopentenyl adenosine(37)-C2)-methylthiotransferase MiaB", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_181267047.1"}, "4": {"length": "7.0%", "description": "1-acyl-sn-glycerol-3-phosphate acyltransferase", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_181267048.1"}, "5": {"length": "3.0%", "description": "transcriptional repressor", "color": "#6eff42", "direction": "-", "spacer": "2.0%", "link": "WP_060977413.1"}, "6": {"length": "4.0%", "description": "MucR family transcriptional regulator", "color": "#6eff42", "direction": "-", "spacer": "1.0%", "link": "WP_060977412.1"}, "7": {"length": "4.0%", "description": "GNAT family N-acetyltransferase", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_181267049.1"}, "8": {"length": "5.0%", "description": "tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex dimerization subunit type 1 TsaB", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_181267050.1"}, "9": {"length": "5.0%", "description": "malonic semialdehyde reductase", "color": "blue", "direction": "-", "spacer": "0.0%", "link": "WP_181267051.1"}, "10": {"length": "5.0%", "description": "NifU family protein", "color": "black", "direction": "-", "spacer": "1.0%", "link": "WP_137776114.1"}, "11": {"length": "24.0%", "description": "insulinase family protein", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "WP_181267052.1"}}', '{"0": {"length": "3.0%", "description": "putative selenium delivery protein YdfZ", "color": "black", "direction": "-", "spacer": "3.0%", "link": "WP_005121144.1"}, "1": {"length": "11.0%", "description": "GntR family transcriptional regulator", "color": "#6eff42", "direction": "-", "spacer": "1.0%", "link": "WP_043016365.1"}, "2": {"length": "11.0%", "description": "bifunctional NADP-dependent 3-hydroxy acid dehydrogenase/3-hydroxypropionate dehydrogenase YdfG", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_181231408.1"}, "3": {"length": "31.0%", "description": "peptidyl-dipeptidase Dcp", "color": "#ff4242", "direction": "+", "spacer": "5.0%", "link": "WP_181231410.1"}, "4": {"length": "14.0%", "description": "diguanylate cyclase", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "WP_181231412.1"}}', '{"0": {"length": "14.0%", "description": "diguanylate cyclase DgcZ", "color": "#ff4242", "direction": "-", "spacer": "4.0%", "link": "QMS41008.1"}, "1": {"length": "2.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "-", "spacer": "1.0%", "link": "QMS41009.1"}, "2": {"length": "31.0%", "description": "peptidyl-dipeptidase Dcp", "color": "#ff4242", "direction": "-", "spacer": "2.0%", "link": "QMS41010.1"}, "3": {"length": "11.0%", "description": "bifunctional NADP-dependent 3-hydroxy acid dehydrogenase/3-hydroxypropionate dehydrogenase YdfG", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "QMS41011.1"}, "4": {"length": "11.0%", "description": "DNA-binding transcriptional regulator YdfH", "color": "#6eff42", "direction": "+", "spacer": "3.0%", "link": "QMS41012.1"}, "5": {"length": "3.0%", "description": "putative selenium delivery protein YdfZ", "color": "black", "direction": "+", "spacer": "0.0%", "link": "QMS41013.1"}}', '{"0": {"length": "10.0%", "description": "HTH-type transcriptional regulator RutR", "color": "#6eff42", "direction": "-", "spacer": "4.0%", "link": "QMS36637.1"}, "1": {"length": "16.0%", "description": "pyrimidine utilization protein A", "color": "black", "direction": "+", "spacer": "0.0%", "link": "QMS41353.1"}, "2": {"length": "10.0%", "description": "peroxyureidoacrylate/ureidoacrylate amidohydrolase RutB", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "QMS41354.1"}, "3": {"length": "6.0%", "description": "pyrimidine utilization protein C", "color": "black", "direction": "+", "spacer": "0.0%", "link": "QMS36638.1"}, "4": {"length": "12.0%", "description": "pyrimidine utilization protein D", "color": "black", "direction": "+", "spacer": "0.0%", "link": "QMS36639.1"}, "5": {"length": "9.0%", "description": "malonic semialdehyde reductase", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "QMS36640.1"}, "6": {"length": "7.0%", "description": "pyrimidine utilization flavin reductase protein F", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "QMS36641.1"}, "7": {"length": "20.0%", "description": "pyrimidine utilization transport protein G", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "QMS36642.1"}}', '{"0": {"length": "20.0%", "description": "pyrimidine utilization transport protein G", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": "WP_012138026.1"}, "1": {"length": "7.0%", "description": "pyrimidine utilization flavin reductase protein F", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_001028095.1"}, "2": {"length": "9.0%", "description": "malonic semialdehyde reductase", "color": "blue", "direction": "-", "spacer": "0.0%", "link": "WP_001001196.1"}, "3": {"length": "12.0%", "description": "pyrimidine utilization protein D", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_012138029.1"}, "4": {"length": "6.0%", "description": "pyrimidine utilization protein C", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_001126780.1"}, "5": {"length": "10.0%", "description": "peroxyureidoacrylate/ureidoacrylate amidohydrolase RutB", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_001345643.1"}, "6": {"length": "16.0%", "description": "pyrimidine utilization protein A", "color": "black", "direction": "-", "spacer": "4.0%", "link": "WP_001345642.1"}, "7": {"length": "10.0%", "description": "HTH-type transcriptional regulator RutR", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "WP_012138032.1"}}', '{"0": {"length": "31.0%", "description": "peptidyl-dipeptidase Dcp", "color": "#ff4242", "direction": "-", "spacer": "2.0%", "link": "NP_416056.1"}, "1": {"length": "11.0%", "description": "3-hydroxy acid dehydrogenase", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "NP_416057.1"}, "2": {"length": "11.0%", "description": "DNA-binding transcriptional repressor YdfH", "color": "#6eff42", "direction": "+", "spacer": "3.0%", "link": "NP_416058.1"}, "3": {"length": "3.0%", "description": "putative selenoprotein YdfZ", "color": "black", "direction": "+", "spacer": "0.0%", "link": "NP_416059.1"}}', '{"0": {"length": "31.0%", "description": "peptidyl-dipeptidase Dcp", "color": "#ff4242", "direction": "-", "spacer": "2.0%", "link": "NP_416056.1"}, "1": {"length": "11.0%", "description": "3-hydroxy acid dehydrogenase", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "NP_416057.1"}, "2": {"length": "11.0%", "description": "DNA-binding transcriptional repressor YdfH", "color": "#6eff42", "direction": "+", "spacer": "3.0%", "link": "NP_416058.1"}, "3": {"length": "3.0%", "description": "putative selenoprotein YdfZ", "color": "black", "direction": "+", "spacer": "0.0%", "link": "NP_416059.1"}}', '{"0": {"length": "3.0%", "description": "Resolvase, N terminal domain", "color": "#ff4242", "direction": "-", "spacer": "1.0%", "link": "AOL22769.1"}, "1": {"length": "27.0%", "description": "malonyl-CoA reductase / 3-hydroxypropionate dehydrogenase (NADP+)", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "AOL22770.1"}, "2": {"length": "41.0%", "description": "acrylyl-CoA reductase (NADPH) / 3-hydroxypropionyl-CoA dehydratase / 3-hydroxypropionyl-CoA synthetase", "color": "blue", "direction": "-", "spacer": "3.0%", "link": "AOL22771.1"}, "3": {"length": "5.0%", "description": "CRP-related transcriptional regulatory protein", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "AOL22772.1"}, "4": {"length": "14.0%", "description": "PAS HWE-family histidine kinase", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "AOL22773.1"}}']
+
+            var len = graphic.length
+            for (i in range(0, len)){
+                var data = JSON.parse(graphic[i])
+                renderOperon(data)
+            }
+
+
+    </script>
+
+    </html>
+    

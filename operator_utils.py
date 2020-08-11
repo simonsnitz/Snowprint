@@ -119,7 +119,8 @@ def getConsensus(homologList, max_ident=100, min_ident=65):      #DUUUDE! Mad li
     allOperators = [ i["operator"][0] for i in homologList
             if "operator" in i.keys() and i["identity"] >= min_ident and i["identity"] <= max_ident ]
 
-    bases_at_each_position = [ [i[pos] for i in allOperators if len(i) == 27]   #added if statement do deal with weirdness
+    #bases_at_each_position = [ [i[pos] for i in allOperators if len(i) == 27]   #added if statement do deal with weirdness
+    bases_at_each_position = [ [i[pos] for i in allOperators]   #added if statement do deal with weirdness
             for pos in range(0, len(allOperators[0])) ] 
 
     def mostFrequent(List):         #function to make it more readable
@@ -148,16 +149,15 @@ def appendOperatorMetadata(homologListFile, knownOperator):
     with open(f'{homologListFile}', mode="rb") as f:
         homologList = pickle.load(f)
         for i in homologList:
-            try:
-                i["operator"] = findOperatorInIntergenic(i["intergenic"], knownOperator)
-                i["invRepeat"] = getBestInvertedRepeat(i["operator"][0])
-                    #Calculate the free energy (deltaG) of hairpin formation within the operator sequence.
-                #Actually not that useful
-                #i["deltaG"] = primer3.calcHairpin(i["operator"][0]).dg
-            except:
-                pass
-                #print("data not found")
-        
+            #try:
+            i["operator"] = findOperatorInIntergenic(i["intergenic"], knownOperator)
+            print(i["operator"])
+            i["invRepeat"] = getBestInvertedRepeat(i["operator"][0])
+            #print(i["invRepeat"])
+       
+
+        print("      consensus sequence")
+        print(getConsensus(homologList))
         return homologList
             
 
