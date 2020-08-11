@@ -33,7 +33,8 @@ def acc2MetaData(access_id: str):
         proteinList = Entrez.read(handle)['IPGReport']["ProteinList"][0]
     except KeyError:
         print('ProteinList KeyError avoided')
-        proteinList = [{}]
+        # can't use 'get' method on a list. old code = proteinList = [{}]
+        proteinList = {}
 
     protein = proteinList.get("CDSList", "EMPTY")
     try:
