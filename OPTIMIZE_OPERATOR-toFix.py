@@ -20,8 +20,10 @@ acur_accession = "WP_011336736.1"
 camr_accession = "BAA03510.1"
 lrpr_accession = "WP_019744253"
 alkx_accession = "AEM66515.1"
+mmsr_accession = "AGI24556.1"
 
-acc = alkx_accession
+acc = mmsr_accession
+operator = "mmsr.txt"
 
     #having period in accession name screws things up
 if acc[-2] == ".":
@@ -42,7 +44,6 @@ perc_ident = 50
     #homologListFile = "homolog_metadata/"+regulator_name+str(perc_ident)+".pkl"
 
 #operator = regulator_name+".txt"
-operator = "alkx.txt"
 
 with open(f"knownOperators/{operator}") as f:
     knownOperator = f.read().replace('\n','')

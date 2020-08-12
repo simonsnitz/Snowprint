@@ -11,6 +11,8 @@ from Bio.Align.Applications import MuscleCommandline
 from io import StringIO
 
 
+
+
 def findOperatorInIntergenic(intergenic, operator):
     """
         Do a local alignment with gap penalties:
@@ -47,12 +49,15 @@ def findOperatorInIntergenic(intergenic, operator):
     Heavily penalizing gap opening avoids errors with downstream data processing, but may miss out on interesting biological features
     Returns the aligned operator sequence if a similarity threshold is met. Score threshold (7) should be tuned.
     '''
-    if score > 7:
+        #Set score cutoff to be 40% of max. Arbitrary, but seems reasonable.
+    max_score = 2*operator_length
+    score_cutoff = max_score*0.4
+
+    if score > score_cutoff:
         operator = extractOperator(upstr_align, op_align)
-        return operator, score
+        return [operator, score]
     else:
-        #print('too low', score)
-        return "Score is too low: "+str(score)
+        return [None,0]
 
 
 def complement(sequence):
@@ -89,13 +94,13 @@ def findInvertedRepeat(intergenic, size):
                 return operator
 
 
-def getBestInvertedRepeat(intergenic):
+def getBestInvertedRepeat(operator):
     stringency = [10,9,8,7,6,5,4]
-    if intergenic != None:
+    if operator != None:
         for i in stringency:
-            operator = findInvertedRepeat(intergenic, i)
-            if operator:
-                return [operator, i]
+            invRepeat = findInvertedRepeat(operator, i)
+            if invRepeat:
+                return [invRepeat, i]
 
 '''
 def alignIntergenic(homologList):
@@ -113,11 +118,11 @@ def alignIntergenic(homologList):
     align = AlignIO.read(StringIO(std_out), "fasta")
     print(align[2].seq)
 '''
+            #filter by identity or by alignment score? Both? Some alignments from ~80% homologs have crap scores
+def getConsensus(homologList, max_ident=100, min_ident=70):      #DUUUDE! Mad list comprehension!!!
     
-def getConsensus(homologList, max_ident=100, min_ident=65):      #DUUUDE! Mad list comprehension!!!
-    
-    allOperators = [ i["operator"][0] for i in homologList
-            if "operator" in i.keys() and i["identity"] >= min_ident and i["identity"] <= max_ident ]
+    allOperators = [ i["operator"] for i in homologList
+            if "operator" in i.keys() and i["identity"] >= min_ident and i["identity"] <= max_ident and i["score"] != 0]
 
     #bases_at_each_position = [ [i[pos] for i in allOperators if len(i) == 27]   #added if statement do deal with weirdness
     bases_at_each_position = [ [i[pos] for i in allOperators]   #added if statement do deal with weirdness
@@ -127,8 +132,10 @@ def getConsensus(homologList, max_ident=100, min_ident=65):      #DUUUDE! Mad li
         return max(set(List), key=List.count)
 
     consensusOperator = "".join(mostFrequent(i) for i in bases_at_each_position)
-    
-    return getBestInvertedRepeat(consensusOperator)
+    print(bases_at_each_position)
+
+    return consensusOperator
+    #return getBestInvertedRepeat(consensusOperator)
 
 
 def getMostSymmetric(homologList, min_identity=65):
@@ -150,12 +157,15 @@ def appendOperatorMetadata(homologListFile, knownOperator):
         homologList = pickle.load(f)
         for i in homologList:
             #try:
-            i["operator"] = findOperatorInIntergenic(i["intergenic"], knownOperator)
-            print(i["operator"])
-            i["invRepeat"] = getBestInvertedRepeat(i["operator"][0])
-            #print(i["invRepeat"])
+            i["operator"], i["score"] = findOperatorInIntergenic(i["intergenic"], knownOperator)
+            i["invRepeat"] = getBestInvertedRepeat(i["operator"])
+            
+            #if i["score"] != 0:
+                #print(i["operator"])
+                #print(i["identity"])
+                #print(i["invRepeat"])
        
-
+        
         print("      consensus sequence")
         print(getConsensus(homologList))
         return homologList
@@ -176,7 +186,7 @@ if __name__ == "__main__":
     #    pickle.dump(homologList, f)
    
     #pprint(homologList)
-
+    
     consensus = getConsensus(homologList)
     print("consensus operator: "+str(consensus))
 
