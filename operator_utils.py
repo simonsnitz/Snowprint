@@ -10,6 +10,10 @@ from Bio import SeqIO
 from Bio.Align.Applications import MuscleCommandline
 from io import StringIO
 
+#TODO
+
+#score_cutoff is arbitrarily set to 40% of max score. Is that relevant? (line #56)
+
 
 
 
@@ -51,7 +55,7 @@ def findOperatorInIntergenic(intergenic, operator):
     '''
         #Set score cutoff to be 40% of max. Arbitrary, but seems reasonable.
     max_score = 2*operator_length
-    score_cutoff = max_score*0.4
+    score_cutoff = max_score*0.3
 
     if score > score_cutoff:
         operator = extractOperator(upstr_align, op_align)
@@ -74,6 +78,9 @@ def complement(sequence):
             break
     return complement
 
+
+
+#Functions for finding inverted repeats within a given sequence
 
 def findInvertedRepeat(intergenic, size):
     for i in range(0,len(intergenic)-((2*size))):
@@ -102,7 +109,10 @@ def getBestInvertedRepeat(operator):
             if invRepeat:
                 return [invRepeat, i]
 
-'''
+#End of inverted repeat functions
+
+'''     
+	#Alignment function using MUSCLE
 def alignIntergenic(homologList):
     allIntergenic = []
     for i in homologList:
@@ -124,11 +134,11 @@ def getConsensus(homologList, max_ident=100, min_ident=50):      #DUUUDE! Mad li
     allOperators = [ i["operator"] for i in homologList
             if "operator" in i.keys() and i["identity"] >= min_ident and i["identity"] <= max_ident and i["score"] != 0]
 
-
+	#initialize list of dictionaries
     baep = [{base:1}
             for base in allOperators[0] 
         ]
-
+	#populate dataset with base representation from all input operators
     for operator in allOperators[1:]:
         for pos in range(0, len(operator)):
             base = operator[pos]
@@ -198,11 +208,8 @@ def appendOperatorMetadata(homologListFile, knownOperator):
         homologList = pickle.load(f)
         for i in homologList:
             i["operator"], i["score"] = findOperatorInIntergenic(i["intergenic"], knownOperator)
-            #print(i["operator"])
             i["invRepeat"] = getBestInvertedRepeat(i["operator"])
         
-        #print(getConsensus(homologList))
-        #print(homologList[0]["operator"])
         consensus_data = getConsensus(homologList)
         print("got operator, inverted repeat, and consensus data. Sending out consensus data")
         return consensus_data
@@ -221,27 +228,3 @@ if __name__ == "__main__":
 
     invRepeat = getBestInvertedRepeat(glpr)
     print(invRepeat)
-
-    """
-
-    #print('getting operators')
-
-    #homologList = appendOperatorMetadata('homolog_metadata/ramr50.pkl', ramr_operator)
-    with open('homolog_metadata/ramr50.pkl', mode='rb') as f:
-        homologList = pickle.load(f)
-    
-    #with open('ramr50.pkl', mode="wb") as f:
-    #    pickle.dump(homologList, f)
-   
-    #pprint(homologList)
-    
-    consensus = getConsensus(homologList)
-    print("consensus operator: "+str(consensus))
-
-    mostSymmetric = getMostSymmetric(homologList)
-    print("most symmetric operator: "+str(mostSymmetric))
-    
-    #alignIntergenic(homologList)
-    
-    #print("max score = "+str(len(operator)*2)
-   """ 

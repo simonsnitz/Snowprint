@@ -28,14 +28,14 @@ glprTHAF27 = "WP_152491583.1"
 bm3r1_accession = "WP_013083972.1"
 
 acc = bm3r1_accession
-operatorFile = "bm3r1.txt"
+operatorFile = "bm3r1_all.txt"
 
     #having period in accession name screws things up
 if acc[-2] == ".":
     acc = acc[0:-2]
 print(acc)
 
-perc_ident = 70
+perc_ident = 50
 
 #Also, include a known operator for a regulator within this cluster within the /knownOperators directory
 
@@ -55,14 +55,24 @@ def operator_or_intergenic(acc,operatorFile):
             print("No known operator found. Using intergenic region")
             return operator
 
+def yes_or_no(question):
+    reply = str(input(question+' (y/n): ')).lower().strip()
+    if reply[0] == 'y':
+        return True
+    if reply[0] == 'n':
+        return False
+    else:
+        return yes_or_no("Uhhh ... pls enter ")
 
-#appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
-#operator = operator_or_intergenic(acc,operatorFile)
-#appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", knownOperator)
-#consensus_data = appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", operator)
-#create_html(consensus_data,"display/html_pages/"+acc)
 
-#"""
+
+appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
+operator = operator_or_intergenic(acc,operatorFile)
+appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", operator)
+consensus_data = appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", operator)
+create_html(consensus_data,"display/html_pages/"+acc)
+
+"""
 try:
     operator = operator_or_intergenic(acc,operatorFile)
     consensus_data = appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", operator)
@@ -70,6 +80,7 @@ try:
 except:
     print("no intergenic data cached. Pulling intergenic data")
     try:
+        yes_or_no('get intergenic region?')
         appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
         operator = operator_or_intergenic(acc,operatorFile)
         consensus_data = appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", operator)
@@ -77,11 +88,12 @@ except:
     except:
         print("no homolog data cached. Blasting protein")
         acc2homolog_list(acc, perc_ident)
+        yes_or_no('get intergenic region?')
         appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
         operator = operator_or_intergenic(acc,operatorFile)
         consensus_data = appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", operator)
         create_html(consensus_data,"display/html_pages/"+acc)
-#"""
+"""
 
 
 
