@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<body>
+	<div id="operator">
+	</div>
+</body>
+
+
+<style>
+#operator{
+	margin-left: 20vw;
+	margin-top:50vh;
+	position: relative;
+	display:block;
+	//border: 1px solid black;
+}
+</style>
+
+	<script>
+		let letters = ["A","T","C","G","T","T","G","A","G","C","C"];
+		let scale = [0.5,5,2,1.5,2,6,5,2,4,5,2];
+
+		let letterColors = {"A":"red", "T":"green", "C":"blue","G":"black"};
+		let container = document.getElementById("operator");
+		for (i in letters) {
+			let letter = document.createElement('div');
+			letter.innerText = letters[i];
+			letter.setAttribute("style", "color:"+letterColors[letters[i]]+"; font-size:4rem; transform:scaleY("+scale[i].toString()+"); display:inline-block; padding-bottom: 2.5rem;")
+			container.appendChild(letter);
+		}
+
+
+
+	</script>
+
+
+</html>
+

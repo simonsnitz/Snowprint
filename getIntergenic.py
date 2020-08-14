@@ -111,21 +111,8 @@ def appendIntergenic(homologListFile):
     print("data not found for "+str(noDataCount)+" out of "+str(preFilteredLength))
 
 
-def check4intergenic(homologListFile):
-    with open(f'{homologListFile}', mode='rb') as f:
-        homologList = pickle.load(f)
-        print(homologList)
-        try:
-            print(homologList[0]["intergenic"])
-            print("intergenic data cached")
-        except:
-            print("cached data not found")
-            #print('getting intergenic')
-            #appendIntergenic(homologListFile)
 
 
-
-\
 if __name__ == "__main__":
 
     print('main')    

@@ -26,11 +26,12 @@ def accID2sequence(accID):
         print(response.status_code)
 
 
-def blast_and_cache(sequence, acc, perc_ident=50, db="nr", hitlist_size=70):
+#def blast_and_cache(sequence, acc, perc_ident=50, db="nr", hitlist_size=50):   hitlist_size would trump perc_ident
+def blast_and_cache(sequence, acc, perc_ident=50, db="nr"):
         with open(f'cache/blast_cache/{acc}.xml', mode="w+") as f:
             print("found this sequence:\n"+sequence)
             print('entering blast function')
-            blast_results = qblast("blastp", db, sequence, perc_ident=perc_ident, hitlist_size=hitlist_size)
+            blast_results = qblast("blastp", db, sequence, perc_ident=perc_ident)
                     #hitlist_size=alignments)
             print('finished blast')
             f.write(blast_results.read())

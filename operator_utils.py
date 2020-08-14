@@ -118,24 +118,65 @@ def alignIntergenic(homologList):
     align = AlignIO.read(StringIO(std_out), "fasta")
     print(align[2].seq)
 '''
-            #filter by identity or by alignment score? Both? Some alignments from ~80% homologs have crap scores
-def getConsensus(homologList, max_ident=100, min_ident=70):      #DUUUDE! Mad list comprehension!!!
+def getConsensus(homologList, max_ident=100, min_ident=50):      #DUUUDE! Mad list comprehension!!!
     
+            #filter by identity and by alignment score Some alignments from ~80% homologs have crap scores
     allOperators = [ i["operator"] for i in homologList
             if "operator" in i.keys() and i["identity"] >= min_ident and i["identity"] <= max_ident and i["score"] != 0]
 
-    #bases_at_each_position = [ [i[pos] for i in allOperators if len(i) == 27]   #added if statement do deal with weirdness
-    bases_at_each_position = [ [i[pos] for i in allOperators]   #added if statement do deal with weirdness
-            for pos in range(0, len(allOperators[0])) ] 
 
-    def mostFrequent(List):         #function to make it more readable
-        return max(set(List), key=List.count)
+    baep = [{base:1}
+            for base in allOperators[0] 
+        ]
 
-    consensusOperator = "".join(mostFrequent(i) for i in bases_at_each_position)
-    print(bases_at_each_position)
+    for operator in allOperators[1:]:
+        for pos in range(0, len(operator)):
+            base = operator[pos]
+            try:
+                baep[pos][base] +=1
+            except:
+                baep[pos].update({base:1})
 
-    return consensusOperator
-    #return getBestInvertedRepeat(consensusOperator)
+
+    max_values = [max(baep[pos].values()) for pos in range(0,len(baep))]
+    max_score = max(max_values)
+	#convert base conservation scores as a percent of max
+    max_values_percent = [ round(i/max_score,2) for i in max_values ] 
+
+    def get_key(my_dict,val):
+        for key, value in my_dict.items():
+            if val == value:
+                return key
+
+        return "key doesn't exist"
+
+	#create list of most conserved bases at each position
+    consensusSeq = [ get_key(baep[pos], max_values[pos])
+        for pos in range(0, len(allOperators[0]))
+    ]
+
+	#dictionary containing the base and it's score at each position
+    consensus_data = [{"base":consensusSeq[i] , "score":max_values_percent[i]} 
+            for i in range(0,len(max_values))
+        ]
+
+
+	#separate code block to format consensus sequence. If base highly conserved, it gets capitalized
+    def ifConserved(consensus,max_score):
+        if consensus["score"] == max_score:
+            return consensus["base"].upper()
+        else:
+            return consensus["base"].lower()
+
+    print("max score is: "+str(max_score))
+    
+    formattedSeq = "".join( ifConserved(consensus_data[pos], max_score) for pos in range(0,len(max_values)))
+    #print(formattedSeq)
+	#end of formatting consensus seq function
+
+
+    return consensus_data
+
 
 
 def getMostSymmetric(homologList, min_identity=65):
@@ -156,25 +197,32 @@ def appendOperatorMetadata(homologListFile, knownOperator):
     with open(f'{homologListFile}', mode="rb") as f:
         homologList = pickle.load(f)
         for i in homologList:
-            #try:
             i["operator"], i["score"] = findOperatorInIntergenic(i["intergenic"], knownOperator)
+            #print(i["operator"])
             i["invRepeat"] = getBestInvertedRepeat(i["operator"])
-            
-            #if i["score"] != 0:
-                #print(i["operator"])
-                #print(i["identity"])
-                #print(i["invRepeat"])
-       
         
-        print("      consensus sequence")
-        print(getConsensus(homologList))
-        return homologList
+        #print(getConsensus(homologList))
+        #print(homologList[0]["operator"])
+        consensus_data = getConsensus(homologList)
+        print("got operator, inverted repeat, and consensus data. Sending out consensus data")
+        return consensus_data
+        #return homologList
+    
             
 
 if __name__ == "__main__":
 
     ramr_operator = "ATGAGTGAGTACGCAACTCAT"
     camr_operator = "GTATATCGCAGATATAG"
+
+
+    with open('knownOperators/glpr.txt', mode='r') as f:
+        glpr = f.read()
+
+    invRepeat = getBestInvertedRepeat(glpr)
+    print(invRepeat)
+
+    """
 
     #print('getting operators')
 
@@ -196,4 +244,4 @@ if __name__ == "__main__":
     #alignIntergenic(homologList)
     
     #print("max score = "+str(len(operator)*2)
-    
+   """ 
