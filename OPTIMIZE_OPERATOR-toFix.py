@@ -4,6 +4,7 @@ from operator_utils import appendOperatorMetadata
 from display.operator_graphic import create_operator_html as create_html
 import sys
 import pickle
+import platform
 
 ''' functions:
 
@@ -22,15 +23,18 @@ acur = "WP_011336736.1"
 camr = "BAA03510.1"
 lrpr = "WP_019744253"
 alkx = "AEM66515.1"
-mmsr = "AGI24556.1"
-glpr = "WP_157707983.1"
-glprTHAF27 = "WP_152491583.1"
 bm3r1 = "WP_013083972.1"
 sco4850 = "WP_011029905.1"
+mmsr = "AGI24556.1"
+
+glpr = "WP_157707983.1"
+glprTHAF27 = "WP_152491583.1"
+glprPAED = "WP_165195465.1"
+glprTHAS = "WP_106472839.1"
 
 acc = sco4850
 
-#operatorFile = "bm3r1.txt"
+#operatorFile = "mmsr.txt"
 operatorFile = "None"
 
     #having period in accession name screws things up
@@ -38,25 +42,23 @@ if acc[-2] == ".":
     acc = acc[0:-2]
 print(acc)
 
-perc_ident = 50
+hitsize_list = 100
+perc_ident = 90
 
 #Also, include a known operator for a regulator within this cluster within the /knownOperators directory
 
     #Use a known operator if there is one. Otherwise, just use the intergenic region
 
-def operator_or_intergenic(acc,operatorFile):
+def operator_or_none(acc,operatorFile):
     try:
         with open(f"knownOperators/{operatorFile}") as f:
             operator = f.read().replace('\n','')
             print("Known operator found: "+operator)
             return operator
     except:
-        with open(f"cache/homolog_metadata/{acc}.pkl", mode="rb") as f:
-            homologList = pickle.load(f)
-            operator = homologList[0]["intergenic"]
-            #operator = min([homologList[i]["intergenic"] for i in range(0,len(homologList))], key=len)
-            print("No known operator found. Using intergenic region: "+operator)
-            return operator
+        operator = None
+        print("no known operator. Finding inverted repeats")
+        return operator
 
 def yes_or_no(question):
     reply = str(input(question+' (y/n): ')).lower().strip()
@@ -69,12 +71,16 @@ def yes_or_no(question):
 
 
 
-#acc2homolog_list(acc, perc_ident)
+#acc2homolog_list(acc, hitsize_list)
 #appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
-operator = operator_or_intergenic(acc,operatorFile)
-consensus_data = appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", operator)
-print(consensus_data)
-create_html(consensus_data,"display/html_pages/"+acc)
+operator = operator_or_none(acc,operatorFile)
+consensus_data = appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", operator, perc_ident)
+#print(consensus_data)
+
+if platform.release() == "4.4.0-18362-Microsoft":
+    create_html(consensus_data,"../../../../mnt/c/Users/simon.doelsnitz/"+acc)
+else:
+    create_html(consensus_data,"display/html_pages/"+acc)
 
 """
 try:

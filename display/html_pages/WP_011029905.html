@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+	<div id="operator">
+	</div>
+</body>
+
+
+<style>
+#operator{
+	margin-left: 2vw;
+	margin-right: 2vw;
+	margin-top:50vh;
+	position: relative;
+	display:block;
+	overflow-x: scroll;
+	white-space: nowrap;
+	border: 1px solid black;
+}
+</style>
+
+	<script>
+
+		let letterColors = {"A":"red", "T":"green", "C":"blue","G":"black"};
+		
+		function renderOperator(operator) {
+		
+			let container = document.getElementById("operator");
+			
+			let letters = operator.map(x => x["base"]);
+			let scale = operator.map(x => x["score"] * x["score"]);		
+
+			for (i in letters) {
+				let letter = document.createElement('div');
+				letter.innerText = letters[i];
+				letter.setAttribute("style", "color:"+letterColors[letters[i]]+"; font-size:4rem; transform:scaleY("+scale[i].toString()+"); display:inline-block; padding-bottom: 2.5rem;")
+				container.appendChild(letter);
+			}
+		}
+	
+	//since javascript doesn't have a built-in range function	
+	function range(start, stop){
+		var myList = [];
+		for (let i = start; i <= (stop-1); i++){
+			myList.push(i);
+		}
+		return myList;
+	}
+
+		// insert operator code below
+
+
+            // new section appended below //
+
+            var graphic = ['[{"base": "C", "score": 0.7}, {"base": "C", "score": 0.83}, {"base": "T", "score": 0.33}, {"base": "T", "score": 0.53}, {"base": "A", "score": 0.7}, {"base": "G", "score": 0.63}, {"base": "G", "score": 0.97}, {"base": "T", "score": 0.8}, {"base": "T", "score": 0.8}, {"base": "G", "score": 0.9}, {"base": "G", "score": 0.93}, {"base": "C", "score": 0.6}, {"base": "G", "score": 0.9}, {"base": "C", "score": 1.0}, {"base": "T", "score": 0.47}, {"base": "G", "score": 0.93}, {"base": "T", "score": 0.7}, {"base": "G", "score": 0.8}, {"base": "A", "score": 0.6}, {"base": "G", "score": 0.87}, {"base": "C", "score": 0.77}, {"base": "C", "score": 0.8}, {"base": "A", "score": 0.6}, {"base": "G", "score": 0.67}, {"base": "C", "score": 0.93}, {"base": "A", "score": 0.6}, {"base": "C", "score": 0.87}, {"base": "G", "score": 0.8}, {"base": "G", "score": 0.83}, {"base": "A", "score": 0.53}, {"base": "G", "score": 0.7}, {"base": "G", "score": 0.63}, {"base": "C", "score": 0.97}, {"base": "C", "score": 0.93}, {"base": "G", "score": 1.0}, {"base": "G", "score": 0.67}, {"base": "A", "score": 0.63}, {"base": "T", "score": 0.53}, {"base": "A", "score": 0.63}, {"base": "C", "score": 0.77}, {"base": "C", "score": 0.7}, {"base": "G", "score": 0.6}]', '[{"base": "A", "score": 0.5}, {"base": "G", "score": 0.62}, {"base": "C", "score": 0.56}, {"base": "C", "score": 0.84}, {"base": "A", "score": 0.66}, {"base": "G", "score": 0.84}, {"base": "C", "score": 0.78}, {"base": "A", "score": 0.62}, {"base": "C", "score": 0.72}, {"base": "G", "score": 0.75}, {"base": "G", "score": 0.66}, {"base": "A", "score": 0.81}, {"base": "G", "score": 0.59}, {"base": "G", "score": 0.97}, {"base": "C", "score": 0.88}, {"base": "C", "score": 0.75}, {"base": "G", "score": 0.88}, {"base": "G", "score": 0.94}, {"base": "A", "score": 0.69}, {"base": "C", "score": 0.44}, {"base": "A", "score": 0.66}, {"base": "C", "score": 0.91}, {"base": "C", "score": 0.84}, {"base": "G", "score": 0.94}, {"base": "G", "score": 1.0}, {"base": "C", "score": 0.84}, {"base": "G", "score": 0.78}, {"base": "C", "score": 0.84}, {"base": "A", "score": 0.59}, {"base": "C", "score": 0.84}, {"base": "A", "score": 0.53}, {"base": "A", "score": 0.62}, {"base": "G", "score": 0.91}, {"base": "G", "score": 0.75}, {"base": "T", "score": 0.72}, {"base": "G", "score": 0.81}, {"base": "G", "score": 0.5}, {"base": "G", "score": 0.72}, {"base": "G", "score": 0.44}]']
+
+            var len = graphic.length
+            for (i in range(0, len)){
+                var data = JSON.parse(graphic[i])
+                renderOperator(data)
+            }
+
+    </script>
+
+    </html>
+    

@@ -27,7 +27,7 @@ def accID2sequence(accID):
 
 
 #def blast_and_cache(sequence, acc, perc_ident=50, db="nr", hitlist_size=50):   hitlist_size would trump perc_ident
-def blast_and_cache(sequence, acc, perc_ident=50, db="nr"):
+def blast_and_cache(sequence, acc, hitsize_list=100, db="nr"):
         with open(f'cache/blast_cache/{acc}.xml', mode="w+") as f:
             print("found this sequence:\n"+sequence)
             print('entering blast function')
@@ -119,7 +119,7 @@ def acc2homolog_list(acc, perc_ident):
     except:
         print('no existing cache found')
         sequence = accID2sequence(acc)
-        blast_and_cache(sequence, acc, perc_ident)
+        blast_and_cache(sequence, acc, hitsize_list)
         homologs = homologs2accID_ident(acc)
     return homologs
 
