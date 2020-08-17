@@ -24,9 +24,10 @@
 	<script>
 
 		let letterColors = {"A":"red", "T":"green", "C":"blue","G":"black"};
-		let container = document.getElementById("operator");
 		
 		function renderOperator(operator) {
+		
+			let container = document.getElementById("operator");
 			
 			let letters = operator.map(x => x["base"]);
 			let scale = operator.map(x => x["score"] * x["score"]);		
@@ -38,5 +39,14 @@
 				container.appendChild(letter);
 			}
 		}
+	
+	//since javascript doesn't have a built-in range function	
+	function range(start, stop){
+		var myList = [];
+		for (let i = start; i <= (stop-1); i++){
+			myList.push(i);
+		}
+		return myList;
+	}
 
 		// insert operator code below

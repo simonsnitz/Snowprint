@@ -55,10 +55,11 @@ def findOperatorInIntergenic(intergenic, operator):
     '''
         #Set score cutoff to be 40% of max. Arbitrary, but seems reasonable.
     max_score = 2*operator_length
-    score_cutoff = max_score*0.3
+    score_cutoff = max_score*0.1
 
     if score > score_cutoff:
-        operator = extractOperator(upstr_align, op_align)
+        #operator = extractOperator(upstr_align, op_align)
+        operator = upstr_align
         return [operator, score]
     else:
         return [None,0]
@@ -83,12 +84,11 @@ def complement(sequence):
 #Functions for finding inverted repeats within a given sequence
 
 def findInvertedRepeat(intergenic, size):
-    operators = []
     for i in range(0,len(intergenic)-((2*size))):
         seq = intergenic[i:i+size]
         revCompSeq = complement(seq)[::-1]
         maxAllowedSpacer = i+size+8
-
+            
         for j in range(i+size,maxAllowedSpacer):
             compare = intergenic[j:j+size]
             if compare == revCompSeq:
@@ -99,7 +99,7 @@ def findInvertedRepeat(intergenic, size):
                 middle = intergenic[i+size:j].lower()
                 seqR = compare.upper()
                 end = intergenic[j+size:].lower()
-                #print(beginning+seqF+middle+seqR+end)
+                print(beginning+seqF+middle+seqR+end)
                 #'''
                 try:
                     beginning = intergenic[i-10:i].upper()
@@ -114,8 +114,7 @@ def findInvertedRepeat(intergenic, size):
                     end = intergenic[j+size:j+size+5].upper()
                 operator = beginning+seqF+middle+seqR+end
 
-                operators.append(operator)
-    return operators
+                return operator
 
 
 def getBestInvertedRepeat(operator):
@@ -167,7 +166,7 @@ def getConsensus(homologList, max_ident=100, min_ident=50):      #DUUUDE! Mad li
         ]
 	#populate dataset with base representation from all input operators
     for operator in allOperators[1:]:
-        for pos in range(0, len(operator)):
+        for pos in range(0, len(allOperators[0])):
             base = operator[pos]
             #if base != '-':
             try:
@@ -217,7 +216,7 @@ def getConsensus(homologList, max_ident=100, min_ident=50):      #DUUUDE! Mad li
 
 
 
-def getMostSymmetric(homologList, min_identity=50):
+def getMostSymmetric(homologList, min_identity=65):
 
     bestIR = max([i["invRepeat"][1] for i in homologList if i["invRepeat"] != None if "invRepeat" in i.keys()  if i["identity"] >= min_identity])
 
@@ -235,26 +234,18 @@ def appendOperatorMetadata(homologListFile, knownOperator):
     with open(f'{homologListFile}', mode="rb") as f:
         homologList = pickle.load(f)
         
-        #operator = "GTATATCGCAGATATAG"
-        operators = getBestInvertedRepeat(homologList[0]["intergenic"])[0]
-        print("inverted repeat found: "+ str(operators))
-        
-        consensus_data = []
-        for operator in operators:
-            for i in homologList:
-                i["operator"], i["score"] =  findOperatorInIntergenic(i["intergenic"], operator)
-            consensus_data.append(getConsensus(homologList))
-        
-        return consensus_data
-        
-        ''' #for single operator is known
+        #operator = getBestInvertedRepeat(homologList[0]["intergenic"])[0]
+        #print("inverted repeat found: "+ operator)
+        operator = homologList[0]["intergenic"] 
+
         for i in homologList:
             i["operator"], i["score"] = findOperatorInIntergenic(i["intergenic"], operator)
-            i["invRepeat"] = getBestInvertedRepeat(i["operator"])
+            #i["invRepeat"] = getBestInvertedRepeat(i["operator"])
+        
+        
         consensus_data = getConsensus(homologList)
         print("got operator, inverted repeat, and consensus data. Sending out consensus data")
         return consensus_data
-        '''
     
 
 if __name__ == "__main__":
@@ -273,15 +264,16 @@ if __name__ == "__main__":
     with open(f'cache/homolog_metadata/{acc}', mode='rb') as f:
         homologs = pickle.load(f)
         
-        operators = getBestInvertedRepeat(homologs[0]["intergenic"])[0]
-        print(operators)
+        #operator = getBestInvertedRepeat(homologs[0]["intergenic"])[0]
         #print("inverted repeat found: "+ operator)
+        operator = homologs[0]["intergenic"]
         
-        #for i in homologs:
-        #    i["operator"], i["score"] = findOperatorInIntergenic(i["intergenic"], operator)
+        for i in homologs:
+            i["operator"], i["score"] = findOperatorInIntergenic(i["intergenic"], operator)
+            #print(i["operator"])
 
-        #consensus_data = getConsensus(homologs)
-        #print(consensus_data)
+        consensus_data = getConsensus(homologs)
+        print(consensus_data)
 
     
     #invRepeat = getBestInvertedRepeat(homologs)

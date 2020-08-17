@@ -18,17 +18,20 @@ appendOperatorMetadata(homologListFile, knownOperator)
 '''
 
 ########  USER INPUTS  ########
-acur_accession = "WP_011336736.1"
-camr_accession = "BAA03510.1"
-lrpr_accession = "WP_019744253"
-alkx_accession = "AEM66515.1"
-mmsr_accession = "AGI24556.1"
-glpr_accession = "WP_157707983.1"
+acur = "WP_011336736.1"
+camr = "BAA03510.1"
+lrpr = "WP_019744253"
+alkx = "AEM66515.1"
+mmsr = "AGI24556.1"
+glpr = "WP_157707983.1"
 glprTHAF27 = "WP_152491583.1"
-bm3r1_accession = "WP_013083972.1"
+bm3r1 = "WP_013083972.1"
+sco4850 = "WP_011029905.1"
 
-acc = bm3r1_accession
-operatorFile = "bm3r1_all.txt"
+acc = sco4850
+
+#operatorFile = "bm3r1.txt"
+operatorFile = "None"
 
     #having period in accession name screws things up
 if acc[-2] == ".":
@@ -51,8 +54,8 @@ def operator_or_intergenic(acc,operatorFile):
         with open(f"cache/homolog_metadata/{acc}.pkl", mode="rb") as f:
             homologList = pickle.load(f)
             operator = homologList[0]["intergenic"]
-            print(operator)
-            print("No known operator found. Using intergenic region")
+            #operator = min([homologList[i]["intergenic"] for i in range(0,len(homologList))], key=len)
+            print("No known operator found. Using intergenic region: "+operator)
             return operator
 
 def yes_or_no(question):
@@ -66,10 +69,11 @@ def yes_or_no(question):
 
 
 
-appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
+#acc2homolog_list(acc, perc_ident)
+#appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
 operator = operator_or_intergenic(acc,operatorFile)
-appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", operator)
 consensus_data = appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", operator)
+print(consensus_data)
 create_html(consensus_data,"display/html_pages/"+acc)
 
 """

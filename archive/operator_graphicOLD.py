@@ -5,13 +5,13 @@ import json
 import io
 
 
-def create_operator_html(operators, regulator_name):
+def create_operator_html(operator, regulator_name):
     
     #graphic = [ createGraphic(i["operon"], i["regIndex"]) for i in operons ]
     
-    operators = [ json.dumps(i) for i in operators ]
+    operator = json.dumps(operator)
 
-    graphic_js_variable = "var graphic = ["+str(operators)[1:-1]+"]"
+    graphic_js_variable = "var graphic = '["+str(operator)[1:-1]+"]'"
 
 
     newHTML = io.open(regulator_name + ".html", "w")
@@ -26,11 +26,9 @@ def create_operator_html(operators, regulator_name):
 
             """+graphic_js_variable+"""
 
-            var len = graphic.length
-            for (i in range(0, len)){
-                var data = JSON.parse(graphic[i])
+            var data = JSON.parse(graphic)
                 renderOperator(data)
-            }
+
 
     </script>
 
