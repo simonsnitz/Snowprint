@@ -17,7 +17,7 @@ def create_operator_html(operators, regulator_name):
     newHTML = io.open(regulator_name + ".html", "w")
 
 	#make a copy of template file
-    for line in io.open("display/operator_display_template.html", 'r'):
+    for line in io.open("display/operator_template.html", 'r'):
         newHTML.write(line)
 
     append2HTML = """
@@ -26,10 +26,14 @@ def create_operator_html(operators, regulator_name):
 
             """+graphic_js_variable+"""
 
-            var len = graphic.length
-            for (i in range(0, len)){
-                var data = JSON.parse(graphic[i])
-                renderOperator(data)
+
+            //Deals with inputting list of consensus motif data with different percent identity cutoffs
+
+            for (i in range(0, graphic.length)){
+                var data = JSON.parse(graphic[i]);
+                for (j in range(0, data.length)){
+                    renderOperator(data[j]);
+                }
             }
 
     </script>

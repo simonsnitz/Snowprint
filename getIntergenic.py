@@ -3,6 +3,11 @@ import requests
 from Bio import SeqIO
 import acc2operon as a2o
 
+#TODO
+#When running program for AlkU, which has an operator between same-direction genes, this program did not extract the correct inter-operon region. This region is ~310bp, which is well above my supposed "100bp" cutoff to find interoperon regions between same direction genes.
+#Two possible causes:
+#One: KEGG annotations are different than NCBI annotations. NCBI may indicate that there is a gene in that region
+#Two: My program isn't catching it. Not using this filter for some reason, in this particular case.
 
 #def getIntergenicSeq(operon, regIndex, NCacc):
 def operon2Intergenic(operon, regIndex, NCacc):
@@ -21,7 +26,7 @@ def operon2Intergenic(operon, regIndex, NCacc):
                 stop = operon[regIndex]["start"]
                 testLength = int(stop) - int(start)
                     #setting this to 100bp is somewhat arbitrary. Most intergenic regions >= 100bp. May need to tweak.
-                if testLength > 100:
+                if testLength > 250:
                     startPos = start
                     stopPos = stop
                     regType = "type 2"
@@ -63,13 +68,14 @@ def operon2Intergenic(operon, regIndex, NCacc):
     else:
         print('bad request')
 
-    if length <= 500:
+         #800bp cutoff for an inter-operon region. A region too long makes analysis fuzzy and less accurate.
+    if length <= 800:
         output = ""
         for i in intergenic.split('\n')[1:]:
             output += i
         return {"intergenicSeq": output, "regType": regType}
     else:
-        print('intergenic over 500bp detected')
+        print('intergenic over 800bp detected')
         return None
 
 

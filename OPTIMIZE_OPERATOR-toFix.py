@@ -21,29 +21,31 @@ appendOperatorMetadata(homologListFile, knownOperator)
 ########  USER INPUTS  ########
 acur = "WP_011336736.1"
 camr = "BAA03510.1"
-lrpr = "WP_019744253"
+lplr = "WP_019744253"
 alkx = "AEM66515.1"
 bm3r1 = "WP_013083972.1"
 sco4850 = "WP_011029905.1"
 mmsr = "AGI24556.1"
+alku = "WP_009475225.1"
+pocr = "WP_000622326.1"
 
 glpr = "WP_157707983.1"
 glprTHAF27 = "WP_152491583.1"
 glprPAED = "WP_165195465.1"
 glprTHAS = "WP_106472839.1"
 
-acc = sco4850
+acc = pocr
 
-#operatorFile = "mmsr.txt"
-operatorFile = "None"
+operatorFile = "ppocr_up.txt"
+#operatorFile = "None"
 
     #having period in accession name screws things up
 if acc[-2] == ".":
     acc = acc[0:-2]
 print(acc)
 
-hitsize_list = 100
-perc_ident = 90
+hitlist_size = 100
+perc_ident = [90]
 
 #Also, include a known operator for a regulator within this cluster within the /knownOperators directory
 
@@ -71,11 +73,16 @@ def yes_or_no(question):
 
 
 
-#acc2homolog_list(acc, hitsize_list)
+#acc2homolog_list(acc, hitlist_size)
 #appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
 operator = operator_or_none(acc,operatorFile)
-consensus_data = appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", operator, perc_ident)
-#print(consensus_data)
+
+consensus_data = [ appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", operator, i) 
+    for i in perc_ident
+    ]
+
+#consensus_data = appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", operator, perc_ident)
+print(consensus_data)
 
 if platform.release() == "4.4.0-18362-Microsoft":
     create_html(consensus_data,"../../../../mnt/c/Users/simon.doelsnitz/"+acc)

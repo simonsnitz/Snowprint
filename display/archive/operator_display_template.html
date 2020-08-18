@@ -3,13 +3,13 @@
 <html>
 
 <body>
-	<div id="operators">
+	<div id="operator_container">
 	</div>
 </body>
 
 
 <style>
-#operators{
+#operator_container{
 	margin-left: 2vw;
 	margin-right: 2vw;
 	margin-top:50vh;
@@ -24,22 +24,22 @@
 	<script>
 
 		let letterColors = {"A":"red", "T":"green", "C":"blue","G":"black"};
-		let operators = document.getElementById("operators")	
+		let operator_container = document.getElementById("operator_container")	
 	
-		function renderOperator(operator) {
+		function renderOperator(operator_data) {
 		
-			let container = document.createElement("div");
+			let operator = document.createElement("div");
 			
-			let letters = operator.map(x => x["base"]);
-			let scale = operator.map(x => x["score"]**3);		
+			let letters = operator_data["motif"].map(x => x["base"]);
+			let scale = operator_data["motif"].map(x => x["score"]**3);		
 
 			for (i in letters) {
 				let letter = document.createElement('div');
 				letter.innerText = letters[i];
-				letter.setAttribute("style", "color:"+letterColors[letters[i]]+"; font-size:4rem; transform:scaleY("+scale[i].toString()+"); display:inline-block; padding-bottom: 2.5rem;")
-				container.appendChild(letter);
-				operators.appendChild(container);
+				letter.setAttribute("style", "color:"+letterColors[letters[i]]+"; font-size:4rem; transform:scaleY("+scale[i].toString()+"); display:inline-block; padding-bottom: 2.5rem; width:3rem;")
+				operator.appendChild(letter);
 			}
+				operator_container.appendChild(operator);
 		}
 	
 	//since javascript doesn't have a built-in range function	

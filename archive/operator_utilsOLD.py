@@ -42,8 +42,7 @@ def findOperatorInIntergenic(intergenic, operator):
                 break
         end = (beginning + operator_length)
             #can change position of output sequence to include more or less
-        return intergenic[beginning:end]
-        #return intergenic[beginning-3:end+3]
+        return intergenic[beginning-3:end+3]
 
     try:
         upstr_align, op_align, score, startPos, endPos = \
@@ -56,7 +55,7 @@ def findOperatorInIntergenic(intergenic, operator):
     '''
         #Set score cutoff to be 40% of max. Arbitrary, but seems reasonable.
     max_score = 2*operator_length
-    score_cutoff = max_score*0.1
+    score_cutoff = max_score*0.4
 
     if score > score_cutoff:
         operator = extractOperator(upstr_align, op_align)
@@ -156,7 +155,7 @@ def getConsensus(homologList, max_ident=100, min_ident=70):      #DUUUDE! Mad li
     allOperators = [ i["operator"] for i in homologList
             if "operator" in i.keys() and i["identity"] >= min_ident and i["identity"] <= max_ident and i["score"] != 0]
 
-    #print("allOperators: "+str(allOperators))
+    print("allOperators: "+str(allOperators))
 
 	#initialize list of dictionaries
     baep = [{base:1}
@@ -197,7 +196,7 @@ def getConsensus(homologList, max_ident=100, min_ident=70):      #DUUUDE! Mad li
             for i in range(0,len(max_values))
         ]
 
-    '''
+
 	#separate code block to format consensus sequence. If base highly conserved, it gets capitalized
     def ifConserved(consensus,max_score):
         if consensus["score"] == max_score:
@@ -210,9 +209,9 @@ def getConsensus(homologList, max_ident=100, min_ident=70):      #DUUUDE! Mad li
     formattedSeq = "".join( ifConserved(consensus_data[pos], max_score) for pos in range(0,len(max_values)))
     print(formattedSeq)
 	#end of formatting consensus seq function
-    '''
 
-    return [consensus_data, max_score]
+
+    return consensus_data
 
 
 
@@ -234,29 +233,22 @@ def appendOperatorMetadata(homologListFile, knownOperator, perc_ident):
     with open(f'{homologListFile}', mode="rb") as f:
         homologList = pickle.load(f)
         
-        print(homologList[0]["intergenic"])
         if knownOperator == None:
             operators = getBestInvertedRepeat(homologList[0]["intergenic"])[0]
-            #print("inverted repeat found: "+ str(operators))
+            print("inverted repeat found: "+ str(operators))
         else:
             operators = [knownOperator]
         
-
+        
         consensus_data = []
-        num_seqs = []
         for operator in operators:
             for i in homologList:
                 i["operator"], i["score"] =  findOperatorInIntergenic(i["intergenic"], operator.upper())
-            
-            consensus_data.append(getConsensus(homologList, min_ident=perc_ident)[0])
-            num_seqs.append(getConsensus(homologList, min_ident=perc_ident)[1])
+            consensus_data.append(getConsensus(homologList, min_ident=perc_ident))
 			
-        operator_data = [ {"input_seq": operators[i], "perc_ident":perc_ident, "num_seqs":num_seqs[i], "motif": consensus_data[i]} 
-            for i in range(0,len(operators))
-        ]       
         
-        return operator_data       
- 
+        return consensus_data
+        
         ''' #for single operator is known
         for i in homologList:
             i["operator"], i["score"] = findOperatorInIntergenic(i["intergenic"], operator)
