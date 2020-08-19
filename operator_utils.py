@@ -234,7 +234,6 @@ def appendOperatorMetadata(homologListFile, knownOperator, perc_ident):
     with open(f'{homologListFile}', mode="rb") as f:
         homologList = pickle.load(f)
         
-        print(homologList[0]["intergenic"])
         if knownOperator == None:
             operators = getBestInvertedRepeat(homologList[0]["intergenic"])[0]
             #print("inverted repeat found: "+ str(operators))
