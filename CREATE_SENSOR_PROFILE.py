@@ -69,7 +69,7 @@ consensus_data = [ appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", o
 
 with open(f"cache/homolog_metadata/{acc}.pkl", mode='rb') as f:
     data = pickle.load(f)
-    operons = [data[0]]
+    operons = data[0:15]
 
 print(operons)
 

@@ -105,7 +105,8 @@ def create_html(operons, search_term):
     #with open(f'{infile}', 'rb') as f:
     #operons = pickle.load(f)
 
-    graphic = [ createGraphic(i["operon"], i["regIndex"]) for i in operons ]
+    graphic = [[ json.dumps(i["accession"]), json.dumps(i["identity"]), createGraphic(i["operon"], i["regIndex"])] for i in operons ]
+    #graphic = [ {"accession":i["accession"], "identity":str(i["identity"]), "operon":createGraphic(i["operon"], i["regIndex"])} for i in operons ]
     
     #pprint(graphic[1])
 
@@ -129,8 +130,10 @@ def create_html(operons, search_term):
 
             var len = graphic.length
             for (i in range(0, len)){
-                var data = JSON.parse(graphic[i])
-                renderOperon(data)
+                var accession = JSON.parse(graphic[i][0])
+                var identity = JSON.parse(graphic[i][1])
+                var operon = JSON.parse(graphic[i][2])
+                renderOperon(accession, identity, operon)
             }
 
 

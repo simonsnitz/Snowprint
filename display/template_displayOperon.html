@@ -5,10 +5,24 @@
 
 <style>
 
-#operonContainer{
-	width: 90vw;
-	margin: auto;
-	height: 100vh;
+#all_operons_container {
+    border: 1px solid black;
+}
+
+.operon_description{
+    width: 20vw;
+    display: inline-block;
+    //border: 1px solid black;
+    text-align: center;
+    font-size: 1.3rem;
+    vertical-align: middle;
+}
+
+.operonContainer{
+	width: 75vw;
+	padding-top: 3vh;
+    display: inline-block;
+    //border: 1px solid black;
 }
 
 .spacer{
@@ -97,12 +111,12 @@
 	visibility: visible;
 }
 
-#line{
+.line{
 	background-color: black;
 	height:2px;
-	width: 90%;
+	width: 75vw;
 	position: absolute;
-	top: 19px;
+	margin-top: -25px;
 }
 
 </style>
@@ -111,17 +125,23 @@
 	</head>
 
 	<body>
-		<div id="operonContainer"></div>
+		<div id="all_operons_container"></div>
 	</body>
 
 
 
 <script>
 
+    let all_operons = document.getElementById("all_operons_container");
 	
-	function renderOperon(operon) {
+	function renderOperon(accession, identity, operon) {
+ 
+    let operon_description = document.createElement("div");
+    operon_description.classList.add("operon_description");
+    operon_description.innerText = "Accession: "+accession+"\n\nPercent Identity: "+identity;
 
-	let container = document.getElementById("operonContainer");
+	let container = document.createElement("div");
+    container.classList.add("operonContainer");
 
 	for (i in operon) {
 		
@@ -149,15 +169,15 @@
 		link.appendChild(gene);
 		container.appendChild(link);
 
-		spacer = document.createElement('span');
-		spacer.classList.add("spacer");
-		//spacer.innerHTML = "the";
-
 	}
+    let spacer = document.createElement('span');
+	spacer.classList.add("spacer");
 	let line = document.createElement('hr');
-	line.id = "line";
+	line.classList.add("line");
 	container.appendChild(line);
 	container.appendChild(spacer);
+    all_operons.appendChild(operon_description);
+    all_operons.appendChild(container);
 	}
 
 

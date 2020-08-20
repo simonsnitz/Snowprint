@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Operon Graphic</title>
+
+<style>
+
+#all_operons_container {
+    border: 1px solid black;
+}
+
+.operon_description{
+    width: 20vw;
+    display: inline-block;
+    //border: 1px solid black;
+    text-align: center;
+    font-size: 1.3rem;
+    vertical-align: middle;
+}
+
+.operonContainer{
+	width: 75vw;
+	padding-top: 3vh;
+    display: inline-block;
+    //border: 1px solid black;
+}
+
+.operon_scroll_container{
+   width: 75vw;
+   padding-top: 3vh;
+   display: inline-block;
+   height: 70vh;
+   overflow-y: scroll;
+}
+
+.spacer{
+	display: block;
+	height: 20vh;
+}
+
+.Rgene{
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+}
+
+
+.Rgene:before{
+	content:"";
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-left: var(--color);
+	border-top: 20px solid white;
+	border-bottom: 20px solid white;
+	z-index: 2;
+}
+
+.Rgene .description {
+	visibility: hidden;
+	width: 9rem;
+	text-align: center;
+	padding: 5px 0;
+	border: 1px solid black;
+	border-radius: 3px;
+	border-color: #225470;
+	position: absolute;
+	top: 250%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	color: black;
+}
+
+.Rgene:hover .description {
+	visibility: visible;
+}
+
+.Lgene {
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	z-index:1;
+}
+
+.Lgene:after{
+	content:"";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-right: var(--color);
+	border-top: 20px solid white;
+	border-bottom: 20px solid white;
+	z-index: 2;
+}
+
+.Lgene .description {
+	visibility: hidden;
+	width: 9rem;
+	text-align: center;
+	padding: 5px 0;
+	border: 1px solid black;
+	border-radius: 3px;
+	border-color: #225470;
+	position: absolute;
+	top: 250%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	color: black;
+}
+
+.Lgene:hover .description {
+	visibility: visible;
+}
+
+.line{
+	background-color: black;
+	height:2px;
+	width: 75vw;
+	position: absolute;
+	margin-top: -25px;
+}
+
+</style>
+
+			
+	</head>
+
+	<body>
+		<div id="all_operons_container"></div>
+	</body>
+
+
+
+<script>
+
+    let all_operons = document.getElementById("all_operons_container");
+	
+    let template_container = document.createElement("div");
+    template_container.classList.add("operonContainer");
+
+    let homolog_container = document.createElement("div");
+    homolog_container.classList.add("operon_scroll_container");
+	
+	function renderOperon(accession, identity, operon) {
+
+    let operon_container = document.createElement("div");
+    let operon_graphic = document.createElement("div");
+ 
+    let operon_description = document.createElement("div");
+    operon_description.classList.add("operon_description");
+    operon_description.innerText = "Accession: "+accession+"\n\nPercent Identity: "+identity;
+
+
+	for (i in operon) {
+		
+		let link = document.createElement('a');
+		if (operon[i]['link'].length !== 0){
+			link.setAttribute("href", "https://ncbi.nlm.nih.gov/protein/"+operon[i]['link']); }
+		link.setAttribute("target", "_blank");
+		let gene = document.createElement('div');
+		if (operon[i]["direction"] == "+"){
+			gene.classList.add("Rgene");
+		} else {
+			gene.classList.add("Lgene");
+		}
+
+		gene.setAttribute("style", "background-color: "+operon[i]["color"]+
+			"; width:"+operon[i]["length"]+
+			"; margin-right:"+operon[i]["spacer"])
+		
+		gene.style.setProperty('--color', '20px solid '+operon[i]["color"]);
+		
+		description = document.createElement('span');
+		description.innerText = operon[i]["description"];
+		description.classList.add("description");
+		gene.appendChild(description)
+		link.appendChild(gene);
+		
+        operon_graphic.appendChild(link);
+
+	}
+    let spacer = document.createElement('span');
+	spacer.classList.add("spacer");
+	let line = document.createElement('hr');
+	line.classList.add("line");
+	
+    operon_container.appendChild(operon_description);
+    operon_container.appendChild(operon_graphic);
+    //operon_container.appendChild(line);
+    operon_container.appendChild(spacer)
+    
+    if (identity == "100.0"){
+	template_container.appendChild(operon_container);
+    all_operons.appendChild(template_container);
+    } else {
+	homolog_container.appendChild(operon_container);
+    all_operons.appendChild(homolog_container);
+    }
+	
+    }
+
+
+	//since javascript doesn't have a built-in range function	
+	function range(start, stop){
+		var myList = [];
+		for (let i = start; i <= (stop-1); i++){
+			myList.push(i);
+		}
+		return myList;
+	}
+
+
+
+            // new section appended below //
+
+            var graphic = [['"WP_013083972"', '100.0', '{"0": {"length": "48.0%", "description": "cytochrome P450", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_013083971.1"}, "1": {"length": "9.0%", "description": "TetR/AcrR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "5.0%", "link": "WP_013083972.1"}, "2": {"length": "6.0%", "description": "nuclear transport factor 2 family protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_013083973.1"}}'], ['"WP_063247369"', '99.48', '{"0": {"length": "48.0%", "description": "cytochrome P450", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_168761019.1"}, "1": {"length": "9.0%", "description": "TetR/AcrR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "5.0%", "link": "WP_063247369.1"}, "2": {"length": "6.0%", "description": "nuclear transport factor 2 family protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_033580511.1"}}'], ['"WP_116514162"', '98.96', '{"0": {"length": "48.0%", "description": "cytochrome P450", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_116514161.1"}, "1": {"length": "9.0%", "description": "TetR/AcrR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "5.0%", "link": "WP_116514162.1"}, "2": {"length": "6.0%", "description": "nuclear transport factor 2 family protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_116514163.1"}}'], ['"WP_075421015"', '99.48', '{"0": {"length": "48.0%", "description": "cytochrome P450", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_075421014.1"}, "1": {"length": "9.0%", "description": "TetR/AcrR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "5.0%", "link": "WP_075421015.1"}, "2": {"length": "6.0%", "description": "nuclear transport factor 2 family protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_075421016.1"}}'], ['"WP_029322896"', '98.96', '{"0": {"length": "48.0%", "description": "cytochrome P450", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_029322894.1"}, "1": {"length": "9.0%", "description": "TetR/AcrR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "5.0%", "link": "WP_029322896.1"}, "2": {"length": "6.0%", "description": "nuclear transport factor 2 family protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_013057936.1"}}'], ['"WP_043981385"', '98.96', '{"0": {"length": "6.0%", "description": "nuclear transport factor 2 family protein", "color": "#ffe042", "direction": "-", "spacer": "5.0%", "link": "WP_043981384.1"}, "1": {"length": "9.0%", "description": "TetR/AcrR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_043981385.1"}, "2": {"length": "48.0%", "description": "cytochrome P450", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "WP_043981386.1"}}'], ['"WP_045294244"', '98.44', '{"0": {"length": "48.0%", "description": "cytochrome P450", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_045294242.1"}, "1": {"length": "9.0%", "description": "TetR/AcrR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "5.0%", "link": "WP_045294244.1"}, "2": {"length": "6.0%", "description": "nuclear transport factor 2 family protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_045294246.1"}}'], ['"WP_129710557"', '98.44', '{"0": {"length": "48.0%", "description": "cytochrome P450", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_129710556.1"}, "1": {"length": "9.0%", "description": "TetR/AcrR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "5.0%", "link": "WP_129710557.1"}, "2": {"length": "6.0%", "description": "nuclear transport factor 2 family protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_129710558.1"}}'], ['"MQR86424"', '98.96', '{"0": {"length": "6.0%", "description": "DUF4440 domain-containing protein", "color": "black", "direction": "-", "spacer": "5.0%", "link": "MQR86423.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "MQR86424.1"}, "2": {"length": "48.0%", "description": "cytochrome P450", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "MQR86425.1"}}'], ['"WP_164795775"', '98.44', '{"0": {"length": "48.0%", "description": "cytochrome P450", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_164795774.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "5.0%", "link": "WP_164795775.1"}, "2": {"length": "6.0%", "description": "DUF4440 domain-containing protein", "color": "black", "direction": "+", "spacer": "0.0%", "link": "WP_164795776.1"}}'], ['"WP_098622241"', '98.44', '{"0": {"length": "6.0%", "description": "nuclear transport factor 2 family protein", "color": "#ffe042", "direction": "-", "spacer": "5.0%", "link": "WP_098622240.1"}, "1": {"length": "9.0%", "description": "TetR/AcrR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_098622241.1"}, "2": {"length": "48.0%", "description": "cytochrome P450", "color": "#ff4242", "direction": "+", "spacer": "4.0%", "link": "WP_182005048.1"}, "3": {"length": "7.0%", "description": "cell wall hydrolase", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": "WP_182005046.1"}}'], ['"WP_013057935"', '98.44', '{"0": {"length": "48.0%", "description": "cytochrome P450", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_013057934.1"}, "1": {"length": "9.0%", "description": "TetR/AcrR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "5.0%", "link": "WP_013057935.1"}, "2": {"length": "6.0%", "description": "nuclear transport factor 2 family protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_013057936.1"}}'], ['"AUO10147"', '98.44', '{"0": {"length": "48.0%", "description": "cytochrome P450", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "AUO10146.1"}, "1": {"length": "9.0%", "description": "TetR/AcrR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "5.0%", "link": "AUO10147.1"}, "2": {"length": "6.0%", "description": "nuclear transport factor 2 family protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "AUO10148.1"}}'], ['"WP_028409287"', '98.44', '{"0": {"length": "48.0%", "description": "cytochrome P450", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_028409286.1"}, "1": {"length": "9.0%", "description": "TetR/AcrR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "5.0%", "link": "WP_028409287.1"}, "2": {"length": "6.0%", "description": "nuclear transport factor 2 family protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_028409288.1"}}'], ['"WP_097822792"', '98.44', '{"0": {"length": "48.0%", "description": "cytochrome P450", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_097822791.1"}, "1": {"length": "9.0%", "description": "TetR/AcrR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "5.0%", "link": "WP_097822792.1"}, "2": {"length": "6.0%", "description": "nuclear transport factor 2 family protein", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_043981384.1"}}']]
+
+            var len = graphic.length
+            for (i in range(0, len)){
+                var accession = JSON.parse(graphic[i][0])
+                var identity = JSON.parse(graphic[i][1])
+                var operon = JSON.parse(graphic[i][2])
+                renderOperon(accession, identity, operon)
+            }
+
+
+    </script>
+
+    </html>
+    
