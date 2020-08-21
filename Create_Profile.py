@@ -2,8 +2,8 @@ from acc2homologs import acc2homolog_list
 from getIntergenic import appendIntergenic
 from operator_utils import appendOperatorMetadata
 
-from display.operator_graphic import create_operator_html as create_html
-#from display.test_operon2graphic import create_html as create_operon_html
+from display.templates.render_operator_graphic import create_operator_html
+from display.templates.render_operon_graphic import create_operon_html
 import sys
 import pickle
 import platform
@@ -11,7 +11,7 @@ import platform
 
 ####### DEFINE BLAST/FILTER PARAMETERS #########
 hitlist_size = 100
-perc_ident = [90,70,60,50]
+perc_ident = [90,70,60]
 
 
 ########  USER INPUTS  ########
@@ -29,12 +29,12 @@ glprTHAF27 = "WP_152491583.1"
 glprPAED = "WP_165195465.1"
 glprTHAS = "WP_106472839.1"
 
-acc = camr
+acc = mmsr
 
 
 ###### OPERATOR INPUT #######
-#operatorFile = "ppocr_up.txt"
-operatorFile = "None"
+operatorFile = "mmsr.txt"
+#operatorFile = "None"
 
 
 #having period in accession name screws things up. Remove it
@@ -58,27 +58,24 @@ def operator_or_none(acc,operatorFile):
 
 
 #acc2homolog_list(acc, hitlist_size)
-#appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
+appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
 
 operator = operator_or_none(acc,operatorFile)
 
 consensus_data = [ appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", operator, i) 
     for i in perc_ident
     ]
-#print(consensus_data)
 
 with open(f"cache/homolog_metadata/{acc}.pkl", mode='rb') as f:
     data = pickle.load(f)
     operons = data
 
-#print(operons)
-
 if platform.release() == "4.4.0-18362-Microsoft":
-    #create_operon_html(operons,"../../../../mnt/c/Users/simon.doelsnitz/"+acc)
-    create_html(consensus_data,"../../../../mnt/c/Users/simon.doelsnitz/"+acc)
+    create_operon_html(operons,"../../../../mnt/c/Users/simon.doelsnitz/"+acc)
+    create_operator_html(consensus_data,"../../../../mnt/c/Users/simon.doelsnitz/"+acc+".html")
 else:
-    #create_operon_html(operons,"display/html_pages/"+acc)
-    create_html(consensus_data,"display/html_pages/"+acc)
+    create_operon_html(operons,"display/html_pages/"+acc)
+    create_operator_html(consensus_data,"display/html_pages/"+acc+".html")
 
 
 

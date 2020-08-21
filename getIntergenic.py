@@ -26,7 +26,7 @@ def operon2Intergenic(operon, regIndex, NCacc):
                 stop = operon[regIndex]["start"]
                 testLength = int(stop) - int(start)
                     #setting this to 100bp is somewhat arbitrary. Most intergenic regions >= 100bp. May need to tweak.
-                if testLength > 250:
+                if testLength > 100:
                     startPos = start
                     stopPos = stop
                     regType = "type 2"
@@ -92,7 +92,8 @@ def appendIntergenic(homologListFile):
         try:
             homologList[i]["regIndex"] = data["regIndex"]
             homologList[i]["operon"] = data["operon"]
-            
+            homologList[i]["organism"] = data["organism"]           
+ 
             intergenic = operon2Intergenic(data["operon"], data["regIndex"], data["genome"])
             homologList[i]["intergenic"] = intergenic["intergenicSeq"]
             homologList[i]["regType"] = intergenic["regType"]

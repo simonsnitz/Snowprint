@@ -223,7 +223,7 @@ def acc2operon(accession):
         reg = fasta2MetaData(allGenes[index])
         operon, regIndex = getOperon(allGenes, index, reg['start'], reg['direction'])
 
-        data = {"operon": operon, "regIndex": regIndex, "genome": metaData["accver"] }
+        data = {"operon": operon, "regIndex": regIndex, "genome": metaData["accver"], "organism":metaData["org"] }
 
         return data
     else:
@@ -287,12 +287,7 @@ def enzyme_acc2regulator(accessions, max_regulators=20):
 
 if __name__ == "__main__":
     
-    with open("octanol.pkl", mode="rb") as f:
-        proteins = pickle.load(f)
-        proteins = proteins[0].split(",")
-
     #enzyme_acc2regulator("WP_033004998.1")
-    enzyme_acc2regulator(proteins, "octanol_operons2.pkl")
     
     #acc2MetaData(acc)
     #NC2genome(NCacc)
@@ -340,11 +335,13 @@ if __name__ == "__main__":
     with open('cache/intergenic.txt', mode='w+') as f:
         f.write(intergenic)
 
-    
+    '''
     regACC = ttgr
     MetaData = acc2MetaData(regACC)
-    NCacc = MetaData[0]
-    print(NCacc)
+    print(MetaData["org"])
+    #NCacc = MetaData[0]
+    #print(NCacc)
+    '''
     genome = NC2genome(MetaData[0])
     allGenes, index = parseGenome(genome, MetaData[1], MetaData[2])
     
