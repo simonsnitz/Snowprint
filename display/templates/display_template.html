@@ -265,7 +265,7 @@ h2 {
 
 
 
-	function renderOperon(accession, identity, operon) {
+	function renderOperon(meta_data, operon) {
  
     let operon_container = document.createElement("div");
 
@@ -273,7 +273,8 @@ h2 {
     operon_graphic.classList.add("operon_graphic");
     let operon_description = document.createElement("div");
     operon_description.classList.add("operon_description");
-    operon_description.innerText = "Accession: "+accession+"\n\nPercent Identity: "+identity;
+    //operon_description.innerText = "Accession: "+accession+"\n\nPercent Identity: "+identity;
+    operon_description.innerText = "Accession: "+meta_data["accession"]+"\n\nPercent Identity: "+meta_data["identity"]+"\n\nOrganism: "+meta_data["organism"];
 
 	let container = document.createElement("div");
     container.classList.add("operonContainer");
@@ -315,7 +316,7 @@ h2 {
 	operon_container.appendChild(operon_graphic);
 	operon_container.appendChild(spacer);
     
-    if (identity == "100.0"){
+    if (meta_data["identity"] == "100.0"){
     template_container.appendChild(operon_container);
     all_operons.appendChild(template_container);
     } else {

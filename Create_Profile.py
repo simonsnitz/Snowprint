@@ -15,6 +15,7 @@ perc_ident = [90,70,60]
 
 
 ########  USER INPUTS  ########
+ramr = "WP_000113609.1"
 acur = "WP_011336736.1"
 camr = "BAA03510.1"
 lplr = "WP_019744253"
@@ -28,13 +29,15 @@ glpr = "WP_157707983.1"
 glprTHAF27 = "WP_152491583.1"
 glprPAED = "WP_165195465.1"
 glprTHAS = "WP_106472839.1"
+ttgr = "WP_010952495.1"
+cgmr = "WP_011015249.1"
 
-acc = mmsr
+acc = cgmr
 
 
 ###### OPERATOR INPUT #######
-operatorFile = "mmsr.txt"
-#operatorFile = "None"
+#operatorFile = "ttgr.txt"
+operatorFile = "None"
 
 
 #having period in accession name screws things up. Remove it
@@ -57,7 +60,7 @@ def operator_or_none(acc,operatorFile):
 
 
 
-#acc2homolog_list(acc, hitlist_size)
+acc2homolog_list(acc, hitlist_size)
 appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
 
 operator = operator_or_none(acc,operatorFile)

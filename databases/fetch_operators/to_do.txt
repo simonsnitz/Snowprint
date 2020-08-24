@@ -1,0 +1,25 @@
+Create a dictionary with:
+- Accession
+- Protein sequence
+- Operator sequence
+
+for every accession in the regulator (TetR for now) database
+that isn't an outlier, after clustering. That is, for sequences
+that cluster into a group of X size or greater. X = 100? We'll see...
+
+Manually add operators for defined regulators with known
+(literature verified) operators.
+
+Create a scripts to:
+
+(1) Score operator predictions based on a consensus motif.
+	- Each base gets a certain weight based on conservation.
+	- Score can also identify orthogonal operators.
+
+	- consensus motif gets it's own score based on:
+		# of sequences used to create it and,
+		experimental evidence, from the literature
+
+(2) Add accession-operator pair to dictionary (above) if:
+	operator prediction score passes a certain threshold
+

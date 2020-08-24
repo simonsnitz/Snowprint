@@ -105,7 +105,8 @@ def create_operon_html(operons, search_term):
     #with open(f'{infile}', 'rb') as f:
     #operons = pickle.load(f)
 
-    graphic = [[ json.dumps(i["accession"]), json.dumps(i["identity"]), createGraphic(i["operon"], i["regIndex"])] for i in operons ]
+    graphic = [{"meta_data": json.dumps({"accession":i["accession"],"identity":i["identity"],"organism":i["organism"]}), "operon_data": createGraphic(i["operon"], i["regIndex"])} for i in operons ]
+    #graphic = [[ json.dumps(i["accession"]), json.dumps(i["identity"]), createGraphic(i["operon"], i["regIndex"])] for i in operons ]
     #graphic = [ {"accession":i["accession"], "identity":str(i["identity"]), "operon":createGraphic(i["operon"], i["regIndex"])} for i in operons ]
     
     #pprint(graphic[1])
@@ -130,10 +131,11 @@ def create_operon_html(operons, search_term):
 
             var len = operon_graphic.length
             for (i in range(0, len)){
-                var accession = JSON.parse(operon_graphic[i][0])
-                var identity = JSON.parse(operon_graphic[i][1])
-                var operon = JSON.parse(operon_graphic[i][2])
-                renderOperon(accession, identity, operon)
+                var metaData = JSON.parse(operon_graphic[i]["meta_data"]);
+                //var accession = metaData["accession"];
+                //var identity = metaData["identity"];
+                var operon = JSON.parse(operon_graphic[i]["operon_data"]);
+                renderOperon(metaData, operon);
             }
 
     """
