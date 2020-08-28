@@ -11,7 +11,7 @@ import platform
 
 ####### DEFINE BLAST/FILTER PARAMETERS #########
 hitlist_size = 100
-perc_ident = [90,70,60]
+perc_ident = [90]
 
 
 ########  USER INPUTS  ########
@@ -23,6 +23,7 @@ alkx = "AEM66515.1"
 bm3r1 = "WP_013083972.1"
 sco4850 = "WP_011029905.1"
 mmsr = "AGI24556.1"
+hpdr = "WP_010951464.1"
 alku = "WP_009475225.1"
 pocr = "WP_000622326.1"
 glpr = "WP_157707983.1"
@@ -32,12 +33,12 @@ glprTHAS = "WP_106472839.1"
 ttgr = "WP_010952495.1"
 cgmr = "WP_011015249.1"
 
-acc = cgmr
+acc = hpdr
 
 
 ###### OPERATOR INPUT #######
-#operatorFile = "ttgr.txt"
-operatorFile = "None"
+operatorFile = "hpdr2.txt"
+#operatorFile = "None"
 
 
 #having period in accession name screws things up. Remove it
@@ -60,8 +61,8 @@ def operator_or_none(acc,operatorFile):
 
 
 
-acc2homolog_list(acc, hitlist_size)
-appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
+#acc2homolog_list(acc, hitlist_size)
+#appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
 
 operator = operator_or_none(acc,operatorFile)
 

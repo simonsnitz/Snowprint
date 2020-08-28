@@ -1,18 +1,26 @@
 import sys
+import os
+import os.path
+import shutil
 
+d = os.getcwd()
+os.chdir("..")
+
+
+#works on Linux, but not windows. Uggh!
 sys.path.insert(1, '/home/simon/git/tuSeek')
 
-import acc2homologs as a2h
+from acc2homologs import homologs2residueFrequency as a2r
 
 #ramr
-acc = "WP_000113609.1"
+#acc = "WP_000113609"
 
 #camr
-#acc = "BAA03510"
+acc = "BAA03510"
 
 #seq = a2h.accID2sequence(acc)
 #print(seq)
 
-homologs = a2h.acc2homolog_list(acc,70)
+homologs = a2r(acc,70)
 
 print(homologs)
