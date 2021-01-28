@@ -34,7 +34,7 @@ def operon2Intergenic(operon, regIndex, NCacc):
                     break
                 index -= 1
 
-    if operon[regIndex]["direction"] == "-":
+    elif operon[regIndex]["direction"] == "-":
         queryGenes = operon[regIndex+1:]
         index = regIndex
         for i in queryGenes:
@@ -69,6 +69,16 @@ def operon2Intergenic(operon, regIndex, NCacc):
         print('bad request')
 
          #800bp cutoff for an inter-operon region. A region too long makes analysis fuzzy and less accurate.
+    output  = ""
+    for i in intergenic.split('\n')[1:]:
+        output += i
+    if len(output) <= 800:
+        return {"intergenicSeq": output, "regType": regType}
+    else:
+        print('intergenic region over 800bp')
+        return None
+
+    '''
     if length <= 800:
         output = ""
         for i in intergenic.split('\n')[1:]:
@@ -77,7 +87,7 @@ def operon2Intergenic(operon, regIndex, NCacc):
     else:
         print('intergenic over 800bp detected')
         return None
-
+    '''
 
 def appendIntergenic(homologListFile):
     with open(f'{homologListFile}', mode="rb") as f:

@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_15839</BlastOutput_query-ID>
+  <BlastOutput_query-def>WP_011834386.1 helix-turn-helix transcriptional regulator [Lactococcus lactis]</BlastOutput_query-def>
+  <BlastOutput_query-len>116</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_15839</Iteration_query-ID>
+  <Iteration_query-def>WP_011834386.1 helix-turn-helix transcriptional regulator [Lactococcus lactis]</Iteration_query-def>
+  <Iteration_query-len>116</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_011834386.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactococcus lactis] &gt;pdb|3F8B|A Chain A, Transcriptional Regulator, Padr-like Family [Lactococcus lactis subsp. cremoris MG1363] &gt;pdb|3F8B|B Chain B, Transcriptional Regulator, Padr-like Family [Lactococcus lactis subsp. cremoris MG1363] &gt;pdb|4ZZD|A Chain A, Transcriptional Regulator, Padr-like Family [Lactococcus lactis subsp. cremoris MG1363] &gt;gb|ADJ59344.1| PadR-like family transcriptional regulator [Lactococcus lactis subsp. cremoris NZ9000] &gt;gb|KEY62393.1| Transcriptional regulator, PadR-like family [Lactococcus lactis subsp. cremoris GE214] &gt;gb|KGH32753.1| PadR family transcriptional regulator [Lactococcus lactis subsp. cremoris] &gt;gb|KKW69617.1| transcriptional regulator, Acidobacterial, PadR- family [Lactococcus lactis subsp. cremoris] &gt;gb|KKW70209.1| transcriptional regulator, Acidobacterial, PadR- family [Lactococcus lactis subsp. cremoris]</Hit_def>
+  <Hit_accession>WP_011834386</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.113</Hsp_bit-score>
+      <Hsp_score>601</Hsp_score>
+      <Hsp_evalue>2.60194e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_qseq>
+      <Hsp_hseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_hseq>
+      <Hsp_midline>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|3F8C|A</Hit_id>
+  <Hit_def>Chain A, Transcriptional Regulator, Padr-like Family [Lactococcus lactis subsp. cremoris MG1363] &gt;pdb|3F8F|A Chain A, Transcriptional Regulator, Padr-like Family [Lactococcus lactis subsp. cremoris MG1363] &gt;pdb|3F8F|B Chain B, Transcriptional Regulator, Padr-like Family [Lactococcus lactis subsp. cremoris MG1363] &gt;pdb|6FUU|A Chain A, Transcriptional regulator PadR family [Lactococcus lactis subsp. cremoris] &gt;pdb|6R1L|A Chain A, Transcriptional regulator, PadR-like family [Lactococcus lactis subsp. cremoris MG1363]</Hit_def>
+  <Hit_accession>3F8C_A</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.728</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>4.45684e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_qseq>
+      <Hsp_hseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_hseq>
+      <Hsp_midline>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_011675362.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactococcus lactis] &gt;gb|EQC55934.1| PadR family transcriptional regulator [Lactococcus lactis subsp. cremoris TIFN5] &gt;gb|EQC56286.1| PadR family transcriptional regulator [Lactococcus lactis subsp. cremoris TIFN6] &gt;gb|EQC86392.1| PadR family transcriptional regulator [Lactococcus lactis subsp. cremoris TIFN7] &gt;gb|ABJ71952.1| transcriptional regulator, PadR family [Lactococcus lactis subsp. cremoris SK11] &gt;gb|AEU39534.1| Transcriptional regulator, PadR family [Lactococcus lactis subsp. cremoris A76]</Hit_def>
+  <Hit_accession>WP_011675362</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.187</Hsp_bit-score>
+      <Hsp_score>596</Hsp_score>
+      <Hsp_evalue>1.10827e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_qseq>
+      <Hsp_hseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKEVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_hseq>
+      <Hsp_midline>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIK+VKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_015081995.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactococcus lactis] &gt;gb|AFW90990.1| PadR-like family transcriptional regulator [Lactococcus lactis subsp. cremoris UC509.9] &gt;gb|ARD90637.1| PadR-like family transcriptional regulator [Lactococcus lactis subsp. cremoris] &gt;gb|ARE05243.1| PadR-like family transcriptional regulator [Lactococcus lactis subsp. cremoris] &gt;gb|MRM67766.1| PadR family transcriptional regulator [Lactococcus lactis subsp. cremoris] &gt;gb|QJD19300.1| helix-turn-helix transcriptional regulator [Lactococcus lactis subsp. cremoris]</Hit_def>
+  <Hit_accession>WP_015081995</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.417</Hsp_bit-score>
+      <Hsp_score>594</Hsp_score>
+      <Hsp_evalue>2.8803e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_qseq>
+      <Hsp_hseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKEVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANRKSEAIK</Hsp_hseq>
+      <Hsp_midline>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIK+VKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEAN+KSEAIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|6I8N|A</Hit_id>
+  <Hit_def>Chain A, Transcriptional regulator, PadR-like family [Lactococcus lactis subsp. cremoris MG1363] &gt;pdb|6I8N|B Chain B, Transcriptional regulator, PadR-like family [Lactococcus lactis subsp. cremoris MG1363]</Hit_def>
+  <Hit_accession>6I8N_A</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.417</Hsp_bit-score>
+      <Hsp_score>594</Hsp_score>
+      <Hsp_evalue>3.17919e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_qseq>
+      <Hsp_hseq>MAEIPKEMLRAQTNXILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_hseq>
+      <Hsp_midline>MAEIPKEMLRAQTN ILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_021036680.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactococcus lactis] &gt;gb|AGV72294.1| transcriptional regulator PadR family [Lactococcus lactis subsp. cremoris KW2] &gt;gb|KZK06294.1| Transcriptional regulator PadR family [Lactococcus lactis subsp. cremoris]</Hit_def>
+  <Hit_accession>WP_021036680</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.95</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>6.43678e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_qseq>
+      <Hsp_hseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKDESNK</Hsp_hseq>
+      <Hsp_midline>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKK E+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_003131688.1|</Hit_id>
+  <Hit_def>MULTISPECIES: helix-turn-helix transcriptional regulator [Lactococcus] &gt;gb|AGY43619.1| PadR family transcriptional regulator [Lactococcus lactis subsp. lactis KLDS 4.0325] &gt;gb|AAK04407.1| hypothetical protein L108503 [Lactococcus lactis subsp. lactis Il1403] &gt;gb|ADA64128.1| Transcriptional regulator, PadR family [Lactococcus lactis subsp. lactis KF147] &gt;gb|ADZ62959.1| transcriptional regulator, PadR family [Lactococcus lactis subsp. lactis CV56] &gt;gb|AII11865.1| Transcriptional regulator [Lactococcus lactis subsp. lactis NCDO 2118]</Hit_def>
+  <Hit_accession>WP_003131688</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.409</Hsp_bit-score>
+      <Hsp_score>581</Hsp_score>
+      <Hsp_evalue>2.71148e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_qseq>
+      <Hsp_hseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDEIIENLEANKKDESNK</Hsp_hseq>
+      <Hsp_midline>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVD+IIENLEANKK E+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|6DO0|A</Hit_id>
+  <Hit_def>Chain A, Transcriptional regulator, PadR-like family [Lactococcus lactis subsp. cremoris MG1363] &gt;pdb|6DO0|B Chain B, Transcriptional regulator, PadR-like family [Lactococcus lactis subsp. cremoris MG1363]</Hit_def>
+  <Hit_accession>6DO0_A</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.024</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>3.33959e-75</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_qseq>
+      <Hsp_hseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFDRLEQDGIISSYWGDESQGGRRKYYRLTEIGHENCRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_hseq>
+      <Hsp_midline>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIF RLE+DGIISSYWGDESQGGRRKYYRLTEIGHEN RLAFESWSRVDKIIENLEANKKSEAIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_058217000.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactococcus lactis] &gt;gb|KST87201.1| Transcriptional regulator PadR family [Lactococcus lactis subsp. lactis]</Hit_def>
+  <Hit_accession>WP_058217000</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.639</Hsp_bit-score>
+      <Hsp_score>579</Hsp_score>
+      <Hsp_evalue>5.35532e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_qseq>
+      <Hsp_hseq>MAEIPKEMLRAQTNVILLNILKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDEIIENLEANKKDESNK</Hsp_hseq>
+      <Hsp_midline>MAEIPKEMLRAQTNVILLN+LKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVD+IIENLEANKK E+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_058211350.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactococcus lactis] &gt;gb|KSU23206.1| Transcriptional regulator PadR family [Lactococcus lactis subsp. lactis]</Hit_def>
+  <Hit_accession>WP_058211350</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.942</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>5.73487e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_qseq>
+      <Hsp_hseq>MAEISKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDEIIENLEANKKDESNK</Hsp_hseq>
+      <Hsp_midline>MAEI KEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVD+IIENLEANKK E+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|6VWE|A</Hit_id>
+  <Hit_def>Chain A, Transcriptional regulator, PadR-like family [Lactococcus lactis subsp. cremoris MG1363] &gt;pdb|6VWE|B Chain B, Transcriptional regulator, PadR-like family [Lactococcus lactis subsp. cremoris MG1363]</Hit_def>
+  <Hit_accession>6VWE_A</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.942</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>6.83112e-74</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAIK</Hsp_qseq>
+      <Hsp_hseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFDRLEQDGIISSYWGDESQGGRRKYYRLTEIGHENCRLAFESWSRVRKIIENLEANKKSEAIK</Hsp_hseq>
+      <Hsp_midline>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIF RLE+DGIISSYWGDESQGGRRKYYRLTEIGHEN RLAFESWSRV KIIENLEANKKSEAIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_096816132.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactococcus lactis] &gt;gb|PCS19453.1| hypothetical protein RU92_GL001784 [Lactococcus lactis subsp. tructae]</Hit_def>
+  <Hit_accession>WP_096816132</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.557</Hsp_bit-score>
+      <Hsp_score>571</Hsp_score>
+      <Hsp_evalue>8.05948e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKK</Hsp_qseq>
+      <Hsp_hseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMQLAFESWSKVDKIIENLEANKK</Hsp_hseq>
+      <Hsp_midline>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENM+LAFESWS+VDKIIENLEANKK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_075524863.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactococcus lactis] &gt;gb|KZK38900.1| Transcriptional regulator PadR family [Lactococcus lactis subsp. cremoris]</Hit_def>
+  <Hit_accession>WP_075524863</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>9.54682e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKK</Hsp_qseq>
+      <Hsp_hseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVREASNGELELNEATLYTIFKRLEKEGIISSYWGDESQGGRRKYYRLTEIGHENMQRAFESWARVDQIIENIEKSNK</Hsp_hseq>
+      <Hsp_midline>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQV+EASNGE+ELNEATLYTIFKRLEK+GIISSYWGDESQGGRRKYYRLTEIGHENM+ AFESW+RVD+IIEN+E + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_120773041.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactococcus sp. 1JSPR-7] &gt;gb|AYG01672.1| PadR family transcriptional regulator [Lactococcus sp. 1JSPR-7]</Hit_def>
+  <Hit_accession>WP_120773041</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.134</Hsp_bit-score>
+      <Hsp_score>505</Hsp_score>
+      <Hsp_evalue>9.22627e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEA</Hsp_qseq>
+      <Hsp_hseq>MAEIPREMLRAQANVILLNVLEQGDNYVYGIIKQVREASNGEFELNEATLYTIFRRLEKDGIITSYWGDETQGGRRKYYRLTNIGRENMRLAFESWAKVDQIIENIKA</Hsp_hseq>
+      <Hsp_midline>MAEIP+EMLRAQ NVILLNVL+QGDNYVYGIIKQV+EASNGE ELNEATLYTIF+RLEKDGII+SYWGDE+QGGRRKYYRLT IG ENMRLAFESW++VD+IIEN++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_142766159.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactococcus sp. KACC 19320] &gt;gb|QDK70558.1| helix-turn-helix transcriptional regulator [Lactococcus sp. KACC 19320]</Hit_def>
+  <Hit_accession>WP_142766159</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>2.01094e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEA</Hsp_qseq>
+      <Hsp_hseq>MAEIPREMLRAQANVILLNVLEQGDNYVYGIIKQVREASNGEFELNEATLYTIFRRLEKDGIITSYWGDETQGGRRKYYRLTDIGRENMQLAFESWAKVDQIIENIKA</Hsp_hseq>
+      <Hsp_midline>MAEIP+EMLRAQ NVILLNVL+QGDNYVYGIIKQV+EASNGE ELNEATLYTIF+RLEKDGII+SYWGDE+QGGRRKYYRLT+IG ENM+LAFESW++VD+IIEN++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_130124424.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactococcus sp. S-13] &gt;gb|RZI49705.1| PadR family transcriptional regulator [Lactococcus sp. S-13]</Hit_def>
+  <Hit_accession>WP_130124424</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>1.20184e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANK</Hsp_qseq>
+      <Hsp_hseq>MAEIPKEMLRAQTNVIVLNILEAGDNYVYGIIKQVRDASNGAFEINEATLYTTFHRLEKDGIISSYWGDESQGGRRKYYCLTKLGREKLQLAFESWAKVDQIIENIKAQK</Hsp_hseq>
+      <Hsp_midline>MAEIPKEMLRAQTNVI+LN+L+ GDNYVYGIIKQV++ASNG  E+NEATLYT F RLEKDGIISSYWGDESQGGRRKYY LT++G E ++LAFESW++VD+IIEN++A K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_148622831.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Weissella muntiaci] &gt;gb|TYC48970.1| PadR family transcriptional regulator [Weissella muntiaci]</Hit_def>
+  <Hit_accession>WP_148622831</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>6.32159e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEA</Hsp_qseq>
+      <Hsp_hseq>MAEISKDLIRGHTDAIVLNILAQGDSYGYRIVQDIRSMSDNQYELNEATLYTVFRRLQKDELVTPYYGDETQGGRRKYYAITDRGHEVLRTAQADWQIAKPIIDHLVSGKVVEA</Hsp_hseq>
+      <Hsp_midline>MAEI K+++R  T+ I+LN+L QGD+Y Y I++ ++  S+ + ELNEATLYT+F+RL+KD +++ Y+GDE+QGGRRKYY +T+ GHE +R A   W     II++L + K  EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_153453076.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus salsicarnum] &gt;gb|MQS88411.1| helix-turn-helix transcriptional regulator [Lactobacillus salsicarnum]</Hit_def>
+  <Hit_accession>WP_153453076</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>1.01455e-35</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>TDISKDIIRGHTNTIVLNILSQGDNYGYEISKTVKKLSDNQYELNEATLYTVFRRLEKNGDISSYWGDESQGGRRKYYRITEQGKETLENKIKEWNFAKVIIDHL</Hsp_hseq>
+      <Hsp_midline> +I K+++R  TN I+LN+L QGDNY Y I K VK+ S+ + ELNEATLYT+F+RLEK+G ISSYWGDESQGGRRKYYR+TE G E +    + W+    II++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_125702668.1|</Hit_id>
+  <Hit_def>MULTISPECIES: helix-turn-helix transcriptional regulator [Lactobacillus] &gt;gb|MQS44112.1| helix-turn-helix transcriptional regulator [Lactobacillus salsicarnum]</Hit_def>
+  <Hit_accession>WP_125702668</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.89305e-35</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>TDISKDIIRGHTNTIVLNILSQGDNYGYEISKTVKKLSDNQYELNEATLYTVFRRLEKNGDISSYWGDESQGGRRKYYRITDQGKETLDSKIKEWNFAKVIIDHL</Hsp_hseq>
+      <Hsp_midline> +I K+++R  TN I+LN+L QGDNY Y I K VK+ S+ + ELNEATLYT+F+RLEK+G ISSYWGDESQGGRRKYYR+T+ G E +    + W+    II++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_153381912.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus salsicarnum] &gt;gb|MQS51778.1| helix-turn-helix transcriptional regulator [Lactobacillus salsicarnum]</Hit_def>
+  <Hit_accession>WP_153381912</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>8.47594e-35</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>TDISKDIIRGHTNTIVLNILSQSDNYGYEISKTVKKLSDNQYELNEATLYTVFRRLEKNGDISSYWGDESQGGRRKYYRITEQGKETLENKIKEWNFAKVIIDHL</Hsp_hseq>
+      <Hsp_midline> +I K+++R  TN I+LN+L Q DNY Y I K VK+ S+ + ELNEATLYT+F+RLEK+G ISSYWGDESQGGRRKYYR+TE G E +    + W+    II++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_048702881.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus ginsenosidimutans] &gt;gb|AKP66474.1| transcriptional regulator [Lactobacillus ginsenosidimutans]</Hit_def>
+  <Hit_accession>WP_048702881</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>7.66526e-34</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>EIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>DISKDIIRGHTSTIVLNILNQGDSYGYEISKTVKELSDGGYEINEATLYTVFRRLEKNGDIQSYWGDESQGGRRKYYKITEQGQKTLESNIEQWNFAKQVIDKL</Hsp_hseq>
+      <Hsp_midline>+I K+++R  T+ I+LN+L QGD+Y Y I K VKE S+G  E+NEATLYT+F+RLEK+G I SYWGDESQGGRRKYY++TE G + +    E W+   ++I+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_027698193.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Weissella oryzae] &gt;dbj|GAK30051.1| PadR family transcriptional regulator [Weissella oryzae SG25]</Hit_def>
+  <Hit_accession>WP_027698193</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>1.02503e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEA</Hsp_qseq>
+      <Hsp_hseq>MAEISKDLIRGHTDAIILNILAQGDSYGYRIVQDIRTMSAGQYELNEATLYTVFRRLQKEALVTPYYGNETQGGRRKYYTITKLGRESLKGAQEAWRVAKPIIDQLVNGKVVEP</Hsp_hseq>
+      <Hsp_midline>MAEI K+++R  T+ I+LN+L QGD+Y Y I++ ++  S G+ ELNEATLYT+F+RL+K+ +++ Y+G+E+QGGRRKYY +T++G E+++ A E+W     II+ L   K  E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_125577151.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus angrenensis]</Hit_def>
+  <Hit_accession>WP_125577151</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>1.18731e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>MAE-IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEA</Hsp_qseq>
+      <Hsp_hseq>MAEVISKDLIRGHTDTIILNILQQGDSYGYQVAKQVKALSHGHYELNEATLYTVFRRLKKNGALTDYWGDESQGSRRKYYHITATGQDLLAANTAAWQVAKPIIDDLITGKISEG</Hsp_hseq>
+      <Hsp_midline>MAE I K+++R  T+ I+LN+L+QGD+Y Y + KQVK  S+G  ELNEATLYT+F+RL+K+G ++ YWGDESQG RRKYY +T  G + +     +W     II++L   K SE </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|AYM01802.1|</Hit_id>
+  <Hit_def>PadR family transcriptional regulator [Lactobacillus brevis]</Hit_def>
+  <Hit_accession>AYM01802</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>1.51037e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>MAE-IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEA</Hsp_qseq>
+      <Hsp_hseq>MAEVISKDLIRGHTDTIILNILQQGDSYGYQVAKQVKALSHGHYELNEATLYTVFRRLKKNGALTDYWGDESQGSRRKYYHITTAGQDLLAANTAAWQVAKPIIDDLITGKISEG</Hsp_hseq>
+      <Hsp_midline>MAE I K+++R  T+ I+LN+L+QGD+Y Y + KQVK  S+G  ELNEATLYT+F+RL+K+G ++ YWGDESQG RRKYY +T  G + +     +W     II++L   K SE </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_125544230.1|</Hit_id>
+  <Hit_def>PadR family transcriptional regulator [Lactobacillus lindianensis]</Hit_def>
+  <Hit_accession>WP_125544230</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>4.86843e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MAE-IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSE</Hsp_qseq>
+      <Hsp_hseq>MAENISKDLIRGHTDTIILNILQQGDSYGYQVAKRVKSLSHGHYELNEATLYTVFRRLEKNGALTDYWGDETQGSRRKYYHVTSVGLEMLAEKTAAWQFAKPIIDDLITGKLTE</Hsp_hseq>
+      <Hsp_midline>MAE I K+++R  T+ I+LN+L+QGD+Y Y + K+VK  S+G  ELNEATLYT+F+RLEK+G ++ YWGDE+QG RRKYY +T +G E +     +W     II++L   K +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_125764374.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus mulengensis]</Hit_def>
+  <Hit_accession>WP_125764374</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>5.78107e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MAE-IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSE</Hsp_qseq>
+      <Hsp_hseq>MAEVISKDLIRGHTDTIILNILQQGDSYGYQVAKQVKALSDGHYELNEATLYTVFRRLKKNGALTDYWGDESQGSRRKYYHITAAGTDLLQANTAAWRVAKPIIDDLITGKITE</Hsp_hseq>
+      <Hsp_midline>MAE I K+++R  T+ I+LN+L+QGD+Y Y + KQVK  S+G  ELNEATLYT+F+RL+K+G ++ YWGDESQG RRKYY +T  G + ++    +W     II++L   K +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_125573589.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus huananensis]</Hit_def>
+  <Hit_accession>WP_125573589</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>8.32043e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MAE-IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSE</Hsp_qseq>
+      <Hsp_hseq>MAENISKDLIRGHTDTIILNILQQGDSYGYQVAKRVKALSHGHYELNEATLYTVFRRLEKNGALTDYWGDETQGSRRKYYHVTPVGQKMLAEKTAAWQFAKPIIDDLITGKLTE</Hsp_hseq>
+      <Hsp_midline>MAE I K+++R  T+ I+LN+L+QGD+Y Y + K+VK  S+G  ELNEATLYT+F+RLEK+G ++ YWGDE+QG RRKYY +T +G + +     +W     II++L   K +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_139967737.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Leuconostoc pseudomesenteroides] &gt;gb|TOZ06694.1| PadR family transcriptional regulator [Leuconostoc pseudomesenteroides]</Hit_def>
+  <Hit_accession>WP_139967737</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>8.52063e-33</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>EIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>EISKDLIRGHTDTIILNILNQGDSYGYQVSKSIRQLSDHQYELNEATLYTAFRRLEKLGDIESYWGDETQGARRKYYRITSQGQQHLATALDEWRFAKKVISNL</Hsp_hseq>
+      <Hsp_midline>EI K+++R  T+ I+LN+L QGD+Y Y + K +++ S+ + ELNEATLYT F+RLEK G I SYWGDE+QG RRKYYR+T  G +++  A + W    K+I NL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_004915101.1|</Hit_id>
+  <Hit_def>MULTISPECIES: helix-turn-helix transcriptional regulator [Leuconostoc] &gt;gb|NLT85976.1| helix-turn-helix transcriptional regulator [Leuconostoc sp.] &gt;gb|KDA47847.1| Transcriptional regulator, PadR family [Leuconostoc pseudomesenteroides 1159] &gt;gb|KDA50209.1| Transcriptional regulator, PadR family [Leuconostoc pseudomesenteroides PS12] &gt;gb|OQJ68487.1| PadR family transcriptional regulator [Leuconostoc pseudomesenteroides] &gt;gb|OQJ70906.1| PadR family transcriptional regulator [Leuconostoc pseudomesenteroides]</Hit_def>
+  <Hit_accession>WP_004915101</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>8.90177e-33</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>EIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>EISKDLIRGHTDTIILNILNQGDSYGYQVSKSIRQLSDHQYELNEATLYTAFRRLEKLGDIESYWGDETQGARRKYYRITSQGQDHLATALDEWRFAKKVISNL</Hsp_hseq>
+      <Hsp_midline>EI K+++R  T+ I+LN+L QGD+Y Y + K +++ S+ + ELNEATLYT F+RLEK G I SYWGDE+QG RRKYYR+T  G +++  A + W    K+I NL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_135368804.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus suantsaiihabitans] &gt;gb|TGD17649.1| PadR family transcriptional regulator [Lactobacillus suantsaiihabitans]</Hit_def>
+  <Hit_accession>WP_135368804</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>9.18112e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>MAE-IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEA</Hsp_qseq>
+      <Hsp_hseq>MAEVISKDLIRGHTDTIILNILQQGDSYGYQVAKQVKTLSDGHYELNEATLYTVFRRLKKNGALTDYWGDESQGSRRKYYHITAAGQDLLAANTAAWQVAKPIIDALITGKITEG</Hsp_hseq>
+      <Hsp_midline>MAE I K+++R  T+ I+LN+L+QGD+Y Y + KQVK  S+G  ELNEATLYT+F+RL+K+G ++ YWGDESQG RRKYY +T  G + +     +W     II+ L   K +E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_010292543.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Leuconostoc pseudomesenteroides] &gt;gb|NKZ36394.1| helix-turn-helix transcriptional regulator [Leuconostoc pseudomesenteroides] &gt;gb|QEA41396.1| helix-turn-helix transcriptional regulator [Leuconostoc pseudomesenteroides]</Hit_def>
+  <Hit_accession>WP_010292543</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>9.50567e-33</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>EIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>EISKDLIRGHTDTIILNILNQGDSYGYQVSKSIRQLSDQQYELNEATLYTAFRRLEKLGDIESYWGDETQGARRKYYRITSQGQQHLATALDEWRFAKKVISNL</Hsp_hseq>
+      <Hsp_midline>EI K+++R  T+ I+LN+L QGD+Y Y + K +++ S+ + ELNEATLYT F+RLEK G I SYWGDE+QG RRKYYR+T  G +++  A + W    K+I NL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_142511817.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Leuconostoc pseudomesenteroides] &gt;emb|VTU69912.1| transcriptional regulator [Lactobacillus ginsenosidimutans] [Leuconostoc pseudomesenteroides]</Hit_def>
+  <Hit_accession>WP_142511817</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.08391e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>EIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>EISKDLIRGHTDTIILNILNQGDSYGYQVSKSIRQLSDHQYELNEATLYTAFRRLEKLGDIESYWGDETQGARRKYYRITSQGQDHLATALDEWRFAKKVISNL</Hsp_hseq>
+      <Hsp_midline>EI K+++R  T+ I+LN+L QGD+Y Y + K +++ S+ + ELNEATLYT F+RLEK G I SYWGDE+QG RRKYYR+T  G +++  A + W    K+I NL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_148606549.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Leuconostoc litchii] &gt;gb|TYC46054.1| PadR family transcriptional regulator [Leuconostoc litchii]</Hit_def>
+  <Hit_accession>WP_148606549</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.13749e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>EIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>DISKDLIRGHTDTIILNILSQGDSYGYQVSKSIRRLSTQQYELNEATLYTAFRRLEKSGDISSYWGDESQGGRRKYYTLTKQGQQHVEMARNEWTFAKRIISRL</Hsp_hseq>
+      <Hsp_midline>+I K+++R  T+ I+LN+L QGD+Y Y + K ++  S  + ELNEATLYT F+RLEK G ISSYWGDESQGGRRKYY LT+ G +++ +A   W+   +II  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_125566679.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus insicii]</Hit_def>
+  <Hit_accession>WP_125566679</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.42023e-32</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ISKDIIRGHTTTIVLNILSQGDSYGYEIAKTIKQLSHEAYELNEATLYTVFRRLEKNGDIQSYWGDESQGGRRKYYKITEQGTETLKTNVKEWNFAKHVIDDL</Hsp_hseq>
+      <Hsp_midline>I K+++R  T  I+LN+L QGD+Y Y I K +K+ S+   ELNEATLYT+F+RLEK+G I SYWGDESQGGRRKYY++TE G E ++   + W+    +I++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_168849996.1|</Hit_id>
+  <Hit_def>MULTISPECIES: helix-turn-helix transcriptional regulator [unclassified Lactobacillus] &gt;gb|NLR12298.1| helix-turn-helix transcriptional regulator [Lactobacillus sp. ZJLC29-4] &gt;gb|NLR30310.1| helix-turn-helix transcriptional regulator [Lactobacillus sp. ZJLC21-8] &gt;gb|NLR31990.1| helix-turn-helix transcriptional regulator [Lactobacillus sp. ZJLC3-7]</Hit_def>
+  <Hit_accession>WP_168849996</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.51841e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MAE-IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANK</Hsp_qseq>
+      <Hsp_hseq>MAEVISKDLIRGHTDTIVLNILQQGDSYGYQVAKRVRELSHGHYELNEATLYTVFRRLEKNGALTDYWGDETQGSRRKYYHVTAVGQQMLTEKTADWQFAKPIIDDLITGK</Hsp_hseq>
+      <Hsp_midline>MAE I K+++R  T+ I+LN+L+QGD+Y Y + K+V+E S+G  ELNEATLYT+F+RLEK+G ++ YWGDE+QG RRKYY +T +G + +      W     II++L   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_057879060.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus paucivorans] &gt;gb|KRO01133.1| hypothetical protein IV54_GL000557 [Lactobacillus paucivorans]</Hit_def>
+  <Hit_accession>WP_057879060</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.82866e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MAE-IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAI</Hsp_qseq>
+      <Hsp_hseq>MAENISKDLIRGHTDTIILNILQQGDSYGYQVAKRVKALSHGHYELNEATLYTVFRRLEKNGALTDYWGDETQGSRRKYYHVTPAGRDMLAEKTAAWQFAKPIIDDLITGKLTEEV</Hsp_hseq>
+      <Hsp_midline>MAE I K+++R  T+ I+LN+L+QGD+Y Y + K+VK  S+G  ELNEATLYT+F+RLEK+G ++ YWGDE+QG RRKYY +T  G + +     +W     II++L   K +E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_125687653.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus fujinensis]</Hit_def>
+  <Hit_accession>WP_125687653</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.84276e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MAEI-PKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANK</Hsp_qseq>
+      <Hsp_hseq>MAEIISKDLIRGHTDTIILNILQQGDSYGYQVAKRVKELSAGHYELNEATLYTVFRRLEKNGALTDYWGDETQGSRRKYYHVTDAGRELLAENTTAWQFAKPIIDDLITGK</Hsp_hseq>
+      <Hsp_midline>MAEI  K+++R  T+ I+LN+L+QGD+Y Y + K+VKE S G  ELNEATLYT+F+RLEK+G ++ YWGDE+QG RRKYY +T+ G E +     +W     II++L   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_048734400.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus koreensis] &gt;gb|AKP64821.1| transcriptional regulator [Lactobacillus koreensis] &gt;gb|KRK85887.1| transcriptional regulator [Lactobacillus koreensis JCM 16448]</Hit_def>
+  <Hit_accession>WP_048734400</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.92516e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MAEI-PKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANK</Hsp_qseq>
+      <Hsp_hseq>MAEIISKDLIRGHTDTIILNILQQGDSYGYQVAKRVKELSAGHYELNEATLYTVFRRLEKNGALTDYWGDETQGSRRKYYHVTDAGRELLAENTAAWQFAKPIIDDLITGK</Hsp_hseq>
+      <Hsp_midline>MAEI  K+++R  T+ I+LN+L+QGD+Y Y + K+VKE S G  ELNEATLYT+F+RLEK+G ++ YWGDE+QG RRKYY +T+ G E +     +W     II++L   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|RRG11102.1|</Hit_id>
+  <Hit_def>PadR family transcriptional regulator [Lactobacillus sp.]</Hit_def>
+  <Hit_accession>RRG11102</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>2.03336e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>EIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>DISKDMIRGATDGIILNILSQGDSYGYQMVQQIKQLSNGTYEINEATLYTVFRRLSKNGLIESYYGDETQGGRRKYYHITNAGTEELNQFHQDWAFAKDIITKL</Hsp_hseq>
+      <Hsp_midline>+I K+M+R  T+ I+LN+L QGD+Y Y +++Q+K+ SNG  E+NEATLYT+F+RL K+G+I SY+GDE+QGGRRKYY +T  G E +    + W+    II  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_057777101.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus vaccinostercus] &gt;gb|KRM62723.1| hypothetical protein FC26_GL001428 [Lactobacillus vaccinostercus DSM 20634]</Hit_def>
+  <Hit_accession>WP_057777101</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>2.07832e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>EIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>DISKDMIRGATDGIILNILSQGDSYGYQMVQQIKQLSNGTYEINEATLYTVFRRLSKNGLIESYYGDKTQGGRRKYYHITNVGTEELNQFHQDWAFAKDIITKL</Hsp_hseq>
+      <Hsp_midline>+I K+M+R  T+ I+LN+L QGD+Y Y +++Q+K+ SNG  E+NEATLYT+F+RL K+G+I SY+GD++QGGRRKYY +T +G E +    + W+    II  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_125581217.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus cerevisiae]</Hit_def>
+  <Hit_accession>WP_125581217</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>2.53045e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MAE-IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSE</Hsp_qseq>
+      <Hsp_hseq>MAEVISKDLIRGHTDTIILNILQQGDSYGYQVAKQVKTLSAGHYELNEATLYTVFRRLKKNGALTDYWGDESQGSRRKYYHITTAGEDLLKANTAAWRVAKPIIDDLITGKITD</Hsp_hseq>
+      <Hsp_midline>MAE I K+++R  T+ I+LN+L+QGD+Y Y + KQVK  S G  ELNEATLYT+F+RL+K+G ++ YWGDESQG RRKYY +T  G + ++    +W     II++L   K ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_130845194.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus mudanjiangensis] &gt;emb|VDG17615.1| PadR family transcriptional regulator [Lactobacillus pentosus] [Lactobacillus mudanjiangensis] &gt;emb|VDG23112.1| PadR family transcriptional regulator [Lactobacillus pentosus] [Lactobacillus mudanjiangensis] &gt;emb|VDG29582.1| PadR family transcriptional regulator [Lactobacillus pentosus] [Lactobacillus mudanjiangensis] &gt;emb|VDG32696.1| PadR family transcriptional regulator [Lactobacillus pentosus] [Lactobacillus mudanjiangensis]</Hit_def>
+  <Hit_accession>WP_130845194</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>2.77388e-32</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>PEISKETIRGHTTTIVLNILSQGDSYGYAIAKTVKTLSHGAYELNEATLYTVFRRLIKNGDITSYWGNETQGGRRKYYQITTQGQQTLAQSLTEWQFAKQVIDDL</Hsp_hseq>
+      <Hsp_midline> EI KE +R  T  I+LN+L QGD+Y Y I K VK  S+G  ELNEATLYT+F+RL K+G I+SYWG+E+QGGRRKYY++T  G + +  +   W    ++I++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_125677721.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus keshanensis]</Hit_def>
+  <Hit_accession>WP_125677721</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>3.19073e-32</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ISKDIIRGHTTTIVLNILSQGDSYGYEIAKMIKQLSHESYELNEATLYTVFRRLEKNGDIASYWGDESQGGRRKYYQITEQGTETLKNNVKEWNFAKHVIDDL</Hsp_hseq>
+      <Hsp_midline>I K+++R  T  I+LN+L QGD+Y Y I K +K+ S+   ELNEATLYT+F+RLEK+G I+SYWGDESQGGRRKYY++TE G E ++   + W+    +I++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_135370986.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus suantsaicola] &gt;gb|TGD25377.1| PadR family transcriptional regulator [Lactobacillus suantsaicola]</Hit_def>
+  <Hit_accession>WP_135370986</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>3.337e-32</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ISKDIIRGHTTTIVLNILSQTDSYGYEIAKLVKELSQGKYELNEATLYTVFRRLEKNGDIESYWGDETQGGRRKYYQITTQGKQTLADNIKAWNFAKKVIDNL</Hsp_hseq>
+      <Hsp_midline>I K+++R  T  I+LN+L Q D+Y Y I K VKE S G+ ELNEATLYT+F+RLEK+G I SYWGDE+QGGRRKYY++T  G + +    ++W+   K+I+NL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_025024169.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus nodensis]</Hit_def>
+  <Hit_accession>WP_025024169</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>3.80096e-32</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ISKDIIRGHTTTIVLNILSQGDSYGYEIAKTIRQLSHEAYELNEATLYTVFRRLEKNGDIQSYWGDESQGGRRKYYKITEQGTETLKTNVKEWNFAKHVIDDL</Hsp_hseq>
+      <Hsp_midline>I K+++R  T  I+LN+L QGD+Y Y I K +++ S+   ELNEATLYT+F+RLEK+G I SYWGDESQGGRRKYY++TE G E ++   + W+    +I++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_143462381.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus enshiensis]</Hit_def>
+  <Hit_accession>WP_143462381</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>4.18463e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MAEI-PKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANK</Hsp_qseq>
+      <Hsp_hseq>MAEIISKDLIRGHTDTIILNILQQGDSYGYQVAKRVKELSAGHYELNEATLYTVFRRLEKNGALTDYWGDETQGSRRKYYHVTAAGRELLAENTAAWQFAKPIIDDLITGK</Hsp_hseq>
+      <Hsp_midline>MAEI  K+++R  T+ I+LN+L+QGD+Y Y + K+VKE S G  ELNEATLYT+F+RLEK+G ++ YWGDE+QG RRKYY +T  G E +     +W     II++L   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_057734682.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus hammesii] &gt;gb|KRL93627.1| transcriptional regulator [Lactobacillus hammesii DSM 16381]</Hit_def>
+  <Hit_accession>WP_057734682</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>4.3385e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MAE-IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSE</Hsp_qseq>
+      <Hsp_hseq>MAEVISKDLIRGHTDTIVLNILQQGDSYGYQVAKRVRELSQGHYELNEATLYTVFRRLEKNGALTDYWGDETQGSRRKYYHVTAVGKEMLAEKTAAWRFAKPIIDELITGQITE</Hsp_hseq>
+      <Hsp_midline>MAE I K+++R  T+ I+LN+L+QGD+Y Y + K+V+E S G  ELNEATLYT+F+RLEK+G ++ YWGDE+QG RRKYY +T +G E +     +W     II+ L   + +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_057820664.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus perolens]</Hit_def>
+  <Hit_accession>WP_057820664</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>4.45361e-32</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ADISKEMIRGYTGTIVLNILAQGDSYGYQISKDVTQLSGGDYEINEATLYTVFRRLAKNGSVEGYWGDETQGSRRKYYRITDQGMAELAAAQENWNAAKKVMDEL</Hsp_hseq>
+      <Hsp_midline>A+I KEM+R  T  I+LN+L QGD+Y Y I K V + S G+ E+NEATLYT+F+RL K+G +  YWGDE+QG RRKYYR+T+ G   +  A E+W+   K+++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_124726476.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Staphylospora marina]</Hit_def>
+  <Hit_accession>WP_124726476</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>4.87688e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>MSTISTELIRGHTATIILNVLRQGDSYGYEIYKQILKLSGHRYELKEATLYTVFRRLEKEGYIVSYWGDESQGGRRKYYRITESGREYYERSVQEWQFAREILDRL</Hsp_hseq>
+      <Hsp_midline>M+ I  E++R  T  I+LNVL+QGD+Y Y I KQ+ + S    EL EATLYT+F+RLEK+G I SYWGDESQGGRRKYYR+TE G E    + + W    +I++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_057880073.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus kimchiensis] &gt;gb|KRO00182.1| transcriptional regulator (transcriptional regulator, padr family) [Lactobacillus kimchiensis]</Hit_def>
+  <Hit_accession>WP_057880073</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>5.82864e-32</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ISKDIIRGHTTTIVLNILNQGDSYGYEIAKMVKELSHEAYELNEATLYTVFRRLEKNGDISSYWGDESQGGRRKYYQITTQGKTTLAENIKAWDFAKGVIDNL</Hsp_hseq>
+      <Hsp_midline>I K+++R  T  I+LN+L QGD+Y Y I K VKE S+   ELNEATLYT+F+RLEK+G ISSYWGDESQGGRRKYY++T  G   +    ++W     +I+NL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|WP_159842254.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Microbacterium sp. SAI-030] &gt;gb|KAF0829472.1| DNA-binding PadR family transcriptional regulator [Microbacterium sp. SAI-030]</Hit_def>
+  <Hit_accession>WP_159842254</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>6.00302e-32</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSE</Hsp_qseq>
+      <Hsp_hseq>FAADLLRGHTDTIVLGVLRRGDAYGFEIYKAIREATGGEHEIKEATLYATYRRLEKDGLVESYWGDESQGGRRKYYRITDAGRAVFRGNVAAWTATRRIIDSLLDVKESQ</Hsp_hseq>
+      <Hsp_midline>   ++LR  T+ I+L VL++GD Y + I K ++EA+ GE E+ EATLY  ++RLEKDG++ SYWGDESQGGRRKYYR+T+ G    R    +W+   +II++L   K+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>gb|KRK80635.1|</Hit_id>
+  <Hit_def>transcriptional regulator (transcriptional regulator, padr family) [Lactobacillus nodensis DSM 19682 = JCM 14932 = NBRC 107160]</Hit_def>
+  <Hit_accession>KRK80635</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>6.17228e-32</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ISKDIIRGHTTTIVLNILSQGDSYGYEIAKTIRQLSHEAYELNEATLYTVFRRLEKNGDIQSYWGDESQGGRRKYYKITEQGTETLKTNVKEWNFAKHVIDDL</Hsp_hseq>
+      <Hsp_midline>I K+++R  T  I+LN+L QGD+Y Y I K +++ S+   ELNEATLYT+F+RLEK+G I SYWGDESQGGRRKYY++TE G E ++   + W+    +I++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|WP_125712794.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus kedongensis]</Hit_def>
+  <Hit_accession>WP_125712794</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>7.73824e-32</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ISKDIIRGHTTTIVLNILSQGDSYGYEIAKMIKQLSHESYELNEATLYTVFRRLEKNGDIASYWGDESQGGRRKYYQITDQGTETLKNNVKEWNFAKHVIDDL</Hsp_hseq>
+      <Hsp_midline>I K+++R  T  I+LN+L QGD+Y Y I K +K+ S+   ELNEATLYT+F+RLEK+G I+SYWGDESQGGRRKYY++T+ G E ++   + W+    +I++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|WP_168900668.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus sp. ZJLC28-8] &gt;gb|NLR10626.1| helix-turn-helix transcriptional regulator [Lactobacillus sp. ZJLC28-8]</Hit_def>
+  <Hit_accession>WP_168900668</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>8.18063e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MAE-IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANK</Hsp_qseq>
+      <Hsp_hseq>MAEVISKDLIRGHTDTIVLNILQQGDSYGYQVAKRVRELSHGHYDLNEATLYTVFRRLEKNGALTDYWGDETQGSRRKYYHVTDVGQTMLAEKTAAWRFAKPIIDELITGK</Hsp_hseq>
+      <Hsp_midline>MAE I K+++R  T+ I+LN+L+QGD+Y Y + K+V+E S+G  +LNEATLYT+F+RLEK+G ++ YWGDE+QG RRKYY +T++G   +     +W     II+ L   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|WP_167262167.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Alkalibacillus almallahensis] &gt;gb|NIK12060.1| DNA-binding PadR family transcriptional regulator [Alkalibacillus almallahensis]</Hit_def>
+  <Hit_accession>WP_167262167</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>8.27058e-32</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>SNISTDLIRGHTSTIILNILRQGDSYGYEIYKQIIALSNGEYELKEATLYTAFRRLQKDGLIESYWGDETQGGRRKYYRLTQAGRDTYEQNRQDWLFAKEVLNKL</Hsp_hseq>
+      <Hsp_midline>+ I  +++R  T+ I+LN+L+QGD+Y Y I KQ+   SNGE EL EATLYT F+RL+KDG+I SYWGDE+QGGRRKYYRLT+ G +      + W    +++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>gb|PCS01472.1|</Hit_id>
+  <Hit_def>PadR family transcriptional regulator [Lactococcus fujiensis JCM 16395]</Hit_def>
+  <Hit_accession>PCS01472</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>8.43914e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>EIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>EISKDMIRGHMDAVILNILSQADSYGYEVSKTVKKLSENQYEINEATLYTVFRRLEKSGHIESYWGDESQGGRRKYYKITATGLEKLANARDSWQFAQKIITKL</Hsp_hseq>
+      <Hsp_midline>EI K+M+R   + ++LN+L Q D+Y Y + K VK+ S  + E+NEATLYT+F+RLEK G I SYWGDESQGGRRKYY++T  G E +  A +SW    KII  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|WP_161900325.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Enterococcus sp. CU9D] &gt;gb|KAF1290809.1| transcriptional regulator [Enterococcus sp. CU9D]</Hit_def>
+  <Hit_accession>WP_161900325</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>9.04175e-32</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANK</Hsp_qseq>
+      <Hsp_hseq>ISKEMIRGHVETIVLNILSQGDSYGYAISKTVTQLSDGAYDLNEATLYTVFRRLEKQGAIESYWGDQTKGGRRKYYHLTAQGQETLTAEVANWQVAKQILDQLITGK</Hsp_hseq>
+      <Hsp_midline>I KEM+R     I+LN+L QGD+Y Y I K V + S+G  +LNEATLYT+F+RLEK G I SYWGD+++GGRRKYY LT  G E +     +W    +I++ L   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|WP_133363614.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Weissella cryptocerci] &gt;gb|QBO36537.1| PadR family transcriptional regulator [Weissella cryptocerci]</Hit_def>
+  <Hit_accession>WP_133363614</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>9.99364e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>EIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSE</Hsp_qseq>
+      <Hsp_hseq>EISKDTIRGHTDTIVLNILAQGDSYGYRIAQTIREMSGGTYELNEATLYTVFRRLEKNGDIESYYGNETQGGRRKYYKLTNQGQLALQQRLEAWEFAKHVIDNLIRGKVTE</Hsp_hseq>
+      <Hsp_midline>EI K+ +R  T+ I+LN+L QGD+Y Y I + ++E S G  ELNEATLYT+F+RLEK+G I SY+G+E+QGGRRKYY+LT  G   ++   E+W     +I+NL   K +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|WP_125701266.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus fuyuanensis]</Hit_def>
+  <Hit_accession>WP_125701266</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>1.01804e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MAE-IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSE</Hsp_qseq>
+      <Hsp_hseq>MAEVISKDLIRGHTDTIVLNILQQGDSYGYQVAKRVRELSQGHYELNEATLYTVFRRLEKNGALTDYWGDETQGSRRKYYHVTATGQEMLAEKKTAWQFAKPIIDELITGQITE</Hsp_hseq>
+      <Hsp_midline>MAE I K+++R  T+ I+LN+L+QGD+Y Y + K+V+E S G  ELNEATLYT+F+RLEK+G ++ YWGDE+QG RRKYY +T  G E +     +W     II+ L   + +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|WP_137616856.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus nangangensis]</Hit_def>
+  <Hit_accession>WP_137616856</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>1.1366e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>PEISKETIRGHTTTIVLNILNQGDSYGYAIAKTIKTLSQGAYEINEATLYTVFRRLEKNGEITSYWGNETQGGRRKYYQISAQGQKTLAHNIEEWHFAKQVIDDL</Hsp_hseq>
+      <Hsp_midline> EI KE +R  T  I+LN+L QGD+Y Y I K +K  S G  E+NEATLYT+F+RLEK+G I+SYWG+E+QGGRRKYY+++  G + +    E W    ++I++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|WP_056955730.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus paralimentarius] &gt;gb|KAE9565150.1| transcriptional regulator [Lactobacillus paralimentarius] &gt;gb|KRL31963.1| transcriptional regulator (transcriptional regulator, padr family) [Lactobacillus paralimentarius DSM 13238 = JCM 10415] &gt;gb|QFR70235.1| PadR family transcriptional regulator [Lactobacillus paralimentarius]</Hit_def>
+  <Hit_accession>WP_056955730</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>1.18644e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ISKDIIRGHTATIVLNILSQGDSYGYEIAKRVKELSHNDYELNEATLYTVFRRLEKNGDIVGYWGDETQGGRRKYYQITTQGKQTLTDNIEAWNFAKKVIDEL</Hsp_hseq>
+      <Hsp_midline>I K+++R  T  I+LN+L QGD+Y Y I K+VKE S+ + ELNEATLYT+F+RLEK+G I  YWGDE+QGGRRKYY++T  G + +    E+W+   K+I+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|WP_020090476.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus parabrevis] &gt;gb|KRK33256.1| PadR family transcriptional regulator [Lactobacillus parabrevis ATCC 53295] &gt;gb|KRO04911.1| PadR family transcriptional regulator [Lactobacillus parabrevis]</Hit_def>
+  <Hit_accession>WP_020090476</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>1.25312e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MAE-IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSE</Hsp_qseq>
+      <Hsp_hseq>MAEVISKDLIRGHTDTIVLNILQQGDSYGYQVAKRVRELSQGHYELNEATLYTVFRRLEKNGALTDYWGDETQGSRRKYYHVTTTGQEMLAEKKTAWEFAKPIIDELITGQITE</Hsp_hseq>
+      <Hsp_midline>MAE I K+++R  T+ I+LN+L+QGD+Y Y + K+V+E S G  ELNEATLYT+F+RLEK+G ++ YWGDE+QG RRKYY +T  G E +     +W     II+ L   + +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|WP_056952131.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus paralimentarius] &gt;gb|KAE9560228.1| transcriptional regulator [Lactobacillus paralimentarius] &gt;gb|KRK82950.1| transcriptional regulator (transcriptional regulator, padr family) [Lactobacillus paralimentarius DSM 19674] &gt;gb|OVE99365.1| putative DNA-binding protein YwzG [Lactobacillus paralimentarius] &gt;dbj|GEO57345.1| PadR family transcriptional regulator [Lactobacillus paralimentarius]</Hit_def>
+  <Hit_accession>WP_056952131</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>1.4604e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ISKDIIRGHTATIVLNILNQGDSYGYEIAKRVKELSHDDYELNEATLYTVFRRLEKNGDIVGYWGDETQGGRRKYYQITTQGKQTLTDNIEAWNFAKKVIDEL</Hsp_hseq>
+      <Hsp_midline>I K+++R  T  I+LN+L QGD+Y Y I K+VKE S+ + ELNEATLYT+F+RLEK+G I  YWGDE+QGGRRKYY++T  G + +    E+W+   K+I+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|WP_187528665.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Weissella diestrammenae] &gt;gb|QNN74830.1| helix-turn-helix transcriptional regulator [Weissella diestrammenae]</Hit_def>
+  <Hit_accession>WP_187528665</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>1.52448e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>EIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANK</Hsp_qseq>
+      <Hsp_hseq>ELSKDLIRGHTDAIVLNLLSQGDSYGYRIVQDIKQRTKGQYTLNEATLYTVFRRLGKAGLVESYYGDESQGGRRKYYSLTPLGQERLTAEKEAWAFARQMINELMGDK</Hsp_hseq>
+      <Hsp_midline>E+ K+++R  T+ I+LN+L QGD+Y Y I++ +K+ + G+  LNEATLYT+F+RL K G++ SY+GDESQGGRRKYY LT +G E +    E+W+   ++I  L  +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|WP_056967720.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus paralimentarius] &gt;gb|KAE9561172.1| transcriptional regulator [Lactobacillus paralimentarius] &gt;gb|KRK53250.1| transcriptional regulator (transcriptional regulator, padr family) [Lactobacillus paralimentarius DSM 13961 = JCM 10707] &gt;gb|OWF32694.1| putative DNA-binding protein YwzG [Lactobacillus paralimentarius] &gt;dbj|GEO47702.1| PadR family transcriptional regulator [Lactobacillus paralimentarius]</Hit_def>
+  <Hit_accession>WP_056967720</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>1.61143e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ISKDIIRGHTATIVLNILNQGDSYGYEIAKRVKELSHDDYELNEATLYTVFRRLEKNGDIVGYWGDETQGGRRKYYQITTQGKQTLTDNIEAWNFAKKVIDEL</Hsp_hseq>
+      <Hsp_midline>I K+++R  T  I+LN+L QGD+Y Y I K+VKE S+ + ELNEATLYT+F+RLEK+G I  YWGDE+QGGRRKYY++T  G + +    E+W+   K+I+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>gb|KRL12597.1|</Hit_id>
+  <Hit_def>PadR family transcriptional regulator [Lactobacillus perolens DSM 12744]</Hit_def>
+  <Hit_accession>KRL12597</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>1.87426e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ADISKEMIRGYTGTIVLNILAQGDSYGYQISKDVTQLSGGDYEINEATLYTVFRRLAKNGSVEGYWGDETQGSRRKYYRITDQGMAELAAAQENWNAAKKVMDEL</Hsp_hseq>
+      <Hsp_midline>A+I KEM+R  T  I+LN+L QGD+Y Y I K V + S G+ E+NEATLYT+F+RL K+G +  YWGDE+QG RRKYYR+T+ G   +  A E+W+   K+++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|WP_026017039.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus rossiae] &gt;gb|QFR66942.1| PadR family transcriptional regulator [Lactobacillus rossiae] &gt;gb|QLE62440.1| Transcriptional regulator PadR [Lactobacillus rossiae] &gt;gb|QLE65166.1| Transcriptional regulator PadR family [Lactobacillus rossiae]</Hit_def>
+  <Hit_accession>WP_026017039</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>2.05811e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>PEISKDIIRGHTTTIILNILSQGDSYGYEIAKAVRELSHDAYELNEATLYTAFRRMERNGDIESYWGDETQGGRRKYYKLTEQGTRLLTKNVADWAFAKKIIDDL</Hsp_hseq>
+      <Hsp_midline> EI K+++R  T  I+LN+L QGD+Y Y I K V+E S+   ELNEATLYT F+R+E++G I SYWGDE+QGGRRKYY+LTE G   +      W+   KII++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>ref|WP_161001906.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus rossiae] &gt;gb|MYV05730.1| PadR family transcriptional regulator [Lactobacillus rossiae] &gt;gb|MYV17232.1| PadR family transcriptional regulator [Lactobacillus rossiae] &gt;gb|QLE67564.1| Transcriptional regulator PadR [Lactobacillus rossiae] &gt;gb|QLE69992.1| Transcriptional regulator PadR family [Lactobacillus rossiae]</Hit_def>
+  <Hit_accession>WP_161001906</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>2.15011e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>PEISKDIIRGHTTTIILNILSQGDSYGYEIAKAVRELSHDAYELNEATLYTAFRRMERNGDIESYWGDETQGGRRKYYKLTEQGTRLLAKNVADWAFAKKIIDDL</Hsp_hseq>
+      <Hsp_midline> EI K+++R  T  I+LN+L QGD+Y Y I K V+E S+   ELNEATLYT F+R+E++G I SYWGDE+QGGRRKYY+LTE G   +      W+   KII++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|WP_125694369.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus tongjiangensis]</Hit_def>
+  <Hit_accession>WP_125694369</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>2.28645e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>MAE-IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>MAEVISKDLIRGHTDTIVLNILQQGDSYGYQVAKRVKALSQGHYELNEATLYTVFRRLEKNGALEDYWGDESQGSRRKYYHVTPVGVALLKKNTAAWQVAKPIIDDL</Hsp_hseq>
+      <Hsp_midline>MAE I K+++R  T+ I+LN+L+QGD+Y Y + K+VK  S G  ELNEATLYT+F+RLEK+G +  YWGDESQG RRKYY +T +G   ++    +W     II++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>ref|WP_057808434.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus siliginis] &gt;gb|KRN97171.1| transcriptional regulator (transcriptional regulator, padr family) [Lactobacillus siliginis] &gt;dbj|GEK28632.1| PadR family transcriptional regulator [Lactobacillus siliginis]</Hit_def>
+  <Hit_accession>WP_057808434</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>2.73471e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>PEISKDIIRGHTTSIILNVLSQGDSYGYEIAKAVQQLSNNAYELSEATLYTAFRRMEKNGDIESYWGDESQGGRRKYYRVTEQGQQLLAKDIADWRFAKDIIDDL</Hsp_hseq>
+      <Hsp_midline> EI K+++R  T  I+LNVL QGD+Y Y I K V++ SN   EL+EATLYT F+R+EK+G I SYWGDESQGGRRKYYR+TE G + +      W     II++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|WP_041499409.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus heilongjiangensis] &gt;gb|ALB28767.1| transcriptional regulator [Lactobacillus heilongjiangensis]</Hit_def>
+  <Hit_accession>WP_041499409</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>2.87659e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ISKDIIRGHTATIVLNILNQGDSYGYEIAKMVKELSHDKYELNEATLYTVFRRLEKNDDIASYWGDESQGGRRKYYQITTQGKQTLEDNIEAWKFAKDVIDDL</Hsp_hseq>
+      <Hsp_midline>I K+++R  T  I+LN+L QGD+Y Y I K VKE S+ + ELNEATLYT+F+RLEK+  I+SYWGDESQGGRRKYY++T  G + +    E+W     +I++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|WP_137639391.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus dongliensis]</Hit_def>
+  <Hit_accession>WP_137639391</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>2.87659e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>PEISKETIRGHTTTIVLNILNQGDSYGYAIAKTIKTLSHAAYDINEATLYTVFRRLEKNGDITSYWGNETQGGRRKYYRISPQGQATLQHNIDEWHFAKQVIDDL</Hsp_hseq>
+      <Hsp_midline> EI KE +R  T  I+LN+L QGD+Y Y I K +K  S+   ++NEATLYT+F+RLEK+G I+SYWG+E+QGGRRKYYR++  G   ++   + W    ++I++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|WP_106444184.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Weissella cibaria] &gt;gb|AVO66420.1| PadR family transcriptional regulator [Weissella cibaria] &gt;gb|NKN31472.1| helix-turn-helix transcriptional regulator [Weissella cibaria] &gt;gb|NKN80351.1| helix-turn-helix transcriptional regulator [Weissella cibaria] &gt;gb|NKN97595.1| helix-turn-helix transcriptional regulator [Weissella cibaria] &gt;gb|NKO00650.1| helix-turn-helix transcriptional regulator [Weissella cibaria]</Hit_def>
+  <Hit_accession>WP_106444184</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>2.91619e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANK</Hsp_qseq>
+      <Hsp_hseq>MAEISKDLIRGHTDTIVLNILAQGDSYGYRIVQDIKTMSGGQYEINEATLYTVFRRLQKVEYVTPYYGDETQGGRRKYYAITEAGKQALAEAQAAWDVAKVIIDQLMTGK</Hsp_hseq>
+      <Hsp_midline>MAEI K+++R  T+ I+LN+L QGD+Y Y I++ +K  S G+ E+NEATLYT+F+RL+K   ++ Y+GDE+QGGRRKYY +TE G + +  A  +W     II+ L   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|WP_144088426.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Allobacillus sp. SKP4-8] &gt;gb|TSJ65861.1| helix-turn-helix transcriptional regulator [Allobacillus sp. SKP4-8]</Hit_def>
+  <Hit_accession>WP_144088426</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>3.00519e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>MAGISTDLIRGHTNTIILNILSQGDSYGYDIYKKIIVLSDGKYELKEATLYTAFRRLLKDGEIESYWGDESQGGRRKYYRITEQGKQTYEQNKEEWENAKVILEQL</Hsp_hseq>
+      <Hsp_midline>MA I  +++R  TN I+LN+L QGD+Y Y I K++   S+G+ EL EATLYT F+RL KDG I SYWGDESQGGRRKYYR+TE G +      E W     I+E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>gb|KRL54331.1|</Hit_id>
+  <Hit_def>transcriptional regulator (transcriptional regulator, padr family) [Lactobacillus rossiae DSM 15814]</Hit_def>
+  <Hit_accession>KRL54331</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>3.1799e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>PEISKDIIRGHTTTIILNILSQGDSYGYEIAKAVRELSHDAYELNEATLYTAFRRMERNGDIESYWGDETQGGRRKYYKLTEQGTRLLTKNVADWAFAKKIIDDL</Hsp_hseq>
+      <Hsp_midline> EI K+++R  T  I+LN+L QGD+Y Y I K V+E S+   ELNEATLYT F+R+E++G I SYWGDE+QGGRRKYY+LTE G   +      W+   KII++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>gb|KRL49540.1|</Hit_id>
+  <Hit_def>transcriptional regulator (transcriptional regulator, padr family) [Lactobacillus paraplantarum DSM 10667]</Hit_def>
+  <Hit_accession>KRL49540</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>3.39317e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>PEISKDTIRGHTTTIVLNILNQGDSYGYAIAKTIKQLSHAAYVINEATLYTVFRRLEKHGDISSYWGNETQGGRRKYYQITTQGRTTLRHNIDEWNFAKQVIDDL</Hsp_hseq>
+      <Hsp_midline> EI K+ +R  T  I+LN+L QGD+Y Y I K +K+ S+    +NEATLYT+F+RLEK G ISSYWG+E+QGGRRKYY++T  G   +R   + W+   ++I++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>ref|WP_021730648.1|</Hit_id>
+  <Hit_def>MULTISPECIES: helix-turn-helix transcriptional regulator [Lactiplantibacillus] &gt;gb|ALO02947.1| transcriptional regulator [Lactobacillus paraplantarum] &gt;gb|AVW09935.1| PadR family transcriptional regulator [Lactobacillus paraplantarum] &gt;gb|AYJ38146.1| PadR family transcriptional regulator [Lactobacillus paraplantarum] &gt;gb|ERL45033.1| hypothetical protein N644_0856 [Lactobacillus paraplantarum] &gt;gb|KGE74979.1| transcriptional regulator [Lactobacillus paraplantarum]</Hit_def>
+  <Hit_accession>WP_021730648</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>3.58183e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>PEISKDTIRGHTTTIVLNILNQGDSYGYAIAKTIKQLSHAAYVINEATLYTVFRRLEKHGDISSYWGNETQGGRRKYYQITTQGRTTLRHNIDEWNFAKQVIDDL</Hsp_hseq>
+      <Hsp_midline> EI K+ +R  T  I+LN+L QGD+Y Y I K +K+ S+    +NEATLYT+F+RLEK G ISSYWG+E+QGGRRKYY++T  G   +R   + W+   ++I++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|WP_105448078.1|</Hit_id>
+  <Hit_def>PadR family transcriptional regulator [Lactobacillus sp. CBA3606] &gt;gb|AVK62683.1| PadR family transcriptional regulator [Lactobacillus sp. CBA3606]</Hit_def>
+  <Hit_accession>WP_105448078</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>3.73969e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ISKEIIRGHTTTIVLNILNQGDSYGYAIAKTIKTLSNAAYDINEATLYTVFRRLEKNGDITSYWGNETQGGRRKYYQISTQGQQTLAHNTEEWQFAKRVIDDL</Hsp_hseq>
+      <Hsp_midline>I KE++R  T  I+LN+L QGD+Y Y I K +K  SN   ++NEATLYT+F+RLEK+G I+SYWG+E+QGGRRKYY+++  G + +    E W    ++I++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|WP_060655517.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Weissella cibaria] &gt;gb|ALI33959.1| PadR family transcriptional regulator [Weissella cibaria]</Hit_def>
+  <Hit_accession>WP_060655517</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>3.8331e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MAEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANK</Hsp_qseq>
+      <Hsp_hseq>MAEISKDLIRGHTDTILLNILAQGDSYGYRIVQDIKTMSSGQYEINEATLYTVFRRLQKAEYVTPYYGNETQGGRRKYYAITEAGKQALAEAQAAWDVAKVVIDQLMTGK</Hsp_hseq>
+      <Hsp_midline>MAEI K+++R  T+ ILLN+L QGD+Y Y I++ +K  S+G+ E+NEATLYT+F+RL+K   ++ Y+G+E+QGGRRKYY +TE G + +  A  +W     +I+ L   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|WP_045296651.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Microbacterium trichothecenolyticum] &gt;gb|KJL44964.1| lineage-specific thermal regulator protein [Microbacterium trichothecenolyticum]</Hit_def>
+  <Hit_accession>WP_045296651</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>4.06747e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSE</Hsp_qseq>
+      <Hsp_hseq>FAADLLRGHTDTIVLGVLRRGDAYGFEIYKTIRDATGGDHEIKEATLYATYRRLEKDGLVESYWGDESQGGRRKYYRITDAGRAVFRGNVAAWTATRRIIDSLLDVKESQ</Hsp_hseq>
+      <Hsp_midline>   ++LR  T+ I+L VL++GD Y + I K +++A+ G+ E+ EATLY  ++RLEKDG++ SYWGDESQGGRRKYYR+T+ G    R    +W+   +II++L   K+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>ref|WP_056368906.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Microbacterium sp. Leaf288] &gt;gb|KQP70219.1| PadR family transcriptional regulator [Microbacterium sp. Leaf288]</Hit_def>
+  <Hit_accession>WP_056368906</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>4.06747e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSE</Hsp_qseq>
+      <Hsp_hseq>FAADLLRGHTDTIVLGVLRRGDAYGFEIYKAIRDATGGDHEIKEATLYATYRRLEKDGLVESYWGDESQGGRRKYYRITDAGRAVFRGNVAAWTATRRIIDSLLDVKESQ</Hsp_hseq>
+      <Hsp_midline>   ++LR  T+ I+L VL++GD Y + I K +++A+ G+ E+ EATLY  ++RLEKDG++ SYWGDESQGGRRKYYR+T+ G    R    +W+   +II++L   K+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|WP_137605982.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus daoliensis]</Hit_def>
+  <Hit_accession>WP_137605982</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>4.31328e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>EIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>EISKETIRGHTTTIVLNILNQGDSYGYAIAKTIKSLSHGAYDINEATLYTVFRRLEKNGEIASYWGNETQGGRRKYYQITAQGQQTLEHNVAEWHFAKQVIDEL</Hsp_hseq>
+      <Hsp_midline>EI KE +R  T  I+LN+L QGD+Y Y I K +K  S+G  ++NEATLYT+F+RLEK+G I+SYWG+E+QGGRRKYY++T  G + +      W    ++I+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|WP_125590718.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus jidongensis]</Hit_def>
+  <Hit_accession>WP_125590718</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>4.50085e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ISKDIIRGHTTTIVLNILSQGDSYGYEVAKTIKKLSHEAYELNEATLYTVFRRLEKNGDIQSYWGDESQGGRRKYYKITDQGMKTLKTNVKEWNFAKHVIDDL</Hsp_hseq>
+      <Hsp_midline>I K+++R  T  I+LN+L QGD+Y Y + K +K+ S+   ELNEATLYT+F+RLEK+G I SYWGDESQGGRRKYY++T+ G + ++   + W+    +I++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|WP_125681643.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus yonginensis]</Hit_def>
+  <Hit_accession>WP_125681643</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>4.6537e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>MAE-IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>MAEVISKDLIRGHTDTIILNILQQGDSYGYQVAKRVKLLSQGHYELNEATLYTVFRRLEKNGALEDYWGDESQGSRRKYYHVTPVGVALLKKNTAAWQVAKPIIDDL</Hsp_hseq>
+      <Hsp_midline>MAE I K+++R  T+ I+LN+L+QGD+Y Y + K+VK  S G  ELNEATLYT+F+RLEK+G +  YWGDESQG RRKYY +T +G   ++    +W     II++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|WP_131509578.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus paraplantarum] &gt;gb|TBX47325.1| PadR family transcriptional regulator [Lactobacillus paraplantarum]</Hit_def>
+  <Hit_accession>WP_131509578</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>4.81149e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>PEISKDTIRGHTTTIVLNILNQGDSYGYAIAKTIKQLSHAAYVINEATLYTVFRRLEKHGDISSYWGSETQGGRRKYYQITTQGRTTLRHNIDEWNFAKQVIDDL</Hsp_hseq>
+      <Hsp_midline> EI K+ +R  T  I+LN+L QGD+Y Y I K +K+ S+    +NEATLYT+F+RLEK G ISSYWG E+QGGRRKYY++T  G   +R   + W+   ++I++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>ref|WP_120142317.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus zhachilii] &gt;gb|AYE38074.1| PadR family transcriptional regulator [Lactobacillus zhachilii]</Hit_def>
+  <Hit_accession>WP_120142317</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>4.88127e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ISKDIIRGHTTTIVLNILSQGDSYGYEIAKMVKVLSRDAYELNEATLYTVFRRLEKNGDITSYWGDESQGGRRKYYQITDQGKQTLTDNIKAWNFAKEVIDDL</Hsp_hseq>
+      <Hsp_midline>I K+++R  T  I+LN+L QGD+Y Y I K VK  S    ELNEATLYT+F+RLEK+G I+SYWGDESQGGRRKYY++T+ G + +    ++W+   ++I++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|WP_013102760.1|</Hit_id>
+  <Hit_def>MULTISPECIES: PadR family transcriptional regulator [Leuconostoc] &gt;gb|ADG40164.1| hypothetical protein LKI_03110 [Leuconostoc kimchii IMSNU 11154] &gt;gb|AEJ31894.1| hypothetical protein LGMK_09225 [Leuconostoc sp. C2] &gt;gb|QBR46683.1| PadR family transcriptional regulator [Leuconostoc kimchii]</Hit_def>
+  <Hit_accession>WP_013102760</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>5.2484e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSEAI</Hsp_qseq>
+      <Hsp_hseq>ISKELIRGHTDTIILNILSQGDSYGYQVSKSIRLLSHQQYELNEATLYTAFRRLEKGGAIASYWGDETQGARRKYYKITTSGQQQLTTALQEWEFAKDVISQLITGNMHEGV</Hsp_hseq>
+      <Hsp_midline>I KE++R  T+ I+LN+L QGD+Y Y + K ++  S+ + ELNEATLYT F+RLEK G I+SYWGDE+QG RRKYY++T  G + +  A + W     +I  L      E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>ref|WP_105452577.1|</Hit_id>
+  <Hit_def>PadR family transcriptional regulator [Lactobacillus sp. CBA3605] &gt;gb|AVK62213.1| PadR family transcriptional regulator [Lactobacillus sp. CBA3605]</Hit_def>
+  <Hit_accession>WP_105452577</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>5.60421e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ISKETIRGHTTTIVLNILNQGDSYGYAIAKTIKTLSNAAYDINEATLYTVFRRLEKNGDITSYWGNETQGGRRKYYQISTQGQQTLAHNTEEWQFAKRVIDDL</Hsp_hseq>
+      <Hsp_midline>I KE +R  T  I+LN+L QGD+Y Y I K +K  SN   ++NEATLYT+F+RLEK+G I+SYWG+E+QGGRRKYY+++  G + +    E W    ++I++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>ref|WP_054707647.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Bacillus sp. JCM 19041]</Hit_def>
+  <Hit_accession>WP_054707647</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>6.65229e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ISTDLIRGHTTTIILNILRQGDSYGFDIYKKIGSLSENQYELKEATLYTAFRRLEKDGFILSYWGDESQGGRRKYYRLTKLGHEQYEQNKAGWDFAKIILDQL</Hsp_hseq>
+      <Hsp_midline>I  +++R  T  I+LN+L+QGD+Y + I K++   S  + EL EATLYT F+RLEKDG I SYWGDESQGGRRKYYRLT++GHE        W     I++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>ref|WP_024624145.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus fabifermentans] &gt;gb|ETY74842.1| PadR family transcriptional regulator [Lactobacillus fabifermentans T30PCM01] &gt;gb|KRO28429.1| transcriptional regulator (transcriptional regulator, padr family) [Lactobacillus fabifermentans DSM 21115]</Hit_def>
+  <Hit_accession>WP_024624145</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>7.52848e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>PEISKETIRGHTTTIVLNILNQGDSYGYAIAKTIKQLSHAAYDINEATLYTVFRRLEKNGDIASYWGSETQGGRRKYYQITPQGQATLDHNIQEWNFAKHVIDDL</Hsp_hseq>
+      <Hsp_midline> EI KE +R  T  I+LN+L QGD+Y Y I K +K+ S+   ++NEATLYT+F+RLEK+G I+SYWG E+QGGRRKYY++T  G   +    + W+    +I++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|WP_083483563.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Lactobacillus nantensis] &gt;gb|KRM18241.1| transcriptional regulator (transcriptional regulator, padr family) [Lactobacillus nantensis DSM 16982] &gt;dbj|GEO62903.1| PadR family transcriptional regulator [Lactobacillus nantensis]</Hit_def>
+  <Hit_accession>WP_083483563</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>7.6949e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ISKDIIRGHTTTIVLNILNQGDSYGYEIAKMVKVLSHDAYELNEATLYTVFRRLEKNGDIASYWGDESQGGRRKYYQITDQGKQTLVENIKAWNFAKDVIDDL</Hsp_hseq>
+      <Hsp_midline>I K+++R  T  I+LN+L QGD+Y Y I K VK  S+   ELNEATLYT+F+RLEK+G I+SYWGDESQGGRRKYY++T+ G + +    ++W+    +I++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|WP_072614429.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Leuconostoc suionicum] &gt;gb|API72959.1| transcriptional regulator [Leuconostoc suionicum] &gt;emb|SPD93621.1| lineage-specific thermal regulator protein [Leuconostoc suionicum] &gt;emb|SPE09277.1| lineage-specific thermal regulator protein [Leuconostoc suionicum] &gt;emb|SPH04544.1| lineage-specific thermal regulator protein [Leuconostoc suionicum] &gt;dbj|BAX69659.1| PadR family transcriptional regulator [Leuconostoc suionicum]</Hit_def>
+  <Hit_accession>WP_072614429</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>7.77948e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>EIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>DISKDLIRGHTDTIILNILSQGDSYGYQVSKSIRQLSNKQYELNEATLYTAFRRLEKVGDIRSYWGDQTQGARRKYYTLTDQGQQHFKSAQQEWDFAKDIISHL</Hsp_hseq>
+      <Hsp_midline>+I K+++R  T+ I+LN+L QGD+Y Y + K +++ SN + ELNEATLYT F+RLEK G I SYWGD++QG RRKYY LT+ G ++ + A + W     II +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>gb|NLN19506.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Firmicutes bacterium]</Hit_def>
+  <Hit_accession>NLN19506</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>7.865e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>ISNDLIRGHTDTIILNVLRQGDNYGYGIYKRILELSDNQYELKEATLYAAFRRLEQDGFIAGYWGDETQGGRRKYYRITPQGREKYERDCRDWEFAKTILDRL</Hsp_hseq>
+      <Hsp_midline>I  +++R  T+ I+LNVL+QGDNY YGI K++ E S+ + EL EATLY  F+RLE+DG I+ YWGDE+QGGRRKYYR+T  G E        W     I++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|WP_141896511.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Microbacterium kyungheense] &gt;gb|TQM19848.1| DNA-binding PadR family transcriptional regulator [Microbacterium kyungheense]</Hit_def>
+  <Hit_accession>WP_141896511</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>8.01086e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSE</Hsp_qseq>
+      <Hsp_hseq>FAADLLRGHTDTIVLGVLRRGDAYGFEIYKAIRDATGGDYEIKEATLYATYRRLEKDGLVESYWGDESQGGRRKYYRITDAGRAVFRGNVAAWTATRRIIDELLDVKESQ</Hsp_hseq>
+      <Hsp_midline>   ++LR  T+ I+L VL++GD Y + I K +++A+ G+ E+ EATLY  ++RLEKDG++ SYWGDESQGGRRKYYR+T+ G    R    +W+   +II+ L   K+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|WP_050338904.1|</Hit_id>
+  <Hit_def>PadR family transcriptional regulator [Lactobacillus pentosus] &gt;emb|CCC16093.1| transcriptional regulator (transcriptional regulator, PadR family) [Lactobacillus pentosus IG1] &gt;dbj|BBM20635.1| PadR family transcriptional regulator [Lactiplantibacillus plantarum] &gt;gb|ASG78898.1| PadR family transcriptional regulator [Lactobacillus pentosus] &gt;gb|AYG36863.1| PadR family transcriptional regulator [Lactobacillus pentosus] &gt;gb|AYG42492.1| PadR family transcriptional regulator [Lactobacillus pentosus]</Hit_def>
+  <Hit_accession>WP_050338904</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>8.04244e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>PEISKDTIRGHTTTIVLNILNQGDSYGYAIAKTIKQLSHGAYVINEATLYTVFRRLEKNGDIRSYWGNETQGGRRKYYQITTQGQQTLQHNIDEWNFAKQVIDEL</Hsp_hseq>
+      <Hsp_midline> EI K+ +R  T  I+LN+L QGD+Y Y I K +K+ S+G   +NEATLYT+F+RLEK+G I SYWG+E+QGGRRKYY++T  G + ++   + W+   ++I+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|WP_191169961.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Microbacterium sp. NEAU-LLC] &gt;gb|MBD3940324.1| helix-turn-helix transcriptional regulator [Microbacterium sp. NEAU-LLC]</Hit_def>
+  <Hit_accession>WP_191169961</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>8.18793e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>IPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANKKSE</Hsp_qseq>
+      <Hsp_hseq>FAADLLRGHTDTIVLGVLRRGDAYGFEIYKAIRDATGGDYEIKEATLYATYRRLEKDGLVESYWGDESQGGRRKYYRITDAGRAVFRGNVAAWTATRRIIDELLDVKESQ</Hsp_hseq>
+      <Hsp_midline>   ++LR  T+ I+L VL++GD Y + I K +++A+ G+ E+ EATLY  ++RLEKDG++ SYWGDESQGGRRKYYR+T+ G    R    +W+   +II+ L   K+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|WP_152705982.1|</Hit_id>
+  <Hit_def>PadR family transcriptional regulator [Lactobacillus pentosus]</Hit_def>
+  <Hit_accession>WP_152705982</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>8.4644e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>PEISKDTIRGHTTTIVLNILNQGDSYGYAIAKTIKQLSHGAYVINEATLYTVFRRLEKNGDIRSYWGNETQGGRRKYYQITTQGQQTLQHNIDEWNFAKQVIDEL</Hsp_hseq>
+      <Hsp_midline> EI K+ +R  T  I+LN+L QGD+Y Y I K +K+ S+G   +NEATLYT+F+RLEK+G I SYWG+E+QGGRRKYY++T  G + ++   + W+   ++I+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|WP_061399574.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Leuconostoc mesenteroides]</Hit_def>
+  <Hit_accession>WP_061399574</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>8.58382e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>EIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>DISKDLIRGHTDIIILNILSQGDSYGYQVSKSIRQLSSKQYELNEATLYTAFRRLEKVGDIRSYWGDQTQGARRKYYTLTDQGQEHFKSAQQEWDFAKDIISHL</Hsp_hseq>
+      <Hsp_midline>+I K+++R  T++I+LN+L QGD+Y Y + K +++ S+ + ELNEATLYT F+RLEK G I SYWGD++QG RRKYY LT+ G E+ + A + W     II +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>ref|WP_057805030.1|</Hit_id>
+  <Hit_def>PadR family transcriptional regulator [Pediococcus ethanolidurans] &gt;gb|KRN83371.1| PadR family transcriptional regulator [Pediococcus ethanolidurans] &gt;dbj|GEN95840.1| PadR family transcriptional regulator [Pediococcus ethanolidurans] &gt;emb|SER22161.1| Transcriptional regulator PadR-like family protein [Pediococcus ethanolidurans]</Hit_def>
+  <Hit_accession>WP_057805030</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>9.09779e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>EIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENL</Hsp_qseq>
+      <Hsp_hseq>QISKDLIRGNTDTIILNLLNQQDSYGYQIAKQVKYLSNDAYEINEATLYTVFRRLEKHQDIESYWGDETQGARRKYYRITETGQQLLASNVQQWDFSKKIIEKL</Hsp_hseq>
+      <Hsp_midline>+I K+++R  T+ I+LN+L Q D+Y Y I KQVK  SN   E+NEATLYT+F+RLEK   I SYWGDE+QG RRKYYR+TE G + +    + W    KIIE L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|WP_005813646.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Desulfitobacterium hafniense] &gt;gb|EHL06128.1| transcriptional regulator, PadR family [Desulfitobacterium hafniense DP7] &gt;gb|KTE93060.1| transcriptional regulator [Desulfitobacterium hafniense] &gt;dbj|BAE86006.1| hypothetical protein DSY4217 [Desulfitobacterium hafniense Y51]</Hit_def>
+  <Hit_accession>WP_005813646</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>9.54862e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>AEIPKEMLRAQTNVILLNVLKQGDNYVYGIIKQVKEASNGEMELNEATLYTIFKRLEKDGIISSYWGDESQGGRRKYYRLTEIGHENMRLAFESWSRVDKIIENLEANK</Hsp_qseq>
+      <Hsp_hseq>ATISTDLIRGHTDTVILNVLRQGDSYGYGIYKTIIELSGHQYELKEATLYTAFRRMEQEGCIVSYWGDETSGGRRKYYRITDKGLETYEKNIKDWCLAKKILDKLVLNR</Hsp_hseq>
+      <Hsp_midline>A I  +++R  T+ ++LNVL+QGD+Y YGI K + E S  + EL EATLYT F+R+E++G I SYWGDE+ GGRRKYYR+T+ G E      + W    KI++ L  N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>322214535</Statistics_db-num>
+      <Statistics_db-len>165954995</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

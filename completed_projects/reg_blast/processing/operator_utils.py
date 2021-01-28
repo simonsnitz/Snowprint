@@ -249,8 +249,10 @@ def appendOperatorMetadata(homologListFile, knownOperator, perc_ident):
             
             consensus_data.append(getConsensus(homologList, min_ident=perc_ident)[0])
             num_seqs.append(getConsensus(homologList, min_ident=perc_ident)[1])
+        
+        lowest_identity = str(homologList[-1]["identity"])
 			
-        operator_data = [ {"input_seq": operators[i], "perc_ident":perc_ident, "num_seqs":num_seqs[i], "motif": consensus_data[i]} 
+        operator_data = [ {"input_seq": operators[i], "perc_ident":lowest_identity, "num_seqs":num_seqs[i], "motif": consensus_data[i]} 
             for i in range(0,len(operators))
         ]       
         

@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_877</BlastOutput_query-ID>
+  <BlastOutput_query-def>WP_001884097.1 TetR/AcrR family transcriptional regulator [Vibrio cholerae]</BlastOutput_query-def>
+  <BlastOutput_query-len>198</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_877</Iteration_query-ID>
+  <Iteration_query-def>WP_001884097.1 TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Iteration_query-def>
+  <Iteration_query-len>198</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_001884097.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|AAF93342.1| transcriptional regulator, TetR family [Vibrio cholerae O1 biovar El Tor str. N16961] &gt;gb|ACP04499.1| transcriptional regulator, TetR family [Vibrio cholerae M66-2] &gt;gb|EAZ75653.1| transcriptional regulator, TetR family [Vibrio cholerae B33] &gt;gb|EET25413.1| transcriptional regulator [Vibrio cholerae MO10] &gt;gb|OWH59413.1| TetR family transcriptional regulator [Vibrio cholerae O139]</Hit_def>
+  <Hit_accession>WP_001884097</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>413.69</Hsp_bit-score>
+      <Hsp_score>1062</Hsp_score>
+      <Hsp_evalue>5.54903e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MBA8614472.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>MBA8614472</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.535</Hsp_bit-score>
+      <Hsp_score>1059</Hsp_score>
+      <Hsp_evalue>1.69965e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLKDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANL+DDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|TQQ28515.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>TQQ28515</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.535</Hsp_bit-score>
+      <Hsp_score>1059</Hsp_score>
+      <Hsp_evalue>1.69965e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEMVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSE+VYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_080390514.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|PAR78422.1| TetR family transcriptional regulator [Vibrio cholerae] &gt;gb|PAR89358.1| TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_080390514</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.535</Hsp_bit-score>
+      <Hsp_score>1059</Hsp_score>
+      <Hsp_evalue>1.69965e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILMAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQIL+AAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_001902424.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|KNA44771.1| TetR family transcriptional regulator [Vibrio cholerae MZO-2]</Hit_def>
+  <Hit_accession>WP_001902424</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.535</Hsp_bit-score>
+      <Hsp_score>1059</Hsp_score>
+      <Hsp_evalue>1.73737e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQRMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQ+MFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_080286710.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|KNA48024.1| tetR family Bacterial regulatory protein [Vibrio cholerae V51] &gt;gb|PAR82000.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_080286710</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.149</Hsp_bit-score>
+      <Hsp_score>1058</Hsp_score>
+      <Hsp_evalue>1.96028e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEKGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAE+GFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|TXY75865.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>TXY75865</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.149</Hsp_bit-score>
+      <Hsp_score>1058</Hsp_score>
+      <Hsp_evalue>2.49558e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSIHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLS+HKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_080371487.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|TXZ56628.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_080371487</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.149</Hsp_bit-score>
+      <Hsp_score>1058</Hsp_score>
+      <Hsp_evalue>2.55096e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRNDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLR+DMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_080285811.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|TXY44349.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_080285811</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.764</Hsp_bit-score>
+      <Hsp_score>1057</Hsp_score>
+      <Hsp_evalue>2.63635e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLVRQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTL RQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|RBM24966.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio sp. 2015V-1076] &gt;gb|RBM28836.1| TetR family transcriptional regulator [Vibrio sp. 2016V-1062] &gt;gb|RBM41744.1| TetR family transcriptional regulator [Vibrio sp. 2017V-1070] &gt;gb|RBM42730.1| TetR family transcriptional regulator [Vibrio sp. 2017V-1038] &gt;gb|RBM48744.1| TetR family transcriptional regulator [Vibrio sp. 2017V-1085]</Hit_def>
+  <Hit_accession>RBM24966</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.764</Hsp_bit-score>
+      <Hsp_score>1057</Hsp_score>
+      <Hsp_evalue>2.72459e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDTMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLD MIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_080284757.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|MRI15991.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|NOE30934.1| TetR family transcriptional regulator [Vibrio cholerae] &gt;gb|TXY00506.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|TXY84649.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|TXZ21975.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_080284757</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.764</Hsp_bit-score>
+      <Hsp_score>1057</Hsp_score>
+      <Hsp_evalue>3.31963e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLHILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQL ILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|NOF74366.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>NOF74366</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.764</Hsp_bit-score>
+      <Hsp_score>1057</Hsp_score>
+      <Hsp_evalue>3.3933e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQHESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQ+ESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_080342620.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|KNH56364.1| tetR family transcriptional regulator [Vibrio cholerae 1587] &gt;gb|TXX77810.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|TYA64697.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_080342620</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.379</Hsp_bit-score>
+      <Hsp_score>1056</Hsp_score>
+      <Hsp_evalue>4.18001e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRKVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQR VMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_080100089.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_080100089</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.379</Hsp_bit-score>
+      <Hsp_score>1056</Hsp_score>
+      <Hsp_evalue>4.4645e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRHVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQR+VMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|NOE53296.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae] &gt;gb|ORP08399.1| TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>NOE53296</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.379</Hsp_bit-score>
+      <Hsp_score>1056</Hsp_score>
+      <Hsp_evalue>5.26337e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSILDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDS LDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|TXZ72378.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>TXZ72378</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.379</Hsp_bit-score>
+      <Hsp_score>1056</Hsp_score>
+      <Hsp_evalue>5.26337e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIICNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDII NRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_080387186.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_080387186</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.994</Hsp_bit-score>
+      <Hsp_score>1055</Hsp_score>
+      <Hsp_evalue>5.87387e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGMIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATG IYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|RBM66321.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio sp. 2017V-1110] &gt;gb|TQP74630.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>RBM66321</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.994</Hsp_bit-score>
+      <Hsp_score>1055</Hsp_score>
+      <Hsp_evalue>6.62751e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDGMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRD MSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|TYA69401.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>TYA69401</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.609</Hsp_bit-score>
+      <Hsp_score>1054</Hsp_score>
+      <Hsp_evalue>7.81341e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILMAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLNAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQIL+AAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTL+AMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_080008151.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|PAS37573.1| TetR family transcriptional regulator [Vibrio cholerae] &gt;gb|RBO13995.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_080008151</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.609</Hsp_bit-score>
+      <Hsp_score>1054</Hsp_score>
+      <Hsp_evalue>8.53039e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEKGFQGLSMHKVGKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAE+GFQGLSMHKV KAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_001886131.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|EFH72847.1| transcriptional regulator [Vibrio cholerae RC385] &gt;gb|TXZ96111.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_001886131</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.609</Hsp_bit-score>
+      <Hsp_score>1054</Hsp_score>
+      <Hsp_evalue>8.81591e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQEGFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQE FRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_080480667.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|NOE36526.1| TetR family transcriptional regulator [Vibrio cholerae] &gt;gb|PAS36118.1| TetR family transcriptional regulator [Vibrio cholerae] &gt;gb|RNE78832.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|TXZ14236.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_080480667</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.609</Hsp_bit-score>
+      <Hsp_score>1054</Hsp_score>
+      <Hsp_evalue>9.94703e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQLGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQ GIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|TQP55913.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|TYA91220.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>TQP55913</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.223</Hsp_bit-score>
+      <Hsp_score>1053</Hsp_score>
+      <Hsp_evalue>1.2803e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEMVYGDKPLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSE+VYGDK LQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|TQP28332.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>TQP28332</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.838</Hsp_bit-score>
+      <Hsp_score>1052</Hsp_score>
+      <Hsp_evalue>1.52604e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQVIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQ IFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|RND31480.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|TQP71564.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|TQQ04519.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|TQQ71673.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>RND31480</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.838</Hsp_bit-score>
+      <Hsp_score>1052</Hsp_score>
+      <Hsp_evalue>1.61212e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVCGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIV GDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_080006920.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|RBM48757.1| TetR/AcrR family transcriptional regulator [Vibrio sp. 2016V-1111] &gt;gb|RBM58939.1| TetR/AcrR family transcriptional regulator [Vibrio sp. 2017V-1105] &gt;gb|RBM72639.1| TetR/AcrR family transcriptional regulator [Vibrio sp. 2016V-1091] &gt;gb|RBM74359.1| TetR/AcrR family transcriptional regulator [Vibrio sp. 2016V-1114] &gt;gb|RBM85695.1| TetR/AcrR family transcriptional regulator [Vibrio sp. 2017V-1176]</Hit_def>
+  <Hit_accession>WP_080006920</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.838</Hsp_bit-score>
+      <Hsp_score>1052</Hsp_score>
+      <Hsp_evalue>2.02994e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEMVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDGMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSE+VYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRD MSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|TXX50798.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|TYA06735.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>TXX50798</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.453</Hsp_bit-score>
+      <Hsp_score>1051</Hsp_score>
+      <Hsp_evalue>2.34121e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDGMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEKKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRD MSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELE+KMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|TXX84677.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>TXX84677</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>408.683</Hsp_bit-score>
+      <Hsp_score>1049</Hsp_score>
+      <Hsp_evalue>4.67408e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLKDDMSLQECFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANL+DDMSLQE FRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_089072211.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio sp. 2521-89] &gt;gb|ASK56618.1| TetR family transcriptional regulator [Vibrio sp. 2521-89] &gt;gb|RBM67323.1| TetR/AcrR family transcriptional regulator [Vibrio sp. 2016V-1018]</Hit_def>
+  <Hit_accession>WP_089072211</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.527</Hsp_bit-score>
+      <Hsp_score>1046</Hsp_score>
+      <Hsp_evalue>1.34037e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANIATGTIYRYFHDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDTMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAAN+ATGTIYRYF DKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLD MIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_123011232.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|RNE82411.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_123011232</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.527</Hsp_bit-score>
+      <Hsp_score>1046</Hsp_score>
+      <Hsp_evalue>1.7252e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQEGFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVGLLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQE FRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKV LLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_080115248.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|RBM46924.1| TetR/AcrR family transcriptional regulator [Vibrio sp. 07-2425] &gt;gb|RBM56904.1| TetR/AcrR family transcriptional regulator [Vibrio sp. 2014V-1107] &gt;gb|RBM85192.1| TetR/AcrR family transcriptional regulator [Vibrio sp. 2017V-1144] &gt;gb|NAO20219.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|NAO58672.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_080115248</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.142</Hsp_bit-score>
+      <Hsp_score>1045</Hsp_score>
+      <Hsp_evalue>1.82251e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MPRNVMSEMVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDGMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>M RNVMSE+VYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRD MSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|PAS40015.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae] &gt;gb|PAS44574.1| TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>PAS40015</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.142</Hsp_bit-score>
+      <Hsp_score>1045</Hsp_score>
+      <Hsp_evalue>2.07903e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQRIAEEVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQLGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQ+IAE VQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQ GIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|TQQ47840.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>TQQ47840</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>406.757</Hsp_bit-score>
+      <Hsp_score>1044</Hsp_score>
+      <Hsp_evalue>2.7655e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEMVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDGMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFGQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSE+VYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRD MSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLF QGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|NAR22622.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae] &gt;gb|NAR34110.1| TetR family transcriptional regulator [Vibrio cholerae] &gt;gb|TXX72934.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|TXZ44280.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>NAR22622</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>406.757</Hsp_bit-score>
+      <Hsp_score>1044</Hsp_score>
+      <Hsp_evalue>2.98631e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVCGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQLGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIV GDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQ GIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|TQQ47919.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>TQQ47919</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.986</Hsp_bit-score>
+      <Hsp_score>1042</Hsp_score>
+      <Hsp_evalue>7.02863e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEMVYGDKPLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFCDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSE+VYGDK LQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYF DKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|TQP67082.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>TQP67082</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.601</Hsp_bit-score>
+      <Hsp_score>1041</Hsp_score>
+      <Hsp_evalue>8.47012e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEMVYGDKPLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVERLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDVMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSE+VYGDK LQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVE LFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLD MIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|PKQ52724.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>PKQ52724</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.831</Hsp_bit-score>
+      <Hsp_score>1039</Hsp_score>
+      <Hsp_evalue>1.46616e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEIVCGDKQLQILITAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQLGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSEIV GDKQLQILI AEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQ GIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|TQQ43753.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>TQQ43753</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>6.30997e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSEMVYGDKPLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWMLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVERLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDVMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSE+VYGDK LQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIW LAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVE LFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLD MIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|KKP08521.1|</Hit_id>
+  <Hit_def>tetR family transcriptional regulator [Vibrio cholerae] &gt;gb|KNA47419.1| tetR family Bacterial regulatory protein [Vibrio cholerae MZO-3] &gt;gb|KNA51516.1| TetR family transcriptional regulator [Vibrio cholerae AM-19226] &gt;gb|KNA53813.1| TetR family transcriptional regulator [Vibrio cholerae 2740-80] &gt;gb|KNH48629.1| transcriptional regulator TetR family protein [Vibrio cholerae V52]</Hit_def>
+  <Hit_accession>KKP08521</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>6.73469e-142</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>VMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>+MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_001290345.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|EJH59473.1| transcriptional regulator, TetR family [Vibrio cholerae HC-46A1] &gt;gb|EKG65325.1| transcriptional regulator, TetR family [Vibrio cholerae HC-55A1] &gt;gb|EKK97176.1| bacterial regulatory s, tetR family protein [Vibrio cholerae HC-1A2] &gt;gb|EKL23626.1| bacterial regulatory s, tetR family protein [Vibrio cholerae HC-61A2] &gt;gb|EKY30999.1| transcriptional regulator, TetR family [Vibrio cholerae PS15] &gt;gb|EMP88386.1| transcriptional regulator, TetR family [Vibrio cholerae O1 str. 116059] &gt;gb|EMP89747.1| transcriptional regulator, TetR family [Vibrio cholerae O1 str. 116063] &gt;gb|EMP99397.1| transcriptional regulator, TetR family [Vibrio cholerae O1 str. AG-7404] &gt;gb|EMQ01989.1| transcriptional regulator, TetR family [Vibrio cholerae O1 str. 95412] &gt;gb|EMQ18973.1| transcriptional regulator, TetR family [Vibrio cholerae O1 str. EC-0051] &gt;gb|EMQ71556.1| transcriptional regulator, TetR family [Vibrio cholerae O1 str. NHCC-008D] &gt;gb|EYC47520.1| TetR family transcriptional regulator [Vibrio cholerae O1 biovar El Tor str. L-3226] &gt;gb|KEH06503.1| TetR family transcriptional regulator [Vibrio cholerae 2012EL-1759]</Hit_def>
+  <Hit_accession>WP_001290345</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.00785e-141</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_182293695.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_182293695</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.749</Hsp_bit-score>
+      <Hsp_score>1031</Hsp_score>
+      <Hsp_evalue>2.56153e-141</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLKDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANL+DDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_001290346.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|OEC25687.1| TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_001290346</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.749</Hsp_bit-score>
+      <Hsp_score>1031</Hsp_score>
+      <Hsp_evalue>2.58979e-141</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQRMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQ+MFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_057556069.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|KQA14327.1| TetR family transcriptional regulator [Vibrio cholerae] &gt;gb|KQA80295.1| TetR family transcriptional regulator [Vibrio cholerae] &gt;gb|KQA87751.1| TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_057556069</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.749</Hsp_bit-score>
+      <Hsp_score>1031</Hsp_score>
+      <Hsp_evalue>2.73586e-141</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILMAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQIL+AAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_185841372.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_185841372</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.749</Hsp_bit-score>
+      <Hsp_score>1031</Hsp_score>
+      <Hsp_evalue>2.73586e-141</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEMVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSE+VYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_032472841.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|KFD94970.1| transcriptional regulator, TetR family [Vibrio cholerae] &gt;gb|OFJ30142.1| TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_032472841</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.364</Hsp_bit-score>
+      <Hsp_score>1030</Hsp_score>
+      <Hsp_evalue>3.29697e-141</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEKGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAE+GFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_053034588.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|OEC24344.1| TetR family transcriptional regulator [Vibrio cholerae] &gt;gb|OFI95224.1| TetR family transcriptional regulator [Vibrio cholerae] &gt;emb|CSB22384.1| TetR family transcriptional regulator [Vibrio cholerae] &gt;emb|CSC63415.1| TetR family transcriptional regulator [Vibrio cholerae] &gt;emb|CSE08424.1| TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_053034588</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.364</Hsp_bit-score>
+      <Hsp_score>1030</Hsp_score>
+      <Hsp_evalue>3.52135e-141</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRNDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLR+DMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_044128099.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|KFE25454.1| transcriptional regulator, TetR family [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_044128099</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.364</Hsp_bit-score>
+      <Hsp_score>1030</Hsp_score>
+      <Hsp_evalue>3.76102e-141</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLVRQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTL RQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_181710849.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [unclassified Vibrio]</Hit_def>
+  <Hit_accession>WP_181710849</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>4.29038e-141</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDTMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLD MIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_187377164.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_187377164</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>5.05806e-141</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSIHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLS+HKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_001963467.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|EKL01238.1| bacterial regulatory s, tetR family protein [Vibrio cholerae CP1035(8)]</Hit_def>
+  <Hit_accession>WP_001963467</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.593</Hsp_bit-score>
+      <Hsp_score>1028</Hsp_score>
+      <Hsp_evalue>6.09542e-141</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQHESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQ+ESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|WP_162906432.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_162906432</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.593</Hsp_bit-score>
+      <Hsp_score>1028</Hsp_score>
+      <Hsp_evalue>6.36894e-141</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAENLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAE LIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|WP_032477289.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|KFD97030.1| transcriptional regulator, TetR family [Vibrio cholerae] &gt;gb|OFJ33377.1| TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_032477289</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.593</Hsp_bit-score>
+      <Hsp_score>1028</Hsp_score>
+      <Hsp_evalue>6.58211e-141</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLHILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQL ILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|WP_001290344.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|EGR03893.1| transcriptional regulator, TetR family [Vibrio cholerae HE39]</Hit_def>
+  <Hit_accession>WP_001290344</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.593</Hsp_bit-score>
+      <Hsp_score>1028</Hsp_score>
+      <Hsp_evalue>7.03008e-141</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSILDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDS LDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|WP_179875290.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_179875290</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.593</Hsp_bit-score>
+      <Hsp_score>1028</Hsp_score>
+      <Hsp_evalue>7.34554e-141</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIICNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDII NRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|WP_181725115.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Vibrio]</Hit_def>
+  <Hit_accession>WP_181725115</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.208</Hsp_bit-score>
+      <Hsp_score>1027</Hsp_score>
+      <Hsp_evalue>1.06675e-140</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDGMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRD MSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|WP_187386821.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_187386821</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.208</Hsp_bit-score>
+      <Hsp_score>1027</Hsp_score>
+      <Hsp_evalue>1.10245e-140</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILMAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLNAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQIL+AAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTL+AMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|WP_071187219.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|OFI69946.1| TetR family transcriptional regulator [Vibrio cholerae] &gt;gb|OFI70316.1| TetR family transcriptional regulator [Vibrio cholerae] &gt;gb|QKU86977.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_071187219</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.823</Hsp_bit-score>
+      <Hsp_score>1026</Hsp_score>
+      <Hsp_evalue>1.17748e-140</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQLGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQ GIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|WP_001290342.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|QKU71864.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|QKU75811.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_001290342</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.823</Hsp_bit-score>
+      <Hsp_score>1026</Hsp_score>
+      <Hsp_evalue>1.65461e-140</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEKGFQGLSMHKVGKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAE+GFQGLSMHKV KAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|WP_001290343.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|AWB71796.1| putative HTH-type transcriptional regulator [Vibrio cholerae] &gt;gb|KWW44253.1| TetR family transcriptional regulator [Vibrio cholerae] &gt;gb|OEG79286.1| TetR family transcriptional regulator [Vibrio cholerae] &gt;gb|QKU79701.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|QKU90447.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_001290343</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.438</Hsp_bit-score>
+      <Hsp_score>1025</Hsp_score>
+      <Hsp_evalue>1.82637e-140</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQEGFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQE FRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|WP_188372494.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae] &gt;dbj|GFK35355.1| putative HTH-type transcriptional regulator [Vibrio cholerae] &gt;dbj|GFK38871.1| putative HTH-type transcriptional regulator [Vibrio cholerae] &gt;dbj|GFK42413.1| putative HTH-type transcriptional regulator [Vibrio cholerae] &gt;dbj|GFK45953.1| putative HTH-type transcriptional regulator [Vibrio cholerae] &gt;dbj|GFK49471.1| putative HTH-type transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_188372494</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.438</Hsp_bit-score>
+      <Hsp_score>1025</Hsp_score>
+      <Hsp_evalue>2.08343e-140</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQRIAEEVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQ+IAE VQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|WP_185835884.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_185835884</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.438</Hsp_bit-score>
+      <Hsp_score>1025</Hsp_score>
+      <Hsp_evalue>2.10642e-140</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQVIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQ IFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>gb|QEO44662.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|RBM31971.1| TetR family transcriptional regulator [Vibrio sp. 2523-88]</Hit_def>
+  <Hit_accession>QEO44662</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.438</Hsp_bit-score>
+      <Hsp_score>1025</Hsp_score>
+      <Hsp_evalue>2.13699e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRHAMPEMAYCDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDTMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQR+ M E+ Y DKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLD MIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|WP_185833987.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_185833987</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.053</Hsp_bit-score>
+      <Hsp_score>1024</Hsp_score>
+      <Hsp_evalue>2.68159e-140</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEMVYGDKPLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSE+VYGDK LQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|WP_001293419.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Vibrio] &gt;gb|EKG91585.1| transcriptional regulator, TetR family [Vibrio cholerae HE-16] &gt;gb|EMP95668.1| transcriptional regulator, TetR family [Vibrio cholerae O1 str. 87395] &gt;gb|KQA23052.1| TetR family transcriptional regulator [Vibrio cholerae O16 str. 877-163] &gt;gb|KFD80433.1| transcriptional regulator, TetR family [Vibrio cholerae] &gt;emb|SPM19954.1| TetR family transcriptional regulator,Uncharacter ized HTH-type transcriptional regulator HI_0893,transcripti onal regulator BetI,transcriptional repressor BetI,Bacteria l regulatory proteins, tetR family [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_001293419</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.053</Hsp_bit-score>
+      <Hsp_score>1024</Hsp_score>
+      <Hsp_evalue>2.89569e-140</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEMVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDGMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSE+VYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRD MSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|WP_185835073.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_185835073</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.053</Hsp_bit-score>
+      <Hsp_score>1024</Hsp_score>
+      <Hsp_evalue>3.05901e-140</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVCGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIV GDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|WP_071178725.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|OFJ25869.1| TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_071178725</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.667</Hsp_bit-score>
+      <Hsp_score>1023</Hsp_score>
+      <Hsp_evalue>3.48956e-140</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDGMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEKKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRD MSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELE+KMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|WP_187378653.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_187378653</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>8.39524e-140</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLKDDMSLQECFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANL+DDMSLQE FRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>ref|WP_162905542.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_162905542</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.512</Hsp_bit-score>
+      <Hsp_score>1020</Hsp_score>
+      <Hsp_evalue>1.02286e-139</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAAQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHHLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIA QGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNH LSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|WP_188962595.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae] &gt;gb|MBD1197816.1| TetR/AcrR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_188962595</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.127</Hsp_bit-score>
+      <Hsp_score>1019</Hsp_score>
+      <Hsp_evalue>1.69449e-139</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKTANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDILSNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLFALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAK ANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDI+SNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLL ALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>ref|WP_184476144.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_184476144</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>396.741</Hsp_bit-score>
+      <Hsp_score>1018</Hsp_score>
+      <Hsp_evalue>2.08732e-139</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQEGFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVGLLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQE FRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKV LLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|WP_181712750.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio sp. 2016V-1018]</Hit_def>
+  <Hit_accession>WP_181712750</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>396.741</Hsp_bit-score>
+      <Hsp_score>1018</Hsp_score>
+      <Hsp_evalue>2.18098e-139</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANIATGTIYRYFHDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDTMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAAN+ATGTIYRYF DKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLD MIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|WP_170939996.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_170939996</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>396.356</Hsp_bit-score>
+      <Hsp_score>1017</Hsp_score>
+      <Hsp_evalue>2.80713e-139</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQRIAEEVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQLGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQ+IAE VQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQ GIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|WP_185841738.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_185841738</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>396.356</Hsp_bit-score>
+      <Hsp_score>1017</Hsp_score>
+      <Hsp_evalue>3.23755e-139</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEMVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDGMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFGQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSE+VYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRD MSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLF QGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|WP_032471874.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|KFE11079.1| transcriptional regulator, TetR family [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_032471874</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>396.356</Hsp_bit-score>
+      <Hsp_score>1017</Hsp_score>
+      <Hsp_evalue>3.69322e-139</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVCGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQLGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIV GDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQ GIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|WP_162812047.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_162812047</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.971</Hsp_bit-score>
+      <Hsp_score>1016</Hsp_score>
+      <Hsp_evalue>5.18969e-139</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEMVYGDKPLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNILTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSE+VYGDK LQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNI TLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|WP_185839702.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_185839702</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.586</Hsp_bit-score>
+      <Hsp_score>1015</Hsp_score>
+      <Hsp_evalue>7.87475e-139</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEMVYGDKPLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFCDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSE+VYGDK LQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYF DKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>ref|WP_185837796.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_185837796</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.201</Hsp_bit-score>
+      <Hsp_score>1014</Hsp_score>
+      <Hsp_evalue>1.09448e-138</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEMVYGDKPLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVERLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDVMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSE+VYGDK LQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVE LFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLD MIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|WP_180949902.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_180949902</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>394.815</Hsp_bit-score>
+      <Hsp_score>1013</Hsp_score>
+      <Hsp_evalue>1.42423e-138</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEIVCGDKQLQILITAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQLGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSEIV GDKQLQILI AEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQ GIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|WP_001911261.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio cholerae] &gt;gb|EET93641.1| transcriptional regulator TetR family [Vibrio cholerae CIRS101] &gt;gb|EEY42895.1| transcriptional regulator TetR family [Vibrio cholerae RC27] &gt;gb|EEY49996.1| transcriptional regulator TetR family [Vibrio cholerae INDRE 91/1] &gt;gb|EGR06879.1| transcriptional regulator, TetR family [Vibrio cholerae HC-49A2] &gt;gb|EGR10483.1| transcriptional regulator, TetR family [Vibrio cholerae HE48] &gt;gb|EGS51935.1| transcriptional regulator, TetR family [Vibrio cholerae HC-70A1] &gt;gb|EGS53472.1| transcriptional regulator, TetR family [Vibrio cholerae HC-48A1] &gt;gb|EGS53750.1| transcriptional regulator, TetR family [Vibrio cholerae HC-40A1] &gt;gb|EGS66118.1| transcriptional regulator, TetR family [Vibrio cholerae HC-02A1] &gt;gb|EGS66297.1| transcriptional regulator, TetR family [Vibrio cholerae HFU-02] &gt;gb|EGS73063.1| transcriptional regulator, TetR family [Vibrio cholerae HC-38A1] &gt;gb|EHH76158.1| transcriptional regulator, TetR family [Vibrio cholerae HC-06A1] &gt;gb|EHH76965.1| transcriptional regulator, TetR family [Vibrio cholerae HC-21A1] &gt;gb|EHH80763.1| transcriptional regulator, TetR family [Vibrio cholerae HC-19A1] &gt;gb|EHH87401.1| transcriptional regulator, TetR family [Vibrio cholerae HC-23A1] &gt;gb|EHH88978.1| transcriptional regulator, TetR family [Vibrio cholerae HC-22A1] &gt;gb|EHH91594.1| transcriptional regulator, TetR family [Vibrio cholerae HC-28A1] &gt;gb|EHH98094.1| transcriptional regulator, TetR family [Vibrio cholerae HC-32A1] &gt;gb|EHI07972.1| transcriptional regulator, TetR family [Vibrio cholerae HC-61A1] &gt;gb|EJH33853.1| transcriptional regulator, TetR family [Vibrio cholerae CP1032(5)] &gt;gb|EJH45533.1| transcriptional regulator, TetR family [Vibrio cholerae CP1042(15)] &gt;gb|EJH47004.1| transcriptional regulator, TetR family [Vibrio cholerae CP1046(19)] &gt;gb|EJH48753.1| transcriptional regulator, TetR family [Vibrio cholerae CP1048(21)] &gt;gb|EJH65724.1| transcriptional regulator, TetR family [Vibrio cholerae HE-25] &gt;gb|EJH66043.1| transcriptional regulator, TetR family [Vibrio cholerae HE-45] &gt;gb|EJH75231.1| transcriptional regulator, TetR family [Vibrio cholerae HC-57A2] &gt;gb|EJH77794.1| transcriptional regulator, TetR family [Vibrio cholerae HC-42A1] &gt;gb|EJH86353.1| transcriptional regulator, TetR family [Vibrio cholerae HC-47A1] &gt;gb|EJH88941.1| transcriptional regulator, TetR family [Vibrio cholerae CP1030(3)] &gt;gb|EKG54817.1| transcriptional regulator, TetR family [Vibrio cholerae HC-50A1] &gt;gb|EKG60037.1| transcriptional regulator, TetR family [Vibrio cholerae HC-52A1] &gt;gb|EKG65063.1| transcriptional regulator, TetR family [Vibrio cholerae HC-56A1] &gt;gb|EKG73931.1| transcriptional regulator, TetR family [Vibrio cholerae CP1037(10)] &gt;gb|EKG74738.1| transcriptional regulator, TetR family [Vibrio cholerae HC-57A1] &gt;gb|EKG74908.1| transcriptional regulator, TetR family [Vibrio cholerae CP1040(13)] &gt;gb|EKG81559.1| transcriptional regulator, TetR family [Vibrio cholerae CP1044(17)] &gt;gb|EKG83221.1| transcriptional regulator, TetR family [Vibrio cholerae CP1050(23)] &gt;gb|EKG94634.1| transcriptional regulator, TetR family [Vibrio cholerae HC-51A1] &gt;gb|EKL01114.1| bacterial regulatory s, tetR family protein [Vibrio cholerae HC-17A1] &gt;gb|EKL04768.1| bacterial regulatory s, tetR family protein [Vibrio cholerae HC-41B1] &gt;gb|EKL09309.1| bacterial regulatory s, tetR family protein [Vibrio cholerae HC-55C2] &gt;gb|EKL16337.1| bacterial regulatory s, tetR family protein [Vibrio cholerae HC-50A2] &gt;gb|EKL17754.1| bacterial regulatory s, tetR family protein [Vibrio cholerae HC-59A1] &gt;gb|EKL30861.1| bacterial regulatory s, tetR family protein [Vibrio cholerae HC-77A1] &gt;gb|EKL90088.1| transcriptional regulator, TetR family [Vibrio cholerae HC-37A1] &gt;gb|EKL95004.1| transcriptional regulator, TetR family [Vibrio cholerae HC-02C1] &gt;gb|EKL98902.1| transcriptional regulator, TetR family [Vibrio cholerae HC-46B1] &gt;gb|EKM02197.1| transcriptional regulator, TetR family [Vibrio cholerae HC-55B2] &gt;gb|EKM07213.1| transcriptional regulator, TetR family [Vibrio cholerae HC-44C1] &gt;gb|EKM10486.1| transcriptional regulator, TetR family [Vibrio cholerae HC-59B1] &gt;gb|EKM15232.1| transcriptional regulator, TetR family [Vibrio cholerae HC-62B1] &gt;gb|EKM21095.1| transcriptional regulator, TetR family [Vibrio cholerae HC-69A1] &gt;gb|ELP48409.1| transcriptional regulator TetR family [Vibrio cholerae 4260B] &gt;gb|ELS75887.1| transcriptional regulator, TetR family [Vibrio cholerae HC-64A1] &gt;gb|ELS83356.1| transcriptional regulator, TetR family [Vibrio cholerae HC-65A1] &gt;gb|ELS90760.1| transcriptional regulator, TetR family [Vibrio cholerae HC-67A1] &gt;gb|ELS98161.1| transcriptional regulator, TetR family [Vibrio cholerae HC-68A1] &gt;gb|ELT05325.1| transcriptional regulator, TetR family [Vibrio cholerae HC-71A1] &gt;gb|ELT12046.1| transcriptional regulator, TetR family [Vibrio cholerae HC-72A2] &gt;gb|ELT19291.1| transcriptional regulator, TetR family [Vibrio cholerae HC-78A1] &gt;gb|ELT33978.1| transcriptional regulator, TetR family [Vibrio cholerae HC-80A1] &gt;gb|ELT39087.1| transcriptional regulator, TetR family [Vibrio cholerae HC-81A1] &gt;gb|EMB03012.1| TetR family transcriptional regulator [Vibrio cholerae O1 str. Inaba G4222] &gt;gb|EMQ08438.1| transcriptional regulator, TetR family [Vibrio cholerae O1 str. AG-8040] &gt;gb|EMQ16286.1| transcriptional regulator, TetR family [Vibrio cholerae O1 str. EC-0027] &gt;gb|EMQ30517.1| transcriptional regulator, TetR family [Vibrio cholerae O1 str. EDC-022] &gt;gb|EMQ30565.1| transcriptional regulator, TetR family [Vibrio cholerae O1 str. EM-1536] &gt;gb|EMQ43080.1| transcriptional regulator, TetR family [Vibrio cholerae O1 str. EM-1626] &gt;gb|EMQ44659.1| transcriptional regulator, TetR family [Vibrio cholerae O1 str. NHCC-006C] &gt;gb|EMQ45996.1| transcriptional regulator, TetR family [Vibrio cholerae O1 str. Nep-21113] &gt;gb|EMQ58098.1| transcriptional regulator, TetR family [Vibrio cholerae O1 str. EM-1727] &gt;gb|EMQ60067.1| transcriptional regulator, TetR family [Vibrio cholerae O1 str. NHCC-004A] &gt;gb|EMQ66047.1| transcriptional regulator, TetR family [Vibrio cholerae O1 str. Nep-21106] &gt;gb|EMQ71933.1| transcriptional regulator, TetR family [Vibrio cholerae O1 str. NHCC-010F] &gt;gb|ERP70641.1| transcriptional regulator, TetR family [Vibrio cholerae HC-36A1] &gt;gb|EWM34184.1| transcriptional regulator, TetR family [Vibrio cholerae O1 str. PCS-022] &gt;gb|PCM02471.1| transcriptional regulator TetR family [Vibrio cholerae VC0101557] &gt;dbj|BAP01692.1| transcriptional regulator, TetR family [Vibrio cholerae MS6]</Hit_def>
+  <Hit_accession>WP_001911261</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.66</Hsp_bit-score>
+      <Hsp_score>1010</Hsp_score>
+      <Hsp_evalue>3.38801e-138</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>VYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>+YGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gb|RBM45782.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio sp. 2017V-1124]</Hit_def>
+  <Hit_accession>RBM45782</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.66</Hsp_bit-score>
+      <Hsp_score>1010</Hsp_score>
+      <Hsp_evalue>4.18781e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRHAMPEMAYCDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANIATGTIYRYFHDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQKRFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDTMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQR+ M E+ Y DKQLQILIAAEKLIAEQGFQGLSMHKVAKAAN+ATGTIYRYF DKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQ+RFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLD MIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gb|EGS59532.1|</Hit_id>
+  <Hit_def>transcriptional regulator, TetR family [Vibrio cholerae HE-09] &gt;gb|QAV03534.1| Transcriptional regulator, TetR family [Vibrio cholerae]</Hit_def>
+  <Hit_accession>EGS59532</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>392.889</Hsp_bit-score>
+      <Hsp_score>1008</Hsp_score>
+      <Hsp_evalue>7.2443e-138</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>IVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDGMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>+VYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRD MSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|WP_185840481.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_185840481</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>392.889</Hsp_bit-score>
+      <Hsp_score>1008</Hsp_score>
+      <Hsp_evalue>7.97588e-138</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSEMVYGDKPLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWMLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVERLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDVMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSE+VYGDK LQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIW LAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVE LFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLD MIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|WP_181722668.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Vibrio]</Hit_def>
+  <Hit_accession>WP_181722668</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>392.504</Hsp_bit-score>
+      <Hsp_score>1007</Hsp_score>
+      <Hsp_evalue>1.07263e-137</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MPEMAYCDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDTMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>M E+ Y DKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLD MIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>gb|EMQ56961.1|</Hit_id>
+  <Hit_def>transcriptional regulator, TetR family [Vibrio cholerae O1 str. EM-1676A]</Hit_def>
+  <Hit_accession>EMQ56961</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.734</Hsp_bit-score>
+      <Hsp_score>1005</Hsp_score>
+      <Hsp_evalue>2.18836e-137</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>VYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGMIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>+YGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATG IYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>gb|EKL33430.1|</Hit_id>
+  <Hit_def>bacterial regulatory s, tetR family protein [Vibrio cholerae HE-40] &gt;gb|EKL37239.1| bacterial regulatory s, tetR family protein [Vibrio cholerae HE-46]</Hit_def>
+  <Hit_accession>EKL33430</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.349</Hsp_bit-score>
+      <Hsp_score>1004</Hsp_score>
+      <Hsp_evalue>2.52391e-137</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>VYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSILDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>+YGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDS LDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gb|EGS73012.1|</Hit_id>
+  <Hit_def>transcriptional regulator, TetR family [Vibrio cholerae BJG-01]</Hit_def>
+  <Hit_accession>EGS73012</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.578</Hsp_bit-score>
+      <Hsp_score>1002</Hsp_score>
+      <Hsp_evalue>5.94012e-137</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>VYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MYGDKQLQILIAAEKLIAEKGFQGLSMHKVGKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>+YGDKQLQILIAAEKLIAE+GFQGLSMHKV KAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|WP_154172971.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio metoecus]</Hit_def>
+  <Hit_accession>WP_154172971</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.267</Hsp_bit-score>
+      <Hsp_score>996</Hsp_score>
+      <Hsp_evalue>6.21814e-136</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSELVRCDKQLQILIAAEKLIAEQGFHGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQRIAEAVQANLKDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGLFKPLDNHLLSALSFETTVTLARKYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSE+V  DKQLQILIAAEKLIAEQGF GLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQ+IAEAVQANL+DDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQG+FKPLDNHLLSALSFETTVTLAR+YALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>ref|WP_095468610.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio metoecus] &gt;gb|PAR35758.1| TetR family transcriptional regulator [Vibrio metoecus] &gt;gb|PAR44244.1| TetR family transcriptional regulator [Vibrio metoecus]</Hit_def>
+  <Hit_accession>WP_095468610</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.111</Hsp_bit-score>
+      <Hsp_score>993</Hsp_score>
+      <Hsp_evalue>1.43161e-135</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSELVRCDKQIQILIAAEKLIAEQGFHGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQRIAEAVQANLKDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGLFKPLDNHLLSALSFETTVTLARKYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSE+V  DKQ+QILIAAEKLIAEQGF GLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQ+IAEAVQANL+DDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQG+FKPLDNHLLSALSFETTVTLAR+YALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>ref|WP_181714878.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio sp. 2017V-1124]</Hit_def>
+  <Hit_accession>WP_181714878</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.111</Hsp_bit-score>
+      <Hsp_score>993</Hsp_score>
+      <Hsp_evalue>1.47952e-135</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MPEMAYCDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANIATGTIYRYFHDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQKRFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDTMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>M E+ Y DKQLQILIAAEKLIAEQGFQGLSMHKVAKAAN+ATGTIYRYF DKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQ+RFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLD MIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>ref|WP_055051899.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio metoecus] &gt;gb|KQA17537.1| TetR family transcriptional regulator [Vibrio metoecus]</Hit_def>
+  <Hit_accession>WP_055051899</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>6.29704e-135</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSELVRCDKQIQILIAAEKLIAEQGFHGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQRIAEAVQANLKDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAQVELLFDQGKQQGLFKPLDNHLLSALSFETTVTLARKYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSE+V  DKQ+QILIAAEKLIAEQGF GLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQ+IAEAVQANL+DDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFA+VELLFDQGKQQG+FKPLDNHLLSALSFETTVTLAR+YALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|WP_055030270.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio metoecus] &gt;gb|KQB04287.1| TetR family transcriptional regulator [Vibrio metoecus] &gt;gb|PAR39534.1| TetR/AcrR family transcriptional regulator [Vibrio metoecus] &gt;gb|PAR47753.1| TetR/AcrR family transcriptional regulator [Vibrio metoecus]</Hit_def>
+  <Hit_accession>WP_055030270</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>6.65216e-135</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSELVHCDKQIQILIAAEKLIAEQGFHGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQRIAEAVQANLKDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGLFKPLDNQLLSALSFETTVTLARKYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSE+V+ DKQ+QILIAAEKLIAEQGF GLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQ+IAEAVQANL+DDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQG+FKPLDN LLSALSFETTVTLAR+YALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|WP_158120162.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio metoecus]</Hit_def>
+  <Hit_accession>WP_158120162</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>1.74703e-134</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSELVHCDKQIQILIAAEKLIAEQGFHGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQRIAEAVQANIKDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGLFKPLDNQLLSALSFETTVTLARKYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSE+V+ DKQ+QILIAAEKLIAEQGF GLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQ+IAEAVQAN++DDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQG+FKPLDN LLSALSFETTVTLAR+YALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>ref|WP_055033911.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio metoecus] &gt;gb|KQA98496.1| TetR family transcriptional regulator [Vibrio metoecus] &gt;gb|KQB01646.1| TetR family transcriptional regulator [Vibrio metoecus] &gt;gb|PAR29413.1| TetR/AcrR family transcriptional regulator [Vibrio metoecus] &gt;gb|PAR53687.1| TetR/AcrR family transcriptional regulator [Vibrio metoecus] &gt;gb|PAR70006.1| TetR/AcrR family transcriptional regulator [Vibrio metoecus]</Hit_def>
+  <Hit_accession>WP_055033911</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>1.76631e-134</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSELVLCDKQIQILIAAEKLIAEQGFHGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQRIAEAVQANLKDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGLFKPLDNQLLSALSFETTVTLARKYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSE+V  DKQ+QILIAAEKLIAEQGF GLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQ+IAEAVQANL+DDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQG+FKPLDN LLSALSFETTVTLAR+YALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|WP_055044253.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio metoecus] &gt;gb|KQB09377.1| TetR family transcriptional regulator [Vibrio metoecus] &gt;gb|PAR20218.1| TetR/AcrR family transcriptional regulator [Vibrio metoecus] &gt;gb|PAR23686.1| TetR/AcrR family transcriptional regulator [Vibrio metoecus] &gt;gb|PAR46694.1| TetR/AcrR family transcriptional regulator [Vibrio metoecus]</Hit_def>
+  <Hit_accession>WP_055044253</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.489</Hsp_bit-score>
+      <Hsp_score>981</Hsp_score>
+      <Hsp_evalue>8.76549e-134</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSELVHCDKQIQILIAAEKLIAEQGFHGLSMHKVAKAANMATGTIYRYFRDKDHLLVEVRLHVSQRIAEAVQANLKDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGLFKPLDNQLLSALSFETTVMLARKYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSE+V+ DKQ+QILIAAEKLIAEQGF GLSMHKVAKAANMATGTIYRYFRDKDHLL+EVRLHVSQ+IAEAVQANL+DDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQG+FKPLDN LLSALSFETTV LAR+YALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|WP_095459293.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio metoecus] &gt;gb|KDO14996.1| TetR family transcriptional regulator [Vibrio metoecus] &gt;gb|PAR26467.1| TetR family transcriptional regulator [Vibrio metoecus] &gt;gb|PAR61026.1| TetR family transcriptional regulator [Vibrio metoecus]</Hit_def>
+  <Hit_accession>WP_095459293</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.104</Hsp_bit-score>
+      <Hsp_score>980</Hsp_score>
+      <Hsp_evalue>1.3745e-133</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSELVLCDKQIQILIAAEKLIAEQGFHGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQRIAEAVQANLKDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGLFKPLDNQLLSALSFETTVMLARKYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSE+V  DKQ+QILIAAEKLIAEQGF GLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQ+IAEAVQANL+DDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQG+FKPLDN LLSALSFETTV LAR+YALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|WP_083806683.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio sp. RC586]</Hit_def>
+  <Hit_accession>WP_083806683</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.719</Hsp_bit-score>
+      <Hsp_score>979</Hsp_score>
+      <Hsp_evalue>2.18477e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MQRNVMSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MQRNVMSELVHYDKQLQILIAAEKLIAEQGFQGLSMHKLAKTANMATGTIYRYFRDKDHLLTEVRLHVSQQIAEVVQTNIQDDMSLQECFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELERKMFAKVELLFDQGKQQGLFKPLDNRLLSALSFETAVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MQRNVMSE+V+ DKQLQILIAAEKLIAEQGFQGLSMHK+AK ANMATGTIYRYFRDKDHLL EVRLHVSQ+IAE VQ N++DDMSLQE FRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELE+KMFAKVELLFDQGKQQG+FKPLDN LLSALSFET VTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|WP_001293200.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Vibrio metoecus] &gt;gb|KQA17550.1| TetR family transcriptional regulator [Vibrio metoecus] &gt;gb|KQA25870.1| TetR family transcriptional regulator [Vibrio metoecus] &gt;gb|PAR53465.1| TetR/AcrR family transcriptional regulator [Vibrio metoecus]</Hit_def>
+  <Hit_accession>WP_001293200</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.719</Hsp_bit-score>
+      <Hsp_score>979</Hsp_score>
+      <Hsp_evalue>2.27687e-133</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSELVLCDKQIQILIAAEKLIAEQGFHGLSMHKVAKAANMATGTIYRYFRDKDHLLVEVRLHVSQRIAEAVQANLKDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGLFKPLDNQLLSALSFETTVMLARKYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSE+V  DKQ+QILIAAEKLIAEQGF GLSMHKVAKAANMATGTIYRYFRDKDHLL+EVRLHVSQ+IAEAVQANL+DDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQG+FKPLDN LLSALSFETTV LAR+YALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>gb|EEX64322.1|</Hit_id>
+  <Hit_def>transcriptional regulator TetR family [Vibrio metoecus]</Hit_def>
+  <Hit_accession>EEX64322</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>375.941</Hsp_bit-score>
+      <Hsp_score>964</Hsp_score>
+      <Hsp_evalue>4.18789e-131</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>IVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MVLCDKQIQILIAAEKLIAEQGFHGLSMHKVAKAANMATGTIYRYFRDKDHLLVEVRLHVSQRIAEAVQANLKDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGLFKPLDNQLLSALSFETTVMLARKYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>+V  DKQ+QILIAAEKLIAEQGF GLSMHKVAKAANMATGTIYRYFRDKDHLL+EVRLHVSQ+IAEAVQANL+DDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQG+FKPLDN LLSALSFETTV LAR+YALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>ref|WP_162811567.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_162811567</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.4</Hsp_bit-score>
+      <Hsp_score>960</Hsp_score>
+      <Hsp_evalue>1.08057e-130</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>IAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>+AAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>gb|EEY98122.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Vibrio sp. RC586]</Hit_def>
+  <Hit_accession>EEY98122</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>371.703</Hsp_bit-score>
+      <Hsp_score>953</Hsp_score>
+      <Hsp_evalue>2.19141e-129</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSEIVYGDKQLQILIAAEKLIAEQGFQGLSMHKVAKAANMATGTIYRYFRDKDHLLIEVRLHVSQKIAEAVQANLRDDMSLQERFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELEQKMFAKVELLFDQGKQQGIFKPLDNHLLSALSFETTVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_qseq>
+      <Hsp_hseq>MSELVHYDKQLQILIAAEKLIAEQGFQGLSMHKLAKTANMATGTIYRYFRDKDHLLTEVRLHVSQQIAEVVQTNIQDDMSLQECFRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELERKMFAKVELLFDQGKQQGLFKPLDNRLLSALSFETAVTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_hseq>
+      <Hsp_midline>MSE+V+ DKQLQILIAAEKLIAEQGFQGLSMHK+AK ANMATGTIYRYFRDKDHLL EVRLHVSQ+IAE VQ N++DDMSLQE FRTMWLNIWTLAGSCRDIISNRVQYESLPTTTCCNVRELE+KMFAKVELLFDQGKQQG+FKPLDN LLSALSFET VTLARQYALGFYQLDDSTLDAMIQASWDAITQH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>319476319</Statistics_db-num>
+      <Statistics_db-len>115323880158</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

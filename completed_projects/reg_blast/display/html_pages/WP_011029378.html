@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+
+
+	<body>
+		<h2>Operon Structure Analysis</h2>
+		<div id="all_operons_container"></div>
+		
+		<h2>Operator Motif Analysis</h2>
+		<div id="operator_container"></div>
+	</body>
+
+
+<style>
+
+/* Operator CSS */
+
+h2 {
+    margin-top:20vh;
+    text-align: center;
+}
+
+#operator_container{
+	margin-left: 2vw;
+	margin-right: 2vw;
+	display:block;
+    border: 1px solid black;
+}
+
+.operator_subcontainer {
+    display: block;
+    margin-bottom: 5vh;
+}
+
+.operator_info_container {
+    display: block;
+    margin-bottom: 5vh;
+}
+
+.operator_info{
+    display: inline-block;
+    margin-left: 3vw;
+    margin-right: 1vw;
+    font-size: 1.5rem;
+}
+
+.operator{
+	position: relative;
+	display:block;
+	overflow-x: scroll;
+	white-space: nowrap;
+}
+
+
+/* Operon CSS */
+
+#all_operons_container {
+    border: 1px solid black;
+    width: 90vw;
+    margin: auto;
+}
+
+.operon_description{
+    width: 19%;
+    display: inline-block;
+    //border: 1px solid black;
+    text-align: center;
+    font-size: 1.3rem;
+    vertical-align: middle;
+}
+
+.operon_graphic{
+    display: inline-block;
+    width: 75%;
+    margin-left: 5%;
+}
+
+.operonContainer{
+	width: 90vw;
+	padding-top: 3vh;
+    display: inline-block;
+    //border: 1px solid black;
+}
+
+.operon_scroll_container{
+	width: 90vw;
+	padding-top: 3vh;
+    display: inline-block;
+    height: 70vh;
+    overflow-y: scroll;
+    border-top: 1px solid black;
+}
+
+.spacer{
+	display: block;
+	height: 20vh;
+}
+
+.Rgene{
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+}
+
+
+.Rgene:before{
+	content:"";
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-left: var(--color);
+	border-top: 20px solid white;
+	border-bottom: 20px solid white;
+	z-index: 2;
+}
+
+.Rgene .description {
+	visibility: hidden;
+	width: 9rem;
+	text-align: center;
+	padding: 5px 0;
+	border: 1px solid black;
+	border-radius: 3px;
+	border-color: #225470;
+	position: absolute;
+	top: 250%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	color: black;
+}
+
+.Rgene:hover .description {
+	visibility: visible;
+}
+
+.Lgene {
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	z-index:1;
+}
+
+.Lgene:after{
+	content:"";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-right: var(--color);
+	border-top: 20px solid white;
+	border-bottom: 20px solid white;
+	z-index: 2;
+}
+
+.Lgene .description {
+	visibility: hidden;
+	width: 9rem;
+	text-align: center;
+	padding: 5px 0;
+	border: 1px solid black;
+	border-radius: 3px;
+	border-color: #225470;
+	position: absolute;
+	top: 250%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	color: black;
+}
+
+.Lgene:hover .description {
+	visibility: visible;
+}
+
+.line{
+	background-color: black;
+	height:2px;
+	width: 75vw;
+	position: absolute;
+	margin-top: -25px;
+}
+
+</style>
+
+			
+
+
+
+<script>
+	
+
+	//since javascript doesn't have a built-in range function	
+	function range(start, stop){
+		var myList = [];
+		for (let i = start; i <= (stop-1); i++){
+			myList.push(i);
+		}
+		return myList;
+	}
+
+
+	//Operator JavaScript
+
+
+		let letterColors = {"A":"red", "T":"green", "C":"blue","G":"black"};
+		let operator_container = document.getElementById("operator_container")	
+
+	
+		function renderOperator(operator_data) {
+		
+			let subcontainer = document.createElement("div");
+            subcontainer.classList.add("operator_subcontainer");
+
+            let info_container = document.createElement("div");
+            info_container.classList.add("operator_info_container");
+            
+            let perc_ident = document.createElement("div");
+            perc_ident.classList.add("operator_info");
+            perc_ident.innerText = "% identity cutoff: "+operator_data["perc_ident"];
+            info_container.appendChild(perc_ident);
+
+            let input_seq = document.createElement("div");
+            input_seq.classList.add("operator_info");
+            input_seq.innerText = "Input sequence: "+operator_data["input_seq"];
+            info_container.appendChild(input_seq);
+            
+            let num_seqs = document.createElement("div");
+            num_seqs.classList.add("operator_info");
+            num_seqs.innerText = "Sequences compared: "+operator_data["num_seqs"];
+            info_container.appendChild(num_seqs);
+
+            let operator = document.createElement("div");
+			operator.classList.add("operator");
+
+			let letters = operator_data["motif"].map(x => x["base"]);
+			let scale = operator_data["motif"].map(x => x["score"]**3);		
+
+			for (i in letters) {
+				let letter = document.createElement('div');
+				letter.innerText = letters[i];
+				letter.setAttribute("style", "color:"+letterColors[letters[i]]+"; font-size:4rem; transform:scaleY("+scale[i].toString()+"); display:inline-block; padding-bottom: 2.5rem; width:3rem;")
+				operator.appendChild(letter);
+			}
+			subcontainer.appendChild(info_container);	
+			subcontainer.appendChild(operator);	
+            operator_container.appendChild(subcontainer);
+		}
+
+
+	// Operon Javascript
+
+
+    let all_operons = document.getElementById("all_operons_container");
+	
+    let template_container = document.createElement("div");
+    template_container.classList.add("operonContainer");
+
+    let homolog_container = document.createElement("div");
+    homolog_container.classList.add("operon_scroll_container");
+
+
+
+	function renderOperon(meta_data, operon) {
+ 
+    let operon_container = document.createElement("div");
+
+    let operon_graphic = document.createElement("div");
+    operon_graphic.classList.add("operon_graphic");
+    let operon_description = document.createElement("div");
+    operon_description.classList.add("operon_description");
+    //operon_description.innerText = "Accession: "+accession+"\n\nPercent Identity: "+identity;
+    operon_description.innerText = "Accession: "+meta_data["accession"]+"\n\nPercent Identity: "+meta_data["identity"]+"\n\nOrganism: "+meta_data["organism"];
+
+	let container = document.createElement("div");
+    container.classList.add("operonContainer");
+
+	for (i in operon) {
+		
+		let link = document.createElement('a');
+		if (operon[i]['link'].length !== 0){
+			link.setAttribute("href", "https://ncbi.nlm.nih.gov/protein/"+operon[i]['link']); }
+		link.setAttribute("target", "_blank");
+		let gene = document.createElement('div');
+		if (operon[i]["direction"] == "+"){
+			gene.classList.add("Rgene");
+		} else {
+			gene.classList.add("Lgene");
+		}
+
+		gene.setAttribute("style", "background-color: "+operon[i]["color"]+
+			"; width:"+operon[i]["length"]+
+			"; margin-right:"+operon[i]["spacer"])
+		
+		gene.style.setProperty('--color', '20px solid '+operon[i]["color"]);
+		
+		description = document.createElement('span');
+		description.innerText = operon[i]["description"];
+		description.classList.add("description");
+		gene.appendChild(description)
+		link.appendChild(gene);
+
+		operon_graphic.appendChild(link);
+
+	}
+    let spacer = document.createElement('span');
+	spacer.classList.add("spacer");
+	let line = document.createElement('hr');
+	line.classList.add("line");
+
+	operon_container.appendChild(operon_description);
+	operon_container.appendChild(operon_graphic);
+	operon_container.appendChild(spacer);
+    
+    if (meta_data["identity"] == "100.0"){
+    template_container.appendChild(operon_container);
+    all_operons.appendChild(template_container);
+    } else {
+    homolog_container.appendChild(operon_container);
+    all_operons.appendChild(homolog_container);
+	}
+
+    }
+
+
+
+
+            // operon variable appended below //
+
+            var operon_graphic = [{'meta_data': '{"accession": "WP_011029378", "identity": 100.0, "organism": "Streptomyces coelicolor A3(2)"}', 'operon_data': '{"0": {"length": "19.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "-", "spacer": "2.0%", "link": "NP_628189.1"}, "1": {"length": "9.0%", "description": "tetR family regulatory protein", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "NP_628190.1"}, "2": {"length": "65.0%", "description": "bifunctional histidine kinase and regulator", "color": "#6eff42", "direction": "-", "spacer": "0.0%", "link": "NP_628191.1"}}'}, {'meta_data': '{"accession": "WP_003974955", "identity": 99.48, "organism": "Streptomyces humiferus"}', 'operon_data': '{"0": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_189283266.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_003974955.1"}, "2": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_189283267.1"}}'}, {'meta_data': '{"accession": "WP_121709459", "identity": 98.96, "organism": "Streptomyces sp. E5N91"}', 'operon_data': '{"0": {"length": "15.0%", "description": "response regulator", "color": "#6eff42", "direction": "+", "spacer": "1.0%", "link": ""}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_121709459.1"}, "2": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_121709460.1"}}'}, {'meta_data': '{"accession": "WP_109029086", "identity": 98.96, "organism": "Streptomyces rubrogriseus"}', 'operon_data': '{"0": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "1.0%", "link": "WP_109029085.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_109029086.1"}, "2": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_109029087.1"}}'}, {'meta_data': '{"accession": "WP_159324867", "identity": 97.92, "organism": "Streptomyces tendae"}', 'operon_data': '{"0": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_189740671.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_159324867.1"}, "2": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_189740673.1"}}'}, {'meta_data': '{"accession": "WP_087808460", "identity": 96.35, "organism": "Streptomyces sp. CS113"}', 'operon_data': '{"0": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_087808459.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_087808460.1"}, "2": {"length": "66.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_087808461.1"}}'}, {'meta_data': '{"accession": "WP_123625199", "identity": 95.31, "organism": "Streptomyces sp. SAI-097"}', 'operon_data': '{"0": {"length": "64.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "2.0%", "link": "WP_123625198.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_123625199.1"}, "2": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_123625200.1"}}'}, {'meta_data': '{"accession": "WP_127896904", "identity": 94.79, "organism": "Streptomyces tendae"}', 'operon_data': '{"0": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_164459366.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_127896904.1"}, "2": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_167307991.1"}}'}, {'meta_data': '{"accession": "WP_076975305", "identity": 95.31, "organism": "Streptomyces sp. M1013"}', 'operon_data': '{"0": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "4.0%", "link": "WP_107487831.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_076975305.1"}, "2": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_076975306.1"}}'}, {'meta_data': '{"accession": "WP_030188910", "identity": 95.83, "organism": "Streptomyces violaceorubidus"}', 'operon_data': '{"0": {"length": "66.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "0.0%", "link": "WP_106978017.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "3.0%", "link": "WP_030188910.1"}, "2": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_106978024.1"}}'}, {'meta_data': '{"accession": "WP_104634100", "identity": 93.75, "organism": "Streptomyces sp. MH60"}', 'operon_data': '{"0": {"length": "16.0%", "description": "nickel transporter", "color": "#ffe042", "direction": "+", "spacer": "1.0%", "link": ""}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_104634100.1"}, "2": {"length": "20.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_104634101.1"}}'}, {'meta_data': '{"accession": "WP_007389905", "identity": 94.76, "organism": "Streptomyces coelicoflavus ZG0656"}', 'operon_data': '{"0": {"length": "15.0%", "description": "response regulator", "color": "#6eff42", "direction": "-", "spacer": "0.0%", "link": ""}, "1": {"length": "5.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_007389904.1"}, "2": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_007389905.1"}, "3": {"length": "15.0%", "description": "response regulator", "color": "#6eff42", "direction": "-", "spacer": "0.0%", "link": ""}}'}, {'meta_data': '{"accession": "WP_102929671", "identity": 94.27, "organism": "Streptomyces diastaticus"}', 'operon_data': '{"0": {"length": "14.0%", "description": "nickel transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": ""}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_102929671.1"}, "2": {"length": "7.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_146045845.1"}}'}, {'meta_data': '{"accession": "WP_125630179", "identity": 94.27, "organism": "Streptomyces sp. KPB2"}', 'operon_data': '{"0": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_125630177.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_125630179.1"}, "2": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_125630182.1"}}'}, {'meta_data': '{"accession": "WP_164246743", "identity": 93.75, "organism": "Streptomyces coelicoflavus"}', 'operon_data': '{"0": {"length": "15.0%", "description": "nickel transporter", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": ""}, "1": {"length": "6.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_164246742.1"}, "2": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_164246743.1"}, "3": {"length": "15.0%", "description": "nickel transporter", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": ""}}'}, {'meta_data': '{"accession": "WP_087790324", "identity": 94.24, "organism": "Streptomyces coelicoflavus"}', 'operon_data': '{"0": {"length": "66.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "0.0%", "link": "WP_108987165.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_087790324.1"}, "2": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_108987166.1"}}'}, {'meta_data': '{"accession": "MYS53056", "identity": 94.79, "organism": "Streptomyces sp. SID6013"}', 'operon_data': '{"0": {"length": "14.0%", "description": "nickel transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "MYS53055.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "MYS53056.1"}, "2": {"length": "6.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "MYS53057.1"}}'}, {'meta_data': '{"accession": "WP_153178984", "identity": 93.72, "organism": "Streptomyces sp. SYP-A7193"}', 'operon_data': '{"0": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_153178983.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_153178984.1"}, "2": {"length": "66.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_153178985.1"}}'}, {'meta_data': '{"accession": "WP_165285615", "identity": 93.75, "organism": "Streptomyces sp. SID10362"}', 'operon_data': '{"0": {"length": "14.0%", "description": "nickel transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": ""}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_165285615.1"}, "2": {"length": "20.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_165285616.1"}}'}, {'meta_data': '{"accession": "WP_061443720", "identity": 94.27, "organism": "Streptomyces sp. CCM_MD2014"}', 'operon_data': '{"0": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_061443719.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_061443720.1"}, "2": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_061443721.1"}}'}, {'meta_data': '{"accession": "WP_164418996", "identity": 93.75, "organism": "Streptomyces coelicoflavus"}', 'operon_data': '{"0": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "0.0%", "link": "WP_164418994.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_164418996.1"}, "2": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_164418997.1"}}'}, {'meta_data': '{"accession": "WP_031048558", "identity": 94.27, "organism": "Streptomyces sp. NRRL F-5650"}', 'operon_data': '{"0": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_031048555.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_031048558.1"}, "2": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_031048560.1"}}'}, {'meta_data': '{"accession": "WP_115743175", "identity": 93.19, "organism": "Streptomyces sp. CB09001"}', 'operon_data': '{"0": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_115743174.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_115743175.1"}, "2": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_115743176.1"}}'}, {'meta_data': '{"accession": "WP_165685461", "identity": 92.67, "organism": "Streptomyces sp. KO7888"}', 'operon_data': '{"0": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_165685460.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_165685461.1"}, "2": {"length": "66.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_165685462.1"}}'}, {'meta_data': '{"accession": "WP_125495790", "identity": 91.67, "organism": "Streptomyces sp. WAC 04229"}', 'operon_data': '{"0": {"length": "20.0%", "description": "nickel transporter", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": ""}, "1": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_148107596.1"}, "2": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_125495790.1"}, "3": {"length": "20.0%", "description": "nickel transporter", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": ""}}'}, {'meta_data': '{"accession": "WP_122616480", "identity": 92.19, "organism": "Streptomyces sp. Tu 4128"}', 'operon_data': '{"0": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "0.0%", "link": ""}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "3.0%", "link": "WP_122616480.1"}, "2": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_122616481.1"}}'}, {'meta_data': '{"accession": "WP_189230255", "identity": 93.16, "organism": "Streptomyces flaveolus"}', 'operon_data': '{"0": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_189230254.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_189230255.1"}, "2": {"length": "67.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_189230256.1"}}'}, {'meta_data': '{"accession": "WP_030403163", "identity": 93.75, "organism": "Streptomyces sp. NBRC 110030"}', 'operon_data': '{"0": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_055468004.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_030403163.1"}, "2": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_079080549.1"}}'}, {'meta_data': '{"accession": "WP_186777790", "identity": 93.23, "organism": "Streptomyces sp. SS06011"}', 'operon_data': '{"0": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_186777789.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_186777790.1"}, "2": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_186777791.1"}}'}, {'meta_data': '{"accession": "WP_031036824", "identity": 92.67, "organism": "Streptomyces olivaceus"}', 'operon_data': '{"0": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_031036821.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_031036824.1"}, "2": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_078892325.1"}}'}, {'meta_data': '{"accession": "WP_188184409", "identity": 93.16, "organism": "Streptomyces sp. TRM S81-3"}', 'operon_data': '{"0": {"length": "6.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "+", "spacer": "1.0%", "link": "WP_188184408.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_188184409.1"}, "2": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_188184410.1"}}'}, {'meta_data': '{"accession": "WP_031084750", "identity": 93.23, "organism": "Streptomyces diastaticus subsp. ardesiacus"}', 'operon_data': '{"0": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_108933724.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_031084750.1"}, "2": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_108933725.1"}}'}, {'meta_data': '{"accession": "WP_019324619", "identity": 91.62, "organism": "Streptomyces sp. TOR3209"}', 'operon_data': '{"0": {"length": "67.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "1.0%", "link": "WP_078494777.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_019324619.1"}, "2": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_019324620.1"}}'}, {'meta_data': '{"accession": "WP_037763549", "identity": 92.15, "organism": "Streptomyces sp. FXJ7.023"}', 'operon_data': '{"0": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "1.0%", "link": "WP_078535768.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_037763549.1"}, "2": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_037763551.1"}}'}, {'meta_data': '{"accession": "WP_161332726", "identity": 90.62, "organism": "Streptomyces sp. SID5789"}', 'operon_data': '{"0": {"length": "16.0%", "description": "nickel transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": ""}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_161332726.1"}, "2": {"length": "20.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_161332727.1"}}'}, {'meta_data': '{"accession": "WP_133889929", "identity": 92.15, "organism": "Streptomyces sp. BK208"}', 'operon_data': '{"0": {"length": "64.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "2.0%", "link": "WP_133889928.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_133889929.1"}, "2": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_133889930.1"}}'}, {'meta_data': '{"accession": "WP_055422051", "identity": 91.62, "organism": "Streptomyces pactum"}', 'operon_data': '{"0": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_055422052.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_055422051.1"}, "2": {"length": "68.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_167392603.1"}}'}, {'meta_data': '{"accession": "WP_100049644", "identity": 91.1, "organism": "Streptomyces sp. alain-838"}', 'operon_data': '{"0": {"length": "2.0%", "description": "DNA primase", "color": "#ff4242", "direction": "+", "spacer": "0.0%", "link": ""}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_100049644.1"}, "2": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_107480319.1"}}'}, {'meta_data': '{"accession": "WP_053133695", "identity": 90.53, "organism": "Streptomyces ambofaciens ATCC 23877"}', 'operon_data': '{"0": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "3.0%", "link": "WP_079030266.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_053133695.1"}, "2": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_053133698.1"}}'}, {'meta_data': '{"accession": "WP_043382355", "identity": 91.62, "organism": "Streptomyces luteus"}', 'operon_data': '{"0": {"length": "66.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "1.0%", "link": "WP_078949318.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_043382355.1"}, "2": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_043382358.1"}}'}, {'meta_data': '{"accession": "WP_191886987", "identity": 90.05, "organism": "Streptomyces mutabilis"}', 'operon_data': '{"0": {"length": "66.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "1.0%", "link": "WP_191886986.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_191886987.1"}, "2": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_191886988.1"}}'}, {'meta_data': '{"accession": "WP_121747921", "identity": 89.47, "organism": "Streptomyces sp. E2N166"}', 'operon_data': '{"0": {"length": "20.0%", "description": "response regulator", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": "WP_121747920.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_121747921.1"}, "2": {"length": "5.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "4.0%", "link": "WP_153182676.1"}, "3": {"length": "13.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_153182677.1"}}'}, {'meta_data': '{"accession": "WP_161167675", "identity": 89.47, "organism": "Streptomyces sp. SID5910"}', 'operon_data': '{"0": {"length": "13.0%", "description": "nickel transporter", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": ""}, "1": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_161167676.1"}, "2": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_161167675.1"}, "3": {"length": "13.0%", "description": "nickel transporter", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": ""}}'}, {'meta_data': '{"accession": "WP_129798742", "identity": 85.94, "organism": "Streptomyces sp. F001"}', 'operon_data': '{"0": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "1.0%", "link": ""}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_129798742.1"}, "2": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": ""}}'}, {'meta_data': '{"accession": "WP_171110362", "identity": 83.85, "organism": "Streptomyces sp. Z423-1"}', 'operon_data': '{"0": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "4.0%", "link": "WP_171110363.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "2.0%", "link": "WP_171110362.1"}, "2": {"length": "10.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "+", "spacer": "0.0%", "link": "WP_171110361.1"}}'}, {'meta_data': '{"accession": "WP_189869637", "identity": 90.1, "organism": "Streptomyces viridiviolaceus"}', 'operon_data': '{"0": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_189869636.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_189869637.1"}, "2": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_189869638.1"}}'}, {'meta_data': '{"accession": "WP_180686077", "identity": 83.85, "organism": "Streptomyces sp. TRM44567"}', 'operon_data': '{"0": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "3.0%", "link": "WP_171110363.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "2.0%", "link": "WP_180686077.1"}, "2": {"length": "10.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "+", "spacer": "0.0%", "link": "WP_171110361.1"}}'}, {'meta_data': '{"accession": "WP_141316339", "identity": 82.81, "organism": "Streptomyces spinoverrucosus"}', 'operon_data': '{"0": {"length": "10.0%", "description": "fibronectin type III domain-containing protein", "color": "black", "direction": "-", "spacer": "2.0%", "link": "WP_141316337.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "3.0%", "link": "WP_141316339.1"}, "2": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_141316341.1"}}'}, {'meta_data': '{"accession": "GEC10645", "identity": 82.81, "organism": "Streptomyces spinoverrucosus"}', 'operon_data': '{"0": {"length": "25.0%", "description": "long-chain-fatty-acid--CoA ligase", "color": "#ff4242", "direction": "-", "spacer": "2.0%", "link": "GEC10647.1"}, "1": {"length": "9.0%", "description": "RNA polymerase sigma factor", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "GEC10648.1"}, "2": {"length": "10.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "-", "spacer": "2.0%", "link": "GEC10644.1"}, "3": {"length": "10.0%", "description": "HTH-type transcriptional repressor", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "GEC10645.1"}, "4": {"length": "19.0%", "description": "putative transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "GEC10646.1"}}'}, {'meta_data': '{"accession": "WP_010032954", "identity": 82.29, "organism": "Streptomyces chartreusis NRRL 12338"}', 'operon_data': '{"0": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_010032953.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_010032954.1"}, "2": {"length": "67.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_078602711.1"}}'}, {'meta_data': '{"accession": "WP_189708919", "identity": 84.74, "organism": "Streptomyces anandii JCM 4720"}', 'operon_data': '{"0": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_189708917.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_189708919.1"}, "2": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_189708921.1"}}'}, {'meta_data': '{"accession": "WP_190199335", "identity": 81.77, "organism": "Streptomyces djakartensis"}', 'operon_data': '{"0": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_190199334.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_190199335.1"}, "2": {"length": "68.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_190199434.1"}}'}, {'meta_data': '{"accession": "WP_086851755", "identity": 82.2, "organism": "Streptomyces coeruleorubidus"}', 'operon_data': '{"0": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_150481835.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_086851755.1"}, "2": {"length": "68.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_150485436.1"}}'}, {'meta_data': '{"accession": "WP_184985621", "identity": 81.25, "organism": "Streptomyces caelestis"}', 'operon_data': '{"0": {"length": "67.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "0.0%", "link": "WP_184993556.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_184985621.1"}, "2": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_184985623.1"}}'}, {'meta_data': '{"accession": "WP_149510159", "identity": 80.21, "organism": "Streptomyces sp. SUN51"}', 'operon_data': '{"0": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "4.0%", "link": "WP_149510157.1"}, "1": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_149510158.1"}, "2": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "4.0%", "link": "WP_149510159.1"}, "3": {"length": "41.0%", "description": "DUF4981 domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_149510160.1"}}'}, {'meta_data': '{"accession": "GGT84149", "identity": 81.68, "organism": "Streptomyces bellus"}', 'operon_data': '{"0": {"length": "16.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "-", "spacer": "2.0%", "link": "GGT84137.1"}, "1": {"length": "14.0%", "description": "putative transporter", "color": "#ffe042", "direction": "-", "spacer": "1.0%", "link": "GGT84143.1"}, "2": {"length": "7.0%", "description": "HTH-type transcriptional repressor", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "GGT84149.1"}, "3": {"length": "54.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "-", "spacer": "0.0%", "link": "GGT84156.1"}}'}, {'meta_data': '{"accession": "WP_030850179", "identity": 81.25, "organism": "Streptomyces luteogriseus"}', 'operon_data': '{"0": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_184909830.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_030850179.1"}, "2": {"length": "68.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_184909831.1"}}'}, {'meta_data': '{"accession": "WP_159534495", "identity": 82.81, "organism": "Streptomyces sp. Tu 3180"}', 'operon_data': '{"0": {"length": "67.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "1.0%", "link": ""}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_159534495.1"}, "2": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_159534497.1"}}'}, {'meta_data': '{"accession": "WP_030898087", "identity": 80.73, "organism": "Streptomyces sp. NRRL S-481"}', 'operon_data': '{"0": {"length": "12.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "-", "spacer": "2.0%", "link": ""}, "1": {"length": "7.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_030955879.1"}, "2": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_030898087.1"}, "3": {"length": "8.0%", "description": "nickel transporter", "color": "#ffe042", "direction": "-", "spacer": "0.0%", "link": ""}}'}, {'meta_data': '{"accession": "WP_003991391", "identity": 80.21, "organism": "Streptomyces viridochromogenes DSM 40736"}', 'operon_data': '{"0": {"length": "68.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "1.0%", "link": ""}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_003991391.1"}, "2": {"length": "16.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_003991392.1"}}'}, {'meta_data': '{"accession": "WP_190203182", "identity": 85.94, "organism": "Streptomyces fumanus"}', 'operon_data': '{"0": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_190203181.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_190203182.1"}, "2": {"length": "66.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_190203183.1"}}'}, {'meta_data': '{"accession": "WP_184560440", "identity": 80.21, "organism": "Streptomyces paradoxus"}', 'operon_data': '{"0": {"length": "67.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "0.0%", "link": "WP_184560439.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_184560440.1"}, "2": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_184560441.1"}}'}, {'meta_data': '{"accession": "WP_031137765", "identity": 80.73, "organism": "Streptomyces flavovariabilis"}', 'operon_data': '{"0": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_031137764.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_031137765.1"}, "2": {"length": "68.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_078899445.1"}}'}, {'meta_data': '{"accession": "WP_020276653", "identity": 81.25, "organism": "Streptomyces afghaniensis 772"}', 'operon_data': '{"0": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_037673161.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_020276653.1"}, "2": {"length": "14.0%", "description": "response regulator", "color": "#6eff42", "direction": "-", "spacer": "0.0%", "link": ""}}'}, {'meta_data': '{"accession": "WP_059420498", "identity": 80.21, "organism": "Streptomyces azureus"}', 'operon_data': '{"0": {"length": "67.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "1.0%", "link": "WP_078945484.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_059420498.1"}, "2": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_059420500.1"}}'}, {'meta_data': '{"accession": "WP_184847895", "identity": 79.69, "organism": "Streptomyces collinus"}', 'operon_data': '{"0": {"length": "67.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "0.0%", "link": "WP_184847894.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_184847895.1"}, "2": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_184847896.1"}}'}, {'meta_data': '{"accession": "WP_086605882", "identity": 80.63, "organism": "Streptomyces swartbergensis"}', 'operon_data': '{"0": {"length": "21.0%", "description": "response regulator", "color": "#6eff42", "direction": "-", "spacer": "0.0%", "link": ""}, "1": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_107500350.1"}, "2": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_086605882.1"}, "3": {"length": "21.0%", "description": "response regulator", "color": "#6eff42", "direction": "-", "spacer": "0.0%", "link": ""}}'}, {'meta_data': '{"accession": "GGX16029", "identity": 79.69, "organism": "Streptomyces lomondensis"}', 'operon_data': '{"0": {"length": "5.0%", "description": "antibiotic biosynthesis monooxygenase", "color": "#ff4242", "direction": "-", "spacer": "2.0%", "link": "GGX16021.1"}, "1": {"length": "10.0%", "description": "HTH-type transcriptional repressor", "color": "blue", "direction": "-", "spacer": "1.0%", "link": "GGX16029.1"}, "2": {"length": "19.0%", "description": "putative transporter", "color": "#ffe042", "direction": "+", "spacer": "2.0%", "link": "GGX16037.1"}, "3": {"length": "8.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "+", "spacer": "0.0%", "link": "GGX16046.1"}}'}, {'meta_data': '{"accession": "WP_030857226", "identity": 81.77, "organism": "Streptomyces sp. NRRL S-37"}', 'operon_data': '{"0": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_030857224.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_030857226.1"}, "2": {"length": "67.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_078913832.1"}}'}, {'meta_data': '{"accession": "TQK91102", "identity": 80.21, "organism": "Streptomyces sp. SLBN-192"}', 'operon_data': '{"0": {"length": "18.0%", "description": "putative MFS family arabinose efflux permease", "color": "#ff4242", "direction": "-", "spacer": "1.0%", "link": "TQK91101.1"}, "1": {"length": "10.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "TQK91102.1"}, "2": {"length": "13.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "-", "spacer": "0.0%", "link": "TQK91103.1"}}'}, {'meta_data': '{"accession": "WP_142162118", "identity": 80.21, "organism": "Streptomyces sp. SLBN-192"}', 'operon_data': '{"0": {"length": "15.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_142162116.1"}, "1": {"length": "7.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "9.0%", "link": "WP_142162118.1"}, "2": {"length": "62.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_142162120.1"}}'}, {'meta_data': '{"accession": "WP_185008171", "identity": 80.21, "organism": "Streptomyces sp. AK010"}', 'operon_data': '{"0": {"length": "67.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "2.0%", "link": "WP_185008169.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_185008171.1"}, "2": {"length": "16.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_185008173.1"}}'}, {'meta_data': '{"accession": "WP_030237726", "identity": 80.21, "organism": "Streptomyces sp. NRRL S-455"}', 'operon_data': '{"0": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_030237723.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_030237726.1"}, "2": {"length": "68.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_158708279.1"}}'}, {'meta_data': '{"accession": "WP_190052751", "identity": 79.69, "organism": "Streptomyces lomondensis"}', 'operon_data': '{"0": {"length": "5.0%", "description": "antibiotic biosynthesis monooxygenase", "color": "#ff4242", "direction": "-", "spacer": "2.0%", "link": "WP_190052750.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_190052751.1"}, "2": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "2.0%", "link": "WP_190052752.1"}, "3": {"length": "9.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "+", "spacer": "0.0%", "link": "WP_190052753.1"}}'}, {'meta_data': '{"accession": "WP_191846536", "identity": 79.69, "organism": "Streptomyces violaceochromogenes"}', 'operon_data': '{"0": {"length": "67.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "0.0%", "link": "WP_191846535.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_191846536.1"}, "2": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_184847896.1"}}'}, {'meta_data': '{"accession": "WP_114254029", "identity": 80.21, "organism": "Streptomyces sp. Go-475"}', 'operon_data': '{"0": {"length": "5.0%", "description": "antibiotic biosynthesis monooxygenase", "color": "#ff4242", "direction": "-", "spacer": "2.0%", "link": "WP_114257498.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_114254029.1"}, "2": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_114254030.1"}}'}, {'meta_data': '{"accession": "WP_189590427", "identity": 80.21, "organism": "Streptomyces massasporeus"}', 'operon_data': '{"0": {"length": "67.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "1.0%", "link": "WP_189590426.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_189590427.1"}, "2": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_189590428.1"}}'}, {'meta_data': '{"accession": "WP_037754022", "identity": 81.58, "organism": "Streptomyces mirabilis"}', 'operon_data': '{"0": {"length": "67.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "1.0%", "link": ""}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_037754022.1"}, "2": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_037754025.1"}}'}, {'meta_data': '{"accession": "WP_085575728", "identity": 81.25, "organism": "Streptomyces sp. 13-12-16"}', 'operon_data': '{"0": {"length": "13.0%", "description": "response regulator", "color": "#6eff42", "direction": "+", "spacer": "0.0%", "link": ""}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_085575728.1"}, "2": {"length": "7.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_143652825.1"}}'}, {'meta_data': '{"accession": "WP_037674737", "identity": 81.77, "organism": "Streptomyces griseus subsp. griseus"}', 'operon_data': '{"0": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "3.0%", "link": "WP_078947749.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_037674737.1"}, "2": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_037674739.1"}}'}, {'meta_data': '{"accession": "WP_097217708", "identity": 81.25, "organism": "Streptomyces sp. Ag82_G6-1"}', 'operon_data': '{"0": {"length": "68.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "1.0%", "link": "WP_097217706.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_097217708.1"}, "2": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_097217710.1"}}'}, {'meta_data': '{"accession": "WP_189417032", "identity": 86.84, "organism": "Streptomyces niveoruber"}', 'operon_data': '{"0": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_190010120.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_189417032.1"}, "2": {"length": "67.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_190010122.1"}}'}, {'meta_data': '{"accession": "WP_145868403", "identity": 78.65, "organism": "Streptomyces capillispiralis"}', 'operon_data': '{"0": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_145868402.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_145868403.1"}, "2": {"length": "66.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_145868404.1"}}'}, {'meta_data': '{"accession": "WP_184593672", "identity": 79.17, "organism": "Streptomyces violarus"}', 'operon_data': '{"0": {"length": "7.0%", "description": "GNAT family N-acetyltransferase", "color": "#ff4242", "direction": "-", "spacer": "1.0%", "link": "WP_184593674.1"}, "1": {"length": "16.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_184593673.1"}, "2": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_184593672.1"}, "3": {"length": "61.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_184593671.1"}}'}, {'meta_data': '{"accession": "WP_094054885", "identity": 80.21, "organism": "Streptomyces sp. XY006"}', 'operon_data': '{"0": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_094054884.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_094054885.1"}, "2": {"length": "69.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_094054886.1"}}'}, {'meta_data': '{"accession": "WP_030820317", "identity": 80.21, "organism": "Streptomyces sp. NRRL F-2305"}', 'operon_data': '{"0": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_037803490.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_030820317.1"}, "2": {"length": "68.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_078661806.1"}}'}, {'meta_data': '{"accession": "WP_062927813", "identity": 79.17, "organism": "Streptomyces qaidamensis"}', 'operon_data': '{"0": {"length": "66.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "2.0%", "link": "WP_079129022.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_062927813.1"}, "2": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_062927814.1"}}'}, {'meta_data': '{"accession": "WP_031108627", "identity": 79.69, "organism": "Streptomyces sp. NRRL S-146"}', 'operon_data': '{"0": {"length": "19.0%", "description": "nickel transporter", "color": "#ffe042", "direction": "+", "spacer": "2.0%", "link": ""}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_031108627.1"}, "2": {"length": "19.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_031108628.1"}}'}, {'meta_data': '{"accession": "WP_043685652", "identity": 80.0, "organism": "Streptomyces xylophagus"}', 'operon_data': '{"0": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_043685650.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_043685652.1"}, "2": {"length": "66.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_078651813.1"}}'}, {'meta_data': '{"accession": "WP_152894305", "identity": 79.17, "organism": "Streptomyces adustus"}', 'operon_data': '{"0": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_152894304.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "1.0%", "link": "WP_152894305.1"}, "2": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_162469686.1"}}'}, {'meta_data': '{"accession": "WP_033285536", "identity": 79.47, "organism": "Streptomyces sp. NRRL F-525"}', 'operon_data': '{"0": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_033285535.1"}, "1": {"length": "9.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_033285536.1"}, "2": {"length": "65.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_078652758.1"}}'}, {'meta_data': '{"accession": "WP_189727274", "identity": 79.69, "organism": "Streptomyces purpurascens"}', 'operon_data': '{"0": {"length": "9.0%", "description": "GNAT family N-acetyltransferase", "color": "#ff4242", "direction": "-", "spacer": "0.0%", "link": "WP_189727272.1"}, "1": {"length": "16.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_189727273.1"}, "2": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_189727274.1"}, "3": {"length": "60.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_189727275.1"}}'}, {'meta_data': '{"accession": "WP_104779036", "identity": 79.69, "organism": "Streptomyces sp. 46"}', 'operon_data': '{"0": {"length": "69.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "1.0%", "link": "WP_104779035.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_104779036.1"}, "2": {"length": "16.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_104779037.1"}}'}, {'meta_data': '{"accession": "NEE09986", "identity": 79.69, "organism": "Streptomyces sp. SID7499"}', 'operon_data': '{"0": {"length": "31.0%", "description": "nickel transporter", "color": "#ffe042", "direction": "+", "spacer": "3.0%", "link": "NEE09985.1"}, "1": {"length": "9.0%", "description": "TetR/AcrR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "NEE09986.1"}, "2": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "NEE09987.1"}}'}, {'meta_data': '{"accession": "WP_019054983", "identity": 79.47, "organism": "Streptomyces prunicolor NBRC 13075"}', 'operon_data': '{"0": {"length": "66.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "1.0%", "link": "WP_086021574.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_019054983.1"}, "2": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_019054984.1"}}'}, {'meta_data': '{"accession": "GGS92714", "identity": 78.65, "organism": "Streptomyces janthinus"}', 'operon_data': '{"0": {"length": "7.0%", "description": "N-acetyltransferase", "color": "#ff4242", "direction": "-", "spacer": "2.0%", "link": "GGS92701.1"}, "1": {"length": "16.0%", "description": "putative transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "GGS92708.1"}, "2": {"length": "8.0%", "description": "HTH-type transcriptional repressor", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "GGS92714.1"}, "3": {"length": "60.0%", "description": "hypothetical protein", "color": "#bfbfbf", "direction": "-", "spacer": "0.0%", "link": "GGS92723.1"}}'}, {'meta_data': '{"accession": "WP_128435461", "identity": 79.69, "organism": "Streptomyces cyaneus"}', 'operon_data': '{"0": {"length": "66.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "1.0%", "link": "WP_128435460.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_128435461.1"}, "2": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_128435462.1"}}'}, {'meta_data': '{"accession": "WP_073933401", "identity": 80.21, "organism": "Streptomyces sp. CB02400"}', 'operon_data': '{"0": {"length": "18.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "-", "spacer": "2.0%", "link": "WP_073933400.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "+", "spacer": "0.0%", "link": "WP_073933401.1"}, "2": {"length": "67.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "-", "spacer": "0.0%", "link": "WP_079194875.1"}}'}, {'meta_data': '{"accession": "WP_123761800", "identity": 82.11, "organism": "Streptomyces griseorubiginosus"}', 'operon_data': '{"0": {"length": "66.0%", "description": "PAS domain-containing protein", "color": "black", "direction": "+", "spacer": "2.0%", "link": "WP_123765065.1"}, "1": {"length": "8.0%", "description": "TetR family transcriptional regulator", "color": "blue", "direction": "-", "spacer": "2.0%", "link": "WP_123761800.1"}, "2": {"length": "17.0%", "description": "MFS transporter", "color": "#ffe042", "direction": "+", "spacer": "0.0%", "link": "WP_123761801.1"}}'}]
+
+            var len = operon_graphic.length
+            for (i in range(0, len)){
+                var metaData = JSON.parse(operon_graphic[i]["meta_data"]);
+                //var accession = metaData["accession"];
+                //var identity = metaData["identity"];
+                var operon = JSON.parse(operon_graphic[i]["operon_data"]);
+                renderOperon(metaData, operon);
+            }
+
+    
+
+            // operator variable appended below //
+
+            var operator_graphic = ['[{"input_seq": "gtgtcAACCAAatagTTGGTTacctc", "perc_ident": 70, "num_seqs": 99, "motif": [{"base": "C", "score": 0.66}, {"base": "T", "score": 0.59}, {"base": "G", "score": 0.75}, {"base": "T", "score": 0.53}, {"base": "C", "score": 0.92}, {"base": "A", "score": 0.99}, {"base": "A", "score": 1.0}, {"base": "C", "score": 1.0}, {"base": "C", "score": 0.97}, {"base": "A", "score": 1.0}, {"base": "A", "score": 0.99}, {"base": "C", "score": 0.51}, {"base": "C", "score": 0.65}, {"base": "A", "score": 0.88}, {"base": "G", "score": 0.91}, {"base": "T", "score": 1.0}, {"base": "T", "score": 1.0}, {"base": "G", "score": 0.68}, {"base": "G", "score": 1.0}, {"base": "T", "score": 1.0}, {"base": "T", "score": 0.96}, {"base": "A", "score": 0.51}, {"base": "C", "score": 0.65}, {"base": "C", "score": 0.46}, {"base": "A", "score": 0.47}, {"base": "G", "score": 0.58}]}]', '[{"input_seq": "gtgtcAACCAAatagTTGGTTacctc", "perc_ident": 60, "num_seqs": 99, "motif": [{"base": "C", "score": 0.66}, {"base": "T", "score": 0.59}, {"base": "G", "score": 0.75}, {"base": "T", "score": 0.53}, {"base": "C", "score": 0.92}, {"base": "A", "score": 0.99}, {"base": "A", "score": 1.0}, {"base": "C", "score": 1.0}, {"base": "C", "score": 0.97}, {"base": "A", "score": 1.0}, {"base": "A", "score": 0.99}, {"base": "C", "score": 0.51}, {"base": "C", "score": 0.65}, {"base": "A", "score": 0.88}, {"base": "G", "score": 0.91}, {"base": "T", "score": 1.0}, {"base": "T", "score": 1.0}, {"base": "G", "score": 0.68}, {"base": "G", "score": 1.0}, {"base": "T", "score": 1.0}, {"base": "T", "score": 0.96}, {"base": "A", "score": 0.51}, {"base": "C", "score": 0.65}, {"base": "C", "score": 0.46}, {"base": "A", "score": 0.47}, {"base": "G", "score": 0.58}]}]']
+
+
+            //Deals with inputting list of consensus motif data with different percent identity cutoffs
+
+            for (i in range(0, operator_graphic.length)){
+                var operator_data = JSON.parse(operator_graphic[i]);
+                for (j in range(0, operator_data.length)){
+                    renderOperator(operator_data[j]);
+                }
+            }
+
+        </script>
+
+        </html>
+        

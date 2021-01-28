@@ -48,6 +48,9 @@ def acc2MetaData(access_id: str):
 
 def NC2genome(NCacc):
     #this has failed in the past due to error: 'requests.exceptions.NetworkError'. Failed to establist new connection. Find fix for this?.
+    
+    #added sleep for 1/4 sec because I was getting 429 HTML errors that returned "efetch query unsuccessful..."
+    time.sleep(0.25) 
     response = requests.get('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id='+NCacc+'&rettype=fasta_cds_aa')
 
     if response.ok:
@@ -56,8 +59,24 @@ def NC2genome(NCacc):
             f.write(data)
     else:
         print(response.status_code)
-        print('efetch query unsuccessful. Genome could not be found')
-    
+        print('efetch query unsuccessful. Genome could not be found. re-trying ...')
+        
+        success = False
+        counter = 1
+        while(success == False):
+            time.sleep(counter) 
+            response = requests.get('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id='+NCacc+'&rettype=fasta_cds_aa')
+
+            if response.ok:
+                data = response.text
+                with open('cache/genome.txt', mode='w+') as f:
+                    f.write(data)
+                success = True
+            else:
+                print('attempt number '+str(counter+1)+' failed')
+                counter += 1
+        
+
     with open('cache/genome.txt', mode='r+') as f:
         genome = f.readlines()
     return genome

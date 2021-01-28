@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_26337</BlastOutput_query-ID>
+  <BlastOutput_query-def>WP_009475225.1 MULTISPECIES: TetR family transcriptional regulator [Rhodococcus]</BlastOutput_query-def>
+  <BlastOutput_query-len>208</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_26337</Iteration_query-ID>
+  <Iteration_query-def>WP_009475225.1 MULTISPECIES: TetR family transcriptional regulator [Rhodococcus]</Iteration_query-def>
+  <Iteration_query-len>208</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_009475225.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Rhodococcus] &gt;gb|ABG94343.1| possible transcriptional regulator, TetR family protein [Rhodococcus jostii RHA1] &gt;gb|EJI99530.1| transcriptional regulator, TetR family [Rhodococcus sp. JVH1] &gt;gb|PQP22659.1| TetR/AcrR family transcriptional regulator [Rhodococcus opacus]</Hit_def>
+  <Hit_accession>WP_009475225</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>414.461</Hsp_bit-score>
+      <Hsp_score>1064</Hsp_score>
+      <Hsp_evalue>4.69329e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVSTY</Hsp_qseq>
+      <Hsp_hseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVSTY</Hsp_hseq>
+      <Hsp_midline>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVSTY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_005251082.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Rhodococcus] &gt;gb|AHK33948.1| hypothetical protein Pd630_LPD06763 [Rhodococcus opacus PD630] &gt;gb|EHI40132.1| TetR family transcriptional regulator [Rhodococcus opacus PD630] &gt;gb|KXF56013.1| TetR family transcriptional regulator [Rhodococcus sp. SC4]</Hit_def>
+  <Hit_accession>WP_005251082</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>413.305</Hsp_bit-score>
+      <Hsp_score>1061</Hsp_score>
+      <Hsp_evalue>1.8498e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVSTY</Hsp_qseq>
+      <Hsp_hseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAADRLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVSTY</Hsp_hseq>
+      <Hsp_midline>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAA+RLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVSTY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_016882545.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. DK17]</Hit_def>
+  <Hit_accession>WP_016882545</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.535</Hsp_bit-score>
+      <Hsp_score>1059</Hsp_score>
+      <Hsp_evalue>2.93266e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVSTY</Hsp_qseq>
+      <Hsp_hseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITVTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVSTY</Hsp_hseq>
+      <Hsp_midline>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTIT+TDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVSTY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_005259060.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Rhodococcus] &gt;gb|ELB91514.1| TetR family transcriptional regulator [Rhodococcus wratislaviensis IFP 2016] &gt;gb|ANS30735.1| TetR family transcriptional regulator [Rhodococcus opacus] &gt;gb|EKT81024.1| TetR family transcriptional regulator [Rhodococcus opacus M213] &gt;gb|MBA8962082.1| AcrR family transcriptional regulator [Rhodococcus percolatus] &gt;gb|NHU44224.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. A14]</Hit_def>
+  <Hit_accession>WP_005259060</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.994</Hsp_bit-score>
+      <Hsp_score>1055</Hsp_score>
+      <Hsp_evalue>1.45534e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVSTY</Hsp_qseq>
+      <Hsp_hseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDNLVTVIESALYENPGDATTALRHGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADVIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVSTY</Hsp_hseq>
+      <Hsp_midline>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTD+LVTVIESALYENPGDATTALR GYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDAD+IAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVSTY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_095867971.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. ACPA1] &gt;gb|PBC56765.1| TetR family transcriptional regulator [Rhodococcus sp. ACPA1] &gt;gb|RZK84617.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp.]</Hit_def>
+  <Hit_accession>WP_095867971</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.609</Hsp_bit-score>
+      <Hsp_score>1054</Hsp_score>
+      <Hsp_evalue>1.66014e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVSTY</Hsp_qseq>
+      <Hsp_hseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAADRLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASADTARLFAPFVAAPPPVSTY</Hsp_hseq>
+      <Hsp_midline>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAA+RLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASA+TARLFAPFVAAPPPVSTY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_007297574.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus imtechensis] &gt;gb|EID79359.1| TetR family transcriptional regulator [Rhodococcus imtechensis RKJ300 = JCM 13270]</Hit_def>
+  <Hit_accession>WP_007297574</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>408.297</Hsp_bit-score>
+      <Hsp_score>1048</Hsp_score>
+      <Hsp_evalue>1.81516e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVST</Hsp_qseq>
+      <Hsp_hseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDNLVTVIESALYENPGDATTALRHGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADVIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVST</Hsp_hseq>
+      <Hsp_midline>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTD+LVTVIESALYENPGDATTALR GYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDAD+IAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_061697405.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. LB1] &gt;gb|KXX61761.1| TetR family transcriptional regulator [Rhodococcus sp. LB1]</Hit_def>
+  <Hit_accession>WP_061697405</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>406.371</Hsp_bit-score>
+      <Hsp_score>1043</Hsp_score>
+      <Hsp_evalue>1.01513e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVS</Hsp_qseq>
+      <Hsp_hseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAADRLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVK</Hsp_hseq>
+      <Hsp_midline>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAA+RLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPV </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_144288244.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. WB9] &gt;gb|QDQ94772.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. WB9]</Hit_def>
+  <Hit_accession>WP_144288244</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.216</Hsp_bit-score>
+      <Hsp_score>1040</Hsp_score>
+      <Hsp_evalue>2.28876e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVST</Hsp_qseq>
+      <Hsp_hseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLTERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALRHGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADVIAHAIVRLALSFIANPPADTAAASANTARLFAPFVAAPPPVST</Hsp_hseq>
+      <Hsp_midline>MSADDRTERQSRYRLAATSLMRETTLDALRELL ERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALR GYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDAD+IAHAIVRLALSFIANPP DTAAASANTARLFAPFVAAPPPVST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|NDV04243.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Rhodococcus sp. IEGM 248]</Hit_def>
+  <Hit_accession>NDV04243</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>2.79231e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVST</Hsp_qseq>
+      <Hsp_hseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDNLVTVIESALYENPGDATTALRHGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAADRLALTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVSS</Hsp_hseq>
+      <Hsp_midline>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTD+LVTVIESALYENPGDATTALR GYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAA+RLA TLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_037226033.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus wratislaviensis] &gt;dbj|GAF42249.1| putative TetR family transcriptional regulator [Rhodococcus wratislaviensis NBRC 100605]</Hit_def>
+  <Hit_accession>WP_037226033</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.208</Hsp_bit-score>
+      <Hsp_score>1027</Hsp_score>
+      <Hsp_evalue>2.34586e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVST</Hsp_qseq>
+      <Hsp_hseq>MPADDRTDRPSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIQPAAERLAQTLQRSWVNSSPDDAGIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVST</Hsp_hseq>
+      <Hsp_midline>M ADDRT+R SRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIII+PAAERLAQTLQRSWVNSSPDDA IIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_128641318.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus opacus] &gt;gb|AII08628.1| TetR family transcriptional regulator [Rhodococcus opacus]</Hit_def>
+  <Hit_accession>WP_128641318</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.053</Hsp_bit-score>
+      <Hsp_score>1024</Hsp_score>
+      <Hsp_evalue>7.5877e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVST</Hsp_qseq>
+      <Hsp_hseq>MPADDRTDRPSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIQPAAERLSQTLQRSWVNSSPDDAAIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVST</Hsp_hseq>
+      <Hsp_midline>M ADDRT+R SRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIII+PAAERL+QTLQRSWVNSSPDDA IIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_112300113.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus wratislaviensis] &gt;gb|REE75194.1| TetR family transcriptional regulator [Rhodococcus wratislaviensis]</Hit_def>
+  <Hit_accession>WP_112300113</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>394.43</Hsp_bit-score>
+      <Hsp_score>1012</Hsp_score>
+      <Hsp_evalue>5.06851e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVST</Hsp_qseq>
+      <Hsp_hseq>MPADDRTDRPSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDNLVTVIESALYENPGDATTALRQGYATFFELSGADPLVTSLHQGKAPEDLLRLITTDSNIIIQPAAERLSQTLQRSWVNSSPDDAGIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVST</Hsp_hseq>
+      <Hsp_midline>M ADDRT+R SRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTD+LVTVIESALYENPGDATTALR+GYATFFELSGADPLV SLHQGKAPEDLLRLITTDSNIII+PAAERL+QTLQRSWVNSSPDDA IIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_141468358.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. WS4] &gt;gb|TQC49630.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. WS4]</Hit_def>
+  <Hit_accession>WP_141468358</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.645</Hsp_bit-score>
+      <Hsp_score>984</Hsp_score>
+      <Hsp_evalue>7.20973e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAP</Hsp_qseq>
+      <Hsp_hseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRLGLAEGYALRLTDNLVTVIESALYENPGDATTALRDSYATFFELSAADPLVMSLHQGKAPEDLLRLITTNSNIIIRPAADRLAQTLQRSWVNSPPDDADVIAHAIVRLALSFIANPPEDTAAVSANTARLFAPFVAAP</Hsp_hseq>
+      <Hsp_midline>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSR GLAEGYALRLTD+LVTVIESALYENPGDATTALR+ YATFFELS ADPLVMSLHQGKAPEDLLRLITT+SNIIIRPAA+RLAQTLQRSWVNS PDDAD+IAHAIVRLALSFIANPPEDTAA SANTARLFAPFVAAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>dbj|BAH50508.1|</Hit_id>
+  <Hit_def>putative TetR family transcriptional regulator [Rhodococcus opacus B4]</Hit_def>
+  <Hit_accession>BAH50508</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.474</Hsp_bit-score>
+      <Hsp_score>955</Hsp_score>
+      <Hsp_evalue>1.82294e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MSAHDRAERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGMSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYDNPGDVTTALRQGYATFFELSGADPLVLSLHQGQAPEDLLRLITTDSDIIIRPAAERLAETLQRSWVNASPEDADILAHAIVRLALSFIANPPEDTATASANTARLFAPFL</Hsp_hseq>
+      <Hsp_midline>MSA DR ERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAG+SRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALY+NPGD TTALR+GYATFFELSGADPLV+SLHQG+APEDLLRLITTDS+IIIRPAAERLA+TLQRSWVN+SP+DADI+AHAIVRLALSFIANPPEDTA ASANTARLFAPF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_072948022.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus koreensis] &gt;emb|SED10605.1| DNA-binding transcriptional regulator, AcrR family [Rhodococcus koreensis]</Hit_def>
+  <Hit_accession>WP_072948022</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>1.21647e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MSAHDRAERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGMSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYDNPDDVTTALRQGYATFFALSGADPLVLSLHQGQAPEDLLRLITTDSDIIIRPAAERLAETLQRSWVNASPEDADIIAHAIVRLALSFIANPPEDTATASANTARLFAPFL</Hsp_hseq>
+      <Hsp_midline>MSA DR ERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAG+SRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALY+NP D TTALR+GYATFF LSGADPLV+SLHQG+APEDLLRLITTDS+IIIRPAAERLA+TLQRSWVN+SP+DADIIAHAIVRLALSFIANPPEDTA ASANTARLFAPF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_160102049.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. T7] &gt;gb|KAF0959462.1| hypothetical protein MLGJGCBP_07413 [Rhodococcus sp. T7]</Hit_def>
+  <Hit_accession>WP_160102049</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.696</Hsp_bit-score>
+      <Hsp_score>940</Hsp_score>
+      <Hsp_evalue>3.69223e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MSAHDRAERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAAAAGMSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYDNPDDVTTALRQGYATFFALSGADPLVLSLHQGQAPEDLLRLITTDSDIIIRPAAERLAETLQRSWVNASPEDADILAHAIVRLALSFIANPPEDTAAASANTARLFAPFL</Hsp_hseq>
+      <Hsp_midline>MSA DR ERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVA AAG+SRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALY+NP D TTALR+GYATFF LSGADPLV+SLHQG+APEDLLRLITTDS+IIIRPAAERLA+TLQRSWVN+SP+DADI+AHAIVRLALSFIANPPEDTAAASANTARLFAPF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_143548909.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. ACS1]</Hit_def>
+  <Hit_accession>WP_143548909</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.925</Hsp_bit-score>
+      <Hsp_score>938</Hsp_score>
+      <Hsp_evalue>8.38305e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MSAHDRAERQSRYRVAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGMSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYDNPDDVTTALRQGYATFFALSGADPLVLSLHQGQAPEDLLRLITTDSDIIIRPAAERLAETLQRSWVNASPEDADILAHAIVRLALSFIANPPEDTATASANTARLFAPFL</Hsp_hseq>
+      <Hsp_midline>MSA DR ERQSRYR+AATSLMRETTLDALRELLLERPWPTITMTDVAVAAG+SRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALY+NP D TTALR+GYATFF LSGADPLV+SLHQG+APEDLLRLITTDS+IIIRPAAERLA+TLQRSWVN+SP+DADI+AHAIVRLALSFIANPPEDTA ASANTARLFAPF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_143543083.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. NCIMB 12038]</Hit_def>
+  <Hit_accession>WP_143543083</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.155</Hsp_bit-score>
+      <Hsp_score>936</Hsp_score>
+      <Hsp_evalue>1.51953e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MSAHDRAERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAAAAGMSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYDNPDDVTTALRQGYATFFALSGADPLVLSLHQGQAPEDLLRLITTDSDIIIRPAAERLAETLQRSWVNASPEDADILAHAIVRLALSFIANPPEDTATASANTARLFAPFL</Hsp_hseq>
+      <Hsp_midline>MSA DR ERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVA AAG+SRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALY+NP D TTALR+GYATFF LSGADPLV+SLHQG+APEDLLRLITTDS+IIIRPAAERLA+TLQRSWVN+SP+DADI+AHAIVRLALSFIANPPEDTA ASANTARLFAPF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>emb|SPZ39778.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus wratislaviensis]</Hit_def>
+  <Hit_accession>SPZ39778</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.999</Hsp_bit-score>
+      <Hsp_score>933</Hsp_score>
+      <Hsp_evalue>2.51852e-126</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVST</Hsp_qseq>
+      <Hsp_hseq>MRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDNLVTVIESALYENPGDATTALRQGYATFFELSGADPLVTSLHQGKAPEDLLRLITTDSNIIIQPAAERLSQTLQRSWVNSSPDDAGIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVST</Hsp_hseq>
+      <Hsp_midline>MRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTD+LVTVIESALYENPGDATTALR+GYATFFELSGADPLV SLHQGKAPEDLLRLITTDSNIII+PAAERL+QTLQRSWVNSSPDDA IIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAAPPPVST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_124393884.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus wratislaviensis] &gt;dbj|GCE41852.1| transcriptional regulator, TetR family [Rhodococcus wratislaviensis]</Hit_def>
+  <Hit_accession>WP_124393884</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.992</Hsp_bit-score>
+      <Hsp_score>920</Hsp_score>
+      <Hsp_evalue>4.64273e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MSAHDRAERQRRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGMSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYDNPDDVTTALRQGYATFFALSGADPLVRSLHQGQAPEDLLRLITTDSDIIIRPAAERLAETLQRSWVNASAEDANILAHAIVRLALSFIANPPEDTATASANTARLFAPFL</Hsp_hseq>
+      <Hsp_midline>MSA DR ERQ RYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAG+SRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALY+NP D TTALR+GYATFF LSGADPLV SLHQG+APEDLLRLITTDS+IIIRPAAERLA+TLQRSWVN+S +DA+I+AHAIVRLALSFIANPPEDTA ASANTARLFAPF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_094695783.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. 06-221-2] &gt;gb|OZC97094.1| TetR family transcriptional regulator [Rhodococcus sp. 06-221-2]</Hit_def>
+  <Hit_accession>WP_094695783</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.432</Hsp_bit-score>
+      <Hsp_score>620</Hsp_score>
+      <Hsp_evalue>1.88018e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MHAAEQTSTPGRYREAASTLARDVALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASPRQADVISKSIVRLALSYIPEPPDDVASAADDLALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +SP  AD+I+ +IVRLALS+I  PP+D A+A+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_048318089.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Rhodococcus] &gt;gb|KMJ50842.1| TetR family transcriptional regulator [Rhodococcus fascians] &gt;gb|OZC38750.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. PBTS 2]</Hit_def>
+  <Hit_accession>WP_048318089</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.047</Hsp_bit-score>
+      <Hsp_score>619</Hsp_score>
+      <Hsp_evalue>3.54511e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDVALDALRELLQERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASPRQADVISKSIVRLALSYIPEPPDDVASAADDLALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +SP  AD+I+ +IVRLALS+I  PP+D A+A+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_094663816.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. 06-1460-1B] &gt;gb|OZD63369.1| TetR family transcriptional regulator [Rhodococcus sp. 06-1460-1B]</Hit_def>
+  <Hit_accession>WP_094663816</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.662</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>3.91172e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDVALDALRELLQERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASPRQADVISKSIVRLALSYIPEPPDDVASAADDLALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +SP  AD+I+ +IVRLALS+I  PP+D A+A+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_027495557.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Rhodococcus]</Hit_def>
+  <Hit_accession>WP_027495557</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.662</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>4.13154e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDVALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASPRQADVISKSIVRLALSYIPEPPDDVASAADDLALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +SP  AD+I+ +IVRLALS+I  PP+D A+A+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_032375138.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Rhodococcus] &gt;gb|MSX07848.1| TetR family transcriptional regulator [Actinobacteria bacterium] &gt;gb|OZD48465.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 06-1474-1B]</Hit_def>
+  <Hit_accession>WP_032375138</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.662</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>4.65958e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDVALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASPRQADVISKSIVRLALSYIPEPPDDVASAADDLALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +SP  AD+I+ +IVRLALS+I  PP+D A+A+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_032367367.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Rhodococcus] &gt;gb|OZE21947.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 05-2255-1e] &gt;gb|RZL69689.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp.]</Hit_def>
+  <Hit_accession>WP_032367367</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.662</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>5.43853e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDVALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASPRQADVISKSIVRLALSYIPEPPDDVASAADDLALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +SP  AD+I+ +IVRLALS+I  PP+D A+A+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|AMY23501.1|</Hit_id>
+  <Hit_def>hypothetical protein A3Q41_02199 [Rhodococcus sp. PBTS 2]</Hit_def>
+  <Hit_accession>AMY23501</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.662</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>5.50696e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDVALDALRELLQERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASPRQADVISKSIVRLALSYIPEPPDDVASAADDLALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +SP  AD+I+ +IVRLALS+I  PP+D A+A+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|NIL87632.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodococcus fascians]</Hit_def>
+  <Hit_accession>NIL87632</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.662</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>6.55947e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDVALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASPRQADVISKSIVRLALSYIPEPPDDVASAADDLALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +SP  AD+I+ +IVRLALS+I  PP+D A+A+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_032406258.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus fascians] &gt;gb|OZE91213.1| TetR/AcrR family transcriptional regulator [Rhodococcus fascians] &gt;gb|OZF20905.1| TetR/AcrR family transcriptional regulator [Rhodococcus fascians] &gt;gb|OZF23900.1| TetR/AcrR family transcriptional regulator [Rhodococcus fascians] &gt;gb|OZF71232.1| TetR/AcrR family transcriptional regulator [Rhodococcus fascians] &gt;gb|OZF72819.1| TetR/AcrR family transcriptional regulator [Rhodococcus fascians]</Hit_def>
+  <Hit_accession>WP_032406258</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.121</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>1.55126e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDVALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASPRQADVISKSIVRLALSYIPEPPDDVVSAADDLALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +SP  AD+I+ +IVRLALS+I  PP+D  +A+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_167329712.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus fascians]</Hit_def>
+  <Hit_accession>WP_167329712</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.121</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>1.56831e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDVALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASPRQADVISKSIVRLALSYIPEPPDDVVSAADDLALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +SP  AD+I+ +IVRLALS+I  PP+D  +A+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_032381525.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus fascians]</Hit_def>
+  <Hit_accession>WP_032381525</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.121</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>1.67464e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDVALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASPRQADVISKSIVRLALSYIPEPPDDVVSAADDLALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +SP  AD+I+ +IVRLALS+I  PP+D  +A+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_094702989.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. 15-649-2-2] &gt;gb|OZE85289.1| TetR family transcriptional regulator [Rhodococcus sp. 15-649-2-2]</Hit_def>
+  <Hit_accession>WP_094702989</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.121</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>1.91201e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDTALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDIFVDLCETALYEHPDDAGAALRQGFSSFFQLSALDPLVRSLHGGDAPEDLLRLITTDSAVLIERAGDRLANTFQRGWVGASPRQADVISRAIVRLALSYIPEPPHDIAAAANDFALLLTPFV</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + E+ALYE+P DA  ALR+G+++FF+LS  DPLV SLH G APEDLLRLITTDS ++I  A +RLA T QR WV +SP  AD+I+ AIVRLALS+I  PP D AAA+ + A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_057473916.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. Leaf233] &gt;gb|KQU33007.1| TetR family transcriptional regulator [Rhodococcus sp. Leaf233]</Hit_def>
+  <Hit_accession>WP_057473916</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.121</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>2.04163e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDVALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASPRQADVISKSIVRLALSYIPEPPDDVVSAADDLALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +SP  AD+I+ +IVRLALS+I  PP+D  +A+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|AMY52521.1|</Hit_id>
+  <Hit_def>hypothetical protein A3L23_01170 [Rhodococcus fascians D188]</Hit_def>
+  <Hit_accession>AMY52521</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.121</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>2.3825e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDVALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASPRQADVISKSIVRLALSYIPEPPDDVVSAADDLALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +SP  AD+I+ +IVRLALS+I  PP+D  +A+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|NIL91848.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodococcus fascians]</Hit_def>
+  <Hit_accession>NIL91848</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.121</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>2.68688e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDVALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASPRQADVISKSIVRLALSYIPEPPDDVVSAADDLALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +SP  AD+I+ +IVRLALS+I  PP+D  +A+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_045841229.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. PML026]</Hit_def>
+  <Hit_accession>WP_045841229</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>6.78718e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDVALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASARQADVISKSIVRLALSYIPEPPDDVASAADDLALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +S   AD+I+ +IVRLALS+I  PP+D A+A+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_094643522.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [unclassified Rhodococcus] &gt;gb|OZD79080.1| TetR family transcriptional regulator [Rhodococcus sp. 05-2256-B4] &gt;gb|OZD94181.1| TetR family transcriptional regulator [Rhodococcus sp. 05-2256-B3] &gt;gb|OZE01281.1| TetR family transcriptional regulator [Rhodococcus sp. 05-2256-B2] &gt;gb|OZE04886.1| TetR family transcriptional regulator [Rhodococcus sp. 05-2256-B1]</Hit_def>
+  <Hit_accession>WP_094643522</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>7.02191e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDVALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASARQADVISKSIVRLALSYIPEPPDDVASAADDLALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +S   AD+I+ +IVRLALS+I  PP+D A+A+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_032372026.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus fascians]</Hit_def>
+  <Hit_accession>WP_032372026</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>7.32699e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDVALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASARQADVISKSIVRLALSYIPEPPDDVASAADDLALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +S   AD+I+ +IVRLALS+I  PP+D A+A+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|KJV03400.1|</Hit_id>
+  <Hit_def>putative transcriptional regulator, TetR family protein [Rhodococcus sp. PML026]</Hit_def>
+  <Hit_accession>KJV03400</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>1.08852e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDVALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASARQADVISKSIVRLALSYIPEPPDDVASAADDLALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +S   AD+I+ +IVRLALS+I  PP+D A+A+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_032405898.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Rhodococcus] &gt;gb|OZC41667.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. WWJCD1]</Hit_def>
+  <Hit_accession>WP_032405898</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.81</Hsp_bit-score>
+      <Hsp_score>608</Hsp_score>
+      <Hsp_evalue>1.26567e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDTALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDIFVDLCETALYEHPDDAGAALRQGFSSFFQLSALDPLVRSLHGGDAPEDLLRLITTDSAVLIERAGDRLANTFQRGWVGASPRQADVISRAIVRLALSYIPEPPHDITAAADDFALLLTPFV</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + E+ALYE+P DA  ALR+G+++FF+LS  DPLV SLH G APEDLLRLITTDS ++I  A +RLA T QR WV +SP  AD+I+ AIVRLALS+I  PP D  AA+ + A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_037147529.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus fascians] &gt;gb|QIH99533.1| TetR/AcrR family transcriptional regulator [Rhodococcus fascians A21d2]</Hit_def>
+  <Hit_accession>WP_037147529</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.654</Hsp_bit-score>
+      <Hsp_score>605</Hsp_score>
+      <Hsp_evalue>4.64835e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDTALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDIFVDLCDTALYEHPDDAGAALRQGFSSFFQLSALDPLVRSLHGGDAPEDLLRLITTDSAVLIERAGDRLANTFQRGWVGASPRQADVISRAIVRLALSYIPEPPHDITAAADDFALLLTPFV</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + ++ALYE+P DA  ALR+G+++FF+LS  DPLV SLH G APEDLLRLITTDS ++I  A +RLA T QR WV +SP  AD+I+ AIVRLALS+I  PP D  AA+ + A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_094640865.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [unclassified Rhodococcus] &gt;gb|KAA0923547.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. ANT_H53B] &gt;gb|OZE34325.1| TetR family transcriptional regulator [Rhodococcus sp. 05-2254-4] &gt;gb|OZE51551.1| TetR family transcriptional regulator [Rhodococcus sp. 05-2254-3] &gt;gb|OZE53174.1| TetR family transcriptional regulator [Rhodococcus sp. 05-2254-2]</Hit_def>
+  <Hit_accession>WP_094640865</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.269</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>6.7471e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDTALDALRELLNERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDLFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIERAGERLSETFQRGWVGASPRQADVISKAIVRLALSYIPEPPEDIAAAADDLALLLTPFV</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERL++T QR WV +SP  AD+I+ AIVRLALS+I  PPED AAA+ + A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_068055100.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [unclassified Rhodococcus] &gt;gb|KZE98561.1| TetR family transcriptional regulator [Rhodococcus sp. EPR-147] &gt;gb|KZF07123.1| TetR family transcriptional regulator [Rhodococcus sp. EPR-279]</Hit_def>
+  <Hit_accession>WP_068055100</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.269</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>7.12609e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDTALDALRELLNERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDLFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIERAGERLSETFQRGWVGASPRQADVISKAIVRLALSYIPEPPEDIAAAADDLALLLTPFV</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERL++T QR WV +SP  AD+I+ AIVRLALS+I  PPED AAA+ + A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_094670354.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. 05-2254-6] &gt;gb|OZE25209.1| TetR family transcriptional regulator [Rhodococcus sp. 05-2254-6]</Hit_def>
+  <Hit_accession>WP_094670354</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.884</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>9.1628e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASALARDTALDALRELLNERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDLFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIERAGERLSETFQRGWVGASPRQADVISKAIVRLALSYIPEPPEDIAAAADDLALLLTPFV</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERL++T QR WV +SP  AD+I+ AIVRLALS+I  PPED AAA+ + A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_094687140.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. 14-1411-2a] &gt;gb|OZF51524.1| TetR family transcriptional regulator [Rhodococcus sp. 14-1411-2a]</Hit_def>
+  <Hit_accession>WP_094687140</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.884</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>9.77519e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDTALDALRELLNERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDLFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIERAGERLSETFQRGWVGASPRQADVISKAIVRLALSYIPEPPEDIAAAADDLALLLTPFV</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERL++T QR WV +SP  AD+I+ AIVRLALS+I  PPED AAA+ + A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_032396395.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Rhodococcus] &gt;gb|OZC62613.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 06-469-3-2] &gt;gb|OZC68144.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 06-470-2] &gt;gb|OZD50121.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 06-1477-1A] &gt;gb|OZD86042.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 05-339-2] &gt;gb|OZE63197.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 05-2221-1B]</Hit_def>
+  <Hit_accession>WP_032396395</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.498</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>1.58257e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASSLARDTALDALRELLNERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDLFVAMCETALYQHENDASAALRQGFSSFFQLSALDPLVRSLHGGDAPEDLLRLITTDSAVLIERAGDRLAETFQRGWVGASPRQADVISRAIVRLALSYIPEPPPDIASAADDFALLLTPYV</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA+SL R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + E+ALY++  DA+ ALR+G+++FF+LS  DPLV SLH G APEDLLRLITTDS ++I  A +RLA+T QR WV +SP  AD+I+ AIVRLALS+I  PP D A+A+ + A L  P+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_045200423.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [unclassified Rhodococcus] &gt;gb|OZE07080.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 05-2255-3B1] &gt;gb|OZE12817.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 05-2255-2A2] &gt;gb|OZE16993.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 05-2255-3C] &gt;gb|OZF36812.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 14-2496-1d]</Hit_def>
+  <Hit_accession>WP_045200423</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.113</Hsp_bit-score>
+      <Hsp_score>601</Hsp_score>
+      <Hsp_evalue>1.61622e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASSLARDTALDALRELLNERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDLFVAMCETALYQHENDASAALRQGFSSFFQLSALDPLVRSLHGGDAPEDLLRLITTDSAVLIERAGDRLAETFQRGWVGASPRQADVISRAIVRLALSYIPEPPPDIASAADDFALLLTPYV</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA+SL R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + E+ALY++  DA+ ALR+G+++FF+LS  DPLV SLH G APEDLLRLITTDS ++I  A +RLA+T QR WV +SP  AD+I+ AIVRLALS+I  PP D A+A+ + A L  P+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_094657548.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. 06-418-5] &gt;gb|OZC81533.1| TetR family transcriptional regulator [Rhodococcus sp. 06-418-5]</Hit_def>
+  <Hit_accession>WP_094657548</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.113</Hsp_bit-score>
+      <Hsp_score>601</Hsp_score>
+      <Hsp_evalue>1.78475e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASSLARDTALDALRELLNERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDLFVAMCETALYQHENDASAALRQGFSSFFQLSALDPLVRSLHGGDAPEDLLRLITTDSAVLIERAGDRLAETFQRGWVGASPRQADVISRAIVRLALSYIPEPPPDIASAADDFALLLTPYV</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA+SL R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + E+ALY++  DA+ ALR+G+++FF+LS  DPLV SLH G APEDLLRLITTDS ++I  A +RLA+T QR WV +SP  AD+I+ AIVRLALS+I  PP D A+A+ + A L  P+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|AJW40973.1|</Hit_id>
+  <Hit_def>Transcriptional regulator, TetR [Rhodococcus sp. B7740]</Hit_def>
+  <Hit_accession>AJW40973</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.113</Hsp_bit-score>
+      <Hsp_score>601</Hsp_score>
+      <Hsp_evalue>2.07908e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASSLARDTALDALRELLNERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDLFVAMCETALYQHENDASAALRQGFSSFFQLSALDPLVRSLHGGDAPEDLLRLITTDSAVLIERAGDRLAETFQRGWVGASPRQADVISRAIVRLALSYIPEPPPDIASAADDFALLLTPYV</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA+SL R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + E+ALY++  DA+ ALR+G+++FF+LS  DPLV SLH G APEDLLRLITTDS ++I  A +RLA+T QR WV +SP  AD+I+ AIVRLALS+I  PP D A+A+ + A L  P+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_094613346.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [unclassified Rhodococcus] &gt;gb|OZC75265.1| TetR family transcriptional regulator [Rhodococcus sp. 06-462-5] &gt;gb|OZE67784.1| TetR family transcriptional regulator [Rhodococcus sp. 02-925g]</Hit_def>
+  <Hit_accession>WP_094613346</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.958</Hsp_bit-score>
+      <Hsp_score>598</Hsp_score>
+      <Hsp_evalue>5.55802e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDTALDALRELLNERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDLFVAMCETALYQHENDASAALRQGFSSFFQLSALDPLVRSLHGGDAPEDLLRLITTDSAVLIERAGDRLAETFQRGWVGASPRQADVISRAIVRLALSYIPEPPPDIASAADDFALLLTPYV</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + E+ALY++  DA+ ALR+G+++FF+LS  DPLV SLH G APEDLLRLITTDS ++I  A +RLA+T QR WV +SP  AD+I+ AIVRLALS+I  PP D A+A+ + A L  P+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|WP_143547298.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator, partial [Rhodococcus sp. 06-1477-1B]</Hit_def>
+  <Hit_accession>WP_143547298</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.802</Hsp_bit-score>
+      <Hsp_score>595</Hsp_score>
+      <Hsp_evalue>7.10199e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAA</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDVALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASPRQADVISKSIVRLALSYIPEPPDDVAS</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +SP  AD+I+ +IVRLALS+I  PP+D A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|WP_094679845.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. 06-235-1A] &gt;gb|OZD01767.1| TetR family transcriptional regulator [Rhodococcus sp. 06-235-1A]</Hit_def>
+  <Hit_accession>WP_094679845</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.491</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>9.42485e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDTALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDLFVAMCETALYQHENDASAALRQGFSSFFELSALDPLVRSLHGGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASPRQADVVSKAIVRLALSYIPEPPDDITAAADDLALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + E+ALY++  DA+ ALR+G+++FFELS  DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +SP  AD+++ AIVRLALS+I  PP+D  AA+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|WP_094621689.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [unclassified Rhodococcus] &gt;gb|OZE36980.1| TetR family transcriptional regulator [Rhodococcus sp. 05-2254-5] &gt;gb|OZE54730.1| TetR family transcriptional regulator [Rhodococcus sp. 05-2254-1] &gt;gb|TFI44601.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 1R11]</Hit_def>
+  <Hit_accession>WP_094621689</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.106</Hsp_bit-score>
+      <Hsp_score>588</Hsp_score>
+      <Hsp_evalue>1.646e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDVALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDAFVAMCETALYQHENDASAALRQGFSSFFELSGLDPLVRSLHSGDAPEDLLRLITTDSEVLIDRAGERLAETFQRGWVGASPRQADVISKSIVRLALSYIPEPPDDAASAADDLALLLSPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+  LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD+ V + E+ALY++  DA+ ALR+G+++FFELSG DPLV SLH G APEDLLRLITTDS ++I  A ERLA+T QR WV +SP  AD+I+ +IVRLALS+I  PP+D A+A+ + A L +PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|WP_057479080.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. Leaf278] &gt;gb|KQU47255.1| TetR family transcriptional regulator [Rhodococcus sp. Leaf278]</Hit_def>
+  <Hit_accession>WP_057479080</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.18</Hsp_bit-score>
+      <Hsp_score>583</Hsp_score>
+      <Hsp_evalue>9.55862e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDTALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDLFVAMCETALYEHPDDAGAALRQGFSSFFQLSALDPLVRSLHGGDAPEDLLRLITTDSAVLIERAGDRLANTFQRGWVGASPRQADVVSKAIVRLALSYIPEPPHDIAAAADDFALLLTPFV</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + E+ALYE+P DA  ALR+G+++FF+LS  DPLV SLH G APEDLLRLITTDS ++I  A +RLA T QR WV +SP  AD+++ AIVRLALS+I  PP D AAA+ + A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|WP_094737362.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. 14-2483-1-1] &gt;gb|OZF39853.1| TetR family transcriptional regulator [Rhodococcus sp. 14-2483-1-1]</Hit_def>
+  <Hit_accession>WP_094737362</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.18</Hsp_bit-score>
+      <Hsp_score>583</Hsp_score>
+      <Hsp_evalue>9.66373e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDTALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDIFVDLCETALYEHPDDAGAALRQGFSSFFQLSALDPLVRSLHGGDAPEDLLRLITTDSAVLIERAGDRLANTFQRGWVGASPRQADVISRAIVRLALSYIPEPPHDIAAAADDFALLLTPFV</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + E+ALYE+P DA  ALR+G+++FF+LS  DPLV SLH G APEDLLRLITTDS ++I  A +RLA T QR WV +SP  AD+I+ AIVRLALS+I  PP D AAA+ + A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|WP_037193901.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Rhodococcus] &gt;gb|OZD69825.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 05-340-2] &gt;gb|OZD78528.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 05-340-1] &gt;gb|OZF04447.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 15-2388-1-1a]</Hit_def>
+  <Hit_accession>WP_037193901</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.794</Hsp_bit-score>
+      <Hsp_score>582</Hsp_score>
+      <Hsp_evalue>1.12613e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDTALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDIFVDLCETALYEHPDDAGAALRQGFSSFFQLSALDPLVRSLHGGDAPEDLLRLITTDSAVLIERAGDRLANTFQRGWVGASPRQADVISRAIVRLALSYIPEPPHDIAAAADDFALLLTPFV</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + E+ALYE+P DA  ALR+G+++FF+LS  DPLV SLH G APEDLLRLITTDS ++I  A +RLA T QR WV +SP  AD+I+ AIVRLALS+I  PP D AAA+ + A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|WP_094740297.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. 14-2483-1-2] &gt;gb|OZF37593.1| TetR family transcriptional regulator [Rhodococcus sp. 14-2483-1-2]</Hit_def>
+  <Hit_accession>WP_094740297</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.794</Hsp_bit-score>
+      <Hsp_score>582</Hsp_score>
+      <Hsp_evalue>1.15101e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDTALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDIFVDLCETALYEHPDDAGAALRQGFSSFFQLSALDPLVRSLHGGDAPEDLLRLITTDSAVLIERAGDRLANTFQRGWVGASPRQADVISRAIVRLALSYIPEPPHDIAAAADDFALLLTPFV</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + E+ALYE+P DA  ALR+G+++FF+LS  DPLV SLH G APEDLLRLITTDS ++I  A +RLA T QR WV +SP  AD+I+ AIVRLALS+I  PP D AAA+ + A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|WP_037173440.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus fascians] &gt;gb|QII08002.1| TetR/AcrR family transcriptional regulator [Rhodococcus fascians A25f]</Hit_def>
+  <Hit_accession>WP_037173440</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.794</Hsp_bit-score>
+      <Hsp_score>582</Hsp_score>
+      <Hsp_evalue>1.22894e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDTALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDIFVDLCETALYEHPDDAGAALRQGFSSFFQLSALDPLVRSLHGGDAPEDLLRLITTDSAVLIERAGDRLASTFQRGWVGASPRQADVISRAIVRLALSYIPEPPHDIAAAADDFALLLTPFV</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + E+ALYE+P DA  ALR+G+++FF+LS  DPLV SLH G APEDLLRLITTDS ++I  A +RLA T QR WV +SP  AD+I+ AIVRLALS+I  PP D AAA+ + A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|WP_032376458.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus fascians]</Hit_def>
+  <Hit_accession>WP_032376458</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.024</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>2.58329e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDTALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDIFVDLCETALYEHPDDAGAALRQGFSSFFQLSALDPLVRSLHGGDAPEDLLRLITTDNAVLIERAGDRLANTFQRGWVGASPRQADVISRAIVRLALSYIPEPPHDIAAAADDFALLLTPFV</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + E+ALYE+P DA  ALR+G+++FF+LS  DPLV SLH G APEDLLRLITTD+ ++I  A +RLA T QR WV +SP  AD+I+ AIVRLALS+I  PP D AAA+ + A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|WP_094619498.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [unclassified Rhodococcus] &gt;gb|OZC84219.1| TetR family transcriptional regulator [Rhodococcus sp. 06-412-2C] &gt;gb|OZC94404.1| TetR family transcriptional regulator [Rhodococcus sp. 06-412-2B]</Hit_def>
+  <Hit_accession>WP_094619498</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.639</Hsp_bit-score>
+      <Hsp_score>579</Hsp_score>
+      <Hsp_evalue>3.91262e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDTALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDIFVDLCDTALYEHPDDAGAALRQGFSSFFQLSALDPLVRSLHGGDAPEDLLRLITTDSAVLIERAGDRLANTFQRGWVGASPRQADVISRAIVRLALSYIPEPPHDIAAAADDFALLLTPFV</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + ++ALYE+P DA  ALR+G+++FF+LS  DPLV SLH G APEDLLRLITTDS ++I  A +RLA T QR WV +SP  AD+I+ AIVRLALS+I  PP D AAA+ + A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|WP_008710334.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. AW25M09] &gt;emb|CCQ13579.1| putative TetR family transcriptional regulator [Rhodococcus sp. AW25M09]</Hit_def>
+  <Hit_accession>WP_008710334</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.098</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>1.38988e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYREAASTLARDTALDALRELLHERNWRNVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDLFVAMCETALYQHENDSSAALRQGFSSFFQLSGLDPLVRSLHNGDAPEDLLRLITTDSAVLIERAGGRLSETFQRGWVGASPRQADVVSKAIVRLALSYIPEPPDDIDAAADDVALLLAPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR AA++L R+T LDALRELL ER W  +TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V + E+ALY++  D++ ALR+G+++FF+LSG DPLV SLH G APEDLLRLITTDS ++I  A  RL++T QR WV +SP  AD+++ AIVRLALS+I  PP+D  AA+ + A L APF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|WP_121871100.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. SBT000017] &gt;gb|RMB77311.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. SBT000017]</Hit_def>
+  <Hit_accession>WP_121871100</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.164</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>6.80329e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MPAAEQTSTPGRYRVAASTLARDTALDALRELLHARTWRTVTMSHIAKAAGLSRQSLYNEFGSRRGVAQGYAIRLTDMFVDLCGSALYQHPNDARAALQQGFSAFFELSVLDPLVRSLHGDDAPEDLLRLITTDSAVLIERAGDRLAETLQHGWVGASPRHADIASKAIVRLALSYIPEPPDDIAAAADDIALLLTPFI</Hsp_hseq>
+      <Hsp_midline>M A ++T    RYR+AA++L R+T LDALRELL  R W T+TM+ +A AAGLSRQ++Y EF SRRG+A+GYA+RLTD  V +  SALY++P DA  AL++G++ FFELS  DPLV SLH   APEDLLRLITTDS ++I  A +RLA+TLQ  WV +SP  ADI + AIVRLALS+I  PP+D AAA+ + A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>emb|SNS36439.1|</Hit_id>
+  <Hit_def>DNA-binding transcriptional regulator, AcrR family [Rhodococcus kyotonensis]</Hit_def>
+  <Hit_accession>SNS36439</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.542</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>8.76133e-67</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>ADDRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>ADVTSQPVSPYKSAASNLMRTTILDSLHDLLLERTWSTVNMADVAKAAGISRQTLYKEFGTRKGLAQGYALRLTDSFVTAVDDAVYSNEGDGLQTLYVSFTEFFGRSAQDPLVMSMLTDDPPPDLLRLVTTEAGILIEHAAFRLAQTFQRSWLHASPHNADILGRAVVRLAISYISMPPSNSADVAADLASLLTPFL</Hsp_hseq>
+      <Hsp_midline>AD  ++  S Y+ AA++LMR T LD+L +LLLER W T+ M DVA AAG+SRQT+YKEF +R+GLA+GYALRLTDS VT ++ A+Y N GD    L   +  FF  S  DPLVMS+     P DLLRL+TT++ I+I  AA RLAQT QRSW+++SP +ADI+  A+VRLA+S+I+ PP ++A  +A+ A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|WP_072805938.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus yunnanensis]</Hit_def>
+  <Hit_accession>WP_072805938</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>1.91491e-66</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>SRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>SPYKSAASNLMRTTILDGLHDLLLERTWSTVNMADVAKAAGISRQTLYKEFGTRKGLAQGYALRLTDSFVSAVDDAVYANEGDSLRTLYLAFTEFFQRSASDPLVMSMLTDDPPPDLLRLVTTESGILIEHAAFRLAQTFERSWLRASPQGADILGRAVVRLALSYVSMPPSNSADVAADMASLLTPFV</Hsp_hseq>
+      <Hsp_midline>S Y+ AA++LMR T LD L +LLLER W T+ M DVA AAG+SRQT+YKEF +R+GLA+GYALRLTDS V+ ++ A+Y N GD+   L   +  FF+ S +DPLVMS+     P DLLRL+TT+S I+I  AA RLAQT +RSW+ +SP  ADI+  A+VRLALS+++ PP ++A  +A+ A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>gb|OAK54623.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus kyotonensis]</Hit_def>
+  <Hit_accession>OAK54623</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.846</Hsp_bit-score>
+      <Hsp_score>538</Hsp_score>
+      <Hsp_evalue>5.49871e-66</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>TERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>THPVSPYKNAATNLMRSTILDSLHDLLLERTWSTVNMADVAKAAGISRQTLYKEFGTRKGLAQGYALRLTDAFVSAVDDAVYSNEGDGLRTLYVSFTEFFGRSAKDPLVLSMLTDDPPPDLLRLVTTESGILIEHAAFRLAETFQRSWMHVSPHNADVLGRAVVRLALSYISMPPTNSADVAADMASLLTPFV</Hsp_hseq>
+      <Hsp_midline>T   S Y+ AAT+LMR T LD+L +LLLER W T+ M DVA AAG+SRQT+YKEF +R+GLA+GYALRLTD+ V+ ++ A+Y N GD    L   +  FF  S  DPLV+S+     P DLLRL+TT+S I+I  AA RLA+T QRSW++ SP +AD++  A+VRLALS+I+ PP ++A  +A+ A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>gb|KZF06919.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. EPR-157]</Hit_def>
+  <Hit_accession>KZF06919</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.46</Hsp_bit-score>
+      <Hsp_score>537</Hsp_score>
+      <Hsp_evalue>8.0375e-66</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>SRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>SPYKSAATNLMRTTILDGLHDLLLERTWSTVNMTDVAKAAGISRQTLYKEFGTRKGLAQGYALRLTDSFVSAVDDAVYANEGDALRTLYVAFTEFFSRSASDPLVLSMLTDDPPPDLLRLVTTESGILIEHAAVRLAQTFERSWLRASAHNADVLGRTVVRLALSYVSMPPDNSADVAADLASLLTPFV</Hsp_hseq>
+      <Hsp_midline>S Y+ AAT+LMR T LD L +LLLER W T+ MTDVA AAG+SRQT+YKEF +R+GLA+GYALRLTDS V+ ++ A+Y N GDA   L   +  FF  S +DPLV+S+     P DLLRL+TT+S I+I  AA RLAQT +RSW+ +S  +AD++   +VRLALS+++ PP+++A  +A+ A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>gb|NIL75076.1|</Hit_id>
+  <Hit_def>putative HTH-type transcriptional regulator [Rhodococcus sp. B10]</Hit_def>
+  <Hit_accession>NIL75076</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.46</Hsp_bit-score>
+      <Hsp_score>537</Hsp_score>
+      <Hsp_evalue>1.11386e-65</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>TERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>THPVSPYKNAATNLMRSTILDSLHDLLLERTWSTVNMADVAKAAGISRQTLYKEFGTRKGLAQGYALRLTDAFVSAVDDAVYSNEGDGLRTLYVSFTEFFGRSAKDPLVLSMLTDDPPPDLLRLVTTESGILIEHAAFRLAETFQRSWMHVSPHNADVLGRAVVRLALSYISMPPTNSADVAADMASLLTPFV</Hsp_hseq>
+      <Hsp_midline>T   S Y+ AAT+LMR T LD+L +LLLER W T+ M DVA AAG+SRQT+YKEF +R+GLA+GYALRLTD+ V+ ++ A+Y N GD    L   +  FF  S  DPLV+S+     P DLLRL+TT+S I+I  AA RLA+T QRSW++ SP +AD++  A+VRLALS+I+ PP ++A  +A+ A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>ref|WP_174551421.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus kyotonensis]</Hit_def>
+  <Hit_accession>WP_174551421</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.46</Hsp_bit-score>
+      <Hsp_score>537</Hsp_score>
+      <Hsp_evalue>2.10695e-65</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>SRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>SPYKNAATNLMRSTILDSLHDLLLERTWSTVNMADVAKAAGISRQTLYKEFGTRKGLAQGYALRLTDAFVSAVDDAVYSNEGDGLRTLYVSFTEFFGRSAKDPLVLSMLTDDPPPDLLRLVTTESGILIEHAAFRLAETFQRSWMHVSPHNADVLGRAVVRLALSYISMPPTNSADVAADMASLLTPFV</Hsp_hseq>
+      <Hsp_midline>S Y+ AAT+LMR T LD+L +LLLER W T+ M DVA AAG+SRQT+YKEF +R+GLA+GYALRLTD+ V+ ++ A+Y N GD    L   +  FF  S  DPLV+S+     P DLLRL+TT+S I+I  AA RLA+T QRSW++ SP +AD++  A+VRLALS+I+ PP ++A  +A+ A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>gb|ORI15337.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. 1163]</Hit_def>
+  <Hit_accession>ORI15337</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.92</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>2.79401e-65</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>RTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>RPETTSPYKSAVTSLMRTTILDALHSLLLEHTWSNVNMTDVAKTAGVSRQTLYKEFGTRKGLAQGYALRLTDTFVSAVDSAIYANENDSLRTLYLAFAQFFGRSATDPLVLSILTDDPPPDLLRLVTTESGILLEHAASRLAETFEHSWIRASPHNADVLGRAVVRLALSYISMPPSNSADVAADMASLLAPFV</Hsp_hseq>
+      <Hsp_midline>R E  S Y+ A TSLMR T LDAL  LLLE  W  + MTDVA  AG+SRQT+YKEF +R+GLA+GYALRLTD+ V+ ++SA+Y N  D+   L   +A FF  S  DPLV+S+     P DLLRL+TT+S I++  AA RLA+T + SW+ +SP +AD++  A+VRLALS+I+ PP ++A  +A+ A L APFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>gb|ORI15517.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. 1168]</Hit_def>
+  <Hit_accession>ORI15517</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.92</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>2.85567e-65</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>RTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>RPETISPYKSAVTTLMRTTILDALHSLLLERTWSNVNMTDVAKAAGVSRQTLYKEFGTRKGLAQGYALRLTDTFVSAVDSAIYANENDSLRTLYLAFTQFFGRSATDPLVMSILTDDPPPDLLRLVTTESGILLEHAATRLAETFEHSWIRASPHNADVLGRAVVRLALSYISMPPSNSADVAADMASLLSPFV</Hsp_hseq>
+      <Hsp_midline>R E  S Y+ A T+LMR T LDAL  LLLER W  + MTDVA AAG+SRQT+YKEF +R+GLA+GYALRLTD+ V+ ++SA+Y N  D+   L   +  FF  S  DPLVMS+     P DLLRL+TT+S I++  AA RLA+T + SW+ +SP +AD++  A+VRLALS+I+ PP ++A  +A+ A L +PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|WP_114331361.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. Eu-32] &gt;gb|RRQ26766.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. Eu-32]</Hit_def>
+  <Hit_accession>WP_114331361</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.223</Hsp_bit-score>
+      <Hsp_score>526</Hsp_score>
+      <Hsp_evalue>4.91259e-64</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>TERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>THPVSPYKNAATNLMRSTILDSLHDLLLERTWSTVNMADVAKAAGISRQTLYKEFGTRKGLAQGYALRLTDAFVSAVDDAVYSNEGDGLRTLYVSFTEFFGRSAKDPLVLSMLTDDPPPDLLRLVTTESGILIEHAAFRLAETFQRSWMRVSQHNADVLGRAVVRLALSYISMPPTNSADVAADMASLLTPFV</Hsp_hseq>
+      <Hsp_midline>T   S Y+ AAT+LMR T LD+L +LLLER W T+ M DVA AAG+SRQT+YKEF +R+GLA+GYALRLTD+ V+ ++ A+Y N GD    L   +  FF  S  DPLV+S+     P DLLRL+TT+S I+I  AA RLA+T QRSW+  S  +AD++  A+VRLALS+I+ PP ++A  +A+ A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|WP_089243820.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus kyotonensis]</Hit_def>
+  <Hit_accession>WP_089243820</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.682</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>9.06824e-64</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MRTTILDSLHDLLLERTWSTVNMADVAKAAGISRQTLYKEFGTRKGLAQGYALRLTDSFVTAVDDAVYSNEGDGLQTLYVSFTEFFGRSAQDPLVMSMLTDDPPPDLLRLVTTEAGILIEHAAFRLAQTFQRSWLHASPHNADILGRAVVRLAISYISMPPSNSADVAADLASLLTPFL</Hsp_hseq>
+      <Hsp_midline>MR T LD+L +LLLER W T+ M DVA AAG+SRQT+YKEF +R+GLA+GYALRLTDS VT ++ A+Y N GD    L   +  FF  S  DPLVMS+     P DLLRL+TT++ I+I  AA RLAQT QRSW+++SP +ADI+  A+VRLA+S+I+ PP ++A  +A+ A L  PF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|WP_136169996.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [unclassified Rhodococcus] &gt;gb|QCB50068.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. PAMC28705] &gt;gb|QCB58237.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. PAMC28707]</Hit_def>
+  <Hit_accession>WP_136169996</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.838</Hsp_bit-score>
+      <Hsp_score>525</Hsp_score>
+      <Hsp_evalue>1.81233e-63</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>RTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>RPETTSPFKSAVTSLMRTTILDALHSLLLEHTWSNVNMTDVAKTAGVSRQTLYKEFGTRKGLAQGYALRLTDTFVSAVDSAIYANENDSLRTLYLAFTQFFGRSASDPLVLSILTDDPPPDLLRLVTTESGILLEHAASRLAETFEHSWIRASPHNADVLGRAIVRLALSYISMPPSNSADVAADMALLLAPFV</Hsp_hseq>
+      <Hsp_midline>R E  S ++ A TSLMR T LDAL  LLLE  W  + MTDVA  AG+SRQT+YKEF +R+GLA+GYALRLTD+ V+ ++SA+Y N  D+   L   +  FF  S +DPLV+S+     P DLLRL+TT+S I++  AA RLA+T + SW+ +SP +AD++  AIVRLALS+I+ PP ++A  +A+ A L APFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>dbj|GBE65678.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Mycobacterium sp. MFM001]</Hit_def>
+  <Hit_accession>GBE65678</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.756</Hsp_bit-score>
+      <Hsp_score>517</Hsp_score>
+      <Hsp_evalue>1.30165e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSR--YRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>VAAADGTGRPVRVSYAEASRVLLRDSVLDAMRELLLARDWSAITLADVARAAGISRQTIYNEFGSRQGLAQGYALRLADRLVDAVDDAVYSNVGEVYAAFLQGFRMFFTESAADPLVISLLTGVAKPDLLQIITTDSGPIITHCAERLANTFQHSWVKASDDDAGIIARAIVRLAMSYVSMPPEADHDVAADLARLLTPAV</Hsp_hseq>
+      <Hsp_midline>++A D T R  R  Y  A+  L+R++ LDA+RELLL R W  IT+ DVA AAG+SRQTIY EF SR+GLA+GYALRL D LV  ++ A+Y N G+   A  +G+  FF  S ADPLV+SL  G A  DLL++ITTDS  II   AERLA T Q SWV +S DDA IIA AIVRLA+S+++ PPE     +A+ ARL  P V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|WP_156520365.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. EPR-157]</Hit_def>
+  <Hit_accession>WP_156520365</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>1.74805e-62</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MRTTILDGLHDLLLERTWSTVNMTDVAKAAGISRQTLYKEFGTRKGLAQGYALRLTDSFVSAVDDAVYANEGDALRTLYVAFTEFFSRSASDPLVLSMLTDDPPPDLLRLVTTESGILIEHAAVRLAQTFERSWLRASAHNADVLGRTVVRLALSYVSMPPDNSADVAADLASLLTPFV</Hsp_hseq>
+      <Hsp_midline>MR T LD L +LLLER W T+ MTDVA AAG+SRQT+YKEF +R+GLA+GYALRLTDS V+ ++ A+Y N GDA   L   +  FF  S +DPLV+S+     P DLLRL+TT+S I+I  AA RLAQT +RSW+ +S  +AD++   +VRLALS+++ PP+++A  +A+ A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|WP_084423748.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. B10]</Hit_def>
+  <Hit_accession>WP_084423748</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>2.37306e-62</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MRSTILDSLHDLLLERTWSTVNMADVAKAAGISRQTLYKEFGTRKGLAQGYALRLTDAFVSAVDDAVYSNEGDGLRTLYVSFTEFFGRSAKDPLVLSMLTDDPPPDLLRLVTTESGILIEHAAFRLAETFQRSWMHVSPHNADVLGRAVVRLALSYISMPPTNSADVAADMASLLTPFV</Hsp_hseq>
+      <Hsp_midline>MR T LD+L +LLLER W T+ M DVA AAG+SRQT+YKEF +R+GLA+GYALRLTD+ V+ ++ A+Y N GD    L   +  FF  S  DPLV+S+     P DLLRL+TT+S I+I  AA RLA+T QRSW++ SP +AD++  A+VRLALS+I+ PP ++A  +A+ A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>ref|WP_115965122.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. OK269] &gt;gb|REF16625.1| TetR family transcriptional regulator [Rhodococcus sp. OK269]</Hit_def>
+  <Hit_accession>WP_115965122</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>6.70665e-62</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>SRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>SPYKSAATNLMRTTILDGLHDLLLERTWSTVNMIDVAKAAGISRQTLYKEFGTRKGLAQGYALRLTDSFVSAVDDAVYANENDSLRTLYVAFTEFFARSAADPLVLSMLTDDPPPDLLRLVTTESGLLIEHATFRLAQTFERSWLRASPHNADNLGRTVVRLALSYVSMPPSNSSDVAADLATLLTPFV</Hsp_hseq>
+      <Hsp_midline>S Y+ AAT+LMR T LD L +LLLER W T+ M DVA AAG+SRQT+YKEF +R+GLA+GYALRLTDS V+ ++ A+Y N  D+   L   +  FF  S ADPLV+S+     P DLLRL+TT+S ++I  A  RLAQT +RSW+ +SP +AD +   +VRLALS+++ PP +++  +A+ A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|WP_162267205.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Mycobacterium kyorinense]</Hit_def>
+  <Hit_accession>WP_162267205</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>6.79543e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSR--YRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MTGPNGTGRPVRVPYAEASRVLLRDSVLDAMRELLLARDWSAITLADVARAAGISRQTIYNEFGSRQGLAQGYALRLADRLVDAVDDAIYSNVGDVYAAFLQGFRMFFTESAADPLVISLLTGVAKPDLLQLITTDSGPIITHCSERLTNTFQHSWVKASDDDAGIIARAIVRLAMSYVSMPPEADHDVAADLARLMTPAV</Hsp_hseq>
+      <Hsp_midline>M+  + T R  R  Y  A+  L+R++ LDA+RELLL R W  IT+ DVA AAG+SRQTIY EF SR+GLA+GYALRL D LV  ++ A+Y N GD   A  +G+  FF  S ADPLV+SL  G A  DLL+LITTDS  II   +ERL  T Q SWV +S DDA IIA AIVRLA+S+++ PPE     +A+ ARL  P V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|WP_116375423.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Mycobacterium sp. MFM001]</Hit_def>
+  <Hit_accession>WP_116375423</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.601</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>6.93437e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MSADDRTERQSR--YRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>VAAADGTGRPVRVSYAEASRVLLRDSVLDAMRELLLARDWSAITLADVARAAGISRQTIYNEFGSRQGLAQGYALRLADRLVDAVDDAVYSNVGEVYAAFLQGFRMFFTESAADPLVISLLTGVAKPDLLQIITTDSGPIITHCAERLANTFQHSWVKASDDDAGIIARAIVRLAMSYVSMPPEADHDVAADLARLLTPAV</Hsp_hseq>
+      <Hsp_midline>++A D T R  R  Y  A+  L+R++ LDA+RELLL R W  IT+ DVA AAG+SRQTIY EF SR+GLA+GYALRL D LV  ++ A+Y N G+   A  +G+  FF  S ADPLV+SL  G A  DLL++ITTDS  II   AERLA T Q SWV +S DDA IIA AIVRLA+S+++ PPE     +A+ ARL  P V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|WP_176224981.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. 1168]</Hit_def>
+  <Hit_accession>WP_176224981</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.02468e-61</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MRTTILDALHSLLLERTWSNVNMTDVAKAAGVSRQTLYKEFGTRKGLAQGYALRLTDTFVSAVDSAIYANENDSLRTLYLAFTQFFGRSATDPLVMSILTDDPPPDLLRLVTTESGILLEHAATRLAETFEHSWIRASPHNADVLGRAVVRLALSYISMPPSNSADVAADMASLLSPFV</Hsp_hseq>
+      <Hsp_midline>MR T LDAL  LLLER W  + MTDVA AAG+SRQT+YKEF +R+GLA+GYALRLTD+ V+ ++SA+Y N  D+   L   +  FF  S  DPLVMS+     P DLLRL+TT+S I++  AA RLA+T + SW+ +SP +AD++  A+VRLALS+I+ PP ++A  +A+ A L +PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>ref|WP_083086385.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Mycobacterium noviomagense] &gt;gb|ORB17139.1| TetR family transcriptional regulator [Mycobacterium noviomagense] &gt;dbj|BBY07513.1| TetR family transcriptional regulator [Mycobacterium noviomagense]</Hit_def>
+  <Hit_accession>WP_083086385</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>1.04175e-61</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>YRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAP</Hsp_qseq>
+      <Hsp_hseq>YAEASRALLRDSVLDAMRELLLTRDWSAITLADVAREAGISRQTIYNEFGSRQGLAQGYALRLADRLVDLVEAAIYNNVGDIYAAFLEGFRAFFTESAADPLVISLLSGVAKPDLLQLITTDSGPIITHCSDRLTSSFIHSWVNASEDDAGILARAIVRLAISYVSMPPEADHDVAADLARLFTP</Hsp_hseq>
+      <Hsp_midline>Y  A+ +L+R++ LDA+RELLL R W  IT+ DVA  AG+SRQTIY EF SR+GLA+GYALRL D LV ++E+A+Y N GD   A  EG+  FF  S ADPLV+SL  G A  DLL+LITTDS  II   ++RL  +   SWVN+S DDA I+A AIVRLA+S+++ PPE     +A+ ARLF P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>gb|ORV98840.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Mycobacterium kyorinense]</Hit_def>
+  <Hit_accession>ORV98840</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>1.2835e-61</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>YRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>YAEASRVLLRDSVLDAMRELLLARDWSAITLADVARAAGISRQTIYNEFGSRQGLAQGYALRLADRLVDAVDDAIYSNVGDVYAAFLQGFRMFFTESAADPLVISLLTGVAKPDLLQLITTDSGPIITHCSERLTNTFQHSWVKASDDDAGIIARAIVRLAMSYVSMPPEADHDVAADLARLMTPAV</Hsp_hseq>
+      <Hsp_midline>Y  A+  L+R++ LDA+RELLL R W  IT+ DVA AAG+SRQTIY EF SR+GLA+GYALRL D LV  ++ A+Y N GD   A  +G+  FF  S ADPLV+SL  G A  DLL+LITTDS  II   +ERL  T Q SWV +S DDA IIA AIVRLA+S+++ PPE     +A+ ARL  P V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>gb|ORA41147.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Mycobacterium branderi]</Hit_def>
+  <Hit_accession>ORA41147</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.71247e-61</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>YRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>YAEASRVLLRDSVLDATRELLLSRDWSAITLADVARAAGISRQTIYNEFGSRQGLAQGYALRLADRLVDAVDDAIYSNVGDVYAAFLQGFRMFFTESAADPLVISLLTGVAKPDLLQLITTDSGPIITHCSERLTNTFQHSWVKASDDDAGIIARAIVRLAMSYVSMPPEADHDVAADLARLMTPAV</Hsp_hseq>
+      <Hsp_midline>Y  A+  L+R++ LDA RELLL R W  IT+ DVA AAG+SRQTIY EF SR+GLA+GYALRL D LV  ++ A+Y N GD   A  +G+  FF  S ADPLV+SL  G A  DLL+LITTDS  II   +ERL  T Q SWV +S DDA IIA AIVRLA+S+++ PPE     +A+ ARL  P V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|WP_163659522.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Mycobacterium branderi] &gt;dbj|BBZ10153.1| TetR family transcriptional regulator [Mycobacterium branderi]</Hit_def>
+  <Hit_accession>WP_163659522</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>1.77765e-61</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>YRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>YAEASRVLLRDSVLDATRELLLSRDWSAITLADVARAAGISRQTIYNEFGSRQGLAQGYALRLADRLVDAVDDAIYSNVGDVYAAFLQGFRMFFTESAADPLVISLLTGVAKPDLLQLITTDSGPIITHCSERLTNTFQHSWVKASDDDAGIIARAIVRLAMSYVSMPPEADHDVAADLARLMTPAV</Hsp_hseq>
+      <Hsp_midline>Y  A+  L+R++ LDA RELLL R W  IT+ DVA AAG+SRQTIY EF SR+GLA+GYALRL D LV  ++ A+Y N GD   A  +G+  FF  S ADPLV+SL  G A  DLL+LITTDS  II   +ERL  T Q SWV +S DDA IIA AIVRLA+S+++ PPE     +A+ ARL  P V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|WP_169714690.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Mycobacterium celatum]</Hit_def>
+  <Hit_accession>WP_169714690</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>2.38628e-61</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>YRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>YAEASRVLLRDSVLDAMRELLLSRDWSAITLADVARAAGISRQTIYNEFGSRQGLAQGYALRLADRLVDAVEDAIYSNVGDVYAAFLQGFRMFFTESAADPLVISLLTGVAKPDLLQLITTDSGPIITHCSERLTNTFQHSWVKASDEDAGIIARAIVRLAMSYVSMPPEADHDVAVDLARLMTPAV</Hsp_hseq>
+      <Hsp_midline>Y  A+  L+R++ LDA+RELLL R W  IT+ DVA AAG+SRQTIY EF SR+GLA+GYALRL D LV  +E A+Y N GD   A  +G+  FF  S ADPLV+SL  G A  DLL+LITTDS  II   +ERL  T Q SWV +S +DA IIA AIVRLA+S+++ PPE     + + ARL  P V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gb|ORV10115.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Mycobacterium celatum]</Hit_def>
+  <Hit_accession>ORV10115</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.904</Hsp_bit-score>
+      <Hsp_score>507</Hsp_score>
+      <Hsp_evalue>2.64925e-61</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>YRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>YAEASRVLLRDSVLDAMRELLLSRDWSAITLADVARAAGISRQTIYNEFGSRQGLAQGYALRLADRLVDAVEDAIYSNVGDVYAAFLQGFRMFFTESAADPLVISLLTGVAKPDLLQLITTDSGPIITHCSERLTNTFQHSWVKASDEDAGIIARAIVRLAMSYVSMPPEADHDVAVDLARLMTPAV</Hsp_hseq>
+      <Hsp_midline>Y  A+  L+R++ LDA+RELLL R W  IT+ DVA AAG+SRQTIY EF SR+GLA+GYALRL D LV  +E A+Y N GD   A  +G+  FF  S ADPLV+SL  G A  DLL+LITTDS  II   +ERL  T Q SWV +S +DA IIA AIVRLA+S+++ PPE     + + ARL  P V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|WP_179142308.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. 1163]</Hit_def>
+  <Hit_accession>WP_179142308</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.749</Hsp_bit-score>
+      <Hsp_score>504</Hsp_score>
+      <Hsp_evalue>4.8804e-61</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MRTTILDALHSLLLEHTWSNVNMTDVAKTAGVSRQTLYKEFGTRKGLAQGYALRLTDTFVSAVDSAIYANENDSLRTLYLAFAQFFGRSATDPLVLSILTDDPPPDLLRLVTTESGILLEHAASRLAETFEHSWIRASPHNADVLGRAVVRLALSYISMPPSNSADVAADMASLLAPFV</Hsp_hseq>
+      <Hsp_midline>MR T LDAL  LLLE  W  + MTDVA  AG+SRQT+YKEF +R+GLA+GYALRLTD+ V+ ++SA+Y N  D+   L   +A FF  S  DPLV+S+     P DLLRL+TT+S I++  AA RLA+T + SW+ +SP +AD++  A+VRLALS+I+ PP ++A  +A+ A L APFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>ref|WP_073359296.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus jostii] &gt;emb|SEE51198.1| DNA-binding transcriptional regulator, AcrR family [Rhodococcus jostii]</Hit_def>
+  <Hit_accession>WP_073359296</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.134</Hsp_bit-score>
+      <Hsp_score>505</Hsp_score>
+      <Hsp_evalue>7.27201e-61</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>YRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>YQEAARLLLRQSVLDAMRDLLFEKDWSDITMSDVAVGAGVSRQTLYNEFKSRQGLAEAYALRLADELVDAVDGALVANVGEGRAALLHGFAAFFAGSLSDPLVQSLLRGETKPDLLRLITTESAPIIERASTRLAEVFQRGWVRANPSDAGILSRAIVRLAMSYISMPPESEANVAEDLGALLGPFV</Hsp_hseq>
+      <Hsp_midline>Y+ AA  L+R++ LDA+R+LL E+ W  ITM+DVAV AG+SRQT+Y EF+SR+GLAE YALRL D LV  ++ AL  N G+   AL  G+A FF  S +DPLV SL +G+   DLLRLITT+S  II  A+ RLA+  QR WV ++P DA I++ AIVRLA+S+I+ PPE  A  + +   L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>ref|WP_059382257.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus rhodochrous] &gt;gb|AYA27161.1| TetR/AcrR family transcriptional regulator [Rhodococcus rhodochrous] &gt;gb|TWH41608.1| TetR family transcriptional regulator [Rhodococcus rhodochrous J38] &gt;emb|SMG22054.1| transcriptional regulator, TetR family [Rhodococcus rhodochrous J3] &gt;emb|SNV22274.1| tetr family transcriptional regulator [Rhodococcus rhodochrous]</Hit_def>
+  <Hit_accession>WP_059382257</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.749</Hsp_bit-score>
+      <Hsp_score>504</Hsp_score>
+      <Hsp_evalue>8.6992e-61</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>YRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>FHEASRVLLRSTILDAMRELLLERDWSAVTMSDVARAAGISRQTLYKEFSSRQGLAQGYALRLVDEFVDAVADSVYAHVGDARAALMDGFTFFFEASAADPLVQSLLSGEAKPDLLRLITTDAAPILERGAGRLTETFHHSWIAASESDAGILARAVVRVALSFVSMPPSSGRDVAADLADLLVPFV</Hsp_hseq>
+      <Hsp_midline>+  A+  L+R T LDA+RELLLER W  +TM+DVA AAG+SRQT+YKEF SR+GLA+GYALRL D  V  +  ++Y + GDA  AL +G+  FFE S ADPLV SL  G+A  DLLRLITTD+  I+   A RL +T   SW+ +S  DA I+A A+VR+ALSF++ PP      +A+ A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>ref|WP_099539778.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Mycobacterium celatum] &gt;gb|PIB74365.1| TetR family transcriptional regulator [Mycobacterium celatum]</Hit_def>
+  <Hit_accession>WP_099539778</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.134</Hsp_bit-score>
+      <Hsp_score>505</Hsp_score>
+      <Hsp_evalue>1.32887e-60</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>YRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>YAEASRVLLRDSVLDAMRELLLSRDWSAITLADVARAAGISRQTIYNEFGSRQGLAQGYALRLADRLVDAVEDAIYSNVGDVYAAFLQGFRMFFTESAADPLVISLLTGVAKPDLLQLITTDSGPIITHCSERLTNTFQHSWVKASDEDAGIIARAIVRLAMSYVSMPPEADHDVAVDLARLMTPAV</Hsp_hseq>
+      <Hsp_midline>Y  A+  L+R++ LDA+RELLL R W  IT+ DVA AAG+SRQTIY EF SR+GLA+GYALRL D LV  +E A+Y N GD   A  +G+  FF  S ADPLV+SL  G A  DLL+LITTDS  II   +ERL  T Q SWV +S +DA IIA AIVRLA+S+++ PPE     + + ARL  P V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|WP_145693167.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus rhodochrous] &gt;gb|MXQ75357.1| TetR family transcriptional regulator [Rhodococcus rhodochrous] &gt;gb|TWH09231.1| TetR family transcriptional regulator [Rhodococcus rhodochrous J45]</Hit_def>
+  <Hit_accession>WP_145693167</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.593</Hsp_bit-score>
+      <Hsp_score>501</Hsp_score>
+      <Hsp_evalue>1.97123e-60</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>YRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>FHEASRVLLRSTILDAMRELLLERDWSAVTMSDVARAAGISRQTLYKEFSSRQGLAQGYALRLVDEFVDAVADSVYAHVGDARAALVDGFTFFFEASAADPLVQSLLSGEAKPDLLRLITTDAAPILERGAGRLTETFHHSWIAASESDAGILARAVVRVALSFVSMPPASGRDVAADLADLLVPFV</Hsp_hseq>
+      <Hsp_midline>+  A+  L+R T LDA+RELLLER W  +TM+DVA AAG+SRQT+YKEF SR+GLA+GYALRL D  V  +  ++Y + GDA  AL +G+  FFE S ADPLV SL  G+A  DLLRLITTD+  I+   A RL +T   SW+ +S  DA I+A A+VR+ALSF++ PP      +A+ A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|WP_121118856.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. P1Y] &gt;gb|AYJ51660.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. P1Y]</Hit_def>
+  <Hit_accession>WP_121118856</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.823</Hsp_bit-score>
+      <Hsp_score>499</Hsp_score>
+      <Hsp_evalue>3.01982e-60</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>MRTTILDGLHDLLLQRTWSTVNMTDVAVSAGISRQTLYKEFGTRKGLAQGYALRLTDTFVSAVDDAVYANEGDSLRTLYVAFTEFFGRSASDPLVLSMLTDDPPPDLLRLVTTESGTLIEHAARRLAETFERSWLRASAHNADVLGRTVVRLALSYISMPPSNSADVAADLASLLTPFV</Hsp_hseq>
+      <Hsp_midline>MR T LD L +LLL+R W T+ MTDVAV+AG+SRQT+YKEF +R+GLA+GYALRLTD+ V+ ++ A+Y N GD+   L   +  FF  S +DPLV+S+     P DLLRL+TT+S  +I  AA RLA+T +RSW+ +S  +AD++   +VRLALS+I+ PP ++A  +A+ A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>ref|WP_088897707.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. BUPNP1] &gt;gb|OWY82123.1| TetR family transcriptional regulator [Rhodococcus sp. BUPNP1]</Hit_def>
+  <Hit_accession>WP_088897707</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>3.04929e-60</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>YRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>FHEASRVLLRSTILDAMRELLLERDWSAVTMSDVARAAGISRQTLYKEFSSRQGLAQGYALRLVDEFVDAVADSVYAHVGDARAALMDGFTFFFEASAADPLVQSLLSGEAKPDLLRLITTDAAPILERGAGRLTDTFHHSWIAASESDAGILARAVVRVALSFVSMPPASGRDVAADLADLLVPFV</Hsp_hseq>
+      <Hsp_midline>+  A+  L+R T LDA+RELLLER W  +TM+DVA AAG+SRQT+YKEF SR+GLA+GYALRL D  V  +  ++Y + GDA  AL +G+  FFE S ADPLV SL  G+A  DLLRLITTD+  I+   A RL  T   SW+ +S  DA I+A A+VR+ALSF++ PP      +A+ A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|WP_016694877.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus rhodochrous]</Hit_def>
+  <Hit_accession>WP_016694877</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>3.51376e-60</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>YRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>FHEASRVLLRSTILDAMRELLLERDWSAVTMSDVARAAGISRQTLYKEFFSRQGLAQGYALRLVDEFVDAVADSVYAHVGDARAALVDGFTFFFEASAADPLVQSLLSGEAKPDLLRLITTDAAPILERGAGRLTETFHHSWIAASESDAGILARAVVRVALSFVSMPPASGRDVAADLADLLVPFV</Hsp_hseq>
+      <Hsp_midline>+  A+  L+R T LDA+RELLLER W  +TM+DVA AAG+SRQT+YKEF SR+GLA+GYALRL D  V  +  ++Y + GDA  AL +G+  FFE S ADPLV SL  G+A  DLLRLITTD+  I+   A RL +T   SW+ +S  DA I+A A+VR+ALSF++ PP      +A+ A L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>gb|OHV03640.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Mycobacterium talmoniae]</Hit_def>
+  <Hit_accession>OHV03640</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.823</Hsp_bit-score>
+      <Hsp_score>499</Hsp_score>
+      <Hsp_evalue>5.04842e-60</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>YRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAP</Hsp_qseq>
+      <Hsp_hseq>YAEASRALLRDSVLDAMRDLLLTRDWSAITLADVARAAGISRQTIYNEFGSRQGLAQGYALRLADRLVDAVDTAIYNNVGDVYAAFLEGFRAFFTESAADPLVISLLTGVAKPDLLQIITTDSGPIITRASDRLTATFMHSWLQASEDDAGILARAIVRLAMSYVSMPPEADHDVAADLARLFTP</Hsp_hseq>
+      <Hsp_midline>Y  A+ +L+R++ LDA+R+LLL R W  IT+ DVA AAG+SRQTIY EF SR+GLA+GYALRL D LV  +++A+Y N GD   A  EG+  FF  S ADPLV+SL  G A  DLL++ITTDS  II  A++RL  T   SW+ +S DDA I+A AIVRLA+S+++ PPE     +A+ ARLF P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|WP_094628357.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. 06-1059B-a] &gt;gb|OZD59302.1| TetR family transcriptional regulator [Rhodococcus sp. 06-1059B-a]</Hit_def>
+  <Hit_accession>WP_094628357</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>6.10711e-60</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>RQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAA</Hsp_qseq>
+      <Hsp_hseq>KHAPFKGAVSSPMRTTILDGLHDLLLERTWSTVNMADVAKAAGISRQTLYKEFGTRKGLAQGYALRLTDSFVSAVDDAVYANEGDSLRTLYVAFTEFFGRSASDPLVLSMLTDDPPPDLLRLVTTESGALIEHASLRLASTFERSWLRASAHNADVLGRTVVRLALSYISMPPENSSDVAADLASLLTPFVDA</Hsp_hseq>
+      <Hsp_midline>+ + ++ A +S MR T LD L +LLLER W T+ M DVA AAG+SRQT+YKEF +R+GLA+GYALRLTDS V+ ++ A+Y N GD+   L   +  FF  S +DPLV+S+     P DLLRL+TT+S  +I  A+ RLA T +RSW+ +S  +AD++   +VRLALS+I+ PPE+++  +A+ A L  PFV A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|WP_033189249.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Rhodococcus] &gt;gb|OZD11263.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 06-156-3C] &gt;gb|OZD13494.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 06-156-4a] &gt;gb|OZD22236.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 06-156-4C] &gt;gb|OZD30121.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 06-156-3] &gt;gb|OZD37525.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 06-156-3b]</Hit_def>
+  <Hit_accession>WP_033189249</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.823</Hsp_bit-score>
+      <Hsp_score>499</Hsp_score>
+      <Hsp_evalue>6.21677e-60</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>RQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAA</Hsp_qseq>
+      <Hsp_hseq>KHAPFKGAVSSPMRTTILDGLHDLLLERTWSTVNMADVAKAAGISRQTLYKEFGTRKGLAQGYALRLTDSFVSAVDDAVYANEGDSLRTLYVAFTEFFGRSASDPLVLSMLTDDPPPDLLRLVTTESGALIEHASLRLASTFERSWLRASAHNADVLGRTVVRLALSYISMPPENSSDVAADLASLLTPFVDA</Hsp_hseq>
+      <Hsp_midline>+ + ++ A +S MR T LD L +LLLER W T+ M DVA AAG+SRQT+YKEF +R+GLA+GYALRLTDS V+ ++ A+Y N GD+   L   +  FF  S +DPLV+S+     P DLLRL+TT+S  +I  A+ RLA T +RSW+ +S  +AD++   +VRLALS+I+ PPE+++  +A+ A L  PFV A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|WP_094731132.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus sp. 15-1154-1] &gt;gb|OZF07900.1| TetR family transcriptional regulator [Rhodococcus sp. 15-1154-1]</Hit_def>
+  <Hit_accession>WP_094731132</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>6.31002e-60</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>RQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAA</Hsp_qseq>
+      <Hsp_hseq>KHAPFKGAVSSPMRTTILDGLHDLLLERTWSTVNMADVAKAAGISRQTLYKEFGTRKGLAQGYALRLTDSFVSAVDDAVYANEGDSLRTLYVAFTEFFGRSASDPLVLSMLTDDPPPDLLRLVTTESGALIEHASLRLASTFERSWLRASAHNADVLGRTVVRLALSYISMPPENSSDVAADLASLLTPFVDA</Hsp_hseq>
+      <Hsp_midline>+ + ++ A +S MR T LD L +LLLER W T+ M DVA AAG+SRQT+YKEF +R+GLA+GYALRLTDS V+ ++ A+Y N GD+   L   +  FF  S +DPLV+S+     P DLLRL+TT+S  +I  A+ RLA T +RSW+ +S  +AD++   +VRLALS+I+ PPE+++  +A+ A L  PFV A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>ref|WP_037114281.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Rhodococcus] &gt;gb|OZF04735.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 15-1189-1-1a] &gt;gb|OZF18999.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 14-2686-1-2] &gt;gb|OZF55719.1| TetR/AcrR family transcriptional regulator [Rhodococcus sp. 14-2470-1b]</Hit_def>
+  <Hit_accession>WP_037114281</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>8.81067e-60</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>DRTERQSRYRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFVAA</Hsp_qseq>
+      <Hsp_hseq>DAAIKHAPLKNAVSSPMRTTILDGLHDLLLERTWSTVNMADVAKAAGISRQTLYKEFGTRKGLAQGYALRLTDSFVSAVDDAVYANEGDSLRTLYVAFTEFFGRSASDPLVLSMLTDDPPPDLLRLVTTESGALIEHASLRLARTFERSWLRASAHNADVLGRTVVRLALSYISMPPENSADVAADLASLLTPFVDA</Hsp_hseq>
+      <Hsp_midline>D   + +  + A +S MR T LD L +LLLER W T+ M DVA AAG+SRQT+YKEF +R+GLA+GYALRLTDS V+ ++ A+Y N GD+   L   +  FF  S +DPLV+S+     P DLLRL+TT+S  +I  A+ RLA+T +RSW+ +S  +AD++   +VRLALS+I+ PPE++A  +A+ A L  PFV A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|WP_128639021.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rhodococcus opacus] &gt;gb|AII04713.1| TetR family transcriptional regulator [Rhodococcus opacus]</Hit_def>
+  <Hit_accession>WP_128639021</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>8.92924e-60</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>YRLAATSLMRETTLDALRELLLERPWPTITMTDVAVAAGLSRQTIYKEFRSRRGLAEGYALRLTDSLVTVIESALYENPGDATTALREGYATFFELSGADPLVMSLHQGKAPEDLLRLITTDSNIIIRPAAERLAQTLQRSWVNSSPDDADIIAHAIVRLALSFIANPPEDTAAASANTARLFAPFV</Hsp_qseq>
+      <Hsp_hseq>YQEAARLLLRQSVLDAMRDLLFEKDWSDITMSDVATGAGVSRQTLYNEFKSRQGLAEAYALRLADELVDAVDEALVANVGEGRAALLSGFAAFFAASLSDPLVQSLLRGETKPDLLRLITTESAPIIERASTRLADVFQRCWVRANPSDAGILSRAIVRLAMSYISMPPESEANVAEDLGALLGPFV</Hsp_hseq>
+      <Hsp_midline>Y+ AA  L+R++ LDA+R+LL E+ W  ITM+DVA  AG+SRQT+Y EF+SR+GLAE YALRL D LV  ++ AL  N G+   AL  G+A FF  S +DPLV SL +G+   DLLRLITT+S  II  A+ RLA   QR WV ++P DA I++ AIVRLA+S+I+ PPE  A  + +   L  PFV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>308537871</Statistics_db-num>
+      <Statistics_db-len>111236915955</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

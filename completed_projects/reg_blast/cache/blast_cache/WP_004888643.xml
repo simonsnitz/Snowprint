@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_11531</BlastOutput_query-ID>
+  <BlastOutput_query-def>WP_004888643.1 MULTISPECIES: TetR family transcriptional regulator [Klebsiella]</BlastOutput_query-def>
+  <BlastOutput_query-len>191</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_11531</Iteration_query-ID>
+  <Iteration_query-def>WP_004888643.1 MULTISPECIES: TetR family transcriptional regulator [Klebsiella]</Iteration_query-def>
+  <Iteration_query-len>191</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_004888643.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Klebsiella] &gt;gb|EMH97826.1| TetR family transcriptional regulator [Klebsiella pneumoniae RYC492] &gt;emb|CDK76478.1| Transcriptional regulator, TetR family [Klebsiella pneumoniae IS22] &gt;emb|CDL60272.1| Transcriptional regulator, TetR family [Klebsiella pneumoniae IS39] &gt;gb|ABR77309.1| putative transcriptional regulator, TetR family [Klebsiella pneumoniae subsp. pneumoniae MGH 78578] &gt;gb|AEJ98360.1| TetR family transcriptional regulator [Klebsiella pneumoniae KCTC 2242]</Hit_def>
+  <Hit_accession>WP_004888643</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.111</Hsp_bit-score>
+      <Hsp_score>993</Hsp_score>
+      <Hsp_evalue>1.26923e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_061891709.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|KYL93101.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_061891709</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.726</Hsp_bit-score>
+      <Hsp_score>992</Hsp_score>
+      <Hsp_evalue>1.84321e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADVAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAAD+AWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_181996343.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_181996343</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.341</Hsp_bit-score>
+      <Hsp_score>991</Hsp_score>
+      <Hsp_evalue>2.42504e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITMELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMIT+ELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_135777854.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_135777854</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.341</Hsp_bit-score>
+      <Hsp_score>991</Hsp_score>
+      <Hsp_evalue>2.42504e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYMLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAY+LTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_101969062.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|PLE05064.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_101969062</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.341</Hsp_bit-score>
+      <Hsp_score>991</Hsp_score>
+      <Hsp_evalue>2.42504e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVMADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQV+ADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_117067307.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_117067307</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.341</Hsp_bit-score>
+      <Hsp_score>991</Hsp_score>
+      <Hsp_evalue>2.64755e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETIAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAET+AIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_021440209.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|ALK11304.1| TetR family transcriptional regulator [Klebsiella pneumoniae KP-1] &gt;gb|ATQ88533.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|ATQ93934.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|AUN73025.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|AWY23985.1| TetR family transcriptional regulator [Klebsiella pneumoniae subsp. pneumoniae]</Hit_def>
+  <Hit_accession>WP_021440209</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.341</Hsp_bit-score>
+      <Hsp_score>991</Hsp_score>
+      <Hsp_evalue>2.64755e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGIDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCG+DGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|PLN08300.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>PLN08300</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.956</Hsp_bit-score>
+      <Hsp_score>990</Hsp_score>
+      <Hsp_evalue>3.2973e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVALIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVA+IEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_102062655.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|PLO69575.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_102062655</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.956</Hsp_bit-score>
+      <Hsp_score>990</Hsp_score>
+      <Hsp_evalue>3.56056e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFNRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAF+RYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_104443120.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|PPK01515.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_104443120</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.956</Hsp_bit-score>
+      <Hsp_score>990</Hsp_score>
+      <Hsp_evalue>3.59985e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLSLRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRL+LRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_109885826.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_109885826</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.956</Hsp_bit-score>
+      <Hsp_score>990</Hsp_score>
+      <Hsp_evalue>3.59985e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVSIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETV+IIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_135684862.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_135684862</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>3.88727e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSKDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGS+DGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_117065147.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_117065147</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>3.88727e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAYSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAA+SRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_087847921.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|OVX89198.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|OXU51748.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|PLN58210.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_087847921</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>3.88727e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGKLKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIG+LKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_110917575.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|PZB07047.1| TetR family transcriptional regulator [Klebsiella pneumoniae subsp. pneumoniae]</Hit_def>
+  <Hit_accession>WP_110917575</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>4.15182e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLANSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLA+SDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_048333714.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_048333714</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>4.15182e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRNARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQR+ARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_117269898.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_117269898</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>4.58279e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKLITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNK+ITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_048291600.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_048291600</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>4.84126e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAEVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREA+VAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_142479229.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_142479229</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>5.17074e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDIPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLD+PLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_065799668.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_065799668</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>5.17074e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKIITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNK+ITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_032417161.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|ATM70994.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|AYJ99128.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|AZP88008.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|KAA5652203.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|KEG35089.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_032417161</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>5.17074e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAIRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAA+RLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_002906539.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|EJK27399.1| TetR family transcriptional regulator [Klebsiella pneumoniae subsp. pneumoniae KPNIH19] &gt;gb|ENY57346.1| TetR family transcriptional regulator [Klebsiella pneumoniae subsp. pneumoniae KpMDU1] &gt;gb|AHE44390.1| HTH-type transcriptional regulator betI [Klebsiella pneumoniae subsp. pneumoniae Kp13] &gt;gb|AHM79334.1| Transcriptional regulator, TetR family protein [Klebsiella pneumoniae 30684/NJST258_2] &gt;gb|AHM85005.1| Transcriptional regulator, TetR family protein [Klebsiella pneumoniae 30660/NJST258_1]</Hit_def>
+  <Hit_accession>WP_002906539</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>5.22779e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDTQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALD QALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_038808437.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|APS96850.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|PLH33712.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|QLW69794.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|RDG65099.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_038808437</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>5.22779e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGFASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQG ASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_032423539.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBE8877548.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|PCQ30837.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|PJG76806.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|PLE48635.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|PLO86041.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_032423539</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>5.22779e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETLAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAET+AIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_166687710.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|NIC15537.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|NID56866.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_166687710</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>5.22779e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEATFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEA FSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_032447618.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Klebsiella] &gt;gb|AXS34543.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|AYY33827.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|AZQ29650.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|KAA5688366.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|KAA5699786.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_032447618</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>5.22779e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLTSGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGL SGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_069339899.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|ODN08467.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_069339899</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.571</Hsp_bit-score>
+      <Hsp_score>989</Hsp_score>
+      <Hsp_evalue>5.40276e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLDPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRL+PYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_110245850.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|PXH75316.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_110245850</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>5.46237e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLAESDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLA+SDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_117097233.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_117097233</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>5.70747e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNQMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVN+MITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_032415388.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_032415388</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>6.65524e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEVAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDE AFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_155082812.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MTF52568.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_155082812</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>6.65524e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLVLRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRL LRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_080831393.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_080831393</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>6.65524e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAVFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEA FSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_110228859.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|PXG90287.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_110228859</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>6.65524e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFVAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGF AMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_029498541.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBD0247528.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_029498541</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>7.59192e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSGEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRS EPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_071068174.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_071068174</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>8.75599e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSISELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSI ELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_016946749.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|APM43711.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|KAA1520811.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|KAA1695003.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|KAA8854757.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBA1589915.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_016946749</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>8.75599e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRSGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALR GFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_048993802.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|NNJ20264.1| TetR family transcriptional regulator [Klebsiella sp. KBG6.2] &gt;gb|KAA8839894.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|KAA8880002.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBD7375936.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBD7570359.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_048993802</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>9.04904e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAHLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAA+LLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_048332836.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBC4046614.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBC9999411.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBD7645117.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBE0104141.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBG1893890.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_048332836</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>9.04904e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAHVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREA VAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_015874848.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Enterobacteriaceae] &gt;gb|AMA30573.1| TetR family transcriptional regulator [Klebsiella pneumoniae subsp. pneumoniae] &gt;gb|AOE26470.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|AOE31570.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|ARV39976.1| TetR family transcriptional regulator [Klebsiella pneumoniae subsp. pneumoniae] &gt;gb|ATU09484.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_015874848</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>9.14889e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MYYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>M+YLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_060579386.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|ALQ87416.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|OJE65667.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_060579386</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>9.14889e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHYHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLH+HFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_071556829.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|APP18955.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|TXX17758.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_071556829</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>9.66488e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELL</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLEL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_117110779.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_117110779</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>9.66488e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGLAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGG AAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_117053654.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_117053654</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>9.66488e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAALSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAA SRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_004200058.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;ref|YP_005227148.1| TetR family transcriptional regulator [Klebsiella pneumoniae subsp. pneumoniae HS11286] &gt;emb|CDK95398.1| Transcriptional regulator, TetR family [Klebsiella pneumoniae IS33] &gt;gb|AEW61546.1| TetR family transcriptional regulator [Klebsiella pneumoniae subsp. pneumoniae HS11286] &gt;gb|AGT24108.1| TetR family transcriptional regulator [Klebsiella pneumoniae JM45] &gt;gb|AIJ40171.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|AKK85580.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_004200058</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>1.00986e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMIKLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMI LELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_153944149.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MRL34881.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_153944149</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>1.021e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQFFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQ FIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_040165356.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBC4976338.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBC5011423.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBC5246650.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|OYI92086.1| TetR family transcriptional regulator [Klebsiella pneumoniae subsp. pneumoniae] &gt;gb|OYJ07857.1| TetR family transcriptional regulator [Klebsiella pneumoniae subsp. pneumoniae]</Hit_def>
+  <Hit_accession>WP_040165356</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>1.05517e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMIMLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMI LELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_049026115.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBD7794885.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_049026115</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>1.12698e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFISIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHF SIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_064839027.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|ANK45572.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBD7095323.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBG1872240.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBG1876917.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBG1982181.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_064839027</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>1.1647e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAHEAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIA EAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_080791832.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_080791832</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>1.29978e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MQYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>M YLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_094316002.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|OYM04596.1| TetR family transcriptional regulator [Klebsiella pneumoniae subsp. pneumoniae] &gt;gb|QDW12901.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_094316002</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>1.37309e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGVAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGG AAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|WP_135731013.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|TWX91029.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_135731013</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>1.48271e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLESYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLE YIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|WP_117102387.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_117102387</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>1.51561e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRCGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALR GFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|WP_101990025.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|PLD88893.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_101990025</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.03</Hsp_bit-score>
+      <Hsp_score>985</Hsp_score>
+      <Hsp_evalue>1.71006e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGIDGIYALDEQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCG+DGIYALD QALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|WP_102099900.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|PLP06892.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_102099900</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.03</Hsp_bit-score>
+      <Hsp_score>985</Hsp_score>
+      <Hsp_evalue>1.748e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYTRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFNRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPY RLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAF+RYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|WP_117085400.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_117085400</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.03</Hsp_bit-score>
+      <Hsp_score>985</Hsp_score>
+      <Hsp_evalue>1.82644e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMIRLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMI LELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>gb|MBC4281101.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>MBC4281101</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.03</Hsp_bit-score>
+      <Hsp_score>985</Hsp_score>
+      <Hsp_evalue>1.92945e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFLSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEF SAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|WP_099728965.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|ATR42229.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|ATR47547.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_099728965</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>2.06623e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHGETLAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWH ET+AIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|WP_107334234.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_107334234</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.645</Hsp_bit-score>
+      <Hsp_score>984</Hsp_score>
+      <Hsp_evalue>2.65238e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREVIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARRE IMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|WP_121915266.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|RMA08627.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_121915266</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.645</Hsp_bit-score>
+      <Hsp_score>984</Hsp_score>
+      <Hsp_evalue>2.65238e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAARQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAA QLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|WP_049024656.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBD3718749.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_049024656</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.645</Hsp_bit-score>
+      <Hsp_score>984</Hsp_score>
+      <Hsp_evalue>2.65238e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSYPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADS PDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|WP_101998880.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBF7792271.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBF7796805.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|PLD48043.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;tpg|HAK03981.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_101998880</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.645</Hsp_bit-score>
+      <Hsp_score>984</Hsp_score>
+      <Hsp_evalue>3.05907e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMCLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAM LALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|WP_048968978.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_048968978</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.645</Hsp_bit-score>
+      <Hsp_score>984</Hsp_score>
+      <Hsp_evalue>3.05907e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRECLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRE LFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|WP_166706611.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|QIQ37668.1| TetR family transcriptional regulator [Klebsiella pneumoniae subsp. pneumoniae]</Hit_def>
+  <Hit_accession>WP_166706611</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.645</Hsp_bit-score>
+      <Hsp_score>984</Hsp_score>
+      <Hsp_evalue>3.09282e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRYIALVCGLDGIYALDAQALDEAAFSRYVNKMIKLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWR+IALVCGLDGIYALDAQALDEAAFSRYVNKMI LELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|WP_048333353.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|TWY81028.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_048333353</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.259</Hsp_bit-score>
+      <Hsp_score>983</Hsp_score>
+      <Hsp_evalue>3.26725e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MYYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIKQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>M+YLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAII+QGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|WP_004189843.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|ANK22279.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|ARS98288.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|ASC23723.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|ATR52822.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|AUC30354.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_004189843</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.259</Hsp_bit-score>
+      <Hsp_score>983</Hsp_score>
+      <Hsp_evalue>3.60639e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHGETLAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWH ET+AIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|WP_117100064.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_117100064</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.259</Hsp_bit-score>
+      <Hsp_score>983</Hsp_score>
+      <Hsp_evalue>3.76821e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIDWRFIALVCGLDGIYALDTQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADI WRFIALVCGLDGIYALD QALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|WP_117435110.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|RGA48675.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_117435110</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.259</Hsp_bit-score>
+      <Hsp_score>983</Hsp_score>
+      <Hsp_evalue>3.89433e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAIRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELL</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAA+RLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLEL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>ref|WP_117059275.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_117059275</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.874</Hsp_bit-score>
+      <Hsp_score>982</Hsp_score>
+      <Hsp_evalue>4.49143e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIALRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIA RFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|WP_095022414.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|OZZ60496.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|OZZ70063.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_095022414</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.874</Hsp_bit-score>
+      <Hsp_score>982</Hsp_score>
+      <Hsp_evalue>4.90354e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREDQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDTQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWRE QVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALD QALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>ref|WP_194797336.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_194797336</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.874</Hsp_bit-score>
+      <Hsp_score>982</Hsp_score>
+      <Hsp_evalue>6.17429e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MYYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADGDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>M+YLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLAD DPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>gb|MBC4965340.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>MBC4965340</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.874</Hsp_bit-score>
+      <Hsp_score>982</Hsp_score>
+      <Hsp_evalue>6.17429e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFWSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEF SAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|WP_126438583.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|QPW04806.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|TBO69448.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|TBO85456.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|TBP57070.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_126438583</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.874</Hsp_bit-score>
+      <Hsp_score>982</Hsp_score>
+      <Hsp_evalue>6.31129e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHDETLAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWH ET+AIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|WP_048264542.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_048264542</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.489</Hsp_bit-score>
+      <Hsp_score>981</Hsp_score>
+      <Hsp_evalue>6.7408e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MYYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQAAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>M+YLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQ AAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|WP_071049528.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_071049528</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.104</Hsp_bit-score>
+      <Hsp_score>980</Hsp_score>
+      <Hsp_evalue>1.17966e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDDRLEPYIRLWREGQVLADSDPDIKAAHLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSED RLEPYIRLWREGQVLADSDPDIKAA+LLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|WP_130989200.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_130989200</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.719</Hsp_bit-score>
+      <Hsp_score>979</Hsp_score>
+      <Hsp_evalue>1.34568e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAICLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAA+ LALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>gb|RRE18355.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>RRE18355</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.719</Hsp_bit-score>
+      <Hsp_score>979</Hsp_score>
+      <Hsp_evalue>1.42157e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIAPVCGLDGIYALDAQASDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIA VCGLDGIYALDAQA DEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>ref|WP_136859761.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|TJZ27145.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_136859761</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.719</Hsp_bit-score>
+      <Hsp_score>979</Hsp_score>
+      <Hsp_evalue>1.43726e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREEIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAHLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARRE IMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAA+LLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>gb|MBD7496364.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>MBD7496364</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.719</Hsp_bit-score>
+      <Hsp_score>979</Hsp_score>
+      <Hsp_evalue>1.77044e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVWQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDTQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTV QIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALD QALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|WP_193864478.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBE9291727.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBE9297805.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBE9351356.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBE9355439.1| TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|MBE9369879.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_193864478</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>1.82969e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRSGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYICLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALR GFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYI LWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gb|PLN26170.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>PLN26170</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>1.87029e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMISSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHGETLAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMI SEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWH ET+AIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>ref|WP_117090749.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|RLK90229.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_117090749</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>2.35496e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDLDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKTITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSD DIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNK ITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|WP_181813195.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|QML96567.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_181813195</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.948</Hsp_bit-score>
+      <Hsp_score>977</Hsp_score>
+      <Hsp_evalue>2.5994e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHGETLAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGNYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWH ET+AIIEQGLASGEFRSAEPAADIAWRFIALVCGLDG YALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|WP_110249308.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae] &gt;gb|PXI27764.1| TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_110249308</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.948</Hsp_bit-score>
+      <Hsp_score>977</Hsp_score>
+      <Hsp_evalue>3.49577e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLARRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHGETLAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLA RGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWH ET+AIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>gb|PLK94754.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>PLK94754</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.563</Hsp_bit-score>
+      <Hsp_score>976</Hsp_score>
+      <Hsp_evalue>4.21265e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWQAETVAIIEQGLASGELRAAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMW AETVAIIEQGLASGE R+AEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|WP_117118861.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_117118861</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.178</Hsp_bit-score>
+      <Hsp_score>975</Hsp_score>
+      <Hsp_evalue>5.66531e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIVSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHGETLAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMI SEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWH ET+AIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gb|RRF84382.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>RRF84382</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.793</Hsp_bit-score>
+      <Hsp_score>974</Hsp_score>
+      <Hsp_evalue>7.43357e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREA-VAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREA VAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>gb|QGV84507.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>QGV84507</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.407</Hsp_bit-score>
+      <Hsp_score>973</Hsp_score>
+      <Hsp_evalue>1.3333e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRPALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIAPVCGLDGIYALDAQASDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMR ALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIA VCGLDGIYALDAQA DEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>ref|WP_136032746.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella quasipneumoniae]</Hit_def>
+  <Hit_accession>WP_136032746</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.022</Hsp_bit-score>
+      <Hsp_score>972</Hsp_score>
+      <Hsp_evalue>1.64238e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREVIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFASIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAVYLLTMNMWHAETVAIIEQGLTSGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARRE IMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHF SIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKA YLLTMNMWHAETVAIIEQGL SGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>gb|MBC4930412.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>MBC4930412</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.022</Hsp_bit-score>
+      <Hsp_score>972</Hsp_score>
+      <Hsp_evalue>1.75414e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMCLALRGGFAAITVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSRIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAM LALRGGFAA+TVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFS IGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>ref|WP_077139269.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|AQL16311.1| TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|AQL21399.1| TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|AQL27161.1| TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|TPE12698.1| TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|TPE30688.1| TetR family transcriptional regulator [Klebsiella variicola]</Hit_def>
+  <Hit_accession>WP_077139269</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.252</Hsp_bit-score>
+      <Hsp_score>970</Hsp_score>
+      <Hsp_evalue>3.20747e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAEVAAGQLHHHFSSIGELKSQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHEETVAIIDQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALEAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREA+VAAGQLHHHF+SIGELK+QVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWH ETVAII+QGLASGEFRSAEPAADIAWRFIALVCGLDGIYAL+AQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|WP_025712695.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Klebsiella] &gt;gb|ASV20156.1| TetR family transcriptional regulator [Klebsiella quasivariicola] &gt;gb|MBF7818111.1| TetR family transcriptional regulator [Klebsiella quasivariicola] &gt;gb|NBZ75875.1| TetR family transcriptional regulator [Klebsiella quasivariicola] &gt;gb|QBL49346.1| TetR family transcriptional regulator [Klebsiella sp. PO552] &gt;gb|TTN17760.1| TetR family transcriptional regulator [Klebsiella quasivariicola]</Hit_def>
+  <Hit_accession>WP_025712695</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.4</Hsp_bit-score>
+      <Hsp_score>960</Hsp_score>
+      <Hsp_evalue>1.30868e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALSGGFAAMTVRQIAREAQVAAGQLHHHFASIGELKSQVFIRLIREMLDMPLVPEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPQIKAAYLLTMNMWHAETVAIIDQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALEAQALDEAAFSRYVNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLAL GGFAAMTVRQIAREAQVAAGQLHHHF SIGELK+QVFIRLIREMLDMPLV EDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDP IKAAYLLTMNMWHAETVAII+QGLASGEFRSAEPAADIAWRFIALVCGLDGIYAL+AQALDEAAFSRYVNKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|WP_064170919.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Klebsiella] &gt;gb|MBC4114227.1| TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|MBD0791736.1| TetR family transcriptional regulator [Klebsiella sp. K5] &gt;gb|MBG1745311.1| TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|MUM48023.1| TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|MUM53612.1| TetR family transcriptional regulator [Klebsiella variicola]</Hit_def>
+  <Hit_accession>WP_064170919</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.015</Hsp_bit-score>
+      <Hsp_score>959</Hsp_score>
+      <Hsp_evalue>1.96402e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAEVAAGQLHHHFSSIGELKSQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHEETVAIIEQGLACGEFRSAEPAADIAWRFIALVCGLDGIYALGTQALDEAAFSRYLNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREA+VAAGQLHHHF+SIGELK+QVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWH ETVAIIEQGLA GEFRSAEPAADIAWRFIALVCGLDGIYAL  QALDEAAFSRY+NKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>ref|WP_012541589.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|ACI08391.1| transcriptional regulator, TetR family [Klebsiella variicola] &gt;gb|AXO69734.1| TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|OUY99752.1| TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|OVE58409.1| TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|PXK33896.1| TetR family transcriptional regulator [Klebsiella variicola]</Hit_def>
+  <Hit_accession>WP_012541589</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>373.629</Hsp_bit-score>
+      <Hsp_score>958</Hsp_score>
+      <Hsp_evalue>2.44596e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAEVAAGQLHHHFTSIGELKSQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHEETVAIIEQGLACGEFRSAEPAADIAWRFIALVCGLDGIYALGTQALDDAAFSRYLNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREA+VAAGQLHHHFTSIGELK+QVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWH ETVAIIEQGLA GEFRSAEPAADIAWRFIALVCGLDGIYAL  QALD+AAFSRY+NKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|WP_110234038.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|PXH30924.1| TetR family transcriptional regulator [Klebsiella variicola]</Hit_def>
+  <Hit_accession>WP_110234038</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>373.244</Hsp_bit-score>
+      <Hsp_score>957</Hsp_score>
+      <Hsp_evalue>3.75224e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAEVAAGQLHHHFSSIGELKSQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHEETVAIIEQGLACGEFRSAEPAADIAWRFIALVCGLDGIYALGTQALDEAAFSRYLNKMITMELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREA+VAAGQLHHHF+SIGELK+QVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWH ETVAIIEQGLA GEFRSAEPAADIAWRFIALVCGLDGIYAL  QALDEAAFSRY+NKMIT+ELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|WP_101859214.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|NRG11327.1| TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|PLC76139.1| TetR family transcriptional regulator [Klebsiella variicola]</Hit_def>
+  <Hit_accession>WP_101859214</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.089</Hsp_bit-score>
+      <Hsp_score>954</Hsp_score>
+      <Hsp_evalue>8.45105e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAEVAAGQLHHHFSSIGELKSQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHEETVAIIEQGLACGEFRSAEPAADIAWRFIALVCGLDGIYALGTQALDDAAFSRYLNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREA+VAAGQLHHHF+SIGELK+QVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWH ETVAIIEQGLA GEFRSAEPAADIAWRFIALVCGLDGIYAL  QALD+AAFSRY+NKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|WP_070544478.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Klebsiella] &gt;gb|NKC08527.1| TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|OFT07353.1| TetR family transcriptional regulator [Klebsiella sp. HMSC25G12] &gt;gb|PKJ66561.1| TetR family transcriptional regulator [Klebsiella sp. T11] &gt;gb|PXG74056.1| TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|PXH65876.1| TetR family transcriptional regulator [Klebsiella variicola]</Hit_def>
+  <Hit_accession>WP_070544478</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.089</Hsp_bit-score>
+      <Hsp_score>954</Hsp_score>
+      <Hsp_evalue>8.63855e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFASIGELKSQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMTMWHEETVAIIEQGLACGEFRSAEPAADIAWRFIALVCGLDGIYALGTQALDEAAFSRYLNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHF SIGELK+QVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTM MWH ETVAIIEQGLA GEFRSAEPAADIAWRFIALVCGLDGIYAL  QALDEAAFSRY+NKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|WP_064179757.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella variicola]</Hit_def>
+  <Hit_accession>WP_064179757</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.089</Hsp_bit-score>
+      <Hsp_score>954</Hsp_score>
+      <Hsp_evalue>1.02963e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQGAMRLALRGGFAAMTVRQIAREAEVAAGQLHHHFTSIGELKSQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHEETVAIIEQGLACGEFRSAEPAADIAWRFIALVCGLDGIYALGTQALDDAAFSRYLNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQ AMRLALRGGFAAMTVRQIAREA+VAAGQLHHHFTSIGELK+QVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWH ETVAIIEQGLA GEFRSAEPAADIAWRFIALVCGLDGIYAL  QALD+AAFSRY+NKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|WP_048330304.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella variicola]</Hit_def>
+  <Hit_accession>WP_048330304</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>371.703</Hsp_bit-score>
+      <Hsp_score>953</Hsp_score>
+      <Hsp_evalue>1.56227e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAEVAAGQLHHHFSSIGELKSQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMTMWHEETVAIIEQGLACGEFRSAEPAADIAWRFIALVCGLDGIYALGTQALDEAAFSRYLNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREA+VAAGQLHHHF+SIGELK+QVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTM MWH ETVAIIEQGLA GEFRSAEPAADIAWRFIALVCGLDGIYAL  QALDEAAFSRY+NKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>ref|WP_181482028.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|QLS60028.1| TetR family transcriptional regulator [Klebsiella variicola]</Hit_def>
+  <Hit_accession>WP_181482028</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>371.318</Hsp_bit-score>
+      <Hsp_score>952</Hsp_score>
+      <Hsp_evalue>1.68699e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAEVAAGQLHHHFSSIGELKSQVFIRMIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHEETVAIIEQGLACGEFRSAEPAADIAWRFIALVCGLDGIYALGTQALDDAAFSRYLNKMITLELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREA+VAAGQLHHHF+SIGELK+QVFIR+IREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWH ETVAIIEQGLA GEFRSAEPAADIAWRFIALVCGLDGIYAL  QALD+AAFSRY+NKMITLELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|WP_032746750.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Klebsiella] &gt;gb|AYW19628.1| TetR family transcriptional regulator [Klebsiella sp. P1CD1] &gt;gb|MBA6169015.1| TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|MBC5098528.1| TetR family transcriptional regulator [Klebsiella variicola] &gt;gb|PJX65919.1| TetR family transcriptional regulator [Klebsiella sp. E-Nf3] &gt;gb|PXL45619.1| TetR family transcriptional regulator [Klebsiella variicola]</Hit_def>
+  <Hit_accession>WP_032746750</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>371.318</Hsp_bit-score>
+      <Hsp_score>952</Hsp_score>
+      <Hsp_evalue>1.68699e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAQVAAGQLHHHFTSIGELKAQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHAETVAIIEQGLASGEFRSAEPAADIAWRFIALVCGLDGIYALDAQALDEAAFSRYVNKMITLELF</Hsp_qseq>
+      <Hsp_hseq>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREAEVAAGQLHHHFSSIGELKSQVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWHEETVAIIEQGLACGEFRSAEPAADIAWRFIALVCGLDGIYALGTQALDDAAFSRYLNKMITMELF</Hsp_hseq>
+      <Hsp_midline>MHYLQRDARREGIMQAAMRLALRGGFAAMTVRQIAREA+VAAGQLHHHF+SIGELK+QVFIRLIREMLDMPLVAEDASWRERLFSMIGSEDGRLEPYIRLWREGQVLADSDPDIKAAYLLTMNMWH ETVAIIEQGLA GEFRSAEPAADIAWRFIALVCGLDGIYAL  QALD+AAFSRY+NKMIT+ELF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>338965036</Statistics_db-num>
+      <Statistics_db-len>122594075914</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

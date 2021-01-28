@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_61897</BlastOutput_query-ID>
+  <BlastOutput_query-def>WP_000397416.1 MULTISPECIES: multidrug efflux transporter transcriptional repressor MepR [Staphylococcus]</BlastOutput_query-def>
+  <BlastOutput_query-len>139</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_61897</Iteration_query-ID>
+  <Iteration_query-def>WP_000397416.1 MULTISPECIES: multidrug efflux transporter transcriptional repressor MepR [Staphylococcus]</Iteration_query-def>
+  <Iteration_query-len>139</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_000397416.1|</Hit_id>
+  <Hit_def>MULTISPECIES: multidrug efflux transporter transcriptional repressor MepR [Staphylococcus] &gt;ref|YP_498904.1| hypothetical protein SAOUHSC_00314 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|3ECO|A Chain A, Crystal Structure Of Mepr, A Transcription Regulator Of The Staphylococcus Aureus Multidrug Efflux Pump Mepa [Staphylococcus aureus subsp. aureus Mu50] &gt;pdb|3ECO|B Chain B, Crystal Structure Of Mepr, A Transcription Regulator Of The Staphylococcus Aureus Multidrug Efflux Pump Mepa [Staphylococcus aureus subsp. aureus Mu50] &gt;gb|ATV03160.1| MarR family regulatory protein [Staphylococcus aureus O11] &gt;gb|EGL91648.1| transcriptional regulator, MarR family [Staphylococcus aureus subsp. aureus 21318] &gt;gb|EGS83963.1| transcriptional regulator, MarR family [Staphylococcus aureus subsp. aureus 21266] &gt;gb|EGS89260.1| transcriptional regulator, MarR family [Staphylococcus aureus subsp. aureus 21259] &gt;gb|EHS10555.1| transcriptional regulator, MarR family [Staphylococcus aureus subsp. aureus IS-24] &gt;gb|EHS15253.1| transcriptional regulator, MarR family [Staphylococcus aureus subsp. aureus IS-99] &gt;gb|EHS16149.1| transcriptional regulator, MarR family [Staphylococcus aureus subsp. aureus IS-55] &gt;gb|EHS22359.1| transcriptional regulator, MarR family [Staphylococcus aureus subsp. aureus IS-91] &gt;gb|EHS73242.1| transcriptional regulator, MarR family [Staphylococcus aureus subsp. aureus IS-125] &gt;gb|EHS75478.1| transcriptional regulator, MarR family [Staphylococcus aureus subsp. aureus IS-189] &gt;gb|ENK69063.1| MarR family transcriptional regulator [Staphylococcus aureus M0562] &gt;gb|ETO50717.1| MarR family transcriptional regulator [Staphylococcus aureus MUF256] &gt;gb|ETO56150.1| MarR family transcriptional regulator [Staphylococcus aureus MUM475] &gt;gb|ETO57163.1| MarR family transcriptional regulator [Staphylococcus aureus MUM270] &gt;gb|EUY49054.1| MarR family transcriptional regulator [Staphylococcus aureus M0406] &gt;gb|EWG58396.1| MarR family transcriptional regulator [Staphylococcus aureus MUF168] &gt;gb|QFZ03768.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus subsp. anaerobius] &gt;emb|SUN30274.1| MarR family regulatory protein [Staphylococcus schleiferi] &gt;emb|VTR45695.1| MarR family transcriptional regulator [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_000397416</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.804</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>2.93791e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_031893414.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|EVD97092.1| MarR family transcriptional regulator [Staphylococcus aureus LAMC6065]</Hit_def>
+  <Hit_accession>WP_031893414</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.034</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>4.50772e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDVAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQND+AKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_111076617.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|PZH30338.1| MarR family transcriptional regulator [Staphylococcus aureus] &gt;gb|PZH65990.1| MarR family transcriptional regulator [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_111076617</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.034</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>4.50772e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMVSHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRM+SHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_033858369.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|EUV89439.1| MarR family transcriptional regulator [Staphylococcus aureus M0236]</Hit_def>
+  <Hit_accession>WP_033858369</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.034</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>5.73896e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTISNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPT+SNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_000397413.1|</Hit_id>
+  <Hit_def>MULTISPECIES: multidrug efflux transporter transcriptional repressor MepR [Bacteria] &gt;gb|AEV77405.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus subsp. aureus M013] &gt;gb|AGW32804.1| MarR family regulatory protein [Staphylococcus aureus subsp. aureus SA957] &gt;gb|AGW35337.1| MarR family regulatory protein [Staphylococcus aureus subsp. aureus SA40] &gt;gb|AII54869.1| MarR family regulatory protein [Staphylococcus aureus subsp. aureus SA268] &gt;gb|ALQ98603.1| MarR family transcriptional regulator [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_000397413</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.034</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>5.73896e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYIDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRY+DAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_162650976.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|NDR25992.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_162650976</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.034</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>6.12966e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANITKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKAN+TKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>emb|CAC7971562.1|</Hit_id>
+  <Hit_def>MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>CAC7971562</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.648</Hsp_bit-score>
+      <Hsp_score>727</Hsp_score>
+      <Hsp_evalue>8.15419e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRRNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRR+NIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>emb|CAC6791261.1|</Hit_id>
+  <Hit_def>MarR family regulatory protein [Staphylococcus aureus] &gt;emb|CAC6835166.1| MarR family regulatory protein [Staphylococcus aureus] &gt;emb|CAC6943989.1| MarR family regulatory protein [Staphylococcus aureus] &gt;emb|CAC6956581.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>CAC6791261</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>1.0156e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRFVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYR+VDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_001567840.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|ENI70392.1| MarR family transcriptional regulator [Staphylococcus aureus M0060] &gt;gb|ENI96938.1| MarR family transcriptional regulator [Staphylococcus aureus M0171] &gt;gb|ENJ06188.1| MarR family transcriptional regulator [Staphylococcus aureus M0200] &gt;gb|ENJ48583.1| MarR family transcriptional regulator [Staphylococcus aureus M0288] &gt;gb|ENJ57120.1| MarR family transcriptional regulator [Staphylococcus aureus M0326]</Hit_def>
+  <Hit_accession>WP_001567840</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>1.0729e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHDMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISH+MKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_117224513.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|AXP51054.1| MarR family transcriptional regulator [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_117224513</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>1.08972e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSL</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSL</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_000397414.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|ADL22264.1| mepA/mepB repressor and autoregulator [Staphylococcus aureus subsp. aureus JKD6159] &gt;gb|ORN98749.1| MarR family transcriptional regulator [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_000397414</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>1.13343e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRKKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTR+KNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_070001789.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;emb|SCS29059.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_070001789</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>1.17137e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSMFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTS+FDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_162636991.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|NDQ96173.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_162636991</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>1.17137e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMMSHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRM+SHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_000397417.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|EEW47534.1| hypothetical protein SAD30_0746 [Staphylococcus aureus D30] &gt;gb|EUS16874.1| MarR family transcriptional regulator [Staphylococcus aureus M0037] &gt;gb|EVC21935.1| MarR family transcriptional regulator [Staphylococcus aureus SJOS6050] &gt;gb|EVD38554.1| MarR family transcriptional regulator [Staphylococcus aureus SJOS6100] &gt;gb|EVG23810.1| MarR family transcriptional regulator [Staphylococcus aureus SJUD6111]</Hit_def>
+  <Hit_accession>WP_000397417</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>1.19737e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEVFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVE FTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_029550521.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_029550521</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>1.19737e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYVHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLY HQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_158173049.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|QGY89161.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_158173049</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.3217e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSKLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVS+LSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_070047428.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|MVH77926.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|MVH79775.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|NGG20011.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|NHM44921.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|NHM51664.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_070047428</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.3217e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLK</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_000397418.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|EIK35210.1| hypothetical protein MQU_01676 [Staphylococcus aureus subsp. aureus VRS11a] &gt;gb|EIK36151.1| hypothetical protein MQW_00221 [Staphylococcus aureus subsp. aureus VRS11b] &gt;gb|EXO56490.1| MarR family transcriptional regulator [Staphylococcus aureus DAR3508] &gt;gb|EXO67125.1| MarR family transcriptional regulator [Staphylococcus aureus DAR3504] &gt;gb|EYM62568.1| MarR family transcriptional regulator [Staphylococcus aureus DAR3519]</Hit_def>
+  <Hit_accession>WP_000397418</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.52442e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYTHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLY HQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_103149630.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_103149630</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.52442e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKTDQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQK DQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_190281280.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|MBD1578227.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_190281280</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.57546e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNERGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNE+GHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_160194418.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|QHK55906.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_160194418</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.6282e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMKQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEM+QTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|NGL70070.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>NGL70070</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.6282e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDKMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFD+MEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_076746700.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|ONH06187.1| MarR family transcriptional regulator [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_076746700</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.66434e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKAFQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKA QRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_111058928.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|PZK05208.1| MarR family transcriptional regulator [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_111058928</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.66434e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERQKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLER+KLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|QFK23272.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>QFK23272</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.75824e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKANQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKA+QKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_043045197.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|KIU00200.1| MarR family transcriptional regulator [Staphylococcus aureus subsp. aureus]</Hit_def>
+  <Hit_accession>WP_043045197</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.75824e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVNAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYV+AQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_000397411.1|</Hit_id>
+  <Hit_def>MULTISPECIES: multidrug efflux transporter transcriptional repressor MepR [Staphylococcus] &gt;gb|EWC65034.1| MarR family transcriptional regulator [Staphylococcus aureus subsp. aureus ST 1413] &gt;gb|AJP64827.1| MarR family transcriptional regulator [Staphylococcus aureus] &gt;gb|ALO33039.1| MarR family transcriptional regulator [Staphylococcus aureus] &gt;gb|AUU49994.1| MarR family transcriptional regulator [Staphylococcus aureus] &gt;gb|AXJ22117.1| transcriptional regulator SlyA [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_000397411</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.77764e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEHFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLE FDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_064140775.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;emb|SBA24124.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_064140775</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.79726e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKADLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKA+LTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|4LLL|A</Hit_id>
+  <Hit_def>Chain A, MepR [Staphylococcus aureus] &gt;pdb|4LLL|B Chain B, MepR [Staphylococcus aureus] &gt;pdb|4LLL|C Chain C, MepR [Staphylococcus aureus] &gt;pdb|4LLL|D Chain D, MepR [Staphylococcus aureus] &gt;pdb|4LLL|I Chain I, MepR [Staphylococcus aureus] &gt;pdb|4LLL|J Chain J, MepR [Staphylococcus aureus] &gt;pdb|4LLL|M Chain M, MepR [Staphylococcus aureus] &gt;pdb|4LLL|O Chain O, MepR [Staphylococcus aureus] &gt;pdb|4LLN|A Chain A, MepR [Staphylococcus aureus] &gt;pdb|4LLN|B Chain B, MepR [Staphylococcus aureus] &gt;pdb|4LLN|C Chain C, MepR [Staphylococcus aureus] &gt;pdb|4LLN|D Chain D, MepR [Staphylococcus aureus] &gt;pdb|4LLN|I Chain I, MepR [Staphylococcus aureus] &gt;pdb|4LLN|J Chain J, MepR [Staphylococcus aureus] &gt;pdb|5FFZ|A Chain A, Marr Family Regulatory Protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>4LLL_A</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.85949e-96</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>EFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>EFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>EFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_182045115.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|MBA5948519.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_182045115</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>1.9408e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTISGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLT SGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_060649772.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|ALH98404.1| MarR family transcriptional regulator [Staphylococcus aureus subsp. aureus]</Hit_def>
+  <Hit_accession>WP_060649772</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>1.9408e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQILVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQ LVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_160325488.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|QHK45433.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_160325488</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>1.9408e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLIQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGL QNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_049307675.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|NGC69573.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_049307675</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>1.9408e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFIYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEF YSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_176431657.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;emb|CAC6308962.1| MarR family regulatory protein [Staphylococcus aureus] &gt;emb|CAC6333988.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_176431657</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>1.96222e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNTGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKN GLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|4L9N|A</Hit_id>
+  <Hit_def>Chain A, MepR [Staphylococcus aureus] &gt;pdb|4L9N|B Chain B, MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>4L9N_A</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>2.06454e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEVFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVE FTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_031876818.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|EVV13207.1| MarR family transcriptional regulator [Staphylococcus aureus F54452] &gt;gb|EVY50198.1| MarR family transcriptional regulator [Staphylococcus aureus H54403]</Hit_def>
+  <Hit_accession>WP_031876818</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>2.0958e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVNNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTV+NLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_072467721.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;emb|SGT89952.1| MarR family regulatory protein [Staphylococcus aureus] &gt;emb|SGU05055.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_072467721</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>2.18987e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTSPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRT PTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_053863213.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;emb|CUC87497.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_053863213</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>2.26318e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLPTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGL TSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_031878922.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|EYN53238.1| MarR family transcriptional regulator [Staphylococcus aureus DAR3632]</Hit_def>
+  <Hit_accession>WP_031878922</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>2.33895e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRTLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLR LERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_070040072.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;emb|SCT04041.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_070040072</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>2.39086e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMIGHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMI HEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_107383413.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|AVU05907.1| MarR family transcriptional regulator [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_107383413</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>2.44393e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDMRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQD RRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_000397415.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|AFH68652.1| Transcriptional regulator, MarR family [Staphylococcus aureus subsp. aureus 71193] &gt;gb|AFR72401.1| MarR family regulatory protein [Staphylococcus aureus 08BA02176] &gt;gb|ALS68764.1| MarR family transcriptional regulator [Staphylococcus aureus] &gt;gb|ALS71401.1| MarR family transcriptional regulator [Staphylococcus aureus] &gt;gb|ALS84690.1| MarR family transcriptional regulator [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_000397415</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>2.44393e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLMKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANL KMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|PNZ58258.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Staphylococcus aureus subsp. anaerobius]</Hit_def>
+  <Hit_accession>PNZ58258</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>2.6103e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTASGIKLVEAFTSIFDEMEQTLISQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLT SGIKLVEAFTSIFDEMEQTL+SQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_070030488.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;emb|SCS33870.1| MarR family regulatory protein [Staphylococcus aureus] &gt;emb|SCS55139.1| MarR family regulatory protein [Staphylococcus aureus] &gt;emb|SCT05820.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_070030488</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>2.63911e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAITSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEA TSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_048520729.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|ALK35656.1| MarR family transcriptional regulator [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_048520729</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>2.788e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMSSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKM SSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_115395515.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;emb|SUK37296.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_115395515</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>2.788e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNSLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSN LRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_095259801.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|PAG35245.1| MarR family transcriptional regulator [Staphylococcus aureus] &gt;gb|PAG54504.1| MarR family transcriptional regulator [Staphylococcus aureus] &gt;gb|PAG66108.1| MarR family transcriptional regulator [Staphylococcus aureus] &gt;gb|PAG67148.1| MarR family transcriptional regulator [Staphylococcus aureus] &gt;gb|PAG71758.1| MarR family transcriptional regulator [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_095259801</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>2.91314e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLVYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLMKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKL+YRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANL KMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_064136170.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;emb|SBB92340.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_064136170</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>3.04389e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDKRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQD RRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_000397412.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|EHT50977.1| hypothetical protein SACIG547_1004 [Staphylococcus aureus subsp. aureus CIG547] &gt;gb|PGG88646.1| MarR family transcriptional regulator [Staphylococcus aureus] &gt;emb|CAC5970958.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_000397412</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>3.04389e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYHYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIY YVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|QFM03749.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>QFM03749</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>3.04389e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQKLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQ LVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|WP_101519205.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|AOH67745.2| MarR family transcriptional regulator [Staphylococcus aureus subsp. aureus]</Hit_def>
+  <Hit_accession>WP_101519205</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>3.58868e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSCLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYS LFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|WP_064272764.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;emb|SAZ94798.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_064272764</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.722</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>3.79114e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEEFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVE FTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>pdb|4LD5|A</Hit_id>
+  <Hit_def>Chain A, Mepr [Staphylococcus aureus] &gt;pdb|4LD5|B Chain B, Mepr [Staphylococcus aureus] &gt;pdb|4LD5|C Chain C, Mepr [Staphylococcus aureus] &gt;pdb|4LD5|D Chain D, Mepr [Staphylococcus aureus] &gt;pdb|4LD5|E Chain E, Mepr [Staphylococcus aureus] &gt;pdb|4LD5|F Chain F, Mepr [Staphylococcus aureus] &gt;pdb|4LD5|G Chain G, Mepr [Staphylococcus aureus] &gt;pdb|4LD5|H Chain H, Mepr [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>4LD5_A</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>3.85943e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKPKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMK KADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>pdb|4L9T|A</Hit_id>
+  <Hit_def>Chain A, MepR [Staphylococcus aureus] &gt;pdb|4L9T|B Chain B, MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>4L9T_A</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>3.85943e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQLDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQ DITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|WP_061386238.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;emb|CXP86441.1| MarR family regulatory protein [Staphylococcus aureus] &gt;emb|CXR96418.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_061386238</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.722</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>4.04923e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLGQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKL QFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|WP_176439563.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;emb|CAC6168597.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_176439563</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.722</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>4.09392e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEYFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLE FDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|WP_088607918.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|OWU43815.1| MarR family transcriptional regulator [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_088607918</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.722</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>4.42088e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNGIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQN IAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|WP_154291488.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|MRV90214.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|NFV96984.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_154291488</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.722</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>4.46967e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTLIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFT IFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|WP_064272610.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;emb|SAY90599.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_064272610</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.722</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>5.04327e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLYSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKML SLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|WP_061684011.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;emb|CXP75734.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_061684011</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.722</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>5.04327e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTYGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTT GIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|WP_031832598.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|EUN41865.1| MarR family transcriptional regulator [Staphylococcus aureus M0832]</Hit_def>
+  <Hit_accession>WP_031832598</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>5.50616e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYGYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIY YVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|WP_031910589.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|EWM04310.1| MarR family transcriptional regulator [Staphylococcus aureus UCIM6049]</Hit_def>
+  <Hit_accession>WP_031910589</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>5.7533e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGRTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQG TLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>gb|MBD6746860.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>MBD6746860</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>5.7533e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYARQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYA QQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|WP_099368222.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|PHT18755.1| MarR family transcriptional regulator [Staphylococcus aureus] &gt;gb|PHT21962.1| MarR family transcriptional regulator [Staphylococcus aureus] &gt;gb|PHT24196.1| MarR family transcriptional regulator [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_099368222</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>5.9459e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSRIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTS IKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|WP_138129878.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|TLM01242.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_138129878</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>5.9459e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIRLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNI LTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|WP_156981894.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|MVK91917.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|NDR28795.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_156981894</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>5.9459e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQKKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQ KANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|WP_111724371.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;emb|SQE68097.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_111724371</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>6.35067e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLFEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQL EEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gb|MBD6675381.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>MBD6675381</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>6.35067e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTFGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTT GIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|WP_064128528.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;emb|SBD82392.1| MarR family regulatory protein [Staphylococcus aureus] &gt;emb|SBE11106.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_064128528</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>6.42076e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKYIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRK IGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>gb|NGC89958.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>NGC89958</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>6.63571e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEVFTSIFDEMKQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVE FTSIFDEM+QTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>emb|CAA3836234.1|</Hit_id>
+  <Hit_def>MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>CAA3836234</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>7.16567e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGNLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLG LYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|WP_138277772.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|TLV48215.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_138277772</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>7.16567e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSNLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYS LFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|WP_053862500.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;emb|CUC51324.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_053862500</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>8.07659e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSL</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEVFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSL</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVE FTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>gb|MUK57779.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>MUK57779</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>8.17449e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEHFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLLEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLE FDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKL+EAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|WP_047559313.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus schweitzeri] &gt;emb|CDR61248.1| MarR family regulatory protein [Staphylococcus schweitzeri]</Hit_def>
+  <Hit_accession>WP_047559313</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>9.02326e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLKNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKATLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLL+NLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKA LTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|WP_156667982.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|QGV43109.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|QGV45864.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|QGV48619.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|QGV51374.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|QGV54194.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_156667982</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>1.01812e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQYTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQ TRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>ref|WP_031926108.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|EZR33434.1| hypothetical protein V143_01878 [Staphylococcus aureus ZTA09/03739-9HSA]</Hit_def>
+  <Hit_accession>WP_031926108</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.567</Hsp_bit-score>
+      <Hsp_score>719</Hsp_score>
+      <Hsp_evalue>1.07556e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVNAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLMKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYV+AQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANL KMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|WP_164096700.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_164096700</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.567</Hsp_bit-score>
+      <Hsp_score>719</Hsp_score>
+      <Hsp_evalue>1.13624e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYIDAQDTRRKNIGLTTSEIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRY+DAQDTRRKNIGLTTS IKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|WP_031918395.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|EZR71929.1| hypothetical protein W787_01098 [Staphylococcus aureus VET1422S] &gt;gb|EZR86725.1| hypothetical protein W758_01755 [Staphylococcus aureus VET0765S] &gt;gb|KAG52936.1| hypothetical protein W771_01379 [Staphylococcus aureus VET1035S] &gt;gb|KAG55948.1| hypothetical protein W772_01520 [Staphylococcus aureus VET1048S] &gt;gb|KAH03749.1| hypothetical protein W798_01150 [Staphylococcus aureus VET1727S]</Hit_def>
+  <Hit_accession>WP_031918395</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.567</Hsp_bit-score>
+      <Hsp_score>719</Hsp_score>
+      <Hsp_evalue>1.19906e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSL</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLMKMLSSL</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANL KMLSSL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|WP_070974080.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|NFW89446.1| multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|OHW03244.1| MarR family transcriptional regulator [Staphylococcus aureus] &gt;emb|SGR69348.1| MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_070974080</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.567</Hsp_bit-score>
+      <Hsp_score>719</Hsp_score>
+      <Hsp_evalue>1.20034e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLMQMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANL +MLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>ref|WP_063650668.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_063650668</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.567</Hsp_bit-score>
+      <Hsp_score>719</Hsp_score>
+      <Hsp_evalue>1.26806e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEHFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRNNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLE FDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRR NIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>emb|CAC8651477.1|</Hit_id>
+  <Hit_def>MarR family regulatory protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>CAC8651477</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.182</Hsp_bit-score>
+      <Hsp_score>718</Hsp_score>
+      <Hsp_evalue>1.51151e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYIDAQVTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRY+DAQ TRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|WP_086097906.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_086097906</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.182</Hsp_bit-score>
+      <Hsp_score>718</Hsp_score>
+      <Hsp_evalue>1.59678e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGLTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTG TVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>pdb|5FB2|A</Hit_id>
+  <Hit_def>Chain A, Marr Family Regulatory Protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>5FB2_A</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.182</Hsp_bit-score>
+      <Hsp_score>718</Hsp_score>
+      <Hsp_evalue>1.61615e-95</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>EFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>EFTYSYLFRMISHEMKQKADQKLEQLDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>EFTYSYLFRMISHEMKQKADQKLEQ DITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|WP_047423942.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus schweitzeri] &gt;emb|CDR22520.1| MarR family regulatory protein [Staphylococcus schweitzeri] &gt;emb|CDR50958.1| MarR family regulatory protein [Staphylococcus schweitzeri] &gt;emb|CDR66645.1| MarR family regulatory protein [Staphylococcus schweitzeri]</Hit_def>
+  <Hit_accession>WP_047423942</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>2.6748e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLKNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKAILTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLL+NLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKA LTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>ref|WP_042743072.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|KII19807.1| MarR family transcriptional regulator [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_042743072</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>3.25909e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVVAFTSIFDEMEQTLVSQLSEEENEQMKANLMKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLV AFTSIFDEMEQTLVSQLSEEENEQMKANL KMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|WP_031789211.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|EWO01796.1| MarR family transcriptional regulator [Staphylococcus aureus M1310] &gt;gb|EWP47282.1| MarR family transcriptional regulator [Staphylococcus aureus M1232]</Hit_def>
+  <Hit_accession>WP_031789211</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.256</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>1.09006e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMNSQEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRM S EMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>pdb|5FFX|A</Hit_id>
+  <Hit_def>Chain A, Marr Family Regulatory Protein [Staphylococcus aureus] &gt;pdb|5FFX|B Chain B, Marr Family Regulatory Protein [Staphylococcus aureus] &gt;pdb|5FFX|C Chain C, Marr Family Regulatory Protein [Staphylococcus aureus] &gt;pdb|5FFX|D Chain D, Marr Family Regulatory Protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>5FFX_A</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.641</Hsp_bit-score>
+      <Hsp_score>714</Hsp_score>
+      <Hsp_evalue>1.30526e-94</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>EFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>EFTYSYLFRMISHEMKQKADQKLEQFDITNEQKHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>EFTYSYLFRMISHEMKQKADQKLEQFDITNEQ HTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>pdb|5F6F|A</Hit_id>
+  <Hit_def>Chain A, Marr Family Regulatory Protein [Staphylococcus aureus] &gt;pdb|5F6F|B Chain B, Marr Family Regulatory Protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>5F6F_A</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.641</Hsp_bit-score>
+      <Hsp_score>714</Hsp_score>
+      <Hsp_evalue>1.79428e-94</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>EFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>EFTYSYLFRMISHEMKQKADQKLEQFDITNEQRHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>EFTYSYLFRMISHEMKQKADQKLEQFDITNEQ HTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>ref|WP_047529331.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus schweitzeri] &gt;gb|PNZ49944.1| MarR family transcriptional regulator [Staphylococcus schweitzeri] &gt;emb|CDR27228.1| MarR family regulatory protein [Staphylococcus schweitzeri] &gt;emb|CDR53133.1| MarR family regulatory protein [Staphylococcus schweitzeri] &gt;emb|VEE64908.1| transcriptional regulator SlyA [Staphylococcus schweitzeri]</Hit_def>
+  <Hit_accession>WP_047529331</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.944</Hsp_bit-score>
+      <Hsp_score>707</Hsp_score>
+      <Hsp_evalue>8.86968e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLKNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENKQMKEILTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLL+NLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEEN+QMK  LTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|WP_158191320.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_158191320</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.633</Hsp_bit-score>
+      <Hsp_score>701</Hsp_score>
+      <Hsp_evalue>7.70045e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKML</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLMKMC</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANL KM </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>pdb|4L9J|A</Hit_id>
+  <Hit_def>Chain A, MepR [Staphylococcus aureus] &gt;pdb|4L9J|B Chain B, MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>4L9J_A</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.781</Hsp_bit-score>
+      <Hsp_score>691</Hsp_score>
+      <Hsp_evalue>2.50227e-91</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>EFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>EFTYSYLFRXISHEXKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEXEQTLVSQLSEEENEQXKANLTKXLSSLQ</Hsp_hseq>
+      <Hsp_midline>EFTYSYLFR ISHE KQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDE EQTLVSQLSEEENEQ KANLTK LSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>ref|WP_000456871.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MarR family transcriptional regulator [Staphylococcus] &gt;gb|API78389.1| MarR family transcriptional regulator [Staphylococcus argenteus] &gt;gb|ATY55998.1| MarR family transcriptional regulator [Staphylococcus argenteus] &gt;gb|ATZ86238.1| MarR family transcriptional regulator [Staphylococcus argenteus] &gt;gb|EYG93311.1| MarR family transcriptional regulator [Staphylococcus argenteus] &gt;gb|EYL86757.1| MarR family transcriptional regulator [Staphylococcus argenteus]</Hit_def>
+  <Hit_accession>WP_000456871</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.7</Hsp_bit-score>
+      <Hsp_score>683</Hsp_score>
+      <Hsp_evalue>3.40647e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEYTYSYLFRMISHEMKQKADQRLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGATVSNLLKNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQFSKEENERIKENLTKMLSSLK</Hsp_hseq>
+      <Hsp_midline>ME+TYSYLFRMISHEMKQKADQ+LEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTG TVSNLL+NLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQ S+EENE++K NLTKMLSSL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>pdb|4L9V|A</Hit_id>
+  <Hit_def>Chain A, MepR [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>4L9V_A</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>3.61919e-90</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>EFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>EFTYSYLFRXISHEXKQKADQKLEQLDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEXEQTLVSQLSEEENEQXKANLTKXLSSLQ</Hsp_hseq>
+      <Hsp_midline>EFTYSYLFR ISHE KQKADQKLEQ DITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDE EQTLVSQLSEEENEQ KANLTK LSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|WP_072498188.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Staphylococcus argenteus] &gt;emb|SGX45866.1| MarR family regulatory protein [Staphylococcus argenteus]</Hit_def>
+  <Hit_accession>WP_072498188</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.774</Hsp_bit-score>
+      <Hsp_score>678</Hsp_score>
+      <Hsp_evalue>2.45593e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEYTYSYLFRMISHEMKQKADQRLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGATVSNLLKNLERKKLIYRYVDAQDTRRKNIGLTTSGINLVEAFTSIFDEMEQTLVSQFSKEENERIKENLTKMLSSLK</Hsp_hseq>
+      <Hsp_midline>ME+TYSYLFRMISHEMKQKADQ+LEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTG TVSNLL+NLERKKLIYRYVDAQDTRRKNIGLTTSGI LVEAFTSIFDEMEQTLVSQ S+EENE++K NLTKMLSSL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|WP_001789505.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor MepR [Staphylococcus aureus] &gt;gb|EES94269.1| transcriptional regulator, MarR family [Staphylococcus aureus subsp. aureus USA300_TCH959] &gt;gb|EES95700.1| transcriptional regulator, MarR family [Staphylococcus aureus subsp. aureus TCH130] &gt;gb|EFW31239.1| transcriptional regulator, MarR family [Staphylococcus aureus subsp. aureus MRSA131] &gt;gb|EFW34706.1| transcriptional regulator, MarR family [Staphylococcus aureus subsp. aureus MRSA177] &gt;gb|EHT38486.1| hypothetical protein SACIG1750_2105 [Staphylococcus aureus subsp. aureus CIG1750] &gt;gb|EHT72009.1| hypothetical protein SACIG290_0925 [Staphylococcus aureus subsp. aureus CIG290] &gt;gb|EHT86801.1| hypothetical protein SACIGC341D_0899 [Staphylococcus aureus subsp. aureus CIGC341D] &gt;gb|EHT88389.1| hypothetical protein SACIGC345D_0712 [Staphylococcus aureus subsp. aureus CIGC345D] &gt;gb|EJE57315.1| MarR family regulatory protein [Staphylococcus aureus subsp. aureus str. Newbould 305] &gt;gb|EJU81570.1| transcriptional regulator, MarR family [Staphylococcus aureus subsp. aureus CM05] &gt;gb|KAJ47721.1| transcriptional regulator, MarR family [Staphylococcus aureus 880] &gt;gb|KIE15369.1| transcriptional regulator, MarR family [Staphylococcus aureus 917]</Hit_def>
+  <Hit_accession>WP_001789505</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.848</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>8.89912e-89</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>MISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>gb|KXA32780.1|</Hit_id>
+  <Hit_def>transcriptional regulator, MarR family [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>KXA32780</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>4.7714e-88</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>MISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEVFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVE FTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|WP_002464358.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Staphylococcus simiae] &gt;gb|EHJ07639.1| MarR family transcriptional regulator [Staphylococcus simiae CCM 7213] [Staphylococcus simiae CCM 7213 = CCUG 51256] &gt;gb|PNZ09469.1| MarR family transcriptional regulator [Staphylococcus simiae] &gt;emb|SNV59912.1| MarR family regulatory protein [Staphylococcus simiae]</Hit_def>
+  <Hit_accession>WP_002464358</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.299</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>5.50316e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MEMTYSYLFRMLSHAMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIARALQRKGPTVSNLLRNLERKKLIYRYVDAKDTRSKNIGLTTAGIKLVEAFTSIFDEMETTMEAQFTAEENEQMKKNLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>ME TYSYLFRM+SH MKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIA+ALQR GPTVSNLLRNLERKKLIYRYVDA+DTR KNIGLTT+GIKLVEAFTSIFDEME T+ +Q + EENEQMK NLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>gb|AWQ77833.1|</Hit_id>
+  <Hit_def>marR family protein [Staphylococcus aureus] &gt;gb|EHT92008.1| hypothetical protein SACIGC348_0943 [Staphylococcus aureus subsp. aureus CIGC348] &gt;gb|KEK36983.1| marR family protein [Staphylococcus aureus Lyso 1 2010]</Hit_def>
+  <Hit_accession>AWQ77833</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.062</Hsp_bit-score>
+      <Hsp_score>645</Hsp_score>
+      <Hsp_evalue>1.3009e-84</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>MKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_qseq>
+      <Hsp_hseq>MKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_hseq>
+      <Hsp_midline>MKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSEEENEQMKANLTKMLSSLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|WP_062909510.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_062909510</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.136</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>6.81675e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSE</Hsp_qseq>
+      <Hsp_hseq>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSE</Hsp_hseq>
+      <Hsp_midline>MEFTYSYLFRMISHEMKQKADQKLEQFDITNEQGHTLGYLYAHQQDGLTQNDIAKALQRTGPTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFDEMEQTLVSQLSE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>322214535</Statistics_db-num>
+      <Statistics_db-len>165954995</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

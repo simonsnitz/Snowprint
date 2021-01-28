@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_20355</BlastOutput_query-ID>
+  <BlastOutput_query-def>WP_003403442.1 MULTISPECIES: hypothetical protein [Mycobacteriaceae]</BlastOutput_query-def>
+  <BlastOutput_query-len>165</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_20355</Iteration_query-ID>
+  <Iteration_query-def>WP_003403442.1 MULTISPECIES: hypothetical protein [Mycobacteriaceae]</Iteration_query-def>
+  <Iteration_query-len>165</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|4NB5|A</Hit_id>
+  <Hit_def>Chain A, Dna Binding Protein [Mycobacterium tuberculosis H37Rv] &gt;pdb|4NB5|B Chain B, Dna Binding Protein [Mycobacterium tuberculosis H37Rv] &gt;pdb|4NB5|C Chain C, Dna Binding Protein [Mycobacterium tuberculosis H37Rv] &gt;pdb|4NB5|D Chain D, Dna Binding Protein [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>4NB5_A</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.946</Hsp_bit-score>
+      <Hsp_score>842</Hsp_score>
+      <Hsp_evalue>2.03193e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>VSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>+SVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_003403442.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Mycobacteriaceae] &gt;ref|NP_215192.1| hypothetical protein Rv0678 [Mycobacterium tuberculosis H37Rv] &gt;ref|YP_009358030.1| conserved protein [Mycobacterium tuberculosis variant bovis AF2122/97] &gt;sp|I6Y8F7.1| RecName: Full=HTH-type transcriptional regulator MmpR5 [Mycobacterium tuberculosis H37Rv] &gt;gb|AFE11994.1| hypothetical protein MRGA423_04225 [Mycobacterium tuberculosis RGTB423] &gt;gb|AGJ66697.1| hypothetical protein J112_03630 [Mycobacterium tuberculosis str. Beijing/NITR203] &gt;gb|AGL22428.1| hypothetical protein I917_04840 [Mycobacterium tuberculosis str. Haarlem/NITR202] &gt;gb|AGL26157.1| hypothetical protein J113_04815 [Mycobacterium tuberculosis CAS/NITR204] &gt;gb|AGL30117.1| hypothetical protein J114_03620 [Mycobacterium tuberculosis EAI5/NITR206] &gt;gb|EAY59068.1| conserved hypothetical protein [Mycobacterium tuberculosis C] &gt;gb|EFP55905.1| hypothetical protein TMLG_03169 [Mycobacterium tuberculosis SUMu012]</Hit_def>
+  <Hit_accession>WP_003403442</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.561</Hsp_bit-score>
+      <Hsp_score>841</Hsp_score>
+      <Hsp_evalue>2.26518e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>emb|COV65877.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>COV65877</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.561</Hsp_bit-score>
+      <Hsp_score>841</Hsp_score>
+      <Hsp_evalue>3.46663e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>VSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>+SVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_193017998.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|QOM01272.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_193017998</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.176</Hsp_bit-score>
+      <Hsp_score>840</Hsp_score>
+      <Hsp_evalue>3.63113e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENIVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMEN+VSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_057361350.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CKT45225.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_057361350</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.791</Hsp_bit-score>
+      <Hsp_score>839</Hsp_score>
+      <Hsp_evalue>4.09701e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGVSTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGG+STNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_031682637.1|</Hit_id>
+  <Hit_def>hypothetical protein [Mycobacterium tuberculosis] &gt;gb|KCO46241.1| hypothetical protein X128_00707 [Mycobacterium tuberculosis BTB08-001]</Hit_def>
+  <Hit_accession>WP_031682637</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.405</Hsp_bit-score>
+      <Hsp_score>838</Hsp_score>
+      <Hsp_evalue>5.44982e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFSAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAF+AGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_070895778.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_070895778</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.405</Hsp_bit-score>
+      <Hsp_score>838</Hsp_score>
+      <Hsp_evalue>6.35486e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLVGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRL+GWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|QCW07300.1|</Hit_id>
+  <Hit_def>hypothetical protein [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>QCW07300</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.02</Hsp_bit-score>
+      <Hsp_score>837</Hsp_score>
+      <Hsp_evalue>7.74271e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDVLGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSD LGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|AEJ45820.1|</Hit_id>
+  <Hit_def>hypothetical protein CCDC5079_0630 [Mycobacterium tuberculosis CCDC5079] &gt;gb|AEJ49458.1| hypothetical protein CCDC5180_0621 [Mycobacterium tuberculosis CCDC5180] &gt;gb|AHJ41359.1| hypothetical protein HKBS1_0713 [Mycobacterium tuberculosis HKBS1] &gt;gb|AHJ45511.1| hypothetical protein HKBT2_0714 [Mycobacterium tuberculosis BT2] &gt;gb|AHJ49659.1| hypothetical protein HKBT1_0713 [Mycobacterium tuberculosis BT1] &gt;gb|AHM06390.1| hypothetical protein BCGT_0469 [Mycobacterium tuberculosis variant bovis BCG str. ATCC 35743] &gt;gb|ALA77072.1| MarR_2 superfamily transcriptional regulator-like protein [Mycobacterium tuberculosis variant bovis BCG] &gt;gb|ALB17806.1| Hypothetical protein AFL40_0706 [Mycobacterium tuberculosis] &gt;gb|EFP20675.1| hypothetical protein TMCG_03489 [Mycobacterium tuberculosis SUMu003] &gt;gb|EFP31944.1| hypothetical protein TMFG_03348 [Mycobacterium tuberculosis SUMu006] &gt;gb|EGB29968.1| hypothetical protein TMMG_03385 [Mycobacterium tuberculosis CDC1551A] &gt;emb|CEJ32537.1| Uncharacterized protein MBO_503119 [Mycobacterium tuberculosis variant bovis] &gt;emb|CEJ50700.1| Uncharacterized protein MBO_200925 [Mycobacterium tuberculosis variant caprae] &gt;dbj|GAA44454.1| hypothetical protein NCGM2209_1061 [Mycobacterium tuberculosis NCGM2209]</Hit_def>
+  <Hit_accession>AEJ45820</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.405</Hsp_bit-score>
+      <Hsp_score>838</Hsp_score>
+      <Hsp_evalue>7.96165e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>VSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>+SVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_009938835.1|</Hit_id>
+  <Hit_def>hypothetical protein [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_009938835</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.02</Hsp_bit-score>
+      <Hsp_score>837</Hsp_score>
+      <Hsp_evalue>9.02851e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREIRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLRE+RDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_015289229.1|</Hit_id>
+  <Hit_def>hypothetical protein [Mycobacterium canettii] &gt;emb|CCK54625.1| Conserved protein of unknown function [Mycobacterium canettii CIPT 140070008] &gt;emb|CCK58699.1| Conserved protein of unknown function [Mycobacterium canettii CIPT 140070010]</Hit_def>
+  <Hit_accession>WP_015289229</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.02</Hsp_bit-score>
+      <Hsp_score>837</Hsp_score>
+      <Hsp_evalue>9.22886e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQQTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQ+TGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_147020871.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|ATI66662.2| transcriptional regulator [Mycobacterium tuberculosis variant bovis] &gt;gb|TWZ99329.1| transcriptional regulator [Mycobacterium tuberculosis variant bovis] &gt;gb|TXA12758.1| transcriptional regulator [Mycobacterium tuberculosis variant bovis] &gt;gb|TXA19279.1| transcriptional regulator [Mycobacterium tuberculosis variant bovis] &gt;gb|TXA22018.1| transcriptional regulator [Mycobacterium tuberculosis variant bovis]</Hit_def>
+  <Hit_accession>WP_147020871</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.02</Hsp_bit-score>
+      <Hsp_score>837</Hsp_score>
+      <Hsp_evalue>9.22886e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPEQQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPE+QSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|KAK28146.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis CWCFVRF MDRTB 670]</Hit_def>
+  <Hit_accession>KAK28146</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.02</Hsp_bit-score>
+      <Hsp_score>837</Hsp_score>
+      <Hsp_evalue>9.33069e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEDLATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSE+LATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_031680530.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|KAY10512.1| hypothetical protein AN62_00687 [Mycobacterium tuberculosis M1233] &gt;gb|KAZ72323.1| hypothetical protein AO05_00030 [Mycobacterium tuberculosis M1424]</Hit_def>
+  <Hit_accession>WP_031680530</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.02</Hsp_bit-score>
+      <Hsp_score>837</Hsp_score>
+      <Hsp_evalue>1.04129e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMEHVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYME+VVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_057358414.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CMJ50957.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_057358414</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.635</Hsp_bit-score>
+      <Hsp_score>836</Hsp_score>
+      <Hsp_evalue>1.16207e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADMGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLAD+GLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_052621712.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CNW90544.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CNX11187.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CNX27148.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CNX47244.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|COU57902.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_052621712</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.635</Hsp_bit-score>
+      <Hsp_score>836</Hsp_score>
+      <Hsp_evalue>1.24116e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFAEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEF EQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_072500892.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|SGH98509.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|SGN40165.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_072500892</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.25</Hsp_bit-score>
+      <Hsp_score>835</Hsp_score>
+      <Hsp_evalue>1.68762e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPDAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRP+AFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_159373502.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_159373502</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.25</Hsp_bit-score>
+      <Hsp_score>835</Hsp_score>
+      <Hsp_evalue>1.72506e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRWREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRR REMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_072516102.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|SGO57999.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_072516102</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.25</Hsp_bit-score>
+      <Hsp_score>835</Hsp_score>
+      <Hsp_evalue>1.76334e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPKAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRP AFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_057134374.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CFA80762.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_057134374</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.25</Hsp_bit-score>
+      <Hsp_score>835</Hsp_score>
+      <Hsp_evalue>1.7828e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLAHVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLA VGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_057358347.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CKZ30085.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CNV54302.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_057358347</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.25</Hsp_bit-score>
+      <Hsp_score>835</Hsp_score>
+      <Hsp_evalue>1.80247e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDPPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGD PPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_071150954.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_071150954</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.25</Hsp_bit-score>
+      <Hsp_score>835</Hsp_score>
+      <Hsp_evalue>1.80247e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDPLGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSD LGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_055371905.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|RET81798.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CLP62141.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CLT88130.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CMA05137.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_055371905</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.25</Hsp_bit-score>
+      <Hsp_score>835</Hsp_score>
+      <Hsp_evalue>1.92515e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSSTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRS TRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_116266168.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|REM07162.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|REM59569.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|REN82468.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_116266168</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.25</Hsp_bit-score>
+      <Hsp_score>835</Hsp_score>
+      <Hsp_evalue>1.94639e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYLRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTY RLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_058023299.1|</Hit_id>
+  <Hit_def>hypothetical protein [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_058023299</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.25</Hsp_bit-score>
+      <Hsp_score>835</Hsp_score>
+      <Hsp_evalue>2.12499e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGARERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAG RERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_031667300.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|KBH18171.1| hypothetical protein N074_00670 [Mycobacterium tuberculosis variant africanum MAL010128]</Hit_def>
+  <Hit_accession>WP_031667300</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.865</Hsp_bit-score>
+      <Hsp_score>834</Hsp_score>
+      <Hsp_evalue>2.45083e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MRVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>M VNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_015287890.1|</Hit_id>
+  <Hit_def>hypothetical protein [Mycobacterium canettii] &gt;gb|MBC9074618.1| transcriptional regulator [Mycobacterium canettii] &gt;emb|CCK50596.1| Conserved protein of unknown function [Mycobacterium canettii CIPT 140060008]</Hit_def>
+  <Hit_accession>WP_015287890</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.865</Hsp_bit-score>
+      <Hsp_score>834</Hsp_score>
+      <Hsp_evalue>2.58907e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMEQVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYME VVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_031658592.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|KCP07850.1| hypothetical protein X145_01139 [Mycobacterium tuberculosis BTB09-001]</Hit_def>
+  <Hit_accession>WP_031658592</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.865</Hsp_bit-score>
+      <Hsp_score>834</Hsp_score>
+      <Hsp_evalue>2.61764e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALDDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRAL DAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_193018106.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|QOL93066.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_193018106</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>3.12006e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDRADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQD ADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_057372731.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CMR43918.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_057372731</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>3.12006e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRARGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRA GDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_070906775.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_070906775</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>3.12006e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDRLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRD LAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_055373536.1|</Hit_id>
+  <Hit_def>hypothetical protein [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_055373536</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>3.1893e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNGGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVN GVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_031648953.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|KBI15203.1| hypothetical protein N103_03068 [Mycobacterium tuberculosis MAL020156]</Hit_def>
+  <Hit_accession>WP_031648953</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>3.1893e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGGRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAG RRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_057355267.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CKT09027.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_057355267</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>3.22449e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRPYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRR YFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_055385451.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CMP99318.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_055385451</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>3.26007e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGAAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALG APPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_031719623.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|KBR13179.1| hypothetical protein X409_01784 [Mycobacterium tuberculosis XTB13-204] &gt;gb|KCU67490.1| hypothetical protein X379_01359 [Mycobacterium tuberculosis XTB13-169]</Hit_def>
+  <Hit_accession>WP_031719623</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>3.40636e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRWLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSR LREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_031750828.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|KBT81878.1| hypothetical protein AN15_00474 [Mycobacterium tuberculosis TKK_04_0134]</Hit_def>
+  <Hit_accession>WP_031750828</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>3.40636e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLWPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRL PNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_009935605.1|</Hit_id>
+  <Hit_def>hypothetical protein [Mycobacterium tuberculosis] &gt;gb|AMC44999.1| hypothetical protein RN05_0723 [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_009935605</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>3.40636e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDWRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGD RTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_057348130.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CKS19809.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CKT99840.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_057348130</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>3.40636e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIWAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERI AMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_070898382.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_070898382</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>3.59848e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMPIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARM IQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_057341009.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CKU26473.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_057341009</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>3.67834e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAGPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGA PDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_031744075.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|KAQ11870.1| hypothetical protein AJ27_00672 [Mycobacterium tuberculosis MD17232]</Hit_def>
+  <Hit_accession>WP_031744075</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>3.71892e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGEGERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGE ERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|QCW07299.1|</Hit_id>
+  <Hit_def>hypothetical protein [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>QCW07299</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.094</Hsp_bit-score>
+      <Hsp_score>832</Hsp_score>
+      <Hsp_evalue>4.38435e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYRENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAY ENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_031712432.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|KCE43339.1| hypothetical protein P497_02582 [Mycobacterium tuberculosis TKK_04_0043]</Hit_def>
+  <Hit_accession>WP_031712432</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.094</Hsp_bit-score>
+      <Hsp_score>832</Hsp_score>
+      <Hsp_evalue>4.48164e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTCFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRT FRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_031695050.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|KBN83932.1| hypothetical protein V923_02337 [Mycobacterium tuberculosis TB_RSA13] &gt;gb|KBN98460.1| hypothetical protein V924_00417 [Mycobacterium tuberculosis TB_RSA14] &gt;gb|KBO78158.1| hypothetical protein V947_03181 [Mycobacterium tuberculosis TB_RSA37] &gt;gb|KBO84293.1| hypothetical protein V946_00708 [Mycobacterium tuberculosis TB_RSA36] &gt;gb|KCM15251.1| hypothetical protein W097_00707 [Mycobacterium tuberculosis TB_RSA189]</Hit_def>
+  <Hit_accession>WP_031695050</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.094</Hsp_bit-score>
+      <Hsp_score>832</Hsp_score>
+      <Hsp_evalue>5.22587e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVRLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADV LRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_057151527.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CLX18939.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CMG12343.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CMS10909.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_057151527</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.094</Hsp_bit-score>
+      <Hsp_score>832</Hsp_score>
+      <Hsp_evalue>5.46037e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAGAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLA AGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_031732911.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|KAT73245.1| hypothetical protein AL95_03581 [Mycobacterium tuberculosis TKK_04_0070]</Hit_def>
+  <Hit_accession>WP_031732911</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.939</Hsp_bit-score>
+      <Hsp_score>829</Hsp_score>
+      <Hsp_evalue>1.33074e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCD-PERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDHPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCD PERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_031703512.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|KEB64266.1| hypothetical protein AN78_02838 [Mycobacterium tuberculosis M1307]</Hit_def>
+  <Hit_accession>WP_031703512</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.553</Hsp_bit-score>
+      <Hsp_score>828</Hsp_score>
+      <Hsp_evalue>2.08281e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGCFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMEHVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGG FESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYME+VVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_057344656.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CKL97882.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_057344656</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.553</Hsp_bit-score>
+      <Hsp_score>828</Hsp_score>
+      <Hsp_evalue>2.37596e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGAPPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALG  PPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_057364402.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CMR84106.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_057364402</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.783</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>3.93608e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRARGAAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRA G APPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|WP_055373921.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CKR68761.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_055373921</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.783</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>4.15808e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERVFIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGER  IRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|WP_057354703.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CMS53351.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_057354703</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.398</Hsp_bit-score>
+      <Hsp_score>825</Hsp_score>
+      <Hsp_evalue>5.35185e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLGARGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGL A GDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|WP_057338411.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CKO25111.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_057338411</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.857</Hsp_bit-score>
+      <Hsp_score>821</Hsp_score>
+      <Hsp_evalue>2.65639e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRARGAPPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRA G  PPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|WP_057359392.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CMI31510.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_057359392</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.472</Hsp_bit-score>
+      <Hsp_score>820</Hsp_score>
+      <Hsp_evalue>3.16623e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLGALGAPPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGL ALG  PPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>gb|AUS49747.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional regulator MmpR5 [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>AUS49747</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>2.10217e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>VSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTXXXLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>+SVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRT   LRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|WP_057140876.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CFH30486.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_057140876</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.62</Hsp_bit-score>
+      <Hsp_score>810</Hsp_score>
+      <Hsp_evalue>1.06049e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRGGAPPPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLR     PPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|WP_116396125.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|REY83752.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|REY85645.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_116396125</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.464</Hsp_bit-score>
+      <Hsp_score>807</Hsp_score>
+      <Hsp_evalue>3.41221e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWL---DPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWL   DPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|WP_015292369.1|</Hit_id>
+  <Hit_def>hypothetical protein [Mycobacterium canettii] &gt;emb|CCK62779.1| Conserved protein of unknown function [Mycobacterium canettii CIPT 140070017]</Hit_def>
+  <Hit_accession>WP_015292369</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.464</Hsp_bit-score>
+      <Hsp_score>807</Hsp_score>
+      <Hsp_evalue>3.5848e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSANGGVDRVGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQNLADVGLRALGDAPPHRSRRLREMRDLLAYMEKVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MS N GVD++GAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQ+LADVGLRALGDAPP RSRRLREMRDLLAYME VVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|WP_057320533.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CKN58751.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_057320533</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.079</Hsp_bit-score>
+      <Hsp_score>806</Hsp_score>
+      <Hsp_evalue>4.61389e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQALADVGLGARGAPPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQ LADVGL A G  PPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|WP_116678242.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;gb|REO00030.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CEZ55715.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CKV77770.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CKW17080.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|CKW35333.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_116678242</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.686</Hsp_bit-score>
+      <Hsp_score>792</Hsp_score>
+      <Hsp_evalue>4.60758e-106</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|WP_085323017.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium decipiens] &gt;gb|OSC42869.1| transcriptional regulator [Mycobacterium decipiens]</Hit_def>
+  <Hit_accession>WP_085323017</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>3.41837e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTG</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDGACAEADIMEFVEQMGGYFESSGLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTFFRLRPNAFAAGERERIRTMADMQNLADVGLKALGDAPPERSRRLREMRDLLAYMEQVVSDALGRYGQQTG</Hsp_hseq>
+      <Hsp_midline>MSVNDGVD   AE DIMEFVEQMGGYFES  LTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRT+FRLRPNAFAAGERERIR MA++Q+LADVGL+ALGDAPP+RSRRLREMRDLLAYME VVSDALGRY Q+TG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|WP_158015496.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium basiliense] &gt;emb|VDM87325.1| hypothetical protein MB901379_00864 [Mycobacterium basiliense]</Hit_def>
+  <Hit_accession>WP_158015496</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.574</Hsp_bit-score>
+      <Hsp_score>732</Hsp_score>
+      <Hsp_evalue>9.14691e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDRAGTDADIMEFVEQMGGYFESSGLTRLAGRLLGWLLVCDPERQSSEDLATALAASSGGISTTARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRTMADLQNLADAGLKALGDAPPERSRRLHEMRDLLTYMEKVVSDALGQYGQATEADD</Hsp_hseq>
+      <Hsp_midline>MSVNDGVD+ G + DIMEFVEQMGGYFES  LTRLAGRLLGWLLVCDPERQSSE+LATALAASSGGIST ARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIR MA+LQ+LAD GL+ALGDAPP+RSRRL EMRDLL YME VVSDALG+Y Q T  DD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>gb|KCG83481.1|</Hit_id>
+  <Hit_def>hypothetical protein P967_00710 [Mycobacterium tuberculosis KT-0084]</Hit_def>
+  <Hit_accession>KCG83481</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>2.92133e-95</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|WP_011739029.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium ulcerans] &gt;gb|ABL03404.1| transcriptional regulator [Mycobacterium ulcerans Agy99] &gt;gb|EUA92232.1| putative regulatory protein MarR [Mycobacterium ulcerans str. Harvey] &gt;gb|OIN17182.1| transcriptional regulator [Mycobacterium ulcerans]</Hit_def>
+  <Hit_accession>WP_011739029</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.715</Hsp_bit-score>
+      <Hsp_score>709</Hsp_score>
+      <Hsp_evalue>2.96278e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNEGVDRAGTEADIMEFVEQMGGYFESSGLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTTARMLIQFGFIERLAVAGDRRTFYRLRPNAFAAGERERLRTMADLQNLADTGLKALGDAPPERSRRLHEMRDLLAYMEKVLAGALGRYGQCGEEGD</Hsp_hseq>
+      <Hsp_midline>MSVN+GVD+ G E DIMEFVEQMGGYFES  LTRLAGRLLGWLLVCDPERQSSEELATALAASSGGIST ARMLIQFGFIERLAVAGDRRT++RLRPNAFAAGERER+R MA+LQ+LAD GL+ALGDAPP+RSRRL EMRDLLAYME V++ ALGRY Q   E D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|WP_012392918.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transcriptional regulator [Mycobacterium] &gt;gb|ACC39464.1| transcriptional regulator [Mycobacterium marinum M] &gt;dbj|BAV43016.1| transcriptional regulator [Mycobacterium ulcerans subsp. shinshuense] &gt;dbj|GAQ37149.1| transcriptional regulator [Mycobacterium pseudoshottsii JCM 15466]</Hit_def>
+  <Hit_accession>WP_012392918</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.404</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>2.77515e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNEGVDRAGTEADIMEFVEQMGGYFESSGLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTTARMLIQFGFIERLAVAGDRRTFYRLRPNAFAAGERERLRTMADLQNLADTGLKALGGAPPERSRRLHEMRDLLAYMEKVLAGALGRYGQCGEEGD</Hsp_hseq>
+      <Hsp_midline>MSVN+GVD+ G E DIMEFVEQMGGYFES  LTRLAGRLLGWLLVCDPERQSSEELATALAASSGGIST ARMLIQFGFIERLAVAGDRRT++RLRPNAFAAGERER+R MA+LQ+LAD GL+ALG APP+RSRRL EMRDLLAYME V++ ALGRY Q   E D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|WP_134426580.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium ulcerans]</Hit_def>
+  <Hit_accession>WP_134426580</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.018</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>3.41803e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MSVNEGVDRAGTEADIMEFVEQMGGYFESSGLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTTARMLIQFGFIERLAVAGDRRTFYRLRPNAFAAGERERLRTMADLQNLADTGLKALGGAPPERSRRLHEMRDLLAYMEKVLAGALGRYGQCDEEGD</Hsp_hseq>
+      <Hsp_midline>MSVN+GVD+ G E DIMEFVEQMGGYFES  LTRLAGRLLGWLLVCDPERQSSEELATALAASSGGIST ARMLIQFGFIERLAVAGDRRT++RLRPNAFAAGERER+R MA+LQ+LAD GL+ALG APP+RSRRL EMRDLLAYME V++ ALGRY Q   E D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|WP_020731928.1|</Hit_id>
+  <Hit_def>hypothetical protein [Mycobacterium marinum] &gt;gb|EPQ70199.1| hypothetical protein MMEU_4638 [Mycobacterium marinum str. Europe] &gt;emb|CDM75107.1| transcriptional regulator [Mycobacterium marinum E11]</Hit_def>
+  <Hit_accession>WP_020731928</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.633</Hsp_bit-score>
+      <Hsp_score>701</Hsp_score>
+      <Hsp_evalue>4.3986e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQ</Hsp_qseq>
+      <Hsp_hseq>MSVNEGVDRAGTEADIMEFVEQMGGYFESSGLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTTARMLIQFGFIERLAVAGDRRTFYRLRPNAFAAGERERLRTMADLQNLADTGLKALGGAPPERSRRLHEMRDLLAYMEKVLAGALGRYGQ</Hsp_hseq>
+      <Hsp_midline>MSVN+GVD+ G E DIMEFVEQMGGYFES  LTRLAGRLLGWLLVCDPERQSSEELATALAASSGGIST ARMLIQFGFIERLAVAGDRRT++RLRPNAFAAGERER+R MA+LQ+LAD GL+ALG APP+RSRRL EMRDLLAYME V++ ALGRY Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gb|EPQ73658.1|</Hit_id>
+  <Hit_def>hypothetical protein MMMB2_4430 [Mycobacterium marinum MB2] &gt;gb|RFZ44141.1| hypothetical protein DAVIS_01623 [Mycobacterium marinum] &gt;gb|RFZ62843.1| hypothetical protein DE4576_05049 [Mycobacterium marinum]</Hit_def>
+  <Hit_accession>EPQ73658</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.863</Hsp_bit-score>
+      <Hsp_score>699</Hsp_score>
+      <Hsp_evalue>9.51353e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>VSVNEGVDRAGTEADIMEFVEQMGGYFESSGLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTTARMLIQFGFIERLAVAGDRRTFYRLRPNAFAAGERERLRTMADLQNLADTGLKALGGAPPERSRRLHEMRDLLAYMEKVLAGALGRYGQCGEEGD</Hsp_hseq>
+      <Hsp_midline>+SVN+GVD+ G E DIMEFVEQMGGYFES  LTRLAGRLLGWLLVCDPERQSSEELATALAASSGGIST ARMLIQFGFIERLAVAGDRRT++RLRPNAFAAGERER+R MA+LQ+LAD GL+ALG APP+RSRRL EMRDLLAYME V++ ALGRY Q   E D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>gb|AGC61139.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium liflandii 128FXT] &gt;gb|EPQ49272.1| hypothetical protein MMSP_5033 [Mycobacterium sp. 012931] &gt;gb|MBC9866180.1| MarR family transcriptional regulator associated with MmpL5/MmpS5 efflux system [Mycobacterium pseudoshottsii] &gt;gb|RFZ60420.1| hypothetical protein DL240490_03981 [Mycobacterium marinum] &gt;dbj|BBA86804.1| hypothetical protein MPSD_11440 [Mycobacterium pseudoshottsii JCM 15466]</Hit_def>
+  <Hit_accession>AGC61139</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.863</Hsp_bit-score>
+      <Hsp_score>699</Hsp_score>
+      <Hsp_evalue>1.12144e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>VSVNEGVDRAGTEADIMEFVEQMGGYFESSGLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTTARMLIQFGFIERLAVAGDRRTFYRLRPNAFAAGERERLRTMADLQNLADTGLKALGGAPPERSRRLHEMRDLLAYMEKVLAGALGRYGQCGEEGD</Hsp_hseq>
+      <Hsp_midline>+SVN+GVD+ G E DIMEFVEQMGGYFES  LTRLAGRLLGWLLVCDPERQSSEELATALAASSGGIST ARMLIQFGFIERLAVAGDRRT++RLRPNAFAAGERER+R MA+LQ+LAD GL+ALG APP+RSRRL EMRDLLAYME V++ ALGRY Q   E D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>gb|AXN42915.1|</Hit_id>
+  <Hit_def>hypothetical protein MM1218R_00965 [Mycobacterium marinum] &gt;gb|AXN48375.1| hypothetical protein CCUG20998_00956 [Mycobacterium marinum] &gt;gb|RFZ07450.1| hypothetical protein DE4381_03068 [Mycobacterium marinum] &gt;gb|RFZ10208.1| hypothetical protein DSM43518_02522 [Mycobacterium marinum] &gt;gb|RFZ20917.1| hypothetical protein VIMS_00803 [Mycobacterium marinum]</Hit_def>
+  <Hit_accession>AXN42915</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.478</Hsp_bit-score>
+      <Hsp_score>698</Hsp_score>
+      <Hsp_evalue>1.81682e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQ</Hsp_qseq>
+      <Hsp_hseq>VSVNEGVDRAGTEADIMEFVEQMGGYFESSGLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTTARMLIQFGFIERLAVAGDRRTFYRLRPNAFAAGERERLRTMADLQNLADTGLKALGGAPPERSRRLHEMRDLLAYMEKVLAGALGRYGQ</Hsp_hseq>
+      <Hsp_midline>+SVN+GVD+ G E DIMEFVEQMGGYFES  LTRLAGRLLGWLLVCDPERQSSEELATALAASSGGIST ARMLIQFGFIERLAVAGDRRT++RLRPNAFAAGERER+R MA+LQ+LAD GL+ALG APP+RSRRL EMRDLLAYME V++ ALGRY Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|WP_031751086.1|</Hit_id>
+  <Hit_def>transcriptional regulator, partial [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>WP_031751086</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>2.30704e-90</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>SRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>SRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>SRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>gb|KBP71555.1|</Hit_id>
+  <Hit_def>hypothetical protein V973_02671 [Mycobacterium tuberculosis TB_RSA63] &gt;gb|KBP79062.1| hypothetical protein V974_02775 [Mycobacterium tuberculosis TB_RSA64] &gt;gb|KCA42384.1| hypothetical protein K896_04890 [Mycobacterium tuberculosis TKK-01-0074] &gt;gb|KCJ83651.1| hypothetical protein W036_03311 [Mycobacterium tuberculosis TB_RSA126]</Hit_def>
+  <Hit_accession>KBP71555</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.684</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>6.90858e-86</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>LAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>+AGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>dbj|BBX57447.1|</Hit_id>
+  <Hit_def>hypothetical protein MSHO_27920 [Mycobacterium shottsii]</Hit_def>
+  <Hit_accession>BBX57447</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>2.44896e-83</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGED</Hsp_qseq>
+      <Hsp_hseq>MEFVEQMGGYFESSGLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTTARMLIQFGFIERLAVAGDRRTFYRLRPNAFAAGERERLRTMADLQNLADTGLKALGGAPPERSRRLHEMRDLLAYMEKVLAGALGRYGQ-CGEE</Hsp_hseq>
+      <Hsp_midline>MEFVEQMGGYFES  LTRLAGRLLGWLLVCDPERQSSEELATALAASSGGIST ARMLIQFGFIERLAVAGDRRT++RLRPNAFAAGERER+R MA+LQ+LAD GL+ALG APP+RSRRL EMRDLLAYME V++ ALGRY Q  GE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>gb|KCG16255.1|</Hit_id>
+  <Hit_def>hypothetical protein P940_00419 [Mycobacterium tuberculosis KT-0047] &gt;emb|SGH19070.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>KCG16255</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.039</Hsp_bit-score>
+      <Hsp_score>606</Hsp_score>
+      <Hsp_evalue>3.24939e-78</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>VCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>+CDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>emb|CKL94763.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>CKL94763</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>3.81095e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNA</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNA</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>gb|KCH13568.1|</Hit_id>
+  <Hit_def>hypothetical protein P975_01709 [Mycobacterium tuberculosis KT-0099] &gt;emb|CKM13866.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>KCH13568</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.749</Hsp_bit-score>
+      <Hsp_score>504</Hsp_score>
+      <Hsp_evalue>1.12502e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPN</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPT</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>emb|CLZ43336.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>CLZ43336</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>5.6816e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPN</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRFGPT</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFR  P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>emb|CKV28107.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>CKV28107</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>6.77003e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPN</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRCGPT</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFR  P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>gb|KAF3409043.1|</Hit_id>
+  <Hit_def>putative regulatory protein, MarR [Mycobacterium tuberculosis variant bovis]</Hit_def>
+  <Hit_accession>KAF3409043</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>2.59792e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFR</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFR</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gb|KAM69568.1|</Hit_id>
+  <Hit_def>hypothetical protein AM88_03965 [Mycobacterium tuberculosis TKK_04_0097] &gt;gb|KAV11456.1| hypothetical protein AM44_03319 [Mycobacterium tuberculosis TKK_05MA_2005] &gt;gb|KCE18261.1| hypothetical protein P490_00709 [Mycobacterium tuberculosis TKK_04_0017] &gt;gb|KCG00698.1| hypothetical protein P933_00418 [Mycobacterium tuberculosis KT-0035] &gt;gb|KCO99399.1| hypothetical protein X142_00707 [Mycobacterium tuberculosis BTB08-362] &gt;gb|KCP03973.1| hypothetical protein X143_00707 [Mycobacterium tuberculosis BTB08-394] &gt;gb|KCP46556.1| hypothetical protein X156_00417 [Mycobacterium tuberculosis BTB09-382] &gt;emb|SGC38325.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>KAM69568</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>2.76849e-57</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>MLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>MLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>MLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gb|AOW92639.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Rhodococcus sp. WMMA185]</Hit_def>
+  <Hit_accession>AOW92639</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>9.73101e-52</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>DGVD---QMGAEPDI--MEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRY-SQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>DGVEVAASTGSPADVRLSEFVERMGGYFESAGSTRLAGRLLGWLLVCEPERQSSEDLATGLRASSGGVSTTARLLIRMGLVERSGVPGDRRTYYRLRRHAFDSVIEERRRSMAELRKLAEEGLSALADNAPDRRRRLEEMWELAQFMEAETPALLTRYHNERRGGDD</Hsp_hseq>
+      <Hsp_midline>DGV+     G+  D+   EFVE+MGGYFES   TRLAGRLLGWLLVC+PERQSSE+LAT L ASSGG+ST AR+LI+ G +ER  V GDRRTY+RLR +AF +   ER R+MAEL+ LA+ GL AL D  P R RRL EM +L  +ME      L RY ++R G DD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|WP_157109687.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Rhodococcus sp. WMMA185]</Hit_def>
+  <Hit_accession>WP_157109687</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.4</Hsp_bit-score>
+      <Hsp_score>433</Hsp_score>
+      <Hsp_evalue>1.89438e-51</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>IMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRY-SQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>LSEFVERMGGYFESAGSTRLAGRLLGWLLVCEPERQSSEDLATGLRASSGGVSTTARLLIRMGLVERSGVPGDRRTYYRLRRHAFDSVIEERRRSMAELRKLAEEGLSALADNAPDRRRRLEEMWELAQFMEAETPALLTRYHNERRGGDD</Hsp_hseq>
+      <Hsp_midline>+ EFVE+MGGYFES   TRLAGRLLGWLLVC+PERQSSE+LAT L ASSGG+ST AR+LI+ G +ER  V GDRRTY+RLR +AF +   ER R+MAEL+ LA+ GL AL D  P R RRL EM +L  +ME      L RY ++R G DD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|WP_072691632.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Rhodococcus marinonascens]</Hit_def>
+  <Hit_accession>WP_072691632</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.785</Hsp_bit-score>
+      <Hsp_score>434</Hsp_score>
+      <Hsp_evalue>2.15679e-51</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>EFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRY-SQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>EFVERMGSYFESAGSTRLTGRLLGWLLVCEPERQSSEDLATGLRASTGGVSTTARLLIRMGLVERAGVPGDRRTYYRLRPHAFDSVIEERRRSMAELRSLAEEGLTVLAGDTPQRLRRLEEMRELAGFMEAETPALLTRYHNERRNDDD</Hsp_hseq>
+      <Hsp_midline>EFVE+MG YFES   TRL GRLLGWLLVC+PERQSSE+LAT L AS+GG+ST AR+LI+ G +ER  V GDRRTY+RLRP+AF +   ER R+MAEL+ LA+ GL  L    PQR RRL EMR+L  +ME      L RY ++R  +DD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>gb|EFD72326.1|</Hit_id>
+  <Hit_def>LOW QUALITY PROTEIN: conserved hypothetical protein, partial [Mycobacterium tuberculosis GM 1503]</Hit_def>
+  <Hit_accession>EFD72326</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>5.04992e-41</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>RLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_qseq>
+      <Hsp_hseq>RLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_hseq>
+      <Hsp_midline>RLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGEDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>emb|SGC38311.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|SGC92151.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|SGE24140.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|SGE83871.1| transcriptional regulator [Mycobacterium tuberculosis] &gt;emb|SGF10195.1| transcriptional regulator [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>SGC38311</Hit_accession>
+  <Hit_len>80</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>2.00347e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGG</Hsp_qseq>
+      <Hsp_hseq>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGG</Hsp_hseq>
+      <Hsp_midline>MSVNDGVDQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>ref|WP_088891335.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Leptolyngbya ohadii]</Hit_def>
+  <Hit_accession>WP_088891335</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>2.27108e-38</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>NDGVDQMGAEPDI--MEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYME</Hsp_qseq>
+      <Hsp_hseq>NDLSEPLSSDPPFEKIRFIEEVGLMFEMVGLPRMSGRIFGWLLICEPPQQSHSELADVLKASKGSISTMTRMLIQIGFIERISLPGDRRDYFRIKPHAWTQLTKQRMAQITAFKELAQRGITLMGNTSPQMKERLTEMRDIHAFWE</Hsp_hseq>
+      <Hsp_midline>ND  + + ++P    + F+E++G  FE   L R++GR+ GWLL+C+P +QS  ELA  L AS G IST  RMLIQ GFIER+++ GDRR YFR++P+A+    ++R+  +   ++LA  G+  +G+  PQ   RL EMRD+ A+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|WP_190792866.1|</Hit_id>
+  <Hit_def>unnamed protein product &gt;gb|MBD1849381.1| MarR family transcriptional regulator [Cyanobacteria bacterium FACHB-502] &gt;gb|MBD2026225.1| MarR family transcriptional regulator [Leptolyngbya sp. FACHB-711]</Hit_def>
+  <Hit_accession>WP_190792866</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.658</Hsp_bit-score>
+      <Hsp_score>348</Hsp_score>
+      <Hsp_evalue>3.61033e-38</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>SVNDGVDQMGAEPDI--MEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYME</Hsp_qseq>
+      <Hsp_hseq>NVNDLSEPLSSDPPFEKIRFIEEVGLMFELVGFPRMAGRIFGWLLICEPPQQSHSELADVLKASKGSISTMTRLLIQIGFIERISLPGDRRDYFQIKPHAWTQLTKQRIVQITAFKELAQRGMDLMGNAPSPLKERLKEMRDIHAFWE</Hsp_hseq>
+      <Hsp_midline>+VND  + + ++P    + F+E++G  FE     R+AGR+ GWLL+C+P +QS  ELA  L AS G IST  R+LIQ GFIER+++ GDRR YF+++P+A+    ++RI  +   ++LA  G+  +G+AP     RL+EMRD+ A+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>ref|WP_123048293.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Corynebacterium sp. CCUG 69366] &gt;gb|RNE48360.1| transcriptional regulator [Corynebacterium sp. CCUG 69366]</Hit_def>
+  <Hit_accession>WP_123048293</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>2.78819e-35</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>DIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGED</Hsp_qseq>
+      <Hsp_hseq>DINQFIENIGLVLESAGLTRAAGRIFGYLLVCDPPEQHAQAISHSISASTGSVSTNLRLLVQLGFVEKTALPGDRRTSYRVGPGAWDSVMEDQLRATIALREVAETGLQILPDHAPGRRERLQEAVDFFSFLEENFPPLFQRYHDEKGKN</Hsp_hseq>
+      <Hsp_midline>DI +F+E +G   ES  LTR AGR+ G+LLVCDP  Q ++ ++ +++AS+G +STN R+L+Q GF+E+ A+ GDRRT +R+ P A+ +   +++RA   L+++A+ GL+ L D  P R  RL+E  D  +++E        RY    G++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>gb|RMG13535.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Cyanobacteria bacterium J055]</Hit_def>
+  <Hit_accession>RMG13535</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>4.12155e-35</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>FVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTG</Hsp_qseq>
+      <Hsp_hseq>FIEEVGLGFEKLGLPRMAGRILGWLLIADPPHQCSRELVEMLSASKGSISAMTRLLIQIGLVERVSFPGDRRDYFRIKLGAWSAVMEQRLAQISAIRQLADRGLALLEDDRPEYSQRLREMRDLHAFFEQEWPHLLDRWQNNSG</Hsp_hseq>
+      <Hsp_midline>F+E++G  FE   L R+AGR+LGWLL+ DP  Q S EL   L+AS G IS   R+LIQ G +ER++  GDRR YFR++  A++A   +R+  ++ ++ LAD GL  L D  P+ S+RLREMRDL A+ E      L R+   +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>gb|PZV19266.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Leptolyngbya sp.]</Hit_def>
+  <Hit_accession>PZV19266</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>4.71543e-35</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>QMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQR</Hsp_qseq>
+      <Hsp_hseq>QLATE-EHFQFIEEVGLSFESVSLPRMAGRVFGWLLISNPPHQSPAELADVLQASKGSISTMTRLLVQLSLIERISLPGQRRDYFRIKPNAWAELSKQRLAQITAFRKLAEQGLKLLEQDEPLLSQRLEEMRDVHTFWEQELPLMTQRWEQR</Hsp_hseq>
+      <Hsp_midline>Q+  E +  +F+E++G  FES SL R+AGR+ GWLL+ +P  QS  ELA  L AS G IST  R+L+Q   IER+++ G RR YFR++PNA+A   ++R+  +   + LA+ GL+ L    P  S+RL EMRD+  + E  +     R+ QR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|WP_190771703.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MarR family transcriptional regulator [unclassified Leptolyngbya] &gt;gb|MBD1910359.1| MarR family transcriptional regulator [Leptolyngbya sp. FACHB-8] &gt;gb|MBD2154838.1| MarR family transcriptional regulator [Leptolyngbya sp. FACHB-16]</Hit_def>
+  <Hit_accession>WP_190771703</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>7.27696e-35</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>EFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYME</Hsp_qseq>
+      <Hsp_hseq>HFIEEMGLMFEQLGMPRMAGRILAWLLIANPPLQSSGELVEVLQASKGSISTITRMLIQIGLIERVALPGDRRDYFQIKPNAWSQMTQQRLTQIAAFRELADRGL-SLVEGGPEAQRRLREMRDIHAFWE</Hsp_hseq>
+      <Hsp_midline> F+E+MG  FE   + R+AGR+L WLL+ +P  QSS EL   L AS G IST  RMLIQ G IER+A+ GDRR YF+++PNA++   ++R+  +A  ++LAD GL +L +  P+  RRLREMRD+ A+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|WP_106254702.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Stenomitos frigidus] &gt;gb|PSB34327.1| MarR family transcriptional regulator [Stenomitos frigidus ULC18]</Hit_def>
+  <Hit_accession>WP_106254702</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>7.69382e-35</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>EFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQR</Hsp_qseq>
+      <Hsp_hseq>QFIETVGLSFELVGLPRMAGRILGWLLISNPPHQSPSELADVLQASKGSISTMTRLLMQLGLIERTSLPGQRRDYFRLKPNAWAELTTQRITQIKTFRELAEQGLKLIDSQTPELRQRLEEMHDIHAFFEQELPLMMERWEQR</Hsp_hseq>
+      <Hsp_midline>+F+E +G  FE   L R+AGR+LGWLL+ +P  QS  ELA  L AS G IST  R+L+Q G IER ++ G RR YFRL+PNA+A    +RI  +   ++LA+ GL+ +    P+  +RL EM D+ A+ E  +   + R+ QR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>ref|WP_190446875.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Phormidium sp. FACHB-592] &gt;gb|MBD2073119.1| MarR family transcriptional regulator [Phormidium sp. FACHB-592]</Hit_def>
+  <Hit_accession>WP_190446875</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>4.24399e-34</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>EFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQR</Hsp_qseq>
+      <Hsp_hseq>QFIETVGLSFELVGLPRMAGRILGWLLISNPTHQSPGELATVLQASKGSISTMTRLLTQLGLIERTSLPGKRRDYFRIKPNAWAELTKQRITQIKTFRQIAEQGLKLIDDSAPPLRQRLEEMHAIHAFLEQELPLMMERWEQQ</Hsp_hseq>
+      <Hsp_midline>+F+E +G  FE   L R+AGR+LGWLL+ +P  QS  ELAT L AS G IST  R+L Q G IER ++ G RR YFR++PNA+A   ++RI  +   + +A+ GL+ + D+ P   +RL EM  + A++E  +   + R+ Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|WP_190509700.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Leptolyngbya sp. FACHB-321] &gt;gb|MBD2036520.1| MarR family transcriptional regulator [Leptolyngbya sp. FACHB-321]</Hit_def>
+  <Hit_accession>WP_190509700</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>6.96504e-34</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>EFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQR</Hsp_qseq>
+      <Hsp_hseq>QFIETVGLSFELVGLPRMAGRILGWLLISNPPHQSPGELATVLQASKGSISTMTRLLTQLGLIERTSLPGKRRDYFRIKPNAWAELTKQRITQIKTFRQIAEQGLKLIDDSAPPLRQRLEEMHAVHAFLEQELPLMMERWEQQ</Hsp_hseq>
+      <Hsp_midline>+F+E +G  FE   L R+AGR+LGWLL+ +P  QS  ELAT L AS G IST  R+L Q G IER ++ G RR YFR++PNA+A   ++RI  +   + +A+ GL+ + D+ P   +RL EM  + A++E  +   + R+ Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|WP_027891565.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Calidithermus chliarophilus]</Hit_def>
+  <Hit_accession>WP_027891565</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>9.27398e-34</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>IMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGED</Hsp_qseq>
+      <Hsp_hseq>LHQYVEEFALMYESAGLPRIAGRILGWLMVCDPPEQSAAQLAQELGASKASISTMTRMLTQFSLIERVSKRGSRQDFYRIKPGAWTDLMKTRMASLSAFRVLADKGLKLMETAPPERKVRLEEMRDLYAFFEQELGELIRRLEAQRGKE</Hsp_hseq>
+      <Hsp_midline>+ ++VE+    +ES  L R+AGR+LGWL+VCDP  QS+ +LA  L AS   IST  RML QF  IER++  G R+ ++R++P A+    + R+ +++  + LAD GL+ +  APP+R  RL EMRDL A+ E  + + + R   + G++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>gb|NJR66701.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Leptolyngbyaceae cyanobacterium CRU_2_3]</Hit_def>
+  <Hit_accession>NJR66701</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>9.40497e-34</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRY-----SQRTGED</Hsp_qseq>
+      <Hsp_hseq>MHFVEEVGLMFELIGMPRMSGRIFGWLLISEPPQQSNTALAEVLQASKGSISTMTRFLIQLGLVERVSVPGDRRDYFQIKAHAWSQLTKQRLVQIGEFRKLAARGLDLMTSAPPQYKRRLQEMHDIHAFWERELPLVDERWEQEEAKQRIGKD</Hsp_hseq>
+      <Hsp_midline>M FVE++G  FE   + R++GR+ GWLL+ +P +QS+  LA  L AS G IST  R LIQ G +ER++V GDRR YF+++ +A++   ++R+  + E + LA  GL  +  APPQ  RRL+EM D+ A+ E  +     R+      QR G+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|WP_190344959.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Leptolyngbya sp. FACHB-36] &gt;gb|MBD2022572.1| MarR family transcriptional regulator [Leptolyngbya sp. FACHB-36]</Hit_def>
+  <Hit_accession>WP_190344959</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>1.08109e-33</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>EFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQR</Hsp_qseq>
+      <Hsp_hseq>HFVEDVGVLFEMVGLPRMAGRIFGWLLVSNPPHQSPGELAEVLQASKGSISTMTRLLVQIGLIERISLPGQRRDYFRIRLNAWSELTNQRLAQITAFRQLAERGLQLLQEEPPQSRQRLEEMRDMHAFYEQEFPRMLERWEKQ</Hsp_hseq>
+      <Hsp_midline> FVE +G  FE   L R+AGR+ GWLLV +P  QS  ELA  L AS G IST  R+L+Q G IER+++ G RR YFR+R NA++    +R+  +   + LA+ GL+ L + PPQ  +RL EMRD+ A+ E      L R+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>gb|RNJ70764.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Leptolyngbya sp. IPPAS B-1204]</Hit_def>
+  <Hit_accession>RNJ70764</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>1.18828e-33</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>MEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYME</Hsp_qseq>
+      <Hsp_hseq>MHFVEEVGLMFELVGLPRMSGRIFGWLLISNPPQQSHGELAEVLQASKGSISTMTRLLIQIGLIERVSLPGERRDYFQIKPNAWSQMTKQRMAQIIAFRQLAEKGLDLIKDMPSPLQQRLQEMRDIHAFLE</Hsp_hseq>
+      <Hsp_midline>M FVE++G  FE   L R++GR+ GWLL+ +P +QS  ELA  L AS G IST  R+LIQ G IER+++ G+RR YF+++PNA++   ++R+  +   + LA+ GL  + D P    +RL+EMRD+ A++E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>gb|PJJ69901.1|</Hit_id>
+  <Hit_def>MarR family protein [Sediminihabitans luteus]</Hit_def>
+  <Hit_accession>PJJ69901</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>1.28495e-33</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>FVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGR</Hsp_qseq>
+      <Hsp_hseq>FVEDVGMFMESTGVPRSAGRLVGWLLVCDPPEQSAQQLAEALGASSGGVSTNVRLLAQVGLVERVGLPDDRRTHYRIKRDAWSTSIADHLRLATAMRGFADEGLGLLAAADPSRRERLRQAQDYFAFMERELP-ALGR</Hsp_hseq>
+      <Hsp_midline>FVE +G + ES  + R AGRL+GWLLVCDP  QS+++LA AL ASSGG+STN R+L Q G +ER+ +  DRRT++R++ +A++    + +R    ++  AD GL  L  A P R  RLR+ +D  A+ME  +  ALGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>gb|PFG34195.1|</Hit_id>
+  <Hit_def>MarR family protein [Sanguibacter antarcticus]</Hit_def>
+  <Hit_accession>PFG34195</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>1.42597e-33</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>DQMGAEPDIMEFVEQMGGYFESRSLTRLAGRLLGWLLVCDPERQSSEELATALAASSGGISTNARMLIQFGFIERLAVAGDRRTYFRLRPNAFAAGERERIRAMAELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYSQRTGED</Hsp_qseq>
+      <Hsp_hseq>DAPASATELADFVEQLGIGLESSGLPRAAGRMLAWLMVCDPPEQTADDLATALVASRGGVSTTVRLLVQMQLVERVGRAGERRSYYRVVPHVWDQAMTAQSAPITLMRQVADRGLAILADAGPGRRERLAEMRDYLTFMEREMPALQRRYHAEKGTN</Hsp_hseq>
+      <Hsp_midline>D   +  ++ +FVEQ+G   ES  L R AGR+L WL+VCDP  Q++++LATAL AS GG+ST  R+L+Q   +ER+  AG+RR+Y+R+ P+ +      +   +  ++ +AD GL  L DA P R  RL EMRD L +ME  +     RY    G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>319809835</Statistics_db-num>
+      <Statistics_db-len>115484164286</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

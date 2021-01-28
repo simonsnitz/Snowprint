@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_47137</BlastOutput_query-ID>
+  <BlastOutput_query-def>WP_003978343.1 MULTISPECIES: TetR/AcrR family transcriptional regulator [Streptomyces]</BlastOutput_query-def>
+  <BlastOutput_query-len>194</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_47137</Iteration_query-ID>
+  <Iteration_query-def>WP_003978343.1 MULTISPECIES: TetR/AcrR family transcriptional regulator [Streptomyces]</Iteration_query-def>
+  <Iteration_query-len>194</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_003978343.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Streptomyces] &gt;gb|AIJ17945.1| tetR family transcriptional regulator [Streptomyces lividans TK24] &gt;gb|EFD71440.1| tetR family transcriptional regulator [Streptomyces lividans TK24] &gt;gb|EOY45198.1| regulatory protein, TetR [Streptomyces lividans 1326] &gt;gb|KKD17258.1| TetR family transcriptional regulator [Streptomyces sp. WM6391] &gt;gb|MYU40045.1| TetR family transcriptional regulator [Streptomyces sp. SID7813]</Hit_def>
+  <Hit_accession>WP_003978343</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.022</Hsp_bit-score>
+      <Hsp_score>972</Hsp_score>
+      <Hsp_evalue>2.30485e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_qseq>
+      <Hsp_hseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_hseq>
+      <Hsp_midline>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_030862680.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Streptomyces] &gt;gb|PSK59705.1| putative HTH-type transcriptional regulator YvdT [Streptomyces sp. 111WW2]</Hit_def>
+  <Hit_accession>WP_030862680</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.867</Hsp_bit-score>
+      <Hsp_score>969</Hsp_score>
+      <Hsp_evalue>6.39432e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_qseq>
+      <Hsp_hseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAQLPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_hseq>
+      <Hsp_midline>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLA+LPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MYS76678.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces sp. SID5926]</Hit_def>
+  <Hit_accession>MYS76678</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>375.17</Hsp_bit-score>
+      <Hsp_score>962</Hsp_score>
+      <Hsp_evalue>6.40385e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_qseq>
+      <Hsp_hseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDTRSTDMFAALAGIALTSSRPDQREQAERLLDLVLDGLRPTAPRPA</Hsp_hseq>
+      <Hsp_midline>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSD RSTDMFAALAGIALTSSRPDQR QAERLLDLVLDGLRPTAPRPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_121717094.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. E5N91]</Hit_def>
+  <Hit_accession>WP_121717094</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.4</Hsp_bit-score>
+      <Hsp_score>960</Hsp_score>
+      <Hsp_evalue>1.55739e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_qseq>
+      <Hsp_hseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAQLPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDTRSTDMFAALAGIALTSSRPDQREQAERLLDLVLDGLRPTAPRPA</Hsp_hseq>
+      <Hsp_midline>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLA+LPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSD RSTDMFAALAGIALTSSRPDQR QAERLLDLVLDGLRPTAPRPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_127892619.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. S10(2018)]</Hit_def>
+  <Hit_accession>WP_127892619</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>373.629</Hsp_bit-score>
+      <Hsp_score>958</Hsp_score>
+      <Hsp_evalue>3.43137e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_qseq>
+      <Hsp_hseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAQLPPAEALRAWTRRFIDYATAKFGMADALRAVVASGGDPYGDSRQLIQSALTALMDAGAAAGEIRSDIRSTDMFAALAGIALTSSRPDQREQAERLLDLVLDGLRPTAPRPA</Hsp_hseq>
+      <Hsp_midline>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLA+LPPAEALRAWTRRFIDYATAK GMADALRAVVASGGDPYGDSRQLIQSALTALMDA AAAGEIRSDIRSTDMFAALAGIALTSSRPDQR QAERLLDLVLDGLRPTAPRPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_159323706.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces tendae]</Hit_def>
+  <Hit_accession>WP_159323706</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.089</Hsp_bit-score>
+      <Hsp_score>954</Hsp_score>
+      <Hsp_evalue>1.08586e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_qseq>
+      <Hsp_hseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAQLPPAEALRAWTRRFIDYATAKLGMAEALRAVVASGGDPYGDSRQLIQSALTALMDAGVAAGEIRSDIRSTDMFAALAGIALTSSRPDQRKQAERLLDLVLDGLRPTAPRPA</Hsp_hseq>
+      <Hsp_midline>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLA+LPPAEALRAWTRRFIDYATAKLGMA+ALRAVVASGGDPYGDSRQLIQSALTALMDA  AAGEIRSDIRSTDMFAALAGIALTSSRPDQR QAERLLDLVLDGLRPTAPRPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_164278523.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces rubrogriseus] &gt;gb|NEC37672.1| TetR/AcrR family transcriptional regulator [Streptomyces rubrogriseus]</Hit_def>
+  <Hit_accession>WP_164278523</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>371.703</Hsp_bit-score>
+      <Hsp_score>953</Hsp_score>
+      <Hsp_evalue>1.68408e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_qseq>
+      <Hsp_hseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAQLPPAEALRAWTRRFIDYATAKLGMAEALRAVVASGGDPYGDSRQLIQSALTTLMDAAAAAGEIRSDTRSTDMFAALAGIALTSSRPDQREQAERLLDLVLDGLRPTAPRPA</Hsp_hseq>
+      <Hsp_midline>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLA+LPPAEALRAWTRRFIDYATAKLGMA+ALRAVVASGGDPYGDSRQLIQSALT LMDAAAAAGEIRSD RSTDMFAALAGIALTSSRPDQR QAERLLDLVLDGLRPTAPRPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_189743202.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces tendae] &gt;dbj|GHA72836.1| TetR family transcriptional regulator [Streptomyces tendae]</Hit_def>
+  <Hit_accession>WP_189743202</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>371.318</Hsp_bit-score>
+      <Hsp_score>952</Hsp_score>
+      <Hsp_evalue>2.19138e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_qseq>
+      <Hsp_hseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAGVAADEIRSDIRSTDMFAALAGIALTSSRPDQREQAERLLDLVLDGLRPTAPRPA</Hsp_hseq>
+      <Hsp_midline>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDA  AA EIRSDIRSTDMFAALAGIALTSSRPDQR QAERLLDLVLDGLRPTAPRPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_164457755.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces tendae] &gt;gb|NEV86213.1| TetR/AcrR family transcriptional regulator [Streptomyces tendae]</Hit_def>
+  <Hit_accession>WP_164457755</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.548</Hsp_bit-score>
+      <Hsp_score>950</Hsp_score>
+      <Hsp_evalue>4.42241e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_qseq>
+      <Hsp_hseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTRETLIEATYRNEVARLCDSVPGLLAQLPPAEALRAWTRRFIDYATAKFGMADALRAVVASGGDPYGDSRQLIQSALTALMDAGAAAGEIRSDIRSTDMFAALAGIALTSSRPDQREQAERLLDLVLDGLRPTAPRPA</Hsp_hseq>
+      <Hsp_midline>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTRE LIEA YRNEVARLCDSVPGLLA+LPPAEALRAWTRRFIDYATAK GMADALRAVVASGGDPYGDSRQLIQSALTALMDA AAAGEIRSDIRSTDMFAALAGIALTSSRPDQR QAERLLDLVLDGLRPTAPRPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_109030938.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces rubrogriseus]</Hit_def>
+  <Hit_accession>WP_109030938</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.163</Hsp_bit-score>
+      <Hsp_score>949</Hsp_score>
+      <Hsp_evalue>7.73853e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_qseq>
+      <Hsp_hseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAQLPPAEALRAWTRRFIDYATAKLGMAEALRAVVASGGDPYGDSRQLIQSALTTLMDAAAVAGEIRSDTRSTDMFAALAGIALTSSRPDQREQAERLLDLVLDGLRPTAPRPA</Hsp_hseq>
+      <Hsp_midline>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLA+LPPAEALRAWTRRFIDYATAKLGMA+ALRAVVASGGDPYGDSRQLIQSALT LMDAAA AGEIRSD RSTDMFAALAGIALTSSRPDQR QAERLLDLVLDGLRPTAPRPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|2Q24|A</Hit_id>
+  <Hit_def>Crystal structure of TetR transcriptional regulator SCO0520 from Streptomyces coelicolor [Streptomyces coelicolor A3(2)] &gt;pdb|2Q24|B Crystal structure of TetR transcriptional regulator SCO0520 from Streptomyces coelicolor [Streptomyces coelicolor A3(2)]</Hit_def>
+  <Hit_accession>2Q24_A</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.237</Hsp_bit-score>
+      <Hsp_score>944</Hsp_score>
+      <Hsp_evalue>4.37995e-128</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>SDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_qseq>
+      <Hsp_hseq>SDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGXADALRAVVASGGDPYGDSRQLIQSALTALXDAAAAAGEIRSDIRSTDXFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_hseq>
+      <Hsp_midline>SDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLG ADALRAVVASGGDPYGDSRQLIQSALTAL DAAAAAGEIRSDIRSTD FAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_031032883.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Streptomyces] &gt;gb|AOW90655.1| TetR family transcriptional regulator [Streptomyces olivaceus] &gt;gb|QIP74447.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. VN1]</Hit_def>
+  <Hit_accession>WP_031032883</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.487</Hsp_bit-score>
+      <Hsp_score>846</Hsp_score>
+      <Hsp_evalue>4.01478e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRP</Hsp_qseq>
+      <Hsp_hseq>MSDAPKRPLRADAQRNRDKILAAAVRMFSEEGLDAHLERIAKEAGVGSGTLYRNFPTREALIEAAYRNEVARLCDAAPGLLAELPPAEALRAWTRRFVDYATAKFGMADALRAVVASGGNPYADSRELIQAALTALMDAGAAAGEIRSDIRPTDMFAALAGIALTSARPEQREQAERLLDLLLDGLRPVAPRP</Hsp_hseq>
+      <Hsp_midline>MSDA KRPLRADAQRNRDKILAAAVR+FSEEGLDAHLERIA+EAGVGSGTLYRNFPTREALIEAAYRNEVARLCD+ PGLLAELPPAEALRAWTRRF+DYATAK GMADALRAVVASGG+PY DSR+LIQ+ALTALMDA AAAGEIRSDIR TDMFAALAGIALTS+RP+QR QAERLLDL+LDGLRP APRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_194274336.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces olivaceus] &gt;gb|MBF8169672.1| TetR/AcrR family transcriptional regulator [Streptomyces olivaceus]</Hit_def>
+  <Hit_accession>WP_194274336</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.561</Hsp_bit-score>
+      <Hsp_score>841</Hsp_score>
+      <Hsp_evalue>2.17295e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRP</Hsp_qseq>
+      <Hsp_hseq>MSDAPKRPLRADAQRNRDKILAAAVRMFSEEGLDAHLERIAKEAGVGSGTLYRNFPTREALIEAAYRNEVARLCDAAPGLLAELPPAEALRAWTRRFVDYATAKFGMADALRAVVASGGNPYADSRELIQAALTALMDAGAAAGEIRSDIRPTDMFAALAGIALTSARPEEREQAERLLDLLLDGLRPVAPRP</Hsp_hseq>
+      <Hsp_midline>MSDA KRPLRADAQRNRDKILAAAVR+FSEEGLDAHLERIA+EAGVGSGTLYRNFPTREALIEAAYRNEVARLCD+ PGLLAELPPAEALRAWTRRF+DYATAK GMADALRAVVASGG+PY DSR+LIQ+ALTALMDA AAAGEIRSDIR TDMFAALAGIALTS+RP++R QAERLLDL+LDGLRP APRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_077973834.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces tsukubensis] &gt;gb|OON72069.1| TetR family transcriptional regulator [Streptomyces tsukubensis] &gt;gb|QFR93288.1| TetR family transcriptional regulator [Streptomyces tsukubensis]</Hit_def>
+  <Hit_accession>WP_077973834</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.242</Hsp_bit-score>
+      <Hsp_score>822</Hsp_score>
+      <Hsp_evalue>1.83064e-109</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRP</Hsp_qseq>
+      <Hsp_hseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHFERVAREAGVGTGTLYRNFPTREALIEAAYRNEVARLCDAVPGLLAELSPPEALRAWTRRFIDYATAKLGMADALRAVVVSGTNPYADSHELIQTALSALMDANTAAGTIRADISPTDMFAALAGIALTSARPELRAQAERLLDLTLDGLRPTAARP</Hsp_hseq>
+      <Hsp_midline>RPLRADAQRNRDKILAAAVRVFSEEGLDAH ER+AREAGVG+GTLYRNFPTREALIEAAYRNEVARLCD+VPGLLAEL P EALRAWTRRFIDYATAKLGMADALRAVV SG +PY DS +LIQ+AL+ALMDA  AAG IR+DI  TDMFAALAGIALTS+RP+ RAQAERLLDL LDGLRPTA RP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_143603516.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [unclassified Streptomyces] &gt;gb|NMI62224.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. RLA2-12] &gt;gb|QDN61248.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. S1D4-20] &gt;gb|QDN71302.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. S1D4-14] &gt;gb|QDO53757.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. RLB3-5] &gt;gb|QDO64002.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. RLB1-8]</Hit_def>
+  <Hit_accession>WP_143603516</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.087</Hsp_bit-score>
+      <Hsp_score>819</Hsp_score>
+      <Hsp_evalue>5.24448e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MARETGRPLRADAQRNREKILAAAVRVFTEEGLDAHFERVAKEAGVGTGTLYRNFPTREALIEAAYRNEVARLCEAVPGLLATMPPHEALRAWTRRFIDYATAKLGMADALRAVVASGTNPYAESHELIQAALTSLMNAATAAGTIRTDISPTDMFAALAGIALTSAGPDQREQAERLLDLTLDGLRPTPPR</Hsp_hseq>
+      <Hsp_midline>M+  T RPLRADAQRNR+KILAAAVRVF+EEGLDAH ER+A+EAGVG+GTLYRNFPTREALIEAAYRNEVARLC++VPGLLA +PP EALRAWTRRFIDYATAKLGMADALRAVVASG +PY +S +LIQ+ALT+LM+AA AAG IR+DI  TDMFAALAGIALTS+ PDQR QAERLLDL LDGLRPT PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_067343700.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces noursei] &gt;gb|ANZ14055.1| transcriptional regulator, TetR family [Streptomyces noursei ATCC 11455]</Hit_def>
+  <Hit_accession>WP_067343700</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.701</Hsp_bit-score>
+      <Hsp_score>818</Hsp_score>
+      <Hsp_evalue>6.98802e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_qseq>
+      <Hsp_hseq>MARAAERPLRADAQRNREKILAAAVRVFTEDGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDAVPGLLATMPPDQALRAWTRRFIDYATAKLGMADALRAVIAAGANPYADSREMIQGALCSLMDAGTAAGVIRTDIRPTDMFAALAGIALTSAQPDQRGQAERLLDLTLDGLRPVAGRDA</Hsp_hseq>
+      <Hsp_midline>M+ A +RPLRADAQRNR+KILAAAVRVF+E+GLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCD+VPGLLA +PP +ALRAWTRRFIDYATAKLGMADALRAV+A+G +PY DSR++IQ AL +LMDA  AAG IR+DIR TDMFAALAGIALTS++PDQR QAERLLDL LDGLRP A R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_159505625.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces sp. GS7] &gt;gb|QHC22973.1| TetR family transcriptional regulator [Streptomyces sp. GS7]</Hit_def>
+  <Hit_accession>WP_159505625</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.701</Hsp_bit-score>
+      <Hsp_score>818</Hsp_score>
+      <Hsp_evalue>7.6286e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRP</Hsp_qseq>
+      <Hsp_hseq>MAPSAERPLRADAQRNRDKILAAAVRVFTEEGLDAHFERIAKEAGVGSGTLYRNFPTREALIEAAYRNEVARLCDAVPGLLATMPPGEALRAWTRRFIDYATAKLGMADALRAVVASGANPYADSREMIQAALSSLMDAGVAAGVIRSDILPTDMFAALAGIALTSARPEQREQAERLLDLALDGLRP</Hsp_hseq>
+      <Hsp_midline>M+ + +RPLRADAQRNRDKILAAAVRVF+EEGLDAH ERIA+EAGVGSGTLYRNFPTREALIEAAYRNEVARLCD+VPGLLA +PP EALRAWTRRFIDYATAKLGMADALRAVVASG +PY DSR++IQ+AL++LMDA  AAG IRSDI  TDMFAALAGIALTS+RP+QR QAERLLDL LDGLRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_143609894.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [unclassified Streptomyces] &gt;gb|QDN81632.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. S1A1-7] &gt;gb|QDN91528.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. RLB3-6] &gt;gb|QDO02022.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. RLB1-9] &gt;gb|QDO12351.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. S1D4-23] &gt;gb|QDO23755.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. S1A1-8]</Hit_def>
+  <Hit_accession>WP_143609894</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.701</Hsp_bit-score>
+      <Hsp_score>818</Hsp_score>
+      <Hsp_evalue>8.49578e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MARETGRPLRADAQRNREKILAAAVRVFTEEGLDAHFERVAKEAGVGTGTLYRNFPTREALIEAAYRNEVARLCEAVPGLLATMPPHEALRAWTRRFIDYATAKLGMADALRAVVASGTNPYAESHELIQAALTSLMNAATAAGTIRTDISPTDMFAALAGIALTSAGPDQREQAERLLDLTLDGLRPTPPR</Hsp_hseq>
+      <Hsp_midline>M+  T RPLRADAQRNR+KILAAAVRVF+EEGLDAH ER+A+EAGVG+GTLYRNFPTREALIEAAYRNEVARLC++VPGLLA +PP EALRAWTRRFIDYATAKLGMADALRAVVASG +PY +S +LIQ+ALT+LM+AA AAG IR+DI  TDMFAALAGIALTS+ PDQR QAERLLDL LDGLRPT PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|KPI16058.1|</Hit_id>
+  <Hit_def>regulatory protein TetR [Actinobacteria bacterium OK006]</Hit_def>
+  <Hit_accession>KPI16058</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.931</Hsp_bit-score>
+      <Hsp_score>816</Hsp_score>
+      <Hsp_evalue>1.46984e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MARETGRPLRADAQRNREKILAAAVRVFTEEGLDAHFERVAKEAGVGTGTLYRNFPTREALIEAAYRNEVARLCEAVPGLLATMPPHEALRAWTRRFIDYATAKLGMADALRAVVASGTNPYAESHELIQAALTSLMNAATAAGAIRTDISPTDMFAALAGIALTSAGPDQREQAERLLDLTLDGLRPTPPR</Hsp_hseq>
+      <Hsp_midline>M+  T RPLRADAQRNR+KILAAAVRVF+EEGLDAH ER+A+EAGVG+GTLYRNFPTREALIEAAYRNEVARLC++VPGLLA +PP EALRAWTRRFIDYATAKLGMADALRAVVASG +PY +S +LIQ+ALT+LM+AA AAG IR+DI  TDMFAALAGIALTS+ PDQR QAERLLDL LDGLRPT PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_189863127.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces albulus] &gt;dbj|GGX27974.1| TetR family transcriptional regulator [Streptomyces albulus]</Hit_def>
+  <Hit_accession>WP_189863127</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>1.95845e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_qseq>
+      <Hsp_hseq>MARAAERPLRADAQRNREKILAAAVRVFTEDGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDAVPGLLATMPPDQALRAWTRRFIDYATAKLGMADALRAVIAAGANPYADSREMIQGALCSLMDAGTAAGVIRTDIRPTDMFAALAGIALTSAQPDQRDQAERLLDLTLDGLRPVAGRDA</Hsp_hseq>
+      <Hsp_midline>M+ A +RPLRADAQRNR+KILAAAVRVF+E+GLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCD+VPGLLA +PP +ALRAWTRRFIDYATAKLGMADALRAV+A+G +PY DSR++IQ AL +LMDA  AAG IR+DIR TDMFAALAGIALTS++PDQR QAERLLDL LDGLRP A R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_102924854.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces noursei] &gt;gb|PNE37130.1| TetR family transcriptional regulator [Streptomyces noursei]</Hit_def>
+  <Hit_accession>WP_102924854</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>2.09161e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_qseq>
+      <Hsp_hseq>MAPAAERPLRADAQRNREKILAAAVRVFTEDGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDAVPGLLATMPPDQALRAWTRRFIDYATAKLGMADALRAVIAAGANPYADSREMIQGALCSLMDAGTAAGVIRTDIRPTDMFAALAGIALTSAQPDQRDQAERLLDLTLDGLRPVAGRGA</Hsp_hseq>
+      <Hsp_midline>M+ A +RPLRADAQRNR+KILAAAVRVF+E+GLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCD+VPGLLA +PP +ALRAWTRRFIDYATAKLGMADALRAV+A+G +PY DSR++IQ AL +LMDA  AAG IR+DIR TDMFAALAGIALTS++PDQR QAERLLDL LDGLRP A R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_039629324.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. 769]</Hit_def>
+  <Hit_accession>WP_039629324</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>2.3857e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_qseq>
+      <Hsp_hseq>MARAAERPLRADAQRNREKILAAAVRVFTEDGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDAVPGLLATMPPDQALRAWTRRFIDYATAKLGMADALRAVIAAGANPYADSREMIQGALCSLMDAGTAAGVIRTDIRPTDMFAALAGIALTSAQPDQRDQAERLLDLTLDGLRPVAGRGA</Hsp_hseq>
+      <Hsp_midline>M+ A +RPLRADAQRNR+KILAAAVRVF+E+GLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCD+VPGLLA +PP +ALRAWTRRFIDYATAKLGMADALRAV+A+G +PY DSR++IQ AL +LMDA  AAG IR+DIR TDMFAALAGIALTS++PDQR QAERLLDL LDGLRP A R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|AJC53373.1|</Hit_id>
+  <Hit_def>tetR family transcriptional regulator [Streptomyces sp. 769]</Hit_def>
+  <Hit_accession>AJC53373</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.161</Hsp_bit-score>
+      <Hsp_score>814</Hsp_score>
+      <Hsp_evalue>4.79914e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_qseq>
+      <Hsp_hseq>MARAAERPLRADAQRNREKILAAAVRVFTEDGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDAVPGLLATMPPDQALRAWTRRFIDYATAKLGMADALRAVIAAGANPYADSREMIQGALCSLMDAGTAAGVIRTDIRPTDMFAALAGIALTSAQPDQRDQAERLLDLTLDGLRPVAGRGA</Hsp_hseq>
+      <Hsp_midline>M+ A +RPLRADAQRNR+KILAAAVRVF+E+GLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCD+VPGLLA +PP +ALRAWTRRFIDYATAKLGMADALRAV+A+G +PY DSR++IQ AL +LMDA  AAG IR+DIR TDMFAALAGIALTS++PDQR QAERLLDL LDGLRP A R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_190168149.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces mirabilis] &gt;dbj|GHD37612.1| TetR family transcriptional regulator [Streptomyces mirabilis]</Hit_def>
+  <Hit_accession>WP_190168149</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>5.85045e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MARDTGRPLRADAQRNRDKILAAAVRVFTEEGLDAHFERIAREAGVGTGTLYRNFPTREALIEAAYRNEVARLCEAVPGLLATMPPREALRAWTRRFIDYATAKLGMAEALRAVVASGTNPYAESHELIQAALTSLMNAGTAAGTIRTDISPTDMFAALAGIALTSASPDQREQAERLLDLTLDGLRPTPPQ</Hsp_hseq>
+      <Hsp_midline>M+  T RPLRADAQRNRDKILAAAVRVF+EEGLDAH ERIAREAGVG+GTLYRNFPTREALIEAAYRNEVARLC++VPGLLA +PP EALRAWTRRFIDYATAKLGMA+ALRAVVASG +PY +S +LIQ+ALT+LM+A  AAG IR+DI  TDMFAALAGIALTS+ PDQR QAERLLDL LDGLRPT P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_060895478.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. WAC00263] &gt;gb|KAF5993447.1| TetR family transcriptional regulator [Streptomyces sp. WAC00263]</Hit_def>
+  <Hit_accession>WP_060895478</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>6.82097e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MARDTGRPLRADAQRNREKILAAAVRVFTEEGLDAHFERVAKEAGVGTGTLYRNFPTREALIEAAYRNEVARLCEAVPGLLATMPPHEALRAWTRRFIDYATAKFGMADALRAVVASGTNPYAESHELIQAALTSLMNAATAAGAIRTDISPTDMFAALAGIALTSAGPDQREQAERLLDLTLDGLRPTPPR</Hsp_hseq>
+      <Hsp_midline>M+  T RPLRADAQRNR+KILAAAVRVF+EEGLDAH ER+A+EAGVG+GTLYRNFPTREALIEAAYRNEVARLC++VPGLLA +PP EALRAWTRRFIDYATAK GMADALRAVVASG +PY +S +LIQ+ALT+LM+AA AAG IR+DI  TDMFAALAGIALTS+ PDQR QAERLLDL LDGLRPT PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_097287119.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. OK228] &gt;emb|SOE31939.1| transcriptional regulator, TetR family [Streptomyces sp. OK228]</Hit_def>
+  <Hit_accession>WP_097287119</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.62</Hsp_bit-score>
+      <Hsp_score>810</Hsp_score>
+      <Hsp_evalue>1.14188e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MARETGRPLRADAQRNREKILAAAVRVFTEEGLDAHFERVAKEAGVGTGTLYRNFPTREALIEAAYRNEVARLCEAVPGLLATMSPHEALRAWTRRFIDYATAKLGMADALRAVVASGTNPYAESHELIQAALTSLMNAATAAGTIRTDISPTDMFAALAGIALTSAGPDQREQAERLLDLTLDGLRPTPPR</Hsp_hseq>
+      <Hsp_midline>M+  T RPLRADAQRNR+KILAAAVRVF+EEGLDAH ER+A+EAGVG+GTLYRNFPTREALIEAAYRNEVARLC++VPGLLA + P EALRAWTRRFIDYATAKLGMADALRAVVASG +PY +S +LIQ+ALT+LM+AA AAG IR+DI  TDMFAALAGIALTS+ PDQR QAERLLDL LDGLRPT PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_110704069.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptosporangium sp. &apos;caverna&apos;] &gt;gb|AWS46982.1| TetR family transcriptional regulator [Streptosporangium sp. &apos;caverna&apos;]</Hit_def>
+  <Hit_accession>WP_110704069</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.849</Hsp_bit-score>
+      <Hsp_score>808</Hsp_score>
+      <Hsp_evalue>2.77504e-107</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>RPLRADAQRNRDKILATAVRVFTEEGLDAHFERIAREAGVGTGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLATMPPHEALRAWTRRFIDYATAKFGMADALRAVVASGTNPYADSHEMIQAALSSLMAAGTAAGTIRSDIRPTDMFAALAGIALTSAKPEQREQAERLLDLTLDGLRPARPQ</Hsp_hseq>
+      <Hsp_midline>RPLRADAQRNRDKILA AVRVF+EEGLDAH ERIAREAGVG+GTLYRNFPTREALIEAAYRNEVARLCDSVPGLLA +PP EALRAWTRRFIDYATAK GMADALRAVVASG +PY DS ++IQ+AL++LM A  AAG IRSDIR TDMFAALAGIALTS++P+QR QAERLLDL LDGLRP  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_123531460.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. 840.1] &gt;gb|ROQ60246.1| TetR family transcriptional regulator [Streptomyces sp. 840.1]</Hit_def>
+  <Hit_accession>WP_123531460</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.464</Hsp_bit-score>
+      <Hsp_score>807</Hsp_score>
+      <Hsp_evalue>3.2001e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MAREAGRPLRADAQRNRDKILAAAVHVFTEEGLDAHFERIAREAGVGTGTLYRNFPTREALIEAAYRNEVARLCDAVPGLLAAMPPPEALRAWTRRFIDYATAKLGMADALRAVVSSGTNPYADSHEMIQAALSALMDANTAAGTIRSDISPTDMFAALAGIALTSAKPEQRDQAERLLDLTLDGLKPAPPR</Hsp_hseq>
+      <Hsp_midline>M+    RPLRADAQRNRDKILAAAV VF+EEGLDAH ERIAREAGVG+GTLYRNFPTREALIEAAYRNEVARLCD+VPGLLA +PP EALRAWTRRFIDYATAKLGMADALRAVV+SG +PY DS ++IQ+AL+ALMDA  AAG IRSDI  TDMFAALAGIALTS++P+QR QAERLLDL LDGL+P  PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_099919695.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. 94] &gt;gb|PIG17898.1| TetR family transcriptional regulator [Streptomyces sp. 94]</Hit_def>
+  <Hit_accession>WP_099919695</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>314.694</Hsp_bit-score>
+      <Hsp_score>805</Hsp_score>
+      <Hsp_evalue>5.91263e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MARDTGRPLRADAQRNREKILAAAVRVFTEEGLDAHFERIAREAGVGTGTLYRNFPTREALIEAAYRNEVARLCEAVPGLLATMPPREALRAWTRRFIDYATAKLGMAEALRAVVASGTNPYAESHELIQAALTSLMNAGTAAGAIRTDISPTDMFAALAGIALTSAGPDQREQAERLLDLTLDGLRPTPPQ</Hsp_hseq>
+      <Hsp_midline>M+  T RPLRADAQRNR+KILAAAVRVF+EEGLDAH ERIAREAGVG+GTLYRNFPTREALIEAAYRNEVARLC++VPGLLA +PP EALRAWTRRFIDYATAKLGMA+ALRAVVASG +PY +S +LIQ+ALT+LM+A  AAG IR+DI  TDMFAALAGIALTS+ PDQR QAERLLDL LDGLRPT P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|KJY26316.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces sp. NRRL S-444]</Hit_def>
+  <Hit_accession>KJY26316</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.923</Hsp_bit-score>
+      <Hsp_score>803</Hsp_score>
+      <Hsp_evalue>1.24602e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MAADTGRPLRADAQRNRDKILAAAVRVFTEEGLDAHYERIAKEAGVGTGTLYRNFPTRETLIETAYRNEVARLCDAVPGLLATLPPREALRAWMGRFIDYATAKLGMADALRAVVSSGSDPYGHSREMIQTAITALMEAGTAAGALRSDIRSTDVFAILAGIALTSAQPEQRDQAERLLDLTLDGLKPTQPQ</Hsp_hseq>
+      <Hsp_midline>M+  T RPLRADAQRNRDKILAAAVRVF+EEGLDAH ERIA+EAGVG+GTLYRNFPTRE LIE AYRNEVARLCD+VPGLLA LPP EALRAW  RFIDYATAKLGMADALRAVV+SG DPYG SR++IQ+A+TALM+A  AAG +RSDIRSTD+FA LAGIALTS++P+QR QAERLLDL LDGL+PT P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_184936314.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Kitasatospora kifunensis]</Hit_def>
+  <Hit_accession>WP_184936314</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.923</Hsp_bit-score>
+      <Hsp_score>803</Hsp_score>
+      <Hsp_evalue>1.40571e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MTRDAGRPLRADAQRNRDKILATAVRVFTEEGLDAHFERIAREAGVGTGTLYRNFPTREALIEAAYRNEVARLCDAVPDLLATLPPSEALRVWTRRFIDYATAKFGMADALRAVVASGSNPYADSHEMIQGALTSLMDAGTAAGTIRSDIRATDMFAALAGIALTSAKPEQREQAERLLDLTLDGLKAAPPR</Hsp_hseq>
+      <Hsp_midline>M+    RPLRADAQRNRDKILA AVRVF+EEGLDAH ERIAREAGVG+GTLYRNFPTREALIEAAYRNEVARLCD+VP LLA LPP+EALR WTRRFIDYATAK GMADALRAVVASG +PY DS ++IQ ALT+LMDA  AAG IRSDIR+TDMFAALAGIALTS++P+QR QAERLLDL LDGL+   PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_067361913.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces olivochromogenes] &gt;gb|KUN48946.1| TetR family transcriptional regulator [Streptomyces olivochromogenes] &gt;dbj|GAX48784.1| TetR family transcriptional regulator [Streptomyces olivochromogenes]</Hit_def>
+  <Hit_accession>WP_067361913</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.923</Hsp_bit-score>
+      <Hsp_score>803</Hsp_score>
+      <Hsp_evalue>1.62102e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MARDTGRPLRADAQRNREKILAAAVRVFTEEGLDAHFERVAKEAGVGTGTLYRNFPTREALIEAAYRNEVSRLCEAVPGLLATMPPHEALRAWTRRFIDYATAKLGMADALRAVVASGTNPYAESHELIQAALTSLMNAATAAGAIRTDISPTDMFAALAGIALTSAGPDQREQAERLLDLTLDGLRPPPPQ</Hsp_hseq>
+      <Hsp_midline>M+  T RPLRADAQRNR+KILAAAVRVF+EEGLDAH ER+A+EAGVG+GTLYRNFPTREALIEAAYRNEV+RLC++VPGLLA +PP EALRAWTRRFIDYATAKLGMADALRAVVASG +PY +S +LIQ+ALT+LM+AA AAG IR+DI  TDMFAALAGIALTS+ PDQR QAERLLDL LDGLRP  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_075033228.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces mirabilis] &gt;emb|SFG97166.1| transcriptional regulator, TetR family [Streptomyces mirabilis]</Hit_def>
+  <Hit_accession>WP_075033228</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.383</Hsp_bit-score>
+      <Hsp_score>799</Hsp_score>
+      <Hsp_evalue>5.29614e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MARDTGRPLRADAQRNRDKILAAAVRVFTEEGLDAHFERIAREAGVGTGTLYRNFPTREALIEAAYRNEVARLCEAVPALLATMPPREALRAWTRRFIDYATAKLGMADALRAVVASGTNPYAESHELIRAALTSLMNAGTAAGAIRTDISPTDMFAALAGIALTSAGPDQREQAERLLDLTLDGLRPTPPQ</Hsp_hseq>
+      <Hsp_midline>M+  T RPLRADAQRNRDKILAAAVRVF+EEGLDAH ERIAREAGVG+GTLYRNFPTREALIEAAYRNEVARLC++VP LLA +PP EALRAWTRRFIDYATAKLGMADALRAVVASG +PY +S +LI++ALT+LM+A  AAG IR+DI  TDMFAALAGIALTS+ PDQR QAERLLDL LDGLRPT P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_126640058.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Embleya hyalina] &gt;dbj|GCD98147.1| TetR family transcriptional regulator [Embleya hyalina]</Hit_def>
+  <Hit_accession>WP_126640058</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.383</Hsp_bit-score>
+      <Hsp_score>799</Hsp_score>
+      <Hsp_evalue>5.65619e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MGREAGRPLRADAQRNRDKILAAAVRVFTEEGLDAHFERVAREAGVGTGTLYRNFPTREALIEAAYRNEVARLCDAVPGLLATMSPPEALRAWTRRFIDYATAKFGMAEALRAVVDAGTNPYADSRELIQAALSALMDANTAAGTIRTDIGPTDMFAALAGIALTSARPEQREQAERLLDLVLDGLRPVPPR</Hsp_hseq>
+      <Hsp_midline>M     RPLRADAQRNRDKILAAAVRVF+EEGLDAH ER+AREAGVG+GTLYRNFPTREALIEAAYRNEVARLCD+VPGLLA + P EALRAWTRRFIDYATAK GMA+ALRAVV +G +PY DSR+LIQ+AL+ALMDA  AAG IR+DI  TDMFAALAGIALTS+RP+QR QAERLLDLVLDGLRP  PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_099944363.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [unclassified Streptomyces] &gt;gb|PIG39335.1| TetR family transcriptional regulator [Streptomyces sp. 93] &gt;gb|PVX89095.1| TetR family transcriptional regulator [Streptomyces sp. 3212.2]</Hit_def>
+  <Hit_accession>WP_099944363</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.997</Hsp_bit-score>
+      <Hsp_score>798</Hsp_score>
+      <Hsp_evalue>8.39289e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MARDTGRPLRADAQRNREKILAAAVRVFTEEGLDAHFERIAKEAGVGTGTLYRNFPSREALIEAAYRNEVARLCEAVPELLAAMPPREALRAWTRRFIDYATAKLGMADALRAVVASGTNPYAESHELIQAALTTLMNAATAAGAIRTDISPTDMFAALAGIALTSAGPDQREQAERLLDLTLDGLRPTPPQ</Hsp_hseq>
+      <Hsp_midline>M+  T RPLRADAQRNR+KILAAAVRVF+EEGLDAH ERIA+EAGVG+GTLYRNFP+REALIEAAYRNEVARLC++VP LLA +PP EALRAWTRRFIDYATAKLGMADALRAVVASG +PY +S +LIQ+ALT LM+AA AAG IR+DI  TDMFAALAGIALTS+ PDQR QAERLLDL LDGLRPT P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_136223508.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. A1547] &gt;gb|THA40630.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. A1547]</Hit_def>
+  <Hit_accession>WP_136223508</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.612</Hsp_bit-score>
+      <Hsp_score>797</Hsp_score>
+      <Hsp_evalue>1.12837e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MAADTGRPLRADAQRNRDKILAAAVRVFTEEGLDAHYERIAKEAGVGTGTLYRNFPTRETLIETAYRNEVARLCDAVPGLLATLPPREALRAWMGRFIDYATAKLGMADALRAVVSSGSDPYGHSREMIQTAITALMEAGTAAGALRSDIRSTDVFAILAGIALTSAQPEQRDQAERLLDLTLDGLKPAQPQ</Hsp_hseq>
+      <Hsp_midline>M+  T RPLRADAQRNRDKILAAAVRVF+EEGLDAH ERIA+EAGVG+GTLYRNFPTRE LIE AYRNEVARLCD+VPGLLA LPP EALRAW  RFIDYATAKLGMADALRAVV+SG DPYG SR++IQ+A+TALM+A  AAG +RSDIRSTD+FA LAGIALTS++P+QR QAERLLDL LDGL+P  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_129294663.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces lydicus]</Hit_def>
+  <Hit_accession>WP_129294663</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.227</Hsp_bit-score>
+      <Hsp_score>796</Hsp_score>
+      <Hsp_evalue>1.63801e-105</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>RPLRADAQRNRDKILAAAVRVFTEQGLDAHFERIAQEAGVGTGTLYRNFPTREALIEAAYRNEVARLCDAVPGLLAAMPPPEALRAWTRRFIDYATAKFGMADALRAVVASGTNPYAGSHELIQAALSSLMEAGTAAGTIRSDISPTDMFAALAGIALTSAKPEQREQAERLLDLTLDGLKPAPPR</Hsp_hseq>
+      <Hsp_midline>RPLRADAQRNRDKILAAAVRVF+E+GLDAH ERIA+EAGVG+GTLYRNFPTREALIEAAYRNEVARLCD+VPGLLA +PP EALRAWTRRFIDYATAK GMADALRAVVASG +PY  S +LIQ+AL++LM+A  AAG IRSDI  TDMFAALAGIALTS++P+QR QAERLLDL LDGL+P  PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_168497759.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces sp. RLB1-33] &gt;gb|QIY74700.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. RLB1-33]</Hit_def>
+  <Hit_accession>WP_168497759</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.227</Hsp_bit-score>
+      <Hsp_score>796</Hsp_score>
+      <Hsp_evalue>1.67431e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MARDVERPLRADAQRNRDKILAAAVDVFTEEGLDAHFERIAKEAGVGTGTLYRNFPTREALIEAAYRNEVARLCEAVPGLLATMPPREALRAWTRRFIDYATAKLGMADALRAVVASGTNPYAESHELIQAALTSLVNAGTAAGAIRTDISPTDMFAALAGIALTSAGPDQREQAERLLDLTLDGLRPTPPQ</Hsp_hseq>
+      <Hsp_midline>M+   +RPLRADAQRNRDKILAAAV VF+EEGLDAH ERIA+EAGVG+GTLYRNFPTREALIEAAYRNEVARLC++VPGLLA +PP EALRAWTRRFIDYATAKLGMADALRAVVASG +PY +S +LIQ+ALT+L++A  AAG IR+DI  TDMFAALAGIALTS+ PDQR QAERLLDL LDGLRPT P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|NED91208.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. SID11233]</Hit_def>
+  <Hit_accession>NED91208</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.227</Hsp_bit-score>
+      <Hsp_score>796</Hsp_score>
+      <Hsp_evalue>1.69589e-105</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>RPLRADAQRNRDKILAAAVRVFTEEGLDAHFERIAREAGVGTGTLYRNFPTREALIEAAYRNEVARLCDAVPGLLAAMPPPEALRAWTRRFIDYATAKLGMAEALRAVVSAGTNPYADSHKMIQAALSSLMDANTAAGTIRSDISPTDMFAALAGIALTSAKPEQREQAERLLDLTLDGLKPAPSR</Hsp_hseq>
+      <Hsp_midline>RPLRADAQRNRDKILAAAVRVF+EEGLDAH ERIAREAGVG+GTLYRNFPTREALIEAAYRNEVARLCD+VPGLLA +PP EALRAWTRRFIDYATAKLGMA+ALRAVV++G +PY DS ++IQ+AL++LMDA  AAG IRSDI  TDMFAALAGIALTS++P+QR QAERLLDL LDGL+P   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_097224028.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [unclassified Streptomyces] &gt;gb|RKQ82177.1| TetR family transcriptional regulator [Streptomyces sp. 42] &gt;emb|SOE56743.1| transcriptional regulator, TetR family [Streptomyces sp. OV198]</Hit_def>
+  <Hit_accession>WP_097224028</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.227</Hsp_bit-score>
+      <Hsp_score>796</Hsp_score>
+      <Hsp_evalue>1.86829e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MARDTGRPLRADAQRNREKILDAAVRVFTEEGLDAHFERIAKEAGVGTGTLYRNFPTREALIEAAYRNEVARLCEAVPGLLATMPPREALRAWTRRFIDYATAKLGMADALRAVVASGTNPYAESHELIQAALTSLMNAGTAAGAIRTDISPTDMFAALAGIALTSAGPAQREQAERLLDLTLDGLRPTPPR</Hsp_hseq>
+      <Hsp_midline>M+  T RPLRADAQRNR+KIL AAVRVF+EEGLDAH ERIA+EAGVG+GTLYRNFPTREALIEAAYRNEVARLC++VPGLLA +PP EALRAWTRRFIDYATAKLGMADALRAVVASG +PY +S +LIQ+ALT+LM+A  AAG IR+DI  TDMFAALAGIALTS+ P QR QAERLLDL LDGLRPT PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_121414366.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. 74] &gt;gb|RLJ43889.1| TetR family transcriptional regulator [Streptomyces sp. 74]</Hit_def>
+  <Hit_accession>WP_121414366</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.227</Hsp_bit-score>
+      <Hsp_score>796</Hsp_score>
+      <Hsp_evalue>1.88888e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MARDTGRPLRADAQRNREKILDAAVRVFTEEGLDAHFERIAKEAGVGTGTLYRNFPTREALIEAAYRNEVARLCEAVPGLLATMPPREALRAWTRRFIDYATAKLGMADALRAVVASGTNPYAESHELIQAALTSLMNAGTAAGAIRTDISPTDMFAALAGIALTSATPAQREQAERLLDLTLDGLRPTPPQ</Hsp_hseq>
+      <Hsp_midline>M+  T RPLRADAQRNR+KIL AAVRVF+EEGLDAH ERIA+EAGVG+GTLYRNFPTREALIEAAYRNEVARLC++VPGLLA +PP EALRAWTRRFIDYATAKLGMADALRAVVASG +PY +S +LIQ+ALT+LM+A  AAG IR+DI  TDMFAALAGIALTS+ P QR QAERLLDL LDGLRPT P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_189306172.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces albospinus] &gt;dbj|GGU89811.1| TetR family transcriptional regulator [Streptomyces albospinus]</Hit_def>
+  <Hit_accession>WP_189306172</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.842</Hsp_bit-score>
+      <Hsp_score>795</Hsp_score>
+      <Hsp_evalue>2.40408e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR----PTAPR</Hsp_qseq>
+      <Hsp_hseq>MAPDAGRPRRADAQRNRDKILAAAVRVFTEEGLDAHFERIAKEAGVGSGTLYRNFPTREALIEAAYRNEVARLCDAVPGLLETMPPGEALRAWTRRFIDYATAKLGMADALRAVVASGADPYADSREMIQAALSSLMDAGVAAGVLRSDILPTDMFAALAGIALTSAKPEQREQAERLLDLTLDGLRAEAAPQTPK</Hsp_hseq>
+      <Hsp_midline>M+    RP RADAQRNRDKILAAAVRVF+EEGLDAH ERIA+EAGVGSGTLYRNFPTREALIEAAYRNEVARLCD+VPGLL  +PP EALRAWTRRFIDYATAKLGMADALRAVVASG DPY DSR++IQ+AL++LMDA  AAG +RSDI  TDMFAALAGIALTS++P+QR QAERLLDL LDGLR    P  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_023537950.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces niveus] &gt;gb|EST31103.1| TetR family transcriptional regulator [Streptomyces niveus NCIMB 11891]</Hit_def>
+  <Hit_accession>WP_023537950</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.842</Hsp_bit-score>
+      <Hsp_score>795</Hsp_score>
+      <Hsp_evalue>2.4173e-105</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRP</Hsp_qseq>
+      <Hsp_hseq>RPLRADAQRNRDKILAAAVRVFTEEGLDAHFERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDAVPGLLAAMSPPEALRAWTRRFVDYATAKLGMADALRAVVSSGTNPYADSHEMIQAALSSLMDANTAAGTIRSDISPTDMFAALAGIALTSAKPEQRARAERLLDLTLDGLKP</Hsp_hseq>
+      <Hsp_midline>RPLRADAQRNRDKILAAAVRVF+EEGLDAH ERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCD+VPGLLA + P EALRAWTRRF+DYATAKLGMADALRAVV+SG +PY DS ++IQ+AL++LMDA  AAG IRSDI  TDMFAALAGIALTS++P+QRA+AERLLDL LDGL+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_063351874.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. MJM8645]</Hit_def>
+  <Hit_accession>WP_063351874</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.842</Hsp_bit-score>
+      <Hsp_score>795</Hsp_score>
+      <Hsp_evalue>2.68254e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MTREAGRPLRADAQRNRDKILAAAVRVFSEEGLDAHFERIAREAGVGTGTLYRNFPTREALIEAAYRNEVARLCEAASGLLATMPPAEALRVWTRRFIDYATAKFGMADALRAVVASGSNPYADSHEMIQGALNSLMEAGAAAGTIRSDIRPTDMFAALAGIALTSAKPEQREQAERLLDLTLDGLRSGPPQ</Hsp_hseq>
+      <Hsp_midline>M+    RPLRADAQRNRDKILAAAVRVFSEEGLDAH ERIAREAGVG+GTLYRNFPTREALIEAAYRNEVARLC++  GLLA +PPAEALR WTRRFIDYATAK GMADALRAVVASG +PY DS ++IQ AL +LM+A AAAG IRSDIR TDMFAALAGIALTS++P+QR QAERLLDL LDGLR   P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_095851543.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. Ag82_O1-15] &gt;gb|PBC94753.1| TetR family transcriptional regulator [Streptomyces sp. Ag82_O1-15]</Hit_def>
+  <Hit_accession>WP_095851543</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.071</Hsp_bit-score>
+      <Hsp_score>793</Hsp_score>
+      <Hsp_evalue>4.84862e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MARDTGRPLRADAQRNREKILDAAVRVFTEEGLDAHFERIAKEAGVGTGTLYRNFPTREALIEAAYRNEVARLCEAVPGLLATMPPREALRAWTRRFIDYATAKLGMADALRAVVASGTNPYAESHELIQAALTSLMNAGTAAGAIRTDISPTDMFAALAGIALTSAGPAQREQAERLLDLTLDGLRPTPPQ</Hsp_hseq>
+      <Hsp_midline>M+  T RPLRADAQRNR+KIL AAVRVF+EEGLDAH ERIA+EAGVG+GTLYRNFPTREALIEAAYRNEVARLC++VPGLLA +PP EALRAWTRRFIDYATAKLGMADALRAVVASG +PY +S +LIQ+ALT+LM+A  AAG IR+DI  TDMFAALAGIALTS+ P QR QAERLLDL LDGLRPT P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_030667573.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces rimosus]</Hit_def>
+  <Hit_accession>WP_030667573</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>4.02154e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MARDTGRPLRADAQRNRDKILAAAVRVFTEEGLDAHFERIAREAGVGTGTLYRNFPTREILIEAAYRNEVARLCDAVPGLLASMPPREALRAWMGRFIDYATAKLGMADALRAVVASGADPYGHSHEMIQTAISTLMEAGIAAGALRSDIRPTDMFAVLAGIALTSAKPEHRDQAERLLDLTLDGLKPAPPQ</Hsp_hseq>
+      <Hsp_midline>M+  T RPLRADAQRNRDKILAAAVRVF+EEGLDAH ERIAREAGVG+GTLYRNFPTRE LIEAAYRNEVARLCD+VPGLLA +PP EALRAW  RFIDYATAKLGMADALRAVVASG DPYG S ++IQ+A++ LM+A  AAG +RSDIR TDMFA LAGIALTS++P+ R QAERLLDL LDGL+P  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_148018520.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. or43] &gt;gb|TXS35699.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. or43]</Hit_def>
+  <Hit_accession>WP_148018520</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>5.90207e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRP</Hsp_qseq>
+      <Hsp_hseq>MTRDAGRPLRADAQRNRDKILAAAVRVFTEAGLDAHFERIAREAGVGTGTLYRNFPTREALIEAAYRNEVARLCDAVPGLLAAMSPPEALRAWTRRFIDYATAKLGMADALRAVVNSGTNPYADSHEMIQAALGTLMDANTTAGTIRSDISPTDMFAALAGIALTSARPEQREQAERLLDLTLDGLKPAPSRP</Hsp_hseq>
+      <Hsp_midline>M+    RPLRADAQRNRDKILAAAVRVF+E GLDAH ERIAREAGVG+GTLYRNFPTREALIEAAYRNEVARLCD+VPGLLA + P EALRAWTRRFIDYATAKLGMADALRAVV SG +PY DS ++IQ+AL  LMDA   AG IRSDI  TDMFAALAGIALTS+RP+QR QAERLLDL LDGL+P   RP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_168513357.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces sp. S1D4-11] &gt;gb|QIY99526.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. S1D4-11]</Hit_def>
+  <Hit_accession>WP_168513357</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.99</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>7.111e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>MARDAERPLRADAQRNRDKILAAAVHVFTEEGLDAHFERIAREAGVGTGTLYRNFPTREALIEAAYRNEVARLCEAVPELLATMPPREALRAWTRRFIDYATAKLGMADALRAVVASGTNPYAESHELIQAALTSLMNAGTAAGAIRTDISPTDMFAALAGIALTSAGPGQREQAERLLDLTLDGLRPAPPQ</Hsp_hseq>
+      <Hsp_midline>M+   +RPLRADAQRNRDKILAAAV VF+EEGLDAH ERIAREAGVG+GTLYRNFPTREALIEAAYRNEVARLC++VP LLA +PP EALRAWTRRFIDYATAKLGMADALRAVVASG +PY +S +LIQ+ALT+LM+A  AAG IR+DI  TDMFAALAGIALTS+ P QR QAERLLDL LDGLRP  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_092884531.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Actinopolymorpha cephalotaxi] &gt;gb|NYH83217.1| AcrR family transcriptional regulator [Actinopolymorpha cephalotaxi] &gt;emb|SFG91331.1| DNA-binding transcriptional regulator, AcrR family [Actinopolymorpha cephalotaxi]</Hit_def>
+  <Hit_accession>WP_092884531</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>9.98849e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRP</Hsp_qseq>
+      <Hsp_hseq>MARDTERPLRADAQRNRDRILAAAVRVFTEEGLDAHFERIAREAGVGTGTLYRNFPTREILIEAAYRNEVARLCDAVPDLLATMPPREALRAWMGRFIDYATAKLGMADALRAVVASGADPYGHSRDLIQTALSTLMEAGAAAGALRSDIHPTDMFAALAGIALTSAKPEQRDQAERLLDLTMDGLRP</Hsp_hseq>
+      <Hsp_midline>M+  T+RPLRADAQRNRD+ILAAAVRVF+EEGLDAH ERIAREAGVG+GTLYRNFPTRE LIEAAYRNEVARLCD+VP LLA +PP EALRAW  RFIDYATAKLGMADALRAVVASG DPYG SR LIQ+AL+ LM+A AAAG +RSDI  TDMFAALAGIALTS++P+QR QAERLLDL +DGLRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_073732652.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. CB02488] &gt;gb|OKK24830.1| TetR family transcriptional regulator [Streptomyces sp. CB02488]</Hit_def>
+  <Hit_accession>WP_073732652</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>1.06675e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR</Hsp_qseq>
+      <Hsp_hseq>MTRDAGRPLRADAQRNRDKILAAAVRVFTEEGLDAHFERIAREAGVGTGTLYRNFPTREALIEAAYRNEVARLCDAVPGLLAAMSPPEALRAWTRRFIDYATAKLGMADALRAVVSAGTNPYADSHKMIQAALSSLMDANTAAGTIRSDISPTDMFAALAGIALTSAKPEQREQAERLLDLTLDGLK</Hsp_hseq>
+      <Hsp_midline>M+    RPLRADAQRNRDKILAAAVRVF+EEGLDAH ERIAREAGVG+GTLYRNFPTREALIEAAYRNEVARLCD+VPGLLA + P EALRAWTRRFIDYATAKLGMADALRAVV++G +PY DS ++IQ+AL++LMDA  AAG IRSDI  TDMFAALAGIALTS++P+QR QAERLLDL LDGL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|WP_033216281.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Streptomyces] &gt;gb|MYV75526.1| TetR family transcriptional regulator [Streptomyces sp. SID1046]</Hit_def>
+  <Hit_accession>WP_033216281</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.449</Hsp_bit-score>
+      <Hsp_score>781</Hsp_score>
+      <Hsp_evalue>2.32786e-103</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAP</Hsp_qseq>
+      <Hsp_hseq>RPLRADAQRNRDKILAAAVRVFTEQGLEAHFERIAKEAGVGTGTLYRNFPTKEALIEAAYRNEVARLCDSVPTLLASLPPYEALRAWTRRFIDYATAKMGMADAMRAVLAAGTDPYTDSRRMIQDALTSLMDACAAAGAIRTDISSTDMFAALAGIALTSAGPDRRDQAERLLDLNLDGLRLARP</Hsp_hseq>
+      <Hsp_midline>RPLRADAQRNRDKILAAAVRVF+E+GL+AH ERIA+EAGVG+GTLYRNFPT+EALIEAAYRNEVARLCDSVP LLA LPP EALRAWTRRFIDYATAK+GMADA+RAV+A+G DPY DSR++IQ ALT+LMDA AAAG IR+DI STDMFAALAGIALTS+ PD+R QAERLLDL LDGLR   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|WP_195900973.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Nonomuraea sp. K274] &gt;gb|MBF8192068.1| TetR/AcrR family transcriptional regulator [Nonomuraea sp. K274]</Hit_def>
+  <Hit_accession>WP_195900973</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.449</Hsp_bit-score>
+      <Hsp_score>781</Hsp_score>
+      <Hsp_evalue>2.44084e-103</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRPA</Hsp_qseq>
+      <Hsp_hseq>RPLRADAQRNRDKILAAAVRVFTEEGLDAHFERIAKEAGVGTGTLYRNFPTREVLIEAAYRNEVARLCDAVPALLATLPPDEALRAWTRRFIDYASAKLGMADALRALVASGTNPHAESHEMIQAALSSLMEAGTAAGTIRSDIRPADMFAALAGIALTSAKPEQREQAERLLDLTLDGLR-AAPKPA</Hsp_hseq>
+      <Hsp_midline>RPLRADAQRNRDKILAAAVRVF+EEGLDAH ERIA+EAGVG+GTLYRNFPTRE LIEAAYRNEVARLCD+VP LLA LPP EALRAWTRRFIDYA+AKLGMADALRA+VASG +P+ +S ++IQ+AL++LM+A  AAG IRSDIR  DMFAALAGIALTS++P+QR QAERLLDL LDGLR  AP+PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|WP_188272323.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces sp. CBMA152] &gt;gb|MBD0741303.1| TetR family transcriptional regulator [Streptomyces sp. CBMA152]</Hit_def>
+  <Hit_accession>WP_188272323</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.908</Hsp_bit-score>
+      <Hsp_score>777</Hsp_score>
+      <Hsp_evalue>1.08569e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRP</Hsp_qseq>
+      <Hsp_hseq>MARDTGRPLRADAQRNRDKILAAAVRVFTEEGLDAHFERIAREAGVGTGTLYRNFPTREALIEAAYRNEVARLCDAVPDLLATMPPREALRAWMGRFIDYATAKLGMADALRAVVASGTDPYGQSREMIQNAITTLMDAGTAVGAFRSDIRPTDLFAALAGIALTSAHPDQRDQAERLLALTLDGLTP</Hsp_hseq>
+      <Hsp_midline>M+  T RPLRADAQRNRDKILAAAVRVF+EEGLDAH ERIAREAGVG+GTLYRNFPTREALIEAAYRNEVARLCD+VP LLA +PP EALRAW  RFIDYATAKLGMADALRAVVASG DPYG SR++IQ+A+T LMDA  A G  RSDIR TD+FAALAGIALTS+ PDQR QAERLL L LDGL P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|WP_189744228.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces nojiriensis] &gt;dbj|GGS19960.1| TetR family transcriptional regulator [Streptomyces nojiriensis]</Hit_def>
+  <Hit_accession>WP_189744228</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.294</Hsp_bit-score>
+      <Hsp_score>778</Hsp_score>
+      <Hsp_evalue>1.18859e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR</Hsp_qseq>
+      <Hsp_hseq>MATDAGRPLRADAQRNRDKILAAAVRVFTEQGLEAHFERIAREAGVGTGTLYRNFPTREALIEAAYRNEVARLCDSVPALLETLPPYEALRAWTRRFIDYATAKMGMADAMRAVLAAGTNPYADSRRMIQDALTSLMEACTAAGAIRSDISSTDMFAALAGIALTSAGPGQRAQAERLLDLNLDGLR</Hsp_hseq>
+      <Hsp_midline>M+    RPLRADAQRNRDKILAAAVRVF+E+GL+AH ERIAREAGVG+GTLYRNFPTREALIEAAYRNEVARLCDSVP LL  LPP EALRAWTRRFIDYATAK+GMADA+RAV+A+G +PY DSR++IQ ALT+LM+A  AAG IRSDI STDMFAALAGIALTS+ P QRAQAERLLDL LDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|WP_150261143.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces venezuelae] &gt;gb|QES58230.1| TetR family transcriptional regulator [Streptomyces venezuelae]</Hit_def>
+  <Hit_accession>WP_150261143</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.523</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>1.98265e-102</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR-PTAPRPA</Hsp_qseq>
+      <Hsp_hseq>RPLRADAQRNRDKILAAAVRVFTEQGLEAHFERIAKEAGVGTGTLYRNFPTKEALIEAAYRNEVARLCDSVPALLGTLPPYEALRAWTRRFIDYATAKMGMADAMRAVLAAGTDPYAESRRMIQDALTSLMDACAAAGAVRTDIDSTDMFAALAGIALTSAGPDRREQAERLLDLSLDGLRYPLVRRPA</Hsp_hseq>
+      <Hsp_midline>RPLRADAQRNRDKILAAAVRVF+E+GL+AH ERIA+EAGVG+GTLYRNFPT+EALIEAAYRNEVARLCDSVP LL  LPP EALRAWTRRFIDYATAK+GMADA+RAV+A+G DPY +SR++IQ ALT+LMDA AAAG +R+DI STDMFAALAGIALTS+ PD+R QAERLLDL LDGLR P   RPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|WP_098751602.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. Ru87] &gt;gb|PGH50687.1| TetR family transcriptional regulator [Streptomyces sp. Ru87]</Hit_def>
+  <Hit_accession>WP_098751602</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.138</Hsp_bit-score>
+      <Hsp_score>775</Hsp_score>
+      <Hsp_evalue>2.55712e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAP</Hsp_qseq>
+      <Hsp_hseq>MTRAAGRPLRADARRNREKILAAAVRVFSEDGLDAHFERIAKVAGVGSGTLYRNFPTREALIEAAYRNEVARLCDAVPGLLEAMPPDEALRAWTRRFIDYATAKLGMADALRAVVDSGTNPYAESAELIQTALDSLMAAGTAAGTIRSDIRPTDMFAALAGIALTSAKPEQREQAERLLDLVLDGLKRAAP</Hsp_hseq>
+      <Hsp_midline>M+ A  RPLRADA+RNR+KILAAAVRVFSE+GLDAH ERIA+ AGVGSGTLYRNFPTREALIEAAYRNEVARLCD+VPGLL  +PP EALRAWTRRFIDYATAKLGMADALRAVV SG +PY +S +LIQ+AL +LM A  AAG IRSDIR TDMFAALAGIALTS++P+QR QAERLLDLVLDGL+  AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|WP_030389804.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Streptomyces] &gt;gb|ARE73074.1| TetR family transcriptional regulator [Streptomyces sp. Sge12] &gt;gb|KOG46322.1| TetR family transcriptional regulator [Streptomyces virginiae]</Hit_def>
+  <Hit_accession>WP_030389804</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.368</Hsp_bit-score>
+      <Hsp_score>773</Hsp_score>
+      <Hsp_evalue>3.76806e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR</Hsp_qseq>
+      <Hsp_hseq>MAADAERPLRADAQRNRDKILAAAVRVFTEQGLEAHFERIAKEAGVGTGTLYRNFPTREALIEAAYRNEVARLCDSVPTLLAAMPPYEALRDWTRRFIDYATAKMGMADAMRAVLAAGTNPYADSRRLIQDALTSLMEACTAADAIRSDITSTDMFAALAGIALTSAGPEQRAQAERLLDLTLDGLR</Hsp_hseq>
+      <Hsp_midline>M+   +RPLRADAQRNRDKILAAAVRVF+E+GL+AH ERIA+EAGVG+GTLYRNFPTREALIEAAYRNEVARLCDSVP LLA +PP EALR WTRRFIDYATAK+GMADA+RAV+A+G +PY DSR+LIQ ALT+LM+A  AA  IRSDI STDMFAALAGIALTS+ P+QRAQAERLLDL LDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|WP_156207029.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. TRM66187] &gt;gb|KAF4406826.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. TRM66187]</Hit_def>
+  <Hit_accession>WP_156207029</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.368</Hsp_bit-score>
+      <Hsp_score>773</Hsp_score>
+      <Hsp_evalue>5.32932e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAP</Hsp_qseq>
+      <Hsp_hseq>MTRAAGRPLRADARRNREKILAAAVRVFSEDGLDAHFERIAKVAGVGSGTLYRNFPTREALIEAAYRNEVARLCDAVPGLLEAMPPDEALRAWTRRFIDYATAKLGMADAMRAVVDSGTNPYAESAELIQTALDSLMAAGTAAGTIRSDIRPTDMFAALAGIALTSAKPEQREQAERLLDLVLDGLKRAAP</Hsp_hseq>
+      <Hsp_midline>M+ A  RPLRADA+RNR+KILAAAVRVFSE+GLDAH ERIA+ AGVGSGTLYRNFPTREALIEAAYRNEVARLCD+VPGLL  +PP EALRAWTRRFIDYATAKLGMADA+RAVV SG +PY +S +LIQ+AL +LM A  AAG IRSDIR TDMFAALAGIALTS++P+QR QAERLLDLVLDGL+  AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|WP_109779749.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. CG 926] &gt;gb|PWK71218.1| AcrR family transcriptional regulator [Streptomyces sp. CG 926]</Hit_def>
+  <Hit_accession>WP_109779749</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.597</Hsp_bit-score>
+      <Hsp_score>771</Hsp_score>
+      <Hsp_evalue>1.40996e-101</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR</Hsp_qseq>
+      <Hsp_hseq>RPLRADAQRNRDKILAAAVRVFTEQGLEAHFERIAKEAGVGTGTLYRNFPTKEALIEAAYRNEVARLCDSVPTLLETLPPYEALRAWTRRFIDYATAKMGMADAMRAVLAAGSDPYAESRRLIQDALTSLMDACTAAGAIRTDISSTDMFAALAGIALTSAGPDRRDQAERLLDLSLDGLR</Hsp_hseq>
+      <Hsp_midline>RPLRADAQRNRDKILAAAVRVF+E+GL+AH ERIA+EAGVG+GTLYRNFPT+EALIEAAYRNEVARLCDSVP LL  LPP EALRAWTRRFIDYATAK+GMADA+RAV+A+G DPY +SR+LIQ ALT+LMDA  AAG IR+DI STDMFAALAGIALTS+ PD+R QAERLLDL LDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|WP_079407173.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [unclassified Streptomyces] &gt;gb|MBB5096931.1| AcrR family transcriptional regulator [Streptomyces sp. 3211.5] &gt;gb|MBB5899849.1| AcrR family transcriptional regulator [Streptomyces sp. 3211.3]</Hit_def>
+  <Hit_accession>WP_079407173</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.827</Hsp_bit-score>
+      <Hsp_score>769</Hsp_score>
+      <Hsp_evalue>1.61895e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR</Hsp_qseq>
+      <Hsp_hseq>MAADAERPLRADAQRNRDKILAAAVRVFTEQGLEAHFERIAKEAGVGTGTLYRNFPTREALIEAAYRNEVARLCDSVPTLLAAMPPYEALHDWTRRFIDYATAKMGMADAMRAVLAAGTNPYADSRRLIQDALTSLMEACTAADAIRSDITSTDMFAALAGIALTSAGPEQRAQAERLLDLTLDGLR</Hsp_hseq>
+      <Hsp_midline>M+   +RPLRADAQRNRDKILAAAVRVF+E+GL+AH ERIA+EAGVG+GTLYRNFPTREALIEAAYRNEVARLCDSVP LLA +PP EAL  WTRRFIDYATAK+GMADA+RAV+A+G +PY DSR+LIQ ALT+LM+A  AA  IRSDI STDMFAALAGIALTS+ P+QRAQAERLLDL LDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|WP_031021232.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [unclassified Streptomyces]</Hit_def>
+  <Hit_accession>WP_031021232</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>2.58719e-101</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>KRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTA</Hsp_qseq>
+      <Hsp_hseq>HRPLRADAQRNRDRILAAAVRVFSEEGLDAHFERIAREAGVGSGTLYRNFPTREALVEAAYRSELARLCDAVPGLLAAMPPFEALRAWTRHFMDYVTAKFGMADALQAVVASGSDPYNESHRMIQTALTSLLEAGTTAGEIRSDISPADMFAALTGIALTSGKPDQRDQAERLIDLTLDGLRPVS</Hsp_hseq>
+      <Hsp_midline> RPLRADAQRNRD+ILAAAVRVFSEEGLDAH ERIAREAGVGSGTLYRNFPTREAL+EAAYR+E+ARLCD+VPGLLA +PP EALRAWTR F+DY TAK GMADAL+AVVASG DPY +S ++IQ+ALT+L++A   AGEIRSDI   DMFAAL GIALTS +PDQR QAERL+DL LDGLRP +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|WP_053704930.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. WM6368] &gt;gb|KOU15960.1| TetR family transcriptional regulator [Streptomyces sp. WM6368]</Hit_def>
+  <Hit_accession>WP_053704930</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.056</Hsp_bit-score>
+      <Hsp_score>767</Hsp_score>
+      <Hsp_evalue>3.19421e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR</Hsp_qseq>
+      <Hsp_hseq>MAADAERPLRADAQRNRDKILAAAVRVFTEQGLEAHFERIAKEAGVGTGTLYRNFPTREALIEAAYRNEVARLCDSVPTLLAAMPPYEALRDWTRRFIDYATAKMGMADAMRAVLAAGTNPYADSRRLIQDALASLMEACTAADAIRSDITSTDMFAALAGIALTSAGPEQRAQAERLLDLTLDGLR</Hsp_hseq>
+      <Hsp_midline>M+   +RPLRADAQRNRDKILAAAVRVF+E+GL+AH ERIA+EAGVG+GTLYRNFPTREALIEAAYRNEVARLCDSVP LLA +PP EALR WTRRFIDYATAK+GMADA+RAV+A+G +PY DSR+LIQ AL +LM+A  AA  IRSDI STDMFAALAGIALTS+ P+QRAQAERLLDL LDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|WP_006131925.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Streptomyces] &gt;gb|EMF29020.1| TetR family transcriptional regulator [Streptomyces gancidicus BKS 13-15] &gt;dbj|GGQ08406.1| TetR family transcriptional regulator [Streptomyces gancidicus]</Hit_def>
+  <Hit_accession>WP_006131925</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>299.671</Hsp_bit-score>
+      <Hsp_score>766</Hsp_score>
+      <Hsp_evalue>5.10421e-101</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>KRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTA</Hsp_qseq>
+      <Hsp_hseq>HRPLRADAQRNRDRILAAAVRVFSEEGLDAHFERIAREAGVGSGTLYRNFPTREALVEAAYRSELARLCDAVPGLLAAMPPFEALRAWTRHFMDYVTAKFGMADALQAVVASGSDPYNESHRMIQAALTSLLEAGTTAGEIRSDISPADMFAALTGIALTSGKPDQRDQAERLIDLTLDGLRPVS</Hsp_hseq>
+      <Hsp_midline> RPLRADAQRNRD+ILAAAVRVFSEEGLDAH ERIAREAGVGSGTLYRNFPTREAL+EAAYR+E+ARLCD+VPGLLA +PP EALRAWTR F+DY TAK GMADAL+AVVASG DPY +S ++IQ+ALT+L++A   AGEIRSDI   DMFAAL GIALTS +PDQR QAERL+DL LDGLRP +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|WP_189966071.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces avidinii]</Hit_def>
+  <Hit_accession>WP_189966071</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>2.9556e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR</Hsp_qseq>
+      <Hsp_hseq>MAAEAERPLRADAQRNRDKILAAAVRVFTEQGLEAHFERIAKEAGVGTGTLYRNFPTREALIEAAYRNEVARLCDAVPTLLETMPPDRALHAWTRRFIDYATAKMGMADAMRAVLVAGTNPYADSRRLIQDALTSLMEACTAANAIRSDITSTDMFAALAGIALTSAGPEQRAQAERLLDLTLDGLR</Hsp_hseq>
+      <Hsp_midline>M+   +RPLRADAQRNRDKILAAAVRVF+E+GL+AH ERIA+EAGVG+GTLYRNFPTREALIEAAYRNEVARLCD+VP LL  +PP  AL AWTRRFIDYATAK+GMADA+RAV+ +G +PY DSR+LIQ ALT+LM+A  AA  IRSDI STDMFAALAGIALTS+ P+QRAQAERLLDL LDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|WP_030724080.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. NRRL S-237]</Hit_def>
+  <Hit_accession>WP_030724080</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>5.79602e-100</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPR</Hsp_qseq>
+      <Hsp_hseq>RPLRADAQRNRDKILAAAVRVFTEQGLEAHFDRIAKEAGVGTGTLYRNFPTKEALIEAAYRNEVARLCDSVPTLLESLPPYEALRAWTRRFIDYATAKMGMADAMRAVLAAGTDPYTDSRRMIQDALTSLMDACTAAGVIRTDISSSDMFAALAGIALTSAGPGRRDQAERLLDLNLDGLRLGRPR</Hsp_hseq>
+      <Hsp_midline>RPLRADAQRNRDKILAAAVRVF+E+GL+AH +RIA+EAGVG+GTLYRNFPT+EALIEAAYRNEVARLCDSVP LL  LPP EALRAWTRRFIDYATAK+GMADA+RAV+A+G DPY DSR++IQ ALT+LMDA  AAG IR+DI S+DMFAALAGIALTS+ P +R QAERLLDL LDGLR   PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|WP_030770324.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [unclassified Streptomyces]</Hit_def>
+  <Hit_accession>WP_030770324</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>7.61325e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR</Hsp_qseq>
+      <Hsp_hseq>MAAEAGRPLRADAQRNRDKILAAAVRVFTEQGLEAHFERIAKEAGVGTGTLYRNFPTKEALIEAAYRNEVARLCDSVPTLLESRPPYEALRAWTRRFIDYATAKMGMADAMRAVLAAGSDPYAESRRMIQDALTSLMDACTAVGAIRTDISSTDMFAALAGIALTSAGPDRRDQAERLLDLSLDGLR</Hsp_hseq>
+      <Hsp_midline>M+    RPLRADAQRNRDKILAAAVRVF+E+GL+AH ERIA+EAGVG+GTLYRNFPT+EALIEAAYRNEVARLCDSVP LL   PP EALRAWTRRFIDYATAK+GMADA+RAV+A+G DPY +SR++IQ ALT+LMDA  A G IR+DI STDMFAALAGIALTS+ PD+R QAERLLDL LDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|WP_134076223.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. 25] &gt;gb|TDX48649.1| TetR family transcriptional regulator [Streptomyces sp. 25]</Hit_def>
+  <Hit_accession>WP_134076223</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>2.01599e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRP</Hsp_qseq>
+      <Hsp_hseq>MTPDAARPLRADAQRNRDKILAAAVRVFTEEGLDAHLERIARAAGVGTATLYRNFPTREALVEAAYRNEVAQLRDAVPGLLAAQPPYEALRAWTRLFMDYATAKLGMADALRAIAASGSNPYAHSHDMIQSAIAALMDACAEAGAIRTDIGPTDMFAALAGIALTSAKPEQRAQAERLLDLTLDGLRP</Hsp_hseq>
+      <Hsp_midline>M+    RPLRADAQRNRDKILAAAVRVF+EEGLDAHLERIAR AGVG+ TLYRNFPTREAL+EAAYRNEVA+L D+VPGLLA  PP EALRAWTR F+DYATAKLGMADALRA+ ASG +PY  S  +IQSA+ ALMDA A AG IR+DI  TDMFAALAGIALTS++P+QRAQAERLLDL LDGLRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>ref|WP_132597142.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Nonomuraea deserti] &gt;gb|TDD02948.1| TetR family transcriptional regulator [Nonomuraea deserti]</Hit_def>
+  <Hit_accession>WP_132597142</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>3.54755e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR</Hsp_qseq>
+      <Hsp_hseq>MSKDAARPLRADARRNREKIITAAVSVFAEEGLDAHLERIAKEAGVGTATLYRNFPTREALIEAVYRNEVAQLCDAVPGLLAAHPPYEALRAWTRLFLDYVTAKLGMADALRAIVATGGNPYGHSRDMIQAAITALMDACAAAGTIRTDISPADMGAALAGIALTSARPEQREQAERLLDLTLDGLK</Hsp_hseq>
+      <Hsp_midline>MS    RPLRADA+RNR+KI+ AAV VF+EEGLDAHLERIA+EAGVG+ TLYRNFPTREALIEA YRNEVA+LCD+VPGLLA  PP EALRAWTR F+DY TAKLGMADALRA+VA+GG+PYG SR +IQ+A+TALMDA AAAG IR+DI   DM AALAGIALTS+RP+QR QAERLLDL LDGL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|WP_053688046.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [unclassified Streptomyces] &gt;gb|KOU32223.1| TetR family transcriptional regulator [Streptomyces sp. WM6372] &gt;gb|RIA63626.1| TetR family transcriptional regulator [Streptomyces sp. 3211.1]</Hit_def>
+  <Hit_accession>WP_053688046</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>4.02087e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRP</Hsp_qseq>
+      <Hsp_hseq>MTPDAARPLRADAQRNRDKILAAAVRVFTEEGLDAHLERIAREAGVGTATLYRNFPTREALVEAAYRNEVAQLRDAVPGLLAAQPPYEALRAWTRLFMDYATAKLGMADALRAIAASGSNPYAHSHDMIQSAIAALMDACTDAGAIRTDISATDLFAALAGIALTSAKPEQRQQAERLLDLTLDGLRP</Hsp_hseq>
+      <Hsp_midline>M+    RPLRADAQRNRDKILAAAVRVF+EEGLDAHLERIAREAGVG+ TLYRNFPTREAL+EAAYRNEVA+L D+VPGLLA  PP EALRAWTR F+DYATAKLGMADALRA+ ASG +PY  S  +IQSA+ ALMDA   AG IR+DI +TD+FAALAGIALTS++P+QR QAERLLDL LDGLRP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>ref|WP_030879425.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces varsoviensis] &gt;gb|KOG91825.1| TetR family transcriptional regulator [Streptomyces varsoviensis]</Hit_def>
+  <Hit_accession>WP_030879425</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.967</Hsp_bit-score>
+      <Hsp_score>746</Hsp_score>
+      <Hsp_evalue>7.63879e-98</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAP</Hsp_qseq>
+      <Hsp_hseq>RPLRADAQRNRDKILATAVRVFTEEGLDAHLERIAKEAGVGTGTLYRNFPTREALVEAAYRNEVARLCDAAPELLAELPPREALREWTYRFIDYAGAKLGMADALRAAVASGANPYADSRTMIQSALSALMEAGAAAGTIRPEIHPTDLFAALAGIALTSAAPDQRDQAERLIGITLRGLEPEPP</Hsp_hseq>
+      <Hsp_midline>RPLRADAQRNRDKILA AVRVF+EEGLDAHLERIA+EAGVG+GTLYRNFPTREAL+EAAYRNEVARLCD+ P LLAELPP EALR WT RFIDYA AKLGMADALRA VASG +PY DSR +IQSAL+ALM+A AAAG IR +I  TD+FAALAGIALTS+ PDQR QAERL+ + L GL P  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|WP_149511325.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. SUN51] &gt;gb|KAA0939392.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. SUN51]</Hit_def>
+  <Hit_accession>WP_149511325</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.197</Hsp_bit-score>
+      <Hsp_score>744</Hsp_score>
+      <Hsp_evalue>1.12116e-97</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>KRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPT</Hsp_qseq>
+      <Hsp_hseq>HRPLRADAQRNRDKILTAAVRVFTEEGLDAHYERIAREAGVGSGTLYRNFPTREALVEAAYRSELARLCEAVPGLLATLPPHEALRAWTRHFMDYVTAKFGMADALQAVVAAGSDPYNESHQMIQAALTSLMEAGTAAGEIRSDVSPADLFAALTGIALISAGPERRDQAERLIDLTLDGLRAT</Hsp_hseq>
+      <Hsp_midline> RPLRADAQRNRDKIL AAVRVF+EEGLDAH ERIAREAGVGSGTLYRNFPTREAL+EAAYR+E+ARLC++VPGLLA LPP EALRAWTR F+DY TAK GMADAL+AVVA+G DPY +S Q+IQ+ALT+LM+A  AAGEIRSD+   D+FAAL GIAL S+ P++R QAERL+DL LDGLR T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|WP_148640494.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. CB01881] &gt;gb|AUY47659.1| TetR family transcriptional regulator [Streptomyces sp. CB01881] &gt;gb|TYC76132.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. CB01881]</Hit_def>
+  <Hit_accession>WP_148640494</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.886</Hsp_bit-score>
+      <Hsp_score>738</Hsp_score>
+      <Hsp_evalue>8.08425e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR</Hsp_qseq>
+      <Hsp_hseq>MTTGTGRPLRADARRNREKILSVAVRVFAEEGLDAHLERIAKEAGVGSGTLYRNFPTREALIEAAYRNELSRLCDAAPDLLAAMPPREALRAWMGRFIDYATAKLGMAEALRAVVDSGVNPYAHSRELMMTALTSLLDAATAAGTIRSDISAGDMFAALTGVALASGRPEQREQAERLLDLVLDGLR</Hsp_hseq>
+      <Hsp_midline>M+  T RPLRADA+RNR+KIL+ AVRVF+EEGLDAHLERIA+EAGVGSGTLYRNFPTREALIEAAYRNE++RLCD+ P LLA +PP EALRAW  RFIDYATAKLGMA+ALRAVV SG +PY  SR+L+ +ALT+L+DAA AAG IRSDI + DMFAAL G+AL S RP+QR QAERLLDLVLDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|WP_030186869.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. NRRL S-813]</Hit_def>
+  <Hit_accession>WP_030186869</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.115</Hsp_bit-score>
+      <Hsp_score>736</Hsp_score>
+      <Hsp_evalue>1.87964e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR</Hsp_qseq>
+      <Hsp_hseq>MTSSTGRPLRADARRNREKILAVAARVFAEEGLDAHFERIAKEAGVGSGTLYRNFPTREALIEAAYRNELSRLCDAAPDLLAAMPPQEALRAWMGRFIDYATAKLGMAEALRAVVDSGVNPYAQSRELIMNALTSLMDAATAAGTIRSDISASDMFAALTGVALASGRLDQREQAERLLDLTLDGLR</Hsp_hseq>
+      <Hsp_midline>M+ +T RPLRADA+RNR+KILA A RVF+EEGLDAH ERIA+EAGVGSGTLYRNFPTREALIEAAYRNE++RLCD+ P LLA +PP EALRAW  RFIDYATAKLGMA+ALRAVV SG +PY  SR+LI +ALT+LMDAA AAG IRSDI ++DMFAAL G+AL S R DQR QAERLLDL LDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|WP_132504871.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Nonomuraea diastatica] &gt;gb|TDD24767.1| TetR/AcrR family transcriptional regulator [Nonomuraea diastatica]</Hit_def>
+  <Hit_accession>WP_132504871</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.96</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>5.19232e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR</Hsp_qseq>
+      <Hsp_hseq>MSKDAQRPLRADARRNREKIITAAVSVFAEVGLDAHLERIAKEAGVGTATLYRNFPTRDALIEAVYRNEVAQLCDAVPGLLAAHPPGEALRAWTRLFLDYVTAKVGMADALRAIVATGGNPYGHSRDMIQAAIAVLMDACAAAGEIRTDISPADMGAALAGIALTSAKPEQREQAERLLDLTLDGLK</Hsp_hseq>
+      <Hsp_midline>MS   +RPLRADA+RNR+KI+ AAV VF+E GLDAHLERIA+EAGVG+ TLYRNFPTR+ALIEA YRNEVA+LCD+VPGLLA  PP EALRAWTR F+DY TAK+GMADALRA+VA+GG+PYG SR +IQ+A+  LMDA AAAGEIR+DI   DM AALAGIALTS++P+QR QAERLLDL LDGL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|WP_030869860.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. NRRL F-2747]</Hit_def>
+  <Hit_accession>WP_030869860</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.189</Hsp_bit-score>
+      <Hsp_score>731</Hsp_score>
+      <Hsp_evalue>1.04009e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAP</Hsp_qseq>
+      <Hsp_hseq>MTPDAARPLRADAQRNRDKILAAAVRVFTEEGLDAHLERIAREAGVGTATLYRNFPTREALVEEAYRNEVARLRDVVPELLAAQPPYEALRAWTRLFMDYATAKLGMADALRAIAASGSNPYAHSHDMIRTAITALMDACAEAGAIRTDIGPTDMFAALAGIALTSAAPDQREQAERLLDLTLDGLRRPVP</Hsp_hseq>
+      <Hsp_midline>M+    RPLRADAQRNRDKILAAAVRVF+EEGLDAHLERIAREAGVG+ TLYRNFPTREAL+E AYRNEVARL D VP LLA  PP EALRAWTR F+DYATAKLGMADALRA+ ASG +PY  S  +I++A+TALMDA A AG IR+DI  TDMFAALAGIALTS+ PDQR QAERLLDL LDGLR   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|WP_093470069.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces melanosporofaciens] &gt;emb|SED65830.1| DNA-binding transcriptional regulator, AcrR family [Streptomyces melanosporofaciens]</Hit_def>
+  <Hit_accession>WP_093470069</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>6.45471e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR</Hsp_qseq>
+      <Hsp_hseq>MADSAQRPLRADARRNRDKILAAAVRVFAEEGLDAHLERIAKEAGVGSATLYRNFATREALIEAVYRNEVAQLCDAVPDLLEEKPPYEALRAWTRLFLDYVTAKFGMADALRAIAATGSNPYGHSRDMIQAAITTLMDACAAAGTIRTDITPTDMGAALEGIAVTSAMPEHRERAERLLDLTLDGLR</Hsp_hseq>
+      <Hsp_midline>M+D+ +RPLRADA+RNRDKILAAAVRVF+EEGLDAHLERIA+EAGVGS TLYRNF TREALIEA YRNEVA+LCD+VP LL E PP EALRAWTR F+DY TAK GMADALRA+ A+G +PYG SR +IQ+A+T LMDA AAAG IR+DI  TDM AAL GIA+TS+ P+ R +AERLLDL LDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>ref|WP_119100441.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sporangiiformans] &gt;gb|TPQ21982.1| TetR/AcrR family transcriptional regulator [Streptomyces sporangiiformans]</Hit_def>
+  <Hit_accession>WP_119100441</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>1.20536e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGL</Hsp_qseq>
+      <Hsp_hseq>MAKDAQRPLRADARRNRDKILEAAVSVFTEEGLDAHLERIAKAAGVGSATLYRNFPTREALIEAVYRNEVAQLCDAVPDLLATKPPHEALRVWTRLFLDYVTAKLGMVDALRAIAATGENPYGHSREMIQAAITALMDACAAAGTIRTDISPSDMGAALAGIALTSAQPEQRKQAERLLDLTLDGL</Hsp_hseq>
+      <Hsp_midline>M+   +RPLRADA+RNRDKIL AAV VF+EEGLDAHLERIA+ AGVGS TLYRNFPTREALIEA YRNEVA+LCD+VP LLA  PP EALR WTR F+DY TAKLGM DALRA+ A+G +PYG SR++IQ+A+TALMDA AAAG IR+DI  +DM AALAGIALTS++P+QR QAERLLDL LDGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|WP_128505671.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. NEAU-D10] &gt;gb|REK90464.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. NEAU-D10]</Hit_def>
+  <Hit_accession>WP_128505671</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>3.16569e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGL</Hsp_qseq>
+      <Hsp_hseq>MTRETGRALRADAQRNRDKILSAAVRVFAEQGLDAHLERIAKEAGVGTGTLYRNFPTREILIEAAYRNELSRLCDAAPDLLATMPPREALRAWMGRFIDYATAKLGMADALRALVESGVNPYAQSHEMMLAALTSLLDAGVSAGTIRSDIGATDMFAGLTGIALTSGKPEQRAQAERLLDLALDGL</Hsp_hseq>
+      <Hsp_midline>M+  T R LRADAQRNRDKIL+AAVRVF+E+GLDAHLERIA+EAGVG+GTLYRNFPTRE LIEAAYRNE++RLCD+ P LLA +PP EALRAW  RFIDYATAKLGMADALRA+V SG +PY  S +++ +ALT+L+DA  +AG IRSDI +TDMFA L GIALTS +P+QRAQAERLLDL LDGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>gb|RVU17617.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. San01]</Hit_def>
+  <Hit_accession>RVU17617</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.722</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>3.41358e-94</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR</Hsp_qseq>
+      <Hsp_hseq>RPMRADARRNREKILSVAVRVFAEEGLDAHLERIAKEAGVGSGTLYRNFPTREALIEAAYRNELSRLCDAAPDLLAAMPPREALRAWMGRFIDYATAKLGMAEALRAVVDSGVNPYAHSRELMMTALTSLLDAATAAGTIRSDISAADMFAALTGVALASGKPEQREQAERLLDLTLDGLR</Hsp_hseq>
+      <Hsp_midline>RP+RADA+RNR+KIL+ AVRVF+EEGLDAHLERIA+EAGVGSGTLYRNFPTREALIEAAYRNE++RLCD+ P LLA +PP EALRAW  RFIDYATAKLGMA+ALRAVV SG +PY  SR+L+ +ALT+L+DAA AAG IRSDI + DMFAAL G+AL S +P+QR QAERLLDL LDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|WP_189423698.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Streptomyces] &gt;dbj|GGT20394.1| TetR family transcriptional regulator [Streptomyces griseoviridis] &gt;dbj|GGU60505.1| TetR family transcriptional regulator [Streptomyces daghestanicus]</Hit_def>
+  <Hit_accession>WP_189423698</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>4.07296e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRP</Hsp_qseq>
+      <Hsp_hseq>MAEDTRRPLRADARRNREKILTAAVRVFAEEGLDAHLERVAKAAGVGSATLYRNFPTREALIEAVYRNEVAQLCEAVPGLLAARPPYEALRAWTRLFLDYVTAKLGMAEALRAIAATGGNPYGQSRDMIEAALSDLMDACVAAGAIRSDVAPGDVSAALAGIALSSARPDQRDQAERLLDLVLDGL--TVRRP</Hsp_hseq>
+      <Hsp_midline>M++ T+RPLRADA+RNR+KIL AAVRVF+EEGLDAHLER+A+ AGVGS TLYRNFPTREALIEA YRNEVA+LC++VPGLLA  PP EALRAWTR F+DY TAKLGMA+ALRA+ A+GG+PYG SR +I++AL+ LMDA  AAG IRSD+   D+ AALAGIAL+S+RPDQR QAERLLDLVLDGL  T  RP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>ref|WP_100607199.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. CB02959] &gt;gb|PJN33493.1| TetR family transcriptional regulator [Streptomyces sp. CB02959]</Hit_def>
+  <Hit_accession>WP_100607199</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>4.43989e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAP</Hsp_qseq>
+      <Hsp_hseq>MVDAGQRPLRADARRNREKILTAAVRVFAAEGLDAHLERIAKEAGVGSATLYRNFPTREALVEAVYRNEVAQLCDAAPTLLAAKPPYEALRAWTRLFLDYVTAKYGMIDALRAIAATGSNPYGHSREMIRTALASLMDACAAAGTIRTDISPTDLSAALEGIALTSARPEQRAQAERLLDLTLDGLK-TCP</Hsp_hseq>
+      <Hsp_midline>M DA +RPLRADA+RNR+KIL AAVRVF+ EGLDAHLERIA+EAGVGS TLYRNFPTREAL+EA YRNEVA+LCD+ P LLA  PP EALRAWTR F+DY TAK GM DALRA+ A+G +PYG SR++I++AL +LMDA AAAG IR+DI  TD+ AAL GIALTS+RP+QRAQAERLLDL LDGL+ T P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|WP_039654326.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces sp. MUSC 125] &gt;gb|KIE25414.1| TetR family transcriptional regulator [Streptomyces sp. MUSC 125]</Hit_def>
+  <Hit_accession>WP_039654326</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>5.19032e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR</Hsp_qseq>
+      <Hsp_hseq>MTTDSERPLRADARRNREKILSAAVRVFAEEGLEAHLERIAKEAGVGSGTLYRNFPTREALIEATYRNELSRLCDAAPSLLAAMPPREALRAWMGRFIDYATAKLGMAEALRAVVDSGVNPYAQSRELIMNALTSLLDAATAAGTIRSDITPSVMFAALTGIALASGKPEEREQAERLLDLTLDGLR</Hsp_hseq>
+      <Hsp_midline>M+  ++RPLRADA+RNR+KIL+AAVRVF+EEGL+AHLERIA+EAGVGSGTLYRNFPTREALIEA YRNE++RLCD+ P LLA +PP EALRAW  RFIDYATAKLGMA+ALRAVV SG +PY  SR+LI +ALT+L+DAA AAG IRSDI  + MFAAL GIAL S +P++R QAERLLDL LDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|WP_190012043.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces niveoruber] &gt;dbj|GGS65873.1| TetR family transcriptional regulator [Streptomyces niveoruber]</Hit_def>
+  <Hit_accession>WP_190012043</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.182</Hsp_bit-score>
+      <Hsp_score>718</Hsp_score>
+      <Hsp_evalue>1.0002e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTAPRP</Hsp_qseq>
+      <Hsp_hseq>MAEDTRRPLRADARRNREKILTAAVRVFAEEGLDAHLERVAKAAGVGSATLYRNFPTREALIEAVYRNEVAQLCEAVPGLLAARPPYEALRAWTRLFLDYVTAKLGMAEALRAIAATGGNPYGQSRDMIEAALSDLMDACVAVGAIRSDVAPGDVSAALAGIALSSARPDQRDQAERLLDLVLDGL--TVRRP</Hsp_hseq>
+      <Hsp_midline>M++ T+RPLRADA+RNR+KIL AAVRVF+EEGLDAHLER+A+ AGVGS TLYRNFPTREALIEA YRNEVA+LC++VPGLLA  PP EALRAWTR F+DY TAKLGMA+ALRA+ A+GG+PYG SR +I++AL+ LMDA  A G IRSD+   D+ AALAGIAL+S+RPDQR QAERLLDLVLDGL  T  RP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|WP_132638636.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Nonomuraea mesophila] &gt;gb|TDE33138.1| TetR/AcrR family transcriptional regulator [Nonomuraea mesophila]</Hit_def>
+  <Hit_accession>WP_132638636</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.182</Hsp_bit-score>
+      <Hsp_score>718</Hsp_score>
+      <Hsp_evalue>1.0322e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR</Hsp_qseq>
+      <Hsp_hseq>MSTDAPRPLRADARRNREKIIAAAASVFAEEGLDAHLERIAKEAGVGTATLYRNFPTRDALIEAVYRNEVAQLCDAVPGLLTAHPPDDALRAWTRLFLDYVTAKLGMADALRAIVATGGNPYGHSRDMIQAAITTLMDACAAAGTIRTDISPADLGAALAGIALTSAEPDQRDRAERLLDLTLDGLR</Hsp_hseq>
+      <Hsp_midline>MS    RPLRADA+RNR+KI+AAA  VF+EEGLDAHLERIA+EAGVG+ TLYRNFPTR+ALIEA YRNEVA+LCD+VPGLL   PP +ALRAWTR F+DY TAKLGMADALRA+VA+GG+PYG SR +IQ+A+T LMDA AAAG IR+DI   D+ AALAGIALTS+ PDQR +AERLLDL LDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|WP_191063569.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces sp. 5-10] &gt;gb|MBD3003496.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. 5-10]</Hit_def>
+  <Hit_accession>WP_191063569</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>1.29923e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR</Hsp_qseq>
+      <Hsp_hseq>MTGSAPRPLRADARRNRDKILAAAVRVFAEEGLDAHLERIAKEAGVGSATLYRNFATREALIEAVYRNEVAQLCDAVPDLLAEQPPYEALRAWTRLFLDYVTAKFGMADALRAIAATGNNPYGHSRDMIQAAITTLLDACAAAGAIRTDISPTDMGAALEGIALTSAEPEHRERAERLLDLTLDGLK</Hsp_hseq>
+      <Hsp_midline>M+ +  RPLRADA+RNRDKILAAAVRVF+EEGLDAHLERIA+EAGVGS TLYRNF TREALIEA YRNEVA+LCD+VP LLAE PP EALRAWTR F+DY TAK GMADALRA+ A+G +PYG SR +IQ+A+T L+DA AAAG IR+DI  TDM AAL GIALTS+ P+ R +AERLLDL LDGL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gb|KIF00598.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces sp. RSD-27]</Hit_def>
+  <Hit_accession>KIF00598</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>1.93008e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGL</Hsp_qseq>
+      <Hsp_hseq>MARETGRPLRADAQRNRDKILSAAVRVFAEEGLEAHLERIAKKAGVGSGTLYRNFPTREALIEAAYRNELIRLCDAAPELLATLAPREALRAWTGRFIDYATAKLGMADALRALVESGVNPYAQSHEMMMAALTSLLAAGTEAGTIRSDISATDLFAALTGIALTSGKPEQREQAERLLDLTLDGL</Hsp_hseq>
+      <Hsp_midline>M+  T RPLRADAQRNRDKIL+AAVRVF+EEGL+AHLERIA++AGVGSGTLYRNFPTREALIEAAYRNE+ RLCD+ P LLA L P EALRAWT RFIDYATAKLGMADALRA+V SG +PY  S +++ +ALT+L+ A   AG IRSDI +TD+FAAL GIALTS +P+QR QAERLLDL LDGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|WP_037908451.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces yeochonensis]</Hit_def>
+  <Hit_accession>WP_037908451</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.411</Hsp_bit-score>
+      <Hsp_score>716</Hsp_score>
+      <Hsp_evalue>2.17728e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTA</Hsp_qseq>
+      <Hsp_hseq>MSTGTGRPLRADAQRNRDKILSTASRVFAEQGLDAHLEHIAKEAGVGTATLYRNFPTRELLIEAAYRNELARLCDAAPRLLADLPPREALRDWMGRFIDYATAKLGMAEALRAVVESGVNPYAHSRELMLEALTALMAAGASAGTIRSDISATDMFAALTGIALASGKPDQRDQAERLLDLTLDGLSGNA</Hsp_hseq>
+      <Hsp_midline>MS  T RPLRADAQRNRDKIL+ A RVF+E+GLDAHLE IA+EAGVG+ TLYRNFPTRE LIEAAYRNE+ARLCD+ P LLA+LPP EALR W  RFIDYATAKLGMA+ALRAVV SG +PY  SR+L+  ALTALM A A+AG IRSDI +TDMFAAL GIAL S +PDQR QAERLLDL LDGL   A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>ref|WP_020874187.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces rapamycinicus] &gt;gb|AGP60707.1| TetR family transcriptional regulator [Streptomyces rapamycinicus NRRL 5491] &gt;gb|MBB4788127.1| AcrR family transcriptional regulator [Streptomyces rapamycinicus] &gt;gb|RLV72463.1| TetR family transcriptional regulator [Streptomyces rapamycinicus NRRL 5491]</Hit_def>
+  <Hit_accession>WP_020874187</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.026</Hsp_bit-score>
+      <Hsp_score>715</Hsp_score>
+      <Hsp_evalue>2.68476e-93</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGL</Hsp_qseq>
+      <Hsp_hseq>RPLRADAQRNREKILSAAVRVFAEEGLDAHLERIAKEAGVGTGTLYRNFPTRELLIEAAYRNELARLCDAAPELLAALPPREALRAWLARFMDYANAKLGMADALRGVVASGVNPYARSHEMIQDALSRLMDAAVAAGVIRSDITATDMFAALTGIALASGKPEQREQADRLLDLTLDGL</Hsp_hseq>
+      <Hsp_midline>RPLRADAQRNR+KIL+AAVRVF+EEGLDAHLERIA+EAGVG+GTLYRNFPTRE LIEAAYRNE+ARLCD+ P LLA LPP EALRAW  RF+DYA AKLGMADALR VVASG +PY  S ++IQ AL+ LMDAA AAG IRSDI +TDMFAAL GIAL S +P+QR QA+RLLDL LDGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>ref|WP_078659448.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces rimosus]</Hit_def>
+  <Hit_accession>WP_078659448</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.026</Hsp_bit-score>
+      <Hsp_score>715</Hsp_score>
+      <Hsp_evalue>2.76696e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGL</Hsp_qseq>
+      <Hsp_hseq>MTDGAPRPMRADARRNREKILTAAVRVFTTEGLDAHLERIAKEAGVGSATLYRNFPTREALVEAVYRNEVAHLCDAAPALLAQKPPTEALRAWTRLFLDYVTAKYGMIDALRAIAAQGSNPYGHSREMIQAAITSLMDACAAAGEIRTDIRPTDLSAALEGIALTSAGTEHRQQAERLLDLTLDGL</Hsp_hseq>
+      <Hsp_midline>M+D   RP+RADA+RNR+KIL AAVRVF+ EGLDAHLERIA+EAGVGS TLYRNFPTREAL+EA YRNEVA LCD+ P LLA+ PP EALRAWTR F+DY TAK GM DALRA+ A G +PYG SR++IQ+A+T+LMDA AAAGEIR+DIR TD+ AAL GIALTS+  + R QAERLLDL LDGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>ref|WP_086882175.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces rhizosphaericus]</Hit_def>
+  <Hit_accession>WP_086882175</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.026</Hsp_bit-score>
+      <Hsp_score>715</Hsp_score>
+      <Hsp_evalue>3.03268e-93</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGL</Hsp_qseq>
+      <Hsp_hseq>RPLRADAQRNREKILSAAVRVFAEEGLDAHLERIAKEAGVGTGTLYRNFPTRELLIEAAYRNELARLCDAAPELLAALPPREALRAWLARFMDYANAKLGMADALRGVVASGVNPYAQSHEMIQDALSRLMDAAVTAGVIRSDISATDMFAALTGIALASGKPEQREQADRLLDLTLDGL</Hsp_hseq>
+      <Hsp_midline>RPLRADAQRNR+KIL+AAVRVF+EEGLDAHLERIA+EAGVG+GTLYRNFPTRE LIEAAYRNE+ARLCD+ P LLA LPP EALRAW  RF+DYA AKLGMADALR VVASG +PY  S ++IQ AL+ LMDAA  AG IRSDI +TDMFAAL GIAL S +P+QR QA+RLLDL LDGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|WP_093469533.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces melanosporofaciens] &gt;emb|SED56461.1| DNA-binding transcriptional regulator, AcrR family [Streptomyces melanosporofaciens]</Hit_def>
+  <Hit_accession>WP_093469533</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.026</Hsp_bit-score>
+      <Hsp_score>715</Hsp_score>
+      <Hsp_evalue>3.49217e-93</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGL</Hsp_qseq>
+      <Hsp_hseq>RPLRADAQRNREKILSAAVRVFAEEGLDAHLERIAKEAGVGTGTLYRNFPTRELLIEAAYRNELARLCDAAPELLAALPPREAMRAWLGRFMDYANAKLGMADALRGVVASGVNPYAQSHELIQDALSRLMDAAVTAGVIRSDISATDMFAALTGIALASGKPEQREQADRLLDLTLDGL</Hsp_hseq>
+      <Hsp_midline>RPLRADAQRNR+KIL+AAVRVF+EEGLDAHLERIA+EAGVG+GTLYRNFPTRE LIEAAYRNE+ARLCD+ P LLA LPP EA+RAW  RF+DYA AKLGMADALR VVASG +PY  S +LIQ AL+ LMDAA  AG IRSDI +TDMFAAL GIAL S +P+QR QA+RLLDL LDGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|WP_101831966.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Frankia canadensis] &gt;emb|SNQ48263.1| TetR family transcriptional regulator [Frankia canadensis] &gt;emb|SOU55553.1| TetR family transcriptional regulator [Frankia canadensis]</Hit_def>
+  <Hit_accession>WP_101831966</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.026</Hsp_bit-score>
+      <Hsp_score>715</Hsp_score>
+      <Hsp_evalue>3.56953e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLR</Hsp_qseq>
+      <Hsp_hseq>MTTDTERPLRADARRNREKILSAAVRVFAEDGLEAHLERVAKEAGVGSGTLYRNFPTREALIEAAYRNELSRLCDAAPDLLAAMPPREALRAWMGRFIDYATAKLGMAEALRAVIDSGVNPYTHSHELIMTALTSLLDAATAAGTIRSDINPAVLFAALTGVALTSGKPEQREQAERLLDLALDGLR</Hsp_hseq>
+      <Hsp_midline>M+  T+RPLRADA+RNR+KIL+AAVRVF+E+GL+AHLER+A+EAGVGSGTLYRNFPTREALIEAAYRNE++RLCD+ P LLA +PP EALRAW  RFIDYATAKLGMA+ALRAV+ SG +PY  S +LI +ALT+L+DAA AAG IRSDI    +FAAL G+ALTS +P+QR QAERLLDL LDGLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>ref|WP_078638536.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Streptomyces] &gt;gb|AQW47330.1| TetR family transcriptional regulator [Streptomyces hygroscopicus] &gt;gb|ASQ92452.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. 11-1-2]</Hit_def>
+  <Hit_accession>WP_078638536</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.641</Hsp_bit-score>
+      <Hsp_score>714</Hsp_score>
+      <Hsp_evalue>3.90173e-93</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGL</Hsp_qseq>
+      <Hsp_hseq>RPLRADAQRNREKILSAAVRVFAEEGLDAHLERIAKEAGVGTGTLYRNFPTRELLIEAAYRNELARLCDAAPELLAALPPREAMRAWLGRFMDYANAKLGMADALRGVVASGVNPYAQSHEMIQDALSRLMDAAVTAGVIRSDISATDMFAALSGIALASGKPEQREQADRLLDLTLDGL</Hsp_hseq>
+      <Hsp_midline>RPLRADAQRNR+KIL+AAVRVF+EEGLDAHLERIA+EAGVG+GTLYRNFPTRE LIEAAYRNE+ARLCD+ P LLA LPP EA+RAW  RF+DYA AKLGMADALR VVASG +PY  S ++IQ AL+ LMDAA  AG IRSDI +TDMFAAL+GIAL S +P+QR QA+RLLDL LDGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>emb|CDR17045.1|</Hit_id>
+  <Hit_def>regulatory protein TetR [Streptomyces iranensis]</Hit_def>
+  <Hit_accession>CDR17045</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.256</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>5.4199e-93</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGL</Hsp_qseq>
+      <Hsp_hseq>RPLRADAQRNREKILSAAVRVFAEEGLDAHLERIAKEAGVGTGTLYRNFPTRELLIEAAYRNELARLCDAAPELLAALPPREALRVWLARFMDYANAKLGMADALRGVVASGVNPYAQSHEMIQDALSRLMDAAVAAGVIRSDIGATDMFAALTGIALASGKPEQREQADRLLDLTLDGL</Hsp_hseq>
+      <Hsp_midline>RPLRADAQRNR+KIL+AAVRVF+EEGLDAHLERIA+EAGVG+GTLYRNFPTRE LIEAAYRNE+ARLCD+ P LLA LPP EALR W  RF+DYA AKLGMADALR VVASG +PY  S ++IQ AL+ LMDAA AAG IRSDI +TDMFAAL GIAL S +P+QR QA+RLLDL LDGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|WP_182472635.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces sp. GMR22] &gt;gb|MBA6440200.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. GMR22]</Hit_def>
+  <Hit_accession>WP_182472635</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.256</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>5.4796e-93</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGL</Hsp_qseq>
+      <Hsp_hseq>RPLRADAQRNREKILSAAVRVFAEEGLDAHLERIAKEAGVGTGTLYRNFPTRELLIEAAYRNELARLCDAAPELLAALPPREALRVWLARFMDYANAKLGMADALRGVVASGVNPYAQSHEMIQDALARLMDAAVAAGVIRSDISATDMFAALTGIALASGKPEQREQADRLLDLTLDGL</Hsp_hseq>
+      <Hsp_midline>RPLRADAQRNR+KIL+AAVRVF+EEGLDAHLERIA+EAGVG+GTLYRNFPTRE LIEAAYRNE+ARLCD+ P LLA LPP EALR W  RF+DYA AKLGMADALR VVASG +PY  S ++IQ AL  LMDAA AAG IRSDI +TDMFAAL GIAL S +P+QR QA+RLLDL LDGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|WP_180332540.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Streptomyces sp. NEAU-sy36] &gt;gb|QLJ02087.1| TetR/AcrR family transcriptional regulator [Streptomyces sp. NEAU-sy36]</Hit_def>
+  <Hit_accession>WP_180332540</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.256</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>5.76496e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGL</Hsp_qseq>
+      <Hsp_hseq>MTDGTPRPLRADARRNREKILTAAVRVFTTEGLDAHLEHIAKEAGVGSATLYRNFPTREALIEAVYRNEVAQLCDAVPALLAQKPPAEALRAWTRLFLDYVTAKYGMIDALRAIAAGGSNPYGHSREMIQAAITSLMDACTAAGVIRTDIRPTDIGAALEGIALTSAGAEHRQQAERLLDVTLDGL</Hsp_hseq>
+      <Hsp_midline>M+D T RPLRADA+RNR+KIL AAVRVF+ EGLDAHLE IA+EAGVGS TLYRNFPTREALIEA YRNEVA+LCD+VP LLA+ PPAEALRAWTR F+DY TAK GM DALRA+ A G +PYG SR++IQ+A+T+LMDA  AAG IR+DIR TD+ AAL GIALTS+  + R QAERLLD+ LDGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|WP_078611607.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces hygroscopicus]</Hit_def>
+  <Hit_accession>WP_078611607</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.256</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>5.82846e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGL</Hsp_qseq>
+      <Hsp_hseq>MTDGTLRPLRADARRNREKILTAAVRVFTAEGLDAHLERIAKEAGVGSATLYRNFPTREALIEAVYRNEVAQLCDAAPALLAQKPPAEALRAWTRLFLDYVTAKYGMIDALRAIAATGGNPYGHSREMIQAAITSLMEACMAAGVIRTDIQPTDIGAALEGIALTSAGAEHRQQAERLLDLTLDGL</Hsp_hseq>
+      <Hsp_midline>M+D T RPLRADA+RNR+KIL AAVRVF+ EGLDAHLERIA+EAGVGS TLYRNFPTREALIEA YRNEVA+LCD+ P LLA+ PPAEALRAWTR F+DY TAK GM DALRA+ A+GG+PYG SR++IQ+A+T+LM+A  AAG IR+DI+ TD+ AAL GIALTS+  + R QAERLLDL LDGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|WP_161562724.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces antimycoticus] &gt;dbj|BBJ46513.1| TetR family transcriptional regulator [Streptomyces antimycoticus]</Hit_def>
+  <Hit_accession>WP_161562724</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.256</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>5.8674e-93</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGL</Hsp_qseq>
+      <Hsp_hseq>RPLRADAQRNREKILSAAVRVFAEEGLDAHLERIAKEAGVGTGTLYRNFPTRELLIEAAYRNELARLCDAAPELLAVLPPREAMRAWLGRFMDYANAKLGMADALRGVVASGVNPYAQSHELIQDALSRLMDAAVTAGVIRSDISATDMFAALTGIALASGKPEQREQADRLLDLTLDGL</Hsp_hseq>
+      <Hsp_midline>RPLRADAQRNR+KIL+AAVRVF+EEGLDAHLERIA+EAGVG+GTLYRNFPTRE LIEAAYRNE+ARLCD+ P LLA LPP EA+RAW  RF+DYA AKLGMADALR VVASG +PY  S +LIQ AL+ LMDAA  AG IRSDI +TDMFAAL GIAL S +P+QR QA+RLLDL LDGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>ref|WP_153468763.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces kaniharaensis] &gt;gb|MQS16966.1| TetR/AcrR family transcriptional regulator [Streptomyces kaniharaensis]</Hit_def>
+  <Hit_accession>WP_153468763</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.641</Hsp_bit-score>
+      <Hsp_score>714</Hsp_score>
+      <Hsp_evalue>6.25425e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>MSDATKRPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGLRPTA</Hsp_qseq>
+      <Hsp_hseq>MAPDAERPLRADAQRNRGKILTAAVRVFAEEGLDAHLERIAREAGVGIATLYRNFPTREALVEAAYRNEVAQLCDVVPDLLATEPPLEALRAWTRLFMDYARAKLGMADALRAVAASGSNPHAQSHDMIQNAIGSLMEACTTAGVIRADISPTDLFAALAGIALTSAKPEQREQAERLLDLTLDGLKATA</Hsp_hseq>
+      <Hsp_midline>M+   +RPLRADAQRNR KIL AAVRVF+EEGLDAHLERIAREAGVG  TLYRNFPTREAL+EAAYRNEVA+LCD VP LLA  PP EALRAWTR F+DYA AKLGMADALRAV ASG +P+  S  +IQ+A+ +LM+A   AG IR+DI  TD+FAALAGIALTS++P+QR QAERLLDL LDGL+ TA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|WP_014058210.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Streptomyces violaceusniger] &gt;gb|AEM84724.1| regulatory protein TetR [Streptomyces violaceusniger Tu 4113]</Hit_def>
+  <Hit_accession>WP_014058210</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.256</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>6.7386e-93</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>RPLRADAQRNRDKILAAAVRVFSEEGLDAHLERIAREAGVGSGTLYRNFPTREALIEAAYRNEVARLCDSVPGLLAELPPAEALRAWTRRFIDYATAKLGMADALRAVVASGGDPYGDSRQLIQSALTALMDAAAAAGEIRSDIRSTDMFAALAGIALTSSRPDQRAQAERLLDLVLDGL</Hsp_qseq>
+      <Hsp_hseq>RPLRADAQRNREKILSAAVRVFAEEGLDAHLERIAKEAGVGAGTLYRNFPTRELLIEAAYRNELARLCDAAPELLAALPPREAMRAWLGRFMDYANAKLGMADALRGVVASGVNPYAQSHEMIQDALSRLMDAAVTAGVIRSDISATDMFAALTGIALASGKPEQREQADRLLDLTLDGL</Hsp_hseq>
+      <Hsp_midline>RPLRADAQRNR+KIL+AAVRVF+EEGLDAHLERIA+EAGVG+GTLYRNFPTRE LIEAAYRNE+ARLCD+ P LLA LPP EA+RAW  RF+DYA AKLGMADALR VVASG +PY  S ++IQ AL+ LMDAA  AG IRSDI +TDMFAAL GIAL S +P+QR QA+RLLDL LDGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>338965036</Statistics_db-num>
+      <Statistics_db-len>122594075914</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

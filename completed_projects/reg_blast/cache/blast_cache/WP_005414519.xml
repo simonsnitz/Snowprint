@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_46585</BlastOutput_query-ID>
+  <BlastOutput_query-def>WP_005414519.1 efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</BlastOutput_query-def>
+  <BlastOutput_query-len>219</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_46585</Iteration_query-ID>
+  <Iteration_query-def>WP_005414519.1 efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Iteration_query-def>
+  <Iteration_query-len>219</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_005414519.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|EMF59655.1| putative transcriptional regulator, TetR family [Stenotrophomonas maltophilia EPM1] &gt;gb|KUP02640.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|KWV55052.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|MBA0237801.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0337266.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_005414519</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.965</Hsp_bit-score>
+      <Hsp_score>1138</Hsp_score>
+      <Hsp_evalue>7.47199e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>emb|VUP35053.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>VUP35053</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.425</Hsp_bit-score>
+      <Hsp_score>1134</Hsp_score>
+      <Hsp_evalue>2.66814e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGLLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLG+LHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_005411090.1|</Hit_id>
+  <Hit_def>MULTISPECIES: efflux transporter SmeDEF transcriptional repressor SmeT [Proteobacteria] &gt;gb|EAB7134087.1| efflux transporter SmeDEF transcriptional repressor SmeT [Salmonella enterica subsp. enterica] &gt;gb|TGR53457.1| efflux transporter SmeDEF transcriptional repressor SmeT [bacterium M00.F.Ca.ET.199.01.1.1] &gt;gb|TGV59645.1| efflux transporter SmeDEF transcriptional repressor SmeT [bacterium M00.F.Ca.ET.141.01.1.1] &gt;gb|ASE54378.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|AVH92030.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_005411090</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.039</Hsp_bit-score>
+      <Hsp_score>1133</Hsp_score>
+      <Hsp_evalue>3.54899e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_057496562.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|KRG51153.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_057496562</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.269</Hsp_bit-score>
+      <Hsp_score>1131</Hsp_score>
+      <Hsp_evalue>7.81988e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIIERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATILGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAI+ERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHAT+LGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_100442838.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MPS46250.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas sp.] &gt;gb|MBA0384981.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|PJK96965.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;emb|VUJ57667.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia] &gt;emb|VUK13234.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_100442838</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.269</Hsp_bit-score>
+      <Hsp_score>1131</Hsp_score>
+      <Hsp_evalue>8.63151e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_126930139.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|RTQ86356.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_126930139</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.269</Hsp_bit-score>
+      <Hsp_score>1131</Hsp_score>
+      <Hsp_evalue>8.92036e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_099529685.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_099529685</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.269</Hsp_bit-score>
+      <Hsp_score>1131</Hsp_score>
+      <Hsp_evalue>9.32058e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATRQGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATR+GILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_180846017.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0350296.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_180846017</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.269</Hsp_bit-score>
+      <Hsp_score>1131</Hsp_score>
+      <Hsp_evalue>9.73876e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKNEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNK+EVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_115804092.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|REC81140.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_115804092</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.884</Hsp_bit-score>
+      <Hsp_score>1130</Hsp_score>
+      <Hsp_evalue>1.14811e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDPPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRD PVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_149901776.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|KAA3603508.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_149901776</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.884</Hsp_bit-score>
+      <Hsp_score>1130</Hsp_score>
+      <Hsp_evalue>1.19962e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MVRKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>M RKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_065198862.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|OBU67899.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_065198862</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.884</Hsp_bit-score>
+      <Hsp_score>1130</Hsp_score>
+      <Hsp_evalue>1.26727e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTELQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTE+QQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_049464613.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_049464613</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.499</Hsp_bit-score>
+      <Hsp_score>1129</Hsp_score>
+      <Hsp_evalue>1.41423e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGMLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLG+LHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_099562183.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_099562183</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.499</Hsp_bit-score>
+      <Hsp_score>1129</Hsp_score>
+      <Hsp_evalue>1.46156e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAADACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAA+ACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_043035524.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|KIS37157.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia WJ66]</Hit_def>
+  <Hit_accession>WP_043035524</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.499</Hsp_bit-score>
+      <Hsp_score>1129</Hsp_score>
+      <Hsp_evalue>1.63105e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIEPSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIE SEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_024957054.1|</Hit_id>
+  <Hit_def>MULTISPECIES: efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas] &gt;gb|AIL08581.1| repressor [Stenotrophomonas maltophilia] &gt;gb|OMP41722.1| TetR family transcriptional regulator [Stenotrophomonas sp. KAs 5-3] &gt;gb|OOD14060.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;emb|SNW13703.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;emb|VUO98565.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_024957054</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.499</Hsp_bit-score>
+      <Hsp_score>1129</Hsp_score>
+      <Hsp_evalue>1.8202e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEETQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKE+TQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_032961200.1|</Hit_id>
+  <Hit_def>MULTISPECIES: efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas] &gt;gb|AWB79945.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|KDE88849.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia M30] &gt;gb|KOO86131.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|KOQ61708.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|KUP00176.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_032961200</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.499</Hsp_bit-score>
+      <Hsp_score>1129</Hsp_score>
+      <Hsp_evalue>1.8202e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_111144309.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|PZT29102.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;emb|VUQ95615.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_111144309</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.113</Hsp_bit-score>
+      <Hsp_score>1128</Hsp_score>
+      <Hsp_evalue>2.52973e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQPGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQ GFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_049439981.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|AAS92980.1| repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|KLN98811.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;emb|VUP05000.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_049439981</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.728</Hsp_bit-score>
+      <Hsp_score>1127</Hsp_score>
+      <Hsp_evalue>3.0821e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMVHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVM+HSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_180881236.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0302255.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_180881236</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.728</Hsp_bit-score>
+      <Hsp_score>1127</Hsp_score>
+      <Hsp_evalue>3.55462e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHLKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWH KNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_180863430.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0234454.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0268127.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_180863430</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.728</Hsp_bit-score>
+      <Hsp_score>1127</Hsp_score>
+      <Hsp_evalue>3.55462e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACLHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEAC HEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_049404073.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBB5532158.1| TetR/AcrR family acrAB operon transcriptional repressor [Stenotrophomonas maltophilia] &gt;gb|NUH62985.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|PZS43161.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;emb|VUP60184.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia] &gt;emb|VUP71658.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_049404073</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.728</Hsp_bit-score>
+      <Hsp_score>1127</Hsp_score>
+      <Hsp_evalue>3.63349e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIQSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMI SFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>emb|VUL01030.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>VUL01030</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.343</Hsp_bit-score>
+      <Hsp_score>1126</Hsp_score>
+      <Hsp_evalue>4.0106e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVQRVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIV+RVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_142806770.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_142806770</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.343</Hsp_bit-score>
+      <Hsp_score>1126</Hsp_score>
+      <Hsp_evalue>4.23677e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRAQDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_099536634.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0332278.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_099536634</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.343</Hsp_bit-score>
+      <Hsp_score>1126</Hsp_score>
+      <Hsp_evalue>4.33077e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDPPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRD PVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_005419430.1|</Hit_id>
+  <Hit_def>MULTISPECIES: efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas] &gt;gb|AAS92979.1| repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|AEM52824.1| regulatory protein TetR [Stenotrophomonas maltophilia JV3] &gt;gb|AUI09055.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|AVO32011.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|EMI48475.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia AU12-09]</Hit_def>
+  <Hit_accession>WP_005419430</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.343</Hsp_bit-score>
+      <Hsp_score>1126</Hsp_score>
+      <Hsp_evalue>4.42686e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_019660698.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|EQM78503.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia MF89] &gt;gb|MBA0264968.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0327229.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0469313.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0476881.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_019660698</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.343</Hsp_bit-score>
+      <Hsp_score>1126</Hsp_score>
+      <Hsp_evalue>4.42686e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRAKDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>emb|VUP61382.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>VUP61382</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.343</Hsp_bit-score>
+      <Hsp_score>1126</Hsp_score>
+      <Hsp_evalue>4.62547e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPGLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_164144576.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_164144576</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.728</Hsp_bit-score>
+      <Hsp_score>1127</Hsp_score>
+      <Hsp_evalue>4.72178e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_014648459.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;pdb|2W53|A Chain A, Repressor [Stenotrophomonas maltophilia] &gt;pdb|2W53|B Chain B, Repressor [Stenotrophomonas maltophilia] &gt;pdb|3P9T|A Chain A, Repressor [Stenotrophomonas maltophilia] &gt;pdb|3P9T|B Chain B, Repressor [Stenotrophomonas maltophilia] &gt;emb|CCH14172.1| transcriptional regulator, TetR family [Stenotrophomonas maltophilia D457]</Hit_def>
+  <Hit_accession>WP_014648459</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.343</Hsp_bit-score>
+      <Hsp_score>1126</Hsp_score>
+      <Hsp_evalue>4.7281e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASANTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASA+TRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_125899111.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|RSC51142.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_125899111</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.343</Hsp_bit-score>
+      <Hsp_score>1126</Hsp_score>
+      <Hsp_evalue>5.16187e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEELAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSE LAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>emb|VUQ35080.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>VUQ35080</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.343</Hsp_bit-score>
+      <Hsp_score>1126</Hsp_score>
+      <Hsp_evalue>5.63545e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHLKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWH KNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_099534019.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_099534019</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.958</Hsp_bit-score>
+      <Hsp_score>1125</Hsp_score>
+      <Hsp_evalue>6.15247e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMPRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIM RSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_164076449.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_164076449</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.958</Hsp_bit-score>
+      <Hsp_score>1125</Hsp_score>
+      <Hsp_evalue>6.4285e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYGKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAY KDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_171952612.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;emb|VUQ95452.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_171952612</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.343</Hsp_bit-score>
+      <Hsp_score>1126</Hsp_score>
+      <Hsp_evalue>7.90746e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRAKDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_075076660.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|KZE47411.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|TNX96301.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|TPD74782.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|TPD79138.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|TPD80103.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_075076660</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.573</Hsp_bit-score>
+      <Hsp_score>1124</Hsp_score>
+      <Hsp_evalue>8.18355e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTNEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKT EDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_088479126.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|OWQ82635.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_088479126</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.573</Hsp_bit-score>
+      <Hsp_score>1124</Hsp_score>
+      <Hsp_evalue>8.27384e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMQHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARM HATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_164167550.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_164167550</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.573</Hsp_bit-score>
+      <Hsp_score>1124</Hsp_score>
+      <Hsp_evalue>8.83685e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDIQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKED QATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>emb|CAG34263.1|</Hit_id>
+  <Hit_def>transcriptional repressor [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>CAG34263</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.573</Hsp_bit-score>
+      <Hsp_score>1124</Hsp_score>
+      <Hsp_evalue>8.83685e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIEMSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIE+SEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_180834199.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0379636.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0406467.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0423960.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_180834199</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.573</Hsp_bit-score>
+      <Hsp_score>1124</Hsp_score>
+      <Hsp_evalue>9.03291e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARVLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAAR+LHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_046432590.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|KKF86377.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|MBA0256191.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0450351.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0480871.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0490726.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_046432590</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.573</Hsp_bit-score>
+      <Hsp_score>1124</Hsp_score>
+      <Hsp_evalue>9.86163e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWYFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYW+FKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_164233096.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_164233096</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.573</Hsp_bit-score>
+      <Hsp_score>1124</Hsp_score>
+      <Hsp_evalue>1.07664e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAAACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAA ACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_100440067.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|PJL31292.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_100440067</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.187</Hsp_bit-score>
+      <Hsp_score>1123</Hsp_score>
+      <Hsp_evalue>1.2417e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLTAIVERVHLPFMQELERTSSDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTELQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVL AIVERVHLPFMQELERTS+DQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTE+QQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_033835765.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_033835765</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.187</Hsp_bit-score>
+      <Hsp_score>1123</Hsp_score>
+      <Hsp_evalue>1.29741e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADRKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGAD KIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_049414358.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|PJL65373.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|PZS81891.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|PZT04811.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|PZT14844.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|QNA96887.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_049414358</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.187</Hsp_bit-score>
+      <Hsp_score>1123</Hsp_score>
+      <Hsp_evalue>1.32619e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTELQQAGFRDGLDRMERALRRAKDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTE+QQAGFRD LDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_111202805.1|</Hit_id>
+  <Hit_def>MULTISPECIES: efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas] &gt;gb|MBA0432130.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MRI40861.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas sp. MH181796] &gt;gb|PZP88856.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|PZS74026.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|QGM06973.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_111202805</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.187</Hsp_bit-score>
+      <Hsp_score>1123</Hsp_score>
+      <Hsp_evalue>1.56344e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKEGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVK+GVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_108269965.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_108269965</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.187</Hsp_bit-score>
+      <Hsp_score>1123</Hsp_score>
+      <Hsp_evalue>1.56344e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTEQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTST+QRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_100450632.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|PJL74853.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_100450632</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.187</Hsp_bit-score>
+      <Hsp_score>1123</Hsp_score>
+      <Hsp_evalue>1.56344e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVLIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMPLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAV+IHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDM LAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_061479699.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas sp. DDT-1] &gt;gb|KXU95390.1| TetR family transcriptional regulator [Stenotrophomonas sp. DDT-1]</Hit_def>
+  <Hit_accession>WP_061479699</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.187</Hsp_bit-score>
+      <Hsp_score>1123</Hsp_score>
+      <Hsp_evalue>1.58069e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTELQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTE+QQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|AAS92982.1|</Hit_id>
+  <Hit_def>repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>AAS92982</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.187</Hsp_bit-score>
+      <Hsp_score>1123</Hsp_score>
+      <Hsp_evalue>1.61576e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPDA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLP+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_169433046.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|NMT36034.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_169433046</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.802</Hsp_bit-score>
+      <Hsp_score>1122</Hsp_score>
+      <Hsp_evalue>1.66983e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMQHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARM HATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>emb|VUK52185.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia] &gt;emb|VUK69100.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia] &gt;emb|VUK86864.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia] &gt;emb|VUK93866.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia] &gt;emb|VUL80675.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>VUK52185</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.802</Hsp_bit-score>
+      <Hsp_score>1122</Hsp_score>
+      <Hsp_evalue>1.764e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSSDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTELQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTS+DQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTE+QQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|WP_075676213.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas sp. TD3]</Hit_def>
+  <Hit_accession>WP_075676213</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.802</Hsp_bit-score>
+      <Hsp_score>1122</Hsp_score>
+      <Hsp_evalue>1.80313e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIAERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAI ERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|WP_088027207.1|</Hit_id>
+  <Hit_def>MULTISPECIES: efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas] &gt;gb|ARQ91416.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;emb|SNY67912.1| transcriptional regulator, TetR family [Stenotrophomonas sp. CC120223-11] &gt;emb|VUJ93720.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia] &gt;emb|VUO86926.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_088027207</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.802</Hsp_bit-score>
+      <Hsp_score>1122</Hsp_score>
+      <Hsp_evalue>1.88403e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRAQDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|WP_134729980.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_134729980</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.802</Hsp_bit-score>
+      <Hsp_score>1122</Hsp_score>
+      <Hsp_evalue>1.96856e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVYLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRAKDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERV+LPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>emb|VUQ25370.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>VUQ25370</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.802</Hsp_bit-score>
+      <Hsp_score>1122</Hsp_score>
+      <Hsp_evalue>2.22108e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQAIREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQA REGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|WP_049399245.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_049399245</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.417</Hsp_bit-score>
+      <Hsp_score>1121</Hsp_score>
+      <Hsp_evalue>2.7966e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRAKDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKEGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVK+GVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>emb|CAC87048.1|</Hit_id>
+  <Hit_def>repressor [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>CAC87048</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.417</Hsp_bit-score>
+      <Hsp_score>1121</Hsp_score>
+      <Hsp_evalue>3.1209e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASANTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMQHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASA+TRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARM HATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|WP_099475719.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_099475719</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.032</Hsp_bit-score>
+      <Hsp_score>1120</Hsp_score>
+      <Hsp_evalue>3.56009e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQARFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQA FRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>emb|SSM86417.1|</Hit_id>
+  <Hit_def>Putative transcriptional Regulator [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>SSM86417</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.728</Hsp_bit-score>
+      <Hsp_score>1127</Hsp_score>
+      <Hsp_evalue>4.03258e-154</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>ARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>ARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>ARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|WP_180839155.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0252648.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_180839155</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.032</Hsp_bit-score>
+      <Hsp_score>1120</Hsp_score>
+      <Hsp_evalue>4.19697e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMQHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARM HATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|WP_099542680.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_099542680</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.647</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>4.73535e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDATEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTELQQAGFRDGLDRMERALRRAKDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDA EACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTE+QQAGFRD LDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|WP_135275147.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|TFZ43405.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_135275147</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.647</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>4.73535e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLTAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTELQQAGFRDALDRMERALRRAQDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVL AIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTE+QQAGFRDALDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|WP_135967708.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|TGW16942.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_135967708</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.647</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>4.78759e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELPEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIEL EDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|WP_032129009.1|</Hit_id>
+  <Hit_def>MULTISPECIES: efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas] &gt;gb|MBD3739340.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas sp.] &gt;gb|NED62931.1| efflux transporter SmeDEF transcriptional repressor SmeT [Streptomyces sp. SID10244] &gt;gb|KGM23422.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|MBA0353930.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0422978.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_032129009</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.647</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>5.00238e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRAQDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKEGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVK+GVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|WP_088496536.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0226260.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0367169.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0387445.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0391486.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0405182.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_088496536</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.647</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>5.46131e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTELQQAGFRDGLDRMERALRRAKDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTE+QQAGFRD LDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|WP_134709716.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_134709716</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.647</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>5.70633e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTELQQAGFRDGLDRMERALRRAKDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPDA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTE+QQAGFRD LDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLP+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|WP_110713752.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|AWT16277.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|MBA0363191.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;emb|CAG34248.1| transcriptional repressor [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_110713752</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.647</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>5.76928e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQTGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKEGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQ GFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVK+GVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>ref|WP_164227352.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_164227352</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.647</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>5.89728e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIQSFIEPSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMI SFIE SEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|WP_100473956.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|PJL60083.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_100473956</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.647</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>5.96234e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTEQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKEGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTST+QRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVK+GVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>emb|VUQ72310.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>VUQ72310</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.647</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>6.16186e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRAPPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQR  PVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|WP_087923670.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas sp. WZN-1] &gt;gb|ARZ75986.1| TetR family transcriptional regulator [Stenotrophomonas sp. WZN-1]</Hit_def>
+  <Hit_accession>WP_087923670</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.647</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>6.50934e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRAGDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRA DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|WP_154351443.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|QGL81931.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|QNG77828.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_154351443</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.261</Hsp_bit-score>
+      <Hsp_score>1118</Hsp_score>
+      <Hsp_evalue>6.65376e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARADYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARA YTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>gb|AAS21047.1|</Hit_id>
+  <Hit_def>repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>AAS21047</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.261</Hsp_bit-score>
+      <Hsp_score>1118</Hsp_score>
+      <Hsp_evalue>7.59009e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRAQDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPDA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLP+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|WP_019337673.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|AAS92981.1| repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|ALA87950.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|KRG37664.1| TetR family transcriptional regulator [[Pseudomonas] geniculata ATCC 19374 = JCM 13324] &gt;gb|PJL72010.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|PSD45803.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_019337673</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.261</Hsp_bit-score>
+      <Hsp_score>1118</Hsp_score>
+      <Hsp_evalue>7.93062e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTEQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPDA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTST+QRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLP+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|WP_125426607.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|RRU77160.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_125426607</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.261</Hsp_bit-score>
+      <Hsp_score>1118</Hsp_score>
+      <Hsp_evalue>8.01811e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRAQDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKEGVFVPGTVPKPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVK+GVF PGTVP+PLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|WP_049435920.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|KPG70752.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|MBA0245498.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0249690.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0309269.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0441003.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_049435920</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.261</Hsp_bit-score>
+      <Hsp_score>1118</Hsp_score>
+      <Hsp_evalue>8.37784e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSSDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTELQQAGFRDALDRMERALRRARDLGQLRESADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTS+DQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTE+QQAGFRDALDRMERALRRARDLGQLRE ADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>ref|WP_164133212.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_164133212</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.261</Hsp_bit-score>
+      <Hsp_score>1118</Hsp_score>
+      <Hsp_evalue>8.94792e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MTRKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEALAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIQSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>M RKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSE LAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMI SFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|WP_065186222.1|</Hit_id>
+  <Hit_def>MULTISPECIES: efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas] &gt;gb|OBU56824.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|QCZ98446.1| TetR family transcriptional regulator [Stenotrophomonas sp. pho] &gt;emb|VUN74061.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia] &gt;emb|VUP32693.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_065186222</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.876</Hsp_bit-score>
+      <Hsp_score>1117</Hsp_score>
+      <Hsp_evalue>1.10219e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRNTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTELQQAGFRDGLDRMERALRRAKDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQR+TPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTE+QQAGFRD LDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|WP_107433300.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0298552.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;tpg|HBP02583.1| TetR family transcriptional regulator [Stenotrophomonas sp.]</Hit_def>
+  <Hit_accession>WP_107433300</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.876</Hsp_bit-score>
+      <Hsp_score>1117</Hsp_score>
+      <Hsp_evalue>1.13907e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRAQDLGQLREGADPKIASRMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKEGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRA+DLGQLREGADPKIA+RMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVK+GVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|WP_049459010.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_049459010</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.876</Hsp_bit-score>
+      <Hsp_score>1117</Hsp_score>
+      <Hsp_evalue>1.28519e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDTAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRAKDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKEGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILD AEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVK+GVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>ref|WP_095378278.1|</Hit_id>
+  <Hit_def>MULTISPECIES: efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas] &gt;gb|AYA91979.1| TetR family transcriptional regulator [Stenotrophomonas sp. Pemsol] &gt;gb|PAM70277.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|PSD24047.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|PZS98109.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|PZT18865.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_095378278</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.876</Hsp_bit-score>
+      <Hsp_score>1117</Hsp_score>
+      <Hsp_evalue>1.29937e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTELQQAGFRDGLDRMERALRRAKDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTE+QQAGFRD LDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|WP_133935600.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas sp. CC22-02] &gt;gb|TDV32177.1| TetR family transcriptional regulator [Stenotrophomonas sp. CC22-02]</Hit_def>
+  <Hit_accession>WP_133935600</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>1.43422e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKGEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTELQQAGFRDALDRMERALRRARDLGQLRDGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNK EVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTE+QQAGFRDALDRMERALRRARDLGQLR+GADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|WP_046985009.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|TIE17527.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|TIE63117.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_046985009</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>1.46604e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLTAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTELQQSGFRDALDRMERALRRAQDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKEGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVL AIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTE+QQ+GFRDALDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVK+GVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|WP_012512143.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|ACF53168.1| transcriptional regulator, TetR family [Stenotrophomonas maltophilia R551-3] &gt;gb|MBA0395456.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|OCK45469.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|PJK97755.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|PJL38622.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_012512143</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>1.86627e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLTAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTELQQAGFRDALDRMERALRRAQDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKEGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVL AIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTE+QQAGFRDALDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVK+GVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|WP_049421392.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_049421392</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.97152e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNMSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKEGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKN SEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVK+GVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>emb|VUL82554.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia] &gt;emb|VUL95136.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia] &gt;emb|VUM05819.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>VUL82554</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>2.10567e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTNEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRAQDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKEGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKT EDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVK+GVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|WP_164081251.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_164081251</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>2.10567e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MTRKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRAQDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKEGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>M RKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVK+GVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>ref|WP_164093220.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_164093220</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>2.17613e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSKVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTELQQAGFRDGLDRMERALRRAKDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKS+VLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTE+QQAGFRD LDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>ref|WP_049429262.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0313335.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|PJL05994.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|PJL33059.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|PJL67649.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;emb|VUM76482.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_049429262</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>2.32421e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTELQQAGFRDGLERMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTE+QQAGFRD L+RMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>ref|WP_188247778.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_188247778</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>2.32421e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTELQQAGFRDGLERMERALRRAKDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTE+QQAGFRD L+RMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>tpg|HCT28770.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Stenotrophomonas sp.]</Hit_def>
+  <Hit_accession>HCT28770</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>2.40198e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTELQQAGFRDALDRMERALRRAGDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTE+QQAGFRDALDRMERALRRA DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|WP_180880732.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0401206.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_180880732</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>2.68052e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTELQQAGFRDGLDRMERALRRAKDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTQAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTE+QQAGFRD LDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMT AAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>emb|VUM09077.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia] &gt;emb|VUN68828.1| HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>VUM09077</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>2.71009e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHLKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRAQDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKEGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWH KNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVK+GVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|WP_191850032.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Stenotrophomonas sp. SXG-1]</Hit_def>
+  <Hit_accession>WP_191850032</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>2.83168e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTEQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLRRDGMLALDMTLAAYVKDGVFVPGTVPEPLPDA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTST+QRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDL+RDGMLALDMTLAAYVKDGVF PGTVPEPLP+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|WP_180880405.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0345156.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_180880405</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>2.95872e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKGEVLAAIVERVHLPFMQELERTSSDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRAQDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNK EVLAAIVERVHLPFMQELERTS+DQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>emb|CCP18405.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional regulator acrR [Stenotrophomonas maltophilia RA8]</Hit_def>
+  <Hit_accession>CCP18405</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.876</Hsp_bit-score>
+      <Hsp_score>1117</Hsp_score>
+      <Hsp_evalue>3.18752e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLTAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTELQQAGFRDALDRMERALRRAQDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKEGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVL AIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTE+QQAGFRDALDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVK+GVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|WP_049413311.1|</Hit_id>
+  <Hit_def>efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|RTY06714.1| efflux transporter SmeDEF transcriptional repressor SmeT [[Pseudomonas] geniculata] &gt;emb|VTQ85744.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_049413311</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>3.33824e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTEQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFRDALDRMERALRRAQDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPDA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTST+QRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGFRDALDRMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLP+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|WP_049454998.1|</Hit_id>
+  <Hit_def>MULTISPECIES: efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas] &gt;gb|AAS21046.1| repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|KOQ66758.1| TetR family transcriptional regulator [Stenotrophomonas maltophilia] &gt;gb|MBA0260423.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBA0317575.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas maltophilia] &gt;gb|MBB1137634.1| efflux transporter SmeDEF transcriptional repressor SmeT [Stenotrophomonas sp. I18B00994]</Hit_def>
+  <Hit_accession>WP_049454998</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>3.6847e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTELQQAGFRDGLERMERALRRAKDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTE+QQAGFRD L+RMERALRRA+DLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>ref|WP_191863194.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Stenotrophomonas sp. AS012628]</Hit_def>
+  <Hit_accession>WP_191863194</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>3.93543e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTEQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIVLRSDASADTKVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKDGVFVPGTVPEPLPDA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTST+QRDTPVHDLRAVMIHSFIELSEDERLRKTMEI+LRSDASADT+VLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVKDGVF PGTVPEPLP+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>emb|VUR68245.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional regulator TtgR [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>VUR68245</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>4.69062e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTDQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTRVLTEMQQAGFRDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPDLMDLKRDGMLALDMTLAAYVKDGVFAPGTVPEPLPEA</Hsp_qseq>
+      <Hsp_hseq>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTSTEQRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADTKVLTEMQQAGFHDALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEPELMDLKRDGMLALDMTLAAYVKEGVFVPGTVPEPLPEA</Hsp_hseq>
+      <Hsp_midline>MARKTKEDTQATREGILDAAEACFHEHGVARTTLEMIGARAGYTRGAVYWHFKNKSEVLAAIVERVHLPFMQELERTST+QRDTPVHDLRAVMIHSFIELSEDERLRKTMEIMLRSDASADT+VLTEMQQAGF DALDRMERALRRARDLGQLREGADPKIAARMLHATVLGVLHGAMVEP+LMDLKRDGMLALDMTLAAYVK+GVF PGTVPEPLPEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>322214535</Statistics_db-num>
+      <Statistics_db-len>165954995</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

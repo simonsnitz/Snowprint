@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_62485</BlastOutput_query-ID>
+  <BlastOutput_query-def>WP_003092152.1 MULTISPECIES: efflux system transcriptional repressor NalD [Proteobacteria]</BlastOutput_query-def>
+  <BlastOutput_query-len>212</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_62485</Iteration_query-ID>
+  <Iteration_query-def>WP_003092152.1 MULTISPECIES: efflux system transcriptional repressor NalD [Proteobacteria]</Iteration_query-def>
+  <Iteration_query-len>212</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_003092152.1|</Hit_id>
+  <Hit_def>MULTISPECIES: efflux system transcriptional repressor NalD [Proteobacteria] &gt;ref|NP_252264.1| transcriptional regulator [Pseudomonas aeruginosa PAO1] &gt;pdb|5H9T|A Chain A, NalD [Pseudomonas aeruginosa PAO1] &gt;pdb|5H9T|B Chain B, NalD [Pseudomonas aeruginosa PAO1] &gt;pdb|5H9T|C Chain C, NalD [Pseudomonas aeruginosa PAO1] &gt;pdb|5H9T|D Chain D, NalD [Pseudomonas aeruginosa PAO1] &gt;pdb|5H9T|E Chain E, NalD [Pseudomonas aeruginosa PAO1] &gt;pdb|5H9T|F Chain F, NalD [Pseudomonas aeruginosa PAO1] &gt;pdb|5H9T|G Chain G, NalD [Pseudomonas aeruginosa PAO1] &gt;pdb|5H9T|H Chain H, NalD [Pseudomonas aeruginosa PAO1] &gt;gb|ESR69870.1| TetR family transcriptional regulator [Pseudomonas aeruginosa VRFPA05] &gt;gb|KEA17843.1| TetR family transcriptional regulator [Pseudomonas aeruginosa C2159M] &gt;gb|KEA29880.1| TetR family transcriptional regulator [Pseudomonas aeruginosa C0324C] &gt;gb|KFB17812.1| TetR family transcriptional regulator [Pseudomonas aeruginosa PGPR2] &gt;emb|CDI91986.1| putative transcriptional regulator [Pseudomonas aeruginosa PA38182] &gt;emb|SAJ30402.1| Transcription repressor of multidrug efflux pump acrAB operon%2C TetR (AcrR) family [Enterobacter cloacae] &gt;emb|SCZ17186.1| HTH-type transcriptional repressor BepR [Acinetobacter baumannii] &gt;emb|SVJ79061.1| transcription repressor of multidrug efflux pump acrAB operon [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_003092152</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.032</Hsp_bit-score>
+      <Hsp_score>1120</Hsp_score>
+      <Hsp_evalue>2.53056e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|ERX41254.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Pseudomonas aeruginosa U2504]</Hit_def>
+  <Hit_accession>ERX41254</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.573</Hsp_bit-score>
+      <Hsp_score>1124</Hsp_score>
+      <Hsp_evalue>3.61512e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_134521629.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134521629</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.647</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>3.67493e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRMFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPR+FDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_023113693.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|ERW05995.1| TetR family transcriptional regulator [Pseudomonas aeruginosa BWHPSA024]</Hit_def>
+  <Hit_accession>WP_023113693</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.647</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>3.67493e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPMRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDP+RSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_024928427.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_024928427</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.876</Hsp_bit-score>
+      <Hsp_score>1117</Hsp_score>
+      <Hsp_evalue>5.57627e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIAKAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIA+AAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_108224153.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|PTZ91635.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_108224153</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.876</Hsp_bit-score>
+      <Hsp_score>1117</Hsp_score>
+      <Hsp_evalue>7.17717e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGSVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRG+VYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_024916072.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|KSD36412.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|NTS95416.1| efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|QIZ27650.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RPM89882.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RPS11439.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_024916072</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.876</Hsp_bit-score>
+      <Hsp_score>1117</Hsp_score>
+      <Hsp_evalue>7.75019e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEDLFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAE+LFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_134413962.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134413962</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>8.84097e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGMSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKG+SHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_058133601.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|KSK27472.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|KSM60304.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|KSO67255.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_058133601</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>8.84097e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLMRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGL+RDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_058149474.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|KSG77294.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|NPZ51833.1| efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|NTS79621.1| efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_058149474</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>8.93852e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSTP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASS P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_124102814.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;emb|VCX91625.1| HTH-type transcriptional repressor BepR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124102814</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>8.93852e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRITSRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRI SRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_124148486.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|RPZ02360.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124148486</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>8.93852e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELRETQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELRE QERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_033943848.1|</Hit_id>
+  <Hit_def>MULTISPECIES: efflux system transcriptional repressor NalD [Pseudomonas] &gt;gb|AKF97864.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_033943848</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>8.93852e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGTVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRG VYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_034044715.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|TEF11793.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|TEF20450.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034044715</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>8.93852e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTTILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRT ILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_119517471.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|QOE14866.1| efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|RIZ03687.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_119517471</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>8.93852e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQITRAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQI RAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_121350365.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_121350365</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>8.93852e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLATEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLA EELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_126865959.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|RUD22958.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_126865959</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>9.03714e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTVILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRT ILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_049345021.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_049345021</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>9.03714e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTREDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRT+EDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_144205206.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|QDR28390.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_144205206</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>9.03714e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGVVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRG VYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_033946265.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_033946265</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>9.03714e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAVEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLA EELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_101509565.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_101509565</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>9.03714e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREVQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELRE QERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_034003307.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|KHE60337.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|MUI24978.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|NJC75387.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|TSC51472.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034003307</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>9.86634e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTNLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHT+LEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_075116659.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_075116659</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>1.04228e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCKQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELC+QLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_070656356.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|OFJ91941.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|OWJ20225.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_070656356</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>1.04228e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAKELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAA+ELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_073655401.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_073655401</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.15047e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVKSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAV+SLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_043097012.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_043097012</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.16316e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRLRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECR+RLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_086247894.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|OTH32820.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RPS21707.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_086247894</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.176e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAAYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGA YWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_043173984.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|RQC85813.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;emb|SUD63402.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_043173984</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.20209e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYNLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLY+LCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_058150234.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|ALU48828.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|KSD39108.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|MWW49663.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_058150234</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.20209e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARNECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFAR+ECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_083557263.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|ORE39582.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RTU36757.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_083557263</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.20209e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRNWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVR+WGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_126671467.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|RUA64493.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_126671467</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.20209e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRNPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLR+PRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_144124385.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|QDR37712.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_144124385</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.21535e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MQRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>M+RTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_134225405.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|TEQ90123.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|TER02784.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|TER19515.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134225405</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.24232e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILIQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTIL+QRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_058168023.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|KSH24804.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_058168023</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.35631e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLAEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHL EPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_023128666.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|ERX65838.1| TetR family transcriptional regulator [Pseudomonas aeruginosa X24509] &gt;gb|KAB5437417.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|OXZ11394.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|PWU35488.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RPO40943.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_023128666</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.41717e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNSAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERN+AFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_070143618.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|OFB78553.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_070143618</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.44861e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAXHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDA HLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_058143399.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|KSR13234.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_058143399</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.48076e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMAPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGM PRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_016253089.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|ALY81992.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|ARI03222.1| bacterial regulatory s, tetR family protein [Pseudomonas aeruginosa PAK] &gt;gb|EOT22328.1| TetR family transcriptional regulator [Pseudomonas aeruginosa PAK] &gt;gb|EZN50144.1| TetR family transcriptional regulator [Pseudomonas aeruginosa BWH035] &gt;gb|KAB0719441.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_016253089</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.48076e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDADAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPD DAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_128651299.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|RPQ23445.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_128651299</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.48076e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVARGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGV RGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_070624153.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|OFS61359.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_070624153</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.48076e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRMAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTR AILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_031632892.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|EZO00499.1| TetR family transcriptional regulator [Pseudomonas aeruginosa 3577]</Hit_def>
+  <Hit_accession>WP_031632892</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.48076e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRAKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRR KEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_031687995.1|</Hit_id>
+  <Hit_def>MULTISPECIES: efflux system transcriptional repressor NalD [Pseudomonas] &gt;gb|ALY44864.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|AVV63646.1| HTH-type transcriptional repressor BepR [Pseudomonas aeruginosa] &gt;gb|EZP00849.1| TetR family transcriptional regulator [Pseudomonas aeruginosa BWH053] &gt;gb|KSL60564.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|KSO59603.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_031687995</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.5472e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKNRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEK RTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_134552580.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134552580</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>1.59898e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRIKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRR KEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_132498303.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_132498303</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>1.88507e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGXVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRG VYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_059309422.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|ALY59933.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_059309422</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>1.90587e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGRASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWG+ASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_169879095.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|NNB82564.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_169879095</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>1.90587e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLINDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGL NDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_101516597.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|AYF69221.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RTA85530.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RTA94832.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RTC45732.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|TJY39663.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_101516597</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>1.90587e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHIQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWH QNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_023088115.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|ALY34733.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|ERV01291.1| TetR family transcriptional regulator [Pseudomonas aeruginosa M9A.1] &gt;gb|ERX52764.1| TetR family transcriptional regulator [Pseudomonas aeruginosa UDL] &gt;gb|EZN77559.1| TetR family transcriptional regulator [Pseudomonas aeruginosa BWH029] &gt;gb|EZO78544.1| TetR family transcriptional regulator [Pseudomonas aeruginosa BWH057]</Hit_def>
+  <Hit_accession>WP_023088115</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>1.92689e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWSQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDW QASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_124126307.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|RPW01220.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124126307</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>1.92689e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILSLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALIL LFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_033978962.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_033978962</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>2.01335e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTHGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVT GAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|WP_071576285.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|OKO11396.1| hypothetical protein AM484_004062 [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_071576285</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>2.01335e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASHALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIAS ALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|WP_075116952.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|RRY34717.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|TYT44073.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_075116952</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>2.03557e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIESRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRI SRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|WP_128628936.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|RPU15235.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_128628936</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>2.22234e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMLRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPM RGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|WP_034033846.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|TED40328.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034033846</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>2.22234e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLLNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHL NEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|WP_070335208.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_070335208</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>2.34768e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCQGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGC GSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|WP_124166443.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|RQB55580.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124166443</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>2.48008e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGTTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPG TPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|WP_023912825.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|ETD73832.1| TetR family transcriptional regulator [Pseudomonas aeruginosa VRFPA06] &gt;gb|RRY10378.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RRY13841.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|TQQ95932.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|TQR11983.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_023912825</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>2.67809e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDCEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKED EKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|WP_124134908.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|RPX80462.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124134908</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>2.76772e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGRDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDG DPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|WP_110165884.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|PXB46430.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_110165884</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>2.76772e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTRLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHT LEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|WP_134308680.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|TEH85284.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134308680</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>2.76772e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEXSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKE SEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|WP_034006484.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|QFZ63281.1| TetR family transcriptional regulator [Pseudomonas aeruginosa PA99] &gt;gb|ALV79945.1| HTH-type transcriptional repressor BepR [Pseudomonas aeruginosa] &gt;gb|AVV61359.1| NalD [Pseudomonas aeruginosa] &gt;gb|MBC9042221.1| efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|NYR28498.1| efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034006484</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>2.79826e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRQHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVR HPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|WP_033939530.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_033939530</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>2.79826e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPQRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDP RSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|WP_034069871.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034069871</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>2.79826e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGQVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRG VRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|WP_094868272.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|OZO34004.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RUG64386.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_094868272</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>3.15725e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLSPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRL PEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|WP_012613742.1|</Hit_id>
+  <Hit_def>MULTISPECIES: efflux system transcriptional repressor NalD [Pseudomonas] &gt;gb|AGO41123.1| TetR family transcriptional regulator [Pseudomonas aeruginosa RP73] &gt;gb|AHC64099.1| TetR family transcriptional regulator [Pseudomonas aeruginosa LES431] &gt;gb|AHK82396.1| TetR family transcriptional regulator [Pseudomonas aeruginosa LESlike5] &gt;gb|AHK88298.1| TetR family transcriptional regulator [Pseudomonas aeruginosa LESlike7] &gt;gb|AHK94218.1| TetR family transcriptional regulator [Pseudomonas aeruginosa LES400]</Hit_def>
+  <Hit_accession>WP_012613742</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.26291e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPHTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDP TDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|WP_058185040.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|KSH18376.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_058185040</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.44694e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRRHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVR HPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|WP_181855932.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|MBA5023838.1| efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|MBA5132808.1| efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_181855932</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.44694e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLREPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHL EPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>ref|WP_132576926.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_132576926</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.44694e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRRPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVR PPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|WP_094226412.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|OXZ17752.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_094226412</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.48497e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPPRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDP RSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>ref|WP_033940563.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_033940563</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.48497e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMPNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEM NQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|WP_034023520.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034023520</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.48497e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERPSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTER SGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|WP_134249898.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|TEP66611.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134249898</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.48497e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSPYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRS YDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|WP_046638754.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|KKJ44258.1| TetR family transcriptional regulator [Pseudomonas aeruginosa MRSN 321] &gt;gb|RTT70084.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_046638754</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.48497e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALIPGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALI GLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|WP_134590676.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134590676</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.48497e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHAPILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHA ILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|WP_096263032.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|PBV53849.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_096263032</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.52342e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHTGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLH GMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>gb|RFQ08354.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>RFQ08354</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.64134e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKPRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEK RTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>ref|WP_043156446.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_043156446</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.64134e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLGRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGL RDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|WP_058010482.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|KRV26027.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_058010482</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.64134e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRPAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTR AILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|WP_023127796.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|ERZ18355.1| TetR family transcriptional regulator [Pseudomonas aeruginosa S54485] &gt;gb|RPO86765.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_023127796</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.64134e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVPRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGV RGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|WP_004345400.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|EAZ53933.1| hypothetical protein PACG_02485 [Pseudomonas aeruginosa C3719] &gt;gb|RMK30160.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_004345400</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.76321e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTLGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVT GAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>ref|WP_132478893.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_132478893</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.76321e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRXRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECR RLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|WP_058128275.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|KSP99931.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|KSQ53970.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|KSS84953.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|OFB90762.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RIZ07655.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_058128275</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.80473e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIALRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIA RALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|WP_094002486.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|OXR91022.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_094002486</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.84671e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMSRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPM RGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|WP_126880363.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|RUL85148.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_126880363</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.84671e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLSARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQL ARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|WP_124101414.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|RPM76520.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124101414</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.97545e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRAWHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRA HALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>ref|WP_134241813.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|TEC49026.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134241813</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>4.15382e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALRALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRAL ALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|WP_134306551.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|TEG95379.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|TEP98316.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134306551</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>4.34021e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILDLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALIL LFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>ref|WP_058137685.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|KSJ30142.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_058137685</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.565</Hsp_bit-score>
+      <Hsp_score>1111</Hsp_score>
+      <Hsp_evalue>4.73843e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASPALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIAS ALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>ref|WP_116816513.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|NPY49706.1| efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_116816513</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.565</Hsp_bit-score>
+      <Hsp_score>1111</Hsp_score>
+      <Hsp_evalue>5.46496e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILCLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALIL LFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>ref|WP_070340423.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_070340423</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.565</Hsp_bit-score>
+      <Hsp_score>1111</Hsp_score>
+      <Hsp_evalue>5.58622e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAEVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAA VTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|WP_021265147.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|EQL39466.1| TetR family transcriptional regulator [Pseudomonas aeruginosa VRFPA03] &gt;gb|KJC25295.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|MUH92335.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|MUI34664.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RTU56440.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_021265147</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.565</Hsp_bit-score>
+      <Hsp_score>1111</Hsp_score>
+      <Hsp_evalue>6.37242e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIAWAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIA AAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|WP_151122672.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|KAB0717489.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_151122672</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.18</Hsp_bit-score>
+      <Hsp_score>1110</Hsp_score>
+      <Hsp_evalue>6.95711e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLYLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDL LEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>ref|WP_132529774.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|TEL35355.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_132529774</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.18</Hsp_bit-score>
+      <Hsp_score>1110</Hsp_score>
+      <Hsp_evalue>6.95711e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDEYRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDE RVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|WP_058138287.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|KSC68384.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|KSC86071.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_058138287</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.18</Hsp_bit-score>
+      <Hsp_score>1110</Hsp_score>
+      <Hsp_evalue>7.03387e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGTVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWSQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRG VYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDW QASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|WP_087819139.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|OVZ02417.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_087819139</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.18</Hsp_bit-score>
+      <Hsp_score>1110</Hsp_score>
+      <Hsp_evalue>7.03387e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRCTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MR TKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|WP_074198568.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|OKR26089.1| TetR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|OWJ25467.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_074198568</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.18</Hsp_bit-score>
+      <Hsp_score>1110</Hsp_score>
+      <Hsp_evalue>7.03387e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTCGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVT GAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|WP_125033547.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|RRI20482.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_125033547</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.18</Hsp_bit-score>
+      <Hsp_score>1110</Hsp_score>
+      <Hsp_evalue>7.03387e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQECNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQE NNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|WP_124198835.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|RQB73600.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124198835</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.18</Hsp_bit-score>
+      <Hsp_score>1110</Hsp_score>
+      <Hsp_evalue>7.51255e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDRSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCD SDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>ref|WP_173834384.1|</Hit_id>
+  <Hit_def>efflux system transcriptional repressor NalD [Pseudomonas aeruginosa] &gt;gb|QKL12007.1| TetR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_173834384</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.18</Hsp_bit-score>
+      <Hsp_score>1110</Hsp_score>
+      <Hsp_evalue>8.66442e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDLRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRD RLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>gb|KEA22378.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Pseudomonas aeruginosa C1913C]</Hit_def>
+  <Hit_accession>KEA22378</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.795</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>9.56377e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAHLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_qseq>
+      <Hsp_hseq>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKAPLFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_hseq>
+      <Hsp_midline>MRRTKEDSEKTRTAILLAAEELFLEKGVSHTSLEQIARAAGVTRGAVYWHFQNKA LFNEMLNQVRLPPEQLTERLSGCDGSDPLRSLYDLCLEAVQSLLTQEKKRRILTILMQRCEFTEELREAQERNNAFVQMFIELCEQLFARDECRVRLHPGMTPRIASRALHALILGLFNDWLRDPRLFDPDTDAEHLLEPMFRGLVRDWGQASSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>322214535</Statistics_db-num>
+      <Statistics_db-len>165954995</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

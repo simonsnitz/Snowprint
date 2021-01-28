@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_42759</BlastOutput_query-ID>
+  <BlastOutput_query-def>WP_000101737.1 MULTISPECIES: multidrug efflux transporter transcriptional repressor AcrR [Bacteria]</BlastOutput_query-def>
+  <BlastOutput_query-len>215</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_42759</Iteration_query-ID>
+  <Iteration_query-def>WP_000101737.1 MULTISPECIES: multidrug efflux transporter transcriptional repressor AcrR [Bacteria]</Iteration_query-def>
+  <Iteration_query-len>215</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_000101737.1|</Hit_id>
+  <Hit_def>MULTISPECIES: multidrug efflux transporter transcriptional repressor AcrR [Bacteria] &gt;ref|NP_414997.1| DNA-binding transcriptional repressor AcrR [Escherichia coli str. K-12 substr. MG1655] &gt;ref|NP_706357.1| DNA-binding transcriptional repressor AcrR [Shigella flexneri 2a str. 301] &gt;sp|P0ACS9.1| RecName: Full=HTH-type transcriptional regulator AcrR; AltName: Full=Potential acrAB operon repressor [Escherichia coli K-12] &gt;sp|P0ACT0.1| RecName: Full=HTH-type transcriptional regulator AcrR; AltName: Full=Potential acrAB operon repressor [Escherichia coli CFT073] &gt;sp|P0ACT1.1| RecName: Full=HTH-type transcriptional regulator AcrR; AltName: Full=Potential acrAB operon repressor [Shigella flexneri] &gt;pdb|2QOP|A Chain A, Hth-type Transcriptional Regulator Acrr [Escherichia coli K-12] &gt;pdb|3BCG|A Chain A, Conformational Changes Of The Acrr Regulator Reveal A Mechanism Of Induction [Escherichia coli K-12] &gt;pdb|3BCG|B Chain B, Conformational Changes Of The Acrr Regulator Reveal A Mechanism Of Induction [Escherichia coli K-12] &gt;gb|AAZ87227.1| acrAB operon repressor [Shigella sonnei Ss046] &gt;gb|AFG39358.1| HTH-type transcriptional regulator acrR [Escherichia coli P12b] &gt;gb|AGX32611.1| DNA-binding transcriptional repressor [synthetic Escherichia coli C321.deltaA] &gt;gb|AIR75166.1| DNA-binding transcriptional regulator [Escherichia coli HB101] &gt;gb|AIR75169.1| DNA-binding transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|AMN85643.1| transcriptional repressor AcrR [Escherichia sp. CR1] &gt;gb|AMN85644.1| transcriptional repressor AcrR [Escherichia sp. CR2] &gt;gb|AMN85645.1| transcriptional repressor AcrR [Escherichia sp. NCX9] &gt;gb|EBW6030933.1| transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium] &gt;gb|EBW8917712.1| transcriptional regulator [Salmonella enterica subsp. enterica serovar Enteritidis] &gt;gb|EEC7200885.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O11] &gt;gb|EEC7211144.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O103] &gt;gb|EER0916570.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O168:H8] &gt;gb|EER4141536.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O6] &gt;gb|EES8444799.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O6:H34] &gt;gb|EES8553668.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O168] &gt;gb|EET3378650.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O111] &gt;gb|EEV1189557.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O157:NM] &gt;gb|EEV2752837.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O139] &gt;gb|EEV2839633.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O43:H2] &gt;gb|EEW3507113.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O156:H25] &gt;gb|EEY1520587.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O126] &gt;gb|EEY1567732.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O21] &gt;gb|EEY4446543.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O116] &gt;gb|EEY4450654.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O130] &gt;gb|EEY4477734.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O8] &gt;gb|EEY7556918.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O2] &gt;gb|EEY7913226.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O21:H28] &gt;gb|EEY7936283.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O20:H9] &gt;gb|EEZ5631049.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O25] &gt;gb|EEZ5635579.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O86] &gt;gb|EEZ5649755.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O20] &gt;gb|EEZ5658541.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O5] &gt;gb|EEZ5693022.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O65] &gt;gb|EEZ5738551.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O9] &gt;gb|EEZ5759088.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O101] &gt;gb|EEZ5763328.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O140] &gt;gb|EEZ5778345.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O40] &gt;gb|EEZ5784154.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O107] &gt;gb|EEZ5804512.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O105] &gt;gb|EEZ5876980.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O102] &gt;gb|EEZ5887460.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O146] &gt;gb|EEZ5962651.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O19] &gt;gb|EEZ5981486.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O119] &gt;gb|EEZ5985950.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O78] &gt;gb|EEZ6009244.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O117] &gt;gb|EEZ6059894.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O1] &gt;gb|EEZ6411810.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O104] &gt;gb|EEZ6458587.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O16] &gt;gb|EEZ6487678.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O156] &gt;gb|EEZ6619536.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O7] &gt;gb|EEZ6987957.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O109] &gt;gb|EEZ7033632.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O175] &gt;gb|EEZ7092484.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O120] &gt;gb|EEZ8620012.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O17] &gt;gb|EEZ9003734.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O150] &gt;gb|EEZ9008027.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O57:H16] &gt;gb|EEZ9022475.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O136] &gt;gb|EEZ9031658.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O75] &gt;gb|EEZ9622239.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O32] &gt;gb|EEZ9681491.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O55] &gt;gb|EEZ9761992.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O115] &gt;gb|EEZ9815564.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O135] &gt;gb|EEZ9830764.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O153] &gt;gb|EEZ9856150.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O54] &gt;gb|EEZ9866568.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O10] &gt;gb|EFA4030205.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O108:H9] &gt;gb|EFA4036666.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O120:H10] &gt;gb|EFA4044838.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O144] &gt;gb|EFA4049704.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O91:H28] &gt;gb|EFA4054363.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O38:H26] &gt;gb|EFA4074919.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O96] &gt;gb|EFA4088278.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli OX38:H47] &gt;gb|EFA4117676.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O14] &gt;gb|EFA4120713.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O49:H9] &gt;gb|EFA4127759.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O13] &gt;gb|EFA4133149.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli OX01:H8] &gt;gb|EFA4134812.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O8:H31] &gt;gb|EFA4140616.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O78:H42] &gt;gb|EFA4143743.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O99:H27] &gt;gb|EFA4149478.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O166:H49] &gt;gb|EFA4154992.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O15:H21] &gt;gb|EFA4158669.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O174:H7] &gt;gb|EFA4165769.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O70:H25] &gt;gb|EFA4168718.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O80:H45] &gt;gb|EFA4174185.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O163] &gt;gb|EFA4176461.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O43:H14] &gt;gb|EFA4183245.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O86:H8] &gt;gb|EFA4189150.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O128:H42] &gt;gb|EFA4196554.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O132] &gt;gb|EFA4200764.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O2:H32] &gt;gb|EFA4206600.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O83:H31] &gt;gb|EFA4217167.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O19:H42] &gt;gb|EFA4221145.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O151:H8] &gt;gb|EFA4227276.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O11:H15] &gt;gb|EFA4240432.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O36:H5] &gt;gb|EFA4254744.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O136:H26] &gt;gb|EFA4283742.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O36] &gt;gb|EFA4297014.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O18:H7] &gt;gb|EFA8658254.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O8:H9] &gt;gb|EFA8768838.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O25:H4] &gt;gb|EFA8787772.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O83] &gt;gb|EFA8799080.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O2:H1] &gt;gb|EFA8802658.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O39:H4] &gt;gb|EFA8807879.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O8:H49] &gt;gb|EFA8823115.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O55:H7] &gt;gb|EFA8831775.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O1:H7] &gt;gb|EFA8836064.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O88:H4] &gt;gb|EFB4084405.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O33] &gt;gb|EFB4109533.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O53] &gt;gb|EFB4128456.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O100] &gt;gb|EFB4133380.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O8:H36] &gt;gb|EFB4139078.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O88:H1] &gt;gb|EFB4143859.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O113] &gt;gb|EFB4147013.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O128] &gt;gb|EFB4183542.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O74] &gt;gb|EFE0990301.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O159:H19] &gt;gb|EFE1063563.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O113:H36] &gt;gb|EFE2120467.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O74:H8] &gt;gb|EFE2141857.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O8:H19] &gt;gb|EFE2151530.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O8:H28] &gt;gb|EFN6651409.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O166:H6] &gt;gb|EFN6661937.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O7:H7] &gt;gb|EFN6672052.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O8:H10] &gt;gb|EFN6679731.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O179:H8] &gt;gb|EFN6718398.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli H18] &gt;gb|EFN6728229.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O6:H31] &gt;gb|EFN6733374.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli H19] &gt;gb|EFN6736507.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli H6] &gt;gb|EFN6764424.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O45:H11] &gt;gb|EFN6765852.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O39:H21] &gt;gb|EFN6812057.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O110] &gt;gb|EFN6815349.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O83:H15] &gt;gb|EFN6839828.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli H51] &gt;gb|EFN6845555.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O139:H19] &gt;gb|EFN6862371.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O4:H5] &gt;gb|EFN7204296.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli H1] &gt;gb|EFN7222761.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O21:H34] &gt;gb|EFN7248610.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O2:H14] &gt;gb|EFN7258645.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O162:H9] &gt;gb|EFN7279215.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O11:H5] &gt;gb|EFN7342507.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O128:H2] &gt;gb|EFN7361450.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O180:H14] &gt;gb|EFN8432306.1| transcriptional regulator [Escherichia coli O68] &gt;gb|EFN8567705.1| transcriptional regulator [Escherichia coli O85:H32] &gt;gb|EFN8584196.1| transcriptional regulator [Escherichia coli O8:H21] &gt;gb|EFN8589462.1| transcriptional regulator [Escherichia coli O53:H10] &gt;gb|EFN8593282.1| transcriptional regulator [Escherichia coli O41:H11] &gt;gb|EFN8597360.1| transcriptional regulator [Escherichia coli O79:H40] &gt;gb|EFN8601484.1| transcriptional regulator [Escherichia coli O153:H12] &gt;gb|EFN8606701.1| transcriptional regulator [Escherichia coli O83:H28] &gt;gb|EFN8612117.1| transcriptional regulator [Escherichia coli O41:H45] &gt;gb|EFN8618636.1| transcriptional regulator [Escherichia coli H8] &gt;gb|EFN8620654.1| transcriptional regulator [Escherichia coli O51] &gt;gb|EFN8669144.1| transcriptional regulator [Escherichia coli O171] &gt;gb|EFN8703470.1| transcriptional regulator [Escherichia coli O79] &gt;gb|EFO2078099.1| transcriptional regulator [Escherichia coli O409] &gt;gb|EFO2114274.1| transcriptional regulator [Escherichia coli O106] &gt;gb|EFO2119156.1| transcriptional regulator [Escherichia coli O3] &gt;gb|EFO2287570.1| transcriptional regulator [Escherichia coli O148] &gt;gb|EFO3066084.1| transcriptional regulator [Escherichia coli O73] &gt;gb|EFQ02349.1| HTH-type transcriptional regulator acrR [Escherichia coli 1827-70] &gt;gb|EFW58915.1| DNA-binding transcriptional repressor AcrR [Shigella flexneri CDC 796-83] &gt;gb|EFZ50076.1| HTH-type transcriptional regulator acrR [Shigella sonnei 53G] &gt;gb|EFZ56210.1| HTH-type transcriptional regulator acrR [Escherichia coli LT-68] &gt;gb|EGI37930.1| HTH-type transcriptional regulator AcrR (Potential acrAB operonrepressor) [Escherichia coli TA271] &gt;gb|EGJ91748.1| HTH-type transcriptional regulator acrR [Shigella flexneri 2747-71] &gt;gb|EGJ94004.1| HTH-type transcriptional regulator acrR [Shigella flexneri K-671] &gt;gb|EGK27213.1| HTH-type transcriptional regulator acrR [Shigella flexneri K-218] &gt;gb|EGK29333.1| HTH-type transcriptional regulator acrR [Shigella flexneri K-272] &gt;gb|EGK39994.1| HTH-type transcriptional regulator acrR [Shigella flexneri K-227] &gt;gb|EGK41089.1| HTH-type transcriptional regulator acrR [Shigella flexneri K-304] &gt;gb|EGR64779.1| DNA-binding transcriptional repressor AcrR [Escherichia coli O104:H4 str. 01-09591] &gt;gb|EGR75676.1| DNA-binding transcriptional repressor AcrR [Escherichia coli O104:H4 str. LB226692] &gt;gb|EHV66935.1| HTH-type transcriptional regulator AcrR [Escherichia coli DEC6C] &gt;gb|EIQ13629.1| HTH-type transcriptional regulator AcrR [Shigella flexneri 2850-71] &gt;gb|EIQ16091.1| HTH-type transcriptional regulator AcrR [Shigella flexneri CCH060] &gt;gb|EIQ18334.1| HTH-type transcriptional regulator AcrR [Shigella flexneri K-1770] &gt;gb|EIQ32694.1| HTH-type transcriptional regulator AcrR [Shigella flexneri K-404] &gt;gb|EIQ47331.1| HTH-type transcriptional regulator AcrR [Shigella sonnei 3226-85] &gt;gb|EIQ47806.1| HTH-type transcriptional regulator AcrR [Shigella sonnei 3233-85] &gt;gb|EIQ55049.1| acrR transcriptional regulator AcrR transcriptional repressor [Shigella sonnei 4822-66] &gt;gb|EIQ77279.1| HTH-type transcriptional regulator AcrR [Shigella flexneri 1235-66] &gt;gb|EJL17417.1| acrR transcriptional regulator AcrR transcriptional repressor [Shigella flexneri 6603-63] &gt;gb|EJL19356.1| acrR transcriptional regulator AcrR transcriptional repressor [Shigella sonnei str. Moseley] &gt;gb|EJZ68322.1| acrR transcriptional regulator AcrR transcriptional repressor [Shigella flexneri 1485-80] &gt;gb|ERF97666.1| transcriptional regulator [Escherichia coli O104:H21 str. CFSAN002237] &gt;gb|EST81856.1| DNA-binding transcriptional repressor AcrR [Escherichia coli ECA-727] &gt;gb|ETJ28425.1| HTH-type transcriptional regulator AcrR [Escherichia coli DORA_A_5_14_21] &gt;gb|EYE05687.1| HTH-type transcriptional regulator AcrR [Escherichia coli 1-110-08_S4_C3] &gt;gb|EYE06950.1| HTH-type transcriptional regulator AcrR [Escherichia coli 1-110-08_S4_C2] &gt;gb|EYE07522.1| HTH-type transcriptional regulator AcrR [Escherichia coli 1-110-08_S4_C1] &gt;gb|EYE15021.1| HTH-type transcriptional regulator AcrR [Escherichia coli 1-110-08_S3_C3] &gt;gb|EYE29562.1| HTH-type transcriptional regulator AcrR [Escherichia coli 1-110-08_S3_C2] &gt;gb|EZA20635.1| transcriptional regulator [Escherichia coli O113:H21 str. 07-4224] &gt;gb|EZK24347.1| HTH-type transcriptional regulator AcrR [Escherichia coli 1-176-05_S1_C2] &gt;gb|KAE9895631.1| multidrug efflux transporter transcriptional repressor AcrR [Enterobacteriaceae bacterium TzEc052] &gt;gb|ODQ02618.1| DNA-binding transcriptional repressor AcrR [Shigella sp. FC569] &gt;gb|OZQ58627.1| transcriptional regulator [Klebsiella pneumoniae] &gt;gb|QLW05658.1| multidrug efflux transporter transcriptional repressor AcrR [Enterobacter hormaechei] &gt;emb|CDC80563.1| acrAB operon repressor [Escherichia coli CAG:4] &gt;emb|CDK69894.1| Transcription repressor of multidrug efflux pump acrAB operon, TetR (AcrR) family [Klebsiella pneumoniae IS22] &gt;emb|VTQ31211.1| TetR-type transcriptional regulator [Streptococcus pneumoniae] &gt;dbj|BAL37670.1| DNA-binding transcriptional regulator [Escherichia coli str. K-12 substr. MDS42] &gt;tpg|HAB21256.1| transcriptional regulator [Shigella sp.] &gt;tpg|HAJ6397865.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli UMEA 3252-1] &gt;tpg|HAJ6402572.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli HVH 101 (4-6859844)] &gt;tpg|HAJ6406254.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli HVH 93 (4-5851025)] &gt;tpg|HAJ6413941.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli HVH 54 (4-2723514)] &gt;tpg|HAJ7328949.1| transcriptional regulator [Escherichia coli UCI 52]</Hit_def>
+  <Hit_accession>WP_000101737</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.047</Hsp_bit-score>
+      <Hsp_score>1146</Hsp_score>
+      <Hsp_evalue>2.71486e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_125097125.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEY7859174.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFF2145364.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFF2193118.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFG3069250.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFG9298970.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_125097125</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.047</Hsp_bit-score>
+      <Hsp_score>1146</Hsp_score>
+      <Hsp_evalue>3.96898e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_025210256.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|AHM42624.1| transcriptional regulator [Escherichia coli] &gt;gb|AHM47256.1| transcriptional regulator [Escherichia coli] &gt;gb|AHM51797.1| transcriptional regulator [Escherichia coli] &gt;dbj|GCU96330.1| transcriptional repressor [Escherichia coli] &gt;tpg|HAJ3726437.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_025210256</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.662</Hsp_bit-score>
+      <Hsp_score>1145</Hsp_score>
+      <Hsp_evalue>4.33316e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>emb|STG28301.1|</Hit_id>
+  <Hit_def>acrAB operon repressor [Escherichia coli]</Hit_def>
+  <Hit_accession>STG28301</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.662</Hsp_bit-score>
+      <Hsp_score>1145</Hsp_score>
+      <Hsp_evalue>4.81495e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_105165980.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|PPX45597.1| DNA-binding transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_105165980</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.662</Hsp_bit-score>
+      <Hsp_score>1145</Hsp_score>
+      <Hsp_evalue>5.01914e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRVEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDR+EQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_088541025.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_088541025</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.662</Hsp_bit-score>
+      <Hsp_score>1145</Hsp_score>
+      <Hsp_evalue>5.01914e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAVLLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVA+LLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>tpg|HAH4954022.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>HAH4954022</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.662</Hsp_bit-score>
+      <Hsp_score>1145</Hsp_score>
+      <Hsp_evalue>5.01914e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEVWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSE+WELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_165471361.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_165471361</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.662</Hsp_bit-score>
+      <Hsp_score>1145</Hsp_score>
+      <Hsp_evalue>5.01914e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEVIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLME+IFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|EFG8777366.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFG8777366</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>5.98249e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYILCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMY+LCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|EFH3436480.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFH3436480</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>5.98249e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNICLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRN+CLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>tpg|HAJ9023213.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>HAJ9023213</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>5.98249e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWIFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENW+FAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_072844108.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_072844108</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>5.98249e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRILMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRR+LMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|NPP42116.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>NPP42116</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>5.98249e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVIESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHV+ESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|EGI6720670.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAI9416217.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EGI6720670</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>6.46014e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGISSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQG+SSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_001548261.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEW2384711.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEZ4291564.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFB3127569.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFB3235928.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFB4722515.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_001548261</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>6.46014e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAIVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMA+VQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_096040801.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|ATC06635.1| DNA-binding transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_096040801</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>6.46014e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYIAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDY+AILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_094323394.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEW9261184.1| DNA-binding transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEY5309118.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFA5771411.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|NSW72062.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|PPV87867.1| DNA-binding transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_094323394</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>6.46014e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFIGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEF+GEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|EFO3889721.1|</Hit_id>
+  <Hit_def>DNA-binding transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFO3889721</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>6.46014e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHILESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIH+LESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_122545170.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_122545170</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>7.61602e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREIVIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREI+IHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|EFH2030078.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFO3949368.1| DNA-binding transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFO3955126.1| DNA-binding transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFO3965497.1| DNA-binding transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFO3969661.1| DNA-binding transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFH2030078</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>7.70006e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLRDILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLR+ILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|EFN5242279.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFP8507196.1| multidrug efflux transporter transcriptional repressor AcrR [Shigella sonnei] &gt;gb|EFP8524568.1| multidrug efflux transporter transcriptional repressor AcrR [Shigella sonnei]</Hit_def>
+  <Hit_accession>EFN5242279</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>7.70006e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLDSYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCL+SYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_033551481.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFA5766433.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAH8316096.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_033551481</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>7.70006e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQDTRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQ+TRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>tpg|HAH4964345.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>HAH4964345</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>7.70006e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLDSTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVL+STVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_021519365.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EQO48127.1| HTH-type transcriptional regulator AcrR [Escherichia coli HVH 39 (4-2679949)] &gt;tpg|HAI4256471.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_021519365</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>8.31484e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRSAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRR+AIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|EFC1611201.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFC1611201</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>8.31484e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPSDLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLP+DLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_096122204.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFG7991335.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFH6739695.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFL7017860.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EGF1605990.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EGH1379163.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_096122204</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>8.31484e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVSILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYV+ILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|EEZ8461645.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEZ8518031.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFH9937001.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EEZ8461645</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>8.31484e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFSPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLF+PQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_176308057.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|QKY27183.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_176308057</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>8.88073e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEMAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGE+AKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_032302583.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|KDA59506.1| HTH-type transcriptional regulator AcrR [Escherichia coli 2-011-08_S1_C1]</Hit_def>
+  <Hit_accession>WP_032302583</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>8.97872e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQTFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQ+FDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_159376012.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|QHF79678.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_159376012</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>8.97872e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFTQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLF+QQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_097332364.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_097332364</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>9.48512e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLEATVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLE+TVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>tpg|HAI1042207.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O25b:H4-ST131]</Hit_def>
+  <Hit_accession>HAI1042207</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>9.91073e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGELAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGE+AKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_096977922.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFQ2923132.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EGH0557329.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_096977922</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>1.01306e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLQKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDL+KEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_157159240.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|KAE9477313.1| HTH-type transcriptional regulator AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_157159240</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>1.01306e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDQSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKD+SDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_071343217.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEW8172714.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|MQJ28384.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|OII78968.1| DNA-binding transcriptional repressor AcrR [Escherichia coli] &gt;gb|TFR06253.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAJ4484451.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_071343217</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>1.05852e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRFFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALR FSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_047402718.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFH9206709.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFL9415558.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFL9641684.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|KHD49384.1| transcriptional regulator [Escherichia coli] &gt;gb|KHD56492.1| transcriptional regulator [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_047402718</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>1.05852e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYFLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMY LCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|EFA0036169.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFA0036169</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>1.05852e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVFREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSV REILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>tpg|HAI3472771.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>HAI3472771</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>1.05852e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLFMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRL MEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|EFD0459016.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAN2514543.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAN3071554.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFD0459016</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>1.05852e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDFKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFD KKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|EFY0954681.1|</Hit_id>
+  <Hit_def>DNA-binding transcriptional repressor AcrR [Shigella sonnei]</Hit_def>
+  <Hit_accession>EFY0954681</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>1.05852e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMFPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKM PADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_072650829.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|MQJ90162.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|OJO41969.1| DNA-binding transcriptional repressor AcrR [Escherichia coli] &gt;gb|OJO53463.1| DNA-binding transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_072650829</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>1.05852e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHIFDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHI DVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|EER7635573.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEV4520569.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EER7635573</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>1.05852e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTFRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPT RNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|EFI8213399.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFJ3508523.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFI8213399</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>1.05852e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWFFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENW FAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_096857042.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEV9015962.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_096857042</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.0702e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPASNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPA+NE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_000101744.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EWC54953.1| DNA-binding transcriptional repressor AcrR [Escherichia coli EC096/10] &gt;tpg|HAI7268568.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_000101744</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.0702e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGNPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPG+PLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>tpg|HAH4585578.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>HAH4585578</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.0702e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYNRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESY+RIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|EEW3619045.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EEW3619045</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.0702e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILNVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHIL+VALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_124036240.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_124036240</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.0702e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPANLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPA+LMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_115724142.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEV6059073.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEW1683587.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEW2111194.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEY5754189.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFH6266782.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_115724142</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.0702e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARNYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEAR+YVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_178970073.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|MBB0719005.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|QLE22708.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAJ7557724.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAJ7875098.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAM8857786.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_178970073</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.08201e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKETRDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKE RDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>gb|EFO6539895.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFO6539895</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.08201e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQTQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQ QRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|WP_001683919.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEW1678168.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EMU67166.1| HTH-type transcriptional regulator AcrR [Escherichia coli MP021552.11] &gt;gb|EMX43435.1| HTH-type transcriptional regulator AcrR [Escherichia coli MP021552.8] &gt;gb|KAA1850891.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAH3455407.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_001683919</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.08201e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEITKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEI KAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>gb|EFK8555399.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAL3096220.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFK8555399</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.08201e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGTIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRG IYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|WP_089633835.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_089633835</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.08201e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFTPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLF PQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>gb|EEY6129937.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAJ9183806.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EEY6129937</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.08201e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPTDLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLP DLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|WP_000101743.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEZ8571063.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O113] &gt;tpg|HAL0582955.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli RS218] &gt;gb|EEV1201022.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEV4687935.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEY5846019.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_000101743</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.08201e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLRHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTL+HCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|WP_032255538.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEV6101646.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFB6895069.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFE1422936.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFH4984784.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFI0471290.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_032255538</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.08201e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPTTNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNP TNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|WP_033807078.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFW8104296.1| multidrug efflux transporter transcriptional repressor AcrR [Shigella sonnei] &gt;gb|EAA1958291.1| transcriptional regulator [Escherichia coli] &gt;gb|EEC8116433.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEC8182005.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEC8763626.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_033807078</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.08201e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLRKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDL+KEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>gb|EFG6431403.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFG6431403</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.08201e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIETKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIE KMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>gb|EEW7067900.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EEW7067900</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.08201e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHRCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFH+CEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|WP_042634180.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFA8318332.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O157] &gt;gb|KAA2172840.1| transcriptional regulator [Escherichia coli] &gt;gb|KIQ42645.1| transcriptional regulator [Escherichia coli] &gt;gb|KIQ47375.1| transcriptional regulator [Escherichia coli] &gt;tpg|HAK9567980.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_042634180</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.08201e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVTLRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDV LRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|WP_181204927.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|MBA1741459.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAG7496024.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAI4086175.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAN2126829.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_181204927</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.08201e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRTAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRR AIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|WP_097416281.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFB2236416.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFE5935944.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFE8961036.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFE9529693.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFF0620572.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_097416281</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.08201e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKATGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKA GVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|WP_112934717.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFP5565666.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_112934717</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.08201e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQTKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQ KFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|WP_139489918.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_139489918</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.08201e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQETQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQE QETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>gb|EFP0166852.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFP0166852</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.08201e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKTAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAK AGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|WP_057081011.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEY8530895.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|KQI75636.1| transcriptional regulator [Escherichia coli] &gt;gb|OSL59482.1| HTH-type transcriptional regulator AcrR (Potential acrAB operonrepressor) [Escherichia coli H454] &gt;tpg|HAM0074866.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_057081011</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.08201e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMTVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEM VVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>ref|WP_137527370.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;dbj|GDH71273.1| transcriptional repressor [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_137527370</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.08201e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVTILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYV ILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|WP_097500431.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFC1458788.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFM3344652.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_097500431</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.1684e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVKQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVV+QAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>gb|EGC2380639.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EGC2380639</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.1684e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEKTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIE+TLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|WP_160456308.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFD7675125.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFE8165219.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|MWU15473.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_160456308</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.1684e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQKGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQ+GVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|WP_175055392.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EGI8516863.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_175055392</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.18129e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVMQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAV+QQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>gb|EFA2690210.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFA2690210</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.18129e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDMALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILD+ALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|WP_100729217.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEW9002418.1| DNA-binding transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_100729217</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.28968e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGKLELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIG+LELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|WP_053274775.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFN7229734.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O26:H32] &gt;gb|EEW0967055.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFA4097606.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFC6512915.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFC9622199.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_053274775</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.28968e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQKTRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQ+TRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>tpg|HAI1145761.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli O25b:H4-ST131]</Hit_def>
+  <Hit_accession>HAI1145761</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.28968e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIKQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRI+QTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>ref|WP_124848718.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEQ6913898.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEW7179972.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEX7625458.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEY2354512.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EGB6284495.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_124848718</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.28968e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMKNWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLM+NWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>gb|EFA9669859.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAL7762818.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFA9669859</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.28968e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTKERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVT+ERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|WP_042852092.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFK6055112.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFT5601695.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EZE28508.1| transcriptional regulator [Escherichia coli O123:H11 str. 2009C-3307] &gt;gb|RRB50503.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_042852092</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.28968e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKKARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKK+ARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gb|EFN9709617.1|</Hit_id>
+  <Hit_def>DNA-binding transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFN9709617</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.28968e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEKRRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTE+RRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gb|MBB0841967.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAJ8366517.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>MBB0841967</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.28968e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLKMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILL+MYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>gb|EFE7711075.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFE7711075</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.28968e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQKAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQ+AQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>gb|EEW4834609.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EEW4834609</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.28968e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCKFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKC+FVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>tpg|HAI3623157.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>HAI3623157</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.28968e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLKSYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCL+SYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>tpg|HAL6687763.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>HAL6687763</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.30391e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLELYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLE+YLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>ref|WP_086619114.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|OUK87347.1| DNA-binding transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_086619114</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.39265e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGLSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQG+SSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>gb|EFN9998460.1|</Hit_id>
+  <Hit_def>DNA-binding transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAJ0530882.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFN9998460</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.39265e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTLTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLEST+TEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>tpg|HAH2294289.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>HAH2294289</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.39265e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYLAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDY+AILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>tpg|HAI6550193.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>HAI6550193</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.39265e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHLLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIH+LESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>ref|WP_061351407.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EGD9102229.1| DNA-binding transcriptional repressor AcrR [Escherichia coli] &gt;gb|EGE2356968.1| DNA-binding transcriptional repressor AcrR [Escherichia coli] &gt;gb|KXP82153.1| transcriptional regulator [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_061351407</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.40802e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIFWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAI+WHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>gb|EFL9505436.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFL9957176.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFL9505436</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.40802e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMFLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEM+LLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>gb|EFN5382533.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFN5382533</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.40802e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESFDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLES+DRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>ref|WP_048223851.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFW3285952.1| multidrug efflux transporter transcriptional repressor AcrR [Shigella flexneri] &gt;gb|EEC7472651.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEC7686355.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEC7702592.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EEC8477279.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_048223851</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.42356e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQVKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQ KFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>gb|EFB9125852.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFM3727548.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFN1771691.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>EFB9125852</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.42356e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MVRKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>M RKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|WP_121282355.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFE3787046.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFO1468890.1| DNA-binding transcriptional repressor AcrR [Escherichia coli] &gt;gb|MSH67836.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|MSI11631.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|MSI93905.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_121282355</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.42356e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAVGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKA GVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|WP_097754601.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAL3083595.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_097754601</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.42356e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAVIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRA IIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|WP_000101741.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|ACA78775.1| transcriptional regulator, TetR family [Escherichia coli ATCC 8739] &gt;gb|AYB98882.1| DNA-binding transcriptional repressor AcrR [Escherichia coli ATCC 8739] &gt;gb|EEZ5314739.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFC0389879.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFC1880896.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_000101741</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.42356e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEVKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIE KMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|WP_021525231.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFC4534020.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EQP77064.1| HTH-type transcriptional regulator AcrR [Escherichia coli HVH 77 (4-2605759)] &gt;gb|OJQ90150.1| DNA-binding transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAH1299085.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAJ5133206.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_021525231</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.42356e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFVPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLF PQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>tpg|HAL0171457.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>HAL0171457</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.42356e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMVVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEM VVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|WP_105463000.1|</Hit_id>
+  <Hit_def>multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFG3746486.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;gb|EFG3869228.1| DNA-binding transcriptional repressor AcrR [Escherichia coli] &gt;gb|QMU39522.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli] &gt;tpg|HAI0065577.1| multidrug efflux transporter transcriptional repressor AcrR [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_105463000</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>1.42356e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPATNE</Hsp_qseq>
+      <Hsp_hseq>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNPVTNE</Hsp_hseq>
+      <Hsp_midline>MARKTKQEAQETRQHILDVALRLFSQQGVSSTSLGEIAKAAGVTRGAIYWHFKDKSDLFSEIWELSESNIGELELEYQAKFPGDPLSVLREILIHVLESTVTEERRRLLMEIIFHKCEFVGEMAVVQQAQRNLCLESYDRIEQTLKHCIEAKMLPADLMTRRAAIIMRGYISGLMENWLFAPQSFDLKKEARDYVAILLEMYLLCPTLRNP TNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>322214535</Statistics_db-num>
+      <Statistics_db-len>165954995</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

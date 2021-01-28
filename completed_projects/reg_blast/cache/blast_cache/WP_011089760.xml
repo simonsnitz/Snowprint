@@ -1,0 +1,2823 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_14145</BlastOutput_query-ID>
+  <BlastOutput_query-def>WP_011089760.1 MULTISPECIES: TetR/AcrR family transcriptional regulator [Bradyrhizobium]</BlastOutput_query-def>
+  <BlastOutput_query-len>220</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_14145</Iteration_query-ID>
+  <Iteration_query-def>WP_011089760.1 MULTISPECIES: TetR/AcrR family transcriptional regulator [Bradyrhizobium]</Iteration_query-def>
+  <Iteration_query-len>220</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_011089760.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Bradyrhizobium] &gt;gb|AND92015.1| transcriptional regulator [Bradyrhizobium diazoefficiens USDA 110] &gt;gb|AWO93844.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium diazoefficiens] &gt;gb|PDT56520.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium diazoefficiens] &gt;gb|QBP25764.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium diazoefficiens] &gt;gb|QHP73202.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. LCT2]</Hit_def>
+  <Hit_accession>WP_011089760</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.662</Hsp_bit-score>
+      <Hsp_score>1145</Hsp_score>
+      <Hsp_evalue>7.24727e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_hseq>
+      <Hsp_midline>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_060910311.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium diazoefficiens] &gt;dbj|BAR58392.1| transcriptional regulatory protein [Bradyrhizobium diazoefficiens]</Hit_def>
+  <Hit_accession>WP_060910311</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.736</Hsp_bit-score>
+      <Hsp_score>1140</Hsp_score>
+      <Hsp_evalue>3.63639e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFGGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_hseq>
+      <Hsp_midline>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPF GKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_092186933.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. cf659] &gt;emb|SFI74052.1| transcriptional regulator, TetR family [Bradyrhizobium sp. cf659]</Hit_def>
+  <Hit_accession>WP_092186933</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.351</Hsp_bit-score>
+      <Hsp_score>1139</Hsp_score>
+      <Hsp_evalue>4.52871e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAAVARTISRLTDFEGIEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_hseq>
+      <Hsp_midline>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAA VARTISRLTDFEG+EPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_028173099.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium diazoefficiens] &gt;gb|APO55962.1| transcriptional regulator [Bradyrhizobium diazoefficiens] &gt;gb|KGJ63384.1| putative transcriptional regulator, TetR family [Bradyrhizobium diazoefficiens SEMIA 5080] &gt;gb|KOY05479.1| transcriptional regulator [Bradyrhizobium diazoefficiens] &gt;gb|QIO94181.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium diazoefficiens]</Hit_def>
+  <Hit_accession>WP_028173099</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.351</Hsp_bit-score>
+      <Hsp_score>1139</Hsp_score>
+      <Hsp_evalue>4.57868e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEAEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_hseq>
+      <Hsp_midline>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVE EGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_025575518.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. CNPSo 3448] &gt;gb|TFV36992.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. CNPSo 3448]</Hit_def>
+  <Hit_accession>WP_025575518</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.728</Hsp_bit-score>
+      <Hsp_score>1127</Hsp_score>
+      <Hsp_evalue>3.98245e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKKSTPKRGRPPKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGIEPEGRTLHDKLSNLGTTIVENLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNETTQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_hseq>
+      <Hsp_midline>MTKKSTPKRGRP KDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEG+EPEGRTLHDKLSNLGTTIVE LIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNE TQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_027544949.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. WSM2254]</Hit_def>
+  <Hit_accession>WP_027544949</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.187</Hsp_bit-score>
+      <Hsp_score>1123</Hsp_score>
+      <Hsp_evalue>1.56956e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKKSTPKRGRPPKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGIEPEGRTLHDKLSNLGTTIVENLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNETTQKLVRAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_hseq>
+      <Hsp_midline>MTKKSTPKRGRP KDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEG+EPEGRTLHDKLSNLGTTIVE LIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNE TQKL RAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_007604491.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [unclassified Bradyrhizobium] &gt;gb|EHR00002.1| transcriptional regulator [Bradyrhizobium sp. WSM471] &gt;emb|CUT09450.1| Transcriptional regulator TetR family [Bradyrhizobium sp.]</Hit_def>
+  <Hit_accession>WP_007604491</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.795</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>1.73743e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISALAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTAIVEKVIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVSAVSQLLNETTQKLARSPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKDLRRELPSFVRERVGFFLAACEADWTP</Hsp_hseq>
+      <Hsp_midline>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDIS LAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGT IVEK+IEESLGMVRATIAEAQRFPELSRNVHDAARDRSV+AVSQLLNE TQKLAR+PKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPK+LRRELPSF+RERVGFFLAACEADWTP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_038951224.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Bradyrhizobium] &gt;gb|AWL94611.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium ottawaense] &gt;gb|PDT65289.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium ottawaense] &gt;dbj|BBO10821.1| TetR family transcriptional regulator [Bradyrhizobium sp. TM102]</Hit_def>
+  <Hit_accession>WP_038951224</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>422.165</Hsp_bit-score>
+      <Hsp_score>1084</Hsp_score>
+      <Hsp_evalue>1.21592e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKKSSPKRGRPTKDLAGDVQARILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKDALFAAVVARTITGLTDFEGFEPEGRTLQDKLSSLGTAVVEKVIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARSPKGPFTGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFVRERVGFFLAACEADWTP</Hsp_hseq>
+      <Hsp_midline>MTKKS+PKRGRPTKDLAGDVQ RILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGK+ALFAAVVARTI+ LTDFEG EPEGRTL DKLS+LGT +VEK+IEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLAR+PKGPF+GKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSF+RERVGFFLAACEADWTP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_028160101.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium japonicum]</Hit_def>
+  <Hit_accession>WP_028160101</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.779</Hsp_bit-score>
+      <Hsp_score>1083</Hsp_score>
+      <Hsp_evalue>1.76561e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKKSTPKRGRPPKDLAGDVQVRILDAAQQLFLEKGYRSASIDDIAELAPASKPTIYAHFPGKEALFAAVVARTISGLTDFEGFEPEGRTLQDKLSSLGTAVVEKVIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAQKGPFTGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFVRERVGFFLAACEADWTP</Hsp_hseq>
+      <Hsp_midline>MTKKSTPKRGRP KDLAGDVQVRILDAAQQLFLEKGYRSASIDDI+ELAPASKPTIYAHFPGKEALFAAVVARTIS LTDFEG EPEGRTL DKLS+LGT +VEK+IEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARA KGPF+GKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSF+RERVGFFLAACEADWTP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_148770999.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium rifense] &gt;gb|TYL98796.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium rifense]</Hit_def>
+  <Hit_accession>WP_148770999</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>9.26361e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKKNTPKRGRPPKDLAGDVQARILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKDALFAAVVARTISGLTDFGGFEPEGRTLQDKFSSLGTTIVEKVIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAISQLLNETTQKLARSPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFVRERVGFFLAACEADWTP</Hsp_hseq>
+      <Hsp_midline>MTKK+TPKRGRP KDLAGDVQ RILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGK+ALFAAVVARTIS LTDF G EPEGRTL DK S+LGTTIVEK+IEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNA+SQLLNE TQKLAR+PKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSF+RERVGFFLAACEADWTP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_129272913.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium betae] &gt;gb|RXT42912.1| TetR family transcriptional regulator [Bradyrhizobium betae]</Hit_def>
+  <Hit_accession>WP_129272913</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>416.772</Hsp_bit-score>
+      <Hsp_score>1070</Hsp_score>
+      <Hsp_evalue>1.69358e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKKNAPKRGRPPKDLAGDVQVRILDAAQQLFLEKGYRSASIDDIAELAPASKPTIYAHFPGKEALFAAVVARTISGLTDFDGFEPEGRSLQDKLSSLGTAVVEKVIEESMGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNETTQKLARAPKGPFTGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFVRERVGFFLAACEADWTP</Hsp_hseq>
+      <Hsp_midline>MTKK+ PKRGRP KDLAGDVQVRILDAAQQLFLEKGYRSASIDDI+ELAPASKPTIYAHFPGKEALFAAVVARTIS LTDF+G EPEGR+L DKLS+LGT +VEK+IEES+GMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNE TQKLARAPKGPF+GKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSF+RERVGFFLAACEADWTP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_050419280.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Bradyrhizobium] &gt;gb|OKO75605.1| transcriptional regulator [Bradyrhizobium sp. NAS96.2]</Hit_def>
+  <Hit_accession>WP_050419280</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.764</Hsp_bit-score>
+      <Hsp_score>1057</Hsp_score>
+      <Hsp_evalue>1.55441e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKKTTPKRGRPPKDLAGDVQARILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFSGKEALFAAVVARTITGLTDFEGFEPEGRTLQDKLSSLGTAVVEKVIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAISQLLNEATQKLARSSKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETSKDLRRELPSFVRERVGFFLAACEADWTP</Hsp_hseq>
+      <Hsp_midline>MTKK+TPKRGRP KDLAGDVQ RILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHF GKEALFAAVVARTI+ LTDFEG EPEGRTL DKLS+LGT +VEK+IEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNA+SQLLNEATQKLAR+ KGPFSGKRSLATAQIFLDLILLPMLFRSLVGET K+LRRELPSF+RERVGFFLAACEADWTP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|OKO83706.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Bradyrhizobium sp. AS23.2]</Hit_def>
+  <Hit_accession>OKO83706</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.609</Hsp_bit-score>
+      <Hsp_score>1054</Hsp_score>
+      <Hsp_evalue>4.5543e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKKNTPKRGRPPKDLAGDVQARILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTITGLTDFEGFEPEGRTLQDKLSSLGTAVVEKVIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAISQLLNEATQKLARSSKGPFSSKRSLATAQIFLDLILLPMLFRSLVGETSRDLRRELPSFVRERVGFFLAACEADWTP</Hsp_hseq>
+      <Hsp_midline>MTKK+TPKRGRP KDLAGDVQ RILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI+ LTDFEG EPEGRTL DKLS+LGT +VEK+IEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNA+SQLLNEATQKLAR+ KGPFS KRSLATAQIFLDLILLPMLFRSLVGET ++LRRELPSF+RERVGFFLAACEADWTP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_084803284.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. NAS80.1] &gt;gb|OKO91307.1| transcriptional regulator [Bradyrhizobium sp. NAS80.1]</Hit_def>
+  <Hit_accession>WP_084803284</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.068</Hsp_bit-score>
+      <Hsp_score>1050</Hsp_score>
+      <Hsp_evalue>2.1621e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKKNTPKRGRPPKDLAGDVQARILDAAQQLFLEKGYRSASIDDISELAPASKPTIYARFPGKEALFAAVVARTITGLTDFEGFEPEGRTLQDKLASLGTAVVEKVIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAISQLLNEATQKLARSSKGPFSSKRSLATAQIFLDLILLPMLFRSLVGETSKELRRELPSFVRERVGFFLAACEADWTP</Hsp_hseq>
+      <Hsp_midline>MTKK+TPKRGRP KDLAGDVQ RILDAAQQLFLEKGYRSASIDDISELAPASKPTIYA FPGKEALFAAVVARTI+ LTDFEG EPEGRTL DKL++LGT +VEK+IEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNA+SQLLNEATQKLAR+ KGPFS KRSLATAQIFLDLILLPMLFRSLVGET KELRRELPSF+RERVGFFLAACEADWTP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_162479041.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp.] &gt;emb|CUT16579.1| Transcriptional regulator TetR family CDS [Bradyrhizobium sp.]</Hit_def>
+  <Hit_accession>WP_162479041</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.208</Hsp_bit-score>
+      <Hsp_score>1027</Hsp_score>
+      <Hsp_evalue>6.07645e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKKTTPKRGRPAKEFAGDVQARILDAAQQLFLDKGYRSASIDDISELAPASKPTIYAHFQGKEALFAAVVARTISGLSDFEGFEPEGRTLQDKLMSLGTAIVEKVIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVGAISQLLNETTQKVARAPKGPFTGKRSIATAQIFLDLILLPMLFRSLVGETPKDLRRELPSFVRERVRFFLSACEADWTP</Hsp_hseq>
+      <Hsp_midline>MTKK+TPKRGRP K+ AGDVQ RILDAAQQLFL+KGYRSASIDDISELAPASKPTIYAHF GKEALFAAVVARTIS L+DFEG EPEGRTL DKL +LGT IVEK+IEESLGMVRATIAEAQRFPELSRNVHDAARDRSV A+SQLLNE TQK+ARAPKGPF+GKRS+ATAQIFLDLILLPMLFRSLVGETPK+LRRELPSF+RERV FFL+ACEADWTP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_183259297.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Bradyrhizobium sp. CIR48] &gt;gb|MBB4426619.1| AcrR family transcriptional regulator [Bradyrhizobium sp. CIR48]</Hit_def>
+  <Hit_accession>WP_183259297</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.438</Hsp_bit-score>
+      <Hsp_score>1025</Hsp_score>
+      <Hsp_evalue>1.32386e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKKTTPKRGRPPKEFAGDVQARILDAAQQLFLDKGYRSASIDDISELAPASKPTIYAHFQGKEALFAAVVARTISGLSDFEGFEPEGRTLQDKLMSLGTAIVEKVIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVGAISQLLNETTQKVARAPKGPFTGKRSIATAQIFLDLILLPMLFRSLVGETPKDLRRELPSFVRERVRFFLSACEADWTP</Hsp_hseq>
+      <Hsp_midline>MTKK+TPKRGRP K+ AGDVQ RILDAAQQLFL+KGYRSASIDDISELAPASKPTIYAHF GKEALFAAVVARTIS L+DFEG EPEGRTL DKL +LGT IVEK+IEESLGMVRATIAEAQRFPELSRNVHDAARDRSV A+SQLLNE TQK+ARAPKGPF+GKRS+ATAQIFLDLILLPMLFRSLVGETPK+LRRELPSF+RERV FFL+ACEADWTP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_148751380.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium cytisi] &gt;gb|TYL84730.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium cytisi]</Hit_def>
+  <Hit_accession>WP_148751380</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>396.356</Hsp_bit-score>
+      <Hsp_score>1017</Hsp_score>
+      <Hsp_evalue>2.47514e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKKTTPKRGRPAKEFAGDVQARILDAAQQLFLDKGYRSASIDDISELAPASKPTIYAHFQGKEALFAAVVARTISGLSDFEGFEPEGRTLQDKLMSLGTAIVEKVIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVGAISQLLNETTQKVARAPRGPFTGKRSIATAQIFLDLILLPMLFRSLVGEPPKDLRRELPSFVRERVRFFLSACEADWTP</Hsp_hseq>
+      <Hsp_midline>MTKK+TPKRGRP K+ AGDVQ RILDAAQQLFL+KGYRSASIDDISELAPASKPTIYAHF GKEALFAAVVARTIS L+DFEG EPEGRTL DKL +LGT IVEK+IEESLGMVRATIAEAQRFPELSRNVHDAARDRSV A+SQLLNE TQK+ARAP+GPF+GKRS+ATAQIFLDLILLPMLFRSLVGE PK+LRRELPSF+RERV FFL+ACEADWTP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_041955207.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium japonicum] &gt;gb|KGT79487.1| transcriptional regulator [Bradyrhizobium japonicum]</Hit_def>
+  <Hit_accession>WP_041955207</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>394.815</Hsp_bit-score>
+      <Hsp_score>1013</Hsp_score>
+      <Hsp_evalue>1.01866e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKKTTPKRGRPAKEFAGDAQARILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFQDKEALFAAVVARTITGLTDFDGFEPEGRTLQDKLMSLGTAIVEKVIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVGAISQLLSETAQKLPRAPKGPFSGKRSAATAQIFLDLILLPMLFRSLVGETPKDLRRELPSFVRERVGFFLAACEADWTP</Hsp_hseq>
+      <Hsp_midline>MTKK+TPKRGRP K+ AGD Q RILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHF  KEALFAAVVARTI+ LTDF+G EPEGRTL DKL +LGT IVEK+IEESLGMVRATIAEAQRFPELSRNVHDAARDRSV A+SQLL+E  QKL RAPKGPFSGKRS ATAQIFLDLILLPMLFRSLVGETPK+LRRELPSF+RERVGFFLAACEADWTP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_085401376.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium japonicum] &gt;gb|OSJ32130.1| TetR family transcriptional regulator [Bradyrhizobium japonicum]</Hit_def>
+  <Hit_accession>WP_085401376</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.423</Hsp_bit-score>
+      <Hsp_score>999</Hsp_score>
+      <Hsp_evalue>1.08891e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKKTTPKRGRPAKEFAGDVQARILDAAQQLFLDKGYRSASIDDISELAPASKPTIYAHFQGKEALFAAVVARAISGLSDFENFEPEGRTLQDKLMSLGTAIVEKVIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVGAISQLLNETTQKVARPPRGPFTGKRSIATAQIFLDLILLPMLFRSLVGEPPKDLRRELPSFVRERVRFFLSACEADWTP</Hsp_hseq>
+      <Hsp_midline>MTKK+TPKRGRP K+ AGDVQ RILDAAQQLFL+KGYRSASIDDISELAPASKPTIYAHF GKEALFAAVVAR IS L+DFE  EPEGRTL DKL +LGT IVEK+IEESLGMVRATIAEAQRFPELSRNVHDAARDRSV A+SQLLNE TQK+AR P+GPF+GKRS+ATAQIFLDLILLPMLFRSLVGE PK+LRRELPSF+RERV FFL+ACEADWTP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_027554331.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. Cp5.3]</Hit_def>
+  <Hit_accession>WP_027554331</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>5.0018e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>MKKTSSPKRGRPTKDLAGDAQTRILDAAQQLFLEKGYRSASIDDISEMAPASKPTIYAHFPGKEALFAAVVARTIKGLTDFEGFAPEGRTIEDKLMSLGTAIVEKVIEDSLGMVRATIAEAQRFPELSRNVHDAARDRSLTAVSQLLNDATQKLARTPKGPFSAKRSRATAQIFLDLILLPMLFRSLLGETPKDLKKELSGFVRERVGFFLAACETDWS</Hsp_hseq>
+      <Hsp_midline>M K S+PKRGRPTKDLAGD Q RILDAAQQLFLEKGYRSASIDDISE+APASKPTIYAHFPGKEALFAAVVARTI  LTDFEG  PEGRT+ DKL +LGT IVEK+IE+SLGMVRATIAEAQRFPELSRNVHDAARDRS+ AVSQLLN+ATQKLAR PKGPFS KRS ATAQIFLDLILLPMLFRSL+GETPK+L++EL  F+RERVGFFLAACE DW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_041750398.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. BTAi1] &gt;gb|RTL91211.1| TetR/AcrR family transcriptional regulator [Bradyrhizobiaceae bacterium]</Hit_def>
+  <Hit_accession>WP_041750398</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.867</Hsp_bit-score>
+      <Hsp_score>969</Hsp_score>
+      <Hsp_evalue>3.80423e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>MKKPTGPKRGRPSKDLAGDVQARILDAAQQLFLEKGYRSASIDDISEMAPASKPTIYAHFPGKEALFAAVVARTISGLTDFEGFTPEGRTIEDKLMSLGTVIIERVFEESLGMVRATIAEAPRFPELSRNVHDAARDRSLTAVSQLLNDATQKLARAPKGPFSAKRSRTTAQIFLDLILLPMLFRSLLGETPKDLKKELSVFLRERVGFFLAACETDWS</Hsp_hseq>
+      <Hsp_midline>M K + PKRGRP+KDLAGDVQ RILDAAQQLFLEKGYRSASIDDISE+APASKPTIYAHFPGKEALFAAVVARTIS LTDFEG  PEGRT+ DKL +LGT I+E++ EESLGMVRATIAEA RFPELSRNVHDAARDRS+ AVSQLLN+ATQKLARAPKGPFS KRS  TAQIFLDLILLPMLFRSL+GETPK+L++EL  F+RERVGFFLAACE DW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_122401709.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium vignae] &gt;gb|RXG97444.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium vignae] &gt;emb|SPP93385.1| Transcriptional regulator [Bradyrhizobium vignae]</Hit_def>
+  <Hit_accession>WP_122401709</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>373.244</Hsp_bit-score>
+      <Hsp_score>957</Hsp_score>
+      <Hsp_evalue>2.40136e-129</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKDLAGDAQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTIDGLTDFEGFSPEGRTIEDKLMSLGTAIVDRVIEESLGMVRATIAESQRFPELSRNVHDAARDRSVNAVSQLLDEATQKLARTARGPFSAKRSRATAQIFLDLILLPMLFRSLVGETPKDLKKELPGFVRERVGFFLAACETDWS</Hsp_hseq>
+      <Hsp_midline>KRGRP KDLAGD Q RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI  LTDFEG  PEGRT+ DKL +LGT IV+++IEESLGMVRATIAE+QRFPELSRNVHDAARDRSVNAVSQLL+EATQKLAR  +GPFS KRS ATAQIFLDLILLPMLFRSLVGETPK+L++ELP F+RERVGFFLAACE DW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_092234326.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. Gha] &gt;emb|SFJ44978.1| DNA-binding transcriptional regulator, AcrR family [Bradyrhizobium sp. Gha]</Hit_def>
+  <Hit_accession>WP_092234326</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.859</Hsp_bit-score>
+      <Hsp_score>956</Hsp_score>
+      <Hsp_evalue>4.02038e-129</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKDLAGDAQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTIDGLTDFEGFSPEGRTIEDKLMSLGTAIVDRVIEESLGMVRATIAESQRFPELSRNVHDAARDRSLNAVSQLLDEATQKLARSAKGPFSAKRSRATAQIFLDLILLPMLFRSLVGETPRDLKKELPGFVRERVGFFLAACETDWS</Hsp_hseq>
+      <Hsp_midline>KRGRP KDLAGD Q RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI  LTDFEG  PEGRT+ DKL +LGT IV+++IEESLGMVRATIAE+QRFPELSRNVHDAARDRS+NAVSQLL+EATQKLAR+ KGPFS KRS ATAQIFLDLILLPMLFRSLVGETP++L++ELP F+RERVGFFLAACE DW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_018648628.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium huanghuaihaiense] &gt;gb|TWI63284.1| TetR family transcriptional regulator [Bradyrhizobium huanghuaihaiense]</Hit_def>
+  <Hit_accession>WP_018648628</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.474</Hsp_bit-score>
+      <Hsp_score>955</Hsp_score>
+      <Hsp_evalue>6.11439e-129</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKDLAGDAQERILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTIDGLTDFEGFSPEGRTIEDKLMSLGTAIVERVVEESLGMVRATIAESQRFPELSRNVHDAARDRSLAAVSQLLDDATQKLARTPRGPFSAKRSRATAQIFLDLILLPMLFRSLVGETPKDLKKELPGFVRERVGFFLAACETDWS</Hsp_hseq>
+      <Hsp_midline>KRGRP KDLAGD Q RILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI  LTDFEG  PEGRT+ DKL +LGT IVE+++EESLGMVRATIAE+QRFPELSRNVHDAARDRS+ AVSQLL++ATQKLAR P+GPFS KRS ATAQIFLDLILLPMLFRSLVGETPK+L++ELP F+RERVGFFLAACE DW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_183245287.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Bradyrhizobium sp. cir1] &gt;gb|MBB4371761.1| AcrR family transcriptional regulator [Bradyrhizobium sp. cir1]</Hit_def>
+  <Hit_accession>WP_183245287</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.089</Hsp_bit-score>
+      <Hsp_score>954</Hsp_score>
+      <Hsp_evalue>6.60216e-129</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKDLAGDAQARILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTIDGLTDFEGFSPEGRTIEDKLMSLGTAIVERVVEESLGMVRATIAESQRFPELSRNVHDAARDRSLAAVSQLLDDATQKLSRTPRGPFSAKRSRATAQIFLDLILLPMLFRSLVGETPKDLKKELPGFVRERVGFFLAACETDWS</Hsp_hseq>
+      <Hsp_midline>KRGRP KDLAGD Q RILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI  LTDFEG  PEGRT+ DKL +LGT IVE+++EESLGMVRATIAE+QRFPELSRNVHDAARDRS+ AVSQLL++ATQKL+R P+GPFS KRS ATAQIFLDLILLPMLFRSLVGETPK+L++ELP F+RERVGFFLAACE DW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_128957083.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium zhanjiangense] &gt;gb|RXG85248.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium zhanjiangense]</Hit_def>
+  <Hit_accession>WP_128957083</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>371.703</Hsp_bit-score>
+      <Hsp_score>953</Hsp_score>
+      <Hsp_evalue>1.00146e-128</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>KRGRPSKDLAGDAQERILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTIDGLTDFEGFSPQGRTIEDKLMSLGTAIVERVVEESLGMVRATIAESQRFPELSRNVHDAARDRSLAAVSQLLDGATQKLARSPRGPFSAKRSRATAQIFLDLILLPMLFRSLVGETPKDLKKELPGFVRERVGFFLAACETDWS</Hsp_hseq>
+      <Hsp_midline>KRGRP+KDLAGD Q RILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI  LTDFEG  P+GRT+ DKL +LGT IVE+++EESLGMVRATIAE+QRFPELSRNVHDAARDRS+ AVSQLL+ ATQKLAR+P+GPFS KRS ATAQIFLDLILLPMLFRSLVGETPK+L++ELP F+RERVGFFLAACE DW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_129275191.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium betae] &gt;gb|RXT35254.1| TetR family transcriptional regulator [Bradyrhizobium betae]</Hit_def>
+  <Hit_accession>WP_129275191</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.933</Hsp_bit-score>
+      <Hsp_score>951</Hsp_score>
+      <Hsp_evalue>2.18132e-128</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKDLAGDAQARILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTIEGLTDFEGFSPEGRTIEDKLMSLGTALVERVVEESLGMVRATIAESQRFPELSRNVHDAARDRSLNAVSQLLDDATQKLARTPRGPFSPKRSRATAQIFLDLILLPMLFRSLVGETQKDLKKELPGFVRERVGFFLAACETDWS</Hsp_hseq>
+      <Hsp_midline>KRGRP KDLAGD Q RILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI  LTDFEG  PEGRT+ DKL +LGT +VE+++EESLGMVRATIAE+QRFPELSRNVHDAARDRS+NAVSQLL++ATQKLAR P+GPFS KRS ATAQIFLDLILLPMLFRSLVGET K+L++ELP F+RERVGFFLAACE DW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_130229182.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. Leo121] &gt;gb|RZN20092.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. Leo121]</Hit_def>
+  <Hit_accession>WP_130229182</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.548</Hsp_bit-score>
+      <Hsp_score>950</Hsp_score>
+      <Hsp_evalue>2.71615e-128</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>KRGRPRKDLAGDAQARILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTIEGLTDFEGFLPEGRTIEDKLMSLGTAIVERVVEESLGMVRATIAESQRFPELSRNVHDAARDRSLAAVSQLLDDATQKLARTPKGPFSSKRSRATAQIFLDLILLPMLFRSLVGETQKDLKKELPGFVRERVGFFLAACETDWS</Hsp_hseq>
+      <Hsp_midline>KRGRP KDLAGD Q RILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI  LTDFEG  PEGRT+ DKL +LGT IVE+++EESLGMVRATIAE+QRFPELSRNVHDAARDRS+ AVSQLL++ATQKLAR PKGPFS KRS ATAQIFLDLILLPMLFRSLVGET K+L++ELP F+RERVGFFLAACE DW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_080136849.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sacchari] &gt;gb|OPY97836.1| transcriptional regulator [Bradyrhizobium sacchari] &gt;gb|TWB57057.1| TetR family transcriptional regulator [Bradyrhizobium sacchari] &gt;gb|TWB71334.1| TetR family transcriptional regulator [Bradyrhizobium sacchari]</Hit_def>
+  <Hit_accession>WP_080136849</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.548</Hsp_bit-score>
+      <Hsp_score>950</Hsp_score>
+      <Hsp_evalue>2.86921e-128</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKDLAGDAQARILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTIDGLTDFDGFSPEGRTIEDKLMSLGTAIVERVVEESLGMVRATIAESQRFPELSRNVHDAARDRSLAAVSQLLDDATQKLARTPKGPFSAKRSRATAQIFLDLILLPMLFRSLVGETSKDLKKELPGFVRERVGFFLAACETDWS</Hsp_hseq>
+      <Hsp_midline>KRGRP KDLAGD Q RILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI  LTDF+G  PEGRT+ DKL +LGT IVE+++EESLGMVRATIAE+QRFPELSRNVHDAARDRS+ AVSQLL++ATQKLAR PKGPFS KRS ATAQIFLDLILLPMLFRSLVGET K+L++ELP F+RERVGFFLAACE DW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_128963768.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium guangdongense] &gt;gb|QAU36991.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium guangdongense]</Hit_def>
+  <Hit_accession>WP_128963768</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.777</Hsp_bit-score>
+      <Hsp_score>948</Hsp_score>
+      <Hsp_evalue>6.74796e-128</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADW</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKDLAGDAQARILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTIDGLTDFEGFSPEGRTIEDKLMSLGTAIVERVVEESLGMVRATIAESQRFPQLSRNVHDAARDRSLAAVSQLLDDATQKLTRTPRGPFSAKRSRATAQIFLDLILLPMLFRSLVGETPKDLKKELPGFVRERVGFFLAACETDW</Hsp_hseq>
+      <Hsp_midline>KRGRP KDLAGD Q RILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI  LTDFEG  PEGRT+ DKL +LGT IVE+++EESLGMVRATIAE+QRFP+LSRNVHDAARDRS+ AVSQLL++ATQKL R P+GPFS KRS ATAQIFLDLILLPMLFRSLVGETPK+L++ELP F+RERVGFFLAACE DW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_035688701.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium elkanii]</Hit_def>
+  <Hit_accession>WP_035688701</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.392</Hsp_bit-score>
+      <Hsp_score>947</Hsp_score>
+      <Hsp_evalue>7.78169e-128</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKDLAGDAQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTIEGLADFEGFSPEGRTIEDKLLSLGTAIVERVVEESLGMVRATIAESQRFPELSRNVHDAARDRSLNAVSQLLDDATQKLARNPKGPFSSKRSRATAQIFLDLILLPMLFRSLVGETQKDLKKELPGFVRERVGFFLAACETDWS</Hsp_hseq>
+      <Hsp_midline>KRGRP KDLAGD Q RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI  L DFEG  PEGRT+ DKL +LGT IVE+++EESLGMVRATIAE+QRFPELSRNVHDAARDRS+NAVSQLL++ATQKLAR PKGPFS KRS ATAQIFLDLILLPMLFRSLVGET K+L++ELP F+RERVGFFLAACE DW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_128941568.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium zhanjiangense] &gt;gb|RXG90412.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium zhanjiangense]</Hit_def>
+  <Hit_accession>WP_128941568</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.007</Hsp_bit-score>
+      <Hsp_score>946</Hsp_score>
+      <Hsp_evalue>1.06945e-127</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKDLAGDAQARILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKDALFAAVVARTIDGLTDFEGFSPEGRTIEDKLMSLGTAIVERVIEESLGMVRVTIAESQRFPELSRNVHDAARDRSLAAVSQLLDDATQKLARTPKGPFSAKRSRATAQIFLDLILLPMLFRSLVGETQKDLKKELPGFVRERVGFFLAACETDWS</Hsp_hseq>
+      <Hsp_midline>KRGRP KDLAGD Q RILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGK+ALFAAVVARTI  LTDFEG  PEGRT+ DKL +LGT IVE++IEESLGMVR TIAE+QRFPELSRNVHDAARDRS+ AVSQLL++ATQKLAR PKGPFS KRS ATAQIFLDLILLPMLFRSLVGET K+L++ELP F+RERVGFFLAACE DW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_128931535.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium zhanjiangense]</Hit_def>
+  <Hit_accession>WP_128931535</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.081</Hsp_bit-score>
+      <Hsp_score>941</Hsp_score>
+      <Hsp_evalue>7.95285e-127</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKDLAGDAPARILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTIDGLTDFEGFSPQGRTIEDKLMSLGTAIVERVVEESLGMVRATIAESQRFPELSRNVHDAARDRSLAAVSQLLDDATQKLARTPKGPFSAKRSRATAQIFLDLILLPMLFRSLVGETQKDLKKELPGFVRERVGFFLAACETDWS</Hsp_hseq>
+      <Hsp_midline>KRGRP KDLAGD   RILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI  LTDFEG  P+GRT+ DKL +LGT IVE+++EESLGMVRATIAE+QRFPELSRNVHDAARDRS+ AVSQLL++ATQKLAR PKGPFS KRS ATAQIFLDLILLPMLFRSLVGET K+L++ELP F+RERVGFFLAACE DW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_027535262.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. WSM3983]</Hit_def>
+  <Hit_accession>WP_027535262</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.696</Hsp_bit-score>
+      <Hsp_score>940</Hsp_score>
+      <Hsp_evalue>1.22892e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADW</Hsp_qseq>
+      <Hsp_hseq>MMKKKSPKRGRPPKDLAGDVQTRILDAAEHLFLQNGYRSASIDEISEMAPASKPTIYAHFPGKEALFAAVVSRKINGLTRFEGFTPEGRTIQDKLMSLGATIVENFIEESLGMVRATIAEADRFPELSRNVGDAGRDRSVKAVSRLLSEATQKLARTPKGPFGDKRSLATAQIFLDLILLPMLFRSLLGETPKDLKKELPTFMRERVGFFLAACEADW</Hsp_hseq>
+      <Hsp_midline>M KK +PKRGRP KDLAGDVQ RILDAA+ LFL+ GYRSASID+ISE+APASKPTIYAHFPGKEALFAAVV+R I+ LT FEG  PEGRT+ DKL +LG TIVE  IEESLGMVRATIAEA RFPELSRNV DA RDRSV AVS+LL+EATQKLAR PKGPF  KRSLATAQIFLDLILLPMLFRSL+GETPK+L++ELP+FMRERVGFFLAACEADW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_126259481.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [unclassified Bradyrhizobium] &gt;gb|RTE90654.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. LVM 105] &gt;gb|TFV36675.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. CNPSo 3424] &gt;gb|TFV71443.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. CNPSo 3426]</Hit_def>
+  <Hit_accession>WP_126259481</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.925</Hsp_bit-score>
+      <Hsp_score>938</Hsp_score>
+      <Hsp_evalue>2.27834e-126</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADW</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKGLAGDAQARILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTIDGLTDFEGFSPEGRSIEDKLMSLGTAIVERVVEESLGMVRATIAESQRFPELSRNVHDAARDRSLAAVSQLLDDATQRLARSPKGPFSAKRSRATAQIFLDLILLPMLFRSLVGETPKDLKKELPGFVRERVGFFLAACETGW</Hsp_hseq>
+      <Hsp_midline>KRGRP K LAGD Q RILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI  LTDFEG  PEGR++ DKL +LGT IVE+++EESLGMVRATIAE+QRFPELSRNVHDAARDRS+ AVSQLL++ATQ+LAR+PKGPFS KRS ATAQIFLDLILLPMLFRSLVGETPK+L++ELP F+RERVGFFLAACE  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_163152376.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Bradyrhizobium uaiense] &gt;gb|NEU95807.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium uaiense]</Hit_def>
+  <Hit_accession>WP_163152376</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.229</Hsp_bit-score>
+      <Hsp_score>931</Hsp_score>
+      <Hsp_evalue>2.42039e-125</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADW</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKDLAGDAQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARSIDGLTDFEGFSPEGRTIEDKLMSLGTAIIDRVIEESLGMVRATIAESQRFPELSRNVHDAARDRSLAAVSQWLDNATQKLARSPRGPFSAKRSRATAQIFLDLILLPMLFRSLIGEPPKDLKKELPGFVRERVGFFLAACESDW</Hsp_hseq>
+      <Hsp_midline>KRGRP KDLAGD Q RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALFAAVVAR+I  LTDFEG  PEGRT+ DKL +LGT I++++IEESLGMVRATIAE+QRFPELSRNVHDAARDRS+ AVSQ L+ ATQKLAR+P+GPFS KRS ATAQIFLDLILLPMLFRSL+GE PK+L++ELP F+RERVGFFLAACE+DW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_025032219.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. DOA9]</Hit_def>
+  <Hit_accession>WP_025032219</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.229</Hsp_bit-score>
+      <Hsp_score>931</Hsp_score>
+      <Hsp_evalue>2.51387e-125</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKDLAGDAQARILDAAQQLFLDKGYQSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTVEGLTDFDGFVPEGRTIEDKLANLGTAIVERFAEESVGLVRATIAESHRFPELSRNVHDAARDRSQAAVSQLLEDATQKLARDPRGPFSGKRSRATAQIFLDLILLPMLFRSLVGETPKDLKKDLPGFVRERVGFFLAACETDWT</Hsp_hseq>
+      <Hsp_midline>KRGRP KDLAGD Q RILDAAQQLFL+KGY+SASIDDISELAPASKPTIYAHFPGKEALFAAVVART+  LTDF+G  PEGRT+ DKL+NLGT IVE+  EES+G+VRATIAE+ RFPELSRNVHDAARDRS  AVSQLL +ATQKLAR P+GPFSGKRS ATAQIFLDLILLPMLFRSLVGETPK+L+++LP F+RERVGFFLAACE DWT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_141340178.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Bradyrhizobium] &gt;gb|NLS71676.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium brasilense]</Hit_def>
+  <Hit_accession>WP_141340178</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.229</Hsp_bit-score>
+      <Hsp_score>931</Hsp_score>
+      <Hsp_evalue>2.68479e-125</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADW</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKDLAGDAQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARSIDGLTDFEGFSPEGRTIEDKLMSLGIAIVDRVIEESLGMVRATIAESQRFPELSRNVHDAARDRSLAAVSQWLDNATQKLARTPRGPFSAKRSRATAQIFLDLVLLPMLFRSLIGETPKDLKKELPGFVRERVGFFLAACESDW</Hsp_hseq>
+      <Hsp_midline>KRGRP KDLAGD Q RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALFAAVVAR+I  LTDFEG  PEGRT+ DKL +LG  IV+++IEESLGMVRATIAE+QRFPELSRNVHDAARDRS+ AVSQ L+ ATQKLAR P+GPFS KRS ATAQIFLDL+LLPMLFRSL+GETPK+L++ELP F+RERVGFFLAACE+DW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>dbj|GAJ31172.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Bradyrhizobium sp. DOA9]</Hit_def>
+  <Hit_accession>GAJ31172</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.614</Hsp_bit-score>
+      <Hsp_score>932</Hsp_score>
+      <Hsp_evalue>2.80986e-125</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKDLAGDAQARILDAAQQLFLDKGYQSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTVEGLTDFDGFVPEGRTIEDKLANLGTAIVERFAEESVGLVRATIAESHRFPELSRNVHDAARDRSQAAVSQLLEDATQKLARDPRGPFSGKRSRATAQIFLDLILLPMLFRSLVGETPKDLKKDLPGFVRERVGFFLAACETDWT</Hsp_hseq>
+      <Hsp_midline>KRGRP KDLAGD Q RILDAAQQLFL+KGY+SASIDDISELAPASKPTIYAHFPGKEALFAAVVART+  LTDF+G  PEGRT+ DKL+NLGT IVE+  EES+G+VRATIAE+ RFPELSRNVHDAARDRS  AVSQLL +ATQKLAR P+GPFSGKRS ATAQIFLDLILLPMLFRSLVGETPK+L+++LP F+RERVGFFLAACE DWT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_130228607.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. Leo121] &gt;gb|RZN23414.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. Leo121]</Hit_def>
+  <Hit_accession>WP_130228607</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>362.073</Hsp_bit-score>
+      <Hsp_score>928</Hsp_score>
+      <Hsp_evalue>7.02769e-125</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKDLAGDAPARILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTIDGLMDFEDFSPEGRTIEDKLMSLGTTLVDRVIEESLGMVRATIAESQRFPELSRNVHDAARDRSLAAVSQLLDDATQKLARTPRGPFSAKRSRATAQIFLDLILLPMLFRSLVGETQKDLKKELPGFVRERVGFFLAACETDWS</Hsp_hseq>
+      <Hsp_midline>KRGRP KDLAGD   RILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI  L DFE   PEGRT+ DKL +LGTT+V+++IEESLGMVRATIAE+QRFPELSRNVHDAARDRS+ AVSQLL++ATQKLAR P+GPFS KRS ATAQIFLDLILLPMLFRSLVGET K+L++ELP F+RERVGFFLAACE DW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_057751078.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium manausense] &gt;gb|KRQ08245.1| transcriptional regulator [Bradyrhizobium manausense]</Hit_def>
+  <Hit_accession>WP_057751078</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.533</Hsp_bit-score>
+      <Hsp_score>924</Hsp_score>
+      <Hsp_evalue>2.56861e-124</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKDSAGDAQARILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTVEGLTDFQGFSPEGRTIEDKLMNLGTAIVERFVEESVDLVRATIAESQRFPELSRNVHDTARDRSQAAVSQLLDDATQKLARNPRGPFSARRSRATAQIFLDLILLPMLFRSLVGETPKDLKKELPGFVRERVGFFLAACETDWS</Hsp_hseq>
+      <Hsp_midline>KRGRP KD AGD Q RILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVART+  LTDF+G  PEGRT+ DKL NLGT IVE+ +EES+ +VRATIAE+QRFPELSRNVHD ARDRS  AVSQLL++ATQKLAR P+GPFS +RS ATAQIFLDLILLPMLFRSLVGETPK+L++ELP F+RERVGFFLAACE DW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_188107623.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Bradyrhizobium campsiandrae] &gt;gb|MBC9883099.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium campsiandrae] &gt;gb|MBC9978061.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium campsiandrae]</Hit_def>
+  <Hit_accession>WP_188107623</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>359.377</Hsp_bit-score>
+      <Hsp_score>921</Hsp_score>
+      <Hsp_evalue>7.18067e-124</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKDLAGDAQARILDAAQQLFLDKGYHSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTIDGLTDFEGFSPEGRTIEDKLMSLGMTIVERVVEESTGMVRATIAESQRFPELGRNVHDAARDRSLAAVSQLLDEATQKLARTARGPFSAKRSRATAQIFLDLILLPMLFRSLVGETTKDLKKELPGFVRERVAFFLAACETDWS</Hsp_hseq>
+      <Hsp_midline>KRGRP KDLAGD Q RILDAAQQLFL+KGY SASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI  LTDFEG  PEGRT+ DKL +LG TIVE+++EES GMVRATIAE+QRFPEL RNVHDAARDRS+ AVSQLL+EATQKLAR  +GPFS KRS ATAQIFLDLILLPMLFRSLVGET K+L++ELP F+RERV FFLAACE DW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_092299384.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. Ghvi] &gt;emb|SFP55655.1| DNA-binding transcriptional regulator, AcrR family [Bradyrhizobium sp. Ghvi]</Hit_def>
+  <Hit_accession>WP_092299384</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.221</Hsp_bit-score>
+      <Hsp_score>918</Hsp_score>
+      <Hsp_evalue>2.0345e-123</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKDLAGDAPARILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTVEGLTDFEGFSPEGRTIEDKLMNLGTAIVERFVEESVDLVRATIAESQRFPELSRNVHDTARERSQAAVSQLLDDATQKLARNPRGPFSPKRSRATAQIFLDLILLPMLFRSLVGETPKDLEKELPGFVRERVGFFLAACETDWS</Hsp_hseq>
+      <Hsp_midline>KRGRP KDLAGD   RILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVART+  LTDFEG  PEGRT+ DKL NLGT IVE+ +EES+ +VRATIAE+QRFPELSRNVHD AR+RS  AVSQLL++ATQKLAR P+GPFS KRS ATAQIFLDLILLPMLFRSLVGETPK+L +ELP F+RERVGFFLAACE DW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_139857147.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium ivorense] &gt;emb|VIO65249.1| HTH-type transcriptional repressor ComR [Bradyrhizobium ivorense]</Hit_def>
+  <Hit_accession>WP_139857147</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.125</Hsp_bit-score>
+      <Hsp_score>884</Hsp_score>
+      <Hsp_evalue>2.90416e-118</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADW</Hsp_qseq>
+      <Hsp_hseq>KRGRPPKDLAGDAPARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARSIDGLTDFEGFSPEGRTIEDKLMSLGTALIDRVIEESLGMVRATIAESQRFPELSRNVHDAARDRALAAVSQLLDNATQKLARSPRGPFSAKRSRATAQIFLDLILLPMLFRSLIGETPKDLKKELPGFVRERVGFFLAACESDW</Hsp_hseq>
+      <Hsp_midline>KRGRP KDLAGD   RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALFAAVVAR+I  LTDFEG  PEGRT+ DKL +LGT +++++IEESLGMVRATIAE+QRFPELSRNVHDAARDR++ AVSQLL+ ATQKLAR+P+GPFS KRS ATAQIFLDLILLPMLFRSL+GETPK+L++ELP F+RERVGFFLAACE+DW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_092508624.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Afipia sp. GAS231] &gt;emb|SDN14488.1| transcriptional regulator, TetR family [Afipia sp. GAS231]</Hit_def>
+  <Hit_accession>WP_092508624</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>2.04097e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MAKNKSPKRGRPTKDLAGDVQARILDAAQQLFLEKGFRSASIDDISALAPASKPTIYAHFPGKEALFVAVVARTINGLTDFEGFTPAGRTIQEKLANLGIEIVERFVEDTLDLTRATIAEARRFPELSRNVHDAARDRAAGAVSQLLNEATQRAARSPKGPFSAKRSVATAQMFMDLILLPMLMRSLMGEELKDLRKELPTFLHERVNFFLAACEADWRP</Hsp_hseq>
+      <Hsp_midline>M K  +PKRGRPTKDLAGDVQ RILDAAQQLFLEKG+RSASIDDIS LAPASKPTIYAHFPGKEALF AVVARTI+ LTDFEG  P GRT+ +KL+NLG  IVE+ +E++L + RATIAEA+RFPELSRNVHDAARDR+  AVSQLLNEATQ+ AR+PKGPFS KRS+ATAQ+F+DLILLPML RSL+GE  K+LR+ELP+F+ ERV FFLAACEADW P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_044587948.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. LTSPM299] &gt;gb|KJC60211.1| transcriptional regulator [Bradyrhizobium sp. LTSPM299]</Hit_def>
+  <Hit_accession>WP_044587948</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.576</Hsp_bit-score>
+      <Hsp_score>867</Hsp_score>
+      <Hsp_evalue>1.65513e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MAKNKSPKRGRPPKDLAGDVQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFVAVVARTINGLTNFEGFTPAGRTIQEKLANLGIEIVERFVEDTLDLTRATIAEARRFPELSRNVHDAARDRAAGAVSQLLNEATQRVARSPKGPFSAKRSVATAQMFMDLILLPMLMRSLMGEELKDLKKELPTFLHERVNFFLAACEADWRP</Hsp_hseq>
+      <Hsp_midline>M K  +PKRGRP KDLAGDVQ RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALF AVVARTI+ LT+FEG  P GRT+ +KL+NLG  IVE+ +E++L + RATIAEA+RFPELSRNVHDAARDR+  AVSQLLNEATQ++AR+PKGPFS KRS+ATAQ+F+DLILLPML RSL+GE  K+L++ELP+F+ ERV FFLAACEADW P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_074814584.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Bradyrhizobium] &gt;emb|SDJ97201.1| transcriptional regulator, TetR family [Bradyrhizobium ottawaense] &gt;emb|SEB93368.1| transcriptional regulator, TetR family [Bradyrhizobium lablabi] &gt;emb|SHM64000.1| transcriptional regulator, TetR family [Bradyrhizobium lablabi]</Hit_def>
+  <Hit_accession>WP_074814584</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.191</Hsp_bit-score>
+      <Hsp_score>866</Hsp_score>
+      <Hsp_evalue>2.12956e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MAKNKSPKRGRPPKDLAGDVQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFVAVVARTISGLTDFEGFTPAGRTIQEKLTNLGIEIVGRFVEDTLDLTRATIAEARRFPELSRNVHDAARDRAAGAVSQLLNDATQKVARSPKGPFSAKRSVATAQMFMDLILLPMLMRSLMGEDLKDLKKELPTFLHERVNFFLAACEADWRP</Hsp_hseq>
+      <Hsp_midline>M K  +PKRGRP KDLAGDVQ RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALF AVVARTIS LTDFEG  P GRT+ +KL+NLG  IV + +E++L + RATIAEA+RFPELSRNVHDAARDR+  AVSQLLN+ATQK+AR+PKGPFS KRS+ATAQ+F+DLILLPML RSL+GE  K+L++ELP+F+ ERV FFLAACEADW P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_038387480.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium elkanii]</Hit_def>
+  <Hit_accession>WP_038387480</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.191</Hsp_bit-score>
+      <Hsp_score>866</Hsp_score>
+      <Hsp_evalue>2.32467e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MAKNKSPKRGRPPKDLAGDVQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFVAVVARTINGLTDFEGFTPAGRTIQEKLANLGIEIVERFVEDTLDLTRATIAEARRFPELSRNVHDAARDRAAGAVSQLLNEATQKVARSAKGPFSAKRSVATAQMFMDLILLPMLMRSLMGEELKDLKKELPTFLHERVNFFLAACEADWRP</Hsp_hseq>
+      <Hsp_midline>M K  +PKRGRP KDLAGDVQ RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALF AVVARTI+ LTDFEG  P GRT+ +KL+NLG  IVE+ +E++L + RATIAEA+RFPELSRNVHDAARDR+  AVSQLLNEATQK+AR+ KGPFS KRS+ATAQ+F+DLILLPML RSL+GE  K+L++ELP+F+ ERV FFLAACEADW P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_057849620.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium valentinum] &gt;gb|KRR11590.1| transcriptional regulator [Bradyrhizobium valentinum]</Hit_def>
+  <Hit_accession>WP_057849620</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.65</Hsp_bit-score>
+      <Hsp_score>862</Hsp_score>
+      <Hsp_evalue>7.34601e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MAKNKSPKRGRPPKDLAGDVQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFVAVVARTINGLTDFDGFTPTGRTIQEKLTNLGIEIVERFVEDTLDLTRATIAEARRFPELSRNVHDAARDRAAGAVSQLLNEATQKIVRSSKGPFSAKRSVATAQMFMDLILLPMLMRSLMGEELKDLRKELPTFLHERVNFFLAACEADWRP</Hsp_hseq>
+      <Hsp_midline>M K  +PKRGRP KDLAGDVQ RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALF AVVARTI+ LTDF+G  P GRT+ +KL+NLG  IVE+ +E++L + RATIAEA+RFPELSRNVHDAARDR+  AVSQLLNEATQK+ R+ KGPFS KRS+ATAQ+F+DLILLPML RSL+GE  K+LR+ELP+F+ ERV FFLAACEADW P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_092141465.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Bradyrhizobiaceae] &gt;gb|RDK94805.1| TetR family transcriptional regulator [Tardiphaga sp. CF115] &gt;emb|SFL44507.1| transcriptional regulator, TetR family [Bradyrhizobium sp. NFR13]</Hit_def>
+  <Hit_accession>WP_092141465</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.65</Hsp_bit-score>
+      <Hsp_score>862</Hsp_score>
+      <Hsp_evalue>8.47066e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MTKNKSPKRGRPPKDHAGDVQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFVAVVARTINGLTDFEGFSPTGRTIHEKLINLGIEIVERFVEDTLDLTRATIAEARRFPELSRNVHDAARDRAAGAVSSLLNEATQKLTRSAKGPFGAKRSVATAQMFMDLILLPMLMRSLMGEELKDLRKELPTFLHERVNFFLAACEADWKP</Hsp_hseq>
+      <Hsp_midline>MTK  +PKRGRP KD AGDVQ RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALF AVVARTI+ LTDFEG  P GRT+H+KL NLG  IVE+ +E++L + RATIAEA+RFPELSRNVHDAARDR+  AVS LLNEATQKL R+ KGPF  KRS+ATAQ+F+DLILLPML RSL+GE  K+LR+ELP+F+ ERV FFLAACEADW P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|WP_028149270.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium japonicum]</Hit_def>
+  <Hit_accession>WP_028149270</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.65</Hsp_bit-score>
+      <Hsp_score>862</Hsp_score>
+      <Hsp_evalue>9.45161e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MAKNKSPKRGRPSKDLAGDVQARILDAAQQLFLEKGFRSASIDDISALAPASKPTIYAHFSDKEALFVAVVARTISGLTDFEGFTPSGRTIQEKLTNLGIEIVERFVEDTLDLTRATIAEARRFPELSRNVHDAARDRAAGAVSQLLNEATQKVARSPKGPFSAKRSVATAQMFMDLILLPMLMRSLMGEDLKDLRKELPIFLHERVNFFLAACEADWRP</Hsp_hseq>
+      <Hsp_midline>M K  +PKRGRP+KDLAGDVQ RILDAAQQLFLEKG+RSASIDDIS LAPASKPTIYAHF  KEALF AVVARTIS LTDFEG  P GRT+ +KL+NLG  IVE+ +E++L + RATIAEA+RFPELSRNVHDAARDR+  AVSQLLNEATQK+AR+PKGPFS KRS+ATAQ+F+DLILLPML RSL+GE  K+LR+ELP F+ ERV FFLAACEADW P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|WP_138829540.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [unclassified Bradyrhizobium] &gt;gb|QDW39387.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. KBS0725] &gt;gb|QDW45990.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. KBS0727]</Hit_def>
+  <Hit_accession>WP_138829540</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.88</Hsp_bit-score>
+      <Hsp_score>860</Hsp_score>
+      <Hsp_evalue>1.68937e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MAKNKSPKRGRPPKDLAGDVQARILDAAQQLFLEKGFRSASIDDISALAPASKPTIYAHFPGKEALFVAVVARTINGLTDFEGFTPAGRTIQEKLANLGIEIVERFVEDTLDLTRATIAEARRFPELSRNVHDAARDRAAGAVSQLLNEATQRSARSPKGPFSPKRSVATAQMFMDLILLPMLMRSLMGEDLKDLRKELPTFLHERVNFFLAACEADWRP</Hsp_hseq>
+      <Hsp_midline>M K  +PKRGRP KDLAGDVQ RILDAAQQLFLEKG+RSASIDDIS LAPASKPTIYAHFPGKEALF AVVARTI+ LTDFEG  P GRT+ +KL+NLG  IVE+ +E++L + RATIAEA+RFPELSRNVHDAARDR+  AVSQLLNEATQ+ AR+PKGPFS KRS+ATAQ+F+DLILLPML RSL+GE  K+LR+ELP+F+ ERV FFLAACEADW P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|WP_161851415.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Bradyrhizobium sp. CCBAU 051011] &gt;gb|QHO73505.1| TetR family transcriptional regulator [Bradyrhizobium sp. CCBAU 051011]</Hit_def>
+  <Hit_accession>WP_161851415</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.109</Hsp_bit-score>
+      <Hsp_score>858</Hsp_score>
+      <Hsp_evalue>2.98663e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MAKHKSPKRGRPPKDLAGDVQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFVAVVARTINGLTDFDGFTPAGRTIQEKLANLGIEIVERFVEDTLDLTRATIAEARRFPELSRNVHDAARDRAAAAVSQLLNEATQKIVRSSKGPFSAKRSVATAQMFMDLIVLPMLMRSLMGEELKDLRKELPTFLHERVNFFLAACEADWRP</Hsp_hseq>
+      <Hsp_midline>M K  +PKRGRP KDLAGDVQ RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALF AVVARTI+ LTDF+G  P GRT+ +KL+NLG  IVE+ +E++L + RATIAEA+RFPELSRNVHDAARDR+  AVSQLLNEATQK+ R+ KGPFS KRS+ATAQ+F+DLI+LPML RSL+GE  K+LR+ELP+F+ ERV FFLAACEADW P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>335.109</Hsp_bit-score>
+      <Hsp_score>858</Hsp_score>
+      <Hsp_evalue>2.98663e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MAKHKSPKRGRPPKDLAGDVQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFVAVVARTINGLTDFDGFTPAGRTIQEKLANLGIEIVERFVEDTLDLTRATIAEARRFPELSRNVHDAARDRAAAAVSQLLNEATQKIVRSSKGPFSAKRSVATAQMFMDLIVLPMLMRSLMGEELKDLRKELPTFLHERVNFFLAACEADWRP</Hsp_hseq>
+      <Hsp_midline>M K  +PKRGRP KDLAGDVQ RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALF AVVARTI+ LTDF+G  P GRT+ +KL+NLG  IVE+ +E++L + RATIAEA+RFPELSRNVHDAARDR+  AVSQLLNEATQK+ R+ KGPFS KRS+ATAQ+F+DLI+LPML RSL+GE  K+LR+ELP+F+ ERV FFLAACEADW P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|WP_137478083.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Bradyrhizobium] &gt;gb|MTV16230.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. BR2003] &gt;gb|TKV81949.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium elkanii]</Hit_def>
+  <Hit_accession>WP_137478083</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>334.724</Hsp_bit-score>
+      <Hsp_score>857</Hsp_score>
+      <Hsp_evalue>4.43094e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADW</Hsp_qseq>
+      <Hsp_hseq>MAKNKSPKRGRPPKDLAGDVQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFTAVVARTINGLTDFEGFTPTGRTIQEKLANLGIEIVERFVEDTLDLTRATIAEARRFPELSRNVHDAARDRAAGAVSQLLNEATQRVARSDKGPFSAKRSVATAQMFMDLILLPMLMRSLMGEELKDLKKELPTFLHERVNFFLAACEADW</Hsp_hseq>
+      <Hsp_midline>M K  +PKRGRP KDLAGDVQ RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALF AVVARTI+ LTDFEG  P GRT+ +KL+NLG  IVE+ +E++L + RATIAEA+RFPELSRNVHDAARDR+  AVSQLLNEATQ++AR+ KGPFS KRS+ATAQ+F+DLILLPML RSL+GE  K+L++ELP+F+ ERV FFLAACEADW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|WP_057856854.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium lablabi] &gt;gb|KRR26768.1| transcriptional regulator [Bradyrhizobium lablabi]</Hit_def>
+  <Hit_accession>WP_057856854</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.954</Hsp_bit-score>
+      <Hsp_score>855</Hsp_score>
+      <Hsp_evalue>1.04153e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MAKNKSPKRGRPPKDLAGDVQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFVAVVERTINGLTDFDGFTPAGRTIQEKLANLGIEIVERFVEDTLDLTRATIAEARRFPELSRNVHDAARDRAAGAVSQLLNEATQRIARSSKGPFSAKRSVATAQMFMDLILLPMLMRSLMGEELKDLKKELPTFLHERVNFFLAACEADWRP</Hsp_hseq>
+      <Hsp_midline>M K  +PKRGRP KDLAGDVQ RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALF AVV RTI+ LTDF+G  P GRT+ +KL+NLG  IVE+ +E++L + RATIAEA+RFPELSRNVHDAARDR+  AVSQLLNEATQ++AR+ KGPFS KRS+ATAQ+F+DLILLPML RSL+GE  K+L++ELP+F+ ERV FFLAACEADW P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>gb|MAH71254.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Afipia sp.] &gt;gb|OUX59590.1| TetR family transcriptional regulator [Afipia sp. TMED4] &gt;tpg|HAO40251.1| TetR/AcrR family transcriptional regulator [Afipia sp.] &gt;tpg|HBR44097.1| TetR/AcrR family transcriptional regulator [Afipia sp.] &gt;tpg|HCX20220.1| TetR/AcrR family transcriptional regulator [Afipia sp.]</Hit_def>
+  <Hit_accession>MAH71254</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.954</Hsp_bit-score>
+      <Hsp_score>855</Hsp_score>
+      <Hsp_evalue>1.10018e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MAKTKSPKRGRPPKDLAGDVQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTINGLTDFEGFAPTGRTIQEKLTNLGIEIVERFVEDTLDLTRATIAEARRFPELSRNVHDAARDRAAGAVSQLLNEATQRAVRTSKGPFSAKRSVATAQMFMDLILLPMLMRSLMGEELKDLRKELPTFLHERVNFFLAACAADWRP</Hsp_hseq>
+      <Hsp_midline>M K  +PKRGRP KDLAGDVQ RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI+ LTDFEG  P GRT+ +KL+NLG  IVE+ +E++L + RATIAEA+RFPELSRNVHDAARDR+  AVSQLLNEATQ+  R  KGPFS KRS+ATAQ+F+DLILLPML RSL+GE  K+LR+ELP+F+ ERV FFLAAC ADW P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|WP_161856344.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Bradyrhizobium sp. CCBAU 051011] &gt;gb|QHO78803.1| TetR family transcriptional regulator [Bradyrhizobium sp. CCBAU 051011]</Hit_def>
+  <Hit_accession>WP_161856344</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.183</Hsp_bit-score>
+      <Hsp_score>853</Hsp_score>
+      <Hsp_evalue>1.96639e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MARNKSPKRGRPPKDRAGDVQARILDAAQQLFLEKGFQSASIDDISELAPASKPTIYVHFPGKEALFVAVVARTINELTDFEGFAPAGRTIQEKPTNLGTEMVEKFVADTVDLTRATIAEARRFPELSRNVHDAARDRAAWVVSQLLNETTQRIVRSSKGPFSAKRRVATAQMFMDLILLPMLMRSLMGEELKDFRKELPTLLHERVNFFLAACEADWRP</Hsp_hseq>
+      <Hsp_midline>M +  +PKRGRP KD AGDVQ RILDAAQQLFLEKG++SASIDDISELAPASKPTIY HFPGKEALF AVVARTI+ LTDFEG  P GRT+ +K +NLGT +VEK + +++ + RATIAEA+RFPELSRNVHDAARDR+   VSQLLNE TQ++ R+ KGPFS KR +ATAQ+F+DLILLPML RSL+GE  K+ R+ELP+ + ERV FFLAACEADW P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|WP_130578863.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. Leo170] &gt;gb|TAI65647.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. Leo170]</Hit_def>
+  <Hit_accession>WP_130578863</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.643</Hsp_bit-score>
+      <Hsp_score>849</Hsp_score>
+      <Hsp_evalue>7.82062e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MAKNKSPKRGRPPKDLAGGVQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFEAVVARTINGLTAFEGFTPAGRTIQEKLANLGIEIVERFVEDTLDLTRATIAEARRFPELSRNVHDAARDRAAGAVSQLLNEATQRIARSSKGPFSAKRSVATAQMFMDLILLPMLMRSLMGEELKDLRKELPTFLHERVNFFLAACEADWRP</Hsp_hseq>
+      <Hsp_midline>M K  +PKRGRP KDLAG VQ RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALF AVVARTI+ LT FEG  P GRT+ +KL+NLG  IVE+ +E++L + RATIAEA+RFPELSRNVHDAARDR+  AVSQLLNEATQ++AR+ KGPFS KRS+ATAQ+F+DLILLPML RSL+GE  K+LR+ELP+F+ ERV FFLAACEADW P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>331.643</Hsp_bit-score>
+      <Hsp_score>849</Hsp_score>
+      <Hsp_evalue>7.82062e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MAKNKSPKRGRPPKDLAGGVQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFEAVVARTINGLTAFEGFTPAGRTIQEKLANLGIEIVERFVEDTLDLTRATIAEARRFPELSRNVHDAARDRAAGAVSQLLNEATQRIARSSKGPFSAKRSVATAQMFMDLILLPMLMRSLMGEELKDLRKELPTFLHERVNFFLAACEADWRP</Hsp_hseq>
+      <Hsp_midline>M K  +PKRGRP KDLAG VQ RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALF AVVARTI+ LT FEG  P GRT+ +KL+NLG  IVE+ +E++L + RATIAEA+RFPELSRNVHDAARDR+  AVSQLLNEATQ++AR+ KGPFS KRS+ATAQ+F+DLILLPML RSL+GE  K+LR+ELP+F+ ERV FFLAACEADW P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>gb|ABQ33650.1|</Hit_id>
+  <Hit_def>transcriptional regulator, TetR family [Bradyrhizobium sp. BTAi1]</Hit_def>
+  <Hit_accession>ABQ33650</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.331</Hsp_bit-score>
+      <Hsp_score>843</Hsp_score>
+      <Hsp_evalue>2.47823e-112</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>LFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWT</Hsp_qseq>
+      <Hsp_hseq>MFLEKGYRSASIDDISEMAPASKPTIYAHFPGKEALFAAVVARTISGLTDFEGFTPEGRTIEDKLMSLGTVIIERVFEESLGMVRATIAEAPRFPELSRNVHDAARDRSLTAVSQLLNDATQKLARAPKGPFSAKRSRTTAQIFLDLILLPMLFRSLLGETPKDLKKELSVFLRERVGFFLAACETDWS</Hsp_hseq>
+      <Hsp_midline>+FLEKGYRSASIDDISE+APASKPTIYAHFPGKEALFAAVVARTIS LTDFEG  PEGRT+ DKL +LGT I+E++ EESLGMVRATIAEA RFPELSRNVHDAARDRS+ AVSQLLN+ATQKLARAPKGPFS KRS  TAQIFLDLILLPMLFRSL+GETPK+L++EL  F+RERVGFFLAACE DW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|WP_074278294.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium erythrophlei] &gt;emb|SIO37486.1| transcriptional regulator, TetR family [Bradyrhizobium erythrophlei]</Hit_def>
+  <Hit_accession>WP_074278294</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.331</Hsp_bit-score>
+      <Hsp_score>843</Hsp_score>
+      <Hsp_evalue>5.87181e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MAKDKSPKRGRPPKDLASDAQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAYFPGKEALFVAVVARTINGLTDFDGFTPAGRTIQEKLTNLGIEIVERFVEDTLDLTRATIAESRRFPELSRNVHDAARDRAAGAVSQLLNEATQRIARSSKGPFSAKRSVATAQMFMDLILLPMLMRSLMGEELKDLRKELPTFLHERVNFFLAACEADWRP</Hsp_hseq>
+      <Hsp_midline>M K  +PKRGRP KDLA D Q RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYA+FPGKEALF AVVARTI+ LTDF+G  P GRT+ +KL+NLG  IVE+ +E++L + RATIAE++RFPELSRNVHDAARDR+  AVSQLLNEATQ++AR+ KGPFS KRS+ATAQ+F+DLILLPML RSL+GE  K+LR+ELP+F+ ERV FFLAACEADW P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>tpg|HBF55971.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Afipia sp.]</Hit_def>
+  <Hit_accession>HBF55971</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.331</Hsp_bit-score>
+      <Hsp_score>843</Hsp_score>
+      <Hsp_evalue>5.93649e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADW</Hsp_qseq>
+      <Hsp_hseq>MAKTKSPKRGRPPKDLAGDVQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTINGLTDFEGFAPTGRTIQEKLTNLGIEIVERFVEDTLDLTRATIAEARRFPELSRNVHDAARDRAAGAVSQLLNEATQRAVRTSKGPFSAKRSVATAQMFMDLILLPMLMRSLMGEELKDLRKELPTFLHERVNFFLAACAAGW</Hsp_hseq>
+      <Hsp_midline>M K  +PKRGRP KDLAGDVQ RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI+ LTDFEG  P GRT+ +KL+NLG  IVE+ +E++L + RATIAEA+RFPELSRNVHDAARDR+  AVSQLLNEATQ+  R  KGPFS KRS+ATAQ+F+DLILLPML RSL+GE  K+LR+ELP+F+ ERV FFLAAC A W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>gb|RTL82110.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobiaceae bacterium]</Hit_def>
+  <Hit_accession>RTL82110</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.331</Hsp_bit-score>
+      <Hsp_score>843</Hsp_score>
+      <Hsp_evalue>6.06801e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MAKTKSPKRGRPPKDLAGDVQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTINGLTDFEGFAPTGRTIQEKLTNLGIEIVERFVEDTLDLTRATIAEARRFPELSRNVHDAARDRAAGAVSQLLNEATQRAVRTSKGPFSAKRSVATAQMFMDLILLPMLMRSLMGEELKDLRKELPTFLHERVNFFLAACAADCRP</Hsp_hseq>
+      <Hsp_midline>M K  +PKRGRP KDLAGDVQ RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI+ LTDFEG  P GRT+ +KL+NLG  IVE+ +E++L + RATIAEA+RFPELSRNVHDAARDR+  AVSQLLNEATQ+  R  KGPFS KRS+ATAQ+F+DLILLPML RSL+GE  K+LR+ELP+F+ ERV FFLAAC AD  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|WP_074277991.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium erythrophlei] &gt;emb|SIO13441.1| transcriptional regulator, TetR family [Bradyrhizobium erythrophlei]</Hit_def>
+  <Hit_accession>WP_074277991</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.176</Hsp_bit-score>
+      <Hsp_score>840</Hsp_score>
+      <Hsp_evalue>1.91713e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADWTP</Hsp_qseq>
+      <Hsp_hseq>MAKDKSPKRGRPPKDLASDAQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAYFPGKEALFVAVVARTINGLTDFDGFTPAGRTIQEKLTNLGIEIVERFVEDTLDLTRATIAESRRFPELSRNVHDAARDRAAGAVSQLLNDATQRIARSSKGPFSAKRSVATAQMFMDLILLPMLMRSLMGEELKDLRKELPTFLHERVNFFLAACEADWRP</Hsp_hseq>
+      <Hsp_midline>M K  +PKRGRP KDLA D Q RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYA+FPGKEALF AVVARTI+ LTDF+G  P GRT+ +KL+NLG  IVE+ +E++L + RATIAE++RFPELSRNVHDAARDR+  AVSQLLN+ATQ++AR+ KGPFS KRS+ATAQ+F+DLILLPML RSL+GE  K+LR+ELP+F+ ERV FFLAACEADW P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|WP_079573559.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium erythrophlei] &gt;emb|SHG75872.1| transcriptional regulator, TetR family [Bradyrhizobium erythrophlei]</Hit_def>
+  <Hit_accession>WP_079573559</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.079</Hsp_bit-score>
+      <Hsp_score>806</Hsp_score>
+      <Hsp_evalue>3.93537e-106</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>PKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADW</Hsp_qseq>
+      <Hsp_hseq>PRLGRPPKDLAGDVKARILYAAQLVFLKRGYQSASLDEIAETAPASKPTIYAHFPGKEALFEAVVARVLGGLTNFEGFEPKGRTVQDKLASLGIEVVERFIEETLGITRATIAEADRFPALSRHVHEAGRDQAAAAVSHVLNDATHTLSRGSKGPFSGKRSLATAQIFMDLILLPMLMRALMGEGGKELRSELPAFVRERVSFFLAACEADW</Hsp_hseq>
+      <Hsp_midline>P+ GRP KDLAGDV+ RIL AAQ +FL++GY+SAS+D+I+E APASKPTIYAHFPGKEALF AVVAR +  LT+FEG EP+GRT+ DKL++LG  +VE+ IEE+LG+ RATIAEA RFP LSR+VH+A RD++  AVS +LN+AT  L+R  KGPFSGKRSLATAQIF+DLILLPML R+L+GE  KELR ELP+F+RERV FFLAACEADW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|WP_035724691.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Bradyrhizobium sp. ARR65]</Hit_def>
+  <Hit_accession>WP_035724691</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>2.33184e-103</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>PKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEADW</Hsp_qseq>
+      <Hsp_hseq>PRVGRPPKDLAGDVKARILDAAQRIFLKRGYQSTSLDEIAEAAPASKPTIYAHFEGKEALFEAVVARVIEGLTNFEGFEPKGRSVQDKLANLGIEVVERFIEETLGITRATIAEADRFPALSRNVEKAARDRTAAAVSHVLNDATHTLSRGSKGAFSGKRSISTAQIFMDLILLPMLMRALMGQGAKELKSELPAFVHERVSFFLAACETDW</Hsp_hseq>
+      <Hsp_midline>P+ GRP KDLAGDV+ RILDAAQ++FL++GY+S S+D+I+E APASKPTIYAHF GKEALF AVVAR I  LT+FEG EP+GR++ DKL+NLG  +VE+ IEE+LG+ RATIAEA RFP LSRNV  AARDR+  AVS +LN+AT  L+R  KG FSGKRS++TAQIF+DLILLPML R+L+G+  KEL+ ELP+F+ ERV FFLAACE DW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|WP_135164237.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. CNPSo 3426] &gt;gb|TFV75924.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. CNPSo 3426]</Hit_def>
+  <Hit_accession>WP_135164237</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.256</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>5.5846e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEAD</Hsp_qseq>
+      <Hsp_hseq>MVSRRSPKRGRPLKDDAGGVQVRILDAAQQLFLAKGYRSSSIDEISELAPASKPTIYAHFPGKQALFAAVMSRTIDGLTDFHGFMLEGRTVEDKLTSLGTAIVDSVIDESLGVVRATIAEAQRFPELSRNFHDAARERSVRAVSRLLSEADRERARDPEAPIHTRRRQDTAQIFLDLILLPILLRSLHGERPAELRSELASFIKDRVGFFLSACEPD</Hsp_hseq>
+      <Hsp_midline>M  + +PKRGRP KD AG VQVRILDAAQQLFL KGYRS+SID+ISELAPASKPTIYAHFPGK+ALFAAV++RTI  LTDF G   EGRT+ DKL++LGT IV+ +I+ESLG+VRATIAEAQRFPELSRN HDAAR+RSV AVS+LL+EA ++ AR P+ P   +R   TAQIFLDLILLP+L RSL GE P ELR EL SF+++RVGFFL+ACE D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|WP_008970919.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. STM 3843] &gt;emb|CCE08407.1| Transcriptional regulatory protein [Bradyrhizobium sp. STM 3843]</Hit_def>
+  <Hit_accession>WP_008970919</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.855</Hsp_bit-score>
+      <Hsp_score>686</Hsp_score>
+      <Hsp_evalue>7.97168e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEA</Hsp_qseq>
+      <Hsp_hseq>MAKTNEPKLGRPPKDLAGKVRERILDAAEQLFLERGFRSTSIDEIAERAPASKPTIYAHFPGKEALFTAVIGRAIAKLTDFDGFVPQGQSTEDKLVALGTEIVERFFADTVDLIRAMIAEAQRFPGLSRDLHDAAQRRVAGVVSEFLGDATQATACAAKVRLDGSHKLAIAQLFVDIIVLPMLMRSLLGAEPKDLNRELPPFLHERVRFFLAACES</Hsp_hseq>
+      <Hsp_midline>M K + PK GRP KDLAG V+ RILDAA+QLFLE+G+RS SID+I+E APASKPTIYAHFPGKEALF AV+ R I++LTDF+G  P+G++  DKL  LGT IVE+   +++ ++RA IAEAQRFP LSR++HDAA+ R    VS+ L +ATQ  A A K    G   LA AQ+F+D+I+LPML RSL+G  PK+L RELP F+ ERV FFLAACE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>tpg|HAQ95607.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Afipia sp.]</Hit_def>
+  <Hit_accession>HAQ95607</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.61</Hsp_bit-score>
+      <Hsp_score>662</Hsp_score>
+      <Hsp_evalue>4.07266e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQ</Hsp_qseq>
+      <Hsp_hseq>MAKTKSPKRGRPPKDLAGDVQARILDAAQQLFLEKGFRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTINGLTDFEGFAPTGRTIQEKLTNLGIEIVERFVEDTLDLTRATIAEARRFPELSRNVHDAARDRAAGAVSQLLNEATQRAVRTSKGPFSAKRSVATAQ</Hsp_hseq>
+      <Hsp_midline>M K  +PKRGRP KDLAGDVQ RILDAAQQLFLEKG+RSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI+ LTDFEG  P GRT+ +KL+NLG  IVE+ +E++L + RATIAEA+RFPELSRNVHDAARDR+  AVSQLLNEATQ+  R  KGPFS KRS+ATAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|WP_008971549.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. STM 3843] &gt;emb|CCE09038.1| Transcriptional regulatory protein [Bradyrhizobium sp. STM 3843]</Hit_def>
+  <Hit_accession>WP_008971549</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.202</Hsp_bit-score>
+      <Hsp_score>622</Hsp_score>
+      <Hsp_evalue>5.21467e-78</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>TKKSTPKR--GRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEAD</Hsp_qseq>
+      <Hsp_hseq>TKRADPVRRVGRPPKDLAGDVDQRILDAAQHVFLKRGFDGASIDEIAETAPASKPTIYARFPGKDALFAAVVARVVQGLTDFETFKPSGRTLQEKLVNLAGAIVDRALKETVALLRVTIAESPRFPKLSREAHQASRERTQVAVGRLLADMTQAPAKTAKRGSAAKSAAVTAEIFLDLILLPVLMRCLMGVDESALRKELPDFIRERVNVFLAACGPD</Hsp_hseq>
+      <Hsp_midline>TK++ P R  GRP KDLAGDV  RILDAAQ +FL++G+  ASID+I+E APASKPTIYA FPGK+ALFAAVVAR +  LTDFE  +P GRTL +KL NL   IV++ ++E++ ++R TIAE+ RFP+LSR  H A+R+R+  AV +LL + TQ  A+  K   + K +  TA+IFLDLILLP+L R L+G     LR+ELP F+RERV  FLAAC  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>ref|WP_024518708.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. Tv2a-2]</Hit_def>
+  <Hit_accession>WP_024518708</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>2.08636e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>KKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIE-ESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAAC</Hsp_qseq>
+      <Hsp_hseq>KRAHSKGGRPPLERAGEVEERILDAAQEVFVRRGFEGASVDEIAQTARAGKPTIYARYANKESLFEAVMARQVARNTQFENLVPQGRSLQARLVNLGIALIERTLDGETIGLMRSGIAEAERFPDLTRRINEMARKRAAANLAKLLGELAREEGIAARGAFSPDRITDTARIFLDLVLFAMLFSRLLGEDVKALKKELPAYVRQRVEFFLEAC</Hsp_hseq>
+      <Hsp_midline>K++  K GRP  + AG+V+ RILDAAQ++F+ +G+  AS+D+I++ A A KPTIYA +  KE+LF AV+AR ++R T FE + P+GR+L  +L NLG  ++E+ ++ E++G++R+ IAEA+RFP+L+R +++ AR R+   +++LL E  ++   A +G FS  R   TA+IFLDL+L  MLF  L+GE  K L++ELP+++R+RV FFL AC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|WP_024510339.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. ARR65]</Hit_def>
+  <Hit_accession>WP_024510339</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>1.2462e-62</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>TKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLI-EESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAAC</Hsp_qseq>
+      <Hsp_hseq>SKRAHSRGGRPPLERAGEVEERILDAAERIFLQRGFDGASVDEIAQTARAGKPTIYARYPGKESLFAAVMARQVARNTQFENLAPHGRTFHAKLINLGTALAERMLNDDTIGLLRSAIAEAQRFPELTRGVNEMARKRAAANLAKLLAELAREEGIEAKGAFAPERIADTARIFLDVVLFGVLMRRLMGEDAKALRKELPDHVRLRVEFFLGSC</Hsp_hseq>
+      <Hsp_midline>+K++  + GRP  + AG+V+ RILDAA+++FL++G+  AS+D+I++ A A KPTIYA +PGKE+LFAAV+AR ++R T FE + P GRT H KL NLGT + E+++ ++++G++R+ IAEAQRFPEL+R V++ AR R+   +++LL E  ++     KG F+ +R   TA+IFLD++L  +L R L+GE  K LR+ELP  +R RV FFL +C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|WP_008963091.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. STM 3809] &gt;emb|CCE00507.1| putative transcriptional regulatory protein, TetR family [Bradyrhizobium sp. STM 3809]</Hit_def>
+  <Hit_accession>WP_008963091</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.823</Hsp_bit-score>
+      <Hsp_score>499</Hsp_score>
+      <Hsp_evalue>1.50496e-59</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>GRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDF-EGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPK-GPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLA</Hsp_qseq>
+      <Hsp_hseq>GRPPKALAGNIEERILDAARQVFLERGFDGTSIDEIAERAPASKPTIYARYAGKPALFAAIVERSIGELTNLGSSYTPPAGTIQEKLAGLATAIVDRALKESIGLLRVTIGEAYRFPDLSCQFHELSRKRSTHAVAVLLADTIGAAGTSPKRAPL--KASEAMAEIFIDLIVLPLLMRALMGMKERTIRKEMPGFVRERVRIFLA</Hsp_hseq>
+      <Hsp_midline>GRP K LAG+++ RILDAA+Q+FLE+G+   SID+I+E APASKPTIYA + GK ALFAA+V R+I  LT+      P   T+ +KL+ L T IV++ ++ES+G++R TI EA RFP+LS   H+ +R RS +AV+ LL +       +PK  P   K S A A+IF+DLI+LP+L R+L+G   + +R+E+P F+RERV  FLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|WP_011924769.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. ORS 278] &gt;emb|CAL75541.1| Putative transcriptional regulatory protein, TetR family [Bradyrhizobium sp. ORS 278]</Hit_def>
+  <Hit_accession>WP_011924769</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>2.62338e-57</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>GRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGV-EPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLA</Hsp_qseq>
+      <Hsp_hseq>GRPPKALAGNIEERILDAAREVFLERGFDGTSIDEIAERAPASKPTIYARYAGKPALFAAIVERSIGELTALRSTYTPPAGTVQEKLAGLATAIVDRAMKESIGLLRVTIGEAYRFPDLSCQFHEVSRKRTTQVVAGLLADTIG--SAAPKRPPS-KTYEAAAEIFIDLIVLPLLMRALMGMKERTIRKEMPGFVRERVKIFLA</Hsp_hseq>
+      <Hsp_midline>GRP K LAG+++ RILDAA+++FLE+G+   SID+I+E APASKPTIYA + GK ALFAA+V R+I  LT       P   T+ +KL+ L T IV++ ++ES+G++R TI EA RFP+LS   H+ +R R+   V+ LL +     + APK P S K   A A+IF+DLI+LP+L R+L+G   + +R+E+P F+RERV  FLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>gb|TMJ83806.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Alphaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>TMJ83806</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>4.54203e-57</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>KKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTIS-RLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIE-ESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQ--KLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAAC</Hsp_qseq>
+      <Hsp_hseq>KRAAVRSGRPPRELAGEVESRILDAARRVFLERGLAGASIDEIAELACAGKPTIYARFPGKEPLFSAVVMRKVAANVARFANFVPAGATIEERLASVGATVLRQLLAGDTVGLLRLSIAEARRFPDLASSVHRMARGRGLQAVARLLAEAAQSDELGHLPA--FAPQRLAKTADIFLDLVVLPLLHRALHGEKPKALCAEVEPHVASSVAFFIAAC</Hsp_hseq>
+      <Hsp_midline>K++  + GRP ++LAG+V+ RILDAA+++FLE+G   ASID+I+ELA A KPTIYA FPGKE LF+AVV R ++  +  F    P G T+ ++L+++G T++ +L+  +++G++R +IAEA+RFP+L+ +VH  AR R + AV++LL EA Q  +L   P   F+ +R   TA IFLDL++LP+L R+L GE PK L  E+   +   V FF+AAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|WP_009031237.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. ORS 375] &gt;emb|CCD96344.1| putative transcriptional regulatory protein, TetR family [Bradyrhizobium sp. ORS 375]</Hit_def>
+  <Hit_accession>WP_009031237</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>4.3219e-56</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>GRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDF-EGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLA</Hsp_qseq>
+      <Hsp_hseq>GRPPKALAGNIEERILDAAHEVFLERGFDGTSIDEIAERAPASKPTIYARYAGKPALFAAIVERSIGELMSLGASYTPSPGTVQEKLAGLATAIVDRALKESIGLLRVTIGEAYRFPDLSCQFHELSRKRATHAVAVLLADTIGSAGPPPRRAPS-KASEAMAEIFIDLIVLPLLMRALMGVKERTIRKEMPGFVRERVKIFLA</Hsp_hseq>
+      <Hsp_midline>GRP K LAG+++ RILDAA ++FLE+G+   SID+I+E APASKPTIYA + GK ALFAA+V R+I  L        P   T+ +KL+ L T IV++ ++ES+G++R TI EA RFP+LS   H+ +R R+ +AV+ LL +        P+   S K S A A+IF+DLI+LP+L R+L+G   + +R+E+P F+RERV  FLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|WP_015665696.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium oligotrophicum] &gt;dbj|BAM88574.1| putative transcriptional regulatory protein, TetR family [Bradyrhizobium oligotrophicum S58]</Hit_def>
+  <Hit_accession>WP_015665696</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.578</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>4.93944e-56</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>TKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEK-LIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAA</Hsp_qseq>
+      <Hsp_hseq>SKTARGKVGRPSLERAGEVEERILDAAKTVFLANGFEGASVDEIAQTARAGKPTIYARFPSKAALFAAVIARHAARNTQYENLVPQGRTFRARLISLGLTLIERAFVEDTIGLMRTAIAENPRFPELTLEIQDTARKRATCNVSHAIGELARAEGLAGKGAFSADRIEDSARIFLDLVVFAVLIRSLLGEDMRALKKEAQAHVEKRVDFFLAA</Hsp_hseq>
+      <Hsp_midline>+K +  K GRP+ + AG+V+ RILDAA+ +FL  G+  AS+D+I++ A A KPTIYA FP K ALFAAV+AR  +R T +E + P+GRT   +L +LG T++E+  +E+++G++R  IAE  RFPEL+  + D AR R+   VS  + E  +    A KG FS  R   +A+IFLDL++  +L RSL+GE  + L++E  + + +RV FFLAA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>ref|WP_006615552.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. ORS 285] &gt;emb|CCD90212.1| putative transcriptional regulatory protein, TetR family [Bradyrhizobium sp. ORS 285] &gt;emb|SMX60523.1| Putative transcriptional regulatory protein, TetR family [Bradyrhizobium sp. ORS 285]</Hit_def>
+  <Hit_accession>WP_006615552</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>9.37181e-56</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>KSTPKRGR---PTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDF-EGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLA</Hsp_qseq>
+      <Hsp_hseq>RAVPTRGRVGRPPKALAGNIEERILDAAREVFLERGFDGTSIDEIAERAPASKPTIYARYAGKPALFAAIVERSIGEVMNLGPSYTPPPGTVQEKLVGVAIAIVDRVLKQSLGLLRVTIGEAYRFPDLSSQFHEVSRKRATQPVAVLLAETIGVSAGAKRA--TSKTSEASAEIFIDLIVLPLLMRALMGVKEKTIRKEMPGFVRERVKIFLA</Hsp_hseq>
+      <Hsp_midline>++ P RGR   P K LAG+++ RILDAA+++FLE+G+   SID+I+E APASKPTIYA + GK ALFAA+V R+I  + +      P   T+ +KL  +   IV++++++SLG++R TI EA RFP+LS   H+ +R R+   V+ LL E     A A +   + K S A+A+IF+DLI+LP+L R+L+G   K +R+E+P F+RERV  FLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|WP_015668938.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium oligotrophicum] &gt;dbj|BAM91852.1| putative transcriptional regulatory protein, TetR family [Bradyrhizobium oligotrophicum S58]</Hit_def>
+  <Hit_accession>WP_015668938</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>1.69279e-55</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>GRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDF-EGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLA</Hsp_qseq>
+      <Hsp_hseq>GRPPKALAGNIEERILDAARDVFLERGFDGASIDEIAERAPASKPTIYARYSGKPALFAAIVERSIGELMNLGSSYTPPAGTVQEKLVGLAMAIVDRSLKDSIGLLRVTIGEADRFPDLSCQFHDVSRKRATHAVAVLLSETIGGSARG----APSKASAASAEIFIDLIVMPLIMRSLMGERERTIRKELPGFVRERVKTFLA</Hsp_hseq>
+      <Hsp_midline>GRP K LAG+++ RILDAA+ +FLE+G+  ASID+I+E APASKPTIYA + GK ALFAA+V R+I  L +      P   T+ +KL  L   IV++ +++S+G++R TI EA RFP+LS   HD +R R+ +AV+ LL+E     AR        K S A+A+IF+DLI++P++ RSL+GE  + +R+ELP F+RERV  FLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|WP_008968081.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. STM 3843] &gt;emb|CCE05557.1| putative transcriptional regulatory protein, TetR family [Bradyrhizobium sp. STM 3843]</Hit_def>
+  <Hit_accession>WP_008968081</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.037</Hsp_bit-score>
+      <Hsp_score>471</Hsp_score>
+      <Hsp_evalue>2.31509e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>TKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEK-LIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAA</Hsp_qseq>
+      <Hsp_hseq>SKIARGKVGRPPLERAGEVEERILDAAKKIFLAEGFEGASVDEIAQQARAGKPTIYARFPNKAALFAAVIGRQAARNTQYDNLVPEGRSFRAKLISVGIALIERAFAEETVGLMRTAIAESPRFPELTREISDKARKRATCNLTKIIGELAQAEDLAGEGRFSPDRIEDTARIFIDMILFPMFIRCLLGEELRALKKEVPDHVEKRVDFFLDA</Hsp_hseq>
+      <Hsp_midline>+K +  K GRP  + AG+V+ RILDAA+++FL +G+  AS+D+I++ A A KPTIYA FP K ALFAAV+ R  +R T ++ + PEGR+   KL ++G  ++E+   EE++G++R  IAE+ RFPEL+R + D AR R+   +++++ E  Q    A +G FS  R   TA+IF+D+IL PM  R L+GE  + L++E+P  + +RV FFL A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|WP_006609802.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. ORS 285] &gt;emb|CCD84462.1| putative transcriptional regulatory protein, TetR family [Bradyrhizobium sp. ORS 285] &gt;emb|SMX57261.1| putative transcriptional regulatory protein, TetR family [Bradyrhizobium sp. ORS 285]</Hit_def>
+  <Hit_accession>WP_006609802</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>3.27897e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>TKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEK-LIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAAC</Hsp_qseq>
+      <Hsp_hseq>SKTARGKVGRPSLERAGEVEERILDAAKTVFLTQGFEGASVDEIAQTARAGKPTIYARFPSKAALFAAVICRQAANNTQYENLVPQGRSFRARLVNLAMTLIERAFVGETIGLMRTAIAENPRFPELTLEIQDSARERATRNVSHVIGELARAEGLYGKGAFAADKLEETAKIFIDLVVFSMLFRALLGEDMRALKKEAQAYVEGRVDFFLSAA</Hsp_hseq>
+      <Hsp_midline>+K +  K GRP+ + AG+V+ RILDAA+ +FL +G+  AS+D+I++ A A KPTIYA FP K ALFAAV+ R  +  T +E + P+GR+   +L NL  T++E+  + E++G++R  IAE  RFPEL+  + D+AR+R+   VS ++ E  +      KG F+  +   TA+IF+DL++  MLFR+L+GE  + L++E  +++  RV FFL+A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>ref|WP_172112784.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Bradyrhizobium sp. 83012] &gt;gb|NPU67719.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. 83012]</Hit_def>
+  <Hit_accession>WP_172112784</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>7.82759e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>TKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIE-ESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAA</Hsp_qseq>
+      <Hsp_hseq>SRTARGKVGRPSLERAGEVEERILDAAKTVFLANGFEGASVDEIAQTARAGKPTIYARFPSKAALFAAVIGRQAARNTQYENLVPQGRSFRSRLVNLGVTLIERAFEDETIGLMRTAIAENPRFPDLTLEIQASARQRATLNVGHVLGELARAEGLAGKGAFAAERIEDTARIFIDLVVFSMLMRALLGEDIRALKKELQACVEGRVAFFLSA</Hsp_hseq>
+      <Hsp_midline>++ +  K GRP+ + AG+V+ RILDAA+ +FL  G+  AS+D+I++ A A KPTIYA FP K ALFAAV+ R  +R T +E + P+GR+   +L NLG T++E+  E E++G++R  IAE  RFP+L+  +  +AR R+   V  +L E  +    A KG F+ +R   TA+IF+DL++  ML R+L+GE  + L++EL + +  RV FFL+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|WP_172182578.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Bradyrhizobium sp. 83002] &gt;gb|NPU12488.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. 83002]</Hit_def>
+  <Hit_accession>WP_172182578</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>9.52024e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>TKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIE-ESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAA</Hsp_qseq>
+      <Hsp_hseq>SRMARGKVGRPSLERAGEVEERILDAAKTVFLANGFEGASVDEIAQTARAGKPTIYARFPSKAALFAAVIGRQAARNTQYENLVPQGRSFRSRLVNLGVTLIERAFEDETIGLMRTAIAENPRFPDLTLEIQASARQRATLNVGHVLGELARAEGLAGKGAFAAERIEDTARIFIDLVVFSMLMRALLGEDIRALKKELQACVEGRVAFFLSA</Hsp_hseq>
+      <Hsp_midline>++ +  K GRP+ + AG+V+ RILDAA+ +FL  G+  AS+D+I++ A A KPTIYA FP K ALFAAV+ R  +R T +E + P+GR+   +L NLG T++E+  E E++G++R  IAE  RFP+L+  +  +AR R+   V  +L E  +    A KG F+ +R   TA+IF+DL++  ML R+L+GE  + L++EL + +  RV FFL+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|WP_008965317.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. STM 3809] &gt;emb|CCE02769.1| putative transcriptional regulatory protein, TetR family [Bradyrhizobium sp. STM 3809]</Hit_def>
+  <Hit_accession>WP_008965317</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.341</Hsp_bit-score>
+      <Hsp_score>464</Hsp_score>
+      <Hsp_evalue>2.10585e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>TKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEK-LIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAAC</Hsp_qseq>
+      <Hsp_hseq>SRTARGKVGRPPLERAGEVEERILDAAKTVFLAQGFEGASVDEIAQTARAGKPTIYARFPSKAALFAAVIARHAGRNTQYENLVPQGRTFRARLISLGQTLIERAMVDETIGLMRTAIAENPRFPELTLEIQDSARKRATVNVGHAIGELARAEGLAGKGAFAADRIEDTARVFLDLVVFAMLMRVLLGEDVRVLKKEAQAHVEKRVDFFLAAT</Hsp_hseq>
+      <Hsp_midline>++ +  K GRP  + AG+V+ RILDAA+ +FL +G+  AS+D+I++ A A KPTIYA FP K ALFAAV+AR   R T +E + P+GRT   +L +LG T++E+ +++E++G++R  IAE  RFPEL+  + D+AR R+   V   + E  +    A KG F+  R   TA++FLDL++  ML R L+GE  + L++E  + + +RV FFLAA </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|WP_172133038.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Bradyrhizobium sp. 81013] &gt;gb|NPV23045.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. 81013]</Hit_def>
+  <Hit_accession>WP_172133038</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>3.18336e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>TKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIE-ESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAA</Hsp_qseq>
+      <Hsp_hseq>SRTARGKVGRPSLERAGEVEERILDAAKTVFLANGFEGASVDEIAQTARAGKPTIYARFPSKAALFAAVIGRQAARNTQYENLVPQGRSFRSRLVNLGVTLIERAFEDETIGLMRTAIAENPRFPDLTLEIQASARQRATLNVGHVLGELARAEGLAGKGAFAAERIEDTARIFIDLVVFSMLMRALLGEDIRALKKELQPCVEGRVAFFLSA</Hsp_hseq>
+      <Hsp_midline>++ +  K GRP+ + AG+V+ RILDAA+ +FL  G+  AS+D+I++ A A KPTIYA FP K ALFAAV+ R  +R T +E + P+GR+   +L NLG T++E+  E E++G++R  IAE  RFP+L+  +  +AR R+   V  +L E  +    A KG F+ +R   TA+IF+DL++  ML R+L+GE  + L++EL   +  RV FFL+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|WP_012046244.1|</Hit_id>
+  <Hit_def>MULTISPECIES: helix-turn-helix transcriptional regulator [unclassified Bradyrhizobium] &gt;gb|ABQ38303.1| transcriptional regulator, TetR family [Bradyrhizobium sp. BTAi1] &gt;gb|NPU23772.1| helix-turn-helix transcriptional regulator [Bradyrhizobium sp. LMG 8443] &gt;gb|RTL94209.1| TetR/AcrR family transcriptional regulator [Bradyrhizobiaceae bacterium]</Hit_def>
+  <Hit_accession>WP_012046244</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>3.82368e-54</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>GRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLA</Hsp_qseq>
+      <Hsp_hseq>GRPPKALAGDIEARILDAAREVFLERGFDGTSIDEIAERAPASKPTIYARYSGKPALFAAIIERSLNELMNFGSYTAPAGTVQEKLVGLATTIVNRGLKETLGLLRVTIGEAYRFPDLSCEVHEVTRKRAAHAVAVLLAETFRSPGSGARRP-PAKAWEASAEIFIDLTVLPLMMRALMGLDEKTLRKQMPVFIRERVKIFLA</Hsp_hseq>
+      <Hsp_midline>GRP K LAGD++ RILDAA+++FLE+G+   SID+I+E APASKPTIYA + GK ALFAA++ R+++ L +F        T+ +KL  L TTIV + ++E+LG++R TI EA RFP+LS  VH+  R R+ +AV+ LL E  +      + P   K   A+A+IF+DL +LP++ R+L+G   K LR+++P F+RERV  FLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>ref|WP_012028746.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. ORS 278] &gt;emb|CAL78808.1| putative transcriptional regulatory protein, TetR family [Bradyrhizobium sp. ORS 278]</Hit_def>
+  <Hit_accession>WP_012028746</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>8.1095e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>TKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEK-LIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAAC</Hsp_qseq>
+      <Hsp_hseq>SKTARGKVGRPPLERAGEVEERILDAAKTVFLAHGFEGASVDEIAQTARAGKPTIYARFPSKAALFAAVIARHAGRNTQYENLVPQGRSFRARLISLGQTLIERAMVDETIGLMRTAIAENPRFPELTLEIQDSARKRATVNVGHAIAELARAEGLAGKGAFAADRIEETARVFLDLVVFAMLMRILLGEDLRGLKKEAQTHVEKRVDFFLAAT</Hsp_hseq>
+      <Hsp_midline>+K +  K GRP  + AG+V+ RILDAA+ +FL  G+  AS+D+I++ A A KPTIYA FP K ALFAAV+AR   R T +E + P+GR+   +L +LG T++E+ +++E++G++R  IAE  RFPEL+  + D+AR R+   V   + E  +    A KG F+  R   TA++FLDL++  ML R L+GE  + L++E  + + +RV FFLAA </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|WP_012045501.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [unclassified Bradyrhizobium] &gt;gb|ABQ37541.1| transcriptional regulator, TetR family [Bradyrhizobium sp. BTAi1] &gt;gb|NPU26012.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. LMG 8443] &gt;gb|RTL98045.1| TetR/AcrR family transcriptional regulator [Bradyrhizobiaceae bacterium]</Hit_def>
+  <Hit_accession>WP_012045501</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>1.08763e-53</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>KKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEK-LIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAAC</Hsp_qseq>
+      <Hsp_hseq>KTARGKVGRPPLERAGEVEERILDAAKTVFLAHGFEGASVDVIAQTARAGKPTIYARFPSKAALFAAVIGRQAANNTQYENLVPQGRTFRARLVNLAVTLIERAFADETIGLMRTAIAESPRFPDLTLEVQDSARQRATRNVGHVIAELARAEGLYGRGAFAAERIEETARIFIDLAVFSMLFRALLGEDVRALKKEAQTYVEERVDFFLAAS</Hsp_hseq>
+      <Hsp_midline>K +  K GRP  + AG+V+ RILDAA+ +FL  G+  AS+D I++ A A KPTIYA FP K ALFAAV+ R  +  T +E + P+GRT   +L NL  T++E+   +E++G++R  IAE+ RFP+L+  V D+AR R+   V  ++ E  +      +G F+ +R   TA+IF+DL +  MLFR+L+GE  + L++E  +++ ERV FFLAA </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>ref|WP_172114305.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [unclassified Bradyrhizobium] &gt;gb|NPU09315.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. 83002] &gt;gb|NPU69252.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. 83012] &gt;gb|NPV20635.1| TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. 81013]</Hit_def>
+  <Hit_accession>WP_172114305</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.415</Hsp_bit-score>
+      <Hsp_score>459</Hsp_score>
+      <Hsp_evalue>1.83929e-53</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>GRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDF-EGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLAR-APKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLA</Hsp_qseq>
+      <Hsp_hseq>GRPPKALAGNIEERILDAAREVFLERGFDGTSIDEIAERAPASKPTIYARYAGKPALFAAIVERSIGELVSLRSSYTPPVGTVQEQLVGLAMAIVDRAFKESIGLLRVTIGEAYRFPDLSCQFHEVSRKRTVQVVEVLLADTLGSAGLPARRGP--SKAPEASAEIFIDLIVLPLLMRALMGMKERTIRKEMPGFVRERVKIFLA</Hsp_hseq>
+      <Hsp_midline>GRP K LAG+++ RILDAA+++FLE+G+   SID+I+E APASKPTIYA + GK ALFAA+V R+I  L        P   T+ ++L  L   IV++  +ES+G++R TI EA RFP+LS   H+ +R R+V  V  LL +        A +GP   K   A+A+IF+DLI+LP+L R+L+G   + +R+E+P F+RERV  FLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>ref|WP_009031431.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium sp. ORS 375] &gt;emb|CCD96546.1| putative transcriptional regulatory protein, TetR family [Bradyrhizobium sp. ORS 375]</Hit_def>
+  <Hit_accession>WP_009031431</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>2.15742e-53</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>TKKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEK-LIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAA</Hsp_qseq>
+      <Hsp_hseq>SKTARGKVGRPPLERAGEVEERILDAAKTVFLAHGFEGASVDEIAQTARAGKPTIYARFPSKAALFAAVIGRHAGRNTQYENLAPQGRTFRARLISLGQTLIERSCVDETIGLMRTAIAENPRFPELTLEIQDSARKRATANVAHAISELARAEGLAGKAAFAADRIEETARIFLDIVVFAMLIRILLGEDMRTLKKEAQAHVEKRVDFFLAA</Hsp_hseq>
+      <Hsp_midline>+K +  K GRP  + AG+V+ RILDAA+ +FL  G+  AS+D+I++ A A KPTIYA FP K ALFAAV+ R   R T +E + P+GRT   +L +LG T++E+  ++E++G++R  IAE  RFPEL+  + D+AR R+   V+  ++E  +    A K  F+  R   TA+IFLD+++  ML R L+GE  + L++E  + + +RV FFLAA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>gb|OJU31656.1|</Hit_id>
+  <Hit_def>hypothetical protein BGN99_00895 [Alphaproteobacteria bacterium 65-37]</Hit_def>
+  <Hit_accession>OJU31656</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.933</Hsp_bit-score>
+      <Hsp_score>424</Hsp_score>
+      <Hsp_evalue>3.66706e-48</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>KKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEK-LIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEA</Hsp_qseq>
+      <Hsp_hseq>ERGASRAGRPPKTHAGEVDRRILDAARRAFLEKGLDGASVDEIAKLARAGKPTIYARFPNKEALYVAVAMRNVAEVIESEIHLPDGTDVEEQLISLGVTMLRSALTDDHIGVMRLGISEARRFPDLAGSVHRMASERGIAAVTRLLREAARSDKGGALAAFAPNRLATTAQFFIDLVLWPMFRHALFGKKLRTLRAGIEAHVTQSVAFFLAACRA</Hsp_hseq>
+      <Hsp_midline>++   + GRP K  AG+V  RILDAA++ FLEKG   AS+D+I++LA A KPTIYA FP KEAL+ AV  R ++ + + E   P+G  + ++L +LG T++   L ++ +G++R  I+EA+RFP+L+ +VH  A +R + AV++LL EA +         F+  R   TAQ F+DL+L PM   +L G+  + LR  + + + + V FFLAAC A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>gb|MBC7047458.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg]</Hit_def>
+  <Hit_accession>MBC7047458</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>9.05825e-48</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>KPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEKLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLN</Hsp_qseq>
+      <Hsp_hseq>KPTIYAPFPGKEALFAAVVARTISGLTDFEGFTPEGRTIEDKLMSLGTVIIERVFEESLGMVRATIAEAPRFPELSRNVHDAARDRSLTAVSQLLN</Hsp_hseq>
+      <Hsp_midline>KPTIYA FPGKEALFAAVVARTIS LTDFEG  PEGRT+ DKL +LGT I+E++ EESLGMVRATIAEA RFPELSRNVHDAARDRS+ AVSQLLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|WP_170153096.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Roseiarcus fermentans] &gt;gb|RBP15789.1| TetR family transcriptional regulator [Roseiarcus fermentans]</Hit_def>
+  <Hit_accession>WP_170153096</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>1.66186e-46</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>KRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEK-LIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEA</Hsp_qseq>
+      <Hsp_hseq>RSGRPRRELAGEVEERILEAAAKVFLGRGYDGASIDEIAVEARAGKPTIYARYPGKEALFGAVVAQKIRQNASFDSAAAGGSSSEDRLKSLATALLERALGSEAIALVRVAVAESRRFPDLASGVGRMALERGHETIAKLLGDFARSDEMAALEAFAPDHLAATARRFTEMVVLPIVMRALFGENPERLRAEVDPHIAETVAFFLAACRA</Hsp_hseq>
+      <Hsp_midline>+ GRP ++LAG+V+ RIL+AA ++FL +GY  ASID+I+  A A KPTIYA +PGKEALF AVVA+ I +   F+     G +  D+L +L T ++E+ L  E++ +VR  +AE++RFP+L+  V   A +R    +++LL +  +    A    F+     ATA+ F ++++LP++ R+L GE P+ LR E+   + E V FFLAAC A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>emb|SHG32210.1|</Hit_id>
+  <Hit_def>transcriptional regulator, TetR family [Bradyrhizobium erythrophlei]</Hit_def>
+  <Hit_accession>SHG32210</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>2.1709e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>KKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI-SRLTDFEGVEPEGRTLHDKLSNLGTTIVE-KLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEAD</Hsp_qseq>
+      <Hsp_hseq>KRATGRFGRPPKELAGEVDTRILDAARKMFLERGFEGASIDEIAEVARAGKATIYARFRDKRALFTEVVTRDILARITEFKAEVPTGSTIEERLTSAASTLLHWGLDNERIALMRLAVAEARRFPDLASTVSRTARDLSTDLGVRLLGQLTQADELRSLPAFAPERLTTTARFFLDLVAVPMLLRALFEVDLKTLDEEIDAHVARSVAFFLAACRHD</Hsp_hseq>
+      <Hsp_midline>K++T + GRP K+LAG+V  RILDAA+++FLE+G+  ASID+I+E+A A K TIYA F  K ALF  VV R I +R+T+F+   P G T+ ++L++  +T++   L  E + ++R  +AEA+RFP+L+  V   ARD S +   +LL + TQ         F+ +R   TA+ FLDL+ +PML R+L     K L  E+ + +   V FFLAAC  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|WP_029581785.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Bradyrhizobium sp. URHD0069]</Hit_def>
+  <Hit_accession>WP_029581785</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>2.4092e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>KKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTDFEGVEPEGRTLHDKLSNLGTTIVEK-LIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAAC</Hsp_qseq>
+      <Hsp_hseq>KRGAVRSGRPPRELAGEVETRILDAAHRVFLEHGLAGASIDEIASVARAGKPTIYARFATKEALFAAVVMRNVVKIADAHVHVPDGANIEERLADVGAVLLQRALASDNTGLMRLAIAEARRFPDLASSVHRQARERGVDAVARLLGEVAQSNELGTLPAFAPERLETTTRFFLDLVLLPLLIRALFGEKLKTLQEEIQPHVAQSVAFFLAAC</Hsp_hseq>
+      <Hsp_midline>K+   + GRP ++LAG+V+ RILDAA ++FLE G   ASID+I+ +A A KPTIYA F  KEALFAAVV R + ++ D     P+G  + ++L+++G  ++++ L  ++ G++R  IAEA+RFP+L+ +VH  AR+R V+AV++LL E  Q         F+ +R   T + FLDL+LLP+L R+L GE  K L+ E+   + + V FFLAAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|WP_172899837.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Bradyrhizobium erythrophlei]</Hit_def>
+  <Hit_accession>WP_172899837</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>2.74366e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>KKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI-SRLTDFEGVEPEGRTLHDKLSNLGTTIVE-KLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAACEAD</Hsp_qseq>
+      <Hsp_hseq>KRATGRFGRPPKELAGEVDTRILDAARKMFLERGFEGASIDEIAEVARAGKATIYARFRDKRALFTEVVTRDILARITEFKAEVPTGSTIEERLTSAASTLLHWGLDNERIALMRLAVAEARRFPDLASTVSRTARDLSTDLGVRLLGQLTQADELRSLPAFAPERLTTTARFFLDLVAVPMLLRALFEVDLKTLDEEIDAHVARSVAFFLAACRHD</Hsp_hseq>
+      <Hsp_midline>K++T + GRP K+LAG+V  RILDAA+++FLE+G+  ASID+I+E+A A K TIYA F  K ALF  VV R I +R+T+F+   P G T+ ++L++  +T++   L  E + ++R  +AEA+RFP+L+  V   ARD S +   +LL + TQ         F+ +R   TA+ FLDL+ +PML R+L     K L  E+ + +   V FFLAAC  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|WP_074273684.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium erythrophlei] &gt;emb|SIO29064.1| transcriptional regulator, TetR family [Bradyrhizobium erythrophlei]</Hit_def>
+  <Hit_accession>WP_074273684</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>5.01347e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>KKSTPKRGRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI-SRLTDFEGVEPEGRTLHDKLSNLGTTIVE-KLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAAC</Hsp_qseq>
+      <Hsp_hseq>KRATVRVGRPPKELAGEVDTRILDAARKMFLERGFEGASIDEIAEAARSGKATIYARFRDKRALFTDVVTRDILSRIMEFKTGVPTGSTIEERLTSAASTLLHWGLDSERIALMRLAIAEARRFPDLASTVGRTARDLSTELGVRLLGELTQSDAVRSLPAFAPERLATTARFFLDLVAVPTLFRALFEVDLKTLDEEIDAHVARSVAFFLAAC</Hsp_hseq>
+      <Hsp_midline>K++T + GRP K+LAG+V  RILDAA+++FLE+G+  ASID+I+E A + K TIYA F  K ALF  VV R I SR+ +F+   P G T+ ++L++  +T++   L  E + ++R  IAEA+RFP+L+  V   ARD S     +LL E TQ  A      F+ +R   TA+ FLDL+ +P LFR+L     K L  E+ + +   V FFLAAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>gb|KRR14480.1|</Hit_id>
+  <Hit_def>hypothetical protein CQ12_39655 [Bradyrhizobium jicamae]</Hit_def>
+  <Hit_accession>KRR14480</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>6.74057e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MTKKSTPKR-----GRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTI-SRLTDFEGVEPEGRTLHDKLSNLGTTIVE-KLIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAAC</Hsp_qseq>
+      <Hsp_hseq>LKRKPAPKRAKVRFGRPPKELAGEVDTRILDAARKVFLERGFEGASIDEIADVARAGKPTIYARFRDKRALFTAVVTRDILSRIAEFRATVPTGATIEARLISAASTLLHWGLDSERIALMRLAIAESRRFPDLASTVGRTARDLSTELGVRLLGELTKSDELRSLPAFAPKQLATTARFFLDLIAVPMLFRALFEVDLKTLDAEIDAHVARSVPFFLAAC</Hsp_hseq>
+      <Hsp_midline>+ +K  PKR     GRP K+LAG+V  RILDAA+++FLE+G+  ASID+I+++A A KPTIYA F  K ALF AVV R I SR+ +F    P G T+  +L +  +T++   L  E + ++R  IAE++RFP+L+  V   ARD S     +LL E T+         F+ K+   TA+ FLDLI +PMLFR+L     K L  E+ + +   V FFLAAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|WP_186467431.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Bradyrhizobium stylosanthis] &gt;gb|TWB02389.1| TetR family transcriptional regulator [Bradyrhizobium stylosanthis]</Hit_def>
+  <Hit_accession>WP_186467431</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>7.46095e-45</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>TKKSTPKR----GRPTKDLAGDVQVRILDAAQQLFLEKGYRSASIDDISELAPASKPTIYAHFPGKEALFAAVVARTISRLTD-FEGVEPEGRTLHDKLSNLGTTIVEK-LIEESLGMVRATIAEAQRFPELSRNVHDAARDRSVNAVSQLLNEATQKLARAPKGPFSGKRSLATAQIFLDLILLPMLFRSLVGETPKELRRELPSFMRERVGFFLAAC</Hsp_qseq>
+      <Hsp_hseq>TRAKAPHRAVRAGRPPKELAAEVDERILDAARELFLARGLTGVSVAEIASLAHASKGTIYARFPTKEALFAAIAIRNSEKVRQGFENASSLGDTIEERLTALASEILKHVLTADSIDFMRLAAAEARRFPELAK-VGRMMRERGTHHAATILRDVTQSKQDKPHAAFAPERLPRTAQFFLDLVVAPMLLRAVMGEDPKSLRPQIRTHVAESVAFFLAAC</Hsp_hseq>
+      <Hsp_midline>T+   P R    GRP K+LA +V  RILDAA++LFL +G    S+ +I+ LA ASK TIYA FP KEALFAA+  R   ++   FE     G T+ ++L+ L + I++  L  +S+  +R   AEA+RFPEL++ V    R+R  +  + +L + TQ     P   F+ +R   TAQ FLDL++ PML R+++GE PK LR ++ + + E V FFLAAC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>319546668</Statistics_db-num>
+      <Statistics_db-len>115348668480</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

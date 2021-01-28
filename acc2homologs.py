@@ -103,7 +103,7 @@ def homologs2residueFrequency(acc, identity):
                         protein[pos].update({hresidue:1})
                     counter += 1
 
-        print(protein)
+        return protein
         
 
 
