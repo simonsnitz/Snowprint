@@ -1,8 +1,7 @@
 import pickle
 from  pprint import pprint
 from Bio.pairwise2 import format_alignment, align
-import primer3
-from Bio.Alphabet import generic_dna
+#from Bio.Alphabet import generic_dna
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 from Bio import AlignIO
@@ -246,6 +245,7 @@ def appendOperatorMetadata(homologListFile, knownOperator, perc_ident):
         for operator in operators:
             for i in homologList:
                 i["operator"], i["score"] =  findOperatorInIntergenic(i["intergenic"], operator.upper())
+                print(i["operator"])
             
             consensus_data.append(getConsensus(homologList, min_ident=perc_ident)[0])
             num_seqs.append(getConsensus(homologList, min_ident=perc_ident)[1])

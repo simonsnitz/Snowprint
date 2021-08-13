@@ -2,6 +2,11 @@ import pickle
 import requests
 from Bio import SeqIO
 import processing.acc2operon as a2o
+import time
+import statistics
+
+import os
+
 
 #TODO
 #When running program for AlkU, which has an operator between same-direction genes, this program did not extract the correct inter-operon region. This region is ~310bp, which is well above my supposed "100bp" cutoff to find interoperon regions between same direction genes.
@@ -89,46 +94,75 @@ def operon2Intergenic(operon, regIndex, NCacc):
         return None
     '''
 
-def appendIntergenic(homologListFile):
-    with open(f'{homologListFile}', mode="rb") as f:
-        homologList = pickle.load(f)
 
-    print("original length "+str(len(homologList)))
+def appendIntergenic(acc):
 
-    noDataCount = 0
-    flaggedHomologs = []
+    inputPath = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', f"cache//homolog_metadata/{acc}.pkl"))
+    updatedPath = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', f"cache//homolog_metadata/updated_metadata/{acc}.pkl"))
+
+
+    try:
+        with open(updatedPath, "rb") as f:
+            homologList = pickle.load(f)
+    except:
+        with open(inputPath, "rb") as f:
+            homologList = pickle.load(f)
+
+
+    operonProcessingTimes = [] 
+    
+
     for i in range(0,len(homologList)):
-        data = a2o.acc2operon(homologList[i]["accession"])
-        try:
-            homologList[i]["regIndex"] = data["regIndex"]
-            homologList[i]["operon"] = data["operon"]
-            homologList[i]["organism"] = data["organism"]           
- 
-            intergenic = operon2Intergenic(data["operon"], data["regIndex"], data["genome"])
-            homologList[i]["intergenic"] = intergenic["intergenicSeq"]
-            homologList[i]["regType"] = intergenic["regType"]
-            print('got intergenic region for '+str(i)+" out of "+str(len(homologList)))
-        except:
-            print("no data for intergenic region at position "+str(i))
-            flaggedHomologs.append(homologList[i])
-            noDataCount += 1
+
+        if "regType" not in homologList[i]:
+
+            getOperon_start = time.time()
+
+            data = a2o.acc2operon(homologList[i]["accession"])
+            try:
+                homologList[i]["regIndex"] = data["regIndex"]
+                homologList[i]["operon"] = data["operon"]
+                homologList[i]["organism"] = data["organism"]           
+    
+                intergenic = operon2Intergenic(data["operon"], data["regIndex"], data["genome"])
+                homologList[i]["intergenic"] = intergenic["intergenicSeq"]
+                homologList[i]["regType"] = intergenic["regType"]
+                
+                print('got intergenic region for '+str(i))
+
+                    #cache results
+                with open(updatedPath, "wb") as f:
+                    pickle.dump(homologList,f)
+                
+            except:
+                print("no data for intergenic region at position "+str(i))
+
+            getOperon_end = time.time()
+
+            print("operon "+str(i)+" took "+str(getOperon_end - getOperon_start)+" seconds")
+            operonProcessingTimes.append(getOperon_end-getOperon_start)
+
+    
+        #remove entries without a set intergenic region
+    new_homologList = [i for i in homologList if "intergenic" in i]
+    with open(updatedPath, "wb") as f:
+        pickle.dump(new_homologList,f)
 
 
-        #create new homolog list without flagged homologs
-    new_homologList = [i for i in homologList if i not in flaggedHomologs]
-    print(new_homologList)
-
-        #save updated homologListFile everytime new intergenic region appended
-    with open(f'{homologListFile}', mode="wb") as f:
-            pickle.dump(new_homologList,f)
-            print("cached homolog file with intergenic regions appended")
-
-    print("data not found for "+str(noDataCount)+" out of "+str(len(homologList)))
+    print("total time spent getting operons: "+str(sum(operonProcessingTimes)))
+    try:
+        print("average processing time: "+str(statistics.mean(operonProcessingTimes)))
+        print("median processing time: "+str(statistics.median(operonProcessingTimes)))
+    except:
+        pass
 
 
+    print("data found for "+str(len(new_homologList))+" entries")
+
+    
 
 
 if __name__ == "__main__":
 
-    print('main')    
+    print('main')
 

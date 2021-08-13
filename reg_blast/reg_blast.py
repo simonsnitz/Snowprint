@@ -9,6 +9,32 @@ import sys
 import pickle
 import platform
 
+import time
+
+
+### ALL INPUT PARAMETERS ###
+
+    #BLAST
+#hitlist_size = 100 (int input: default-100)
+#perc_ident = [70,60] (int input: default-70)
+
+    #ACCESSION
+#acc = "WP_020114152.1" (string input)
+
+    #OPERATOR
+#option_1: provide predicted operator sequence (string input)
+#option_2: look for inverted repeats (check box)
+#option_3: align entire inter-operon region (check box)
+
+    #DISPLAY
+#show metadata (check box: default-yes)
+#show operons (check box: default-yes)
+
+    #EMAIL
+#email address to send to (string input) --> form validation
+
+
+
 
 ####### DEFINE BLAST/FILTER PARAMETERS #########
 hitlist_size = 100
@@ -90,7 +116,8 @@ sco0520 = "WP_003978343.1"
 tcar = "WP_001832914.1"
 sco4122 = "WP_003974850.1"
 
-acc = sco4122
+RslR4 = "WP_020114152.1"
+acc = RslR4
 
 
 ###### OPERATOR INPUT #######
@@ -118,23 +145,52 @@ def operator_or_none(acc,operatorFile):
 
 
 
-#acc2homolog_list(acc, hitlist_size)
-#appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
 
-#operator = operator_or_none(acc,operatorFile)
+'''
+    START OF MAIN FUNCTIONS
+'''
 
-operator = "CACCTTCGAACTTTAGCTTCTAAGTCTT"
+'''
+        GET HOMOLOGS
+'''
+blastStart = time.time()
 
-consensus_data = [ appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", operator, i) 
+acc2homolog_list(acc, hitlist_size)
+
+blastEnd = time.time()
+
+print("blast took "+str(blastEnd - blastStart)+" seconds")
+    
+'''
+        ADD INTEROPERON FOR EACH
+'''
+appendIntergenic(acc)
+
+
+
+'''
+       ADD OPERATOR DATA FOR EACH 
+'''
+operator = operator_or_none(acc,operatorFile)
+#operator = "CACCTTCGAACTTTAGCTTCTAAGTCTT"
+
+consensus_data = [ appendOperatorMetadata(f"cache/homolog_metadata/updated_metadata/{acc}.pkl", operator, i) 
     for i in perc_ident
     ]
 
-with open(f"cache/homolog_metadata/{acc}.pkl", mode='rb') as f:
+with open(f"cache/homolog_metadata/updated_metadata/{acc}.pkl", mode='rb') as f:
     data = pickle.load(f)
     operons = data
 
-create_operon_html(operons,"display/html_pages/"+acc)
+
+
+'''
+        CREATE HTML DISPLAY PAGE
+'''
+#create_operon_html(operons,"display/html_pages/"+acc)
 create_operator_html(consensus_data,"display/html_pages/"+acc+".html")
+
+
 
 
 '''
