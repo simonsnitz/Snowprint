@@ -99,7 +99,7 @@ def findInvertedRepeat(intergenic, size):
                 middle = intergenic[i+size:j].lower()
                 seqR = compare.upper()
                 end = intergenic[j+size:j+size+5].lower()
-                print(beginning+seqF+middle+seqR+end)
+                # print(beginning+seqF+middle+seqR+end)
                 #'''
                 beginning = intergenic[i-5:i].lower()
                 seqF = seq.upper()
@@ -149,14 +149,14 @@ def alignIntergenic(homologList):
 '''
 
 
-def getConsensus(homologList, max_ident=100, min_ident=70):      #DUUUDE! Mad list comprehension!!!
+def getConsensus(homologList, alignment_type, max_ident=100, min_ident=70):      #DUUUDE! Mad list comprehension!!!
     
             #filter by identity and by alignment score Some alignments from ~80% homologs have crap scores
     allOperators = [ i["operator"] for i in homologList
             if "operator" in i.keys() and i["identity"] >= min_ident and i["identity"] <= max_ident and i["score"] != 0]
 
-    #print("allOperators: "+str(allOperators))
-
+    # print("allOperators: "+str(allOperators))
+    num_seqs = len(allOperators)
 	#initialize list of dictionaries
     baep = [{base:1}
             for base in allOperators[0] 
@@ -174,6 +174,23 @@ def getConsensus(homologList, max_ident=100, min_ident=70):      #DUUUDE! Mad li
                     baep[pos].update({base:1})
 
 
+
+    def trim_interoperon(baep):
+            # count the number of times a base was not aligned for each position
+        spaces = [i['-'] if "-" in i else 0 for i in baep]
+
+        min_num_spaces = min(spaces)
+            # find start and stop indices for when aligned spaces is minimal
+        start = spaces.index(min_num_spaces)
+        end = len(spaces) - spaces[::-1].index(min_num_spaces) - 1
+        
+        return baep[start:end]
+
+    if alignment_type == "whole_interoperon":
+        baep = trim_interoperon(baep)
+
+
+    
     max_values = [max(baep[pos].values()) for pos in range(0,len(baep))]
     max_score = max(max_values)
 	#convert base conservation scores as a percent of max
@@ -188,7 +205,7 @@ def getConsensus(homologList, max_ident=100, min_ident=70):      #DUUUDE! Mad li
 
 	#create list of most conserved bases at each position
     consensusSeq = [ get_key(baep[pos], max_values[pos])
-        for pos in range(0, len(allOperators[0]))
+        for pos in range(0, len(baep))
     ]
 
 	#dictionary containing the base and it's score at each position
@@ -211,7 +228,7 @@ def getConsensus(homologList, max_ident=100, min_ident=70):      #DUUUDE! Mad li
 	#end of formatting consensus seq function
     '''
 
-    return [consensus_data, max_score]
+    return [consensus_data, num_seqs]
 
 
 
@@ -228,33 +245,39 @@ def getMostSymmetric(homologList, min_identity=50):
     return mostSymmetric
 
 
-def appendOperatorMetadata(homologListFile, knownOperator, perc_ident):
+def appendOperatorMetadata(homologListFile, to_align, perc_ident):
     
     with open(f'{homologListFile}', mode="rb") as f:
         homologList = pickle.load(f)
         
-        if knownOperator == None:
+        if to_align == "find_inverted_repeat":
             operators = getBestInvertedRepeat(homologList[0]["intergenic"])[0]
-            #print("inverted repeat found: "+ str(operators))
+        elif to_align == "whole_interoperon":
+            operators = [homologList[0]["intergenic"]]
         else:
-            operators = [knownOperator]
+            operators = [to_align]
         
+
+        homologList = [i for i in homologList if i["identity"] > perc_ident]
 
         consensus_data = []
         num_seqs = []
         for operator in operators:
             for i in homologList:
                 i["operator"], i["score"] =  findOperatorInIntergenic(i["intergenic"], operator.upper())
-                print(i["operator"])
+                # print(i["operator"])
             
-            consensus_data.append(getConsensus(homologList, min_ident=perc_ident)[0])
-            num_seqs.append(getConsensus(homologList, min_ident=perc_ident)[1])
+        consensus = getConsensus(homologList, alignment_type=to_align, min_ident=perc_ident)
+        consensus_data.append(consensus[0])
+        num_seqs.append(consensus[1])
         
+        #print(consensus_data)
         lowest_identity = str(homologList[-1]["identity"])
 			
         operator_data = [ {"input_seq": operators[i], "perc_ident":lowest_identity, "num_seqs":num_seqs[i], "motif": consensus_data[i]} 
             for i in range(0,len(operators))
         ]       
+        #print(operator_data)
         
         return operator_data       
  

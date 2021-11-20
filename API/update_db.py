@@ -10,14 +10,17 @@ from database.update_operons import update_operons
 import pickle
 
 
-db_file = "database/data/filtered_TetRs.pkl"
+db_file = "database/data/filtered_TetRs_Nov20_2021.pkl"
+
 cluster_identity = 50
 family = "TetR"
 
-with open(db_file, mode="rb") as f:
-    data = pickle.load(f)
+# with open(db_file, mode="rb") as f:
+#     data = pickle.load(f)
+# 
+# print(len(data[1000]["homologs"]))
 
 
 #update_metadata(Cluster, data, db, cluster_identity, family)
 #update_operons(Cluster, data, db)
-#update_homologs(Cluster, data, db)
+update_homologs(Cluster, data, db)

@@ -9,9 +9,6 @@ import requests
 
 @app.route('/', methods = ['GET'])
 def index():
-    #sensors = Sensor.query.all()
-    #sensorData = {s.id: {"alias":s.alias, "uniprotID":s.uniprotID, "family":s.family, "accession":s.accession} for s in sensors}
-
     return render_template('index.html', title="home page")
 
 @app.route('/cluster/<cluster_id>', methods = ['GET'])

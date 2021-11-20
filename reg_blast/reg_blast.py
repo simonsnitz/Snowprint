@@ -8,7 +8,7 @@ from display.render_operon_graphic import create_operon_html
 import sys
 import pickle
 import platform
-
+import webbrowser
 import time
 
 
@@ -38,7 +38,7 @@ import time
 
 ####### DEFINE BLAST/FILTER PARAMETERS #########
 hitlist_size = 100
-perc_ident = [70,60]
+perc_ident = [70]
 
 
 ########  USER INPUTS  ########
@@ -117,8 +117,8 @@ tcar = "WP_001832914.1"
 sco4122 = "WP_003974850.1"
 
 RslR4 = "WP_020114152.1"
+#acc = "WP_011014162.1"
 acc = RslR4
-
 
 ###### OPERATOR INPUT #######
 #operatorFile = "hpdr3.txt"
@@ -132,18 +132,6 @@ print(acc)
 
 
 ##### FUNCTIONS #####
-def operator_or_none(acc,operatorFile):
-    try:
-        with open(f"knownOperators/{operatorFile}") as f:
-            operator = f.read().replace('\n','')
-            print("Known operator found: "+operator)
-            return operator
-    except:
-        operator = None
-        print("no known operator. Finding inverted repeats")
-        return operator
-
-
 
 
 '''
@@ -171,10 +159,10 @@ appendIntergenic(acc)
 '''
        ADD OPERATOR DATA FOR EACH 
 '''
-operator = operator_or_none(acc,operatorFile)
-#operator = "CACCTTCGAACTTTAGCTTCTAAGTCTT"
+    # options: [ "find_inverted_repeat", "whole_interoperon", or custom string]
+to_align = "find_inverted_repeat"
 
-consensus_data = [ appendOperatorMetadata(f"cache/homolog_metadata/updated_metadata/{acc}.pkl", operator, i) 
+consensus_data = [ appendOperatorMetadata(f"cache/homolog_metadata/updated_metadata/{acc}.pkl", to_align, i) 
     for i in perc_ident
     ]
 
@@ -187,10 +175,10 @@ with open(f"cache/homolog_metadata/updated_metadata/{acc}.pkl", mode='rb') as f:
 '''
         CREATE HTML DISPLAY PAGE
 '''
-#create_operon_html(operons,"display/html_pages/"+acc)
+create_operon_html(operons,"display/html_pages/"+acc)
 create_operator_html(consensus_data,"display/html_pages/"+acc+".html")
 
-
+webbrowser.open('display/html_pages/'+acc+'.html')
 
 
 '''
