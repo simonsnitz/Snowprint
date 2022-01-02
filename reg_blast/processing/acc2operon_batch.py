@@ -23,13 +23,19 @@ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KH
 
 
 
-
-def batch_acc2MetaData(prot_acc_list: list):
-    
+    #epost --> efetch with a list of IDs (is it quicker?? ... turns out, no. Don't use this)
+def epost(prot_acc_list: list):
     PROTacc = "".join(i+"," for i in prot_acc_list)[:-1]
-    #PROTacc = "WP_000113609,WP_014859138,NP_266817.1"
 
-    response = requests.get('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id='+PROTacc+'&rettype=ipg&retmode=xml')
+    startTime = time.time()
+
+    epost = Entrez.epost("protein", id=PROTacc)
+    result = Entrez.read(epost)
+    query_key = result["QueryKey"]
+    web_env = result["WebEnv"]
+
+
+    response = requests.get('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&query_key='+query_key+'&WebEnv='+web_env+'&rettype=ipg&retmode=xml')
     if response.ok:
         data = response.content
 
@@ -52,8 +58,61 @@ def batch_acc2MetaData(prot_acc_list: list):
             strand = metadata['strand']
             data = {'protein_acc':prot,'genome_acc':accver, 'start':start, 'stop':stop, 'strand':strand}
             items.append(data)
+
+
+        print(items)
+        endTime = time.time()
+        print("eposting/efetching operon batch took "+str(endTime-startTime)+" seconds")
+
+    else:
+        print('bad request')
+        print(response.status_code)
+
+
+
+    # just efetch with a list of IDs
+def batch_acc2MetaData(prot_acc_list: list):
+    
+    PROTacc = "".join(i+"," for i in prot_acc_list)[:-1]
+    #PROTacc = "WP_000113609,WP_014859138,NP_266817.1"
+
+    startTime = time.time()
+
+    response = requests.get('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id='+PROTacc+'&rettype=ipg&retmode=xml')
+    if response.ok:
+        data = response.content
+
+        with open('../cache/tmp/metadata.xml', mode='wb') as f:
+            f.write(data)
+            print('metadata cached')
         
-        return items
+        
+        tree = ET.parse('../cache/tmp/metadata.xml')
+        root = tree.getroot()
+
+        items = []
+
+        for i in root:
+            try:
+                prot = i[0].attrib['accver']
+                metadata = i[1][0][0][0].attrib
+                accver = metadata['accver']
+                start = metadata['start']
+                stop = metadata['stop']
+                strand = metadata['strand']
+                data = {'protein_acc':prot,'genome_acc':accver, 'start':start, 'stop':stop, 'strand':strand}
+            except:
+                pos = prot_acc_list[len(items)]
+                print("no data for "+str(pos))
+                data = {'protein_acc':'None','genome_acc':'None', 'start':'None', 'stop':'None', 'strand':'None'}
+
+
+            items.append(data)
+        
+        #return items
+        print(items)
+        endTime = time.time()
+        print("efetching operon batch took "+str(endTime-startTime)+" seconds")
 
     else:
         print('efetch API request failed')
@@ -330,9 +389,20 @@ if __name__ == "__main__":
     
     genome_accs = ['NC_003197.2','NC_018220.1','NC_002662.1']
 
+    with open('../cache/all_the_regulators/metadata/copy_allTetRs.pkl', mode="rb") as f:
+        data = pickle.load(f)
+
+    protACCs = [entry["EMBL"] for entry in data[600:700]]
+
+    #print(protACCs)
+
     #batch_acc2operon(accessions)
 
-    append_operons('../cache/all_the_regulators/metadata/filtered_TetRs.pkl', 100)
+    #append_operons('../cache/all_the_regulators/metadata/filtered_TetRs.pkl', 100)
+
+    #epost(protACCs)
+
+    batch_acc2MetaData(protACCs)
 
 
 

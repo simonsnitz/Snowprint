@@ -1,5 +1,3 @@
-#Used to be called "acc2homologs.py"
-
 from Bio.Blast.NCBIWWW import qblast
 from Bio.Blast.NCBIXML import read
 
