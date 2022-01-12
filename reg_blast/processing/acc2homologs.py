@@ -54,9 +54,27 @@ def homologs2accID_ident(acc):
   
     with open(f'cache/homolog_metadata/{acc}.pkl', 'wb') as f:
         pickle.dump(homologList, f)
-        print('caching homolog acc and percent identity metadata')
+        # print('caching homolog acc and percent identity metadata')
     
     return homologList
+
+
+
+def acc2homolog_list(acc, hitlist_size):
+
+        #check to see if blast result is already cached
+    try:
+        homologs = homologs2accID_ident(acc)
+        print('existing BLAST cache found')
+    except:
+        print('no existing cache found')
+        sequence = accID2sequence(acc)
+        blast_and_cache(sequence, acc, hitlist_size)
+        homologs = homologs2accID_ident(acc)
+    return homologs
+
+
+##########################################################
 
 
 
@@ -92,21 +110,6 @@ def homologs2residueFrequency(acc, identity):
                     counter += 1
 
         print(protein)
-        
-
-
-def acc2homolog_list(acc, hitlist_size):
-
-        #check to see if blast result is already cached
-    try:
-        homologs = homologs2accID_ident(acc)
-    except:
-        print('no existing cache found')
-        sequence = accID2sequence(acc)
-        blast_and_cache(sequence, acc, hitlist_size)
-        homologs = homologs2accID_ident(acc)
-    return homologs
-
 
 if __name__=="__main__":
 

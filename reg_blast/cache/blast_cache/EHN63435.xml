@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_34885</BlastOutput_query-ID>
+  <BlastOutput_query-def>EHN63435.1 TetR family transcriptional regulator [Comamonas testosteroni ATCC 11996]</BlastOutput_query-def>
+  <BlastOutput_query-len>219</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_34885</Iteration_query-ID>
+  <Iteration_query-def>EHN63435.1 TetR family transcriptional regulator [Comamonas testosteroni ATCC 11996]</Iteration_query-def>
+  <Iteration_query-len>219</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_003080639.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Comamonas] &gt;gb|EHN63435.1| TetR family transcriptional regulator [Comamonas testosteroni ATCC 11996] &gt;gb|QQN69362.1| TetR family transcriptional regulator [Comamonas testosteroni] &gt;gb|RDI14892.1| TetR family transcriptional regulator [Comamonas sp. AG1104] &gt;emb|SUY77250.1| HTH-type transcriptional repressor KstR2 [Comamonas testosteroni]</Hit_def>
+  <Hit_accession>WP_003080639</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.047</Hsp_bit-score>
+      <Hsp_score>1146</Hsp_score>
+      <Hsp_evalue>7.13421e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|KWT67660.1|</Hit_id>
+  <Hit_def>Acyclic terpenes utilization regulator AtuR, TetR family [Comamonas testosteroni]</Hit_def>
+  <Hit_accession>KWT67660</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.728</Hsp_bit-score>
+      <Hsp_score>1127</Hsp_score>
+      <Hsp_evalue>7.27907e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MLHLMQTSHEAVIAKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQTAALDGLTARASGVQRLRALVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>MLHLMQ SHEAV+ KKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQ AALDGLTARASGVQRLR+LVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|KOC24053.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas testosteroni]</Hit_def>
+  <Hit_accession>KOC24053</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.573</Hsp_bit-score>
+      <Hsp_score>1124</Hsp_score>
+      <Hsp_evalue>1.61467e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MLHLMQTSHEAVIAKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQTAALDGLTARASGVQRLRALVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>MLHLMQ SHEAV+ KKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQ AALDGLTARASGVQRLR+LVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_046460722.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas sp. Z1] &gt;gb|KKI15264.1| TetR family transcriptional regulator [Comamonas thiooxydans] &gt;gb|TYK77854.1| TetR/AcrR family transcriptional regulator [Comamonas sp. Z1] &gt;dbj|BCX53612.1| TetR family transcriptional regulator [Comamonas testosteroni]</Hit_def>
+  <Hit_accession>WP_046460722</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.491</Hsp_bit-score>
+      <Hsp_score>1116</Hsp_score>
+      <Hsp_evalue>2.42686e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MLRLMQTSHEAVIAKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRALVRNHLQIMVGPESDFIPVMLYEWRLLSEEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>ML LMQ SHEAV+ KKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLR+LVRNHLQIMVGPESDFIPVMLYEWRLLS+EQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_149355861.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas testosteroni]</Hit_def>
+  <Hit_accession>WP_149355861</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>3.72287e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MLSLMQTSHEAVIVKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKESILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRALVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFSEGRGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>ML LMQ SHEAV+ KKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKE+ILHAVMRDGMAQAAASQAAALDGLTARASGVQRLR+LVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWF+EGRGLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>dbj|GAW76763.1|</Hit_id>
+  <Hit_def>acyclic terpenes utilization regulator AtuR [Comamonas testosteroni]</Hit_def>
+  <Hit_accession>GAW76763</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>4.21696e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MLRLMQTSHEAVIVKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKESILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRALVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFSEGRGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>ML LMQ SHEAV+ KKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKE+ILHAVMRDGMAQAAASQAAALDGLTARASGVQRLR+LVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWF+EGRGLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_039048445.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Comamonas] &gt;gb|MBL5975767.1| TetR family transcriptional regulator [Comamonas sp. NyZ500]</Hit_def>
+  <Hit_accession>WP_039048445</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>4.48623e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_qseq>
+      <Hsp_hseq>MLRLMQTSHEAVIAKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRALVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_hseq>
+      <Hsp_midline>ML LMQ SHEAV+ KKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLR+LVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_087084301.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas testosteroni]</Hit_def>
+  <Hit_accession>WP_087084301</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>6.73261e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MLRLMQTSHEAVIVKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKESILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRALVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFSEGRGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>ML LMQ SHEAV+ KKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKE+ILHAVMRDGMAQAAASQAAALDGLTARASGVQRLR+LVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWF+EGRGLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_054073961.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Comamonas] &gt;gb|QOQ84000.1| TetR family transcriptional regulator [Comamonas thiooxydans]</Hit_def>
+  <Hit_accession>WP_054073961</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.18</Hsp_bit-score>
+      <Hsp_score>1110</Hsp_score>
+      <Hsp_evalue>1.80728e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MLRLMQTSHEAVIAKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRALVRNHLQIMVGPESDFIPVMLYEWRLLSEEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFAEGRGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>ML LMQ SHEAV+ KKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLR+LVRNHLQIMVGPESDFIPVMLYEWRLLS+EQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWF EGRGLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_003069765.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Comamonas] &gt;gb|EFI59519.1| transcriptional regulator, TetR family protein [Comamonas thiooxydans] &gt;gb|TFF62718.1| TetR/AcrR family transcriptional regulator [Comamonas sp. A23]</Hit_def>
+  <Hit_accession>WP_003069765</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.18</Hsp_bit-score>
+      <Hsp_score>1110</Hsp_score>
+      <Hsp_evalue>1.90919e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_qseq>
+      <Hsp_hseq>MLRLMQTSHEAVIAKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRALVRNHLQIMVGPESDFIPVMLYEWRLLSEEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_hseq>
+      <Hsp_midline>ML LMQ SHEAV+ KKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLR+LVRNHLQIMVGPESDFIPVMLYEWRLLS+EQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_087864843.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas thiooxydans]</Hit_def>
+  <Hit_accession>WP_087864843</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.869</Hsp_bit-score>
+      <Hsp_score>1104</Hsp_score>
+      <Hsp_evalue>1.60408e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MLRLMQTSHEAVIVKKRGRGRPPKSVDERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRALVRNHLQIMVGPESDFIPVMLYEWRLLSEEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFAEGRGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>ML LMQ SHEAV+ KKRGRGRPPKS DERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLR+LVRNHLQIMVGPESDFIPVMLYEWRLLS+EQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWF EGRGLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_223305635.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Comamonas thiooxydans]</Hit_def>
+  <Hit_accession>WP_223305635</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>2.86401e-151</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MQTSHEAVIAKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRALVRNHLQIMVGPESDFIPVMLYEWRLLSEEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>MQ SHEAV+ KKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLR+LVRNHLQIMVGPESDFIPVMLYEWRLLS+EQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_012837850.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas thiooxydans] &gt;gb|ACY32462.1| transcriptional regulator, TetR family [Comamonas thiooxydans]</Hit_def>
+  <Hit_accession>WP_012837850</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>428.713</Hsp_bit-score>
+      <Hsp_score>1101</Hsp_score>
+      <Hsp_evalue>3.77464e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_qseq>
+      <Hsp_hseq>MLRLMQTSHEAVIVKKRGRGRPPKSVDERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRALVRNHLQIMVGPESDFIPVMLYEWRLLSEEQRVDVGAQKDEYEAQWMPALQTLHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_hseq>
+      <Hsp_midline>ML LMQ SHEAV+ KKRGRGRPPKS DERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLR+LVRNHLQIMVGPESDFIPVMLYEWRLLS+EQRVDVGAQKDEYEAQWMPALQ LHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|NYJ57485.1|</Hit_id>
+  <Hit_def>AcrR family transcriptional regulator [Comamonas sp. B9U6D]</Hit_def>
+  <Hit_accession>NYJ57485</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.787</Hsp_bit-score>
+      <Hsp_score>1096</Hsp_score>
+      <Hsp_evalue>2.25307e-150</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_qseq>
+      <Hsp_hseq>MQTSHEAVIAKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRALVRNHLQIMVGPESDFIPVMLYEWRLLSEEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_hseq>
+      <Hsp_midline>MQ SHEAV+ KKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLR+LVRNHLQIMVGPESDFIPVMLYEWRLLS+EQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_229228533.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Comamonas thiooxydans]</Hit_def>
+  <Hit_accession>WP_229228533</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.246</Hsp_bit-score>
+      <Hsp_score>1092</Hsp_score>
+      <Hsp_evalue>8.68651e-150</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MQTSHEAVIVKKRGRGRPPKSVDERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRALVRNHLQIMVGPESDFIPVMLYEWRLLSEEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFAEGRGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>MQ SHEAV+ KKRGRGRPPKS DERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLR+LVRNHLQIMVGPESDFIPVMLYEWRLLS+EQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWF EGRGLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_034407722.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas thiooxydans] &gt;gb|KGG85188.1| TetR family transcriptional regulator [Comamonas thiooxydans]</Hit_def>
+  <Hit_accession>WP_034407722</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.15542e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MLRLMQTSHEAVIVKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQSGSIFYFFESKEAILHAVMQDGMTQAAVSQNAALQALGARANGVERLSALVRNHLQIMVGGESDFIPVMLYEWRLLSEEQRVDVGAQKDEYEAQWMPALQALHRTGKLKARPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>ML LMQ SHEAV+ KKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQ GS+FYFFESKEAILHAVM+DGM QAA SQ AAL  L ARA+GV+RL +LVRNHLQIMVG ESDFIPVMLYEWRLLS+EQRVDVGAQKDEYEAQWMPALQALH TGKLKA PEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_045839104.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas thiooxydans] &gt;emb|CUB01204.1| transcriptional regulator, TetR family [Comamonas thiooxydans]</Hit_def>
+  <Hit_accession>WP_045839104</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>394.045</Hsp_bit-score>
+      <Hsp_score>1011</Hsp_score>
+      <Hsp_evalue>2.18715e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MLRLMQTSHEAVIVKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQSGSIFYFFESKEAILHAVMQDGMTQAAVSQDAALQALGARANGVERLSALVRNHLQIMVGGESDFIPVMLYEWRLLSDAQRMEVSAQKDAYEAQWMPALQALHRTGKLKARPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>ML LMQ SHEAV+ KKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQ GS+FYFFESKEAILHAVM+DGM QAA SQ AAL  L ARA+GV+RL +LVRNHLQIMVG ESDFIPVMLYEWRLLSD QR++V AQKD YEAQWMPALQALH TGKLKA PEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_034351691.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas thiooxydans] &gt;gb|KGG82691.1| TetR family transcriptional regulator [Comamonas thiooxydans] &gt;gb|KGG92834.1| TetR family transcriptional regulator [Comamonas thiooxydans] &gt;gb|KGH03285.1| TetR family transcriptional regulator [Comamonas thiooxydans] &gt;gb|KGH08393.1| TetR family transcriptional regulator [Comamonas thiooxydans] &gt;gb|TZG07432.1| TetR/AcrR family transcriptional regulator [Comamonas thiooxydans]</Hit_def>
+  <Hit_accession>WP_034351691</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.275</Hsp_bit-score>
+      <Hsp_score>1009</Hsp_score>
+      <Hsp_evalue>4.31705e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MLRLMQTSHEAVIVKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQSGSIFYFFESKEAILHAVMQDGMTQAAVSQNAALQALGARANGVERLSALVRNHLQIMVGGESDFIPVMLYEWRLLSDAQRMEVSAQKDAYEAQWMPVLQALHRTGKLKARPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>ML LMQ SHEAV+ KKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQ GS+FYFFESKEAILHAVM+DGM QAA SQ AAL  L ARA+GV+RL +LVRNHLQIMVG ESDFIPVMLYEWRLLSD QR++V AQKD YEAQWMP LQALH TGKLKA PEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_034394142.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Comamonas] &gt;gb|KGH08147.1| TetR family transcriptional regulator [Comamonas thiooxydans] &gt;gb|KGH17033.1| TetR family transcriptional regulator [Comamonas thiooxydans] &gt;gb|KGH20156.1| TetR family transcriptional regulator [Comamonas thiooxydans]</Hit_def>
+  <Hit_accession>WP_034394142</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.734</Hsp_bit-score>
+      <Hsp_score>1005</Hsp_score>
+      <Hsp_evalue>1.87683e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MLRLMQTSHEAVIVKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQSGSIFYFFESKETILHAVMQDGMTQAAVSQNAALQALGARANGVERLSALVRNHLQIMVGGESDFIPVMLYEWRLLSDAQRMEVSAQKDAYEAQWMPVLQALHRTGKLKARPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>ML LMQ SHEAV+ KKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQ GS+FYFFESKE ILHAVM+DGM QAA SQ AAL  L ARA+GV+RL +LVRNHLQIMVG ESDFIPVMLYEWRLLSD QR++V AQKD YEAQWMP LQALH TGKLKA PEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_034383724.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas thiooxydans] &gt;gb|KGG82969.1| TetR family transcriptional regulator [Comamonas thiooxydans] &gt;gb|OAD86049.1| TetR family transcriptional regulator [Comamonas thiooxydans]</Hit_def>
+  <Hit_accession>WP_034383724</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.349</Hsp_bit-score>
+      <Hsp_score>1004</Hsp_score>
+      <Hsp_evalue>2.46887e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MLRLMQTSHEAVIVKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQSGSIFYFFESKEAILHAVMQDGMTQAAVSQNAALQALGARANGVERLSALVRNHLQIMVGGESDFIPVMLYEWRLLSDAQRMEVSAQKDAYEAQWMPALQALHRTGKLKARPEIARLLIFGALNWTAQWFTEGGGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>ML LMQ SHEAV+ KKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQ GS+FYFFESKEAILHAVM+DGM QAA SQ AAL  L ARA+GV+RL +LVRNHLQIMVG ESDFIPVMLYEWRLLSD QR++V AQKD YEAQWMPALQALH TGKLKA PEIARLLIFGALNWTAQWFTEG GLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_224650496.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Comamonas thiooxydans] &gt;gb|UBQ43615.1| TetR/AcrR family transcriptional regulator [Comamonas thiooxydans]</Hit_def>
+  <Hit_accession>WP_224650496</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.341</Hsp_bit-score>
+      <Hsp_score>991</Hsp_score>
+      <Hsp_evalue>2.69722e-134</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MQTSHEAVIVKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQSGSIFYFFESKEAILHAVMQDGMTQAAVSQNAALQALGARANGVERLSALVRNHLQIMVGGESDFIPVMLYEWRLLSDAQRMEVSAQKDAYEAQWMPALQALHRTGKLKARPEIARLLIFGALNWTAQWFTEGGGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>MQ SHEAV+ KKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQ GS+FYFFESKEAILHAVM+DGM QAA SQ AAL  L ARA+GV+RL +LVRNHLQIMVG ESDFIPVMLYEWRLLSD QR++V AQKD YEAQWMPALQALH TGKLKA PEIARLLIFGALNWTAQWFTEG GLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_230847628.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Comamonas testosteroni]</Hit_def>
+  <Hit_accession>WP_230847628</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.096</Hsp_bit-score>
+      <Hsp_score>967</Hsp_score>
+      <Hsp_evalue>3.51881e-131</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQTAALDGLTARASGVQRLRALVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>MRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQ AALDGLTARASGVQRLR+LVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>dbj|GEQ75847.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas testosteroni]</Hit_def>
+  <Hit_accession>GEQ75847</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>375.941</Hsp_bit-score>
+      <Hsp_score>964</Hsp_score>
+      <Hsp_evalue>1.01975e-130</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKESILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRALVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFSEGRGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>MRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKE+ILHAVMRDGMAQAAASQAAALDGLTARASGVQRLR+LVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWF+EGRGLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>dbj|BDB69434.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas thiooxydans]</Hit_def>
+  <Hit_accession>BDB69434</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.785</Hsp_bit-score>
+      <Hsp_score>961</Hsp_score>
+      <Hsp_evalue>3.72068e-130</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRALVRNHLQIMVGPESDFIPVMLYEWRLLSEEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFAEGRGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>MRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLR+LVRNHLQIMVGPESDFIPVMLYEWRLLS+EQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWF EGRGLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_211455846.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas sp. PE63] &gt;gb|MBS3017818.1| HTH-type transcriptional repressor KstR2 [Comamonas sp. PE63]</Hit_def>
+  <Hit_accession>WP_211455846</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>359.377</Hsp_bit-score>
+      <Hsp_score>921</Hsp_score>
+      <Hsp_evalue>1.22407e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_qseq>
+      <Hsp_hseq>MLHLMQAVHEEIPTVKRGRGRPPKSTEERNESTRRSELVRVAARQFRLRGFHGSSTRDIAAAAGMQPGSIFYFFESKEAMLHAVMQDGMAQAAESQNAALQALGARANGVERLRALVRNHLQVMVGGESDFIPVMLYEWRLLSDAQRMDVSAQKDAYEAQWMPVLQALHRTGKLKARPEIARLLIFGALNWTAQWYSEGGSLSLDALTDQSLALFIGE</Hsp_hseq>
+      <Hsp_midline>MLHLMQ  HE +   KRGRGRPPKS +ERNES RR ELV+VAA+ FR RGFHG+STRDIAAAAGMQPGS+FYFFESKEA+LHAVM+DGMAQAA SQ AAL  L ARA+GV+RLR+LVRNHLQ+MVG ESDFIPVMLYEWRLLSD QR+DV AQKD YEAQWMP LQALH TGKLKA PEIARLLIFGALNWTAQW++EG  L+LD LT+Q+LALFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_003056466.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Comamonas] &gt;gb|AIJ46287.1| TetR family transcriptional regulator [Comamonas testosteroni TK102] &gt;gb|EED68202.1| transcriptional regulator, TetR family [Comamonas testosteroni KF-1] &gt;gb|MPS90890.1| TetR/AcrR family transcriptional regulator [Comamonas sp.] &gt;gb|TYK73653.1| TetR/AcrR family transcriptional regulator [Comamonas sp. Z3]</Hit_def>
+  <Hit_accession>WP_003056466</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.992</Hsp_bit-score>
+      <Hsp_score>920</Hsp_score>
+      <Hsp_evalue>1.70072e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_qseq>
+      <Hsp_hseq>MLHLMQAVHEEIPIVKRGRGRPPKSTEERNESTRRSELVRVAARQFRLRGFHGSSTRDIAAAAGMQPGSIFYFFESKEAMLHAVMQDGMAQAAESQNAALQALGARANGVERLRALVRNHLQIMVGSESDFIPVMLYEWRLLSDAQRMEVSAQKDAYEAQWMPVLQALHRTGKLKARPEIARLLIFGALNWTAQWFSEGGSLSLDALTDQSLALFIGE</Hsp_hseq>
+      <Hsp_midline>MLHLMQ  HE +   KRGRGRPPKS +ERNES RR ELV+VAA+ FR RGFHG+STRDIAAAAGMQPGS+FYFFESKEA+LHAVM+DGMAQAA SQ AAL  L ARA+GV+RLR+LVRNHLQIMVG ESDFIPVMLYEWRLLSD QR++V AQKD YEAQWMP LQALH TGKLKA PEIARLLIFGALNWTAQWF+EG  L+LD LT+Q+LALFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_034369279.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas testosteroni] &gt;gb|KGH29387.1| TetR family transcriptional regulator [Comamonas testosteroni] &gt;gb|MPT11094.1| TetR/AcrR family transcriptional regulator [Comamonas sp.]</Hit_def>
+  <Hit_accession>WP_034369279</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>357.836</Hsp_bit-score>
+      <Hsp_score>917</Hsp_score>
+      <Hsp_evalue>5.67963e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_qseq>
+      <Hsp_hseq>MLHLMQAVHEEIPTVKRGRGRPPKSTEERNESVRRSELVRVAARQFRLRGFHGSSTRDIAAAAGMQPGSIFYFFESKEAMLHAVMRDGMAQAADSQNAALQALGARANGVERLRALVRNHLQIMVGGESDFIPVMLYEWRLLSDAQRMDVSAQKDAYEAQWMPVLQALQRTGKLKARPEIARLLIFGALNWTAQWFSEDGSLSLDALTDQSLALFIGE</Hsp_hseq>
+      <Hsp_midline>MLHLMQ  HE +   KRGRGRPPKS +ERNES+RR ELV+VAA+ FR RGFHG+STRDIAAAAGMQPGS+FYFFESKEA+LHAVMRDGMAQAA SQ AAL  L ARA+GV+RLR+LVRNHLQIMVG ESDFIPVMLYEWRLLSD QR+DV AQKD YEAQWMP LQAL  TGKLKA PEIARLLIFGALNWTAQWF+E   L+LD LT+Q+LALFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_182286580.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas testosteroni]</Hit_def>
+  <Hit_accession>WP_182286580</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>356.681</Hsp_bit-score>
+      <Hsp_score>914</Hsp_score>
+      <Hsp_evalue>1.19687e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_qseq>
+      <Hsp_hseq>MLHLMQAVHEEIPTVKRGRGRPPKSTEERNESARRSELVRVAARQFRLRGFHGSSTRDIAAAAGMQPGSIFYFFESKEAMLHAVMRDGMAQAADSQNAALQALGARANGVERLRALVRNHLQIMVGGESDFIPVMLYEWRLLSDAQRMDVSAQKDAYEAQWMPVLQALQRTGKLKARPEIARLLIFGALNWTAQWFSEDGSLSLDALTDQSLALFIGE</Hsp_hseq>
+      <Hsp_midline>MLHLMQ  HE +   KRGRGRPPKS +ERNES RR ELV+VAA+ FR RGFHG+STRDIAAAAGMQPGS+FYFFESKEA+LHAVMRDGMAQAA SQ AAL  L ARA+GV+RLR+LVRNHLQIMVG ESDFIPVMLYEWRLLSD QR+DV AQKD YEAQWMP LQAL  TGKLKA PEIARLLIFGALNWTAQWF+E   L+LD LT+Q+LALFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_218243321.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas sp. CJ34]</Hit_def>
+  <Hit_accession>WP_218243321</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.14</Hsp_bit-score>
+      <Hsp_score>910</Hsp_score>
+      <Hsp_evalue>5.31486e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MLALMQAGTEVEIEKKRGRGRPPKSADERNESARRGELVCVAAKQFRLRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAMLHAVMRDGMAQAAASQSAALAALSQRASGVQRLRALVRNHLQIMVGPDSDFIPVMLYEWRLLSEAQRLDVSAQKDEYEAQWMPALEALHHTGKLKARPEIARLLIFGALNWTAQWFSDSGSLTLDELCDQSLALFIGER</Hsp_hseq>
+      <Hsp_midline>ML LMQ   E  +EKKRGRGRPPKSADERNES RRGELV VAA+ FR RGFHGTSTRDIAAAAGMQPGSLFYFFESKEA+LHAVMRDGMAQAAASQ+AAL  L+ RASGVQRLR+LVRNHLQIMVGP+SDFIPVMLYEWRLLS+ QR+DV AQKDEYEAQWMPAL+ALHHTGKLKA PEIARLLIFGALNWTAQWF++   LTLDEL +Q+LALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_158384068.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas testosteroni] &gt;gb|RGE45371.1| TetR/AcrR family transcriptional regulator [Comamonas testosteroni]</Hit_def>
+  <Hit_accession>WP_158384068</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.977</Hsp_bit-score>
+      <Hsp_score>894</Hsp_score>
+      <Hsp_evalue>1.33485e-119</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MQAGQEAIAEIKRGRGRPPKSAGQRNESARRGELVRVAAKQFRLRGFHGCSTRDIAAAAGMQPGSLFYFFESKEAMLHAVMRDGMAQAAASQSAALAALNARSSAVQRLRALVRNHLQIMVGPESDFIPVMLYEWRLLSDAQRADVGAQKDEYEAQWMPVLQALYHTGKLKAKPEIARLLIFGALNWTAQWFSDSGSLSLDDLTEQSLALFIGER</Hsp_hseq>
+      <Hsp_midline>MQ   EA+ E KRGRGRPPKSA +RNES RRGELV+VAA+ FR RGFHG STRDIAAAAGMQPGSLFYFFESKEA+LHAVMRDGMAQAAASQ+AAL  L AR+S VQRLR+LVRNHLQIMVGPESDFIPVMLYEWRLLSD QR DVGAQKDEYEAQWMP LQAL+HTGKLKA PEIARLLIFGALNWTAQWF++   L+LD+LTEQ+LALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_230630007.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Comamonas testosteroni]</Hit_def>
+  <Hit_accession>WP_230630007</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.591</Hsp_bit-score>
+      <Hsp_score>893</Hsp_score>
+      <Hsp_evalue>1.95905e-119</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_qseq>
+      <Hsp_hseq>MQAVHEEIPTVKRGRGRPPKSTEERNESTRRSELVRVAARQFRLRGFHGSSTRDIAAAAGMQPGSIFYFFESKEAMLHAVMQDGMAQAAESQNAALQALGARANGVERLRALVRNHLQVMVGGESDFIPVMLYEWRLLSDAQRMEVSAQKDAYEAQWMPVLQALHRTGKLKARPEIARLLIFGALNWTVQWFSEGGSLSLDALTDQSLALFIGE</Hsp_hseq>
+      <Hsp_midline>MQ  HE +   KRGRGRPPKS +ERNES RR ELV+VAA+ FR RGFHG+STRDIAAAAGMQPGS+FYFFESKEA+LHAVM+DGMAQAA SQ AAL  L ARA+GV+RLR+LVRNHLQ+MVG ESDFIPVMLYEWRLLSD QR++V AQKD YEAQWMP LQALH TGKLKA PEIARLLIFGALNWT QWF+EG  L+LD LT+Q+LALFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|MBV8247119.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas sp.]</Hit_def>
+  <Hit_accession>MBV8247119</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.969</Hsp_bit-score>
+      <Hsp_score>881</Hsp_score>
+      <Hsp_evalue>1.48403e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MLYFMQAGHEEITVVKRGRGRPPKSAQQRNEGGRRSELIRVAARQFRLRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAMLHAVMCDGMSQAAASQSAALGALSPRANGVERLRALVRNHLQIMVGPESDFIPVMLYEWRLLSDGQRQDVSAQKDEYEAQWMPALQALYRTGRLKARPEIARLLIFGALNWTAQWFSERGSLSLDELTEQSLALFIGER</Hsp_hseq>
+      <Hsp_midline>ML+ MQ  HE +   KRGRGRPPKSA +RNE  RR EL++VAA+ FR RGFHGTSTRDIAAAAGMQPGSLFYFFESKEA+LHAVM DGM+QAAASQ+AAL  L+ RA+GV+RLR+LVRNHLQIMVGPESDFIPVMLYEWRLLSD QR DV AQKDEYEAQWMPALQAL+ TG+LKA PEIARLLIFGALNWTAQWF+E   L+LDELTEQ+LALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|MPS95966.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Comamonas sp.]</Hit_def>
+  <Hit_accession>MPS95966</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>2.15165e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MLHLMQAVHGEIPTVKRGRGRPPKSTEERHESARRSELVRVAARQFRLRGFHGSSTREIAAAAGMQPGSIFYFFESKEAMLHAVMQDGMTQAAESQNAALQALGARASSVERLRALVRNHLQIMVGGESDFIPVMLYEWRLLSDVQRRQVSAQKDAYEAQWMPVLQALYRTGRLKARPEIARLLIFGALNWTAQWFSEDGRLSLDALTDQSLALFIGER</Hsp_hseq>
+      <Hsp_midline>MLHLMQ  H  +   KRGRGRPPKS +ER+ES RR ELV+VAA+ FR RGFHG+STR+IAAAAGMQPGS+FYFFESKEA+LHAVM+DGM QAA SQ AAL  L ARAS V+RLR+LVRNHLQIMVG ESDFIPVMLYEWRLLSD QR  V AQKD YEAQWMP LQAL+ TG+LKA PEIARLLIFGALNWTAQWF+E   L+LD LT+Q+LALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_167010421.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas sp. Tr-654] &gt;gb|NIF86020.1| TetR/AcrR family transcriptional regulator [Comamonas sp. Tr-654]</Hit_def>
+  <Hit_accession>WP_167010421</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.421</Hsp_bit-score>
+      <Hsp_score>864</Hsp_score>
+      <Hsp_evalue>6.28961e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_qseq>
+      <Hsp_hseq>MLHPMQAVHEEFPTVKRGRGRPPKSTEERNESTRRSELVRVAARQFRLRGFHGSSTRDIAAAAGMQPGSIFYFFESKEAILHAVMQDGMAQAAQSQNAALQALGARANGVERLRALVRNHLQVMVGGESDFIPVMLYEWRLLSDAQRMEVSAQKDAYEAQWMPVLQALHRTGKLKARPEIARLLIFGALNWTAQWFSEGGSLSLDALTDQSLALFIGE</Hsp_hseq>
+      <Hsp_midline>MLH MQ  HE     KRGRGRPPKS +ERNES RR ELV+VAA+ FR RGFHG+STRDIAAAAGMQPGS+FYFFESKEAILHAVM+DGMAQAA SQ AAL  L ARA+GV+RLR+LVRNHLQ+MVG ESDFIPVMLYEWRLLSD QR++V AQKD YEAQWMP LQALH TGKLKA PEIARLLIFGALNWTAQWF+EG  L+LD LT+Q+LALFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>dbj|GAO70698.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas sp. E6]</Hit_def>
+  <Hit_accession>GAO70698</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>334.724</Hsp_bit-score>
+      <Hsp_score>857</Hsp_score>
+      <Hsp_evalue>2.46531e-114</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQSGSIFYFFESKETILHAVMQDGMTQAAVSQNAALQALGARANGVERLSALVRNHLQIMVGGESDFIPVMLYEWRLLSDAQRMEVSAQKDAYEAQWMPVLQALHRTGKLKARPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_hseq>
+      <Hsp_midline>MRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQ GS+FYFFESKE ILHAVM+DGM QAA SQ AAL  L ARA+GV+RL +LVRNHLQIMVG ESDFIPVMLYEWRLLSD QR++V AQKD YEAQWMP LQALH TGKLKA PEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_099736503.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas sp. 26] &gt;gb|PIG08482.1| TetR family transcriptional regulator [Comamonas sp. 26]</Hit_def>
+  <Hit_accession>WP_099736503</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.679</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>4.50203e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MLPFMQENVDEVSVPKRKRGRPAKSVDERNESARRMELVCVAAKQFRQRGFHGTSTRDIAAAAGIQAGSLFYFFESKEAMLHAVMRDGMAQAVVAQAAALEALGSRASGVTRLEALIRNHLQIMVGPESDFIPVMLYEWRLLSHEQRLDVAEQKDAYEAQWMPVLQALYRTGKLKARPEIARLLIFGALNWTAQWYSDSGSLSLDELTDQSLALFIGER</Hsp_hseq>
+      <Hsp_midline>ML  MQ + + V   KR RGRP KS DERNES RR ELV VAA+ FRQRGFHGTSTRDIAAAAG+Q GSLFYFFESKEA+LHAVMRDGMAQA  +QAAAL+ L +RASGV RL +L+RNHLQIMVGPESDFIPVMLYEWRLLS EQR+DV  QKD YEAQWMP LQAL+ TGKLKA PEIARLLIFGALNWTAQW+++   L+LDELT+Q+LALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_198461478.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas suwonensis] &gt;gb|MBI1626156.1| TetR family transcriptional regulator [Comamonas suwonensis]</Hit_def>
+  <Hit_accession>WP_198461478</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.138</Hsp_bit-score>
+      <Hsp_score>775</Hsp_score>
+      <Hsp_evalue>1.93157e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MLHLMQISHEAVMEKKRGRGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>MLPFMQENVDEVSVPKRKRGRPAKSVDQRNESARRMALVCVAAKQFRQRGFHGTSTRDIAAAAGIQAGSLFYFFESKEAILHAVMRDGMAQAAVAQAAALEALGSRASGVTRLEALIRNHLQIMVGPESDFIPVMLYEWRLLSPEQRLDVAEQKDAYEAQWMPVLQALYRTGKLKARPEIARLLIFGALNWTAQWYSDSGSLSLDELTDQSLALFIGER</Hsp_hseq>
+      <Hsp_midline>ML  MQ + + V   KR RGRP KS D+RNES RR  LV VAA+ FRQRGFHGTSTRDIAAAAG+Q GSLFYFFESKEAILHAVMRDGMAQAA +QAAAL+ L +RASGV RL +L+RNHLQIMVGPESDFIPVMLYEWRLLS EQR+DV  QKD YEAQWMP LQAL+ TGKLKA PEIARLLIFGALNWTAQW+++   L+LDELT+Q+LALFIGER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_120967676.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Comamonas sp. lk]</Hit_def>
+  <Hit_accession>WP_120967676</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.73</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>1.96515e-95</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>KSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>KSAQERNEGNRRNELILAAGRQFRLKGFHGTSTRDIAAAAGMQSSAMFYFFESKEAMLHEVMRSGMDQAMQSQSAALAALGSRANALERLRALVRNHLQVLVGPDSDFIPVMLYEWRVLTVAQRLDVSAQKDLYEGQWMPALNALHRTGRLKAQPEIARLLIFGALNWTAQWYSPQGSLSLDALTTEALALFMGER</Hsp_hseq>
+      <Hsp_midline>KSA ERNE  RR EL+  A + FR +GFHGTSTRDIAAAAGMQ  ++FYFFESKEA+LH VMR GM QA  SQ+AAL  L +RA+ ++RLR+LVRNHLQ++VGP+SDFIPVMLYEWR+L+  QR+DV AQKD YE QWMPAL ALH TG+LKA PEIARLLIFGALNWTAQW++    L+LD LT +ALALF+GER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|MCA0326405.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCA0326405</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>1.3728e-87</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>RGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_qseq>
+      <Hsp_hseq>RGRPPKTAAERDEGNRRQALITAAARLFRTKGFDGTSTRDIAAAADMQSGSPFYFFQSKQALLHAVMQEGMARAEAHQAQALATLPARAAPEDRLRTLVRQHFEVLLGPGSDFIPVMLYEWRSLDDAQRASISAQTAAYEGEWMPALRALHRAGRLKARPAVARLFIFGALNWAVQWYSPGGKLSLDELTAQALALFIGE</Hsp_hseq>
+      <Hsp_midline>RGRPPK+A ER+E  RR  L+  AA+LFR +GF GTSTRDIAAAA MQ GS FYFF+SK+A+LHAVM++GMA+A A QA AL  L ARA+   RLR+LVR H ++++GP SDFIPVMLYEWR L D QR  + AQ   YE +WMPAL+ALH  G+LKA P +ARL IFGALNW  QW++ G  L+LDELT QALALFIGE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|MBK6614526.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Ottowia sp.] &gt;gb|MBK6747231.1| TetR family transcriptional regulator [Ottowia sp.]</Hit_def>
+  <Hit_accession>MBK6614526</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.618</Hsp_bit-score>
+      <Hsp_score>675</Hsp_score>
+      <Hsp_evalue>3.18216e-86</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>RGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_qseq>
+      <Hsp_hseq>RGRPRKSAEERDESLRRAELVRAAARLFRAKGFDATSTRDIAGAAGMHSGSPFYYFDSKSALLYAVMCDGMAQAGRSQAQALRALGPRAGARARLGALIRHHFEVLLGPDSDFIPVMLYEWRSLTPAQREGIAAQKDAYEAAWMPALKALHRAGALRAQPAVARLFIFGALNWTAQWYSERGPLTLDDLARQALGLFTGE</Hsp_hseq>
+      <Hsp_midline>RGRP KSA+ER+ES+RR ELV+ AA+LFR +GF  TSTRDIA AAGM  GS FY+F+SK A+L+AVM DGMAQA  SQA AL  L  RA    RL +L+R+H ++++GP+SDFIPVMLYEWR L+  QR  + AQKD YEA WMPAL+ALH  G L+A P +ARL IFGALNWTAQW++E   LTLD+L  QAL LF GE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|MBS0403493.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Proteobacteria bacterium] &gt;gb|MBS0413624.1| TetR family transcriptional regulator [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBS0403493</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.381</Hsp_bit-score>
+      <Hsp_score>664</Hsp_score>
+      <Hsp_evalue>1.24339e-84</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>KSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_qseq>
+      <Hsp_hseq>KSEQERDESLRRAELVRAAAQLFRARGFDATPTRDIAAAAGMQSGSPFYYFESKSALLLAVMCDGMAQAKARQDAALQALPARAPARERLRALIRQHFEVLLGADSDFIPVMLYEWRSLTAEQRQQVAAQKDIYEAAWMPSLNALHRAGHLQARPAVARLFIFGALNWTVQWFDPAGPRTLDDLTEQALCLFVGK</Hsp_hseq>
+      <Hsp_midline>KS  ER+ES+RR ELV+ AAQLFR RGF  T TRDIAAAAGMQ GS FY+FESK A+L AVM DGMAQA A Q AAL  L ARA   +RLR+L+R H ++++G +SDFIPVMLYEWR L+ EQR  V AQKD YEA WMP+L ALH  G L+A P +ARL IFGALNWT QWF      TLD+LTEQAL LF+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|MBP7453243.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Ottowia sp.]</Hit_def>
+  <Hit_accession>MBP7453243</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>7.47255e-84</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>RGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_qseq>
+      <Hsp_hseq>RGRPPKTVAERDEGNRRQLLIAAAARLFRTKGFDGTSTRDIAAAADMQSGSPFYFFQSKQALLHAVMQEGMARVTVTQAATLKALGARANAHDKLRALIRHHFEVILGPDSDFIPVMLYEWRSLSPAQRAEITTQKDDYEAVWAPVLRALHRSGQIKAKPDAARLLIFGALHWAVQWYSAKGPLTLDDITAQAMALFTGE</Hsp_hseq>
+      <Hsp_midline>RGRPPK+  ER+E  RR  L+  AA+LFR +GF GTSTRDIAAAA MQ GS FYFF+SK+A+LHAVM++GMA+   +QAA L  L ARA+   +LR+L+R+H ++++GP+SDFIPVMLYEWR LS  QR ++  QKD+YEA W P L+ALH +G++KA P+ ARLLIFGAL+W  QW++    LTLD++T QA+ALF GE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|MBS0405779.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBS0405779</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.373</Hsp_bit-score>
+      <Hsp_score>651</Hsp_score>
+      <Hsp_evalue>1.64094e-82</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>RGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_qseq>
+      <Hsp_hseq>RGRPRKSAEERDESRRRADLVRAAARLFRKQGFDGTSTRDIATAADMQSGSPFYYFDSKSAILAAVMQSGMADATARQAKALQALDDDASPREQLRALIRQHLQVCLGKGSDFIPVMLYEWHTLSPAQRGAIASQKDAYEAAWMPVLHGLHQAGSLRADPQVARLFVFGALNWTVQWFRPGGPLTLDGLTEQAMQLFVGE</Hsp_hseq>
+      <Hsp_midline>RGRP KSA+ER+ES RR +LV+ AA+LFR++GF GTSTRDIA AA MQ GS FY+F+SK AIL AVM+ GMA A A QA AL  L   AS  ++LR+L+R HLQ+ +G  SDFIPVMLYEW  LS  QR  + +QKD YEA WMP L  LH  G L+A P++ARL +FGALNWT QWF  G  LTLD LTEQA+ LF+GE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|TXI16281.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Ottowia sp.]</Hit_def>
+  <Hit_accession>TXI16281</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.603</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>2.39204e-82</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>RGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>RGRPRKSAQERDESQRRAELLRAAARLFRHQGFDATSTRDIAAAAGMQSGSPFYYFESKSALLYAVMHDGMAMVTQAQAQALQALGPRPTARERLRALIRHHFEVLVGPASDFIPVMLYEWRALTPEQRARIGALKDRYEAAWMPVLGSLRRSGSLRARPEVARLFIFGALNWTVQWFDPRGPLSLDELTEQALRLFLGDR</Hsp_hseq>
+      <Hsp_midline>RGRP KSA ER+ES RR EL++ AA+LFR +GF  TSTRDIAAAAGMQ GS FY+FESK A+L+AVM DGMA    +QA AL  L  R +  +RLR+L+R+H +++VGP SDFIPVMLYEWR L+ EQR  +GA KD YEA WMP L +L  +G L+A PE+ARL IFGALNWT QWF     L+LDELTEQAL LF+G+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|MBS0300963.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBS0300963</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>1.59675e-81</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>RGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIG</Hsp_qseq>
+      <Hsp_hseq>RGRPRKSAEERDENQRRADLVREAARLFRQQGFDGTSTRDIAAAAGMQSGSPFYYFESKSALLAAVMQGGMADAATRQAQALQALDDNAPPREQLRALIRQHLQVCLGKGSDFIPVMLYEWRVLTPAQRGAIARQKDAYEATWMPVLEALHQAGQLQADPQVARLFIFGALNWTVQWFKPKGALSLDDLATQAMQLFVG</Hsp_hseq>
+      <Hsp_midline>RGRP KSA+ER+E+ RR +LV+ AA+LFRQ+GF GTSTRDIAAAAGMQ GS FY+FESK A+L AVM+ GMA AA  QA AL  L   A   ++LR+L+R HLQ+ +G  SDFIPVMLYEWR+L+  QR  +  QKD YEA WMP L+ALH  G+L+A P++ARL IFGALNWT QWF     L+LD+L  QA+ LF+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|MCC6814640.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Rubrivivax sp.]</Hit_def>
+  <Hit_accession>MCC6814640</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.521</Hsp_bit-score>
+      <Hsp_score>641</Hsp_score>
+      <Hsp_evalue>4.83534e-81</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>RGRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>RGRPRKSAQERDESQRRAELLRAAARLFRHQGFDATSTRDIAAAAGMQSGSPFYYFESKSALLYAVMHDGMALVTQAQAQALQALGPRPTARARLQALIRHHFEVLVGPASDFIPVMLYEWRALTPEQRARIGALKDRYEAAWMPVLVSLRRSGSLRARPEVARLFIFGALNWTVQWFDPHGPLSLDELTEQALRLFLGDR</Hsp_hseq>
+      <Hsp_midline>RGRP KSA ER+ES RR EL++ AA+LFR +GF  TSTRDIAAAAGMQ GS FY+FESK A+L+AVM DGMA    +QA AL  L  R +   RL++L+R+H +++VGP SDFIPVMLYEWR L+ EQR  +GA KD YEA WMP L +L  +G L+A PE+ARL IFGALNWT QWF     L+LDELTEQAL LF+G+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_211297674.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Ottowia oryzae]</Hit_def>
+  <Hit_accession>WP_211297674</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.128</Hsp_bit-score>
+      <Hsp_score>627</Hsp_score>
+      <Hsp_evalue>6.62189e-79</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>KSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>KTAAERDEGNRRQDLIAAAARLFRTKGFDGTSTRDIAAAADMQSGSPFYFFQNKQAMLHAVMQEGMARVIATQAEVLKALGGRATAHARLRALARHHLEVLLGPHSDFIPVMLYEWRSLTPVQRVDITAQKDAYEAAWMPAIRTLYRAGQIKATPEAARLLIFGALQWAVQWYRPQGALSLDQLTEQAMLLFTREK</Hsp_hseq>
+      <Hsp_midline>K+A ER+E  RR +L+  AA+LFR +GF GTSTRDIAAAA MQ GS FYFF++K+A+LHAVM++GMA+  A+QA  L  L  RA+   RLR+L R+HL++++GP SDFIPVMLYEWR L+  QRVD+ AQKD YEA WMPA++ L+  G++KA+PE ARLLIFGAL W  QW+     L+LD+LTEQA+ LF  E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|MBN8557374.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Burkholderiales bacterium] &gt;gb|MCA0310873.1| TetR/AcrR family transcriptional regulator [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBN8557374</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.743</Hsp_bit-score>
+      <Hsp_score>626</Hsp_score>
+      <Hsp_evalue>9.38461e-79</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>KSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_qseq>
+      <Hsp_hseq>KSAEQRSESQRHADVLREAARLFRTQGFDATSTRDIAAAAGMQSGSPFYYFESKSAMLFAVMRDGMAQVTESQAQVLRALGPRPSARDRLRALIRHHFSVVVGPDSHFIPVMLYEWRALTPQQRKEISLQKDAYEAVWMPILNSLHRAGELKARPTVARLFIFGALNWAAQWFNPQGPLSLDDLTEQAMRLFTGQ</Hsp_hseq>
+      <Hsp_midline>KSA++R+ES R  ++++ AA+LFR +GF  TSTRDIAAAAGMQ GS FY+FESK A+L AVMRDGMAQ   SQA  L  L  R S   RLR+L+R+H  ++VGP+S FIPVMLYEWR L+ +QR ++  QKD YEA WMP L +LH  G+LKA P +ARL IFGALNW AQWF     L+LD+LTEQA+ LF G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|AVO35901.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Ottowia oryzae]</Hit_def>
+  <Hit_accession>AVO35901</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.358</Hsp_bit-score>
+      <Hsp_score>625</Hsp_score>
+      <Hsp_evalue>1.10523e-78</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>KSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGER</Hsp_qseq>
+      <Hsp_hseq>KTAAERDEGNRRQDLIAAAARLFRTKGFDGTSTRDIAAAADMQSGSPFYFFQNKQAMLHAVMQEGMARVIATQAEVLKALGGRATAHARLRALARHHLEVLLGPHSDFIPVMLYEWRSLTPVQRVDITAQKDAYEAAWMPAIRTLYRAGQIKATPEAARLLIFGALQWAVQWYRPQGALSLDQLTEQAMLLFTREK</Hsp_hseq>
+      <Hsp_midline>K+A ER+E  RR +L+  AA+LFR +GF GTSTRDIAAAA MQ GS FYFF++K+A+LHAVM++GMA+  A+QA  L  L  RA+   RLR+L R+HL++++GP SDFIPVMLYEWR L+  QRVD+ AQKD YEA WMPA++ L+  G++KA+PE ARLLIFGAL W  QW+     L+LD+LTEQA+ LF  E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_147912000.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Ottowia sp. GY511] &gt;gb|TXK33026.1| TetR/AcrR family transcriptional regulator [Ottowia sp. GY511]</Hit_def>
+  <Hit_accession>WP_147912000</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>1.40564e-78</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>GRPPKSADERNESMRRGELVKVAAQLFRQRGFHGTSTRDIAAAAGMQPGSLFYFFESKEAILHAVMRDGMAQAAASQAAALDGLTARASGVQRLRSLVRNHLQIMVGPESDFIPVMLYEWRLLSDEQRVDVGAQKDEYEAQWMPALQALHHTGKLKASPEIARLLIFGALNWTAQWFTEGRGLTLDELTEQALALFIGE</Hsp_qseq>
+      <Hsp_hseq>GRPPKTAAERDEGNRRQALIAAAAKLFRTKGFDATSTRDIAAAADMQSGSPFYFFQSKQALLHAVMQEGMARVAVTQSDTLKALGAGASAHDKLRALIRHHFEVLLGPYSDFIPVMLYEWRSLTPEQRADVTQIKDAYESVWIPVLRALHRSGHIKAKPGAARLLIFGALHWAVQWYSVDGPMTLDEISAQAMKLFTGE</Hsp_hseq>
+      <Hsp_midline>GRPPK+A ER+E  RR  L+  AA+LFR +GF  TSTRDIAAAA MQ GS FYFF+SK+A+LHAVM++GMA+ A +Q+  L  L A AS   +LR+L+R+H ++++GP SDFIPVMLYEWR L+ EQR DV   KD YE+ W+P L+ALH +G +KA P  ARLLIFGAL+W  QW++    +TLDE++ QA+ LF GE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>449466297</Statistics_db-num>
+      <Statistics_db-len>1020683722</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

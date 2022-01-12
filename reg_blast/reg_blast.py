@@ -1,15 +1,66 @@
 from processing.acc2homologs import acc2homolog_list
-from processing.getIntergenic import appendIntergenic
+from processing.getIntergenic_batch import appendIntergenic_batch
 from processing.operator_utils import appendOperatorMetadata
 
-from display.render_operator_graphic import create_operator_html
-from display.render_operon_graphic import create_operon_html
+from display.create_operator_HTML import create_operator_html
 
-import sys
-import pickle
-import platform
+
 import webbrowser
-import time
+from datetime import date
+
+    # Input parameters
+tetr = "WP_000113282.1"
+edcr = "AZI36850"
+dszgr = "WP_058249973.1"
+pnbx = "QWF22305.1"
+sace_0303 = "CAL99652.1"
+rosr = "WP_003861276.1"
+testo = "EHN63435"
+acc = testo
+
+
+regulators = [testo, tetr]
+
+max_seqs = 50
+perc_ident = 50
+to_align = "find_inverted_repeat"
+# Options: [ "find_inverted_repeat", "whole_interoperon", or custom string]
+
+    # Having period in accession name screws things up. Remove it
+if acc[-2] == ".":
+    acc = acc[0:-2]
+
+    # Cache file locations:
+# BLAST: 'cache/blast_cache/{acc}.xml'
+# Metadata: 'cache/homolog_metadata/{acc}.pkl'
+# Updated Metadata: 'cache//homolog_metadata/updated_metadata/{acc}.pkl'
+# Operator data: 'cache/operator_data/{acc}.pkl'
+# HTML pages: 'cache/HTML/{date}.html
+
+
+    # Takes a regulator accession ID and outputs a dictionary with predicted operator data
+def acc2operator_data(acc, max_seqs):
+
+    acc2homolog_list(acc, max_seqs)
+    appendIntergenic_batch(acc)
+    operator_data = appendOperatorMetadata(acc, to_align, perc_ident)
+    return operator_data
+
+
+    # Create operator data for each input regulator, then create an HTML display and open it.
+operators = [acc2operator_data(reg, max_seqs) for reg in regulators]
+create_operator_html(operators) 
+webbrowser.open('cache/HTML/'+str(date.today())+'.html')
+
+
+
+
+
+
+#def create_display(operons, acc, consensus_data):
+    #create_operon_html(operons,"display/html_pages/"+acc)
+    #create_operator_html(consensus_data,"display/html_pages/"+acc+".html")
+    #webbrowser.open('display/html_pages/'+acc+'.html')
 
 
 ### ALL INPUT PARAMETERS ###
@@ -35,10 +86,6 @@ import time
 
 
 
-
-####### DEFINE BLAST/FILTER PARAMETERS #########
-hitlist_size = 100
-perc_ident = [70]
 
 
 ########  USER INPUTS  ########
@@ -118,100 +165,3 @@ sco4122 = "WP_003974850.1"
 
 RslR4 = "WP_020114152.1"
 #acc = "WP_011014162.1"
-acc = RslR4
-
-###### OPERATOR INPUT #######
-#operatorFile = "hpdr3.txt"
-operatorFile = "None"
-
-
-#having period in accession name screws things up. Remove it
-if acc[-2] == ".":
-    acc = acc[0:-2]
-print(acc)
-
-
-##### FUNCTIONS #####
-
-
-'''
-    START OF MAIN FUNCTIONS
-'''
-
-'''
-        GET HOMOLOGS
-'''
-blastStart = time.time()
-
-acc2homolog_list(acc, hitlist_size)
-
-blastEnd = time.time()
-
-print("blast took "+str(blastEnd - blastStart)+" seconds")
-    
-'''
-        ADD INTEROPERON FOR EACH
-'''
-appendIntergenic(acc)
-
-
-
-'''
-       ADD OPERATOR DATA FOR EACH 
-'''
-    # options: [ "find_inverted_repeat", "whole_interoperon", or custom string]
-to_align = "find_inverted_repeat"
-
-consensus_data = [ appendOperatorMetadata(f"cache/homolog_metadata/updated_metadata/{acc}.pkl", to_align, i) 
-    for i in perc_ident
-    ]
-
-with open(f"cache/homolog_metadata/updated_metadata/{acc}.pkl", mode='rb') as f:
-    data = pickle.load(f)
-    operons = data
-
-
-
-'''
-        CREATE HTML DISPLAY PAGE
-'''
-create_operon_html(operons,"display/html_pages/"+acc)
-create_operator_html(consensus_data,"display/html_pages/"+acc+".html")
-
-webbrowser.open('display/html_pages/'+acc+'.html')
-
-
-'''
-if platform.release() == "4.4.0-18362-Microsoft":
-    create_operon_html(operons,"../../../../mnt/c/Users/simon.doelsnitz/"+acc)
-    create_operator_html(consensus_data,"../../../../mnt/c/Users/simon.doelsnitz/"+acc+".html")
-else:
-    create_operon_html(operons,"display/html_pages/"+acc)
-    create_operator_html(consensus_data,"display/html_pages/"+acc+".html")
-'''
-
-
-
-
-"""   Automate workflow. Check if things are cached. If not, get the necessary data. Fails if there are any bugs.
-try:
-    operator = operator_or_intergenic(acc,operatorFile)
-    consensus_data = appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", operator)
-    create_html(consensus_data,"display/html_pages/"+acc)
-except:
-    print("no intergenic data cached. Pulling intergenic data")
-    try:
-        yes_or_no('get intergenic region?')
-        appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
-        operator = operator_or_intergenic(acc,operatorFile)
-        consensus_data = appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", operator)
-        create_html(consensus_data,"display/html_pages/"+acc)
-    except:
-        print("no homolog data cached. Blasting protein")
-        acc2homolog_list(acc, perc_ident)
-        yes_or_no('get intergenic region?')
-        appendIntergenic(f"cache/homolog_metadata/{acc}.pkl")
-        operator = operator_or_intergenic(acc,operatorFile)
-        consensus_data = appendOperatorMetadata(f"cache/homolog_metadata/{acc}.pkl", operator)
-        create_html(consensus_data,"display/html_pages/"+acc)
-"""

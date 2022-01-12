@@ -1,7 +1,7 @@
 import pickle
 from Bio.pairwise2 import align
 from pprint import pprint
-
+from pathlib import Path
 
 """
 
@@ -21,23 +21,31 @@ TODO:
     score_cutoff is arbitrarily set to 10% of max score. Is that relevant?
 """
 
-def findOperatorInIntergenic(intergenic, operator):
+def findOperatorInIntergenic(intergenic, operator, ext_length=0):
 
     operator_length = len(operator)
     
         # This function is needed to extract the ENTIRE aligned region.
         # Otherwise, mismatched ends will not be extracted.
     
-    def extractOperator(intergenic, operator):
-        beginning = 0
-        for i in operator:
+    def extractOperator(intergenic, op_align, ext_length):
+        begin = 0
+        for i in op_align:
+            # Find starting position of operator within intergenic region
             if i == '-':
-                beginning += 1
+                begin += 1
             else:
                 break
-        end = (beginning + operator_length)
-            # Can change position of output sequence to include more or less
-        return intergenic[beginning:end]
+        end = (begin + operator_length)
+            # Can change indexing of output sequence to include more or less of alignment
+        try:
+            upstream = intergenic[begin-ext_length:begin].lower()
+            mid = intergenic[begin:end]
+            downstream = intergenic[end:end+ext_length].lower()
+            operator = upstream+mid+downstream
+        except:
+            operator = intergenic[begin:end]
+        return operator
 
 
     try:
@@ -53,11 +61,11 @@ def findOperatorInIntergenic(intergenic, operator):
     score_cutoff = max_score*0.1
 
     if score > score_cutoff:
-        operator = extractOperator(upstr_align, op_align)
-        return [operator, score]
+        operator = extractOperator(upstr_align, op_align, ext_length)
+        return {"operator":operator, "score":score}
     else:
         print('alignment score is not above cutoff')
-        return [None,0]
+        return {"operator":None,"score":0}
 
 
 
@@ -114,13 +122,13 @@ def findImperfectPalindromes(intergenic, size, winScore, lossScore):
 
                     score += spacer_penalty[j]
                     seq = repeat + intergenic[i+size:i+size+j].lower() + complement(compare)[::-1]
-                    allScores.append([seq,score])
+                    allScores.append({"seq":seq,"score":score})
 
                 except:
-                    allScores.append([0,0,0])
+                    allScores.append({"seq":"None","score":0})
     
-    best_score = max([i[1] for i in allScores])            
-    best_operators = [i for i in allScores if i[1] == best_score]
+    best_score = max([i["score"] for i in allScores])            
+    best_operators = [i for i in allScores if i["score"] == best_score]
     
     return best_operators
 
@@ -135,8 +143,8 @@ def findBestPalindrome(intergenic, shortest, longest, winScore, lossScore):
         for j in ops:
             operators.append(j)
 
-    max_score = max([i[1] for i in operators])
-    best_operators = [i for i in operators if i[1] == max_score]
+    max_score = max([i["score"] for i in operators])
+    best_operators = [i for i in operators if i["score"] == max_score]
 
     return best_operators
 
@@ -213,7 +221,7 @@ def getConsensus(metrics, alignment_type, max_ident=100, min_ident=50):      #DU
             for i in range(0,len(max_values))
         ]
 
-    return [consensus_data, num_seqs]
+    return {"motif_data":consensus_data, "num_seqs":num_seqs}
 
 
 
@@ -224,11 +232,11 @@ def get_consensus_score(operator, consensus_data):
     for i in range(0,len(operator)):
         if operator[i].isupper():
             max_score += 1
-            consensus_score += consensus_data[0][i]['score']**2
+            consensus_score += consensus_data["motif_data"][i]['score']**2
         else:
             pass
     
-    score = (consensus_score/max_score)*100
+    score = round((consensus_score/max_score)*100, 3)
 
     return score
 
@@ -241,17 +249,26 @@ Output: Array with consensus data for each input operator.
 
 '''
 
-def appendOperatorMetadata(homologListFile, to_align, perc_ident):
+def appendOperatorMetadata(acc, to_align, perc_ident):
     
-    with open(f'{homologListFile}', mode="rb") as f:
+    homologListFile = f"cache/homolog_metadata/updated_metadata/{acc}.pkl"
+
+    with open(homologListFile, mode="rb") as f:
         homologList = pickle.load(f)
         
         if to_align == "find_inverted_repeat":
 
-                # TODO:
-                # Iterate this function through multiple relevant scoring parameters
-            operators = [findBestPalindrome(intergenic=homologList[0]["intergenic"], \
-                shortest=5, longest=15, winScore=2, lossScore=-3)][0]
+                # Iterates this function through multiple relevant scoring parameters
+            operators = []
+
+            test_params = [{"w":2,"l":-2}, {"w":2,"l":-3}, {"w":2,"l":-4}]
+
+            for i in test_params:
+                ops = [findBestPalindrome(intergenic=homologList[0]["intergenic"], \
+                shortest=5, longest=15, winScore=i["w"], lossScore=i["l"])][0]
+                for operator in ops:
+                    operators.append(operator)
+            
 
         elif to_align == "whole_interoperon":
             operators = [homologList[0]["intergenic"]]
@@ -268,6 +285,7 @@ def appendOperatorMetadata(homologListFile, to_align, perc_ident):
 			
             # Output data to be returned 
         operator_data = { 
+            "accession": str(acc),
             "input_seq": "None",
             "lowest_perc_ident":lowest_identity,
             "num_seqs": "None",
@@ -281,17 +299,20 @@ def appendOperatorMetadata(homologListFile, to_align, perc_ident):
                 
                 homolog = {}
                 homolog["operator"] =  findOperatorInIntergenic(i["intergenic"], \
-                    operator[0])[0]
+                    operator["seq"])["operator"]
                 homolog["score"] =  findOperatorInIntergenic(i["intergenic"], \
-                    operator[0])[1]
+                    operator["seq"])["score"]
                 homolog["identity"] = i["identity"]
 
                 metrics.append(homolog)
 
             consensus = getConsensus(metrics, alignment_type=to_align)
 
-            consensus_score = get_consensus_score(operator[0], consensus)
-            print(operator[0], consensus_score, consensus[1])
+            consensus_score = get_consensus_score(operator["seq"], consensus)
+            #print(operator["seq"], consensus_score, consensus["num_seqs"])
+            
+            operator["seq"] = findOperatorInIntergenic(homologList[0]["intergenic"], \
+                operator["seq"], 3)["operator"]
 
                 # Warning: Only the CONSENSUS SCORE is used to identify the 
                     # best operator. This should also incorporate the
@@ -299,16 +320,28 @@ def appendOperatorMetadata(homologListFile, to_align, perc_ident):
 
             if consensus_score > operator_data["consensus_score"]:
                 operator_data["consensus_score"] = consensus_score
-                operator_data["input_seq"] = operator[0]
-                operator_data["num_seqs"] = consensus[1]
-                operator_data["motif"] = consensus[0]
+                operator_data["input_seq"] = operator["seq"]
+                operator_data["num_seqs"] = consensus["num_seqs"]
+                operator_data["motif"] = consensus["motif_data"]
                   
-        pprint(operator_data)
+        # Cache operator data
+        p = Path('./cache/operator_data/')
+        filename = acc+".pkl"
+        fp = p / filename
+        with fp.open("wb") as f:
+            pickle.dump(operator_data, f)
+            print("operator data for "+acc+" cached.")
+        
+        return operator_data
+
 
             # Returned as a list for compatability with downstream display script.
             # I programatically choose the best operator, thus, this is not needed.
             # Adapt the downstream script and return this as a dictionary, not a list.
-        return [operator_data]       
+    
+    #with open(f'cache/operator_data/{acc}.pkl', mode="wb") as f:
+    #    homologList = pickle.load(f)
+    #    return [operator_data]       
 
 # What makes a good operator?
     # 1) High consensus score

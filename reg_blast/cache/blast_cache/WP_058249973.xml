@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_62705</BlastOutput_query-ID>
+  <BlastOutput_query-def>WP_058249973.1 MULTISPECIES: TetR/AcrR family transcriptional regulator [Gordonia]</BlastOutput_query-def>
+  <BlastOutput_query-len>215</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_62705</Iteration_query-ID>
+  <Iteration_query-def>WP_058249973.1 MULTISPECIES: TetR/AcrR family transcriptional regulator [Gordonia]</Iteration_query-def>
+  <Iteration_query-len>215</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|KSU61467.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia sp. SGD-V-85] &gt;gb|QHD87206.1| TetR family transcriptional regulator [Gordonia sp. JH63] &gt;gb|QIK46767.1| TetR/AcrR family transcriptional regulator [Gordonia terrae] &gt;emb|SCB80509.1| transcriptional regulator, TetR family [Gordonia sp. v-85]</Hit_def>
+  <Hit_accession>KSU61467</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>5.77178e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_068971993.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Nocardia farcinica] &gt;gb|OCW85015.1| TetR family transcriptional regulator [Nocardia farcinica]</Hit_def>
+  <Hit_accession>WP_068971993</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.024</Hsp_bit-score>
+      <Hsp_score>1107</Hsp_score>
+      <Hsp_evalue>4.34625e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQTRIDANGRTAASAADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQTRIDANGRTAAS ADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_226513980.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Gordonia sp. WA4-43] &gt;gb|UCZ92012.1| TetR/AcrR family transcriptional regulator [Gordonia sp. WA4-43]</Hit_def>
+  <Hit_accession>WP_226513980</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>430.639</Hsp_bit-score>
+      <Hsp_score>1106</Hsp_score>
+      <Hsp_evalue>5.18034e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDFELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLD ELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|ANY26247.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia terrae] &gt;gb|AWO86985.1| TetR family transcriptional regulator [Gordonia terrae] &gt;gb|PKZ66271.1| TetR family transcriptional regulator [Gordonia terrae] &gt;dbj|GAB43977.1| putative TetR family transcriptional regulator [Gordonia terrae NBRC 100016] &gt;emb|VTR12487.1| TetR family transcriptional regulator [Clostridioides difficile]</Hit_def>
+  <Hit_accession>ANY26247</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>422.55</Hsp_bit-score>
+      <Hsp_score>1085</Hsp_score>
+      <Hsp_evalue>9.41102e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQTRIDANGRTAASTADAPARSSRRDELLATAGQMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYREIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSSQERFAYISELNVEFRRLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMSVDSIADQYLSVVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQTRIDANGRTAASTADAP RSSRRDELLATAG+MFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYR+IAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLS QERFAYISELNVEFR+LWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSM+VDSIADQYLSVVLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_175404249.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Gordonia] &gt;gb|MBN0974042.1| TetR family transcriptional regulator [Gordonia sp. BP-119] &gt;gb|MBN0983857.1| TetR family transcriptional regulator [Gordonia sp. BP-94] &gt;gb|MBR7194000.1| TetR family transcriptional regulator [Gordonia sp. SCSIO 19800]</Hit_def>
+  <Hit_accession>WP_175404249</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>414.461</Hsp_bit-score>
+      <Hsp_score>1064</Hsp_score>
+      <Hsp_evalue>9.9568e-146</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>IDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_hseq>
+      <Hsp_midline>+DANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_137809998.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Gordonia]</Hit_def>
+  <Hit_accession>WP_137809998</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.149</Hsp_bit-score>
+      <Hsp_score>1058</Hsp_score>
+      <Hsp_evalue>7.74726e-145</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>IDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MDATGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_hseq>
+      <Hsp_midline>+DA GRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|OUC76864.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia lacunae]</Hit_def>
+  <Hit_accession>OUC76864</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>408.683</Hsp_bit-score>
+      <Hsp_score>1049</Hsp_score>
+      <Hsp_evalue>3.9546e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTA------------DAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQTRIDANGRAETTAAVADGKSAGGPRTDAPARSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRSFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGTMSVDSIADQYLSVVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQTRIDANGR   + A            DAP RSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGG+M+VDSIADQYLSVVLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|EON34775.1|</Hit_id>
+  <Hit_def>Transcriptional regulator, TetR family protein [Gordonia terrae C-6]</Hit_def>
+  <Hit_accession>EON34775</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>406.371</Hsp_bit-score>
+      <Hsp_score>1043</Hsp_score>
+      <Hsp_evalue>3.00855e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTA------------DAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQTRIDAKGRSDATAAAADVKPAGGPRTDAPARSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSTSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFTYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGTMSVDSIADQYLSVVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQTRIDA GR+ A+ A            DAP RSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASS SATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERF YISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGG+M+VDSIADQYLSVVLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_172622118.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Gordonia]</Hit_def>
+  <Hit_accession>WP_172622118</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.06</Hsp_bit-score>
+      <Hsp_score>1037</Hsp_score>
+      <Hsp_evalue>1.3912e-141</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>IDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MDANGRTAASTADAPARSSRRDELLATAGQMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYREIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSSQERFAYISELNVEFRRLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMSVDSIADQYLSVVLDGILPR</Hsp_hseq>
+      <Hsp_midline>+DANGRTAASTADAP RSSRRDELLATAG+MFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYR+IAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLS QERFAYISELNVEFR+LWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSM+VDSIADQYLSVVLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|AFR51404.1|</Hit_id>
+  <Hit_def>Transcriptional regulator, TetR family [Gordonia sp. KTR9]</Hit_def>
+  <Hit_accession>AFR51404</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.06</Hsp_bit-score>
+      <Hsp_score>1037</Hsp_score>
+      <Hsp_evalue>3.49254e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTA------------DAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>LSPRGQTRIDAKGRSDATAAAADVKPAGGQRTDTPARSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSTSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFTYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGTMSVDSIADQYLSVVLDGILPR</Hsp_hseq>
+      <Hsp_midline>+SPRGQTRIDA GR+ A+ A            D P RSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASS SATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERF YISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGG+M+VDSIADQYLSVVLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|OCH82694.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia sp. UCD-TK1]</Hit_def>
+  <Hit_accession>OCH82694</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.193</Hsp_bit-score>
+      <Hsp_score>1001</Hsp_score>
+      <Hsp_evalue>3.52354e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQTRIDA-----------PARSSRRDELLATAGQMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRSFLDDLFARYREIAASSRSATEILRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGTMSVDSIADQYLSVVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQTRIDA           P RSSRRDELLATAG+MFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFARYR+IAASS+SATE LRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGG+M+VDSIADQYLSVVLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_139104540.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia sp. UCD-TK1]</Hit_def>
+  <Hit_accession>WP_139104540</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>389.037</Hsp_bit-score>
+      <Hsp_score>998</Hsp_score>
+      <Hsp_evalue>1.25102e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>LSPRGQTRIDA-----------PARSSRRDELLATAGQMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRSFLDDLFARYREIAASSRSATEILRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGTMSVDSIADQYLSVVLDGILPR</Hsp_hseq>
+      <Hsp_midline>+SPRGQTRIDA           P RSSRRDELLATAG+MFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFARYR+IAASS+SATE LRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGG+M+VDSIADQYLSVVLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|ATD72156.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Gordonia sp. 1D] &gt;gb|KAF0969333.1| HTH-type transcriptional repressor KstR2 [Gordonia sp. YY1] &gt;gb|NKX80110.1| TetR/AcrR family transcriptional regulator [Gordonia amicalis] &gt;dbj|GAC54683.1| putative TetR family transcriptional regulator [Gordonia amicalis NBRC 100051 = JCM 11271]</Hit_def>
+  <Hit_accession>ATD72156</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>376.711</Hsp_bit-score>
+      <Hsp_score>966</Hsp_score>
+      <Hsp_evalue>1.26158e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRT-AASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQTKTDDKGGTDAKAGADTVVRSSRRDELLATAGRMFAENGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDDLFARYRQIASAGLSATETLRGLVVASFESIDAERNAVAIYQDEAKRLSGQERFGYISELNVEFRQLWHAVLQRGVDDGEFRPDLDVELVYRFMRDTVWVAVRWYRPGGPMTVESIADQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQT+ D  G T A + AD   RSSRRDELLATAGRMFAE GLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFARYRQIA++  SATETLRGLV+ASFESIDAERNAVAIYQDEAKRLSGQERF YISELNVEFRQLW +VLQRGV++GEFR DLDVELVYRFMRDTVWVAVRWYRPGG MTV+SIADQYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>emb|SDU81496.1|</Hit_id>
+  <Hit_def>DNA-binding transcriptional regulator, AcrR family [Gordonia westfalica]</Hit_def>
+  <Hit_accession>SDU81496</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.859</Hsp_bit-score>
+      <Hsp_score>956</Hsp_score>
+      <Hsp_evalue>4.21571e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRI-DANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQTRTKDKAGTDAKAGADTGVRSSRRDELLATAGRMFAENGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDDLFARYREIAGAGLSASETLRGLVVASFESIDAERNAVAIYQDEAKRLSGQERFGYISELNVEFRQLWHAVLQRGVDDGEFRPDLDVELVYRFMRDTVWVAVRWYRPGGAMTVEAIADQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQTR  D  G  A + AD   RSSRRDELLATAGRMFAE GLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFARYR+IA +  SA+ETLRGLV+ASFESIDAERNAVAIYQDEAKRLSGQERF YISELNVEFRQLW +VLQRGV++GEFR DLDVELVYRFMRDTVWVAVRWYRPGG+MTV++IADQYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_144066069.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia lacunae]</Hit_def>
+  <Hit_accession>WP_144066069</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.925</Hsp_bit-score>
+      <Hsp_score>938</Hsp_score>
+      <Hsp_evalue>7.1009e-127</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>LLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRSFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGTMSVDSIADQYLSVVLDGILPR</Hsp_hseq>
+      <Hsp_midline>+LATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGG+M+VDSIADQYLSVVLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_006866252.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia namibiensis] &gt;dbj|GAC00029.1| putative TetR family transcriptional regulator [Gordonia namibiensis NBRC 108229]</Hit_def>
+  <Hit_accession>WP_006866252</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.696</Hsp_bit-score>
+      <Hsp_score>940</Hsp_score>
+      <Hsp_evalue>1.04302e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQTKTEAKTGT-----DTAVRSSRRDELLATAGRMFAENGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDDLFARYREIAGAGLSASETLRGLVVASFESIDAERNAVAIYQDEAKRLSGQERFDYIGELNVEFRQLWHAVLQRGVDDGEFRPDLDVELVYRFMRDTVWVAVRWYRPGGPMTVDSIADQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQT+ +A   T     D   RSSRRDELLATAGRMFAE GLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFARYR+IA +  SA+ETLRGLV+ASFESIDAERNAVAIYQDEAKRLSGQERF YI ELNVEFRQLW +VLQRGV++GEFR DLDVELVYRFMRDTVWVAVRWYRPGG MTVDSIADQYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_148281309.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Gordonia]</Hit_def>
+  <Hit_accession>WP_148281309</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>364.385</Hsp_bit-score>
+      <Hsp_score>934</Hsp_score>
+      <Hsp_evalue>3.44574e-126</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>LLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSTSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFTYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGTMSVDSIADQYLSVVLDGILPR</Hsp_hseq>
+      <Hsp_midline>+LATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASS SATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERF YISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGG+M+VDSIADQYLSVVLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_223204986.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Gordonia jinghuaiqii]</Hit_def>
+  <Hit_accession>WP_223204986</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.155</Hsp_bit-score>
+      <Hsp_score>936</Hsp_score>
+      <Hsp_evalue>3.60097e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQTR----ARTA-TGPQTPARSSRRDELLATAAQMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDDLFARYRQIAGAGRTATDTLRGLVIASFESIDAERNAVAIYQDEAKRLAGQDRFAYISERNTEFRKLWQSVLQRGVDDGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMSVELIADQYLSVVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQTR     RTA +    P RSSRRDELLATA +MFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFARYRQIA + ++AT+TLRGLVIASFESIDAERNAVAIYQDEAKRL+GQ+RFAYISE N EFR+LWQSVLQRGV++GEFRADLDVELVYRFMRDTVWVAVRWYRPGGSM+V+ IADQYLSVVLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_006360709.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Gordonia] &gt;gb|ETA07186.1| TetR family transcriptional regulator [Gordonia alkanivorans CGMCC 6845] &gt;gb|OLT45323.1| TetR family transcriptional regulator [Gordonia sp. CNJ-863] &gt;gb|QGP89538.1| TetR family transcriptional regulator [Gordonia sp. 135] &gt;dbj|GAA14642.1| putative TetR family transcriptional regulator [Gordonia alkanivorans NBRC 16433]</Hit_def>
+  <Hit_accession>WP_006360709</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.155</Hsp_bit-score>
+      <Hsp_score>936</Hsp_score>
+      <Hsp_evalue>4.48396e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQTK--TNDKAGADTA---VRSSRRDELLATAGRMFAENGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDDLFARYREIAGAGLSASETLRGLVVASFESIDAERNAVAIYQDEAKRLSGQERFGYIGELNVEFRQLWHAVLQRGVDDGEFRPDLDVELVYRFMRDTVWVAVRWYRPGGPMTVESIADQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQT+   N +  A TA    RSSRRDELLATAGRMFAE GLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFARYR+IA +  SA+ETLRGLV+ASFESIDAERNAVAIYQDEAKRLSGQERF YI ELNVEFRQLW +VLQRGV++GEFR DLDVELVYRFMRDTVWVAVRWYRPGG MTV+SIADQYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_127962421.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia alkanivorans] &gt;gb|AZZ81019.1| TetR family transcriptional regulator [Gordonia alkanivorans]</Hit_def>
+  <Hit_accession>WP_127962421</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>364.385</Hsp_bit-score>
+      <Hsp_score>934</Hsp_score>
+      <Hsp_evalue>6.7276e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQTK--TNDKAGADTA---GRSSRRDELLATAGRMFAENGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDDLFARYREIAGAGLSASETLRGLVVASFESIDAERNAVAIYQDEAKRLSGQERFGYIGELNVEFRQLWHAVLQRGVDDGEFRPDLDVELVYRFMRDTVWVAVRWYRPGGPMTVESIADQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQT+   N +  A TA    RSSRRDELLATAGRMFAE GLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFARYR+IA +  SA+ETLRGLV+ASFESIDAERNAVAIYQDEAKRLSGQERF YI ELNVEFRQLW +VLQRGV++GEFR DLDVELVYRFMRDTVWVAVRWYRPGG MTV+SIADQYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_188328894.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia jinghuaiqii] &gt;gb|MBD0861159.1| TetR/AcrR family transcriptional regulator [Gordonia jinghuaiqii] &gt;gb|QMT00916.1| TetR/AcrR family transcriptional regulator [Gordonia jinghuaiqii]</Hit_def>
+  <Hit_accession>WP_188328894</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.614</Hsp_bit-score>
+      <Hsp_score>932</Hsp_score>
+      <Hsp_evalue>1.59034e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>LSPRGQTR----ARTA-TGPQTPARSSRRDELLATAAQMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDDLFARYRQIAGAGRTATDTLRGLVIASFESIDAERNAVAIYQDEAKRLAGQDRFAYISERNTEFRKLWQSVLQRGVDDGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMSVELIADQYLSVVLDGILPR</Hsp_hseq>
+      <Hsp_midline>+SPRGQTR     RTA +    P RSSRRDELLATA +MFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFARYRQIA + ++AT+TLRGLVIASFESIDAERNAVAIYQDEAKRL+GQ+RFAYISE N EFR+LWQSVLQRGV++GEFRADLDVELVYRFMRDTVWVAVRWYRPGGSM+V+ IADQYLSVVLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_119033132.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia rubripertincta] &gt;gb|ASR04779.1| HTH-type transcriptional repressor KstR2 [Gordonia rubripertincta] &gt;gb|TSD97617.1| TetR/AcrR family transcriptional regulator [Gordonia rubripertincta]</Hit_def>
+  <Hit_accession>WP_119033132</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.614</Hsp_bit-score>
+      <Hsp_score>932</Hsp_score>
+      <Hsp_evalue>1.88579e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQTK--TNDKAGADTA---VRSSRRDELLATAGRMFAENGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDDLFARYREIAGAGLPASETLRGLVVASFESIDAERNAVAIYQDEAKRLSGQERFGYIGELNVEFRQLWHAVLQRGVDDGEFRPDLDVELVYRFMRDTVWVAVRWYRPGGPMTVESIADQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQT+   N +  A TA    RSSRRDELLATAGRMFAE GLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFARYR+IA +   A+ETLRGLV+ASFESIDAERNAVAIYQDEAKRLSGQERF YI ELNVEFRQLW +VLQRGV++GEFR DLDVELVYRFMRDTVWVAVRWYRPGG MTV+SIADQYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_005197785.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia rubripertincta] &gt;gb|NKY65509.1| TetR/AcrR family transcriptional regulator [Gordonia rubripertincta] &gt;gb|QMU21164.1| TetR/AcrR family transcriptional regulator [Gordonia rubripertincta] &gt;dbj|GAB85333.1| putative TetR family transcriptional regulator [Gordonia rubripertincta NBRC 101908]</Hit_def>
+  <Hit_accession>WP_005197785</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>362.073</Hsp_bit-score>
+      <Hsp_score>928</Hsp_score>
+      <Hsp_evalue>5.89847e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQTK--TNDKAGADTA---VRSSRRDELLATAGRMFAENGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDDLFARYREIAGAGLPASETLRGLVVASFESIDAERNAVAIYQDEAKRLSGQERFGYIGELNVEFRQLWHAVLQRGVDDGEFRPDLDVELVYRFMRDTVWVAVRWYRPGGPMSVESIADQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQT+   N +  A TA    RSSRRDELLATAGRMFAE GLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFARYR+IA +   A+ETLRGLV+ASFESIDAERNAVAIYQDEAKRLSGQERF YI ELNVEFRQLW +VLQRGV++GEFR DLDVELVYRFMRDTVWVAVRWYRPGG M+V+SIADQYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_204717373.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Gordonia rubripertincta] &gt;gb|MBM7276802.1| TetR family transcriptional regulator [Gordonia rubripertincta]</Hit_def>
+  <Hit_accession>WP_204717373</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>361.688</Hsp_bit-score>
+      <Hsp_score>927</Hsp_score>
+      <Hsp_evalue>8.01814e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQTK--TNDKPGADTA---VRSSRRDELLATAGRMFAENGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDDLFARYREIAGAGLPASETLRGLVVASFESIDAERNAVAIYQDEAKRLSGQERFGYIGELNVEFRQLWHAVLQRGVDDGEFRPDLDVELVYRFMRDTVWVAVRWYRPGGPMSVESIADQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQT+   N +  A TA    RSSRRDELLATAGRMFAE GLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFARYR+IA +   A+ETLRGLV+ASFESIDAERNAVAIYQDEAKRLSGQERF YI ELNVEFRQLW +VLQRGV++GEFR DLDVELVYRFMRDTVWVAVRWYRPGG M+V+SIADQYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_109238637.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia paraffinivorans] &gt;gb|PWD42920.1| TetR family transcriptional regulator [Gordonia paraffinivorans]</Hit_def>
+  <Hit_accession>WP_109238637</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.91</Hsp_bit-score>
+      <Hsp_score>912</Hsp_score>
+      <Hsp_evalue>1.7914e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQK--------TASGAETTKNSSRRDELLATAGRMFAENGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDELFAKYRDIAAAGLSATETLRRLVIASFESIDAERNAVAIYQDEAKRLAGQERFAYISELNVEFRQLWHAVLQRGVDDGEFRPDLDVELVYRFMRDTVWVAVRWYRPGGALSVEKIADQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQ          AS A+    SSRRDELLATAGRMFAE GLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLD+LFA+YR IAA+  SATETLR LVIASFESIDAERNAVAIYQDEAKRL+GQERFAYISELNVEFRQLW +VLQRGV++GEFR DLDVELVYRFMRDTVWVAVRWYRPGG+++V+ IADQYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_222113048.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia paraffinivorans] &gt;gb|MBY4573498.1| TetR family transcriptional regulator [Gordonia paraffinivorans]</Hit_def>
+  <Hit_accession>WP_222113048</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>355.525</Hsp_bit-score>
+      <Hsp_score>911</Hsp_score>
+      <Hsp_evalue>2.28008e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQK--------TASGAETTKNSSRRDELLATAGRMFAENGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDDLFAKYRDIAAAGLSATETLRRLVIASFESIDAERNAVAIYQDEAKRLAGQERFAYISELNVEFRQLWHAVLQRGVDDGEFRPDLDVELVYRFIRDTVWVAVRWYRPGGALSVEAIADQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQ          AS A+    SSRRDELLATAGRMFAE GLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFA+YR IAA+  SATETLR LVIASFESIDAERNAVAIYQDEAKRL+GQERFAYISELNVEFRQLW +VLQRGV++GEFR DLDVELVYRF+RDTVWVAVRWYRPGG+++V++IADQYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_131734071.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia paraffinivorans] &gt;emb|VFA88274.1| HTH-type transcriptional repressor KstR2 [Gordonia paraffinivorans]</Hit_def>
+  <Hit_accession>WP_131734071</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>353.984</Hsp_bit-score>
+      <Hsp_score>907</Hsp_score>
+      <Hsp_evalue>1.09361e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQK--------TASGAETTKNSSRRDELLATAGRMFAENGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDDLFEKYRAIAASGLSATETLRRLVIASFESIDAERNAVAIYQDEAKRLSSQERFSYISELNVEFRQLWHAVLQRGVDEGEFRPDLDVELVYRFMRDTVWVAVRWYRPGGALSVEKIADQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQ          AS A+    SSRRDELLATAGRMFAE GLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLF +YR IAAS  SATETLR LVIASFESIDAERNAVAIYQDEAKRLS QERF+YISELNVEFRQLW +VLQRGV+ GEFR DLDVELVYRFMRDTVWVAVRWYRPGG+++V+ IADQYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_006901666.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia paraffinivorans] &gt;dbj|GAC85446.1| putative TetR family transcriptional regulator [Gordonia paraffinivorans NBRC 108238]</Hit_def>
+  <Hit_accession>WP_006901666</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>353.214</Hsp_bit-score>
+      <Hsp_score>905</Hsp_score>
+      <Hsp_evalue>2.02074e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MSPRGQK--------TASGAETTKNSSRRDELLATAGRMFAENGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDELFAKYRDIAAAGLSATETLRRLVIASFESIDAERNAVAIYQDEAKRLSSQERFSYISELNVEFRQLWHAVLQRGVDEGEFRPDLDVELVYRFMRDTVWVAVRWYRPGGALSVEKIADQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MSPRGQ          AS A+    SSRRDELLATAGRMFAE GLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLD+LFA+YR IAA+  SATETLR LVIASFESIDAERNAVAIYQDEAKRLS QERF+YISELNVEFRQLW +VLQRGV+ GEFR DLDVELVYRFMRDTVWVAVRWYRPGG+++V+ IADQYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>emb|VTS60655.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional repressor KstR2 [Gordonia terrae]</Hit_def>
+  <Hit_accession>VTS60655</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>351.288</Hsp_bit-score>
+      <Hsp_score>900</Hsp_score>
+      <Hsp_evalue>3.87886e-121</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYREIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSSQERFAYISELNVEFRRLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMSVDSIADQYLSVVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYR+IAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLS QERFAYISELNVEFR+LWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSM+VDSIADQYLSVVLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_174324752.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Gordonia] &gt;gb|MBA5847245.1| TetR/AcrR family transcriptional regulator [Gordonia amicalis]</Hit_def>
+  <Hit_accession>WP_174324752</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.428</Hsp_bit-score>
+      <Hsp_score>877</Hsp_score>
+      <Hsp_evalue>1.47163e-117</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>LLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MLATAGRMFAENGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDDLFARYRQIASAGLSATETLRGLVVASFESIDAERNAVAIYQDEAKRLSGQERFGYISELNVEFRQLWHAVLQRGVDDGEFRPDLDVELVYRFMRDTVWVAVRWYRPGGPMTVESIADQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>+LATAGRMFAE GLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFARYRQIA++  SATETLRGLV+ASFESIDAERNAVAIYQDEAKRLSGQERF YISELNVEFRQLW +VLQRGV++GEFR DLDVELVYRFMRDTVWVAVRWYRPGG MTV+SIADQYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_208863717.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia westfalica]</Hit_def>
+  <Hit_accession>WP_208863717</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.576</Hsp_bit-score>
+      <Hsp_score>867</Hsp_score>
+      <Hsp_evalue>4.60379e-116</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>LLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MLATAGRMFAENGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDDLFARYREIAGAGLSASETLRGLVVASFESIDAERNAVAIYQDEAKRLSGQERFGYISELNVEFRQLWHAVLQRGVDDGEFRPDLDVELVYRFMRDTVWVAVRWYRPGGAMTVEAIADQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>+LATAGRMFAE GLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFARYR+IA +  SA+ETLRGLV+ASFESIDAERNAVAIYQDEAKRLSGQERF YISELNVEFRQLW +VLQRGV++GEFR DLDVELVYRFMRDTVWVAVRWYRPGG+MTV++IADQYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_012835665.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia bronchialis] &gt;gb|ACY23162.1| regulatory protein TetR [Gordonia bronchialis DSM 43247] &gt;gb|MCC3325946.1| TetR/AcrR family transcriptional regulator [Gordonia bronchialis] &gt;gb|QGS23431.1| TetR family transcriptional regulator [Gordonia bronchialis] &gt;emb|STQ66125.1| HTH-type transcriptional repressor KstR2 [Gordonia bronchialis]</Hit_def>
+  <Hit_accession>WP_012835665</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.961</Hsp_bit-score>
+      <Hsp_score>868</Hsp_score>
+      <Hsp_evalue>5.52603e-116</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>RSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>QSTRRDELLATAGQMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKEAMVDEILRGFLDDLFDRYRAIAAAGLSATETLRQLVIASFESIDAQRNAVAIYQDEAKRLAGQARFGYIDTLNVEFRQLWQAVLQRGVDDGEFRADLDVVLVYRFLRDTVWVAVRWYRPGGSLTVEAIADQYLTVVLDGLLPR</Hsp_hseq>
+      <Hsp_midline>+S+RRDELLATAG+MFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKE+MVDEILRGFLDDLF RYR IAA+  SATETLR LVIASFESIDA+RNAVAIYQDEAKRL+GQ RF YI  LNVEFRQLWQ+VLQRGV++GEFRADLDV LVYRF+RDTVWVAVRWYRPGGS+TV++IADQYL+VVLDG+LPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_223372569.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Gordonia bronchialis] &gt;gb|UAK36208.1| TetR/AcrR family transcriptional regulator [Gordonia bronchialis]</Hit_def>
+  <Hit_accession>WP_223372569</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.576</Hsp_bit-score>
+      <Hsp_score>867</Hsp_score>
+      <Hsp_evalue>6.95661e-116</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>RSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>QSTRRDELLATAGQMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKEAMVDEILRGFLDDLFDRYRAIAAAGLSATETLRQLVIASFESIDAQRNAVAIYQDEAKRLAGQVRFGYIDTLNVEFRQLWQAVLQRGVDDGEFRADLDVVLVYRFLRDTVWVAVRWYRPGGSLTVEAIADQYLTVVLDGLLPR</Hsp_hseq>
+      <Hsp_midline>+S+RRDELLATAG+MFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKE+MVDEILRGFLDDLF RYR IAA+  SATETLR LVIASFESIDA+RNAVAIYQDEAKRL+GQ RF YI  LNVEFRQLWQ+VLQRGV++GEFRADLDV LVYRF+RDTVWVAVRWYRPGGS+TV++IADQYL+VVLDG+LPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_187590025.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia sp. OPL2] &gt;gb|ROZ84941.1| TetR family transcriptional regulator [Gordonia sp. OPL2]</Hit_def>
+  <Hit_accession>WP_187590025</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.576</Hsp_bit-score>
+      <Hsp_score>867</Hsp_score>
+      <Hsp_evalue>8.51215e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSPRGQTRIDANGRTAASTADAPTRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MAPRGSV----------------TGTTRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRSFLDDLFARYREIAGSGLSAAETLRGLVVASFESIDAQRNAVAIYQDEAKRLAGQERFAYIDELNTEFRQLWHAVLRRGVDDGEFRADLDVELAYRFLRDTVWVAVRWYRPGGALAADDIARQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>M+PRG                  T ++RRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFARYR+IA S  SA ETLRGLV+ASFESIDA+RNAVAIYQDEAKRL+GQERFAYI ELN EFRQLW +VL+RGV++GEFRADLDVEL YRF+RDTVWVAVRWYRPGG++  D IA QYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_160900086.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia mangrovi] &gt;gb|MXP19903.1| TetR family transcriptional regulator [Gordonia mangrovi]</Hit_def>
+  <Hit_accession>WP_160900086</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.265</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>6.77346e-115</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>TRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>TGSTRRDELLATAGRMFAENGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYREIAAAGLSAADTLRGLVVASFESIDAQRNAVAIYQDEAKRLAAQERFGYIGELNTEFRQLWHAVLRRGVDDGEFRADLDVELAYRFLRDTVWVAVRWYRPGGALSADDIAGQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>T S+RRDELLATAGRMFAE GLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYR+IAA+  SA +TLRGLV+ASFESIDA+RNAVAIYQDEAKRL+ QERF YI ELN EFRQLW +VL+RGV++GEFRADLDVEL YRF+RDTVWVAVRWYRPGG+++ D IA QYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_210735916.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Gordonia rubripertincta]</Hit_def>
+  <Hit_accession>WP_210735916</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.954</Hsp_bit-score>
+      <Hsp_score>855</Hsp_score>
+      <Hsp_evalue>2.9367e-114</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>LLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MLATAGRMFAENGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDDLFARYREIAGAGLPASETLRGLVVASFESIDAERNAVAIYQDEAKRLSGQERFGYIGELNVEFRQLWHAVLQRGVDDGEFRPDLDVELVYRFMRDTVWVAVRWYRPGGPMSVESIADQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>+LATAGRMFAE GLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFARYR+IA +   A+ETLRGLV+ASFESIDAERNAVAIYQDEAKRLSGQERF YI ELNVEFRQLW +VLQRGV++GEFR DLDVELVYRFMRDTVWVAVRWYRPGG M+V+SIADQYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_064861309.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia sp. 852002-10350_SCH5691597] &gt;gb|OBA74343.1| TetR family transcriptional regulator [Gordonia sp. 852002-10350_SCH5691597]</Hit_def>
+  <Hit_accession>WP_064861309</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.028</Hsp_bit-score>
+      <Hsp_score>850</Hsp_score>
+      <Hsp_evalue>2.64165e-113</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>SSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>STRRDELLATAGRMFAEQGLRSTTVRDIADSAGILSGSLYHHFDSKESMVDEILRGFLDALFARYQEIAAAELSATETLRELVVASFESIGAQRHAVAIYQDEAKRLAGQERFAYINERNVEFRELWHSVLARGVADGEFRADLDIELAYRFLRDTVWVAVRWYRPGGSLSVDDIAKQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>S+RRDELLATAGRMFAEQGLRSTTVRDIAD+AGILSGSLYHHFDSKESMVDEILRGFLD LFARY++IAA+  SATETLR LV+ASFESI A+R+AVAIYQDEAKRL+GQERFAYI+E NVEFR+LW SVL RGV +GEFRADLD+EL YRF+RDTVWVAVRWYRPGGS++VD IA QYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|MAU80604.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia sp.]</Hit_def>
+  <Hit_accession>MAU80604</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.028</Hsp_bit-score>
+      <Hsp_score>850</Hsp_score>
+      <Hsp_evalue>3.07255e-113</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>TRSSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>TGSTRRDELLATAGQMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLEDLFARYREIAAAGLTAAETLRRLVVASFESIDAQRNAVAIYQDEAKRLAAQERFGYIGELNTEFRQLWHAVLRRGVDDGEFRADLDVELAYRFLRDTVWVAVRWYRPGGALSADDIAEQYLSIVLDGMLPR</Hsp_hseq>
+      <Hsp_midline>T S+RRDELLATAG+MFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFL+DLFARYR+IAA+  +A ETLR LV+ASFESIDA+RNAVAIYQDEAKRL+ QERF YI ELN EFRQLW +VL+RGV++GEFRADLDVEL YRF+RDTVWVAVRWYRPGG+++ D IA+QYLS+VLDG+LPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_210754191.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia paraffinivorans]</Hit_def>
+  <Hit_accession>WP_210754191</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.257</Hsp_bit-score>
+      <Hsp_score>848</Hsp_score>
+      <Hsp_evalue>4.26273e-113</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>LLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MLATAGRMFAENGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDDLFEKYRAIAASGLSATETLRRLVIASFESIDAERNAVAIYQDEAKRLSSQERFSYISELNVEFRQLWHAVLQRGVDEGEFRPDLDVELVYRFMRDTVWVAVRWYRPGGALSVEKIADQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>+LATAGRMFAE GLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLF +YR IAAS  SATETLR LVIASFESIDAERNAVAIYQDEAKRLS QERF+YISELNVEFRQLW +VLQRGV+ GEFR DLDVELVYRFMRDTVWVAVRWYRPGG+++V+ IADQYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_210754823.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia paraffinivorans]</Hit_def>
+  <Hit_accession>WP_210754823</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.487</Hsp_bit-score>
+      <Hsp_score>846</Hsp_score>
+      <Hsp_evalue>8.69323e-113</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>LLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MLATAGRMFAENGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDELFAKYRDIAAAGLSATETLRRLVIASFESIDAERNAVAIYQDEAKRLSSQERFSYISELNVEFRQLWHAVLQRGVDEGEFRPDLDVELVYRFMRDTVWVAVRWYRPGGALSVEKIADQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>+LATAGRMFAE GLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLD+LFA+YR IAA+  SATETLR LVIASFESIDAERNAVAIYQDEAKRLS QERF+YISELNVEFRQLW +VLQRGV+ GEFR DLDVELVYRFMRDTVWVAVRWYRPGG+++V+ IADQYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_039856320.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR family transcriptional regulator [Gordonia] &gt;gb|NKY92365.1| TetR/AcrR family transcriptional regulator [Gordonia sputi] &gt;gb|OBC10158.1| TetR family transcriptional regulator [Gordonia sp. 852002-50395_SCH5434458] &gt;gb|OBC17695.1| TetR family transcriptional regulator [Gordonia sp. 852002-50816_SCH5313054-a] &gt;gb|OBC19269.1| TetR family transcriptional regulator [Gordonia sp. 852002-50816_SCH5313054-c]</Hit_def>
+  <Hit_accession>WP_039856320</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.102</Hsp_bit-score>
+      <Hsp_score>845</Hsp_score>
+      <Hsp_evalue>1.87944e-112</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>SSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>STRRDELLATAGRMFAEQGLRSTTVRDIADSAGILSGSLYHHFDSKESMVDEILRSFLDSLFARYQEIAAADLSATETLRELVVASFESIGAQRHAVAIYQDEAKRLAGQERFAYINERNVEFRELWHSVLARGVADGEFRADLDIELAYRFLRDTVWVAVRWYRPGGSLSVDDIAKQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>S+RRDELLATAGRMFAEQGLRSTTVRDIAD+AGILSGSLYHHFDSKESMVDEILR FLD LFARY++IAA+  SATETLR LV+ASFESI A+R+AVAIYQDEAKRL+GQERFAYI+E NVEFR+LW SVL RGV +GEFRADLD+EL YRF+RDTVWVAVRWYRPGGS++VD IA QYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_052003866.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia aichiensis]</Hit_def>
+  <Hit_accession>WP_052003866</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.946</Hsp_bit-score>
+      <Hsp_score>842</Hsp_score>
+      <Hsp_evalue>5.15224e-112</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>SSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>STRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRSFLDSLFTRYQEIAGADMSATETLRELVVTSFESIGAQRNAVAIYQDEAKRLAGQERFAYINERNVEFRELWHSVLARGVADGEFRADLDIELAYRFLRDTVWVAVRWYRPGGSLSVDDIAKQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>S+RRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLD LF RY++IA +  SATETLR LV+ SFESI A+RNAVAIYQDEAKRL+GQERFAYI+E NVEFR+LW SVL RGV +GEFRADLD+EL YRF+RDTVWVAVRWYRPGGS++VD IA QYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_049699924.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia jacobaea] &gt;gb|KNA90352.1| TetR family transcriptional regulator [Gordonia jacobaea]</Hit_def>
+  <Hit_accession>WP_049699924</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.561</Hsp_bit-score>
+      <Hsp_score>841</Hsp_score>
+      <Hsp_evalue>7.47913e-112</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>SSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>STRRDELLATAGRMFAEQGLRSTTVRDIADSAGILSGSLYHHFDSKESMVDEILRSFLDSLFARYQEIAAADLSATETLRELVVASFESIGAQRHAVAIYQDEAKRLAGQERFAYIKKRNVEFRELWHSVLARGVADGEFRADLDIELAYRFLRDTVWVAVRWYRPGGSLSVDDIAKQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>S+RRDELLATAGRMFAEQGLRSTTVRDIAD+AGILSGSLYHHFDSKESMVDEILR FLD LFARY++IAA+  SATETLR LV+ASFESI A+R+AVAIYQDEAKRL+GQERFAYI + NVEFR+LW SVL RGV +GEFRADLD+EL YRF+RDTVWVAVRWYRPGGS++VD IA QYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_006338225.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia rhizosphera] &gt;dbj|GAB93232.1| putative TetR family transcriptional regulator [Gordonia rhizosphera NBRC 16068]</Hit_def>
+  <Hit_accession>WP_006338225</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.561</Hsp_bit-score>
+      <Hsp_score>841</Hsp_score>
+      <Hsp_evalue>8.67908e-112</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>SSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>STRRDELLATAGKMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDGLFDRYRAIAASGLSATDTLRQLVVASFESIDAQRNAVAIYQDEAKRLAAQDRFSYIGELNTEFRELWRAVLQRGVDDGEFRIDLDVELAYRFLRDTVWVAVRWYRPGGALSADDIADQYLSIVLNGILPR</Hsp_hseq>
+      <Hsp_midline>S+RRDELLATAG+MFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLD LF RYR IAAS  SAT+TLR LV+ASFESIDA+RNAVAIYQDEAKRL+ Q+RF+YI ELN EFR+LW++VLQRGV++GEFR DLDVEL YRF+RDTVWVAVRWYRPGG+++ D IADQYLS+VL+GILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_064903601.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia sp. 852002-51296_SCH5728562-b] &gt;gb|OBA41908.1| TetR family transcriptional regulator [Gordonia sp. 852002-51296_SCH5728562-b]</Hit_def>
+  <Hit_accession>WP_064903601</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.176</Hsp_bit-score>
+      <Hsp_score>840</Hsp_score>
+      <Hsp_evalue>9.41499e-112</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>SSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>STRRDELLATAGRMFAEQGLRSTTVRDIADSAGILSGSLYHHFDSKESMVDEILRSFLDSLFARYQEIAAADLSATETLRELVVASFESIGAQRHAVAIYQDEAKRLAGQERFAYINERNVEFRELWHSVLAHGVADGEFRADLDIELAYRFLRDTVWVAVRWYRPGGSLSVDDIAKQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>S+RRDELLATAGRMFAEQGLRSTTVRDIAD+AGILSGSLYHHFDSKESMVDEILR FLD LFARY++IAA+  SATETLR LV+ASFESI A+R+AVAIYQDEAKRL+GQERFAYI+E NVEFR+LW SVL  GV +GEFRADLD+EL YRF+RDTVWVAVRWYRPGGS++VD IA QYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_227918898.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Gordonia otitidis] &gt;gb|UEA57668.1| TetR/AcrR family transcriptional regulator [Gordonia otitidis]</Hit_def>
+  <Hit_accession>WP_227918898</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.25</Hsp_bit-score>
+      <Hsp_score>835</Hsp_score>
+      <Hsp_evalue>6.69755e-111</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>SSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>STRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRSFLDSLFTRYQEIAGADMSATETLRELVVTSFESIGAQRNAVAIYQDEAKHLAGQERFTYINERNVEFRELWHSVLARGVADGEFRSDLDIELVYRFLRDTVWVAVRWYRPGGSLSVDDIAKQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>S+RRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLD LF RY++IA +  SATETLR LV+ SFESI A+RNAVAIYQDEAK L+GQERF YI+E NVEFR+LW SVL RGV +GEFR+DLD+ELVYRF+RDTVWVAVRWYRPGGS++VD IA QYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_161061749.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia sp. SID5947] &gt;gb|MYR08394.1| TetR family transcriptional regulator [Gordonia sp. SID5947]</Hit_def>
+  <Hit_accession>WP_161061749</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.865</Hsp_bit-score>
+      <Hsp_score>834</Hsp_score>
+      <Hsp_evalue>8.11957e-111</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>SSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>STRRDELLTTAGKMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESIVDEILRGFLDDLFARYRVIADAGLTATETLRGLIVSSFEAIDEQRNAVAIYQDEAKRLAGQERFGYIEERNTEFRQLWHAVLRRGVDHGEFRADLDVELAYRFLRDTVWVAVRWYRPGGALSADDIAGQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>S+RRDELL TAG+MFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKES+VDEILRGFLDDLFARYR IA +  +ATETLRGL+++SFE+ID +RNAVAIYQDEAKRL+GQERF YI E N EFRQLW +VL+RGV++GEFRADLDVEL YRF+RDTVWVAVRWYRPGG+++ D IA QYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_230461972.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Gordonia sp. 135]</Hit_def>
+  <Hit_accession>WP_230461972</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.094</Hsp_bit-score>
+      <Hsp_score>832</Hsp_score>
+      <Hsp_evalue>8.94735e-111</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>MFAENGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRRFLDDLFARYREIAGAGLSASETLRGLVVASFESIDAERNAVAIYQDEAKRLSGQERFGYIGELNVEFRQLWHAVLQRGVDDGEFRPDLDVELVYRFMRDTVWVAVRWYRPGGPMTVESIADQYLSIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>MFAE GLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILR FLDDLFARYR+IA +  SA+ETLRGLV+ASFESIDAERNAVAIYQDEAKRLSGQERF YI ELNVEFRQLW +VLQRGV++GEFR DLDVELVYRFMRDTVWVAVRWYRPGG MTV+SIADQYLS+VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_007619947.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Gordonia soli] &gt;dbj|GAC68110.1| putative TetR family transcriptional regulator [Gordonia soli NBRC 108243]</Hit_def>
+  <Hit_accession>WP_007619947</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>1.65768e-110</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>SSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>SSRRDELLATAGQMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDELLRGFLDQLFARYREIVATGSSATETLRQLVVASFESIDADHHAVAIYQDEAKRLAAQERFGYINDRNTEFRSLWHSVLQSGVASGEFRSDLDIELVYRFMRDTVWVAVRWYRPGGSRPVSAIADQYLSVVLDGIVPR</Hsp_hseq>
+      <Hsp_midline>SSRRDELLATAG+MFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDE+LRGFLD LFARYR+I A+  SATETLR LV+ASFESIDA+ +AVAIYQDEAKRL+ QERF YI++ N EFR LW SVLQ GV +GEFR+DLD+ELVYRFMRDTVWVAVRWYRPGGS  V +IADQYLSVVLDGI+PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_124710176.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Gordonia insulae] &gt;gb|AZG47879.1| HTH-type transcriptional repressor KstR2 [Gordonia insulae]</Hit_def>
+  <Hit_accession>WP_124710176</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>324.709</Hsp_bit-score>
+      <Hsp_score>831</Hsp_score>
+      <Hsp_evalue>2.25013e-110</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>SSRRDELLATAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYRQIAASSKSATETLRGLVIASFESIDAERNAVAIYQDEAKRLSGQERFAYISELNVEFRQLWQSVLQRGVENGEFRADLDVELVYRFMRDTVWVAVRWYRPGGSMTVDSIADQYLSVVLDGILPR</Hsp_qseq>
+      <Hsp_hseq>STRRDELLTTAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYREIADSSLTAADTLRRLVVASFEAIDAQRNAVAIYQDEAKRLAGQDRFGYIGERNTEFRELWHAVLRRGVDDGEFRADLDVELAYRFLRDTVWVAVRWYRPGGELSADDIAGQYLAIVLDGILPR</Hsp_hseq>
+      <Hsp_midline>S+RRDELL TAGRMFAEQGLRSTTVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFARYR+IA SS +A +TLR LV+ASFE+IDA+RNAVAIYQDEAKRL+GQ+RF YI E N EFR+LW +VL+RGV++GEFRADLDVEL YRF+RDTVWVAVRWYRPGG ++ D IA QYL++VLDGILPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>449466297</Statistics_db-num>
+      <Statistics_db-len>1020683722</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

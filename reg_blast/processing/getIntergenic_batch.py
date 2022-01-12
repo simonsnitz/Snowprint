@@ -1,7 +1,8 @@
 import pickle
 import requests
 from Bio import SeqIO
-import processing.acc2operon as a2o
+import processing.acc2operon_batch as a2os
+#import acc2operon_batch as a2os
 import time
 import statistics
 
@@ -83,22 +84,12 @@ def operon2Intergenic(operon, regIndex, NCacc):
         print('intergenic region over 800bp')
         return None
 
-    '''
-    if length <= 800:
-        output = ""
-        for i in intergenic.split('\n')[1:]:
-            output += i
-        return {"intergenicSeq": output, "regType": regType}
-    else:
-        print('intergenic over 800bp detected')
-        return None
-    '''
 
 
-def appendIntergenic(acc):
+def appendIntergenic_batch(acc):
 
-    inputPath = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', f"cache//homolog_metadata/{acc}.pkl"))
-    updatedPath = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', f"cache//homolog_metadata/updated_metadata/{acc}.pkl"))
+    inputPath = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', f"cache/homolog_metadata/{acc}.pkl"))
+    updatedPath = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', f"cache/homolog_metadata/updated_metadata/{acc}.pkl"))
 
 
     try:
@@ -110,24 +101,27 @@ def appendIntergenic(acc):
 
 
     operonProcessingTimes = [] 
-    
 
-    for i in range(0,len(homologList)):
+    if "regType" not in homologList[0]:
 
-        if "regType" not in homologList[i]:
+        getOperons_start = time.time()
 
-            getOperon_start = time.time()
+            # get operon
 
-            data = a2o.acc2operon(homologList[i]["accession"])
+        accessions = [i["accession"] for i in homologList]
+
+        data = a2os.batch_acc2operon(accessions)
+        
+        for i in range(0, len(data)):
             try:
-                homologList[i]["regIndex"] = data["regIndex"]
-                homologList[i]["operon"] = data["operon"]
-                homologList[i]["organism"] = data["organism"]           
-    
-                intergenic = operon2Intergenic(data["operon"], data["regIndex"], data["genome"])
+                homologList[i]["regIndex"] = data[i]["data"]["regIndex"]
+                homologList[i]["operon"] = data[i]["data"]["operon"]           
+                        # efetch request
+                intergenic = operon2Intergenic(data[i]["data"]["operon"],\
+                     data[i]["data"]["regIndex"], data[i]["data"]["genome"])
                 homologList[i]["intergenic"] = intergenic["intergenicSeq"]
                 homologList[i]["regType"] = intergenic["regType"]
-                
+                    
                 print('got intergenic region for '+str(i))
 
                     #cache results
@@ -137,32 +131,33 @@ def appendIntergenic(acc):
             except:
                 print("no data for intergenic region at position "+str(i))
 
-            getOperon_end = time.time()
+        getOperons_end = time.time()
 
-            print("operon "+str(i)+" took "+str(getOperon_end - getOperon_start)+" seconds")
-            operonProcessingTimes.append(getOperon_end-getOperon_start)
+        print("operon "+str(i)+" took "+str(getOperons_end - getOperons_start)+" seconds")
+        operonProcessingTimes.append(getOperons_end-getOperons_start)
+        
+
+            # remove entries without a set intergenic region
+        new_homologList = [i for i in homologList if "intergenic" in i]
+        with open(updatedPath, "wb") as f:
+            pickle.dump(new_homologList,f)
+
+            # print statistics
+        print("total time spent getting operons: "+str(sum(operonProcessingTimes)))
+        try:
+            print("average processing time: "+str(statistics.mean(operonProcessingTimes)))
+            print("median processing time: "+str(statistics.median(operonProcessingTimes)))
+        except:
+            pass
 
     
-        #remove entries without a set intergenic region
-    new_homologList = [i for i in homologList if "intergenic" in i]
-    with open(updatedPath, "wb") as f:
-        pickle.dump(new_homologList,f)
-
-
-    print("total time spent getting operons: "+str(sum(operonProcessingTimes)))
-    try:
-        print("average processing time: "+str(statistics.mean(operonProcessingTimes)))
-        print("median processing time: "+str(statistics.median(operonProcessingTimes)))
-    except:
-        pass
-
-
-    print("data found for "+str(len(new_homologList))+" entries")
+    else:
+        print("intergenic data for operons already cached")
 
     
 
 
 if __name__ == "__main__":
 
-    print('main')
+    appendIntergenic_batch("WP_000113282")
 
