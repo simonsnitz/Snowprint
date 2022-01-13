@@ -149,6 +149,6 @@ if __name__ == "__main__":
     inputFile = "octanol_operons2.pkl"
     outputFile = "octanol_graphic_native.js"
 
-    saveGraphic(inputFile, outputFile)
+    # saveGraphic(inputFile, outputFile)
 
 

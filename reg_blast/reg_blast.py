@@ -19,7 +19,10 @@ testo = "EHN63435"
 acc = testo
 
 
-regulators = [testo, tetr]
+# regulators = [testo, tetr, sace_0303, rosr, dszgr, edcr, pnbx]
+regulators = ["EHN63435", "CAM88408", "SACOL2593", "CAL99652.1", "WP_009944749.1", "WP_011014502.1", "WP_005379994.1", "WP_003416573.1", "WP_003416573.1" \
+    , "WP_087743244.1", "WP_011028825.1", "WP_010986683.1"]
+
 
 max_seqs = 50
 perc_ident = 50
