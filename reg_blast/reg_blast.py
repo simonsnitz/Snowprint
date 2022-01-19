@@ -2,7 +2,7 @@ from processing.acc2homologs import acc2homolog_list
 from processing.getIntergenic_batch import appendIntergenic_batch
 from processing.operator_utils import appendOperatorMetadata
 
-from display.create_operator_HTML import create_operator_html
+#from display.create_operator_HTML import create_operator_html
 
 
 import webbrowser
@@ -20,9 +20,19 @@ acc = testo
 
 
 # regulators = [testo, tetr, sace_0303, rosr, dszgr, edcr, pnbx]
-regulators = ["EHN63435", "CAM88408", "SACOL2593", "CAL99652.1", "WP_009944749.1", "WP_011014502.1", "WP_005379994.1", "WP_003416573.1", "WP_003416573.1" \
-    , "WP_087743244.1", "WP_011028825.1", "WP_010986683.1"]
+regulators = ["EHN63435", "CAM88408", "SACOL2593", "CAL99652.1", "WP_009944749.1", "WP_011014502.1", "WP_005379994.1", "WP_003416573.1", \
+    "WP_011028825.1", "WP_010986683.1", "WP_003861276.1", "QWF22305.1", "WP_058249973.1", "WP_000802707.1", "AZI36850", "WP_012480398.1",\
+    "WP_001295289.1", "NP_639852.1", "WP_087743244.1", "WP_011089760.1", "WP_003112936.1", "AAY80459", "AEM66515.1", "WP_009949582.1", \
+    "WP_013366341.1", "WP_001807342.1", "WP_000113282.1", "WP_014859138", "WP_000113609.1", "WP_158491109", "WP_011336736.1", "WP_024719023.1",\
+    "BAA03510.1", "NP_414847.3", "WP_169433046.1", "WP_010905492.1", "WP_011728885.1", "WP_011030045.1", "NP_252264.1", "NP_415533.1", \
+    "WP_109753234.1", "WP_011015509.1", "AJS09379.1", "WP_011087095.1", "WP_052413891.1", "WP_011014162.1", "WP_004926705.1", "WP_011156222.1", \
+    "BAK67179", "ACY33523", "WP_000805902.1", "WP_000224470.1", "WP_000762401.1", "WP_013636164.1", "WP_003514478.1", "WP_011291385.1", \
+    "WP_011029024.1", "NP_388271.1", "WP_010920250.1", "WP_003243070.1", "WP_150675592.1", "WP_000174305.1", "WP_087081127.1", "CAG68545", \
+    "WP_011731512.1", "WP_011594778.1", "ABP48117.1", "WP_087081125.1"]
 
+
+# Had an error caching blast results for WP_003416573.1, WP_087743244.1
+# urllib.error.URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
 
 max_seqs = 50
 perc_ident = 50
@@ -52,7 +62,7 @@ def acc2operator_data(acc, max_seqs):
 
     # Create operator data for each input regulator, then create an HTML display and open it.
 operators = [acc2operator_data(reg, max_seqs) for reg in regulators]
-create_operator_html(operators) 
+#create_operator_html(operators) 
 webbrowser.open('cache/HTML/'+str(date.today())+'.html')
 
 
