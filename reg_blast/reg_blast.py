@@ -2,11 +2,13 @@ from processing.acc2homologs import acc2homolog_list
 from processing.getIntergenic_batch import appendIntergenic_batch
 from processing.operator_utils import appendOperatorMetadata
 
-from display.create_operator_HTML import create_operator_html
+from display.append_operon import create_operon_html
+from display.append_operator import create_operator_html
 
-
+import imgkit
 import webbrowser
-from datetime import date
+from pathlib import Path
+import pickle
 
     # Input parameters
 tetr = "WP_000113282.1"
@@ -18,16 +20,30 @@ rosr = "WP_003861276.1"
 testo = "EHN63435"
 acc = testo
 
-
+"""
+    Input parameters:
+"""
 # regulators = [testo, tetr, sace_0303, rosr, dszgr, edcr, pnbx]
-regulators = ["EHN63435", "CAM88408", "SACOL2593", "CAL99652.1", "WP_009944749.1", "WP_011014502.1", "WP_005379994.1", "WP_003416573.1", "WP_003416573.1" \
-    , "WP_087743244.1", "WP_011028825.1", "WP_010986683.1"]
+#regulators = ["EHN63435", "CAM88408", "WP_001224188.1", "CAL99652", "WP_009944749.1", "WP_011014502", "WP_005379994", "WP_003416573" \
+#    , "WP_011028825", "WP_010986683"]
 
+regulators = [testo]
 
 max_seqs = 50
 perc_ident = 50
 to_align = "find_inverted_repeat"
 # Options: [ "find_inverted_repeat", "whole_interoperon", or custom string]
+
+
+"""
+ERRORS TO ADDRESS:
+
+1. Had an error caching blast results for WP_003416573.1, WP_087743244.1
+   urllib.error.URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+
+2. 
+"""
+
 
     # Having period in accession name screws things up. Remove it
 if acc[-2] == ".":
@@ -49,13 +65,39 @@ def acc2operator_data(acc, max_seqs):
     operator_data = appendOperatorMetadata(acc, to_align, perc_ident)
     return operator_data
 
-
-    # Create operator data for each input regulator, then create an HTML display and open it.
+    # Create operator object for each input regulator
 operators = [acc2operator_data(reg, max_seqs) for reg in regulators]
+
+
+    # Get operon object from cache
+with open(f'cache/homolog_metadata/updated_metadata/{acc}.pkl', mode="rb") as f:
+    operons = [i for i in pickle.load(f)]
+operon = operons[0]
+operon["organism"] = "placeholder"
+operon = [operon]
+
+
+    # update operon and operator JS files
+create_operon_html(operon)
 create_operator_html(operators) 
-webbrowser.open('cache/HTML/'+str(date.today())+'.html')
 
 
+    # Open updated HTML page
+p = Path("./display/Webpage")
+fp = p / 'report.html'
+html_name = str(fp.resolve())
+
+webbrowser.open(html_name)
+
+
+    # Create an image from HTML display
+options = {
+    'format': 'png',
+    'width': 1000,
+    'height':700,
+    'encoding': "UTF-8"
+}
+imgkit.from_file(html_name, 'display/report.png', options=options)
 
 
 

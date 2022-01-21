@@ -1,11 +1,11 @@
 from Bio.Blast.NCBIWWW import qblast
 from Bio.Blast.NCBIXML import read
 
-from pathlib import Path
-from pprint import pprint
+#from pathlib import Path
+#from pprint import pprint
 
-from Bio import SeqIO
-from Bio.SeqRecord import SeqRecord
+#from Bio import SeqIO
+#from Bio.SeqRecord import SeqRecord
 import requests
 import pickle
 
@@ -31,12 +31,10 @@ def accID2sequence(accID):
 #def blast_and_cache(sequence, acc, perc_ident=50, db="nr", hitlist_size=50):   hitlist_size would trump perc_ident
 def blast_and_cache(sequence, acc, hitlist_size=100, db="nr"):
         with open(f'cache/blast_cache/{acc}.xml', mode="w+") as f:
-            print("found this sequence:\n"+sequence)
-            print('entering blast function')
+            print("BLASTing this sequence:\n"+sequence)
             blast_results = qblast("blastp", db, sequence, hitlist_size=hitlist_size)
-            print('finished blast')
             f.write(blast_results.read())
-            print('cached blast result')
+            print('cached blast result for '+str(acc))
             return blast_results.read()
 
 
@@ -65,9 +63,9 @@ def acc2homolog_list(acc, hitlist_size):
         #check to see if blast result is already cached
     try:
         homologs = homologs2accID_ident(acc)
-        print('existing BLAST cache found')
+        print('existing BLAST cache found for '+str(acc))
     except:
-        print('no existing cache found')
+        print('no existing cache found for '+str(acc))
         sequence = accID2sequence(acc)
         blast_and_cache(sequence, acc, hitlist_size)
         homologs = homologs2accID_ident(acc)

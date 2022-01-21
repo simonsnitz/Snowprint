@@ -1,6 +1,6 @@
 import pickle
 from Bio.pairwise2 import align
-from pprint import pprint
+#from pprint import pprint
 from pathlib import Path
 
 """
@@ -251,88 +251,103 @@ Output: Array with consensus data for each input operator.
 
 def appendOperatorMetadata(acc, to_align, perc_ident):
     
-    homologListFile = f"cache/homolog_metadata/updated_metadata/{acc}.pkl"
+    # Path for operator data
+    p = Path('./cache/operator_data/')
+    filename = acc+".pkl"
+    fp = p / filename
 
-    with open(homologListFile, mode="rb") as f:
-        homologList = pickle.load(f)
-        
-        if to_align == "find_inverted_repeat":
+    if fp.is_file():
+        print("operator data is already cached for "+str(acc))
+        with open(fp, mode="rb") as f:
+            operator_data = pickle.load(f)
+            return operator_data
+    else:
 
-                # Iterates this function through multiple relevant scoring parameters
-            operators = []
+        homologListFile = f"cache/homolog_metadata/updated_metadata/{acc}.pkl"
 
-            test_params = [{"w":2,"l":-2}, {"w":2,"l":-3}, {"w":2,"l":-4}]
-
-            for i in test_params:
-                ops = [findBestPalindrome(intergenic=homologList[0]["intergenic"], \
-                shortest=5, longest=15, winScore=i["w"], lossScore=i["l"])][0]
-                for operator in ops:
-                    operators.append(operator)
+        with open(homologListFile, mode="rb") as f:
+            homologList = pickle.load(f)
             
+            if to_align == "find_inverted_repeat":
 
-        elif to_align == "whole_interoperon":
-            operators = [homologList[0]["intergenic"]]
-        else:
-            operators = [to_align]
-        
+                    # Iterates this function through multiple relevant scoring parameters
+                operators = []
 
-        homologList = [i for i in homologList if i["identity"] > perc_ident]
+                test_params = [{"w":2,"l":-2}, {"w":2,"l":-3}, {"w":2,"l":-4}]
 
-            # Identify the homolog with the lowest percent identity
-            # This should instead be a list of all identities. Then I can better 
-                # evaluate how BALANCED the identity distribution is (better metric).
-        lowest_identity = str(homologList[-1]["identity"])
-			
-            # Output data to be returned 
-        operator_data = { 
-            "accession": str(acc),
-            "input_seq": "None",
-            "lowest_perc_ident":lowest_identity,
-            "num_seqs": "None",
-            "consensus_score": 0,
-            "motif": "None"
-        }
-            # Iterate through predicted operators. Pick one with best consensus score
-        for operator in operators:
-            metrics = []
-            for i in homologList:
+                for i in test_params:
+                    ops = [findBestPalindrome(intergenic=homologList[0]["intergenic"], \
+                    shortest=5, longest=15, winScore=i["w"], lossScore=i["l"])][0]
+                    for operator in ops:
+                        operators.append(operator)
                 
-                homolog = {}
-                homolog["operator"] =  findOperatorInIntergenic(i["intergenic"], \
-                    operator["seq"])["operator"]
-                homolog["score"] =  findOperatorInIntergenic(i["intergenic"], \
-                    operator["seq"])["score"]
-                homolog["identity"] = i["identity"]
 
-                metrics.append(homolog)
-
-            consensus = getConsensus(metrics, alignment_type=to_align)
-
-            consensus_score = get_consensus_score(operator["seq"], consensus)
-            #print(operator["seq"], consensus_score, consensus["num_seqs"])
+            elif to_align == "whole_interoperon":
+                operators = [homologList[0]["intergenic"]]
+            else:
+                operators = [to_align]
             
-            operator["seq"] = findOperatorInIntergenic(homologList[0]["intergenic"], \
-                operator["seq"], 3)["operator"]
 
-                # Warning: Only the CONSENSUS SCORE is used to identify the 
-                    # best operator. This should also incorporate the
-                    # NUMBER OF ALIGNMENTS as a metric to make this decision.
+            homologList = [i for i in homologList if i["identity"] > perc_ident]
 
-            if consensus_score > operator_data["consensus_score"]:
-                operator_data["consensus_score"] = consensus_score
-                operator_data["input_seq"] = operator["seq"]
-                operator_data["num_seqs"] = consensus["num_seqs"]
-                operator_data["motif"] = consensus["motif_data"]
-                  
-        # Cache operator data
-        p = Path('./cache/operator_data/')
-        filename = acc+".pkl"
-        fp = p / filename
-        with fp.open("wb") as f:
-            pickle.dump(operator_data, f)
-            print("operator data for "+acc+" cached.")
-        
-        return operator_data
+                # Identify the homolog with the lowest percent identity
+                # This should instead be a list of all identities. Then I can better 
+                    # evaluate how BALANCED the identity distribution is (better metric).
+            lowest_identity = str(homologList[-1]["identity"])
+                
+                # Output data to be returned 
+            operator_data = { 
+                "accession": str(acc),
+                "input_seq": "None",
+                "lowest_perc_ident":lowest_identity,
+                "num_seqs": "None",
+                "consensus_score": 0,
+                "motif": "None"
+            }
+                # Iterate through predicted operators. Pick one with best consensus score
+            for operator in operators:
+                metrics = []
+                for i in homologList:
+                    try:
+                        homolog = {}
+                        homolog["operator"] =  findOperatorInIntergenic(i["intergenic"], \
+                            operator["seq"])["operator"]
+                        homolog["score"] =  findOperatorInIntergenic(i["intergenic"], \
+                            operator["seq"])["score"]
+                        homolog["identity"] = i["identity"]
+
+                        metrics.append(homolog)
+                    except:
+                        print('error parsing homologList')
+
+                consensus = getConsensus(metrics, alignment_type=to_align)
+
+                consensus_score = get_consensus_score(operator["seq"], consensus)
+                #print(operator["seq"], consensus_score, consensus["num_seqs"])
+                
+                operator["seq"] = findOperatorInIntergenic(homologList[0]["intergenic"], \
+                    operator["seq"], 3)["operator"]
+
+                    # Warning: Only the CONSENSUS SCORE is used to identify the 
+                        # best operator. This should also incorporate the
+                        # NUMBER OF ALIGNMENTS as a metric to make this decision.
+
+                if consensus_score > operator_data["consensus_score"]:
+                    operator_data["consensus_score"] = consensus_score
+                    operator_data["input_seq"] = operator["seq"]
+                    operator_data["num_seqs"] = consensus["num_seqs"]
+                    operator_data["motif"] = consensus["motif_data"]
+                    
+            # Cache operator data
+            #p = Path('./cache/operator_data/')
+            #filename = acc+".pkl"
+            #fp = p / filename
+
+            with fp.open("wb") as f:
+                pickle.dump(operator_data, f)
+                print("operator data for "+acc+" cached.")
+            
+            return operator_data
 
 
             # Returned as a list for compatability with downstream display script.

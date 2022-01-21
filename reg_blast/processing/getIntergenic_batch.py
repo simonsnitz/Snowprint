@@ -2,7 +2,6 @@ import pickle
 import requests
 from Bio import SeqIO
 import processing.acc2operon_batch as a2os
-#import acc2operon_batch as a2os
 import time
 import statistics
 
@@ -69,8 +68,6 @@ def operon2Intergenic(operon, regIndex, NCacc):
 
     if response.ok:
         intergenic = response.text
-        with open('cache/intergenic.fasta', mode='w+') as f:
-            f.write(intergenic)
     else:
         print('bad request')
 
@@ -144,15 +141,15 @@ def appendIntergenic_batch(acc):
 
             # print statistics
         print("total time spent getting operons: "+str(sum(operonProcessingTimes)))
-        try:
-            print("average processing time: "+str(statistics.mean(operonProcessingTimes)))
-            print("median processing time: "+str(statistics.median(operonProcessingTimes)))
-        except:
-            pass
+        #try:
+        #    print("average processing time: "+str(statistics.mean(operonProcessingTimes)))
+        #    print("median processing time: "+str(statistics.median(operonProcessingTimes)))
+        #except:
+        #    pass
 
     
     else:
-        print("intergenic data for operons already cached")
+        print("intergenic data already cached for "+str(acc))
 
     
 
