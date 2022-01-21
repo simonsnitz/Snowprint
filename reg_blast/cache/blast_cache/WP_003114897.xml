@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_57479</BlastOutput_query-ID>
+  <BlastOutput_query-def>WP_003114897.1 MULTISPECIES: MarR family transcriptional repressor MexR [Proteobacteria]</BlastOutput_query-def>
+  <BlastOutput_query-len>147</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_57479</Iteration_query-ID>
+  <Iteration_query-def>WP_003114897.1 MULTISPECIES: MarR family transcriptional repressor MexR [Proteobacteria]</Iteration_query-def>
+  <Iteration_query-len>147</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_003114897.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MarR family transcriptional repressor MexR [Proteobacteria] &gt;ref|NP_249115.1| multidrug resistance operon repressor MexR [Pseudomonas aeruginosa PAO1] &gt;sp|P52003.1| RecName: Full=Multidrug resistance operon repressor [Pseudomonas aeruginosa PAO1] &gt;gb|EAZ54784.1| multidrug resistance operon repressor MexR [Pseudomonas aeruginosa C3719] &gt;gb|KEA12874.1| MarR family transcriptional regulator [Pseudomonas aeruginosa C1913C] &gt;gb|KEA18756.1| MarR family transcriptional regulator [Pseudomonas aeruginosa C2159M] &gt;gb|KEA31886.1| MarR family transcriptional regulator [Pseudomonas aeruginosa C0324C] &gt;gb|KFB17109.1| MarR family transcriptional regulator [Pseudomonas aeruginosa PGPR2] &gt;emb|SCZ16513.1| Multidrug resistance operon repressor [Acinetobacter baumannii] &gt;emb|SVJ58453.1| transcriptional regulator [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_003114897</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>7.70487e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|AAT49504.1|</Hit_id>
+  <Hit_def>PA0424, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAT49504</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>9.9315e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|ANF04417.1|</Hit_id>
+  <Hit_def>multidrug efflux pump regulator, partial [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>ANF04417</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>1.0264e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_043090638.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|AAW82615.1| multidrug resistance operon repressor [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_043090638</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.59</Hsp_bit-score>
+      <Hsp_score>758</Hsp_score>
+      <Hsp_evalue>2.30906e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQFFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQ FLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_134307467.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|TEF19246.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|TEF36621.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134307467</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.59</Hsp_bit-score>
+      <Hsp_score>758</Hsp_score>
+      <Hsp_evalue>2.30906e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLFDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHL DQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_185712344.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_185712344</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.59</Hsp_bit-score>
+      <Hsp_score>758</Hsp_score>
+      <Hsp_evalue>2.33455e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKLRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRK+RELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_134287303.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|TEP77595.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134287303</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.59</Hsp_bit-score>
+      <Hsp_score>758</Hsp_score>
+      <Hsp_evalue>2.57693e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLSPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPL+PVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_034039844.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|AAW82614.1| multidrug resistance operon repressor [Pseudomonas aeruginosa] &gt;gb|KHE66593.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|KSP74102.1| multidrug resistance operon repressor [Pseudomonas aeruginosa] &gt;gb|QKL10916.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034039844</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.59</Hsp_bit-score>
+      <Hsp_score>758</Hsp_score>
+      <Hsp_evalue>2.57693e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQASLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQA+LVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_034043761.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034043761</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.59</Hsp_bit-score>
+      <Hsp_score>758</Hsp_score>
+      <Hsp_evalue>2.97214e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPAEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_104059962.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|PPB40210.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_104059962</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.59</Hsp_bit-score>
+      <Hsp_score>758</Hsp_score>
+      <Hsp_evalue>2.97214e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPANPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYP NPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_134254528.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|TES11156.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134254528</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.59</Hsp_bit-score>
+      <Hsp_score>758</Hsp_score>
+      <Hsp_evalue>3.07163e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSNQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPS+QRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_132586895.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_132586895</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>3.20949e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHVEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQH EAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_125034259.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RRJ42670.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_125034259</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>3.20949e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKVLITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDK LITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_105750281.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|MZY27571.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_105750281</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>3.24491e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSEQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPS+QRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_034034038.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034034038</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>3.42796e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAETIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAE IMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_134606991.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134606991</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>4.17672e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQSSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQ SFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_078458451.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|OSC95746.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_078458451</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>4.22282e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITQKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALIT+KIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|AAW82616.1|</Hit_id>
+  <Hit_def>multidrug resistance operon repressor [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>AAW82616</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>4.22282e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALIARKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALI RKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_134306766.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|TEG83821.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134306766</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>4.22282e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLADEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFL DEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_128663366.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RUD83835.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_128663366</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>5.20198e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLDLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGL+LQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_134310780.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|TEH36388.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|TEH45932.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134310780</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>5.25939e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITWKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALIT KIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_128651577.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RPY41453.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_128651577</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>5.49543e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPXEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_046879890.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_046879890</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>5.55608e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERTPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRER PSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_134305832.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|TEG69765.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134305832</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>5.67939e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRNIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITR IRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_109392694.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RTW01652.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_109392694</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>6.84438e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQHSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQ SFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_124207205.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RQC60058.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RTU30436.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124207205</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>6.84438e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVHRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLV RERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_121372184.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_121372184</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>6.84438e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCHDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMC DKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_124189357.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RQI36722.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124189357</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>6.91992e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQSLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQ LEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_073652476.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|MWB72830.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RTR79548.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_073652476</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>7.39095e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALIIRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALI RKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_049249729.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;emb|CEH99713.1| Multidrug resistance operon repressor [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_049249729</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>7.63836e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELLAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDEL APLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_136311449.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_136311449</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>8.06925e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVGQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPV QATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_126475393.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|KAB0707086.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RTT79828.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_126475393</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>8.90703e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIREQEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRE EGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_124075158.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RPN39951.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124075158</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>8.90703e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDQGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQD GRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_134269597.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|TEL92965.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|TEM08976.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|TEM11094.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|TEM16259.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|TEM27311.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134269597</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>8.90703e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATQVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQAT VHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_124119311.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RPL95340.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124119311</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>9.30678e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKPLITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDK LITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_003118818.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|EJY63690.1| multidrug resistance operon repressor MexR [Pseudomonas aeruginosa CIG1]</Hit_def>
+  <Hit_accession>WP_003118818</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>9.40949e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNRVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRN VRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_176601000.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|QKZ80614.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_176601000</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>9.40949e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATRVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQAT VHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_004365054.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MarR family transcriptional repressor MexR [Pseudomonas] &gt;gb|EOQ76891.1| multidrug resistance operon repressor MexR [Pseudomonas aeruginosa VRFPA02] &gt;gb|EQL44531.1| MarR family transcriptional regulator [Pseudomonas aeruginosa VRFPA03] &gt;gb|EVT84024.1| MarR family transcriptional regulator [Pseudomonas aeruginosa VRFPA09] &gt;emb|CDI88572.1| multidrug resistance operon repressor MexR [Pseudomonas aeruginosa PA38182] &gt;emb|SAJ01560.1| Transcriptional regulator%2C MarR family [Enterobacter cloacae] &gt;emb|SSU20341.1| Multidrug resistance operon repressor [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_004365054</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>9.61832e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_058181419.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|KSE45660.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_058181419</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>9.61832e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHELKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVH LKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_070411022.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|AOX24568.1| multidrug resistance operon repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_070411022</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>9.72446e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRILSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRI SELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_033993065.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;emb|SST08538.1| Multidrug resistance operon repressor [Acinetobacter baumannii] &gt;gb|KAB0736129.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|KSQ29133.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RPV67816.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RQA82512.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_033993065</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>1.21115e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQAPLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQA LVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_034047605.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034047605</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>1.21115e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLPDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNL DLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_034076438.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RTS93929.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034076438</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>1.21115e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALIPRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALI RKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_126130275.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RTB41409.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_126130275</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>1.21115e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLPPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDL PPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_134445033.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134445033</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>1.33689e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAITQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAI QHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_116814360.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RFJ38317.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_116814360</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>1.36656e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPPTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAP TPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_142891281.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|TRM21162.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_142891281</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>1.36656e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQPFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQ FLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_132870188.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_132870188</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>1.36656e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATPVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQAT VHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_151129911.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|KAB0762397.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_151129911</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>1.36656e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPAPMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPA MAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_077143937.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|ONM67825.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_077143937</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>1.36656e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKPIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLK IDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|WP_121494144.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_121494144</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>1.72079e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEELAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDE LAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|WP_134311887.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|TEH73178.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|TEH76379.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134311887</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>1.72079e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCCDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMC DKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|WP_012613505.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|AHC63106.1| MarR family transcriptional regulator [Pseudomonas aeruginosa LES431] &gt;gb|AHK81347.1| MarR family transcriptional regulator [Pseudomonas aeruginosa LESlike5] &gt;gb|AHK87301.1| MarR family transcriptional regulator [Pseudomonas aeruginosa LESlike7] &gt;gb|AHK93174.1| MarR family transcriptional regulator [Pseudomonas aeruginosa LES400] &gt;gb|AHK99190.1| MarR family transcriptional regulator [Pseudomonas aeruginosa LESB65]</Hit_def>
+  <Hit_accession>WP_012613505</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>1.72079e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRCERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVR ERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|WP_058141624.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|KSI22063.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|OTI12466.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_058141624</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>1.72079e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRELNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQR LNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|WP_104052776.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|PPA94467.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_104052776</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>1.72079e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQCSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQ SFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|WP_034022932.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034022932</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>1.72079e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLERQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDL RQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|WP_124715657.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RQJ12485.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124715657</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>1.77839e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDIHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPD+HVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|WP_023464240.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|AMA34848.1| MarR family transcriptional regulator [Pseudomonas aeruginosa DHS01] &gt;gb|ESZ85086.1| MarR family transcriptional regulator [Pseudomonas aeruginosa DHS29] &gt;gb|KSJ83430.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|KSK50229.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_023464240</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.893</Hsp_bit-score>
+      <Hsp_score>751</Hsp_score>
+      <Hsp_evalue>2.91422e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQPAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQ AEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|WP_023098429.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|ERV21166.1| multidrug resistance operon repressor [Pseudomonas aeruginosa BL17] &gt;gb|PCB53022.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_023098429</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.893</Hsp_bit-score>
+      <Hsp_score>751</Hsp_score>
+      <Hsp_evalue>3.39824e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKLRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRK+RELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|WP_124176312.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RQE86976.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124176312</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.893</Hsp_bit-score>
+      <Hsp_score>751</Hsp_score>
+      <Hsp_evalue>3.47366e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHMRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQH+RTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|WP_034046885.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034046885</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.893</Hsp_bit-score>
+      <Hsp_score>751</Hsp_score>
+      <Hsp_evalue>3.51199e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRNFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQR+FQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|WP_033972312.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MarR family transcriptional repressor MexR [Pseudomonas] &gt;gb|ACT79874.1| multidrug resistance operon repressor [Pseudomonas aeruginosa PA14] &gt;gb|KSJ05879.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|KSS09645.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|MBA4994778.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|MBB1121999.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_033972312</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>3.71011e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLGIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGL IHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|WP_023083902.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MarR family transcriptional repressor MexR [Pseudomonas] &gt;gb|ALZ28103.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|AOT38432.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|AXC20368.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|ERU71358.1| multidrug resistance operon repressor [Pseudomonas aeruginosa C48] &gt;gb|ERW15948.1| multidrug resistance operon repressor [Pseudomonas aeruginosa BWHPSA022]</Hit_def>
+  <Hit_accession>WP_023083902</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>3.8343e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLAHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATL HLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|WP_124082481.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RPM38940.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124082481</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>4.00638e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPTLMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMP LMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|WP_033989806.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|AYK20979.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RIZ06332.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RPL67538.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_033989806</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>4.00638e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAETIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAE IMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|WP_023107636.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MarR family transcriptional repressor MexR [Pseudomonas] &gt;gb|ERV73942.1| multidrug resistance operon repressor [Pseudomonas aeruginosa BL04] &gt;gb|KSD41139.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|KSE15083.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|KSE70709.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|PXA57467.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_023107636</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>4.00638e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLTIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGL IHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|WP_003128991.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|EKA51646.1| multidrug resistance operon repressor MexR [Pseudomonas aeruginosa ATCC 700888]</Hit_def>
+  <Hit_accession>WP_003128991</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>4.23238e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDRALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRD+ALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>ref|WP_132671713.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_132671713</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>4.6208e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDQALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRD+ALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|WP_024917997.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|KSD31091.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|NTS95247.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|QIZ24530.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RPM83052.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RPS06366.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_024917997</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>4.6208e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRSLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGR+LVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>ref|WP_034064636.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034064636</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>4.88146e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRSERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVR ERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|WP_100857907.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|AUA93280.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_100857907</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>5.27127e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCWRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDC RLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|WP_174218780.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|NTT13221.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_174218780</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>5.27127e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLAPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDL PPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>gb|ACT79875.1|</Hit_id>
+  <Hit_def>multidrug resistance operon repressor [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>ACT79875</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>5.69997e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKA-LITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKAALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKA LITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|WP_152091340.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_152091340</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>5.75502e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALINRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALI RKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|WP_132789829.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_132789829</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>6.35251e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALSTRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKAL TRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|WP_128528002.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RWX79793.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_128528002</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>7.65554e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQAILVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQA LVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>ref|WP_031641602.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|ETV12165.1| multidrug resistance operon repressor [Pseudomonas aeruginosa BWHPSA044] &gt;gb|ETV20158.1| multidrug resistance operon repressor [Pseudomonas aeruginosa BWHPSA044]</Hit_def>
+  <Hit_accession>WP_031641602</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>7.65554e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLIDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFL DEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|WP_132492218.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_132492218</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>7.99911e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLXDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKL DEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|WP_152091687.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_152091687</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>8.82958e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIREQEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRE EGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|WP_116827937.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|NPY31821.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_116827937</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>8.82958e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDQGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQD GRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>ref|WP_124168157.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RQE73320.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124168157</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>8.82958e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCXDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMC DKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|WP_116803541.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|NQA30992.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_116803541</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>9.32766e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVLQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAV QHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|WP_058182429.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|KSE12075.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;emb|VDL24170.1| Multidrug resistance operon repressor [Pseudomonas aeruginosa] &gt;emb|VDL34090.1| Multidrug resistance operon repressor [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_058182429</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>9.43059e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCHDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMC DKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|WP_034017643.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034017643</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>9.43059e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRREHNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRE NPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|WP_058150763.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|KSH25738.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|KSO11161.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_058150763</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>9.43059e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQHSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQ SFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>tpg|HHV89683.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>HHV89683</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>9.43059e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGHQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLG QMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|WP_145000305.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_145000305</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>9.53467e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSIQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRS QLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>ref|WP_132905493.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_132905493</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>9.74627e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPXVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPP VHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>ref|WP_128730254.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RQD47440.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_128730254</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>1.04097e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRCFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQR FQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>ref|WP_023656945.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|ARG84564.1| multidrug resistance operon repressor MexR [Pseudomonas aeruginosa] &gt;gb|KSJ63488.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|KSL29207.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|KSM64393.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|KSO25776.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_023656945</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>1.08769e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLMLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVL LIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|WP_083557080.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|NNB80988.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|ORE41902.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RPX40844.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RUB35200.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_083557080</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>1.12409e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLGIHQHAEAIMSRVHDELFAPLTPEEQATLMHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGL IHQHAEAIMSRVHDELFAPLTP EQATL+HLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|WP_022580624.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|AID87006.1| MarR family transcriptional regulator [Pseudomonas aeruginosa VRFPA04] &gt;gb|KSE02556.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|OKR83480.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|QII92272.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_022580624</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>1.31079e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQAPLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQA LVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>ref|WP_126584016.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|RTU70406.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_126584016</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>1.31079e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALIPRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALI RKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|WP_031656976.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|EZO42450.1| multidrug resistance operon repressor [Pseudomonas aeruginosa BWH060]</Hit_def>
+  <Hit_accession>WP_031656976</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>1.38473e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHPLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVH LDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|WP_132590153.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_132590153</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>1.38473e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQPFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQ FLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|WP_061181933.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|KXE63275.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|KXE72276.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|KXE76055.1| MarR family transcriptional regulator [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_061181933</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>1.38473e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATPVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQAT VHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|WP_132657988.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_132657988</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>1.38473e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPPTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAP TP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|WP_058018257.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;gb|KRU91910.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|KRU98524.1| MarR family transcriptional regulator [Pseudomonas aeruginosa] &gt;gb|RTU19342.1| MarR family transcriptional repressor MexR [Pseudomonas aeruginosa] &gt;emb|SQC52075.1| multidrug resistance operon repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_058018257</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>1.43108e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPTLMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLGIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMP LMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGL IHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>ref|WP_134399769.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134399769</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>1.44688e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLPDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNL DLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|WP_034004786.1|</Hit_id>
+  <Hit_def>MarR family transcriptional repressor MexR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034004786</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.967</Hsp_bit-score>
+      <Hsp_score>746</Hsp_score>
+      <Hsp_evalue>1.52849e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPVEQATLVHLLDQCLAAQPLEDI</Hsp_qseq>
+      <Hsp_hseq>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRELNPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTPEEQATLVHLLDQCLAAQPLEDI</Hsp_hseq>
+      <Hsp_midline>MNYPVNPDLMPALMAVFQHVRTRIQSELDCQRLDLTPPDVHVLKLIDEQRGLNLQDLGRQMCRDKALITRKIRELEGRNLVRRE NPSDQRSFQLFLTDEGLAIHQHAEAIMSRVHDELFAPLTP EQATLVHLLDQCLAAQPLEDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>322214535</Statistics_db-num>
+      <Statistics_db-len>165954995</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

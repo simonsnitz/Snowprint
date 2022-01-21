@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_47653</BlastOutput_query-ID>
+  <BlastOutput_query-def>WP_020114152.1 MarR family transcriptional regulator [Streptomyces bottropensis]</BlastOutput_query-def>
+  <BlastOutput_query-len>153</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_47653</Iteration_query-ID>
+  <Iteration_query-def>WP_020114152.1 MarR family transcriptional regulator [Streptomyces bottropensis]</Iteration_query-def>
+  <Iteration_query-len>153</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_020114152.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces bottropensis] &gt;gb|AHL46728.1| putative transcriptional regulator [Streptomyces bottropensis]</Hit_def>
+  <Hit_accession>WP_020114152</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.071</Hsp_bit-score>
+      <Hsp_score>793</Hsp_score>
+      <Hsp_evalue>2.55672e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_hseq>
+      <Hsp_midline>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|EMF53304.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces bottropensis ATCC 25435]</Hit_def>
+  <Hit_accession>EMF53304</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.457</Hsp_bit-score>
+      <Hsp_score>794</Hsp_score>
+      <Hsp_evalue>2.58698e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_hseq>
+      <Hsp_midline>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_202499247.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces sp. SID5476]</Hit_def>
+  <Hit_accession>WP_202499247</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.071</Hsp_bit-score>
+      <Hsp_score>793</Hsp_score>
+      <Hsp_evalue>4.92135e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_hseq>
+      <Hsp_midline>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_046914851.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces stelliscabiei] &gt;gb|KND40665.1| MarR family transcriptional regulator [Streptomyces stelliscabiei] &gt;gb|MBE1600811.1| DNA-binding MarR family transcriptional regulator [Streptomyces stelliscabiei]</Hit_def>
+  <Hit_accession>WP_046914851</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>1.81502e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MSADDRGGRSGEFDLWRRMTLMVGQLNQSLERMLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTARVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_hseq>
+      <Hsp_midline>M+ADDRGGR GEFDLWRRMTLMVGQLNQSLE+ LASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLT RVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_145870532.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces capillispiralis] &gt;gb|TWF88940.1| DNA-binding MarR family transcriptional regulator [Streptomyces capillispiralis] &gt;dbj|GHH93209.1| MarR family transcriptional regulator [Streptomyces capillispiralis]</Hit_def>
+  <Hit_accession>WP_145870532</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>1.02782e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MSADDRGGRPGEFDLWRRLTLMVGQLNQSLERMLVSEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRVRHTAAGAATP</Hsp_hseq>
+      <Hsp_midline>M+ADDRGGRPGEFDLWRR+TLMVGQLNQSLE+ L SEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSR RH+AAGAATP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_097249212.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces sp. 1222.2] &gt;emb|SOD69239.1| DNA-binding transcriptional regulator, MarR family [Streptomyces sp. 1222.2]</Hit_def>
+  <Hit_accession>WP_097249212</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>1.09777e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MSADDRGGRSGEFDLWRRMTLMVGQLNQSLERMLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLMARVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_hseq>
+      <Hsp_midline>M+ADDRGGR GEFDLWRRMTLMVGQLNQSLE+ LASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGL  RVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_215173168.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces sp. ISL-12] &gt;gb|MBT2415295.1| MarR family transcriptional regulator [Streptomyces sp. ISL-12]</Hit_def>
+  <Hit_accession>WP_215173168</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>3.69118e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MSADDRAGRPGEFDLWRRLTLMVGQLNQSLERVLASEYQISLPELMVLIELRHGHERGTRVQELSAAVGLDQSSMSRLVTRLENKGLTARVSCEHDRRGVYCTLTPAGVERGERAEARCREELTGLLDVASFDDRWASLVARFRHTAAGAVTP</Hsp_hseq>
+      <Hsp_midline>M+ADDR GRPGEFDLWRR+TLMVGQLNQSLE+ LASE+QISLPELMVLIELRHGHERGTRVQELS AVGLDQSSMSRLVTRLENKGLT RVSCEHDRRGVYC LTPAG ERGERAEARCREELTGLLDVASFDDRWASLV+RFRH+AAGA TP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_194275607.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces olivaceus] &gt;gb|AWM72922.1| MarR family transcriptional regulator [Streptomyces olivaceus]</Hit_def>
+  <Hit_accession>WP_194275607</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>4.16472e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MSADDRAGRPGEFDLWRRLTLMVGQLNQSLERLLASEYQISLPELMVLIELRYGHERGTRVQELSAAVGLDQSSMSRLVTRLENKGLTARVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWAALVARFRHTAAGSVTP</Hsp_hseq>
+      <Hsp_midline>M+ADDR GRPGEFDLWRR+TLMVGQLNQSLE+ LASE+QISLPELMVLIELR+GHERGTRVQELS AVGLDQSSMSRLVTRLENKGLT RVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWA+LV+RFRH+AAG+ TP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_195889947.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces olivaceus] &gt;gb|MBF8174509.1| MarR family transcriptional regulator [Streptomyces olivaceus]</Hit_def>
+  <Hit_accession>WP_195889947</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.96</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>3.31322e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MSADDRAGRPGEFDLWRRLTLMVGQLNQSLERLLASEYQISLPELMVLVELRYGHERGTRVQELSAAVGLDQSSMSRLVTRLENKGLTARVSCEHDRRGVYCTLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVARFRHTAAGSVTP</Hsp_hseq>
+      <Hsp_midline>M+ADDR GRPGEFDLWRR+TLMVGQLNQSLE+ LASE+QISLPELMVL+ELR+GHERGTRVQELS AVGLDQSSMSRLVTRLENKGLT RVSCEHDRRGVYC LTPAGAERGERAEARCREELTGLLDVASFDDRWASLV+RFRH+AAG+ TP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_121892342.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces shenzhenensis] &gt;gb|RMB82978.1| MarR family transcriptional regulator [Streptomyces shenzhenensis]</Hit_def>
+  <Hit_accession>WP_121892342</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.034</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>1.69934e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MATDGRAGRPEEFDLWRRLTLMVGQLNQSLEKTLASEYQISLPELMVLIELRYGHERGTRVQELSAAVGLDQSSMSRLVTRLENKGLTARVSCEHDRRGVYCTLTPAGAERGEQAEARCREELTGLLDVASFDDRWASLVARFRHTVAGAATP</Hsp_hseq>
+      <Hsp_midline>MA D R GRP EFDLWRR+TLMVGQLNQSLEKTLASE+QISLPELMVLIELR+GHERGTRVQELS AVGLDQSSMSRLVTRLENKGLT RVSCEHDRRGVYC LTPAGAERGE+AEARCREELTGLLDVASFDDRWASLV+RFRH+ AGAATP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_037700023.1|</Hit_id>
+  <Hit_def>MarR family winged helix-turn-helix transcriptional regulator [Streptomyces scabiei] &gt;gb|KFF97864.1| MarR family transcriptional regulator [Streptomyces scabiei]</Hit_def>
+  <Hit_accession>WP_037700023</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.034</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>1.95988e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAAT</Hsp_qseq>
+      <Hsp_hseq>MSADDRAGRPGEFDLWRRLTLMVGQLNQSLERVLASECQISLPELMVLIELRHGHERGTRVQELSAAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGADRGERAEALCREELTGLLDVASFDDRWASLVARFRHTAPGAAT</Hsp_hseq>
+      <Hsp_midline>M+ADDR GRPGEFDLWRR+TLMVGQLNQSLE+ LASE QISLPELMVLIELRHGHERGTRVQELS AVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGA+RGERAEA CREELTGLLDVASFDDRWASLV+RFRH+A GAAT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_204019053.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Sphaerimonospora thailandensis] &gt;dbj|GIH73427.1| MarR family transcriptional regulator [Sphaerimonospora thailandensis]</Hit_def>
+  <Hit_accession>WP_204019053</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>8.42021e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MAADDRAGRPEEFDLWRRMTLMVGQLNQSLERMLASECQISLPELMVLIELRYGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTARVSCEHDRRGVYCTLTPAGTERGEQAEARCREELSGLLDAASFDDRWASLVARFRHTAAGAATP</Hsp_hseq>
+      <Hsp_midline>MAADDR GRP EFDLWRRMTLMVGQLNQSLE+ LASE QISLPELMVLIELR+GHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLT RVSCEHDRRGVYC LTPAG ERGE+AEARCREEL+GLLD ASFDDRWASLV+RFRH+AAGAATP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_031042468.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces olivaceus] &gt;gb|AOW89537.1| MarR family transcriptional regulator [Streptomyces olivaceus]</Hit_def>
+  <Hit_accession>WP_031042468</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>2.49887e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MSADERAGRPGEFDLWRRLTLMVGQLNQSLERLLASEYQISLPELMVLVELRYGHERGTRVQELSAAVGLDQSSMSRLVTRLENKGLTARVSCEHDRRGVYCTLTPAGAERGERAEARCREELTGLLDVASFDDRWAALVARFRHTAAGSVAP</Hsp_hseq>
+      <Hsp_midline>M+AD+R GRPGEFDLWRR+TLMVGQLNQSLE+ LASE+QISLPELMVL+ELR+GHERGTRVQELS AVGLDQSSMSRLVTRLENKGLT RVSCEHDRRGVYC LTPAGAERGERAEARCREELTGLLDVASFDDRWA+LV+RFRH+AAG+  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_196458472.1|</Hit_id>
+  <Hit_def>MarR family winged helix-turn-helix transcriptional regulator [Streptomyces spinoverrucosus] &gt;gb|MBG0851945.1| winged helix-turn-helix transcriptional regulator [Streptomyces spinoverrucosus]</Hit_def>
+  <Hit_accession>WP_196458472</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>3.47293e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MSADDHAGRSGEFDLWRRLTLMVGQLNQSLERMLASEYQISLPELMVLIELRHGHERGTRVQELSAAVGLDQSSMSRLVTRLDNKGLTTRVSCEHDRRGVYCMLTPAGAERGQRAEDRCREELTGLLDVASFDDRWASLVARLRHTAAGTATP</Hsp_hseq>
+      <Hsp_midline>M+ADD  GR GEFDLWRR+TLMVGQLNQSLE+ LASE+QISLPELMVLIELRHGHERGTRVQELS AVGLDQSSMSRLVTRL+NKGLTTRVSCEHDRRGVYCMLTPAGAERG+RAE RCREELTGLLDVASFDDRWASLV+R RH+AAG ATP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_051159524.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MarR family transcriptional regulator [unclassified Streptomyces] &gt;gb|QIP73173.1| MarR family transcriptional regulator [Streptomyces sp. VN1]</Hit_def>
+  <Hit_accession>WP_051159524</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.33</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>2.01238e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MSADESAGRSGEFDLWRRLTLMVGQLNQSLERLLASEYQISLPELMVLVELRYGHERGTRVQELSAAVGLDQSSMSRLVTRLENKGLTARVSCEHDRRGVYCTLTPAGAERGERAEARCREELTGLLDVASFDDRWAALVARFRHTAAGSVAP</Hsp_hseq>
+      <Hsp_midline>M+AD+  GR GEFDLWRR+TLMVGQLNQSLE+ LASE+QISLPELMVL+ELR+GHERGTRVQELS AVGLDQSSMSRLVTRLENKGLT RVSCEHDRRGVYC LTPAGAERGERAEARCREELTGLLDVASFDDRWA+LV+RFRH+AAG+  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|MZD17340.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces sp. SID5476]</Hit_def>
+  <Hit_accession>MZD17340</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.937</Hsp_bit-score>
+      <Hsp_score>694</Hsp_score>
+      <Hsp_evalue>1.81388e-91</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>MTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_hseq>
+      <Hsp_midline>MTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_073784940.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces uncialis] &gt;gb|OKH96490.1| MarR family transcriptional regulator [Streptomyces uncialis]</Hit_def>
+  <Hit_accession>WP_073784940</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.958</Hsp_bit-score>
+      <Hsp_score>598</Hsp_score>
+      <Hsp_evalue>1.21496e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MSADDRAASLREFDRWRRLTLMVGRFNQSMERMLADEFQVSLPEVLVLVELRHGPTRGTRVQELSAAVGLDQSSMSRLVTRLEKKGLTARVSCEHDRRGVYCALTPEGADRGERAEARCRTELTALLDAAAYDDRWAALVTRLRHQGPTAPTP</Hsp_hseq>
+      <Hsp_midline>M+ADDR     EFD WRR+TLMVG+ NQS+E+ LA E Q+SLPE++VL+ELRHG  RGTRVQELS AVGLDQSSMSRLVTRLE KGLT RVSCEHDRRGVYC LTP GA+RGERAEARCR ELT LLD A++DDRWA+LV+R RH    A TP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_099280072.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MarR family transcriptional regulator [unclassified Streptomyces] &gt;gb|MYY07419.1| MarR family transcriptional regulator [Streptomyces sp. SID4919] &gt;emb|SCK60491.1| DNA-binding transcriptional regulator, MarR family [Streptomyces sp. AmelKG-E11A]</Hit_def>
+  <Hit_accession>WP_099280072</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.187</Hsp_bit-score>
+      <Hsp_score>596</Hsp_score>
+      <Hsp_evalue>2.39737e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MSADDRAASLREFDRWRRLTLMVGRFNQSMERMLADEFQVSLPEVLVLVELRHGPARGTRVQELSAAVGLDQSSMSRLVTRLERKGLTARVSCEHDRRGVYCALTPEGADRGERAEARCRTELTALLDAAAYDDRWAALVTRLRHEGPTAPTP</Hsp_hseq>
+      <Hsp_midline>M+ADDR     EFD WRR+TLMVG+ NQS+E+ LA E Q+SLPE++VL+ELRHG  RGTRVQELS AVGLDQSSMSRLVTRLE KGLT RVSCEHDRRGVYC LTP GA+RGERAEARCR ELT LLD A++DDRWA+LV+R RH    A TP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_125499930.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MarR family transcriptional regulator [Streptomyces] &gt;gb|NJP16981.1| MarR family transcriptional regulator [Streptomyces thermoviolaceus subsp. thermoviolaceus] &gt;gb|RSR97916.1| MarR family transcriptional regulator [Streptomyces sp. WAC00469] &gt;dbj|GGV72278.1| MarR family transcriptional regulator [Streptomyces thermoviolaceus subsp. apingens] &gt;dbj|GHB12405.1| MarR family transcriptional regulator [Streptomyces thermoviolaceus subsp. thermoviolaceus]</Hit_def>
+  <Hit_accession>WP_125499930</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.534</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>1.57804e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>MSTDDHAEAFDEFDQWRRLTLMVGQLNQALEKTLAREYRVSLPETLVLAELRHSPEHAARLQELAARVGLDQSSMSRLVTRLEHKGLAARATCQHDRRGVYCMLTPEGAERGEQAEARCRAELSKLLRIASFDDRWAPLVASFR</Hsp_hseq>
+      <Hsp_midline>M+ DD      EFD WRR+TLMVGQLNQ+LEKTLA E+++SLPE +VL ELRH  E   R+QEL+  VGLDQSSMSRLVTRLE+KGL  R +C+HDRRGVYCMLTP GAERGE+AEARCR EL+ LL +ASFDDRWA LV+ FR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_189794892.1|</Hit_id>
+  <Hit_def>MarR family winged helix-turn-helix transcriptional regulator [Streptomyces thermodiastaticus]</Hit_def>
+  <Hit_accession>WP_189794892</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.764</Hsp_bit-score>
+      <Hsp_score>530</Hsp_score>
+      <Hsp_evalue>2.94645e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>MPTDDHAGDFDEFDQWRRLTLMVGQLNQTLEKMLTREYRVSLPETLVLTELRHIPEHAARLQELAARVGLDQSSMSRLVTRLEHKGLAARATCEHDRRGVYCMLTPEGAARGEQAEARCRAELSKLLQVASFDDRWASLVASFR</Hsp_hseq>
+      <Hsp_midline>M  DD  G   EFD WRR+TLMVGQLNQ+LEK L  E+++SLPE +VL ELRH  E   R+QEL+  VGLDQSSMSRLVTRLE+KGL  R +CEHDRRGVYCMLTP GA RGE+AEARCR EL+ LL VASFDDRWASLV+ FR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>dbj|GHF59958.1|</Hit_id>
+  <Hit_def>hypothetical protein GCM10018787_05040 [Streptomyces thermodiastaticus]</Hit_def>
+  <Hit_accession>GHF59958</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>7.90966e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>MPTDDHAGDFDEFDQWRRLTLMVGQLNQTLEKMLTREYRVSLPETLVLTELRHIPEHAARLQELAARVGLDQSSMSRLVTRLEHKGLAARATCEHDRRGVYCMLTPEGAARGEQAEARCRAELSKLLQVASFDDRWASLVASFR</Hsp_hseq>
+      <Hsp_midline>M  DD  G   EFD WRR+TLMVGQLNQ+LEK L  E+++SLPE +VL ELRH  E   R+QEL+  VGLDQSSMSRLVTRLE+KGL  R +CEHDRRGVYCMLTP GA RGE+AEARCR EL+ LL VASFDDRWASLV+ FR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_131053973.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MarR family transcriptional regulator [unclassified Verrucosispora] &gt;gb|QKW12269.1| MarR family transcriptional regulator [Verrucosispora sp. NA02020] &gt;gb|TBL33899.1| MarR family transcriptional regulator [Verrucosispora sp. SN26_14.1]</Hit_def>
+  <Hit_accession>WP_131053973</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>4.57803e-42</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>ADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRF</Hsp_qseq>
+      <Hsp_hseq>AERRDGQPDLLALWRQLTVLTGRLGQTLDRRLTRDFDLTLTELLVLDELTRGNPRGMRIQDLSDAVALDQSSMSRLVTRLTAKQLAARVSCAHDRRGVYCQITEPGLERHALAAQACRAELATALDAAAFDERLASVVARL</Hsp_hseq>
+      <Hsp_midline>A+ R G+P    LWR++T++ G+L Q+L++ L  +  ++L EL+VL EL  G+ RG R+Q+LS AV LDQSSMSRLVTRL  K L  RVSC HDRRGVYC +T  G ER   A   CR EL   LD A+FD+R AS+V+R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_092554658.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Actinoplanes derwentensis] &gt;emb|SDT78897.1| DNA-binding transcriptional regulator, MarR family [Actinoplanes derwentensis]</Hit_def>
+  <Hit_accession>WP_092554658</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>1.79093e-39</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>ADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAA</Hsp_qseq>
+      <Hsp_hseq>AERRGGQPDALDLWRQLTVLTGRLGQALDKKLVRDFDITLSELLVLDQLSRGNPRGLRIQDLSEAVALDQSSMSRLVSRLTGKQLAARVSCEHDRRGVYCQLTDQGLERYTAAVKVSRAELGAALEAAAFDEHLASVVARLTRPIAAPA</Hsp_hseq>
+      <Hsp_midline>A+ RGG+P   DLWR++T++ G+L Q+L+K L  +  I+L EL+VL +L  G+ RG R+Q+LS AV LDQSSMSRLV+RL  K L  RVSCEHDRRGVYC LT  G ER   A    R EL   L+ A+FD+  AS+V+R     A  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_125737561.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Amycolatopsis sp. WAC 04197] &gt;gb|RSN39642.1| MarR family transcriptional regulator [Amycolatopsis sp. WAC 04197]</Hit_def>
+  <Hit_accession>WP_125737561</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.198</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>3.29664e-39</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>DRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSA</Hsp_qseq>
+      <Hsp_hseq>NRRQRDG-VELWCQLTALTNQVGQALDKQLTQEHGIGMSEVLSLMTLRDGNPRGARVQELAEAIGLNQSSMSRLTARLEAKNLVERVVCEYDRRGVFCAITEAGRDRVERALETFSAELTKALDVAAFESRTASVVARLRYDA</Hsp_hseq>
+      <Hsp_midline>+R  R G  +LW ++T +  Q+ Q+L+K L  EH I + E++ L+ LR G+ RG RVQEL+ A+GL+QSSMSRL  RLE K L  RV CE+DRRGV+C +T AG +R ERA      ELT  LDVA+F+ R AS+V+R R+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>dbj|GID89703.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Actinoplanes derwentensis]</Hit_def>
+  <Hit_accession>GID89703</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.198</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>4.126e-39</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>ADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAA</Hsp_qseq>
+      <Hsp_hseq>AERRGGQPDALDLWRQLTVLTGRLGQALDKKLVRDFDITLSELLVLDQLSRGNPRGLRIQDLSEAVALDQSSMSRLVSRLTGKQLAARVSCEHDRRGVYCQLTDQGLERYTAAVKVSRAELGAALEAAAFDEHLASVVARLTRPIAAPA</Hsp_hseq>
+      <Hsp_midline>A+ RGG+P   DLWR++T++ G+L Q+L+K L  +  I+L EL+VL +L  G+ RG R+Q+LS AV LDQSSMSRLV+RL  K L  RVSCEHDRRGVYC LT  G ER   A    R EL   L+ A+FD+  AS+V+R     A  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_037347867.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Amycolatopsis sp. MJM2582] &gt;gb|KFZ76904.1| hypothetical protein ED92_40170 [Amycolatopsis sp. MJM2582]</Hit_def>
+  <Hit_accession>WP_037347867</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.428</Hsp_bit-score>
+      <Hsp_score>350</Hsp_score>
+      <Hsp_evalue>6.34402e-39</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>DRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSA</Hsp_qseq>
+      <Hsp_hseq>NRRQRDG-VELWCQLTALTNQVGQALDKQLTQEHGIGMSEVLSLMTLRDGNPRGARVQELAEAIGLNQSSMSRLTARLEAKNLVERVVCEYDRRGVFCAITEAGRDRVERALETFSVELTKALDVAAFESRTASVVARLRYDA</Hsp_hseq>
+      <Hsp_midline>+R  R G  +LW ++T +  Q+ Q+L+K L  EH I + E++ L+ LR G+ RG RVQEL+ A+GL+QSSMSRL  RLE K L  RV CE+DRRGV+C +T AG +R ERA      ELT  LDVA+F+ R AS+V+R R+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_052163260.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Actinoplanes utahensis] &gt;dbj|GIF28882.1| MarR family transcriptional regulator [Actinoplanes utahensis]</Hit_def>
+  <Hit_accession>WP_052163260</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>1.75024e-38</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>ADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAA</Hsp_qseq>
+      <Hsp_hseq>AERRGGQPDVLDLWRQLTVLTGRLGQALDKRLVRDFDLTLSELLVLDQLSRGNPRGLRIQDLSEAVALDQSSMSRLVSRLTTKQLAARVSCEHDRRGVYCQITDQGLERYTAAVKVSRAELGAALEAAAFDEHLASVVARLTRPIAAPA</Hsp_hseq>
+      <Hsp_midline>A+ RGG+P   DLWR++T++ G+L Q+L+K L  +  ++L EL+VL +L  G+ RG R+Q+LS AV LDQSSMSRLV+RL  K L  RVSCEHDRRGVYC +T  G ER   A    R EL   L+ A+FD+  AS+V+R     A  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_084727352.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Rhodococcus yunnanensis]</Hit_def>
+  <Hit_accession>WP_084727352</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>6.91525e-38</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>EFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>ELDQWRALTVLSGRITQEVNRVIARHHELTMHEVFVLSELTTGNPKGLRIQDLADATGVDQSSMSRTVKRLESRGLTQKVTCDFDKRGVYCQLTADGSALAEQAAKTCREALKDALDTASFDTRTAAVVARLR</Hsp_hseq>
+      <Hsp_midline>E D WR +T++ G++ Q + + +A  H++++ E+ VL EL  G+ +G R+Q+L+ A G+DQSSMSR V RLE++GLT +V+C+ D+RGVYC LT  G+   E+A   CRE L   LD ASFD R A++V+R R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_007462127.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Micromonospora lupini] &gt;emb|CCH19741.1| MarR family transcriptional regulator [Micromonospora lupini str. Lupac 08]</Hit_def>
+  <Hit_accession>WP_007462127</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>1.10515e-37</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>ADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAA</Hsp_qseq>
+      <Hsp_hseq>AERRGGQPDVLDLWRQLTVLTGRLGQTLDKRLVREFDLTLTELLVLDELTRGNPRGMRIQDLSDAVALDQSSMSRLVSRLTAKQLAARVSCDHDRRGVYCQITDLGTERHAAATRVSRAELGAALDAAAFDDRLASVVARLTRPVVAPA</Hsp_hseq>
+      <Hsp_midline>A+ RGG+P   DLWR++T++ G+L Q+L+K L  E  ++L EL+VL EL  G+ RG R+Q+LS AV LDQSSMSRLV+RL  K L  RVSC+HDRRGVYC +T  G ER   A    R EL   LD A+FDDR AS+V+R        A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_207386325.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Frankia symbiont of Coriaria ruscifolia]</Hit_def>
+  <Hit_accession>WP_207386325</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>3.27818e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSA</Hsp_qseq>
+      <Hsp_hseq>MATAGRAVRSGEVALWRQVGVLAARVNQAVDRALVRRHALTLSELTALLTLCEGPERGSRIQDLADAVGLNQSSMSRLTARLAAAGLAERVSCEYDRRGVYCAVTTQGRAAVAAAESTLREELGKALEAAALDPRTAAAVARLRYDA</Hsp_hseq>
+      <Hsp_midline>MA   R  R GE  LWR++ ++  ++NQ++++ L   H ++L EL  L+ L  G ERG+R+Q+L+ AVGL+QSSMSRL  RL   GL  RVSCE+DRRGVYC +T  G      AE+  REEL   L+ A+ D R A+ V+R R+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_219444803.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Saccharothrix sp. SC076] &gt;gb|MBW4720319.1| MarR family transcriptional regulator [Saccharothrix sp. SC076]</Hit_def>
+  <Hit_accession>WP_219444803</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>2.03272e-36</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHS</Hsp_qseq>
+      <Hsp_hseq>LWRRLSALTARVNQALDKRLARTHDVTLSELFTLLALRDGDPRGMRVHELTSVLGLEQSSVSRLTARLEGKGLVGRVRCDFDRRGVYCAITDAGRALADEADGVCGAELGAQLDQAAFEERSAAVVARLRYA</Hsp_hseq>
+      <Hsp_midline>LWRR++ +  ++NQ+L+K LA  H ++L EL  L+ LR G  RG RV EL++ +GL+QSS+SRL  RLE KGL  RV C+ DRRGVYC +T AG    + A+  C  EL   LD A+F++R A++V+R R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|ONI76390.1|</Hit_id>
+  <Hit_def>hypothetical protein ALI144C_37760 [Actinosynnema sp. ALI-1.44]</Hit_def>
+  <Hit_accession>ONI76390</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>5.76978e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MTPANRPDSRKETSLWQSLTTLTTRVNQALDTRLARTHDVLLTELFALLALCEGHPTGTRMQDLADRLGLEQSSVSRLTTRLQRKGLIERVKDDHDRRGVYCVATPAGQELATTARLTLAEALGELLDVAAFDEHTAAVVARLRYSGRPADRP</Hsp_hseq>
+      <Hsp_midline>M   +R     E  LW+ +T +  ++NQ+L+  LA  H + L EL  L+ L  GH  GTR+Q+L+  +GL+QSS+SRL TRL+ KGL  RV  +HDRRGVYC+ TPAG E    A     E L  LLDVA+FD+  A++V+R R+S   A  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|KHD78401.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Actinoplanes utahensis]</Hit_def>
+  <Hit_accession>KHD78401</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>7.73683e-35</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>FDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAA</Hsp_qseq>
+      <Hsp_hseq>MDLWRQLTVLTGRLGQALDKRLVRDFDLTLSELLVLDQLSRGNPRGLRIQDLSEAVALDQSSMSRLVSRLTTKQLAARVSCEHDRRGVYCQITDQGLERYTAAVKVSRAELGAALEAAAFDEHLASVVARLTRPIAAPA</Hsp_hseq>
+      <Hsp_midline> DLWR++T++ G+L Q+L+K L  +  ++L EL+VL +L  G+ RG R+Q+LS AV LDQSSMSRLV+RL  K L  RVSCEHDRRGVYC +T  G ER   A    R EL   L+ A+FD+  AS+V+R     A  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_089250798.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Rhodococcus kyotonensis] &gt;emb|SNT39932.1| DNA-binding transcriptional regulator, MarR family [Rhodococcus kyotonensis]</Hit_def>
+  <Hit_accession>WP_089250798</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>7.79103e-34</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>EFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRH</Hsp_qseq>
+      <Hsp_hseq>ELDQWRALTVLSGRITQEVNRVVARKHELTMHEVFVLSELTAGNPQGLRIQDLADSTGVDQSSMSRTVKRLESRGLTQKVSCDFDKRGVYCQLTDEGRALAVRAVRTCRVALSDALDGASFEPRTAAVVARLRF</Hsp_hseq>
+      <Hsp_midline>E D WR +T++ G++ Q + + +A +H++++ E+ VL EL  G+ +G R+Q+L+ + G+DQSSMSR V RLE++GLT +VSC+ D+RGVYC LT  G     RA   CR  L+  LD ASF+ R A++V+R R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_167152105.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces sp. MBT27]</Hit_def>
+  <Hit_accession>WP_167152105</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>4.03919e-32</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>RGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELR-HGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGA</Hsp_qseq>
+      <Hsp_hseq>RGRRDGEVELWRQLTVLTSRISNTLDKRLQRGHGVSVAEYTALVVMRDNAKSGGVRMQDLAEAVGLSQSTVSRLVARLENEGLAGRVISEEDRRVMYAQISEQGTAVITDAAATFQKELTTALDVASFDEQTASLVARLRHNPATA</Hsp_hseq>
+      <Hsp_midline>RG R GE +LWR++T++  +++ +L+K L   H +S+ E   L+ +R +    G R+Q+L+ AVGL QS++SRLV RLEN+GL  RV  E DRR +Y  ++  G      A A  ++ELT  LDVASFD++ ASLV+R RH+ A A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_161247194.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MarR family transcriptional regulator [Streptomyces] &gt;gb|MYV91347.1| MarR family transcriptional regulator [Streptomyces sp. SID1034] &gt;dbj|GGY59238.1| MarR family transcriptional regulator [Streptomyces michiganensis]</Hit_def>
+  <Hit_accession>WP_161247194</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>4.40651e-32</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>RGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELR-HGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGA</Hsp_qseq>
+      <Hsp_hseq>RGRRDGEVELWRQLTVLTSRISNTLDKRLQRGHGVSVAEYTALVVMRDNAKSGGVRMQDLAEAVGLSQSTVSRLVARLENEGLAGRVISEEDRRVMYAQISEQGTAVIADAAATFQKELTTALDVASFDEQTASLVARLRHNPATA</Hsp_hseq>
+      <Hsp_midline>RG R GE +LWR++T++  +++ +L+K L   H +S+ E   L+ +R +    G R+Q+L+ AVGL QS++SRLV RLEN+GL  RV  E DRR +Y  ++  G      A A  ++ELT  LDVASFD++ ASLV+R RH+ A A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_202819147.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Actinosynnema sp. ALI-1.44]</Hit_def>
+  <Hit_accession>WP_202819147</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.49537e-31</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>LNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MNQALDTRLARTHDVLLTELFALLALCEGHPTGTRMQDLADRLGLEQSSVSRLTTRLQRKGLIERVKDDHDRRGVYCVATPAGQELATTARLTLAEALGELLDVAAFDEHTAAVVARLRYSGRPADRP</Hsp_hseq>
+      <Hsp_midline>+NQ+L+  LA  H + L EL  L+ L  GH  GTR+Q+L+  +GL+QSS+SRL TRL+ KGL  RV  +HDRRGVYC+ TPAG E    A     E L  LLDVA+FD+  A++V+R R+S   A  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_189766143.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces xanthochromogenes] &gt;dbj|GHB75416.1| MarR family transcriptional regulator [Streptomyces xanthochromogenes]</Hit_def>
+  <Hit_accession>WP_189766143</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.75421e-31</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>RGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELR-HGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGA</Hsp_qseq>
+      <Hsp_hseq>RGRRDGEVELWRQLTVLTSRISNTLDKRLQRGHGVSVAEYTALVVMRDNAKSGGVRMQDLAEAVGLSQSTVSRLVARLENEGLAGRVISEEDRRVMYAQISEQGTAVITDAAVTFQKELTTALDVASFDEQTASLVARLRHNPATA</Hsp_hseq>
+      <Hsp_midline>RG R GE +LWR++T++  +++ +L+K L   H +S+ E   L+ +R +    G R+Q+L+ AVGL QS++SRLV RLEN+GL  RV  E DRR +Y  ++  G      A    ++ELT  LDVASFD++ ASLV+R RH+ A A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|OAR21946.1|</Hit_id>
+  <Hit_def>hypothetical protein A8W25_30535 [Streptomyces sp. ERV7]</Hit_def>
+  <Hit_accession>OAR21946</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>7.05161e-29</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>GELELWRQLTQLTSVLSSSLDKRLTRQHGVSVSEFTALSTLAEGGGDGVQMQDLADSIGLNQSTVSRLVARLEGSGLATRAVSERDRRCTYAMITERGRAIVDEATGTFQKEFGTALDIAAFDERTAPLVARLRHDPAG-STP</Hsp_hseq>
+      <Hsp_midline>GE +LWR++T +   L+ SL+K L  +H +S+ E   L  L  G   G ++Q+L+ ++GL+QS++SRLV RLE  GL TR   E DRR  Y M+T  G    + A    ++E    LD+A+FD+R A LV+R RH  AG +TP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>dbj|GGP64555.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces melanogenes]</Hit_def>
+  <Hit_accession>GGP64555</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>3.52377e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRH</Hsp_qseq>
+      <Hsp_hseq>MVASGRRQR-GELELWRQLTQLTSVLSSSLDKRLTRQHGVSVSEFTALSTLAEGGSDGVQMQELADSIGLNQSTVSRLVARLETSGLATRAVSERDRRCTYAMITERGRTIVDEATGTFQKEFGTALDIAAFDERTAPLVARLRH</Hsp_hseq>
+      <Hsp_midline>M A  R  R GE +LWR++T +   L+ SL+K L  +H +S+ E   L  L  G   G ++QEL+ ++GL+QS++SRLV RLE  GL TR   E DRR  Y M+T  G    + A    ++E    LD+A+FD+R A LV+R RH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_107470846.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces sp. ERV7]</Hit_def>
+  <Hit_accession>WP_107470846</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>2.07527e-27</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>FDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAATP</Hsp_qseq>
+      <Hsp_hseq>MELWRQLTQLTSVLSSSLDKRLTRQHGVSVSEFTALSTLAEGGGDGVQMQDLADSIGLNQSTVSRLVARLEGSGLATRAVSERDRRCTYAMITERGRAIVDEATGTFQKEFGTALDIAAFDERTAPLVARLRHDPAG-STP</Hsp_hseq>
+      <Hsp_midline> +LWR++T +   L+ SL+K L  +H +S+ E   L  L  G   G ++Q+L+ ++GL+QS++SRLV RLE  GL TR   E DRR  Y M+T  G    + A    ++E    LD+A+FD+R A LV+R RH  AG +TP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_190091434.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces melanogenes]</Hit_def>
+  <Hit_accession>WP_190091434</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>1.12997e-26</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>FDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRH</Hsp_qseq>
+      <Hsp_hseq>MELWRQLTQLTSVLSSSLDKRLTRQHGVSVSEFTALSTLAEGGSDGVQMQELADSIGLNQSTVSRLVARLETSGLATRAVSERDRRCTYAMITERGRTIVDEATGTFQKEFGTALDIAAFDERTAPLVARLRH</Hsp_hseq>
+      <Hsp_midline> +LWR++T +   L+ SL+K L  +H +S+ E   L  L  G   G ++QEL+ ++GL+QS++SRLV RLE  GL TR   E DRR  Y M+T  G    + A    ++E    LD+A+FD+R A LV+R RH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_055702171.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MarR family transcriptional regulator [Streptomyces]</Hit_def>
+  <Hit_accession>WP_055702171</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.219</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>1.09657e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRH</Hsp_qseq>
+      <Hsp_hseq>MATGARGRLGGQQELWRQLLLLVNGVGTTLDKKLQRQHGITASEFTALSILGGGR---LRMQELADSVGLSQSTMSRLVGRLEGAGLAARTAGEEDRRVMFAQLTEEGKKLVARAQGTFSKELELALDVASFEPATASLVNRLRH</Hsp_hseq>
+      <Hsp_midline>MA   RG   G+ +LWR++ L+V  +  +L+K L  +H I+  E   L  L  G     R+QEL+ +VGL QS+MSRLV RLE  GL  R + E DRR ++  LT  G +   RA+    +EL   LDVASF+   ASLV+R RH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_184779624.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Amycolatopsis jiangsuensis] &gt;gb|MBB4684501.1| DNA-binding MarR family transcriptional regulator [Amycolatopsis jiangsuensis]</Hit_def>
+  <Hit_accession>WP_184779624</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>1.04256e-23</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>WDRMLVLHARVEQELAKALQRRHGVGLSEYRALARLAHGPRGGLRMQELAEAVGLNQSSVSRMCARLEDAGLTIRDLCEEDRRGVYSMITPAGRTRFTETQPTYRAVLQAALDKAAGDPELLQAVTAVR</Hsp_hseq>
+      <Hsp_midline>W RM ++  ++ Q L K L   H + L E   L  L HG   G R+QEL+ AVGL+QSS+SR+  RLE+ GLT R  CE DRRGVY M+TPAG  R    +   R  L   LD A+ D      V+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_195020206.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Nocardia cyriacigeorgica] &gt;gb|MBF6437470.1| MarR family transcriptional regulator [Nocardia cyriacigeorgica]</Hit_def>
+  <Hit_accession>WP_195020206</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>1.74303e-22</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>IWDQLVALHGRVNQRLAKEMQRRHGIGLSEYQSLCRLAHAENGELRMQELAELIGLNQSSVSRLVARLESGGLTRRDLCPKDRRGVYTVITEEGRTMQQRAEPTYRDALAEALDEASADARLSEFVAKLR</Hsp_hseq>
+      <Hsp_midline>+W ++  + G++NQ L K +   H I L E   L  L H      R+QEL+  +GL+QSS+SRLV RLE+ GLT R  C  DRRGVY ++T  G    +RAE   R+ L   LD AS D R +  V++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|MBV8932699.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Kutzneria sp.]</Hit_def>
+  <Hit_accession>MBV8932699</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>3.01167e-22</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGA</Hsp_qseq>
+      <Hsp_hseq>WDVIVALYGRVEQELTDSLRRQHGLGLSEYRALAQLATARDGELRIQELAAAIGLNQSSVSRLVVRLENGGLTRRALCPNDRRGVYSVITDLGRAQVDAAEPTYRETLTAALDKAAAEPDLAGVVYAVRDIAKAA</Hsp_hseq>
+      <Hsp_midline>W  +  + G++ Q L  +L  +H + L E   L +L    +   R+QEL+ A+GL+QSS+SRLV RLEN GLT R  C +DRRGVY ++T  G  + + AE   RE LT  LD A+ +   A +V   R  A  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|MBB4677642.1|</Hit_id>
+  <Hit_def>DNA-binding MarR family transcriptional regulator [Crossiella cryophila]</Hit_def>
+  <Hit_accession>MBB4677642</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>7.69207e-22</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFD</Hsp_qseq>
+      <Hsp_hseq>WRRVITLHGRIEQELAKALQRRFGLGLTEYRALSRLAEVDGCSLRMQVLADAIGLNQSSVSRLVARLEEAGLTVRDPCENDRRGVYSMLTPEGRERQALAEPVYRETLSSALDKAASD</Hsp_hseq>
+      <Hsp_midline>WRR+  + G++ Q L K L     + L E   L  L        R+Q L+ A+GL+QSS+SRLV RLE  GLT R  CE+DRRGVY MLTP G ER   AE   RE L+  LD A+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>emb|SDY71617.1|</Hit_id>
+  <Hit_def>DNA-binding transcriptional regulator, MarR family [Amycolatopsis xylanica]</Hit_def>
+  <Hit_accession>SDY71617</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>1.52003e-21</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHS</Hsp_qseq>
+      <Hsp_hseq>WGRVVALHSRVEQELAKALQRKHGLGLSEYRALSHLTVAEGGCLRMQDLAGAIGLNQSSVSRMVARLEEAGLTVRDLCENDRRGVYSLITEDGRERQAKAEPTYQDTLRGALDKAAADPELAEAVAAMRHA</Hsp_hseq>
+      <Hsp_midline>W R+  +  ++ Q L K L  +H + L E   L  L        R+Q+L+ A+GL+QSS+SR+V RLE  GLT R  CE+DRRGVY ++T  G ER  +AE   ++ L G LD A+ D   A  V+  RH+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_163817168.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Nocardia cyriacigeorgica] &gt;gb|MBF6453039.1| MarR family transcriptional regulator [Nocardia cyriacigeorgica] &gt;gb|MBF6476946.1| MarR family transcriptional regulator [Nocardia cyriacigeorgica] &gt;gb|MBF6550208.1| MarR family transcriptional regulator [Nocardia cyriacigeorgica] &gt;gb|NEW30219.1| MarR family transcriptional regulator [Nocardia cyriacigeorgica]</Hit_def>
+  <Hit_accession>WP_163817168</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>1.73126e-21</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>IWDQLVALHGRVNQRLAKEMQRRHGIGLSEYQSLCRLAQAENGELRMQELAELIGLNQSSVSRLVARLESGGLTRRDLCPKDRRGVYTVITEEGRAMQQRAEPTYRDALAEALDEASADARLSEFVAKLR</Hsp_hseq>
+      <Hsp_midline>+W ++  + G++NQ L K +   H I L E   L  L        R+QEL+  +GL+QSS+SRLV RLE+ GLT R  C  DRRGVY ++T  G    +RAE   R+ L   LD AS D R +  V++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_178128378.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Nocardia cyriacigeorgica]</Hit_def>
+  <Hit_accession>WP_178128378</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>1.90435e-21</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>IWDQLVALHGRVNQRLAKEMQRRHGIGLSEYQSLCRLAQAENGELRMQELAELIGLNQSSVSRLVARLESGGLTRRDLCPKDRRGVYTVITEEGRAMQQRAEPTYRDALAEALDEASADARLSEFVAKLR</Hsp_hseq>
+      <Hsp_midline>+W ++  + G++NQ L K +   H I L E   L  L        R+QEL+  +GL+QSS+SRLV RLE+ GLT R  C  DRRGVY ++T  G    +RAE   R+ L   LD AS D R +  V++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|WP_081899965.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Allokutzneria albata] &gt;emb|SDN38640.1| DNA-binding transcriptional regulator, MarR family [Allokutzneria albata]</Hit_def>
+  <Hit_accession>WP_081899965</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>2.45408e-21</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>PGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>PADRELWSTLTALFGQIEAALERALQRGYGLSLSEYRAVCALSESDQGYLRMQDLADAVGLNQSSISRLVARLERAGLTSRRLCETDRRGVCTEVTERGRSVCERAVLTYEVVLTAELDRAAAEPRFASMVDRIR</Hsp_hseq>
+      <Hsp_midline>P + +LW  +T + GQ+  +LE+ L   + +SL E   +  L    +   R+Q+L+ AVGL+QSS+SRLV RLE  GLT+R  CE DRRGV   +T  G    ERA       LT  LD A+ + R+AS+V R R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|WP_185003561.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Crossiella cryophila]</Hit_def>
+  <Hit_accession>WP_185003561</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>2.61479e-21</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFD</Hsp_qseq>
+      <Hsp_hseq>WRRVITLHGRIEQELAKALQRRFGLGLTEYRALSRLAEVDGCSLRMQVLADAIGLNQSSVSRLVARLEEAGLTVRDPCENDRRGVYSMLTPEGRERQALAEPVYRETLSSALDKAASD</Hsp_hseq>
+      <Hsp_midline>WRR+  + G++ Q L K L     + L E   L  L        R+Q L+ A+GL+QSS+SRLV RLE  GLT R  CE+DRRGVY MLTP G ER   AE   RE L+  LD A+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|WP_091294047.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Amycolatopsis xylanica]</Hit_def>
+  <Hit_accession>WP_091294047</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>3.24485e-21</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHS</Hsp_qseq>
+      <Hsp_hseq>WGRVVALHSRVEQELAKALQRKHGLGLSEYRALSHLTVAEGGCLRMQDLAGAIGLNQSSVSRMVARLEEAGLTVRDLCENDRRGVYSLITEDGRERQAKAEPTYQDTLRGALDKAAADPELAEAVAAMRHA</Hsp_hseq>
+      <Hsp_midline>W R+  +  ++ Q L K L  +H + L E   L  L        R+Q+L+ A+GL+QSS+SR+V RLE  GLT R  CE+DRRGVY ++T  G ER  +AE   ++ L G LD A+ D   A  V+  RH+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|WP_132111162.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Actinocrispum wychmicini] &gt;gb|TCO65033.1| DNA-binding MarR family transcriptional regulator [Actinocrispum wychmicini]</Hit_def>
+  <Hit_accession>WP_132111162</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>5.65973e-21</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>EFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERG--TRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>EEHVWDRFVVLHARIEHELTKALHRRHGLGLSEYRALSHLAASEESNCSVRMQELAEALGLNQSSVSRLVARLEDAGLSERDICELDRRGIYTMITPAGQARLVEAEPTYRETLTAALDKATASPDLAGAVAALR</Hsp_hseq>
+      <Hsp_midline>E  +W R  ++  ++   L K L   H + L E   L  L    E     R+QEL+ A+GL+QSS+SRLV RLE+ GL+ R  CE DRRG+Y M+TPAG  R   AE   RE LT  LD A+     A  V+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|WP_026048440.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MarR family transcriptional regulator [Streptomyces] &gt;gb|RZD78005.1| MarR family transcriptional regulator [Streptomyces albidoflavus]</Hit_def>
+  <Hit_accession>WP_026048440</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>9.18274e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAA</Hsp_qseq>
+      <Hsp_hseq>MATAAHGRLGGEMELWRQLLLLVNGVSAALDKKLQRQHGVTASEFTTLTVLARG---PLRMQELADSVGSSQSTMSRLVSRLENEDLVVRTVGEQDRRVMFAHLTSEGSKLVARAQGTFAKELALALDLAAFEPETASLVNRLRHSPSAPA</Hsp_hseq>
+      <Hsp_midline>MA    G   GE +LWR++ L+V  ++ +L+K L  +H ++  E   L  L  G     R+QEL+ +VG  QS+MSRLV+RLEN+ L  R   E DRR ++  LT  G++   RA+    +EL   LD+A+F+   ASLV+R RHS +  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|WP_068002843.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Nocardia pseudobrasiliensis] &gt;gb|RDI63066.1| DNA-binding MarR family transcriptional regulator [Nocardia pseudobrasiliensis]</Hit_def>
+  <Hit_accession>WP_068002843</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>1.12551e-20</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>VWDRVVTLHGMVSQRLAKEMQRRHGIGMSEYQALCQLVHADDGELRMQELAELVGLNQSSVSRLVARLESAGLTQRDLCPKDRRGVYTVITEQGRALHAKAEPTYRKAVTEALNEAAADNRLTEFVAELR</Hsp_hseq>
+      <Hsp_midline>+W R+  + G ++Q L K +   H I + E   L +L H  +   R+QEL+  VGL+QSS+SRLV RLE+ GLT R  C  DRRGVY ++T  G     +AE   R+ +T  L+ A+ D+R    V+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|WP_086820549.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Allokutzneria sp. NRRL B-24872]</Hit_def>
+  <Hit_accession>WP_086820549</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>2.97789e-20</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>PGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>PADRELWSTLTALFGQIEAALERALQRGYGLSLSEYRAVCALAESDLGYLRMQDLADAVGLNQSSISRLVARLERAGLTTRKLCETDRRGVCTEVTERGRSVCERAVLTYEVVLTAELDRAAAEPRFSAMVDRIR</Hsp_hseq>
+      <Hsp_midline>P + +LW  +T + GQ+  +LE+ L   + +SL E   +  L        R+Q+L+ AVGL+QSS+SRLV RLE  GLTTR  CE DRRGV   +T  G    ERA       LT  LD A+ + R++++V R R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|WP_077115625.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Nocardia donostiensis] &gt;gb|ONM49568.1| MarR family transcriptional regulator [Nocardia donostiensis] &gt;gb|OQS12871.1| MarR family transcriptional regulator [Nocardia donostiensis] &gt;gb|OQS19189.1| MarR family transcriptional regulator [Nocardia donostiensis]</Hit_def>
+  <Hit_accession>WP_077115625</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>3.94571e-20</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>IWDQVVTLHGMVTQRLAKEMQRRHSIGLSEYQALCRLARAEDGELRMQELTELIGLNQSSVSRLAARLESAGLTHRDLCPKDRRGVYLVISEEGRALQQRAEPTYQEVLTKALDEASADARVGELVAKLR</Hsp_hseq>
+      <Hsp_midline>+W ++  + G + Q L K +   H I L E   L  L    +   R+QEL+  +GL+QSS+SRL  RLE+ GLT R  C  DRRGVY +++  G    +RAE   +E LT  LD AS D R   LV++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|WP_150170826.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MarR family transcriptional regulator [Streptomyces] &gt;gb|NDZ98644.1| MarR family transcriptional regulator [Streptomyces sp. SID10116] &gt;gb|MYY83217.1| MarR family transcriptional regulator [Streptomyces sp. SID335] &gt;gb|MYZ16621.1| MarR family transcriptional regulator [Streptomyces sp. SID337] &gt;gb|NDZ88521.1| MarR family transcriptional regulator [Streptomyces sp. SID10115] &gt;gb|NEB44200.1| MarR family transcriptional regulator [Streptomyces sp. SID339]</Hit_def>
+  <Hit_accession>WP_150170826</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>5.00132e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHS</Hsp_qseq>
+      <Hsp_hseq>MATAARGRLSGELELWRQLLLLVNGVSTTLDKKLQRQHGVTASEFTALSVLGRG---ALRMQELADSVGSSQSTMSRLVTRLENEDLVARTVGEEDRRVMFAHLTPEGKKLVAQAQGTFAKELSLALDMASFEPETASLVNRLRHT</Hsp_hseq>
+      <Hsp_midline>MA   RG   GE +LWR++ L+V  ++ +L+K L  +H ++  E   L  L  G     R+QEL+ +VG  QS+MSRLVTRLEN+ L  R   E DRR ++  LTP G +   +A+    +EL+  LD+ASF+   ASLV+R RH+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|WP_037784556.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MarR family transcriptional regulator [unclassified Streptomyces]</Hit_def>
+  <Hit_accession>WP_037784556</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>5.27726e-20</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>FDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAA</Hsp_qseq>
+      <Hsp_hseq>MELWRQLLLLVNGVSAALDKKLQRQHGVTASEFTTLTVLARG---PLRMQELADSVGSSQSTMSRLVSRLENEDLVVRTVGEQDRRVMFAHLTPEGSKLVAQAQGTFAKELALALDLAAFEPETASLVNRLRHSPSAPA</Hsp_hseq>
+      <Hsp_midline> +LWR++ L+V  ++ +L+K L  +H ++  E   L  L  G     R+QEL+ +VG  QS+MSRLV+RLEN+ L  R   E DRR ++  LTP G++   +A+    +EL   LD+A+F+   ASLV+R RHS +  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|WP_153533307.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Actinomadura macrotermitis] &gt;gb|MQY05206.1| hypothetical protein [Actinomadura macrotermitis]</Hit_def>
+  <Hit_accession>WP_153533307</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>6.62159e-20</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>WNRVVTLHGRVEQALAKALQRGHGLGLSEYRALCNLARAEDGELRMQELADAIGLNQSSVSRLVARLEDAGLTRRDLCPRDRRGVYTVITEEGRALQAKAAPTYDEVLTATLDAAASDPAVSALVGALR</Hsp_hseq>
+      <Hsp_midline>W R+  + G++ Q+L K L   H + L E   L  L    +   R+QEL+ A+GL+QSS+SRLV RLE+ GLT R  C  DRRGVY ++T  G     +A     E LT  LD A+ D   ++LV   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|WP_191312061.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Amycolatopsis bullii] &gt;dbj|GHG17195.1| MarR family transcriptional regulator [Amycolatopsis bullii]</Hit_def>
+  <Hit_accession>WP_191312061</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>9.71046e-20</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>WGRVLVLHARVEQELAKALQRRHGLGLSEYRALGKLVAGPRGGLRMQELADAIGLNQSSVSRMCARLEDAGLTIRDLCEDDRRGVYSVITDAGRKRYAETEPTYNAVLRTALDKAASDPELADAVSAVR</Hsp_hseq>
+      <Hsp_midline>W R+ ++  ++ Q L K L   H + L E   L +L  G   G R+QEL+ A+GL+QSS+SR+  RLE+ GLT R  CE DRRGVY ++T AG +R    E      L   LD A+ D   A  VS  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|WP_086850756.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Amycolatopsis kentuckyensis]</Hit_def>
+  <Hit_accession>WP_086850756</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>1.11744e-19</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>WGRVLVLHARIEQELAKALQRRHGLGLSEYRALGKLVAGPRGGLRMQELADAIGLNQSSVSRMCARLEDAGLTVRDLCEDDRRGVYSVITDAGRKRYSETEPTYCAVLRTALDKAAGDPELAAAVSAVR</Hsp_hseq>
+      <Hsp_midline>W R+ ++  ++ Q L K L   H + L E   L +L  G   G R+QEL+ A+GL+QSS+SR+  RLE+ GLT R  CE DRRGVY ++T AG +R    E      L   LD A+ D   A+ VS  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>gb|TDB86490.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Micromonospora fluostatini]</Hit_def>
+  <Hit_accession>TDB86490</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>1.41999e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>AADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERG-TRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRH</Hsp_qseq>
+      <Hsp_hseq>ATDEIGAR------WHELRLLQWQVNETLEHALQEKFALSLSEYIALATLDASDDDGHLRQQVLAAAIPLNQSSLSRLVARLEKAGLTERYMCATDRRGVYTQITPAGRALVARARRVYQRVLHQALDTAADDAQLAHVVDKLRH</Hsp_hseq>
+      <Hsp_midline>A D+ G R      W  + L+  Q+N++LE  L  +  +SL E + L  L    + G  R Q L+ A+ L+QSS+SRLV RLE  GLT R  C  DRRGVY  +TPAG     RA    +  L   LD A+ D + A +V + RH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|WP_062979101.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Nocardia flavorosea] &gt;gb|NKY58291.1| MarR family transcriptional regulator [Nocardia flavorosea]</Hit_def>
+  <Hit_accession>WP_062979101</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>1.4909e-19</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>IWDQVMTLHSTVTQQLAKEMQRRHGIGLSEYQALCRLARADDGELRMQELAELIGLNQSSVSRLVVRLEAGGLTLRDHCPKDRRGVYTVITEEGRTLQAKAEPTYRDALAGALDEAAADPRSSELVAKLR</Hsp_hseq>
+      <Hsp_midline>+W ++  +   + Q L K +   H I L E   L  L    +   R+QEL+  +GL+QSS+SRLV RLE  GLT R  C  DRRGVY ++T  G     +AE   R+ L G LD A+ D R + LV++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|WP_091304477.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MarR family transcriptional regulator [Amycolatopsis] &gt;emb|SEB33670.1| DNA-binding transcriptional regulator, MarR family [Amycolatopsis tolypomycina]</Hit_def>
+  <Hit_accession>WP_091304477</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>1.56184e-19</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>WGRVLVLHARIEQELAKALQRRHGLGLSEYRALGKLVAGPRGGLRMQELADAIGLNQSSVSRMCARLEDAGLTIRDLCEDDRRGVYSVITDAGRKRYAETEPTYCAVLRTALDKAASDPELAAAVSAVR</Hsp_hseq>
+      <Hsp_midline>W R+ ++  ++ Q L K L   H + L E   L +L  G   G R+QEL+ A+GL+QSS+SR+  RLE+ GLT R  CE DRRGVY ++T AG +R    E      L   LD A+ D   A+ VS  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|WP_044854530.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Amycolatopsis orientalis] &gt;gb|ANN20555.1| MarR family transcriptional regulator [Amycolatopsis orientalis]</Hit_def>
+  <Hit_accession>WP_044854530</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>1.59594e-19</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>WDRVLTLHGRIEQELAKALQRRHGLGLSEFRALGKLAATEKGVLRMQELAEAIGLNQSSVSRMVVRLEDAGLTDRDPCENDRRGVYTCITETGRKRYAETEPTYQEVLATALDKAHADPELKSTVAALR</Hsp_hseq>
+      <Hsp_midline>W R+  + G++ Q L K L   H + L E   L +L    +   R+QEL+ A+GL+QSS+SR+V RLE+ GLT R  CE+DRRGVY  +T  G +R    E   +E L   LD A  D    S V+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>ref|WP_184899483.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Amycolatopsis umgeniensis] &gt;gb|MBB5855073.1| DNA-binding MarR family transcriptional regulator [Amycolatopsis umgeniensis]</Hit_def>
+  <Hit_accession>WP_184899483</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>1.60329e-19</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>WGRVLALHGRIEQELAKALQRRHGLGLSEFRALGKLAATGKGVLRMQELAEAIGLNQSSVSRMVVRLEDAGLTERDPCENDRRGVYSCITKEGRKRHAETEPTYREVLAAALDKAEADPELKGAVTALR</Hsp_hseq>
+      <Hsp_midline>W R+  + G++ Q L K L   H + L E   L +L    +   R+QEL+ A+GL+QSS+SR+V RLE+ GLT R  CE+DRRGVY  +T  G +R    E   RE L   LD A  D      V+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|WP_067373698.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Micromonospora rosaria]</Hit_def>
+  <Hit_accession>WP_067373698</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>1.67823e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>AADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERG-TRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRH</Hsp_qseq>
+      <Hsp_hseq>ATDEIGAR------WHELRLLQWQVNETLEHALQEKFALSLSEYIALATLDASDDDGHLRQQVLAAAIPLNQSSLSRLVARLEKAGLTERYMCATDRRGVYTQITPAGRALVARARRVYQRVLHQALDTAADDAQLTHLVDKLRH</Hsp_hseq>
+      <Hsp_midline>A D+ G R      W  + L+  Q+N++LE  L  +  +SL E + L  L    + G  R Q L+ A+ L+QSS+SRLV RLE  GLT R  C  DRRGVY  +TPAG     RA    +  L   LD A+ D +   LV + RH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>ref|WP_184692884.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Saccharothrix tamanrassetensis] &gt;gb|MBB5957640.1| DNA-binding MarR family transcriptional regulator [Saccharothrix tamanrassetensis]</Hit_def>
+  <Hit_accession>WP_184692884</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>1.76149e-19</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>WSGLRALHNRINASLERALQRRFHFGMSEFTALSALHDSPEGELRMQELTEVVGLNQSSVSRLVARLEQSGLTTREICESDRRGVFSCITPAGREVYRTAAPFYEETLAAIFDEVGADSDLGPLLTRIR</Hsp_hseq>
+      <Hsp_midline>W  +  +  ++N SLE+ L       + E   L  L    E   R+QEL+  VGL+QSS+SRLV RLE  GLTTR  CE DRRGV+  +TPAG E    A     E L  + D    D     L++R R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|WP_103353101.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Amycolatopsis sp. CA-128772]</Hit_def>
+  <Hit_accession>WP_103353101</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>1.81677e-19</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>WGRVLVLHARIEQELAKALQRRHGLGLSEYRALGKLAAGPRGGLRMQELAEAIGLNQSSVSRMCARLEDAGLTVRDLCEDDRRGVYSVITDAGRRRYAETEPTYTTVLQTALDKAASDPELATAVTAVR</Hsp_hseq>
+      <Hsp_midline>W R+ ++  ++ Q L K L   H + L E   L +L  G   G R+QEL+ A+GL+QSS+SR+  RLE+ GLT R  CE DRRGVY ++T AG  R    E      L   LD A+ D   A+ V+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|WP_013222863.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Amycolatopsis mediterranei] &gt;gb|ADJ42770.1| MarR family transcriptional regulator [Amycolatopsis mediterranei U32] &gt;gb|AEK39461.1| MarR family transcriptional regulator [Amycolatopsis mediterranei S699] &gt;gb|AFO74484.1| MarR family transcriptional regulator [Amycolatopsis mediterranei S699] &gt;gb|AGT81613.1| MarR family transcriptional regulator [Amycolatopsis mediterranei RB] &gt;gb|KDO09930.1| MarR family transcriptional regulator [Amycolatopsis mediterranei]</Hit_def>
+  <Hit_accession>WP_013222863</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>1.85643e-19</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>WGRVLVLHARIEQELAKALQRRHGLGLSEYRALGKLVAGPRGGLRMQELADAIGLNQSSVSRMCARLEDAGLTLRDLCEDDRRGVYSVITDAGRKRYSETEPTYCAVLRTALDKAASDPELAAAVSAVR</Hsp_hseq>
+      <Hsp_midline>W R+ ++  ++ Q L K L   H + L E   L +L  G   G R+QEL+ A+GL+QSS+SR+  RLE+ GLT R  CE DRRGVY ++T AG +R    E      L   LD A+ D   A+ VS  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|WP_151565305.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Actinomadura rudentiformis] &gt;gb|KAB2344937.1| MarR family transcriptional regulator [Actinomadura rudentiformis]</Hit_def>
+  <Hit_accession>WP_151565305</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>1.97729e-19</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>VWDQVVTLHGRVENELAKALQRRHGIGLSEFRALCRLSHADDGELRMQELADLIGLNQSSVSRLVARLETAGFTRRDLCANDRRGVYTVITDEGRAAVENASPTYYETLSRSLDDASSDPRVSGLVAALR</Hsp_hseq>
+      <Hsp_midline>+W ++  + G++   L K L   H I L E   L  L H  +   R+QEL+  +GL+QSS+SRLV RLE  G T R  C +DRRGVY ++T  G    E A     E L+  LD AS D R + LV+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|WP_179838266.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Actinomadura citrea] &gt;dbj|GGT69107.1| MarR family transcriptional regulator [Actinomadura citrea]</Hit_def>
+  <Hit_accession>WP_179838266</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>2.06956e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>MGVDTKAAADGA--LWDGIVVLHGRVEHRLAKALQRRHGIGLSEYRALCHLARAEDGELRMQELADLIGLNQSSVSRLVARLESAGLTRRAMCPKDRRGVYTVITDEGRAVQDKAAPTYTETLTQALDEAATDPNLAPFLTRLR</Hsp_hseq>
+      <Hsp_midline>M  D +    G   LW  + ++ G++   L K L   H I L E   L  L    +   R+QEL+  +GL+QSS+SRLV RLE+ GLT R  C  DRRGVY ++T  G    ++A     E LT  LD A+ D   A  ++R R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>gb|NYE09978.1|</Hit_id>
+  <Hit_def>DNA-binding MarR family transcriptional regulator [Actinomadura citrea]</Hit_def>
+  <Hit_accession>NYE09978</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>2.12382e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>MGVDTKAAADGA--LWDGIVVLHGRVEHRLAKALQRRHGIGLSEYRALCHLARAEDGELRMQELADLIGLNQSSVSRLVARLESAGLTRRAMCPKDRRGVYTVITDEGRAVQDKAAPTYTETLTQALDEAATDPNLAPFLTRLR</Hsp_hseq>
+      <Hsp_midline>M  D +    G   LW  + ++ G++   L K L   H I L E   L  L    +   R+QEL+  +GL+QSS+SRLV RLE+ GLT R  C  DRRGVY ++T  G    ++A     E LT  LD A+ D   A  ++R R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>gb|MBE8522835.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Amycolatopsis sp. H6(2020)]</Hit_def>
+  <Hit_accession>MBE8522835</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>2.40564e-19</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>WGRVLVLHARIEQELAKALQRRHGLGLSEYRALGKLVAGPQGGLRMQELADAIGLNQSSVSRMCARLEDAGLTIRDLCEDDRRGVYSVITDAGRKRYAETEPTYNVVLRTALDKAAGDPELAAAVFAVR</Hsp_hseq>
+      <Hsp_midline>W R+ ++  ++ Q L K L   H + L E   L +L  G + G R+QEL+ A+GL+QSS+SR+  RLE+ GLT R  CE DRRGVY ++T AG +R    E      L   LD A+ D   A+ V   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>ref|WP_150216972.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces venezuelae] &gt;gb|QES34832.1| MarR family transcriptional regulator [Streptomyces venezuelae]</Hit_def>
+  <Hit_accession>WP_150216972</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>2.60438e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAA</Hsp_qseq>
+      <Hsp_hseq>MATAARGRLSGELELWRQLLLLVNGVSTTLDKKLQRQHGVTASEFTALSVLGRG---ALRMQELADSVGSSQSTMSRLVTRLENEDLVARTVGEEDRRVMFAHLTAEGKKLVAQAQGTFAKELSLALDMASFEPETASLVNRLRHTPAPPA</Hsp_hseq>
+      <Hsp_midline>MA   RG   GE +LWR++ L+V  ++ +L+K L  +H ++  E   L  L  G     R+QEL+ +VG  QS+MSRLVTRLEN+ L  R   E DRR ++  LT  G +   +A+    +EL+  LD+ASF+   ASLV+R RH+ A  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|WP_132049437.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Actinomadura sp. 7K534] &gt;gb|TDB93340.1| MarR family transcriptional regulator [Actinomadura sp. 7K534]</Hit_def>
+  <Hit_accession>WP_132049437</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>2.6512e-19</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>LWDGVVTLHARVEQQLAKAMQRRHGVGLSEFRALCRLSRADDGELRMQELADLIGLNQSSVSRLVARLEAAGLTRRAMCPNDRRGVYTVITEEGRAVHRKAAPTYDETLTEALDEAAADPAFAPLVAAFR</Hsp_hseq>
+      <Hsp_midline>LW  +  +  ++ Q L K +   H + L E   L  L    +   R+QEL+  +GL+QSS+SRLV RLE  GLT R  C +DRRGVY ++T  G     +A     E LT  LD A+ D  +A LV+ FR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|WP_184878255.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MarR family transcriptional regulator [Actinomadura] &gt;gb|MBB4771623.1| DNA-binding MarR family transcriptional regulator [Actinomadura catellatispora] &gt;dbj|GGU01448.1| MarR family transcriptional regulator [Actinomadura livida]</Hit_def>
+  <Hit_accession>WP_184878255</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>2.78738e-19</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>LWDGVVTLHARVEQQLAKAMQRRHGVGLSEFRALCRLSRADDGELRMQELADLIGLNQSSVSRLVARLEAAGLTRRAMCPNDRRGVYTVITEEGRAVHRKAAPTYDETLTEALDEAAADSAFAPLVAAFR</Hsp_hseq>
+      <Hsp_midline>LW  +  +  ++ Q L K +   H + L E   L  L    +   R+QEL+  +GL+QSS+SRLV RLE  GLT R  C +DRRGVY ++T  G     +A     E LT  LD A+ D  +A LV+ FR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gb|NUP27871.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Nocardia sp.]</Hit_def>
+  <Hit_accession>NUP27871</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>2.91291e-19</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>VWDQVTALHGKVTHHLSKQMQRQHGIGLSEYQALCRLSRADDGELRMQELAELIGLNQSSVSRLVARLESAGLTHRDLCPKDRRGVYTVITEQGRAVQAKAEPTYLEALTRALDEAATDARMGELVACLR</Hsp_hseq>
+      <Hsp_midline>+W ++T + G++   L K +  +H I L E   L  L    +   R+QEL+  +GL+QSS+SRLV RLE+ GLT R  C  DRRGVY ++T  G     +AE    E LT  LD A+ D R   LV+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gb|KXK58339.1|</Hit_id>
+  <Hit_def>hypothetical protein AWW66_30365 [Micromonospora rosaria]</Hit_def>
+  <Hit_accession>KXK58339</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>4.09008e-19</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERG-TRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRH</Hsp_qseq>
+      <Hsp_hseq>WHELRLLQWQVNETLEHALQEKFALSLSEYIALATLDASDDDGHLRQQVLAAAIPLNQSSLSRLVARLEKAGLTERYMCATDRRGVYTQITPAGRALVARARRVYQRVLHQALDTAADDAQLTHLVDKLRH</Hsp_hseq>
+      <Hsp_midline>W  + L+  Q+N++LE  L  +  +SL E + L  L    + G  R Q L+ A+ L+QSS+SRLV RLE  GLT R  C  DRRGVY  +TPAG     RA    +  L   LD A+ D +   LV + RH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|WP_033247288.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Nocardia carnea]</Hit_def>
+  <Hit_accession>WP_033247288</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>4.43865e-19</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>VWDQVMALHSTVTQHLAKEMQRRHGIGLSEYQALCRLTRADDGELRMQELAELIGLNQSSVSRLVVRLEAGGLTLRDHCPKDRRGVYTVITEEGRALQAKAEPTYREALTRALDEAAADPRSSELVAKLR</Hsp_hseq>
+      <Hsp_midline>+W ++  +   + Q L K +   H I L E   L  L    +   R+QEL+  +GL+QSS+SRLV RLE  GLT R  C  DRRGVY ++T  G     +AE   RE LT  LD A+ D R + LV++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|WP_195015761.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Nocardia cyriacigeorgica] &gt;gb|MBF6412380.1| MarR family transcriptional regulator [Nocardia cyriacigeorgica]</Hit_def>
+  <Hit_accession>WP_195015761</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>5.03473e-19</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>WDQLVALHGLVNHRLAKQIQRLHGIGLSEYQALRRLAHADDGELRMQELAELIGLNQSSVSRLVARLESDGLTRRDLCPNDRRGVYTVITDKGRAIQRTAEPTYRKALAEVLEEAAGDARTSELVAKLR</Hsp_hseq>
+      <Hsp_midline>W ++  + G +N  L K +   H I L E   L  L H  +   R+QEL+  +GL+QSS+SRLV RLE+ GLT R  C +DRRGVY ++T  G      AE   R+ L  +L+ A+ D R + LV++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|WP_130919712.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Nocardia cyriacigeorgica] &gt;gb|MBF6159836.1| MarR family transcriptional regulator [Nocardia cyriacigeorgica] &gt;gb|MBF6198919.1| MarR family transcriptional regulator [Nocardia cyriacigeorgica] &gt;gb|MBF6316177.1| MarR family transcriptional regulator [Nocardia cyriacigeorgica] &gt;gb|MBF6342278.1| MarR family transcriptional regulator [Nocardia cyriacigeorgica] &gt;gb|MBF6512758.1| MarR family transcriptional regulator [Nocardia cyriacigeorgica]</Hit_def>
+  <Hit_accession>WP_130919712</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>5.05275e-19</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>IWDQLVALHGLVNHRLAKQIQRLHGIGLSEYQALRRLAHADDGELRMQELAELIGLNQSSVSRLVARLESDGLTRRDLCPNDRRGVYTVITDKGRAMQRTAEPTYRMALAEVLEEAAGDARTSELVAKLR</Hsp_hseq>
+      <Hsp_midline>+W ++  + G +N  L K +   H I L E   L  L H  +   R+QEL+  +GL+QSS+SRLV RLE+ GLT R  C +DRRGVY ++T  G      AE   R  L  +L+ A+ D R + LV++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|WP_195052703.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Nocardia cyriacigeorgica] &gt;gb|MBF6099820.1| MarR family transcriptional regulator [Nocardia cyriacigeorgica]</Hit_def>
+  <Hit_accession>WP_195052703</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>7.06145e-19</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>IWDQLVALHGLVNHRLAKQIQRLHGIGLSEYQALRRLAHADDGELRMQELAELIGLNQSSVSRLVARLESGGLTRRDLCPNDRRGVYTVITDKGRAMQRTAEPTYRMALAEVLEEAAGDARTSELVAKLR</Hsp_hseq>
+      <Hsp_midline>+W ++  + G +N  L K +   H I L E   L  L H  +   R+QEL+  +GL+QSS+SRLV RLE+ GLT R  C +DRRGVY ++T  G      AE   R  L  +L+ A+ D R + LV++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>ref|WP_150185599.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces venezuelae] &gt;gb|QES46127.1| MarR family transcriptional regulator [Streptomyces venezuelae]</Hit_def>
+  <Hit_accession>WP_150185599</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>7.3289e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHSAAGAA</Hsp_qseq>
+      <Hsp_hseq>MATAARGRLNGELELWRQLLLLVNGVSTTLDKKLQRQHGVTASEFTALSVLGRG---ALRMQELADSVGSSQSTMSRLVTRLENEDLVARTVGEEDRRVMFAHLTAEGKKLVAQAQGTFAKELSLALDMASFEPETASLVNRLRHAPSSPA</Hsp_hseq>
+      <Hsp_midline>MA   RG   GE +LWR++ L+V  ++ +L+K L  +H ++  E   L  L  G     R+QEL+ +VG  QS+MSRLVTRLEN+ L  R   E DRR ++  LT  G +   +A+    +EL+  LD+ASF+   ASLV+R RH+ +  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|WP_061983531.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Amycolatopsis regifaucium] &gt;gb|KZB82270.1| MarR family transcriptional regulator [Amycolatopsis regifaucium] &gt;gb|OKA05658.1| MarR family transcriptional regulator [Amycolatopsis regifaucium] &gt;emb|SFG88169.1| DNA-binding transcriptional regulator, MarR family [Amycolatopsis regifaucium]</Hit_def>
+  <Hit_accession>WP_061983531</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>7.63577e-19</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHS</Hsp_qseq>
+      <Hsp_hseq>WDRVLRLHGRIEHELGKALQRRHGLGLSEFRALGKLTATQDGVLRMQDLAEAIGLNQSSVSRMVVRLEDAGLTDRDPCEDDRRGVYTCITETGRKRYAETESTYREVLATALDKAHADPELKNVVAALRGS</Hsp_hseq>
+      <Hsp_midline>W R+  + G++   L K L   H + L E   L +L    +   R+Q+L+ A+GL+QSS+SR+V RLE+ GLT R  CE DRRGVY  +T  G +R    E+  RE L   LD A  D    ++V+  R S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>ref|WP_117397323.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Actinomadura sp. LHW52907] &gt;gb|RFS86872.1| MarR family transcriptional regulator [Actinomadura sp. LHW52907]</Hit_def>
+  <Hit_accession>WP_117397323</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>7.84218e-19</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>LWDGVVTLHGRVENQLAKALQRRHGIGLSEYRALCRLARADDGELRMQELADLIGLNQSSVSRLVARLESAGFTRRAMCPKDRRGVYTVITDEGRIVQEKAAPTYSETLTEALDAAATDPSLAPLIATLR</Hsp_hseq>
+      <Hsp_midline>LW  +  + G++   L K L   H I L E   L  L    +   R+QEL+  +GL+QSS+SRLV RLE+ G T R  C  DRRGVY ++T  G    E+A     E LT  LD A+ D   A L++  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>ref|WP_197731561.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Nocardia cyriacigeorgica]</Hit_def>
+  <Hit_accession>WP_197731561</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>8.15544e-19</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>IWDQLVALHGLVNHRLAKQIQRLHGIGLSEYQALRRLAHADDGELRMQELAELIGLNQSSVSRLVARLESDGLTRRDLCPNDRRGVYTVITDKGRAMQRTAEPTYRMALAEVLEEAAGDARTSELVAKLR</Hsp_hseq>
+      <Hsp_midline>+W ++  + G +N  L K +   H I L E   L  L H  +   R+QEL+  +GL+QSS+SRLV RLE+ GLT R  C +DRRGVY ++T  G      AE   R  L  +L+ A+ D R + LV++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>ref|WP_121432922.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Actinomadura pelletieri] &gt;gb|RKS79400.1| DNA-binding MarR family transcriptional regulator [Actinomadura pelletieri DSM 43383]</Hit_def>
+  <Hit_accession>WP_121432922</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>8.18764e-19</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>LWDGVVTLHGRVENQLAKALQRRHGIGLSEYRALCRLARADDGELRMQELADLIGLNQSSVSRLVARLESAGFTRRAMCPKDRRGVYTVITDEGRIVQEKAAPTYSETLTEALDAAATDPSLAPLIATLR</Hsp_hseq>
+      <Hsp_midline>LW  +  + G++   L K L   H I L E   L  L    +   R+QEL+  +GL+QSS+SRLV RLE+ G T R  C  DRRGVY ++T  G    E+A     E LT  LD A+ D   A L++  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|WP_179845115.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Actinomadura luteofluorescens] &gt;gb|NYD48151.1| DNA-binding MarR family transcriptional regulator [Actinomadura luteofluorescens]</Hit_def>
+  <Hit_accession>WP_179845115</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>8.59546e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>MGVDTKAAADGT--LWDGIVVLHGRVEHRLAKALQRRHGIGLSEYRALCHLARAGDGELRMQELADLIGLNQSSVSRLVARLESAGLTRRAMCPKDRRGVYTVITDEGRAVQEKAAPTYTETLTQALDEAATDPALATVLTSLR</Hsp_hseq>
+      <Hsp_midline>M  D +    G   LW  + ++ G++   L K L   H I L E   L  L    +   R+QEL+  +GL+QSS+SRLV RLE+ GLT R  C  DRRGVY ++T  G    E+A     E LT  LD A+ D   A++++  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|WP_075022919.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Actinomadura madurae] &gt;emb|SFP10277.1| DNA-binding transcriptional regulator, MarR family [Actinomadura madurae]</Hit_def>
+  <Hit_accession>WP_075022919</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>8.6745e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>ADDRGGRPGEFD--LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>AEKTAGTTGTADGPLWDGIVTLHGRVEARLAKALQRRHGIGLSEYRALCRLSRAEDHELRMQELADLIGLNQSSVSRLVARLEAAGLTRRAMCPKDRRGVYSVITDEGLAVLDKASPTYVETLTEALDTAAKDPTLAPLIATLR</Hsp_hseq>
+      <Hsp_midline>A+   G  G  D  LW  +  + G++   L K L   H I L E   L  L    +   R+QEL+  +GL+QSS+SRLV RLE  GLT R  C  DRRGVY ++T  G    ++A     E LT  LD A+ D   A L++  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>ref|WP_131737811.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Actinomadura roseirufa]</Hit_def>
+  <Hit_accession>WP_131737811</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>9.35564e-19</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRHS</Hsp_qseq>
+      <Hsp_hseq>VWDGVVTLHGRVEHRLSKALQRRHGIGLSEFRALCRLTRADEGELRMQELADLIGLNQSSVSRLVARLENAGFTHRDMCPRDRRGVYTVITEEGRDLVAEATPTYRETLAESLDEAAADPSLASLVATLRDA</Hsp_hseq>
+      <Hsp_midline>+W  +  + G++   L K L   H I L E   L  L    E   R+QEL+  +GL+QSS+SRLV RLEN G T R  C  DRRGVY ++T  G +    A    RE L   LD A+ D   ASLV+  R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|WP_181771661.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Amycolatopsis pittospori]</Hit_def>
+  <Hit_accession>WP_181771661</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>9.89298e-19</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>WGRVIMLHGRIEQELTKALQRRHGLGLSEYRALGKLAATEKGVLRMQELAEAIGLNQSSVSRMVARLEDAGLTDRDPCENDRRGVYSCITKEGRKRHAETEPTYQAVLAAALDKAHADPDLTTAVAALR</Hsp_hseq>
+      <Hsp_midline>W R+ ++ G++ Q L K L   H + L E   L +L    +   R+QEL+ A+GL+QSS+SR+V RLE+ GLT R  CE+DRRGVY  +T  G +R    E   +  L   LD A  D    + V+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|WP_004559170.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Amycolatopsis vancoresmycina] &gt;gb|EOD64032.1| MarR family transcriptional regulator [Amycolatopsis vancoresmycina DSM 44592]</Hit_def>
+  <Hit_accession>WP_004559170</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>1.09019e-18</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>WGRVLVLHARIEQELAKALQRRHGLGLSEYRALGKLAAGPRGGLRMQELAEALGLNQSSVSRMCARLEDAGLTVRDLCEDDRRGVYSVITDAGRKRYAETEPTYTTVLRTALDKAAGDPELATAVIAVR</Hsp_hseq>
+      <Hsp_midline>W R+ ++  ++ Q L K L   H + L E   L +L  G   G R+QEL+ A+GL+QSS+SR+  RLE+ GLT R  CE DRRGVY ++T AG +R    E      L   LD A+ D   A+ V   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>gb|MBA8929405.1|</Hit_id>
+  <Hit_def>DNA-binding MarR family transcriptional regulator [Kutzneria viridogrisea]</Hit_def>
+  <Hit_accession>MBA8929405</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>1.37626e-18</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFD</Hsp_qseq>
+      <Hsp_hseq>WSRVVTLHGRVEQELAKALQRQHGLGLSEYRALAQLAATECGELRIQELADAIGLNQSSVSRLVARLEEAGLTRRDLCANDRRGVYSVITDAGRKRLATAAPVYTEVLTQALDRAAAD</Hsp_hseq>
+      <Hsp_midline>W R+  + G++ Q L K L  +H + L E   L +L        R+QEL+ A+GL+QSS+SRLV RLE  GLT R  C +DRRGVY ++T AG +R   A     E LT  LD A+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|WP_081789772.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Kutzneria albida]</Hit_def>
+  <Hit_accession>WP_081789772</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>1.41224e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>MAADDRGGRPGEFDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFD</Hsp_qseq>
+      <Hsp_hseq>LSSTPRGGAVTDELGWSRVVTLHGRVEQELAKALQRQHGLGLSEYRALAQLAATECGELRIQELADAIGLNQSSVSRLVARLEEAGLTRRDLCADDRRGVYSVITDAGRKRLATAAPVYTEVLTQALDRAAAD</Hsp_hseq>
+      <Hsp_midline>+++  RGG   +   W R+  + G++ Q L K L  +H + L E   L +L        R+QEL+ A+GL+QSS+SRLV RLE  GLT R  C  DRRGVY ++T AG +R   A     E LT  LD A+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|WP_069927332.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Streptomyces agglomeratus] &gt;gb|OEJ40560.1| hypothetical protein BGK70_22645 [Streptomyces agglomeratus] &gt;gb|OEJ45060.1| hypothetical protein AR457_14005 [Streptomyces agglomeratus]</Hit_def>
+  <Hit_accession>WP_069927332</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>1.49699e-18</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>FDLWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFRH</Hsp_qseq>
+      <Hsp_hseq>LDLYRQLAILVGQASGTLEKRMLRRHGVTPLEYMALSELADAGDDSLRMNDLAEAVGVNPSTVSRLMGRLEGGELARREICEADRRATYARITDQGQRVVREAAATFDDDFASVLDAAAVDSRTAALVSLLRQ</Hsp_hseq>
+      <Hsp_midline> DL+R++ ++VGQ + +LEK +   H ++  E M L EL    +   R+ +L+ AVG++ S++SRL+ RLE   L  R  CE DRR  Y  +T  G      A A   ++   +LD A+ D R A+LVS  R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>ref|WP_101612384.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Amycolatopsis sp. BJA-103] &gt;gb|AUI63528.1| MarR family transcriptional regulator [Amycolatopsis sp. BJA-103] &gt;gb|PNE19372.1| MarR family transcriptional regulator [Amycolatopsis sp. BJA-103]</Hit_def>
+  <Hit_accession>WP_101612384</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>1.51329e-18</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>WRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>WGRVLALHGRIEQELAKALQRRHGLGLSEFRALGKLAATGKGVLRMQELAEAIGLNQSSVSRMVVRLEDAGLTERDPCEADRRGVYSCITKEGRKRHAETEPTYQEVLAAALDKAEADPELKDAVAALR</Hsp_hseq>
+      <Hsp_midline>W R+  + G++ Q L K L   H + L E   L +L    +   R+QEL+ A+GL+QSS+SR+V RLE+ GLT R  CE DRRGVY  +T  G +R    E   +E L   LD A  D      V+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|WP_111832796.1|</Hit_id>
+  <Hit_def>MarR family transcriptional regulator [Actinomadura madurae] &gt;emb|SPT60838.1| Predicted transcriptional regulator [Actinomadura madurae]</Hit_def>
+  <Hit_accession>WP_111832796</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>2.03163e-18</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LWRRMTLMVGQLNQSLEKTLASEHQISLPELMVLIELRHGHERGTRVQELSTAVGLDQSSMSRLVTRLENKGLTTRVSCEHDRRGVYCMLTPAGAERGERAEARCREELTGLLDVASFDDRWASLVSRFR</Hsp_qseq>
+      <Hsp_hseq>LWDGIVTLHGRVEARLAKALQRRHGIGLSEYRALCRLSRAEDHELRMQELADLIGLNQSSVSRLVARLEAAGLTRRAMCPKDRRGVYSVITDEGLAVLDKASPTYVETLTEALDTAAKDPTLAPLIATLR</Hsp_hseq>
+      <Hsp_midline>LW  +  + G++   L K L   H I L E   L  L    +   R+QEL+  +GL+QSS+SRLV RLE  GLT R  C  DRRGVY ++T  G    ++A     E LT  LD A+ D   A L++  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>420098071</Statistics_db-num>
+      <Statistics_db-len>152737731408</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

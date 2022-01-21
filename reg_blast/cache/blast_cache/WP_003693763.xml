@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_57989</BlastOutput_query-ID>
+  <BlastOutput_query-def>WP_003693763.1 MULTISPECIES: multidrug efflux system transcriptional repressor MtrR [Neisseria]</BlastOutput_query-def>
+  <BlastOutput_query-len>210</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_57989</Iteration_query-ID>
+  <Iteration_query-def>WP_003693763.1 MULTISPECIES: multidrug efflux system transcriptional repressor MtrR [Neisseria]</Iteration_query-def>
+  <Iteration_query-len>210</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_003693763.1|</Hit_id>
+  <Hit_def>MULTISPECIES: multidrug efflux system transcriptional repressor MtrR [Neisseria] &gt;sp|P39897.1| RecName: Full=HTH-type transcriptional regulator MtrR; AltName: Full=Multiple transferrable resistance regulator [Neisseria gonorrhoeae] &gt;pdb|6OF0|A Chain A, HTH-type transcriptional regulator MtrR [Neisseria gonorrhoeae] &gt;pdb|6OF0|B Chain B, HTH-type transcriptional regulator MtrR [Neisseria gonorrhoeae] &gt;pdb|6OF0|C Chain C, HTH-type transcriptional regulator MtrR [Neisseria gonorrhoeae] &gt;pdb|6OF0|D Chain D, HTH-type transcriptional regulator MtrR [Neisseria gonorrhoeae] &gt;gb|KLR99781.1| transcriptional regulator [Neisseria gonorrhoeae SK708] &gt;gb|AAW90014.1| transcriptional regulator [Neisseria gonorrhoeae FA 1090] &gt;gb|ADO32807.1| multiple transferable resistance repressor [Neisseria gonorrhoeae] &gt;gb|AKP10809.1| HTH-type transcriptional regulator MtrR [Neisseria gonorrhoeae] &gt;gb|AKP12796.1| HTH-type transcriptional regulator MtrR [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003693763</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.876</Hsp_bit-score>
+      <Hsp_score>1117</Hsp_score>
+      <Hsp_evalue>5.82372e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_003703745.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|EFE04929.1| mtrCDE transcriptional regulator [Neisseria gonorrhoeae DGI2] &gt;gb|TJW29327.1| multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003703745</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.106</Hsp_bit-score>
+      <Hsp_score>1115</Hsp_score>
+      <Hsp_evalue>1.04181e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHMMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEH+MLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_003695674.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|ACA81528.1| MtrR [Neisseria gonorrhoeae] &gt;gb|AMP19671.1| MtrR [Neisseria gonorrhoeae] &gt;gb|AQY09649.1| Mtr repressor [Neisseria gonorrhoeae] &gt;gb|AQY09664.1| Mtr repressor [Neisseria gonorrhoeae] &gt;gb|ARC03344.1| TetR family transcriptional regulator [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003695674</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>2.59028e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQTAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQ AGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_123781687.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|ROU96818.1| multidrug efflux system transcriptional regulator MtrR [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_123781687</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.335</Hsp_bit-score>
+      <Hsp_score>1113</Hsp_score>
+      <Hsp_evalue>2.59028e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGTLYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRG LYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_012503796.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|ACF30254.1| MtrR protein [Neisseria gonorrhoeae NCCP11945] &gt;gb|ADO32810.1| multiple transferable resistance repressor [Neisseria gonorrhoeae] &gt;gb|ANJ48224.1| transcriptional regulator [Neisseria gonorrhoeae] &gt;gb|ANJ50414.1| transcriptional regulator [Neisseria gonorrhoeae] &gt;gb|AQY09643.1| Mtr repressor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_012503796</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.95</Hsp_bit-score>
+      <Hsp_score>1112</Hsp_score>
+      <Hsp_evalue>3.48355e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_101066295.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_101066295</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.565</Hsp_bit-score>
+      <Hsp_score>1111</Hsp_score>
+      <Hsp_evalue>4.63373e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHMMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDTLFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEH+MLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFD LFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_003697360.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;pdb|3VIB|A Chain A, Mtrr [Neisseria gonorrhoeae] &gt;pdb|3VIB|B Chain B, Mtrr [Neisseria gonorrhoeae] &gt;pdb|3VIB|C Chain C, Mtrr [Neisseria gonorrhoeae] &gt;pdb|3VIB|D Chain D, Mtrr [Neisseria gonorrhoeae] &gt;gb|ACA81529.1| MtrR [Neisseria gonorrhoeae] &gt;gb|ADO32806.1| multiple transferable resistance repressor [Neisseria gonorrhoeae] &gt;gb|AKP14430.1| HTH-type transcriptional regulator MtrR [Neisseria gonorrhoeae] &gt;gb|AMP19665.1| MtrR [Neisseria gonorrhoeae] &gt;gb|AMP19667.1| MtrR [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003697360</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.795</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>9.14967e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRDALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTR ALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_192213606.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Neisseria gonorrhoeae] &gt;gb|QOG39188.1| multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_192213606</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.795</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>1.0669e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQTVGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQ  GVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_047920499.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|ANJ52648.1| transcriptional regulator [Neisseria gonorrhoeae] &gt;gb|KLR86089.1| transcriptional regulator [Neisseria gonorrhoeae SK15454] &gt;gb|KLS43519.1| transcriptional regulator [Neisseria gonorrhoeae SK39420] &gt;gb|KLS57141.1| transcriptional regulator [Neisseria gonorrhoeae ATL_2011_05-08] &gt;gb|KLS95820.1| transcriptional regulator [Neisseria gonorrhoeae MU_NG23]</Hit_def>
+  <Hit_accession>WP_047920499</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.795</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>1.09058e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQTAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCKHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQ AGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKC+HTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_048339542.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|KMM30047.1| transcriptional regulator [Neisseria gonorrhoeae] &gt;gb|QEQ91620.1| multiple transferable resistance repressor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_048339542</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.409</Hsp_bit-score>
+      <Hsp_score>1108</Hsp_score>
+      <Hsp_evalue>1.21706e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQTAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQ AGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_118814219.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_118814219</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.409</Hsp_bit-score>
+      <Hsp_score>1108</Hsp_score>
+      <Hsp_evalue>1.2578e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGENFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGE+FDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|AQY09665.1|</Hit_id>
+  <Hit_def>Mtr repressor [Neisseria gonorrhoeae] &gt;gb|QEQ91619.1| multiple transferable resistance repressor [Neisseria gonorrhoeae] &gt;gb|QEQ91623.1| multiple transferable resistance repressor [Neisseria gonorrhoeae] &gt;gb|QEQ91628.1| multiple transferable resistance repressor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>AQY09665</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.409</Hsp_bit-score>
+      <Hsp_score>1108</Hsp_score>
+      <Hsp_evalue>1.40368e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQTAGVTRGALYWHFKNKEDLFDALLQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQ AGVTRGALYWHFKNKEDLFDAL QRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_162503036.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|PAX23920.1| TetR family transcriptional regulator [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_162503036</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.409</Hsp_bit-score>
+      <Hsp_score>1108</Hsp_score>
+      <Hsp_evalue>1.49921e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWAVFRHTLLHFFERLQSNDIHYKFHNILFLKCKHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSW VFRHTLLHFFERLQSNDIHYKFHNILFLKC+HTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_047922926.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|KLS60971.1| transcriptional regulator [Neisseria gonorrhoeae NYC_2011_05_07] &gt;gb|KLS62490.1| transcriptional regulator [Neisseria gonorrhoeae MIA_2011_05-15] &gt;emb|CFH29415.1| mtrCDE transcriptional repressor [Neisseria gonorrhoeae] &gt;emb|CNP33105.1| mtrCDE transcriptional repressor [Neisseria gonorrhoeae] &gt;emb|CNQ25350.1| mtrCDE transcriptional repressor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_047922926</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.024</Hsp_bit-score>
+      <Hsp_score>1107</Hsp_score>
+      <Hsp_evalue>1.95091e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESLDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGES DLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_047923426.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|KLT10010.1| transcriptional regulator [Neisseria gonorrhoeae GC1-182]</Hit_def>
+  <Hit_accession>WP_047923426</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.024</Hsp_bit-score>
+      <Hsp_score>1107</Hsp_score>
+      <Hsp_evalue>1.9942e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQTAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTPLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQ AGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHT LHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|AHB11192.1|</Hit_id>
+  <Hit_def>multiple transferable resistance repressor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>AHB11192</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.024</Hsp_bit-score>
+      <Hsp_score>1107</Hsp_score>
+      <Hsp_evalue>2.12992e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSVNEIAQAAGVTRDALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTS+NEIAQAAGVTR ALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_047924300.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|ADO32812.1| multiple transferable resistance repressor [Neisseria gonorrhoeae] &gt;gb|AMP19670.1| MtrR [Neisseria gonorrhoeae] &gt;gb|AZG70251.1| multidrug efflux system transcriptional regulator MtrR [Neisseria gonorrhoeae] &gt;gb|KLS03408.1| transcriptional regulator [Neisseria gonorrhoeae SK22871] &gt;gb|KLS75979.1| transcriptional regulator [Neisseria gonorrhoeae MU_NG1]</Hit_def>
+  <Hit_accession>WP_047924300</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.024</Hsp_bit-score>
+      <Hsp_score>1107</Hsp_score>
+      <Hsp_evalue>2.12992e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_050154592.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|AMP19662.1| MtrR [Neisseria gonorrhoeae] &gt;gb|AZG25554.1| multidrug efflux system transcriptional regulator MtrR [Neisseria gonorrhoeae] &gt;gb|AZG32405.1| multidrug efflux system transcriptional regulator MtrR [Neisseria gonorrhoeae] &gt;gb|OHZ67114.1| transcriptional regulator [Neisseria gonorrhoeae] &gt;gb|OHZ71663.1| transcriptional regulator [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_050154592</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.024</Hsp_bit-score>
+      <Hsp_score>1107</Hsp_score>
+      <Hsp_evalue>2.22549e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQTAGVTHGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQ AGVT GALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>dbj|BAP28444.1|</Hit_id>
+  <Hit_def>mtrCDE transcriptional repressor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>BAP28444</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>430.639</Hsp_bit-score>
+      <Hsp_score>1106</Hsp_score>
+      <Hsp_evalue>2.4836e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGARYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGA YWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_071200606.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|OIA71140.1| transcriptional regulator [Neisseria gonorrhoeae] &gt;gb|ROU35101.1| multidrug efflux system transcriptional regulator MtrR [Neisseria gonorrhoeae] &gt;gb|ROU45829.1| multidrug efflux system transcriptional regulator MtrR [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_071200606</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>430.639</Hsp_bit-score>
+      <Hsp_score>1106</Hsp_score>
+      <Hsp_evalue>2.86442e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQTAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVSRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQ AGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTV RHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_172762946.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;dbj|GFL88418.1| TetR family transcriptional regulator [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_172762946</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>430.639</Hsp_bit-score>
+      <Hsp_score>1106</Hsp_score>
+      <Hsp_evalue>2.86442e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQTAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFSERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQ AGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHF ERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_192369663.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Neisseria gonorrhoeae] &gt;gb|QOG41061.1| multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|QOG44891.1| multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_192369663</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>430.639</Hsp_bit-score>
+      <Hsp_score>1106</Hsp_score>
+      <Hsp_evalue>2.89602e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQTAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLGGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQ AGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTL GLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_106178897.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|QEQ91622.1| multiple transferable resistance repressor [Neisseria gonorrhoeae] &gt;gb|QEQ91627.1| multiple transferable resistance repressor [Neisseria gonorrhoeae] &gt;emb|SBN19751.1| mtrCDE transcriptional repressor [Neisseria gonorrhoeae] &gt;emb|SBO69425.1| mtrCDE transcriptional repressor [Neisseria gonorrhoeae] &gt;dbj|GFK96238.1| TetR family transcriptional regulator [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_106178897</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>430.254</Hsp_bit-score>
+      <Hsp_score>1105</Hsp_score>
+      <Hsp_evalue>3.60674e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQADGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWAVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQA GVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSW VFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_003698762.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|EEZ52942.1| HTH-type transcriptional regulator mtrR [Neisseria gonorrhoeae PID1] &gt;gb|ROU84538.1| multidrug efflux system transcriptional regulator MtrR [Neisseria gonorrhoeae] &gt;gb|ROV28505.1| multidrug efflux system transcriptional regulator MtrR [Neisseria gonorrhoeae] &gt;gb|ROV33624.1| multidrug efflux system transcriptional regulator MtrR [Neisseria gonorrhoeae] &gt;gb|ROV40452.1| multidrug efflux system transcriptional regulator MtrR [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003698762</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>430.254</Hsp_bit-score>
+      <Hsp_score>1105</Hsp_score>
+      <Hsp_evalue>4.02505e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQTAGVTRDALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQ AGVTR ALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_118832133.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_118832133</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.869</Hsp_bit-score>
+      <Hsp_score>1104</Hsp_score>
+      <Hsp_evalue>5.12407e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGVLYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGENFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRG LYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGE+FDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_146713820.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|TJW93693.1| multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_146713820</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>6.96711e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTWLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCKHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIART LNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKC+HTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_123778909.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|ROU82283.1| multidrug efflux system transcriptional regulator MtrR [Neisseria gonorrhoeae] &gt;gb|ROV09392.1| multidrug efflux system transcriptional regulator MtrR [Neisseria gonorrhoeae] &gt;gb|ROV13150.1| multidrug efflux system transcriptional regulator MtrR [Neisseria gonorrhoeae] &gt;gb|ROV42211.1| multidrug efflux system transcriptional regulator MtrR [Neisseria gonorrhoeae] &gt;gb|TND97573.1| multidrug efflux system transcriptional regulator MtrR [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_123778909</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>7.1217e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGENFDLGKTAPRIIGIIMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGE+FDLGKTAPRIIGI+MDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_003702952.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|ACA81527.1| MtrR [Neisseria gonorrhoeae] &gt;gb|ADO32811.1| multiple transferable resistance repressor [Neisseria gonorrhoeae] &gt;gb|AMP19669.1| MtrR [Neisseria gonorrhoeae] &gt;gb|AQY09668.1| Mtr repressor [Neisseria gonorrhoeae] &gt;gb|AQY09669.1| Mtr repressor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_003702952</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>9.57757e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_136828044.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|TJW37014.1| multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_136828044</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>1.00073e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLPHFFERLQSNDIHYKFHSILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTL HFFERLQSNDIHYKFH+ILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|ADO32813.1|</Hit_id>
+  <Hit_def>multiple transferable resistance repressor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>ADO32813</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>428.713</Hsp_bit-score>
+      <Hsp_score>1101</Hsp_score>
+      <Hsp_evalue>1.80992e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLQNHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNL+NHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_118778559.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_118778559</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>428.328</Hsp_bit-score>
+      <Hsp_score>1100</Hsp_score>
+      <Hsp_evalue>2.01983e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGESWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGENFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEG SWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGE+FDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_139595133.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|TND78506.1| multidrug efflux system transcriptional regulator MtrR [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_139595133</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.943</Hsp_bit-score>
+      <Hsp_score>1099</Hsp_score>
+      <Hsp_evalue>2.93322e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGITRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGESWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGENFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAG+TRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEG SWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGE+FDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_118819557.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_118819557</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.557</Hsp_bit-score>
+      <Hsp_score>1098</Hsp_score>
+      <Hsp_evalue>3.9447e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGIMMDNLESHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIGIMMDNLE+HPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_104691738.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|PPZ59916.1| TetR family transcriptional regulator [Neisseria gonorrhoeae] &gt;gb|PPZ61946.1| TetR family transcriptional regulator [Neisseria gonorrhoeae] &gt;gb|PPZ64521.1| TetR family transcriptional regulator [Neisseria gonorrhoeae] &gt;gb|PPZ66835.1| TetR family transcriptional regulator [Neisseria gonorrhoeae] &gt;gb|PPZ69024.1| TetR family transcriptional regulator [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_104691738</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.557</Hsp_bit-score>
+      <Hsp_score>1098</Hsp_score>
+      <Hsp_evalue>4.59972e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMIDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIM+DNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_134981698.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_134981698</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.172</Hsp_bit-score>
+      <Hsp_score>1097</Hsp_score>
+      <Hsp_evalue>5.666e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDSGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFD GKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_123825660.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis] &gt;gb|RPB99509.1| TetR family transcriptional regulator [Neisseria meningitidis] &gt;gb|RPC04638.1| TetR family transcriptional regulator [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_123825660</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.787</Hsp_bit-score>
+      <Hsp_score>1096</Hsp_score>
+      <Hsp_evalue>7.78892e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRSALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGESWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGENFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTR ALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEG SWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGE+FDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_047951497.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|KLR77908.1| transcriptional regulator [Neisseria gonorrhoeae SK33414]</Hit_def>
+  <Hit_accession>WP_047951497</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.787</Hsp_bit-score>
+      <Hsp_score>1096</Hsp_score>
+      <Hsp_evalue>8.1384e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQADGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQA GVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_047926243.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;gb|KLT03240.1| transcriptional regulator [Neisseria gonorrhoeae MU_NG17]</Hit_def>
+  <Hit_accession>WP_047926243</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.787</Hsp_bit-score>
+      <Hsp_score>1096</Hsp_score>
+      <Hsp_evalue>8.98315e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIEIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRII IMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_061693084.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis] &gt;emb|CWQ01579.1| mtrCDE transcriptional repressor [Neisseria meningitidis] &gt;emb|CWT64727.1| mtrCDE transcriptional repressor [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_061693084</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.631</Hsp_bit-score>
+      <Hsp_score>1093</Hsp_score>
+      <Hsp_evalue>2.4117e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHMEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGIMMDNLESHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEH EQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIGIMMDNLE+HPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_161534027.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_161534027</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.631</Hsp_bit-score>
+      <Hsp_score>1093</Hsp_score>
+      <Hsp_evalue>2.54771e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLESHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLE+HPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_107819475.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria bergeri]</Hit_def>
+  <Hit_accession>WP_107819475</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.631</Hsp_bit-score>
+      <Hsp_score>1093</Hsp_score>
+      <Hsp_evalue>2.78147e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKEMAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGIMIDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKE AVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIGIM+DNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_050172626.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria gonorrhoeae] &gt;emb|CNS20962.1| mtrCDE transcriptional repressor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_050172626</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.631</Hsp_bit-score>
+      <Hsp_score>1093</Hsp_score>
+      <Hsp_evalue>2.87455e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTWLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIART LNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_002239974.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis] &gt;gb|ARC12340.1| TetR family transcriptional regulator [Neisseria meningitidis] &gt;gb|EJU69992.1| multiple transferable resistance repressor [Neisseria meningitidis 92045] &gt;gb|EPF53864.1| bacterial regulatory s, tetR family protein [Neisseria meningitidis NM134] &gt;gb|RNK24311.1| TetR family transcriptional regulator [Neisseria meningitidis] &gt;gb|RQK59221.1| TetR family transcriptional regulator [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002239974</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.246</Hsp_bit-score>
+      <Hsp_score>1092</Hsp_score>
+      <Hsp_evalue>3.86578e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDA DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_101106810.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_101106810</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.861</Hsp_bit-score>
+      <Hsp_score>1091</Hsp_score>
+      <Hsp_evalue>4.81444e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_107863027.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria polysaccharea]</Hit_def>
+  <Hit_accession>WP_107863027</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.476</Hsp_bit-score>
+      <Hsp_score>1090</Hsp_score>
+      <Hsp_evalue>6.54603e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGESWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGIMMDNLESHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEG SWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIGIMMDNLE+HPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_019272642.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria lactamica] &gt;gb|ARB05316.1| TetR family transcriptional regulator [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_019272642</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.476</Hsp_bit-score>
+      <Hsp_score>1090</Hsp_score>
+      <Hsp_evalue>6.9915e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGMMMDNLENHPQLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIG+MMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_114935651.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_114935651</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.091</Hsp_bit-score>
+      <Hsp_score>1089</Hsp_score>
+      <Hsp_evalue>9.40236e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGESWTVFRHTLLHFFKRLQSNDIHYKFHNILFLKCEHTEQNAAVIAIAHKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGENFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEG SWTVFRHTLLHFF+RLQSNDIHYKFHNILFLKCEHTEQNAAVIAIA KHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGE+FDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_124215011.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis] &gt;gb|RQL23714.1| TetR family transcriptional regulator [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_124215011</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.091</Hsp_bit-score>
+      <Hsp_score>1089</Hsp_score>
+      <Hsp_evalue>1.0265e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAEDAEGGSWVVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGIMMDNLESHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDA DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIGIMMDNLE+HPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_101121298.1|</Hit_id>
+  <Hit_def>MULTISPECIES: multidrug efflux system transcriptional repressor MtrR [Neisseria] &gt;gb|RQJ66905.1| TetR family transcriptional regulator [Neisseria meningitidis] &gt;emb|SUA15655.1| mtrCDE transcriptional repressor [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_101121298</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.091</Hsp_bit-score>
+      <Hsp_score>1089</Hsp_score>
+      <Hsp_evalue>1.07256e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGMMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIG+MMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_101134974.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_101134974</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>424.091</Hsp_bit-score>
+      <Hsp_score>1089</Hsp_score>
+      <Hsp_evalue>1.10845e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLILAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGIMMDNLESHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHL+LAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIGIMMDNLE+HPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|WP_002212604.1|</Hit_id>
+  <Hit_def>MULTISPECIES: multidrug efflux system transcriptional repressor MtrR [Neisseria] &gt;gb|ANW89034.1| transcriptional regulator MtrR [Neisseria meningitidis] &gt;gb|ARB71291.1| TetR family transcriptional regulator [Neisseria meningitidis] &gt;gb|ARC10318.1| TetR family transcriptional regulator [Neisseria meningitidis] &gt;gb|EFM05211.1| HTH-type transcriptional regulator MtrR [Neisseria meningitidis ATCC 13091] &gt;gb|EGC57387.1| transcriptional regulator MtrR [Neisseria meningitidis M13399]</Hit_def>
+  <Hit_accession>WP_002212604</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.705</Hsp_bit-score>
+      <Hsp_score>1088</Hsp_score>
+      <Hsp_evalue>1.68191e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGIMMDNLESHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDA DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIGIMMDNLE+HPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|WP_118848330.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_118848330</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.32</Hsp_bit-score>
+      <Hsp_score>1087</Hsp_score>
+      <Hsp_evalue>2.36336e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGESWTVFRHTLLHFFEWLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARRHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGENFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEG SWTVFRHTLLHFFE LQSNDIHYKFHNILFLKCEHTEQNAAVIAIAR+HQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGE+FDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|WP_014582210.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis] &gt;gb|ADZ00128.1| transcriptional regulator MtrR [Neisseria meningitidis M01-240355] &gt;gb|RJR84231.1| TetR family transcriptional regulator [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_014582210</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>422.55</Hsp_bit-score>
+      <Hsp_score>1085</Hsp_score>
+      <Hsp_evalue>3.74692e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|WP_025456792.1|</Hit_id>
+  <Hit_def>MULTISPECIES: multidrug efflux system transcriptional repressor MtrR [Neisseria]</Hit_def>
+  <Hit_accession>WP_025456792</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>422.55</Hsp_bit-score>
+      <Hsp_score>1085</Hsp_score>
+      <Hsp_evalue>3.95823e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGESWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGIMMDNLENHPNLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEG SWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|WP_115119488.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria lactamica] &gt;emb|SUA17590.1| mtrCDE transcriptional repressor [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_115119488</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>422.55</Hsp_bit-score>
+      <Hsp_score>1085</Hsp_score>
+      <Hsp_evalue>4.18146e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIHYKFHSILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGESFDLGKTAPRIIEIMMDNLENHPQLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDIHYKFH+ILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGESFDLGKTAPRII IMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|WP_118792792.1|</Hit_id>
+  <Hit_def>MULTISPECIES: multidrug efflux system transcriptional repressor MtrR [Neisseria]</Hit_def>
+  <Hit_accession>WP_118792792</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>422.165</Hsp_bit-score>
+      <Hsp_score>1084</Hsp_score>
+      <Hsp_evalue>6.70251e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGESWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEG SWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|WP_061705737.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis] &gt;emb|CWO72542.1| mtrCDE transcriptional repressor [Neisseria meningitidis] &gt;emb|CWS89986.1| mtrCDE transcriptional repressor [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_061705737</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.779</Hsp_bit-score>
+      <Hsp_score>1083</Hsp_score>
+      <Hsp_evalue>8.53246e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDTEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQD  DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|WP_019742939.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_019742939</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.779</Hsp_bit-score>
+      <Hsp_score>1083</Hsp_score>
+      <Hsp_evalue>9.31529e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWCWLSSGENFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDA DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIW W SSGE+FDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|WP_123199039.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis] &gt;gb|RNK29768.1| TetR family transcriptional regulator [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_123199039</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.779</Hsp_bit-score>
+      <Hsp_score>1083</Hsp_score>
+      <Hsp_evalue>9.73325e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLESHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDA DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLE+HPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|WP_101056147.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_101056147</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.779</Hsp_bit-score>
+      <Hsp_score>1083</Hsp_score>
+      <Hsp_evalue>9.84064e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRSALYWHFKNKEDLFDALFQRICDDIENCIAQDAEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGIMMDNLESHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTR ALYWHFKNKEDLFDALFQRICDDIENCIAQDA DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIGIMMDNLE+HPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|WP_057288599.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis] &gt;gb|KQB46046.1| transcriptional regulator [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_057288599</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.779</Hsp_bit-score>
+      <Hsp_score>1083</Hsp_score>
+      <Hsp_evalue>9.94921e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGESWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGMMMDNLENHPQLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEG SWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIG+MMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|WP_127203196.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_127203196</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.394</Hsp_bit-score>
+      <Hsp_score>1082</Hsp_score>
+      <Hsp_evalue>1.41344e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLAEDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLA+DLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|WP_013448558.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria lactamica] &gt;emb|CBN86793.1| transcriptional regulator [Neisseria lactamica 020-06]</Hit_def>
+  <Hit_accession>WP_013448558</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.009</Hsp_bit-score>
+      <Hsp_score>1081</Hsp_score>
+      <Hsp_evalue>1.46074e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPLIIGMMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAP IIG+MMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|WP_101125322.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_101125322</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.009</Hsp_bit-score>
+      <Hsp_score>1081</Hsp_score>
+      <Hsp_evalue>1.56015e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|WP_101045594.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_101045594</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.009</Hsp_bit-score>
+      <Hsp_score>1081</Hsp_score>
+      <Hsp_evalue>1.61236e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIHYKFHSILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDIHYKFH+ILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|WP_127274898.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_127274898</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.009</Hsp_bit-score>
+      <Hsp_score>1081</Hsp_score>
+      <Hsp_evalue>1.76029e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDA DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|WP_025457575.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria polysaccharea]</Hit_def>
+  <Hit_accession>WP_025457575</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.009</Hsp_bit-score>
+      <Hsp_score>1081</Hsp_score>
+      <Hsp_evalue>1.79934e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSRESFDLGKTAPRIIEIMMDNLENHPNLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SS ESFDLGKTAPRII IMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>ref|WP_149385349.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis] &gt;gb|QEN77328.1| TetR family transcriptional regulator [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_149385349</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.624</Hsp_bit-score>
+      <Hsp_score>1080</Hsp_score>
+      <Hsp_evalue>2.70041e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKRIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGIMMDNLESHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRK IARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDA DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIGIMMDNLE+HPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>gb|APU93945.1|</Hit_id>
+  <Hit_def>MtrR, partial [Neisseria gonorrhoeae] &gt;gb|APU93947.1| MtrR, partial [Neisseria gonorrhoeae] &gt;gb|APU93951.1| MtrR, partial [Neisseria gonorrhoeae] &gt;gb|APU93956.1| MtrR, partial [Neisseria gonorrhoeae] &gt;gb|APU93960.1| MtrR, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>APU93945</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.239</Hsp_bit-score>
+      <Hsp_score>1079</Hsp_score>
+      <Hsp_evalue>3.05699e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>ref|WP_118786483.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_118786483</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.239</Hsp_bit-score>
+      <Hsp_score>1079</Hsp_score>
+      <Hsp_evalue>3.11442e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIVRTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGESWTVFRHTLLHFFERLQSNDIHYKFHSILFLKCEHTEQNVAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGIMMDNLESHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGI RTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEG SWTVFRHTLLHFFERLQSNDIHYKFH+ILFLKCEHTEQN AVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIGIMMDNLE+HPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|WP_017629207.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis] &gt;gb|ODP43030.1| transcriptional regulator [Neisseria meningitidis] &gt;gb|ODP43366.1| transcriptional regulator [Neisseria meningitidis] &gt;gb|OOG96333.1| TetR family transcriptional regulator [Neisseria meningitidis] &gt;gb|OOG97346.1| TetR family transcriptional regulator [Neisseria meningitidis] &gt;gb|RNK19737.1| TetR family transcriptional regulator [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_017629207</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.853</Hsp_bit-score>
+      <Hsp_score>1078</Hsp_score>
+      <Hsp_evalue>4.67403e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDTEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLESHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQD  DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLE+HPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|WP_118816564.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_118816564</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.853</Hsp_bit-score>
+      <Hsp_score>1078</Hsp_score>
+      <Hsp_evalue>4.7256e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAERESWTVFRHTLLHFFERLQSNDIHYKFHSILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGIMMDNLESHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AE  SWTVFRHTLLHFFERLQSNDIHYKFH+ILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIGIMMDNLE+HPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|WP_101122195.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_101122195</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.853</Hsp_bit-score>
+      <Hsp_score>1078</Hsp_score>
+      <Hsp_evalue>5.15916e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGESWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCDLTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLAENLDKETAVIFIKSTLDGLIWRWLSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEG SWTVFRHTLLHFFERLQSNDIHYKFHNILFLKC+ TEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLA++LDKETAVIFIKSTLDGLIWRW SSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|WP_096108609.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_096108609</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.853</Hsp_bit-score>
+      <Hsp_score>1078</Hsp_score>
+      <Hsp_evalue>5.82098e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDTEDAEGGSWTVFRHTLLHFFERLQSNDIHYKFHSILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLPSGENFDLGKTAPRIIGIMMDNLENHPNLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQD  DAEGGSWTVFRHTLLHFFERLQSNDIHYKFH+ILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW  SGE+FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|WP_003706989.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria lactamica] &gt;gb|EEZ76901.1| HTH-type transcriptional regulator MtrR [Neisseria lactamica ATCC 23970] &gt;gb|KFJ35521.1| bacterial regulatory s, tetR family protein [Neisseria lactamica ATCC 23970]</Hit_def>
+  <Hit_accession>WP_003706989</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.853</Hsp_bit-score>
+      <Hsp_score>1078</Hsp_score>
+      <Hsp_evalue>5.8852e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGESWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIEIMMDNLENHPNLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEG SWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRII IMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|WP_123822550.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis] &gt;gb|RPB48090.1| TetR family transcriptional regulator [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_123822550</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.468</Hsp_bit-score>
+      <Hsp_score>1077</Hsp_score>
+      <Hsp_evalue>6.08215e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGESWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEG SWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>gb|APU94038.1|</Hit_id>
+  <Hit_def>MtrR, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>APU94038</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.083</Hsp_bit-score>
+      <Hsp_score>1076</Hsp_score>
+      <Hsp_evalue>7.19456e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSVNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTS+NEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|WP_101132150.1|</Hit_id>
+  <Hit_def>MULTISPECIES: multidrug efflux system transcriptional repressor MtrR [Neisseria]</Hit_def>
+  <Hit_accession>WP_101132150</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.083</Hsp_bit-score>
+      <Hsp_score>1076</Hsp_score>
+      <Hsp_evalue>9.02828e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIHYKFHSILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPLIIGMMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDIHYKFH+ILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAP IIG+MMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|WP_118854875.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_118854875</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.083</Hsp_bit-score>
+      <Hsp_score>1076</Hsp_score>
+      <Hsp_evalue>9.96533e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFGALFQRICDDIENCIAQDAEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWCWLSSGENFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLF ALFQRICDDIENCIAQDA DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIW W SSGE+FDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gb|EFH22883.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional regulator MtrR [Neisseria polysaccharea ATCC 43768]</Hit_def>
+  <Hit_accession>EFH22883</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>422.165</Hsp_bit-score>
+      <Hsp_score>1084</Hsp_score>
+      <Hsp_evalue>1.07578e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGESWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWLSSGENFDLGKTAPRIIGIMMDNLENHPNLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEG SWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRW SSGE+FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gb|AFZ93021.1|</Hit_id>
+  <Hit_def>MtrR, partial [Neisseria gonorrhoeae] &gt;gb|AFZ93025.1| MtrR, partial [Neisseria gonorrhoeae] &gt;gb|AFZ93026.1| MtrR, partial [Neisseria gonorrhoeae] &gt;gb|AFZ93027.1| MtrR, partial [Neisseria gonorrhoeae] &gt;gb|AFZ93031.1| MtrR, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>AFZ93021</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.698</Hsp_bit-score>
+      <Hsp_score>1075</Hsp_score>
+      <Hsp_evalue>1.12821e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>gb|AFZ93023.1|</Hit_id>
+  <Hit_def>MtrR, partial [Neisseria gonorrhoeae] &gt;gb|AFZ93043.1| MtrR, partial [Neisseria gonorrhoeae] &gt;gb|AFZ93044.1| MtrR, partial [Neisseria gonorrhoeae] &gt;gb|AFZ93055.1| MtrR, partial [Neisseria gonorrhoeae] &gt;gb|APU93952.1| MtrR, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>AFZ93023</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.698</Hsp_bit-score>
+      <Hsp_score>1075</Hsp_score>
+      <Hsp_evalue>1.17883e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQTAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQ AGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|WP_101119370.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_101119370</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.698</Hsp_bit-score>
+      <Hsp_score>1075</Hsp_score>
+      <Hsp_evalue>1.36988e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKIEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAANAEGGSWTVFRHTLLHFFERLQSNDIHYKLHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTK EALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAA+AEGGSWTVFRHTLLHFFERLQSNDIHYK HNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|WP_002216625.1|</Hit_id>
+  <Hit_def>MULTISPECIES: multidrug efflux system transcriptional repressor MtrR [Neisseria] &gt;emb|CCA44100.1| putative acrEF/envCD operon repressor [Neisseria meningitidis alpha522] &gt;gb|AAF42064.1| trancscriptional regulator MtrR [Neisseria meningitidis MC58] &gt;gb|ABX73776.1| TetR/AcrR family transcriptional regulator, acrAB operon repressor [Neisseria meningitidis 053442] &gt;gb|ADO32155.1| trancscriptional regulator MtrR [Neisseria meningitidis alpha710] &gt;gb|ADY94266.1| transcriptional regulator MtrR [Neisseria meningitidis G2136]</Hit_def>
+  <Hit_accession>WP_002216625</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.698</Hsp_bit-score>
+      <Hsp_score>1075</Hsp_score>
+      <Hsp_evalue>1.43134e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDA DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|WP_127213042.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_127213042</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.313</Hsp_bit-score>
+      <Hsp_score>1074</Hsp_score>
+      <Hsp_evalue>2.10147e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDTEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMIDNLESHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQD  DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIM+DNLE+HPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>ref|WP_041423698.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_041423698</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.313</Hsp_bit-score>
+      <Hsp_score>1074</Hsp_score>
+      <Hsp_evalue>2.21998e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAILTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDA DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITA+LTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|WP_123238649.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis] &gt;gb|RNK55201.1| TetR family transcriptional regulator [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_123238649</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.313</Hsp_bit-score>
+      <Hsp_score>1074</Hsp_score>
+      <Hsp_evalue>2.29428e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCECFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDA DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>gb|APU93955.1|</Hit_id>
+  <Hit_def>MtrR, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>APU93955</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>2.70577e-147</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>RKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_qseq>
+      <Hsp_hseq>RKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_hseq>
+      <Hsp_midline>RKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>gb|APU93965.1|</Hit_id>
+  <Hit_def>MtrR, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>APU93965</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>2.98662e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLEN</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLEN</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLEN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>ref|WP_123828961.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis] &gt;gb|RPB47457.1| TetR family transcriptional regulator [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_123828961</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>3.63732e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALLQRICDDIENCIAQDAANAEGESWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDAL QRICDDIENCIAQDAA+AEG SWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|WP_002257662.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis] &gt;gb|EOC21889.1| bacterial regulatory s, tetR family protein [Neisseria meningitidis NM3147]</Hit_def>
+  <Hit_accession>WP_002257662</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>3.80052e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAEDAEGESWTVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDA DAEG SWTVFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|WP_002235132.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis] &gt;gb|ADZ01024.1| transcriptional regulator MtrR [Neisseria meningitidis M04-240196] &gt;gb|EJU51623.1| transcriptional regulator MtrR [Neisseria meningitidis NM255] &gt;gb|EOB46665.1| bacterial regulatory s, tetR family protein [Neisseria meningitidis 2000080] &gt;gb|RQJ74698.1| TetR family transcriptional regulator [Neisseria meningitidis] &gt;gb|RQJ84947.1| TetR family transcriptional regulator [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002235132</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>4.05913e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAKDAEGESWTVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDA DAEG SWTVFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>gb|AFZ93020.1|</Hit_id>
+  <Hit_def>MtrR, partial [Neisseria gonorrhoeae] &gt;gb|AFZ93022.1| MtrR, partial [Neisseria gonorrhoeae] &gt;gb|AFZ93024.1| MtrR, partial [Neisseria gonorrhoeae] &gt;gb|AFZ93028.1| MtrR, partial [Neisseria gonorrhoeae] &gt;gb|AFZ93041.1| MtrR, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>AFZ93020</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.157</Hsp_bit-score>
+      <Hsp_score>1071</Hsp_score>
+      <Hsp_evalue>4.96276e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRDALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTR ALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|WP_118823796.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_118823796</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.157</Hsp_bit-score>
+      <Hsp_score>1071</Hsp_score>
+      <Hsp_evalue>5.00001e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTHGALYWHFKNKEDLFDALFQRICDDIENCIAQDTEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLESHPCLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVT GALYWHFKNKEDLFDALFQRICDDIENCIAQD  DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLE+HPCLRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>gb|AFZ93067.1|</Hit_id>
+  <Hit_def>MtrR, partial [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>AFZ93067</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>416.772</Hsp_bit-score>
+      <Hsp_score>1070</Hsp_score>
+      <Hsp_evalue>6.38746e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|WP_137426561.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis] &gt;gb|TKV54752.1| multidrug efflux system transcriptional regulator MtrR [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_137426561</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.157</Hsp_bit-score>
+      <Hsp_score>1071</Hsp_score>
+      <Hsp_evalue>6.72402e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGVLYWHFKNKEDLFDALFQRICDDIENCIAQDAEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRG LYWHFKNKEDLFDALFQRICDDIENCIAQDA DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|WP_002248112.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis] &gt;gb|ELK84445.1| bacterial regulatory s, tetR family protein [Neisseria meningitidis NM762] &gt;gb|EOC86024.1| bacterial regulatory s, tetR family protein [Neisseria meningitidis NM32] &gt;gb|EOC89934.1| bacterial regulatory s, tetR family protein [Neisseria meningitidis NM35] &gt;gb|EOC91190.1| bacterial regulatory s, tetR family protein [Neisseria meningitidis NM36] &gt;emb|CWO71916.1| mtrCDE transcriptional repressor [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002248112</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.157</Hsp_bit-score>
+      <Hsp_score>1071</Hsp_score>
+      <Hsp_evalue>6.72402e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIVRTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGI RTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDA DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|WP_101120729.1|</Hit_id>
+  <Hit_def>MULTISPECIES: multidrug efflux system transcriptional repressor MtrR [Neisseria]</Hit_def>
+  <Hit_accession>WP_101120729</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>416.772</Hsp_bit-score>
+      <Hsp_score>1070</Hsp_score>
+      <Hsp_evalue>7.0257e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGITRTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGI RTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDA DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>ref|WP_002232911.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis] &gt;gb|AAR91915.1| MtrR [Neisseria meningitidis NMB] &gt;gb|AHW76489.1| HTH-type transcriptional regulator MtrR [Neisseria meningitidis] &gt;gb|AOT29408.1| transcriptional regulator [Neisseria meningitidis] &gt;gb|ARB69152.1| TetR family transcriptional regulator [Neisseria meningitidis] &gt;gb|EJU51880.1| mtrR [Neisseria meningitidis 93003]</Hit_def>
+  <Hit_accession>WP_002232911</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>416.772</Hsp_bit-score>
+      <Hsp_score>1070</Hsp_score>
+      <Hsp_evalue>7.0257e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDTEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQD  DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|WP_002240719.1|</Hit_id>
+  <Hit_def>multidrug efflux system transcriptional repressor MtrR [Neisseria meningitidis] &gt;emb|CBA05165.1| potential acrAB operon repressor [Neisseria meningitidis alpha153] &gt;gb|EJU72031.1| bacterial regulatory s, tetR family protein [Neisseria meningitidis NM2657] &gt;gb|RNJ84306.1| TetR family transcriptional regulator [Neisseria meningitidis] &gt;gb|RNJ98782.1| TetR family transcriptional regulator [Neisseria meningitidis] &gt;gb|RNK04600.1| TetR family transcriptional regulator [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002240719</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>416.772</Hsp_bit-score>
+      <Hsp_score>1070</Hsp_score>
+      <Hsp_evalue>7.0257e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAADAEGGSWTVFRHTLLHFFERLQSNDIHYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITAVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSGESFDLGKTAPRIIGIMMDNLENHPCLRRK</Hsp_qseq>
+      <Hsp_hseq>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDAEDAEGGSWAVFRHTLLHFFERLQSNDIYYKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKITTVLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSSCERFDLGKTAPRIIGIMMDNLENHPDLRRK</Hsp_hseq>
+      <Hsp_midline>MRKTKTEALKTKEHLMLAALETFYRKGIARTSLNEIAQAAGVTRGALYWHFKNKEDLFDALFQRICDDIENCIAQDA DAEGGSW VFRHTLLHFFERLQSNDI+YKFHNILFLKCEHTEQNAAVIAIARKHQAIWREKIT VLTEAVENQDLADDLDKETAVIFIKSTLDGLIWRWFSS E FDLGKTAPRIIGIMMDNLENHP LRRK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>322214535</Statistics_db-num>
+      <Statistics_db-len>165954995</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

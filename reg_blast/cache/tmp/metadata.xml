@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<IPGReportSet xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.ncbi.nlm.nih.gov/data_specs/schema/other/seq_report/IPGReportSet.xsd">
+
+<IPGReport  ipg="949309" product_acc="WP_010986683.1">
+<Product  accver="WP_010986683.1" name="TetR/AcrR family transcriptional regulator" taxid="1883" slen="196" org="Streptomyces" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_010986683.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1883" org="Streptomyces" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NC_003155.5" start="6396435" stop="6397025" strand="+" taxid="227882" org="Streptomyces avermitilis MA-4680 = NBRC 14893" kingdom_taxid="2" kingdom="Bacteria" strain="MA-4680" assembly="GCF_000009765.2"/>
+<CDS  accver="NZ_BAVY01000027.1" start="88902" stop="89492" strand="-" taxid="227882" org="Streptomyces avermitilis MA-4680 = NBRC 14893" kingdom_taxid="2" kingdom="Bacteria" strain="NBRC 14893" assembly="GCF_000764715.1"/>
+<CDS  accver="NZ_BJHX01000001.1" start="5190480" stop="5191070" strand="+" taxid="33903" org="Streptomyces avermitilis" kingdom_taxid="2" kingdom="Bacteria" strain="NBRC 14893" assembly="GCF_005405965.1"/>
+<CDS  accver="NZ_BJHZ01000001.1" start="2786496" stop="2787086" strand="-" taxid="33903" org="Streptomyces avermitilis" kingdom_taxid="2" kingdom="Bacteria" strain="cw2" assembly="GCF_005406005.1"/>
+<CDS  accver="NZ_JZJK01000072.1" start="53991" stop="54581" strand="-" taxid="227882" org="Streptomyces avermitilis MA-4680 = NBRC 14893" kingdom_taxid="2" kingdom="Bacteria" strain="MA-4680" assembly="GCF_000968255.1"/>
+<CDS  accver="NZ_KQ948589.1" start="267573" stop="268163" strand="+" taxid="33903" org="Streptomyces avermitilis" kingdom_taxid="2" kingdom="Bacteria" strain="DSM 46492" assembly="GCF_001514135.1"/>
+<CDS  accver="NZ_MTJO01000002.1" start="466372" stop="466962" strand="+" taxid="33903" org="Streptomyces avermitilis" kingdom_taxid="2" kingdom="Bacteria" strain="MJM 7007" assembly="GCF_002017835.1"/>
+<CDS  accver="NZ_WWIN01000001.1" start="6396435" stop="6397025" strand="+" taxid="2690296" org="Streptomyces sp. SID5469" kingdom_taxid="2" kingdom="Bacteria" strain="SID5469" assembly="GCF_009862865.1"/></CDSList></Protein>
+<Protein  accver="BAC72991.1" source="INSDC" name="putative TetR-family transcriptional regulator" taxid="227882" org="Streptomyces avermitilis MA-4680 = NBRC 14893" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="BA000030.4" start="6396435" stop="6397025" strand="+" taxid="227882" org="Streptomyces avermitilis MA-4680 = NBRC 14893" kingdom_taxid="2" kingdom="Bacteria" strain="MA-4680" assembly="GCA_000009765.2"/></CDSList></Protein>
+<Protein  accver="BBJ53407.1" source="INSDC" name="TetR family transcriptional regulator" taxid="33903" org="Streptomyces avermitilis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="AP019621.1" start="6385375" stop="6385965" strand="+" taxid="33903" org="Streptomyces avermitilis" kingdom_taxid="2" kingdom="Bacteria" strain="MC3"/></CDSList></Protein>
+<Protein  accver="GDY65419.1" source="INSDC" name="TetR family transcriptional regulator" taxid="33903" org="Streptomyces avermitilis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="BJHX01000001.1" start="5190480" stop="5191070" strand="+" taxid="33903" org="Streptomyces avermitilis" kingdom_taxid="2" kingdom="Bacteria" strain="NBRC 14893"/></CDSList></Protein>
+<Protein  accver="GDY74374.1" source="INSDC" name="TetR family transcriptional regulator" taxid="33903" org="Streptomyces avermitilis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="BJHY01000001.1" start="3878650" stop="3879240" strand="-" taxid="33903" org="Streptomyces avermitilis" kingdom_taxid="2" kingdom="Bacteria" strain="ATCC 31267"/></CDSList></Protein>
+<Protein  accver="GDY83425.1" source="INSDC" name="TetR family transcriptional regulator" taxid="33903" org="Streptomyces avermitilis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="BJHZ01000001.1" start="2786496" stop="2787086" strand="-" taxid="33903" org="Streptomyces avermitilis" kingdom_taxid="2" kingdom="Bacteria" strain="cw2"/></CDSList></Protein>
+<Protein  accver="KUN51850.1" source="INSDC" name="TetR family transcriptional regulator" taxid="33903" org="Streptomyces avermitilis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="KQ948589.1" start="267573" stop="268163" strand="+" taxid="33903" org="Streptomyces avermitilis" kingdom_taxid="2" kingdom="Bacteria" strain="DSM 46492" assembly="GCA_001514135.1"/>
+<CDS  accver="LMWT01000024.1" start="111974" stop="112564" strand="+" taxid="33903" org="Streptomyces avermitilis" kingdom_taxid="2" kingdom="Bacteria" strain="DSM 46492" assembly="GCA_001514135.1"/></CDSList></Protein>
+<Protein  accver="MYT00863.1" source="INSDC" name="TetR family transcriptional regulator" taxid="2690296" org="Streptomyces sp. SID5469" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="WWIN01000001.1" start="6396435" stop="6397025" strand="+" taxid="2690296" org="Streptomyces sp. SID5469" kingdom_taxid="2" kingdom="Bacteria" strain="SID5469" assembly="GCA_009862865.1"/></CDSList></Protein>
+<Protein  accver="OOV30502.1" source="INSDC" name="TetR family transcriptional regulator" taxid="33903" org="Streptomyces avermitilis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="MTJO01000002.1" start="466372" stop="466962" strand="+" taxid="33903" org="Streptomyces avermitilis" kingdom_taxid="2" kingdom="Bacteria" strain="MJM 7007" assembly="GCA_002017835.1"/></CDSList></Protein>
+<Protein  accver="ADC11315.1" source="PAT" name="Sequence 12813 from patent US 7630836" taxid="0" org="Unknown" kingdom_taxid="0" kingdom="Unknown" priority="80"/></ProteinList>
+<Statistics  prot_count="10" nuc_count="17" assmb_count="12"/></IPGReport>
+<IPGReport  ipg="168795568" product_acc="WP_099499420.1">
+<Product  accver="WP_099499420.1" name="TetR/AcrR family transcriptional regulator" taxid="1883" slen="196" org="Streptomyces" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_099499420.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1883" org="Streptomyces" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP026652.1" start="5551770" stop="5552360" strand="+" taxid="2049881" org="Streptomyces dengpaensis" kingdom_taxid="2" kingdom="Bacteria" strain="XZHG99" assembly="GCF_002946835.1"/>
+<CDS  accver="NZ_MVDM01000002.1" start="514819" stop="515409" strand="-" taxid="1958787" org="Streptomyces sp. HG99" kingdom_taxid="2" kingdom="Bacteria" strain="HG99" assembly="GCF_002742045.1"/></CDSList></Protein>
+<Protein  accver="AVH58611.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="2049881" org="Streptomyces dengpaensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP026652.1" start="5551770" stop="5552360" strand="+" taxid="2049881" org="Streptomyces dengpaensis" kingdom_taxid="2" kingdom="Bacteria" strain="XZHG99" assembly="GCA_002946835.1"/></CDSList></Protein>
+<Protein  accver="PIB11330.1" source="INSDC" name="TetR family transcriptional regulator" taxid="1958787" org="Streptomyces sp. HG99" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="MVDM01000002.1" start="514819" stop="515409" strand="-" taxid="1958787" org="Streptomyces sp. HG99" kingdom_taxid="2" kingdom="Bacteria" strain="HG99" assembly="GCA_002742045.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="4" assmb_count="4"/></IPGReport>
+<IPGReport  ipg="359423981" product_acc="WP_189184897.1">
+<Product  accver="WP_189184897.1" name="TetR/AcrR family transcriptional regulator" taxid="1623582" slen="196" org="Streptomyces albiflavescens" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_189184897.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1623582" org="Streptomyces albiflavescens" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_BMMM01000002.1" start="330502" stop="331092" strand="+" taxid="1623582" org="Streptomyces albiflavescens" kingdom_taxid="2" kingdom="Bacteria" strain="CGMCC 4.7111" assembly="GCF_014645835.1"/></CDSList></Protein>
+<Protein  accver="GGN54233.1" source="INSDC" name="TetR family transcriptional regulator" taxid="1623582" org="Streptomyces albiflavescens" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="BMMM01000002.1" start="330502" stop="331092" strand="+" taxid="1623582" org="Streptomyces albiflavescens" kingdom_taxid="2" kingdom="Bacteria" strain="CGMCC 4.7111" assembly="GCA_014645835.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="431700386" product_acc="WP_210576717.1">
+<Product  accver="WP_210576717.1" name="TetR/AcrR family transcriptional regulator" taxid="2812655" slen="197" org="Streptomyces sp. GESEQ-4" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_210576717.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="2812655" org="Streptomyces sp. GESEQ-4" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAFFSU010000012.1" start="181098" stop="181691" strand="-" taxid="2812655" org="Streptomyces sp. GESEQ-4" kingdom_taxid="2" kingdom="Bacteria" strain="GESEQ-4" assembly="GCF_017948455.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="159633262" product_acc="WP_095934508.1">
+<Product  accver="WP_095934508.1" name="TetR/AcrR family transcriptional regulator" taxid="2036037" slen="196" org="Streptomyces sp. Tue6028" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_095934508.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="2036037" org="Streptomyces sp. Tue6028" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_MLCE01000015.1" start="32987" stop="33577" strand="-" taxid="2036037" org="Streptomyces sp. Tue6028" kingdom_taxid="2" kingdom="Bacteria" strain="Tue6028" assembly="GCF_002300165.1"/></CDSList></Protein>
+<Protein  accver="PBC63373.1" source="INSDC" name="TetR family transcriptional regulator" taxid="2036037" org="Streptomyces sp. Tue6028" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="MLCE01000015.1" start="32987" stop="33577" strand="-" taxid="2036037" org="Streptomyces sp. Tue6028" kingdom_taxid="2" kingdom="Bacteria" strain="Tue6028" assembly="GCA_002300165.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="232773151" product_acc="WP_129802484.1">
+<Product  accver="WP_129802484.1" name="TetR/AcrR family transcriptional regulator" taxid="1510026" slen="196" org="Streptomyces sp. F001" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_129802484.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1510026" org="Streptomyces sp. F001" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_QZWF01000020.1" start="21238" stop="21828" strand="+" taxid="1510026" org="Streptomyces sp. F001" kingdom_taxid="2" kingdom="Bacteria" strain="F001" assembly="GCF_004187715.1"/></CDSList></Protein>
+<Protein  accver="RZB14652.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="1510026" org="Streptomyces sp. F001" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="QZWF01000020.1" start="21238" stop="21828" strand="+" taxid="1510026" org="Streptomyces sp. F001" kingdom_taxid="2" kingdom="Bacteria" strain="F001" assembly="GCA_004187715.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="32510299" product_acc="WP_006376599.1">
+<Product  accver="WP_006376599.1" name="TetR/AcrR family transcriptional regulator" taxid="1883" slen="196" org="Streptomyces" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_006376599.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1883" org="Streptomyces" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_AEJB01000224.1" start="26688" stop="27278" strand="-" taxid="698760" org="Streptomyces turgidiscabies Car8" kingdom_taxid="2" kingdom="Bacteria" strain="Car8" assembly="GCF_000331005.1"/>
+<CDS  accver="NZ_BCMN01000010.1" start="13944" stop="14534" strand="-" taxid="85558" org="Streptomyces turgidiscabies" kingdom_taxid="2" kingdom="Bacteria" strain="T45" assembly="GCF_001485145.1"/>
+<CDS  accver="NZ_MUNI01000227.1" start="10040" stop="10630" strand="+" taxid="146821" org="Streptomyces reticuliscabiei" kingdom_taxid="2" kingdom="Bacteria" strain="NRRL B-24446" assembly="GCF_002154675.1"/></CDSList></Protein>
+<Protein  accver="ELP68216.1" source="INSDC" name="transcriptional regulator, TetR family" taxid="698760" org="Streptomyces turgidiscabies Car8" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="AEJB01000224.1" start="26688" stop="27278" strand="-" taxid="698760" org="Streptomyces turgidiscabies Car8" kingdom_taxid="2" kingdom="Bacteria" strain="Car8" assembly="GCA_000331005.1"/></CDSList></Protein>
+<Protein  accver="GAQ72418.1" source="INSDC" name="HTH-type transcriptional repressor KstR2" taxid="85558" org="Streptomyces turgidiscabies" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="BCMN01000010.1" start="13944" stop="14534" strand="-" taxid="85558" org="Streptomyces turgidiscabies" kingdom_taxid="2" kingdom="Bacteria" strain="T45" assembly="GCA_001485145.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="5" assmb_count="5"/></IPGReport>
+<IPGReport  ipg="377639459" product_acc="WP_196462544.1">
+<Product  accver="WP_196462544.1" name="TetR/AcrR family transcriptional regulator" taxid="284043" slen="196" org="Streptomyces spinoverrucosus" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_196462544.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="284043" org="Streptomyces spinoverrucosus" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JADPZX010000001.1" start="5534313" stop="5534903" strand="+" taxid="284043" org="Streptomyces spinoverrucosus" kingdom_taxid="2" kingdom="Bacteria" strain="SNB-032" assembly="GCF_015712165.1"/></CDSList></Protein>
+<Protein  accver="MBG0855050.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="284043" org="Streptomyces spinoverrucosus" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JADPZX010000001.1" start="5534313" stop="5534903" strand="+" taxid="284043" org="Streptomyces spinoverrucosus" kingdom_taxid="2" kingdom="Bacteria" strain="SNB-032" assembly="GCA_015712165.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="358802758" product_acc="WP_189699021.1">
+<Product  accver="WP_189699021.1" name="TetR/AcrR family transcriptional regulator" taxid="42881" slen="196" org="Streptomyces chromofuscus" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_189699021.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="42881" org="Streptomyces chromofuscus" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_BMTA01000011.1" start="36296" stop="36886" strand="-" taxid="42881" org="Streptomyces chromofuscus" kingdom_taxid="2" kingdom="Bacteria" strain="JCM 4354" assembly="GCF_014649435.1"/>
+<CDS  accver="NZ_CP063374.1" start="3019917" stop="3020507" strand="-" taxid="42881" org="Streptomyces chromofuscus" kingdom_taxid="2" kingdom="Bacteria" strain="DSM 40273" assembly="GCF_015160875.1"/></CDSList></Protein>
+<Protein  accver="GGT13735.1" source="INSDC" name="TetR family transcriptional regulator" taxid="42881" org="Streptomyces chromofuscus" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="BMTA01000011.1" start="36296" stop="36886" strand="-" taxid="42881" org="Streptomyces chromofuscus" kingdom_taxid="2" kingdom="Bacteria" strain="JCM 4354" assembly="GCA_014649435.1"/></CDSList></Protein>
+<Protein  accver="QOV46815.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="42881" org="Streptomyces chromofuscus" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP063374.1" start="3019917" stop="3020507" strand="-" taxid="42881" org="Streptomyces chromofuscus" kingdom_taxid="2" kingdom="Bacteria" strain="DSM 40273" assembly="GCA_015160875.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="4" assmb_count="4"/></IPGReport>
+<IPGReport  ipg="173350070" product_acc="WP_103552172.1">
+<Product  accver="WP_103552172.1" name="TetR/AcrR family transcriptional regulator" taxid="2058924" slen="200" org="Streptomyces populi" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_103552172.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="2058924" org="Streptomyces populi" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_KZ626901.1" start="16020" stop="16622" strand="+" taxid="2058924" org="Streptomyces populi" kingdom_taxid="2" kingdom="Bacteria" strain="A249" assembly="GCF_002911015.1"/></CDSList></Protein>
+<Protein  accver="PKT69909.1" source="INSDC" name="TetR family transcriptional regulator" taxid="2058924" org="Streptomyces populi" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="KZ626901.1" start="16020" stop="16622" strand="+" taxid="2058924" org="Streptomyces populi" kingdom_taxid="2" kingdom="Bacteria" strain="A249" assembly="GCA_002911015.1"/>
+<CDS  accver="PJOS01000062.1" start="16020" stop="16622" strand="+" taxid="2058924" org="Streptomyces populi" kingdom_taxid="2" kingdom="Bacteria" strain="A249" assembly="GCA_002911015.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="3" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="70356138" product_acc="WP_037619060.1">
+<Product  accver="WP_037619060.1" name="TetR/AcrR family transcriptional regulator" taxid="193461" slen="200" org="Streptomyces aureus" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_037619060.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="193461" org="Streptomyces aureus" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JNZD01000005.1" start="392207" stop="392809" strand="-" taxid="193461" org="Streptomyces aureus" kingdom_taxid="2" kingdom="Bacteria" strain="NRRL B-1941" assembly="GCF_000725495.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="302276903" product_acc="WP_165344702.1">
+<Product  accver="WP_165344702.1" name="TetR/AcrR family transcriptional regulator" taxid="1775131" slen="200" org="Streptomyces ureilyticus" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_165344702.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1775131" org="Streptomyces ureilyticus" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAAKZX010000235.1" start="3157" stop="3759" strand="+" taxid="1775131" org="Streptomyces ureilyticus" kingdom_taxid="2" kingdom="Bacteria" strain="YC419" assembly="GCF_011045025.1"/></CDSList></Protein>
+<Protein  accver="NGO48204.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="1775131" org="Streptomyces ureilyticus" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAAKZX010000235.1" start="3157" stop="3759" strand="+" taxid="1775131" org="Streptomyces ureilyticus" kingdom_taxid="2" kingdom="Bacteria" strain="YC419" assembly="GCA_011045025.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="313014690" product_acc="WP_168528247.1">
+<Product  accver="WP_168528247.1" name="TetR/AcrR family transcriptional regulator" taxid="2721244" slen="199" org="Streptomyces sp. RPA4-2" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_168528247.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="2721244" org="Streptomyces sp. RPA4-2" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP050975.1" start="3516362" stop="3516961" strand="-" taxid="2721244" org="Streptomyces sp. RPA4-2" kingdom_taxid="2" kingdom="Bacteria" strain="RPA4-2" assembly="GCF_012273515.1"/></CDSList></Protein>
+<Protein  accver="QIY62789.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="2721244" org="Streptomyces sp. RPA4-2" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP050975.1" start="3516362" stop="3516961" strand="-" taxid="2721244" org="Streptomyces sp. RPA4-2" kingdom_taxid="2" kingdom="Bacteria" strain="RPA4-2" assembly="GCA_012273515.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="298573262" product_acc="WP_164313107.1">
+<Product  accver="WP_164313107.1" name="TetR/AcrR family transcriptional regulator" taxid="2706042" slen="199" org="Streptomyces sp. SID12501" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_164313107.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="2706042" org="Streptomyces sp. SID12501" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAAGLU010000005.1" start="172055" stop="172654" strand="-" taxid="2706042" org="Streptomyces sp. SID12501" kingdom_taxid="2" kingdom="Bacteria" strain="SID12501" assembly="GCF_010550245.1"/></CDSList></Protein>
+<Protein  accver="NEC85659.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="2706042" org="Streptomyces sp. SID12501" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAAGLU010000005.1" start="172055" stop="172654" strand="-" taxid="2706042" org="Streptomyces sp. SID12501" kingdom_taxid="2" kingdom="Bacteria" strain="SID12501" assembly="GCA_010550245.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="182780799" product_acc="WP_105974401.1">
+<Product  accver="WP_105974401.1" name="TetR/AcrR family transcriptional regulator" taxid="2058923" slen="202" org="Streptomyces geranii" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_105974401.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="2058923" org="Streptomyces geranii" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_PJME01000048.1" start="25563" stop="26171" strand="+" taxid="2058923" org="Streptomyces geranii" kingdom_taxid="2" kingdom="Bacteria" strain="A301" assembly="GCF_002954775.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="298583452" product_acc="WP_164406895.1">
+<Product  accver="WP_164406895.1" name="TetR/AcrR family transcriptional regulator" taxid="2706040" slen="199" org="Streptomyces sp. SID12488" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_164406895.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="2706040" org="Streptomyces sp. SID12488" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAAGLT010000001.1" start="586403" stop="587002" strand="-" taxid="2706040" org="Streptomyces sp. SID12488" kingdom_taxid="2" kingdom="Bacteria" strain="SID12488" assembly="GCF_010548275.1"/></CDSList></Protein>
+<Protein  accver="NEA61518.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="2706040" org="Streptomyces sp. SID12488" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAAGLT010000001.1" start="586403" stop="587002" strand="-" taxid="2706040" org="Streptomyces sp. SID12488" kingdom_taxid="2" kingdom="Bacteria" strain="SID12488" assembly="GCA_010548275.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="255276450" product_acc="WP_141313149.1">
+<Product  accver="WP_141313149.1" name="TetR/AcrR family transcriptional regulator" taxid="284043" slen="196" org="Streptomyces spinoverrucosus" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_141313149.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="284043" org="Streptomyces spinoverrucosus" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_BJND01000052.1" start="26103" stop="26693" strand="+" taxid="284043" org="Streptomyces spinoverrucosus" kingdom_taxid="2" kingdom="Bacteria" strain="NBRC 14228" assembly="GCF_006539505.1"/>
+<CDS  accver="NZ_BMWK01000032.1" start="44920" stop="45510" strand="-" taxid="284043" org="Streptomyces spinoverrucosus" kingdom_taxid="2" kingdom="Bacteria" strain="JCM 5077" assembly="GCF_014651195.1"/></CDSList></Protein>
+<Protein  accver="GEC08402.1" source="INSDC" name="TetR family transcriptional regulator" taxid="284043" org="Streptomyces spinoverrucosus" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="BJND01000052.1" start="26103" stop="26693" strand="+" taxid="284043" org="Streptomyces spinoverrucosus" kingdom_taxid="2" kingdom="Bacteria" strain="NBRC 14228" assembly="GCA_006539505.1"/></CDSList></Protein>
+<Protein  accver="GHB94877.1" source="INSDC" name="TetR family transcriptional regulator" taxid="284043" org="Streptomyces spinoverrucosus" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="BMWK01000032.1" start="44920" stop="45510" strand="-" taxid="284043" org="Streptomyces spinoverrucosus" kingdom_taxid="2" kingdom="Bacteria" strain="JCM 5077" assembly="GCA_014651195.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="4" assmb_count="4"/></IPGReport>
+<IPGReport  ipg="91380965" product_acc="WP_053763056.1">
+<Product  accver="WP_053763056.1" name="TetR/AcrR family transcriptional regulator" taxid="1883" slen="196" org="Streptomyces" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_053763056.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1883" org="Streptomyces" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP030073.1" start="5648334" stop="5648924" strand="+" taxid="2184053" org="Streptomyces cadmiisoli" kingdom_taxid="2" kingdom="Bacteria" strain="ZFG47" assembly="GCF_003261055.1"/>
+<CDS  accver="NZ_LGDU01000392.1" start="94796" stop="95386" strand="+" taxid="1519489" org="Streptomyces sp. AS58" kingdom_taxid="2" kingdom="Bacteria" strain="AS58" assembly="GCF_001279985.1"/></CDSList></Protein>
+<Protein  accver="AWW39461.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="2184053" org="Streptomyces cadmiisoli" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP030073.1" start="5648334" stop="5648924" strand="+" taxid="2184053" org="Streptomyces cadmiisoli" kingdom_taxid="2" kingdom="Bacteria" strain="ZFG47" assembly="GCA_003261055.1"/></CDSList></Protein>
+<Protein  accver="KOV51838.1" source="INSDC" name="TetR family transcriptional regulator" taxid="1519489" org="Streptomyces sp. AS58" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="LGDU01000392.1" start="94796" stop="95386" strand="+" taxid="1519489" org="Streptomyces sp. AS58" kingdom_taxid="2" kingdom="Bacteria" strain="AS58" assembly="GCA_001279985.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="4" assmb_count="4"/></IPGReport>
+<IPGReport  ipg="229756341" product_acc="WP_128428647.1">
+<Product  accver="WP_128428647.1" name="TetR/AcrR family transcriptional regulator" taxid="1904" slen="198" org="Streptomyces cyaneus" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_128428647.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1904" org="Streptomyces cyaneus" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_ML138678.1" start="1269605" stop="1270201" strand="-" taxid="1904" org="Streptomyces cyaneus" kingdom_taxid="2" kingdom="Bacteria" strain="CGMCC 4.1671" assembly="GCF_004028635.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="298631699" product_acc="WP_164370613.1">
+<Product  accver="WP_164370613.1" name="TetR/AcrR family transcriptional regulator" taxid="2706072" slen="200" org="Streptomyces sp. SID14446" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_164370613.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="2706072" org="Streptomyces sp. SID14446" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAAGMF010000024.1" start="101992" stop="102594" strand="-" taxid="2706072" org="Streptomyces sp. SID14446" kingdom_taxid="2" kingdom="Bacteria" strain="SID14446" assembly="GCF_010548515.1"/></CDSList></Protein>
+<Protein  accver="NEB29383.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="2706072" org="Streptomyces sp. SID14446" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAAGMF010000024.1" start="101992" stop="102594" strand="-" taxid="2706072" org="Streptomyces sp. SID14446" kingdom_taxid="2" kingdom="Bacteria" strain="SID14446" assembly="GCA_010548515.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="324422636" product_acc="WP_171113978.1">
+<Product  accver="WP_171113978.1" name="TetR/AcrR family transcriptional regulator" taxid="1883" slen="196" org="Streptomyces" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_171113978.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1883" org="Streptomyces" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP053109.1" start="5997834" stop="5998424" strand="+" taxid="2730915" org="Streptomyces sp. Z423-1" kingdom_taxid="2" kingdom="Bacteria" strain="Z423-1" assembly="GCF_013009255.1"/>
+<CDS  accver="NZ_JABERR010000003.1" start="1893643" stop="1894233" strand="-" taxid="2730916" org="Streptomyces sp. N502" kingdom_taxid="2" kingdom="Bacteria" strain="N502" assembly="GCF_013010335.1"/>
+<CDS  accver="NZ_JACAOI010000159.1" start="178224" stop="178814" strand="+" taxid="2748864" org="Streptomyces gossypiisoli" kingdom_taxid="2" kingdom="Bacteria" strain="TRM 44567" assembly="GCF_013433285.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="3" assmb_count="3"/></IPGReport>
+<IPGReport  ipg="477444877" product_acc="MBW8798905.1">
+<Product  accver="MBW8798905.1" name="TetR/AcrR family transcriptional regulator" taxid="1931" slen="199" org="Streptomyces sp." kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="MBW8798905.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="1931" org="Streptomyces sp." kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="JAEKKT010000184.1" start="25976" stop="26575" strand="-" taxid="1931" org="Streptomyces sp." kingdom_taxid="2" kingdom="Bacteria" assembly="GCA_019510245.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="481378893" product_acc="WP_221753602.1">
+<Product  accver="WP_221753602.1" name="TetR/AcrR family transcriptional regulator" taxid="2870562" slen="196" org="Streptomyces sp. TRM72054" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_221753602.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="2870562" org="Streptomyces sp. TRM72054" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAIHBJ010000041.1" start="26382" stop="26972" strand="+" taxid="2870562" org="Streptomyces sp. TRM72054" kingdom_taxid="2" kingdom="Bacteria" strain="TRM72054" assembly="GCF_019733235.1"/></CDSList></Protein>
+<Protein  accver="MBX9399307.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="2870562" org="Streptomyces sp. TRM72054" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAIHBJ010000041.1" start="26382" stop="26972" strand="+" taxid="2870562" org="Streptomyces sp. TRM72054" kingdom_taxid="2" kingdom="Bacteria" strain="TRM72054" assembly="GCA_019733235.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="118791695" product_acc="WP_069780702.1">
+<Product  accver="WP_069780702.1" name="TetR/AcrR family transcriptional regulator" taxid="1904616" slen="199" org="Streptomyces fodineus" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_069780702.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1904616" org="Streptomyces fodineus" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP017248.1" start="6186486" stop="6187085" strand="+" taxid="1904616" org="Streptomyces fodineus" kingdom_taxid="2" kingdom="Bacteria" strain="TW1S1" assembly="GCF_001735805.1"/></CDSList></Protein>
+<Protein  accver="AOR34146.1" source="INSDC" name="TetR family transcriptional regulator" taxid="1904616" org="Streptomyces fodineus" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP017248.1" start="6186486" stop="6187085" strand="+" taxid="1904616" org="Streptomyces fodineus" kingdom_taxid="2" kingdom="Bacteria" strain="TW1S1" assembly="GCA_001735805.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="84643132" product_acc="WP_048584016.1">
+<Product  accver="WP_048584016.1" name="TetR/AcrR family transcriptional regulator" taxid="1938" slen="198" org="Streptomyces viridochromogenes" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_048584016.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1938" org="Streptomyces viridochromogenes" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_LFNT01000036.1" start="40456" stop="41052" strand="-" taxid="1938" org="Streptomyces viridochromogenes" kingdom_taxid="2" kingdom="Bacteria" strain="NRRL 3414" assembly="GCF_001047325.1"/>
+<CDS  accver="NZ_LGUQ01000237.1" start="178433" stop="179029" strand="-" taxid="1938" org="Streptomyces viridochromogenes" kingdom_taxid="2" kingdom="Bacteria" strain="NRRL 3416" assembly="GCF_001270485.1"/>
+<CDS  accver="NZ_LGUR01000229.1" start="6595" stop="7191" strand="-" taxid="1938" org="Streptomyces viridochromogenes" kingdom_taxid="2" kingdom="Bacteria" strain="NRRL 3413" assembly="GCF_001270495.1"/></CDSList></Protein>
+<Protein  accver="KMS71447.1" source="INSDC" name="TetR family transcriptional regulator" taxid="1938" org="Streptomyces viridochromogenes" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="LFNT01000036.1" start="40456" stop="41052" strand="-" taxid="1938" org="Streptomyces viridochromogenes" kingdom_taxid="2" kingdom="Bacteria" strain="NRRL 3414" assembly="GCA_001047325.1"/></CDSList></Protein>
+<Protein  accver="KOG13142.1" source="INSDC" name="TetR family transcriptional regulator" taxid="1938" org="Streptomyces viridochromogenes" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="LGUR01000229.1" start="6595" stop="7191" strand="-" taxid="1938" org="Streptomyces viridochromogenes" kingdom_taxid="2" kingdom="Bacteria" strain="NRRL 3413" assembly="GCA_001270495.1"/></CDSList></Protein>
+<Protein  accver="KOG17183.1" source="INSDC" name="TetR family transcriptional regulator" taxid="1938" org="Streptomyces viridochromogenes" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="LGUQ01000237.1" start="178433" stop="179029" strand="-" taxid="1938" org="Streptomyces viridochromogenes" kingdom_taxid="2" kingdom="Bacteria" strain="NRRL 3416" assembly="GCA_001270485.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="4" nuc_count="6" assmb_count="6"/></IPGReport>
+<IPGReport  ipg="282163885" product_acc="WP_155054811.1">
+<Product  accver="WP_155054811.1" name="TetR/AcrR family transcriptional regulator" taxid="2569855" slen="198" org="Streptomyces sp. TRM63209" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_155054811.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="2569855" org="Streptomyces sp. TRM63209" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_WJBG01000112.1" start="230448" stop="231044" strand="+" taxid="2569855" org="Streptomyces sp. TRM63209" kingdom_taxid="2" kingdom="Bacteria" strain="TRM63209" assembly="GCF_009709555.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="268362093" product_acc="WP_147999439.1">
+<Product  accver="WP_147999439.1" name="TetR/AcrR family transcriptional regulator" taxid="1828179" slen="198" org="Streptomyces sp. uw30" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_147999439.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1828179" org="Streptomyces sp. uw30" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_RDBN01000053.1" start="546143" stop="546739" strand="-" taxid="1828179" org="Streptomyces sp. uw30" kingdom_taxid="2" kingdom="Bacteria" strain="uw30" assembly="GCF_008042075.1"/></CDSList></Protein>
+<Protein  accver="TXS40527.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="1828179" org="Streptomyces sp. uw30" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="RDBN01000053.1" start="546143" stop="546739" strand="-" taxid="1828179" org="Streptomyces sp. uw30" kingdom_taxid="2" kingdom="Bacteria" strain="uw30" assembly="GCA_008042075.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="268393236" product_acc="WP_148008521.1">
+<Product  accver="WP_148008521.1" name="TetR/AcrR family transcriptional regulator" taxid="1827853" slen="198" org="Streptomyces sp. me109" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_148008521.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1827853" org="Streptomyces sp. me109" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_RDBJ01000014.1" start="42493" stop="43089" strand="-" taxid="1827853" org="Streptomyces sp. me109" kingdom_taxid="2" kingdom="Bacteria" strain="me109" assembly="GCF_008042115.1"/></CDSList></Protein>
+<Protein  accver="TXS76242.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="1827853" org="Streptomyces sp. me109" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="RDBJ01000014.1" start="42493" stop="43089" strand="-" taxid="1827853" org="Streptomyces sp. me109" kingdom_taxid="2" kingdom="Bacteria" strain="me109" assembly="GCA_008042115.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="455708025" product_acc="MBT2674602.1">
+<Product  accver="MBT2674602.1" name="TetR/AcrR family transcriptional regulator" taxid="2819178" slen="198" org="Streptomyces sp. ISL-14" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="MBT2674602.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="2819178" org="Streptomyces sp. ISL-14" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="JAGGQF010000145.1" start="3251" stop="3847" strand="-" taxid="2819178" org="Streptomyces sp. ISL-14" kingdom_taxid="2" kingdom="Bacteria" strain="ISL-14" assembly="GCA_018613435.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="184519473" product_acc="WP_107101124.1">
+<Product  accver="WP_107101124.1" name="TetR/AcrR family transcriptional regulator" taxid="1464070" slen="217" org="Streptomyces graminilatus" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_107101124.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1464070" org="Streptomyces graminilatus" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_LIQQ01000511.1" start="1923" stop="2576" strand="-" taxid="1464070" org="Streptomyces graminilatus" kingdom_taxid="2" kingdom="Bacteria" strain="NRRL B-59124" assembly="GCF_001418565.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="369747753" product_acc="WP_194045789.1">
+<Product  accver="WP_194045789.1" name="TetR/AcrR family transcriptional regulator" taxid="1413221" slen="198" org="Streptomyces ferrugineus" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_194045789.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1413221" org="Streptomyces ferrugineus" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP063373.1" start="1560834" stop="1561430" strand="+" taxid="1413221" org="Streptomyces ferrugineus" kingdom_taxid="2" kingdom="Bacteria" strain="CCTCC AA2014009" assembly="GCF_015160855.1"/></CDSList></Protein>
+<Protein  accver="QOV38179.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="1413221" org="Streptomyces ferrugineus" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP063373.1" start="1560834" stop="1561430" strand="+" taxid="1413221" org="Streptomyces ferrugineus" kingdom_taxid="2" kingdom="Bacteria" strain="CCTCC AA2014009" assembly="GCA_015160855.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="359394003" product_acc="WP_189843340.1">
+<Product  accver="WP_189843340.1" name="TetR/AcrR family transcriptional regulator" taxid="67370" slen="196" org="Streptomyces umbrinus" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_189843340.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="67370" org="Streptomyces umbrinus" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_BMUM01000015.1" start="3270" stop="3860" strand="-" taxid="67370" org="Streptomyces umbrinus" kingdom_taxid="2" kingdom="Bacteria" strain="JCM 4521" assembly="GCF_014650195.1"/>
+<CDS  accver="NZ_BNCC01000002.1" start="283607" stop="284197" strand="+" taxid="67370" org="Streptomyces umbrinus" kingdom_taxid="2" kingdom="Bacteria" strain="JCM 4958" assembly="GCF_014656275.1"/></CDSList></Protein>
+<Protein  accver="GHB70516.1" source="INSDC" name="TetR family transcriptional regulator" taxid="67370" org="Streptomyces umbrinus" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="BMUM01000015.1" start="3270" stop="3860" strand="-" taxid="67370" org="Streptomyces umbrinus" kingdom_taxid="2" kingdom="Bacteria" strain="JCM 4521" assembly="GCA_014650195.1"/></CDSList></Protein>
+<Protein  accver="GHH37828.1" source="INSDC" name="TetR family transcriptional regulator" taxid="67370" org="Streptomyces umbrinus" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="BNCC01000002.1" start="283607" stop="284197" strand="+" taxid="67370" org="Streptomyces umbrinus" kingdom_taxid="2" kingdom="Bacteria" strain="JCM 4958" assembly="GCA_014656275.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="4" assmb_count="4"/></IPGReport>
+<IPGReport  ipg="113366178" product_acc="WP_067433156.1">
+<Product  accver="WP_067433156.1" name="TetR/AcrR family transcriptional regulator" taxid="1915" slen="196" org="Streptomyces lincolnensis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_067433156.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1915" org="Streptomyces lincolnensis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP016438.1" start="3802343" stop="3802933" strand="-" taxid="1915" org="Streptomyces lincolnensis" kingdom_taxid="2" kingdom="Bacteria" strain="NRRL 2936" assembly="GCF_001685355.1"/>
+<CDS  accver="NZ_CP022744.1" start="6310119" stop="6310709" strand="+" taxid="1915" org="Streptomyces lincolnensis" kingdom_taxid="2" kingdom="Bacteria" strain="LC-G" assembly="GCF_003344445.1"/>
+<CDS  accver="NZ_CP046024.1" start="3771173" stop="3771763" strand="-" taxid="1915" org="Streptomyces lincolnensis" kingdom_taxid="2" kingdom="Bacteria" strain="B48" assembly="GCF_014083905.1"/></CDSList></Protein>
+<Protein  accver="ANS65418.1" source="INSDC" name="TetR-family transcriptional regulator" taxid="1915" org="Streptomyces lincolnensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP016438.1" start="3802343" stop="3802933" strand="-" taxid="1915" org="Streptomyces lincolnensis" kingdom_taxid="2" kingdom="Bacteria" strain="NRRL 2936" assembly="GCA_001685355.1"/></CDSList></Protein>
+<Protein  accver="AXG56374.1" source="INSDC" name="TetR-family transcriptional regulator" taxid="1915" org="Streptomyces lincolnensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP022744.1" start="6310119" stop="6310709" strand="+" taxid="1915" org="Streptomyces lincolnensis" kingdom_taxid="2" kingdom="Bacteria" strain="LC-G" assembly="GCA_003344445.1"/></CDSList></Protein>
+<Protein  accver="QMV07178.1" source="INSDC" name="TetR family transcriptional regulator" taxid="1915" org="Streptomyces lincolnensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP046024.1" start="3771173" stop="3771763" strand="-" taxid="1915" org="Streptomyces lincolnensis" kingdom_taxid="2" kingdom="Bacteria" strain="B48" assembly="GCA_014083905.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="4" nuc_count="6" assmb_count="6"/></IPGReport>
+<IPGReport  ipg="367079606" product_acc="WP_193381052.1">
+<Product  accver="WP_193381052.1" name="TetR/AcrR family transcriptional regulator" taxid="2593676" slen="199" org="unclassified Streptomyces" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_193381052.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="2593676" org="unclassified Streptomyces" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JABXWF010000020.1" start="115727" stop="116326" strand="-" taxid="2746958" org="Streptomyces sp. ND05-01C" kingdom_taxid="2" kingdom="Bacteria" strain="ND05-01C" assembly="GCF_014930395.1"/>
+<CDS  accver="NZ_JABXWG010000014.1" start="42268" stop="42867" strand="+" taxid="2746959" org="Streptomyces sp. ND05-13A" kingdom_taxid="2" kingdom="Bacteria" strain="ND05-13A" assembly="GCF_014930415.1"/>
+<CDS  accver="NZ_JABXWH010000014.1" start="253541" stop="254140" strand="-" taxid="2746960" org="Streptomyces sp. ND05-3B" kingdom_taxid="2" kingdom="Bacteria" strain="ND05-3B" assembly="GCF_014930355.1"/>
+<CDS  accver="NZ_JABXWI010000018.1" start="115727" stop="116326" strand="-" taxid="2746961" org="Streptomyces sp. NE06-02D" kingdom_taxid="2" kingdom="Bacteria" strain="NE06-02D" assembly="GCF_014930365.1"/>
+<CDS  accver="NZ_JABXWJ010000004.1" start="42223" stop="42822" strand="+" taxid="2746962" org="Streptomyces sp. NE06-02F" kingdom_taxid="2" kingdom="Bacteria" strain="NE06-02F" assembly="GCF_014930405.1"/></CDSList></Protein>
+<Protein  accver="MBE4739548.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="2746960" org="Streptomyces sp. ND05-3B" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JABXWH010000014.1" start="253541" stop="254140" strand="-" taxid="2746960" org="Streptomyces sp. ND05-3B" kingdom_taxid="2" kingdom="Bacteria" strain="ND05-3B" assembly="GCA_014930355.1"/></CDSList></Protein>
+<Protein  accver="MBE4760070.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="2746958" org="Streptomyces sp. ND05-01C" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JABXWF010000020.1" start="115727" stop="116326" strand="-" taxid="2746958" org="Streptomyces sp. ND05-01C" kingdom_taxid="2" kingdom="Bacteria" strain="ND05-01C" assembly="GCA_014930395.1"/></CDSList></Protein>
+<Protein  accver="MBE4772591.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="2746959" org="Streptomyces sp. ND05-13A" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JABXWG010000014.1" start="42268" stop="42867" strand="+" taxid="2746959" org="Streptomyces sp. ND05-13A" kingdom_taxid="2" kingdom="Bacteria" strain="ND05-13A" assembly="GCA_014930415.1"/></CDSList></Protein>
+<Protein  accver="MBE4784519.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="2746962" org="Streptomyces sp. NE06-02F" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JABXWJ010000004.1" start="42223" stop="42822" strand="+" taxid="2746962" org="Streptomyces sp. NE06-02F" kingdom_taxid="2" kingdom="Bacteria" strain="NE06-02F" assembly="GCA_014930405.1"/></CDSList></Protein>
+<Protein  accver="MBE4798238.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="2746961" org="Streptomyces sp. NE06-02D" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JABXWI010000018.1" start="115727" stop="116326" strand="-" taxid="2746961" org="Streptomyces sp. NE06-02D" kingdom_taxid="2" kingdom="Bacteria" strain="NE06-02D" assembly="GCA_014930365.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="6" nuc_count="10" assmb_count="10"/></IPGReport>
+<IPGReport  ipg="183482403" product_acc="WP_107016092.1">
+<Product  accver="WP_107016092.1" name="TetR/AcrR family transcriptional regulator" taxid="2109333" slen="203" org="Streptomyces dioscori" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_107016092.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="2109333" org="Streptomyces dioscori" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_KZ679040.1" start="331448" stop="332059" strand="+" taxid="2109333" org="Streptomyces dioscori" kingdom_taxid="2" kingdom="Bacteria" strain="A217" assembly="GCF_003024195.1"/></CDSList></Protein>
+<Protein  accver="PSM43826.1" source="INSDC" name="TetR family transcriptional regulator" taxid="2109333" org="Streptomyces dioscori" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="KZ679040.1" start="331448" stop="332059" strand="+" taxid="2109333" org="Streptomyces dioscori" kingdom_taxid="2" kingdom="Bacteria" strain="A217" assembly="GCA_003024195.1"/>
+<CDS  accver="PYBJ01000004.1" start="331448" stop="332059" strand="+" taxid="2109333" org="Streptomyces dioscori" kingdom_taxid="2" kingdom="Bacteria" strain="A217" assembly="GCA_003024195.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="3" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="101313503" product_acc="WP_062720811.1">
+<Product  accver="WP_062720811.1" name="TetR/AcrR family transcriptional regulator" taxid="661399" slen="198" org="Streptomyces caeruleatus" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_062720811.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="661399" org="Streptomyces caeruleatus" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_KQ948930.1" start="249157" stop="249753" strand="-" taxid="661399" org="Streptomyces caeruleatus" kingdom_taxid="2" kingdom="Bacteria" strain="NRRL B-24802" assembly="GCF_001514235.1"/></CDSList></Protein>
+<Protein  accver="KUO01924.1" source="INSDC" name="TetR family transcriptional regulator" taxid="661399" org="Streptomyces caeruleatus" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="KQ948930.1" start="249157" stop="249753" strand="-" taxid="661399" org="Streptomyces caeruleatus" kingdom_taxid="2" kingdom="Bacteria" strain="NRRL B-24802" assembly="GCA_001514235.1"/>
+<CDS  accver="LMWY01000025.1" start="30636" stop="31232" strand="-" taxid="661399" org="Streptomyces caeruleatus" kingdom_taxid="2" kingdom="Bacteria" strain="NRRL B-24802" assembly="GCA_001514235.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="3" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="61206006" product_acc="WP_037703370.1">
+<Product  accver="WP_037703370.1" name="TetR/AcrR family transcriptional regulator" taxid="1930" slen="198" org="Streptomyces scabiei" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_037703370.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1930" org="Streptomyces scabiei" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_KL997441.1" start="296115" stop="296711" strand="-" taxid="1930" org="Streptomyces scabiei" kingdom_taxid="2" kingdom="Bacteria" strain="NCPPB 4086" assembly="GCF_000738695.1"/></CDSList></Protein>
+<Protein  accver="KFF96449.1" source="INSDC" name="TetR family transcriptional regulator" taxid="1930" org="Streptomyces scabiei" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JPPX01000226.1" start="21891" stop="22487" strand="-" taxid="1930" org="Streptomyces scabiei" kingdom_taxid="2" kingdom="Bacteria" strain="NCPPB 4086" assembly="GCA_000738695.1"/>
+<CDS  accver="KL997441.1" start="296115" stop="296711" strand="-" taxid="1930" org="Streptomyces scabiei" kingdom_taxid="2" kingdom="Bacteria" strain="NCPPB 4086" assembly="GCA_000738695.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="3" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="390208546" product_acc="WP_200398016.1">
+<Product  accver="WP_200398016.1" name="TetR/AcrR family transcriptional regulator" taxid="2797636" slen="196" org="Streptomyces sp. ZYC-3" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_200398016.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="2797636" org="Streptomyces sp. ZYC-3" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP066831.1" start="6886770" stop="6887360" strand="+" taxid="2797636" org="Streptomyces sp. ZYC-3" kingdom_taxid="2" kingdom="Bacteria" strain="ZYC-3" assembly="GCF_016598615.1"/></CDSList></Protein>
+<Protein  accver="QQM43179.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="2797636" org="Streptomyces sp. ZYC-3" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP066831.1" start="6886770" stop="6887360" strand="+" taxid="2797636" org="Streptomyces sp. ZYC-3" kingdom_taxid="2" kingdom="Bacteria" strain="ZYC-3" assembly="GCA_016598615.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="432898964" product_acc="WP_210882387.1">
+<Product  accver="WP_210882387.1" name="TetR/AcrR family transcriptional regulator" taxid="2823109" slen="203" org="Streptomyces sp. BH-SS-21" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_210882387.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="2823109" org="Streptomyces sp. BH-SS-21" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAGPYQ010000001.1" start="2622907" stop="2623518" strand="+" taxid="2823109" org="Streptomyces sp. BH-SS-21" kingdom_taxid="2" kingdom="Bacteria" strain="BH-SS-21" assembly="GCF_018070025.1"/></CDSList></Protein>
+<Protein  accver="MBQ0848840.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="2823109" org="Streptomyces sp. BH-SS-21" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAGPYQ010000001.1" start="2622907" stop="2623518" strand="+" taxid="2823109" org="Streptomyces sp. BH-SS-21" kingdom_taxid="2" kingdom="Bacteria" strain="BH-SS-21" assembly="GCA_018070025.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="501849161" product_acc="WP_228621791.1">
+<Product  accver="WP_228621791.1" name="TetR/AcrR family transcriptional regulator" taxid="2892029" slen="199" org="Streptomyces sp. JA03" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_228621791.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="2892029" org="Streptomyces sp. JA03" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAJHNP010000010.1" start="98128" stop="98727" strand="-" taxid="2892029" org="Streptomyces sp. JA03" kingdom_taxid="2" kingdom="Bacteria" strain="JA03" assembly="GCF_020819595.1"/></CDSList></Protein>
+<Protein  accver="MCC5477326.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="2892029" org="Streptomyces sp. JA03" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJHNP010000010.1" start="98128" stop="98727" strand="-" taxid="2892029" org="Streptomyces sp. JA03" kingdom_taxid="2" kingdom="Bacteria" strain="JA03" assembly="GCA_020819595.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="150367528" product_acc="WP_086747146.1">
+<Product  accver="WP_086747146.1" name="TetR/AcrR family transcriptional regulator" taxid="1930" slen="198" org="Streptomyces scabiei" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_086747146.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1930" org="Streptomyces scabiei" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_MVNU01000128.1" start="1946" stop="2542" strand="-" taxid="1930" org="Streptomyces scabiei" kingdom_taxid="2" kingdom="Bacteria" strain="NRRL B-2796" assembly="GCF_002155735.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="56805447" product_acc="WP_028803522.1">
+<Product  accver="WP_028803522.1" name="TetR/AcrR family transcriptional regulator" taxid="1172179" slen="196" org="Streptomyces sp. 142MFCol3.1" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_028803522.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1172179" org="Streptomyces sp. 142MFCol3.1" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_AUKV01000021.1" start="105794" stop="106384" strand="+" taxid="1172179" org="Streptomyces sp. 142MFCol3.1" kingdom_taxid="2" kingdom="Bacteria" strain="142MFCol3.1" assembly="GCF_000424945.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="358874180" product_acc="WP_189862625.1">
+<Product  accver="WP_189862625.1" name="TetR/AcrR family transcriptional regulator" taxid="68255" slen="196" org="Streptomyces poonensis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_189862625.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="68255" org="Streptomyces poonensis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_BMVW01000010.1" start="263144" stop="263734" strand="+" taxid="68255" org="Streptomyces poonensis" kingdom_taxid="2" kingdom="Bacteria" strain="JCM 4815" assembly="GCF_014650915.1"/></CDSList></Protein>
+<Protein  accver="GGZ23274.1" source="INSDC" name="TetR family transcriptional regulator" taxid="68255" org="Streptomyces poonensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="BMVW01000010.1" start="263144" stop="263734" strand="+" taxid="68255" org="Streptomyces poonensis" kingdom_taxid="2" kingdom="Bacteria" strain="JCM 4815" assembly="GCA_014650915.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="101223004" product_acc="WP_062027275.1">
+<Product  accver="WP_062027275.1" name="TetR/AcrR family transcriptional regulator" taxid="1883" slen="197" org="Streptomyces" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_062027275.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1883" org="Streptomyces" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP032427.1" start="5985143" stop="5985736" strand="+" taxid="67304" org="Streptomyces griseorubiginosus" kingdom_taxid="2" kingdom="Bacteria" strain="3E-1" assembly="GCF_003595235.1"/>
+<CDS  accver="NZ_CP041168.1" start="3455689" stop="3456282" strand="-" taxid="67304" org="Streptomyces griseorubiginosus" kingdom_taxid="2" kingdom="Bacteria" strain="BTU6" assembly="GCF_006516935.1"/>
+<CDS  accver="NZ_KQ948183.1" start="31612" stop="32205" strand="+" taxid="67304" org="Streptomyces griseorubiginosus" kingdom_taxid="2" kingdom="Bacteria" strain="DSM 40125" assembly="GCF_001513985.1"/>
+<CDS  accver="NZ_KQ948735.1" start="31994" stop="32587" strand="+" taxid="67304" org="Streptomyces griseorubiginosus" kingdom_taxid="2" kingdom="Bacteria" strain="DSM 40469" assembly="GCF_001514195.1"/>
+<CDS  accver="NZ_SLYY01000022.1" start="31289" stop="31882" strand="+" taxid="2512164" org="Streptomyces sp. BK205" kingdom_taxid="2" kingdom="Bacteria" strain="BK205" assembly="GCF_004341025.1"/></CDSList></Protein>
+<Protein  accver="AYC41052.1" source="INSDC" name="Transcriptional repressor Mce3R" taxid="67304" org="Streptomyces griseorubiginosus" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP032427.1" start="5985143" stop="5985736" strand="+" taxid="67304" org="Streptomyces griseorubiginosus" kingdom_taxid="2" kingdom="Bacteria" strain="3E-1" assembly="GCA_003595235.1"/></CDSList></Protein>
+<Protein  accver="KUM72559.1" source="INSDC" name="TetR family transcriptional regulator" taxid="67304" org="Streptomyces griseorubiginosus" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="KQ948183.1" start="31612" stop="32205" strand="+" taxid="67304" org="Streptomyces griseorubiginosus" kingdom_taxid="2" kingdom="Bacteria" strain="DSM 40125" assembly="GCA_001513985.1"/>
+<CDS  accver="LMWK01000017.1" start="31612" stop="32205" strand="+" taxid="67304" org="Streptomyces griseorubiginosus" kingdom_taxid="2" kingdom="Bacteria" strain="DSM 40125" assembly="GCA_001513985.1"/></CDSList></Protein>
+<Protein  accver="KUN69372.1" source="INSDC" name="TetR family transcriptional regulator" taxid="67304" org="Streptomyces griseorubiginosus" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="KQ948735.1" start="31994" stop="32587" strand="+" taxid="67304" org="Streptomyces griseorubiginosus" kingdom_taxid="2" kingdom="Bacteria" strain="DSM 40469" assembly="GCA_001514195.1"/>
+<CDS  accver="LMWV01000005.1" start="30823" stop="31416" strand="+" taxid="67304" org="Streptomyces griseorubiginosus" kingdom_taxid="2" kingdom="Bacteria" strain="DSM 40469" assembly="GCA_001514195.1"/></CDSList></Protein>
+<Protein  accver="TCR12510.1" source="INSDC" name="TetR family transcriptional regulator" taxid="2512164" org="Streptomyces sp. BK205" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="SLYY01000022.1" start="31289" stop="31882" strand="+" taxid="2512164" org="Streptomyces sp. BK205" kingdom_taxid="2" kingdom="Bacteria" strain="BK205" assembly="GCA_004341025.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="5" nuc_count="11" assmb_count="9"/></IPGReport>
+<IPGReport  ipg="260358568" product_acc="WP_143632433.1">
+<Product  accver="WP_143632433.1" name="TetR/AcrR family transcriptional regulator" taxid="2561920" slen="197" org="Streptomyces sp. IB201691-2A2" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_143632433.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="2561920" org="Streptomyces sp. IB201691-2A2" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_SPQF01000001.1" start="867792" stop="868385" strand="-" taxid="2561920" org="Streptomyces sp. IB201691-2A2" kingdom_taxid="2" kingdom="Bacteria" strain="IB201691-2A2" assembly="GCF_007050945.1"/></CDSList></Protein>
+<Protein  accver="TRO69734.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="2561920" org="Streptomyces sp. IB201691-2A2" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="SPQF01000001.1" start="867792" stop="868385" strand="-" taxid="2561920" org="Streptomyces sp. IB201691-2A2" kingdom_taxid="2" kingdom="Bacteria" strain="IB201691-2A2" assembly="GCA_007050945.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="360610704" product_acc="WP_189705621.1">
+<Product  accver="WP_189705621.1" name="TetR/AcrR family transcriptional regulator" taxid="285454" slen="201" org="Streptomyces anandii" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_189705621.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="285454" org="Streptomyces anandii" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_BMVJ01000008.1" start="188419" stop="189024" strand="-" taxid="1306180" org="Streptomyces anandii JCM 4720" kingdom_taxid="2" kingdom="Bacteria" strain="JCM 4720" assembly="GCF_014650655.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="298594287" product_acc="WP_164433118.1">
+<Product  accver="WP_164433118.1" name="TetR/AcrR family transcriptional regulator" taxid="2706058" slen="201" org="Streptomyces sp. SID13726" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_164433118.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="2706058" org="Streptomyces sp. SID13726" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAAGLY010000022.1" start="3592" stop="4197" strand="-" taxid="2706058" org="Streptomyces sp. SID13726" kingdom_taxid="2" kingdom="Bacteria" strain="SID13726" assembly="GCF_010548375.1"/></CDSList></Protein>
+<Protein  accver="NEB04679.1" source="INSDC" name="TetR/AcrR family transcriptional regulator" taxid="2706058" org="Streptomyces sp. SID13726" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAAGLY010000022.1" start="3592" stop="4197" strand="-" taxid="2706058" org="Streptomyces sp. SID13726" kingdom_taxid="2" kingdom="Bacteria" strain="SID13726" assembly="GCA_010548375.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="40729736" product_acc="WP_020140885.1">
+<Product  accver="WP_020140885.1" name="TetR/AcrR family transcriptional regulator" taxid="1172180" slen="197" org="Streptomyces sp. 351MFTsu5.1" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_020140885.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1172180" org="Streptomyces sp. 351MFTsu5.1" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_KB911801.1" start="85977" stop="86570" strand="-" taxid="1172180" org="Streptomyces sp. 351MFTsu5.1" kingdom_taxid="2" kingdom="Bacteria" strain="351MFTsu5.1" assembly="GCF_000383655.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="59065183" product_acc="WP_030314213.1">
+<Product  accver="WP_030314213.1" name="TetR/AcrR family transcriptional regulator" taxid="1463836" slen="197" org="Streptomyces sp. NRRL B-3229" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_030314213.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1463836" org="Streptomyces sp. NRRL B-3229" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JOGP01000002.1" start="30921" stop="31514" strand="+" taxid="1463836" org="Streptomyces sp. NRRL B-3229" kingdom_taxid="2" kingdom="Bacteria" strain="NRRL B-3229" assembly="GCF_000719505.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="95369535" product_acc="WP_055612243.1">
+<Product  accver="WP_055612243.1" name="TetR/AcrR family transcriptional regulator" taxid="1923" slen="196" org="Streptomyces phaeochromogenes" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_055612243.1" source="RefSeq" name="TetR/AcrR family transcriptional regulator" taxid="1923" org="Streptomyces phaeochromogenes" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_LIQZ01000074.1" start="2847" stop="3437" strand="-" taxid="1923" org="Streptomyces phaeochromogenes" kingdom_taxid="2" kingdom="Bacteria" strain="NRRL B-1248" assembly="GCF_001418655.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport></IPGReportSet>

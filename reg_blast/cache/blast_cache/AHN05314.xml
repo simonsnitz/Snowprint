@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_54545</BlastOutput_query-ID>
+  <BlastOutput_query-def>AHN05314.1 TetR-family transcriptional regulator [Listeria monocytogenes]</BlastOutput_query-def>
+  <BlastOutput_query-len>197</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_54545</Iteration_query-ID>
+  <Iteration_query-def>AHN05314.1 TetR-family transcriptional regulator [Listeria monocytogenes]</Iteration_query-def>
+  <Iteration_query-len>197</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|AGR06567.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Listeria monocytogenes] &gt;gb|AHF29938.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 4b str. 81-0861] &gt;gb|ASG94758.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 4b str. 02-6679] &gt;gb|ASH33150.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 4b str. 10-0809] &gt;gb|ASH36098.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2b str. 10-0810] &gt;gb|ASH39071.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2b str. 10-0811] &gt;gb|ASH67863.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 4b str. 02-1103] &gt;gb|ASH70781.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 4b str. 02-1289] &gt;gb|ASH73700.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 4b str. 02-1792] &gt;gb|ASH76526.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 4b str. 02-6680] &gt;gb|ASH79404.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 4b str. 81-0558] &gt;gb|ASH82327.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 4b str. 81-0592] &gt;gb|EGJ25632.1| Transcriptional regulator [Listeria monocytogenes str. Scott A] &gt;gb|ERH76937.1| TetR family transcriptional regulator [Listeria monocytogenes serotype 4bV str. LS645] &gt;gb|ERH80574.1| TetR family transcriptional regulator [Listeria monocytogenes serotype 4bV str. LS642] &gt;gb|ERH83328.1| TetR family transcriptional regulator [Listeria monocytogenes serotype 4bV str. LS644] &gt;gb|ERH87290.1| TetR family transcriptional regulator [Listeria monocytogenes serotype 4bV str. LS643] &gt;gb|ERH88252.1| TetR family transcriptional regulator [Listeria monocytogenes serotype 4bV str. LS542] &gt;emb|CBY04669.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 7 str. SLCC2482] &gt;emb|CBY49743.1| transcriptional regulator, TetR family [Listeria monocytogenes SLCC2755] &gt;emb|CBY68180.1| transcriptional regulator, TetR family [Listeria monocytogenes L312] &gt;emb|CBY71008.1| transcriptional regulator, TetR family [Listeria monocytogenes ATCC 19117] &gt;emb|CBY73881.1| transcriptional regulator, TetR family [Listeria monocytogenes SLCC2378] &gt;emb|CBY76824.1| transcriptional regulator, TetR family [Listeria monocytogenes SLCC2540]</Hit_def>
+  <Hit_accession>AGR06567</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>406.757</Hsp_bit-score>
+      <Hsp_score>1044</Hsp_score>
+      <Hsp_evalue>2.37216e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>MMRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MMRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MMRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|RKA88818.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional regulator AcrR [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>RKA88818</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>406.371</Hsp_bit-score>
+      <Hsp_score>1043</Hsp_score>
+      <Hsp_evalue>4.15152e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>MMRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MMRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKAMN</Hsp_hseq>
+      <Hsp_midline>MMRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKA+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|ADB69037.1|</Hit_id>
+  <Hit_def>hypothetical protein LM5578_2290 [Listeria monocytogenes 08-5578] &gt;gb|ADB72082.1| hypothetical protein LM5923_2241 [Listeria monocytogenes 08-5923] &gt;gb|AGR01887.1| TetR family transcriptional regulator [Listeria monocytogenes] &gt;gb|AHF32956.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 08-6569] &gt;gb|AHF35947.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 08-6997] &gt;gb|AHF38938.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 10-0815] &gt;gb|AHF41879.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 10-1047] &gt;gb|AHF44820.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 88-0478] &gt;gb|AHI70877.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 01-1280] &gt;gb|ASG97750.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 01-5252] &gt;gb|ASH00712.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 10-5024] &gt;gb|ASH03660.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 02-5993] &gt;gb|ASH06608.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 04-5457] &gt;gb|ASH09598.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 08-6056] &gt;gb|ASH12547.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 08-7374] &gt;gb|ASH15435.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 08-7669] &gt;gb|ASH18376.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 10-1046] &gt;gb|ASH21324.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 10-1321] &gt;gb|ASH24273.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 95-0093] &gt;gb|ASH27266.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 98-2035] &gt;gb|ASH30259.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 99-6370] &gt;gb|ASH41962.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 10-0812] &gt;gb|ASH44846.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 10-0813] &gt;gb|ASH47756.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2c str. 10-5025] &gt;gb|ASH50675.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2c str. 10-5026] &gt;gb|ASH53597.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 3c str. 10-5027] &gt;gb|ASH56513.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 10-4754] &gt;gb|ASH59364.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 10-4758] &gt;gb|ASH62157.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 10-0933] &gt;gb|ASH64953.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 10-0934] &gt;gb|ASH85401.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 01-1468] &gt;gb|ASH88358.1| transcriptional regulator, TetR family [Listeria monocytogenes serotype 1/2a str. 10-0814] &gt;gb|PIL04799.1| TetR family transcriptional regulator [Listeria monocytogenes SHL015] &gt;gb|PIL06920.1| TetR family transcriptional regulator [Listeria monocytogenes SHL014] &gt;gb|PIL08035.1| TetR family transcriptional regulator [Listeria monocytogenes SHL016] &gt;gb|PIL11309.1| TetR family transcriptional regulator [Listeria monocytogenes SHL017] &gt;gb|PIL15112.1| TetR family transcriptional regulator [Listeria monocytogenes SHL018] &gt;emb|CBY52619.1| transcriptional regulator, TetR family [Listeria monocytogenes SLCC5850] &gt;emb|CBY55490.1| transcriptional regulator, TetR family [Listeria monocytogenes SLCC2372] &gt;emb|CBY58423.1| transcriptional regulator, TetR family [Listeria monocytogenes SLCC2479] &gt;emb|CBY61267.1| transcriptional regulator, TetR family [Listeria monocytogenes SLCC7179]</Hit_def>
+  <Hit_accession>ADB69037</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.216</Hsp_bit-score>
+      <Hsp_score>1040</Hsp_score>
+      <Hsp_evalue>1.34326e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>MMRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MMRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTDLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MMRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT+LFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_003724516.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD5838812.1| TetR/AcrR family transcriptional regulator [Listeria innocua] &gt;gb|EAE1680408.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes LIS0071] &gt;gb|EAE3705951.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes serotype 1/2b] &gt;gb|EAF3077532.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes serotype 1/2a] &gt;gb|EAG6252921.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes CFSAN003806] &gt;gb|EAG6262294.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes CFSAN003725] &gt;gb|EAG6332279.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes CFSAN002346] &gt;gb|EAG6349732.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes LIS0102] &gt;gb|EAG6364936.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes LIS0063] &gt;gb|EAG6375323.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes CFSAN002356] &gt;gb|EAG6377882.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes CFSAN002355] &gt;gb|EEP3929489.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes serotype 4ab] &gt;gb|EEP3936307.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes serotype 7] &gt;gb|EGC3053407.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes CFSAN002357] &gt;gb|MCY62022.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes serotype 4c] &gt;gb|MCZ93731.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes serotype 3c] &gt;gb|MDA18395.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes serotype 4a] &gt;gb|MDA67529.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes serotype 3b] &gt;tpg|HAA0104543.1| TetR family transcriptional regulator [Listeria monocytogenes CC70B]</Hit_def>
+  <Hit_accession>WP_003724516</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.831</Hsp_bit-score>
+      <Hsp_score>1039</Hsp_score>
+      <Hsp_evalue>1.44626e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_070227742.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC4837475.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC7307316.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD2638529.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAE6381539.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAE6394231.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_070227742</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.445</Hsp_bit-score>
+      <Hsp_score>1038</Hsp_score>
+      <Hsp_evalue>1.94503e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQVFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQ+FWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>emb|CBY64076.1|</Hit_id>
+  <Hit_def>transcriptional regulator, TetR family [Listeria monocytogenes SLCC2376]</Hit_def>
+  <Hit_accession>CBY64076</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.445</Hsp_bit-score>
+      <Hsp_score>1038</Hsp_score>
+      <Hsp_evalue>2.22531e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>MMRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MMRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRGSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MMRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLR SDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>emb|CCO64691.1|</Hit_id>
+  <Hit_def>HTH-type transcriptional regulator AcrR [Listeria monocytogenes serotype 4b str. LL195]</Hit_def>
+  <Hit_accession>CCO64691</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.445</Hsp_bit-score>
+      <Hsp_score>1038</Hsp_score>
+      <Hsp_evalue>2.22531e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>MMRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MMRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNGPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MMRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVN PERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_070213711.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC6521189.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes serotype 4b] &gt;gb|AQP62902.1| TetR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAA0129805.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAA0177314.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAA0265731.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_070213711</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.445</Hsp_bit-score>
+      <Hsp_score>1038</Hsp_score>
+      <Hsp_evalue>2.47615e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHMYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKH+YEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_069891182.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC3820399.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC5198897.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD0599203.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD9167674.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAE0857354.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_069891182</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.445</Hsp_bit-score>
+      <Hsp_score>1038</Hsp_score>
+      <Hsp_evalue>2.47615e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKAMN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKA+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|EAD0237210.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD0240787.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD4178537.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD8914488.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAD0237210</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.06</Hsp_bit-score>
+      <Hsp_score>1037</Hsp_score>
+      <Hsp_evalue>2.88736e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGIVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAG+VGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|EAC9078623.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAC9078623</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.675</Hsp_bit-score>
+      <Hsp_score>1036</Hsp_score>
+      <Hsp_evalue>3.84073e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRNSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLR+SDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_070242721.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAH4411825.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes serotype 1/2b] &gt;gb|EAC6418418.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD1639265.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD7177184.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAG7059232.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_070242721</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.675</Hsp_bit-score>
+      <Hsp_score>1036</Hsp_score>
+      <Hsp_evalue>3.84073e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTNEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDT+EAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|EGC8556565.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EGC8556565</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.675</Hsp_bit-score>
+      <Hsp_score>1036</Hsp_score>
+      <Hsp_evalue>3.84073e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQANITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQA+ITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|EAG9239949.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAG9239949</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.675</Hsp_bit-score>
+      <Hsp_score>1036</Hsp_score>
+      <Hsp_evalue>4.14739e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLMPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKL+PMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|EFS8542846.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EFS8542846</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.675</Hsp_bit-score>
+      <Hsp_score>1036</Hsp_score>
+      <Hsp_evalue>4.83613e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWKGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFW+GITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|EAC2599230.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAC2599230</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.675</Hsp_bit-score>
+      <Hsp_score>1036</Hsp_score>
+      <Hsp_evalue>4.83613e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSKPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLS+PDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|ECR1113089.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>ECR1113089</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.675</Hsp_bit-score>
+      <Hsp_score>1036</Hsp_score>
+      <Hsp_evalue>5.22226e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGMKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFG+KELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|EGF6967269.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EGF6967269</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.675</Hsp_bit-score>
+      <Hsp_score>1036</Hsp_score>
+      <Hsp_evalue>5.22226e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVMGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGV+GLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_070286824.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|OFH13678.1| TetR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_070286824</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.675</Hsp_bit-score>
+      <Hsp_score>1036</Hsp_score>
+      <Hsp_evalue>5.22226e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIMYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDI+YVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|ECC1987549.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|ECH3716404.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>ECC1987549</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.675</Hsp_bit-score>
+      <Hsp_score>1036</Hsp_score>
+      <Hsp_evalue>5.27989e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVLQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEV+QADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|EAC4872562.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAE0349302.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAC4872562</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.675</Hsp_bit-score>
+      <Hsp_score>1036</Hsp_score>
+      <Hsp_evalue>5.27989e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVLGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGV+GLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|ECR1110319.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>ECR1110319</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>5.39705e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLCRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDL RPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|EAG7240884.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAG7328968.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAG7404317.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAG7410394.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAG7694622.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAG7240884</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>5.51681e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPEHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPP+HLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>tpg|HAB7583772.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Listeria monocytogenes] &gt;tpg|HAB9919768.1| TetR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>HAB7583772</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>5.70146e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADIAENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADI ENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|EAG4584684.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAG4584684</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>6.2933e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQIEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQ+EHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>tpg|HAB6423404.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>HAB6423404</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>6.2933e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPIQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIP+QDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|EAE8883234.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAE8895201.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EGC1345558.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAE8883234</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>6.36275e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRTKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYR KLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|EDO1366205.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EDO1366205</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>6.36275e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFTNNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLF NNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|EAE7318616.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAG2074040.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAE7318616</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>6.36275e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQTDITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQ DITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_149059503.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|TYU30840.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|TYU35235.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_149059503</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>6.72162e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKKLYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVK+LYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|ECB9644401.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;tpg|HAC4619550.1| TetR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>ECB9644401</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>6.72162e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDKAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTD+AYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|EAG9648240.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAH1937400.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAH2451965.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAH2841977.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAH4262950.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAG9648240</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>7.02324e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDFFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDD FLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|EFM2919329.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EFM2919329</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>7.02324e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKFRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAK RDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_120194700.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC4027323.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAE1956793.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EFP0927782.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EFP0940475.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|RJZ41219.1| HTH-type transcriptional regulator AcrR [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_120194700</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>7.02324e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNAFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANN FEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|NVQ33727.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;tpg|HAA3620023.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>NVQ33727</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>7.2583e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWVEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNW+EQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|EAK9793101.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAK9793101</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.29</Hsp_bit-score>
+      <Hsp_score>1035</Hsp_score>
+      <Hsp_evalue>7.41937e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENLLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQVFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITEN+LQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQ+FWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|ECZ0603258.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>ECZ0603258</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.905</Hsp_bit-score>
+      <Hsp_score>1034</Hsp_score>
+      <Hsp_evalue>7.7523e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNSFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANN FEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|EAF4856406.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAF4856406</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.905</Hsp_bit-score>
+      <Hsp_score>1034</Hsp_score>
+      <Hsp_evalue>7.92432e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQFFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQ FWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|EAC2481409.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC3679752.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC5063800.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC5749151.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAE2366648.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAC2481409</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.905</Hsp_bit-score>
+      <Hsp_score>1034</Hsp_score>
+      <Hsp_evalue>7.92432e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADFAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLAD AGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>tpg|HAA4027569.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;tpg|HAA4305756.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>HAA4027569</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.905</Hsp_bit-score>
+      <Hsp_score>1034</Hsp_score>
+      <Hsp_evalue>8.46364e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRANLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRA LRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|EDN7593449.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EDN7593449</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.905</Hsp_bit-score>
+      <Hsp_score>1034</Hsp_score>
+      <Hsp_evalue>8.55703e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFNNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLF+NWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|EAC3352650.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD1786863.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD2055073.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD8318003.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD8486258.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAC3352650</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.905</Hsp_bit-score>
+      <Hsp_score>1034</Hsp_score>
+      <Hsp_evalue>9.34222e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLLSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNL SNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_061727249.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAH0051697.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAH0432690.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAH2225406.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EDN9186586.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;emb|CWU49902.1| Potential acrAB operon repressor [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_061727249</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.905</Hsp_bit-score>
+      <Hsp_score>1034</Hsp_score>
+      <Hsp_evalue>9.34222e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQLWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQ WLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>tpg|HAB0381512.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>HAB0381512</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.905</Hsp_bit-score>
+      <Hsp_score>1034</Hsp_score>
+      <Hsp_evalue>9.65489e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDVVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILD VIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|EAC6772790.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAC6772790</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.905</Hsp_bit-score>
+      <Hsp_score>1034</Hsp_score>
+      <Hsp_evalue>9.65489e-142</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEVYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDE YQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|EZH70205.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Listeria monocytogenes N53-1]</Hit_def>
+  <Hit_accession>EZH70205</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.905</Hsp_bit-score>
+      <Hsp_score>1034</Hsp_score>
+      <Hsp_evalue>1.01176e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>MMRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MMRKEEIKQAALILFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTDLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MMRKEEIKQAAL LFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT+LFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_188001717.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC8325112.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC8328253.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC8635239.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD8853556.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|ECB9820188.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_188001717</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.07747e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEHKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWME KLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|EAF2042386.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EGJ5784086.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAF2042386</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.08936e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHMYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKTLN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKH+YEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLK LN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_033918429.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAE3730188.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes serotype 1/2a] &gt;gb|ARJ93145.1| TetR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC2130870.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC2236063.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC2238611.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_033918429</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.18932e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALILFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAAL LFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|EAD4268099.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAE7011314.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAD4268099</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.18932e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADIIENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADI ENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>gb|EAG1698799.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAG1698799</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.18932e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGIMLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGI LKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|WP_070235274.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|OFF48907.1| TetR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_070235274</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.21571e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWTEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNW EQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>gb|EAH4337677.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|ECL1959968.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|ECL1974351.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAH4337677</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.28428e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALKLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAAL LFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>gb|EAD9710108.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAF5965545.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAD9710108</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.31278e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSDWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFS+WMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|WP_003722345.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;ref|NP_465612.1| transcriptional regulator [Listeria monocytogenes EGD-e] &gt;gb|EAA0166293.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes serotype 1/2a] &gt;gb|EAD5848614.1| TetR/AcrR family transcriptional regulator [Listeria innocua] &gt;gb|EAE3701864.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes serotype 1/2c] &gt;gb|EAE6021547.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes serotype 3a] &gt;gb|EAF4502114.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes serotype 4b] &gt;gb|EAG6255510.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes CFSAN003807] &gt;gb|EAG6283819.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes CFSAN003810] &gt;gb|EAG6362819.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes CFSAN002351] &gt;gb|EAH4130446.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes LIS0077]</Hit_def>
+  <Hit_accession>WP_003722345</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.31278e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTDLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT+LFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>gb|EBF5202674.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EEB7922693.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EBF5202674</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.35672e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYREKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYR KLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|WP_149051141.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAF1658072.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|ECB9664095.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|ECB9721946.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|TYV45004.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_149051141</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.35672e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQEDITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQ DITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>gb|EAG1695755.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAG1695755</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.40212e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMENEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQME+EFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>tpg|HAA2569668.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;tpg|HAA2581611.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;tpg|HAA2589570.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;tpg|HAA2593075.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;tpg|HAA2620728.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>HAA2569668</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.4176e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLHYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWL YGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>gb|ECR2392463.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|ECR2453038.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|ECR2512924.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>ECR2392463</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.44905e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDCYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEID YRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>tpg|HAB0757272.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>HAB0757272</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.46504e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQMLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQ LIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>pdb|5ZTC|A</Hit_id>
+  <Hit_def>Chain A, Lmo2088 protein [Listeria monocytogenes EGD-e] &gt;pdb|5ZTC|B Chain B, Lmo2088 protein [Listeria monocytogenes EGD-e]</Hit_def>
+  <Hit_accession>5ZTC_A</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.46715e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTDLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT+LFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|WP_003728877.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EFD91876.1| transcriptional regulator [Listeria monocytogenes FSL J2-071] &gt;gb|ALQ17139.1| TetR family transcriptional regulator [Listeria monocytogenes] &gt;gb|ALQ18695.1| TetR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC2401746.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC2628866.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_003728877</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.48121e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRGSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLR SDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|WP_025284062.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD5050789.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes serotype 4b] &gt;gb|AHN33330.1| TetR family transcriptional regulator [Listeria monocytogenes] &gt;gb|AYV60127.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAA0064673.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAA0339965.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_025284062</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.519</Hsp_bit-score>
+      <Hsp_score>1033</Hsp_score>
+      <Hsp_evalue>1.48121e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNGPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVN PERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|WP_149039984.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|TYU47394.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_149039984</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.134</Hsp_bit-score>
+      <Hsp_score>1032</Hsp_score>
+      <Hsp_evalue>1.70833e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDSERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVND ERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>tpg|HAA8917989.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>HAA8917989</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.134</Hsp_bit-score>
+      <Hsp_score>1032</Hsp_score>
+      <Hsp_evalue>1.72718e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTGLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT LFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>gb|EAF5331615.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAF5331615</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.134</Hsp_bit-score>
+      <Hsp_score>1032</Hsp_score>
+      <Hsp_evalue>1.74624e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQPALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQ ALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>ref|WP_070036664.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC5221628.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC8501836.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC9043059.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD0635127.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD1188581.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_070036664</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.134</Hsp_bit-score>
+      <Hsp_score>1032</Hsp_score>
+      <Hsp_evalue>1.74624e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEQEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQME EFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>gb|EAG4480487.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAG4480487</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.134</Hsp_bit-score>
+      <Hsp_score>1032</Hsp_score>
+      <Hsp_evalue>1.76551e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLPIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFL IMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>gb|ECB9648438.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>ECB9648438</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.134</Hsp_bit-score>
+      <Hsp_score>1032</Hsp_score>
+      <Hsp_evalue>1.82459e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEHKLIPMQDVETMKESYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWME KLIPMQDVETMKE+YMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|WP_187988234.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC8105110.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EBH4259882.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_187988234</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.134</Hsp_bit-score>
+      <Hsp_score>1032</Hsp_score>
+      <Hsp_evalue>1.86508e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEYEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQME+EFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|WP_149117979.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|TYV61766.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_149117979</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.134</Hsp_bit-score>
+      <Hsp_score>1032</Hsp_score>
+      <Hsp_evalue>1.86508e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTDLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKVTALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT+LFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKK+TALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>gb|EAA0363117.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAG9850687.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAH0773335.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAH1062378.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAH1523625.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAA0363117</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.134</Hsp_bit-score>
+      <Hsp_score>1032</Hsp_score>
+      <Hsp_evalue>1.86508e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSYFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYS+FKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|WP_160456945.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Listeria monocytogenes] &gt;gb|MWV88994.1| TetR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_160456945</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.134</Hsp_bit-score>
+      <Hsp_score>1032</Hsp_score>
+      <Hsp_evalue>1.92751e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYTPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFY PKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|WP_061107305.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;emb|CUL99746.1| Transcription regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_061107305</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.749</Hsp_bit-score>
+      <Hsp_score>1031</Hsp_score>
+      <Hsp_evalue>2.24759e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAEVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIA VVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>gb|EAF1295491.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAF1295491</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.749</Hsp_bit-score>
+      <Hsp_score>1031</Hsp_score>
+      <Hsp_evalue>2.24759e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVELKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVV LKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>gb|EGD4100032.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EGD4100032</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.749</Hsp_bit-score>
+      <Hsp_score>1031</Hsp_score>
+      <Hsp_evalue>2.32281e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSINSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSI SHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>gb|EDO0693465.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EDO0693465</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.749</Hsp_bit-score>
+      <Hsp_score>1031</Hsp_score>
+      <Hsp_evalue>2.42705e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQFIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQ IYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>gb|EAD1771036.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAD1771036</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.749</Hsp_bit-score>
+      <Hsp_score>1031</Hsp_score>
+      <Hsp_evalue>2.45383e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKGAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMK AYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|WP_120164598.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|RJY79478.1| HTH-type transcriptional regulator AcrR [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_120164598</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.749</Hsp_bit-score>
+      <Hsp_score>1031</Hsp_score>
+      <Hsp_evalue>2.62083e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLILSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTDLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDL+LSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT+LFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gb|EEO2762427.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EEO9650474.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EEO2762427</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.749</Hsp_bit-score>
+      <Hsp_score>1031</Hsp_score>
+      <Hsp_evalue>2.83008e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGNLDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMG LDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>tpg|HAC1159752.1|</Hit_id>
+  <Hit_def>TetR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>HAC1159752</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.749</Hsp_bit-score>
+      <Hsp_score>1031</Hsp_score>
+      <Hsp_evalue>2.83008e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSNYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQS YSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|WP_070783804.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC2514125.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC5432615.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC5787998.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC7784973.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD1365942.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_070783804</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.364</Hsp_bit-score>
+      <Hsp_score>1030</Hsp_score>
+      <Hsp_evalue>3.08977e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSIADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTDLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTS+ADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT+LFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>gb|EAC5029385.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAC5029385</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.364</Hsp_bit-score>
+      <Hsp_score>1030</Hsp_score>
+      <Hsp_evalue>3.08977e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTIFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTDLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALT+FANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT+LFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>gb|EAD9444346.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAF2099019.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;tpg|HAA7193199.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAD9444346</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.364</Hsp_bit-score>
+      <Hsp_score>1030</Hsp_score>
+      <Hsp_evalue>3.08977e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTDLFSNWMEQKIIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT+LFSNWMEQK+IPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gb|EAG1934969.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAG1934969</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.364</Hsp_bit-score>
+      <Hsp_score>1030</Hsp_score>
+      <Hsp_evalue>3.4105e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDKDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKAMN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYD DEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKA+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>gb|EAF6268078.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAF6268078</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.364</Hsp_bit-score>
+      <Hsp_score>1030</Hsp_score>
+      <Hsp_evalue>3.97685e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKYDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDK DLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>gb|EAD0679978.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAD0679978</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.364</Hsp_bit-score>
+      <Hsp_score>1030</Hsp_score>
+      <Hsp_evalue>4.02073e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTDLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQMFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT+LFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQ+FWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>gb|EDO0911374.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EDO0911374</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>4.48707e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGAVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTDLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAG VGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT+LFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>gb|EEN9419432.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EEN9419432</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>4.48707e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEVTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFE TSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>tpg|HAC2878897.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>HAC2878897</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>4.48707e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVMGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTDLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGV+GLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT+LFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>tpg|HAA7082958.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>HAA7082958</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>4.48707e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGMKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTDLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFG+KELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT+LFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>tpg|HAA3041629.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;tpg|HAA3124820.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;tpg|HAA4180426.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;tpg|HAA4734616.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;tpg|HAA5485816.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>HAA3041629</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>4.58664e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGLKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTDLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFG+KELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT+LFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>gb|EGC1341308.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EGC1341308</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>4.58664e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDFVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTDLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPD VLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT+LFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>gb|EAG1764178.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAG1764178</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>4.68841e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANIGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFAN GFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>tpg|HAM1035007.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>HAM1035007</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>5.23219e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVALKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTDLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVV LKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT+LFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>gb|EAC3131180.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC4522439.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAC4954872.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD2478570.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAD4870613.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAC3131180</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>5.46697e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIASVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTDLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIA VVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT+LFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>gb|EAC3792874.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAC3792874</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>5.46697e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTDLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQTFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT+LFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQ FWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>gb|EAD1456371.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>EAD1456371</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>5.64995e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPNLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEQEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRP+LVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQME EFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|WP_061677440.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Listeria monocytogenes] &gt;gb|EAF4499822.1| TetR/AcrR family transcriptional regulator [Listeria monocytogenes serotype 1/2a] &gt;gb|KXX32395.1| TetR family transcriptional regulator [Listeria monocytogenes]</Hit_def>
+  <Hit_accession>WP_061677440</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.979</Hsp_bit-score>
+      <Hsp_score>1029</Hsp_score>
+      <Hsp_evalue>5.77532e-141</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTNLFSNWMEQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_qseq>
+      <Hsp_hseq>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFTDLFSNWMDQKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_hseq>
+      <Hsp_midline>MRKEEIKQAALTLFANNGFEGTSLADIAGVVGLKKQSIYSHFKDKDDLFLSIMKDAKSTEIDYYRAKLRDSDLSRPDLVLSSLLFGVKELYDTDEAYQFWLRYGFYPPKHLYEVVQADITENVLQMEHEFT+LFSNWM+QKLIPMQDVETMKEAYMGILDAVIVDIVYVNDPERTEKKITALWQIFWRGITLKALN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>319546668</Statistics_db-num>
+      <Statistics_db-len>115348668480</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
