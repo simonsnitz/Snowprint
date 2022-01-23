@@ -1,6 +1,7 @@
 from urllib.request import OpenerDirector
 import requests
 import os
+from pathlib import Path
 from os.path import exists
 import re
 import time
@@ -24,8 +25,12 @@ Entrez.email = os.getenv("EMAIL", "doelsnitz@utexas.edu")
 headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36'} 
 
     # file locations:
-metadata_tmp = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', f"cache/tmp/metadata.xml"))
-genomes_tmp = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', f"cache/tmp/genomes.txt"))
+p = Path("./cache/tmp")
+metadata_tmp = p / "metadata.xml"
+genomes_tmp = p / "genomes.txt"
+
+#metadata_tmp = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', f"cache/tmp/metadata.xml"))
+#genomes_tmp = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', f"cache/tmp/genomes.txt"))
 
 
 
@@ -50,7 +55,7 @@ def batch_NC2genomes_epost(acc, genome_acc_list: list):
         
         data = response.text
             # cache genomes text file
-        with open(genomes_tmp, mode='w+') as f:
+        with open(genomes_tmp, mode='w') as f:
             f.write(data)
             print('genomes cached')
 

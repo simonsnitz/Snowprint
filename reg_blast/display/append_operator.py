@@ -30,8 +30,7 @@ def create_operator_html(operators):
 
         """
 
-        # TODO: CHANGE THIS
-    p = Path("/home/simonsnitz/projects/tuSeek/reg_blast/display/Webpage")
+    p = Path("./display/Webpage")
     fp = p / "operator_data.js"
 
 

@@ -1,6 +1,5 @@
 import pickle
 from Bio.pairwise2 import align
-#from pprint import pprint
 from pathlib import Path
 
 """

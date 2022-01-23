@@ -1,9 +1,7 @@
 import pickle
 import requests
-from Bio import SeqIO
 import processing.acc2operon_batch as a2os
 import time
-import statistics
 
 import os
 

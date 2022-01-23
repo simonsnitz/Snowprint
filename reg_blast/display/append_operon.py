@@ -118,8 +118,7 @@ def create_operon_html(operons):
             }
                     """
 
-        # TODO: CHANGE THIS
-    p = Path("/home/simonsnitz/projects/tuSeek/reg_blast/display/Webpage")
+    p = Path("./display/Webpage")
     fp = p / "operon_data.js"
 
 
