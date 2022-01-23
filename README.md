@@ -2,10 +2,12 @@
 Predicts the operator sequence for prokaryotic transcrition regulators.
 
 ## Usage
-** Perform analysis on a regulator **
+#### Perform analysis on a regulator
 
 1. Clone to your local repo
+```
 $ git clone https://github.com/simonsnitz/GroovIO.git
+```
 
 2. Install dependencies
 
