@@ -1,7 +1,7 @@
 import pickle
 from Bio.pairwise2 import align
 from pathlib import Path
-
+import json
 """
 
 Function for finding a homologous operator within a given intergenic region 
@@ -333,7 +333,7 @@ def appendOperatorMetadata(acc, to_align, perc_ident):
 
                 if consensus_score > operator_data["consensus_score"]:
                     operator_data["consensus_score"] = consensus_score
-                    operator_data["input_seq"] = operator["seq"]
+                    operator_data["aligned_seq"] = operator["seq"]
                     operator_data["num_seqs"] = consensus["num_seqs"]
                     operator_data["motif"] = consensus["motif_data"]
                     

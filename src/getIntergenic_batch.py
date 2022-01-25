@@ -1,6 +1,6 @@
 import pickle
 import requests
-import processing.acc2operon_batch as a2os
+import src.acc2operon_batch as a2os
 import time
 
 import os

@@ -66,42 +66,87 @@ operon = [operon]
 print(operon)
 print(operators)
 
+
+'''
+New reg_blast.py Format:
+
+1. Check if regulator data already in SQLite database
+if yes:
+    output data from SQLite database
+if no:
+    2. Check if metadata cache exists for regulator
+    if yes:
+        run operator prediction function
+    if no:
+        3. Check if BLAST cache exists for regulator
+        if yes:
+            Run metadata extraction function
+        if no:
+            Run entire program, start to finish
+'''
+
+
 '''
 Data Format:
 
-Metadata:
-    accession:
-    organism:               *** Add organism ID
-    regIndex:
-    regType:
+Regulator:
+    ID:
+    protein_accession:
+    organism_ID:            *** Add organism ID
+    genome_accession:       *** Add this
     intergenic:
+    operon_ID:              *** one-to-one relationship
+    homologs:               *** one-to-many relationship
+
+Homolog:
+    ID:
+    protein_accession:
+    organism_ID:            *** Add organism ID
+    genome_accession:       *** Add this
+    intergenic:
+    operon_ID:              *** one-to-one relationship
+    parent_regulator:       *** one-to-one relationship
 
 Operon:
-    [   
+    ID:
+    operon_seq:             *** Add this
+    regIndex:
+    regType:
+    operon = [   
         alias:
-        description:
-        link:
+        description:        *** Change this to "annotation"
+        link:               (is this essentially the accession? Replace with alias?)
         direction:
         start:
         stop:
-    ] x # of regulators
+    ] x # of genes
 
 Operator:
+    ID:
     aligned_seq:            *** change name from "input_seq"
     lowest_perc_ident:
     num_seqs:
     consensus_score:
+    validated: True/False   *** Add this
     motif:
         [ 
             base: str, 
             score: float
         ] x # of bases
-    all_seqs:               *** add this
+    all_seqs:               *** Add this
         [
             accession: str,
             perc_ident: float,
             aligned_seq: str 
         ] * # of seqs
+    regulator:              *** one-to-one relationship
+
+
+Does this allow flexibility to:
+    - Change the % identity threshold for homologs?     *If >50%, easily. If <50%, somewhat easily.
+    - Change the way operons are defined?               *If I have genome sequences cached, yes.
+    - Change the way intergenic regions are defined?    *If I have genome sequences cached, yes.
+    - Change the operator prediction method?            *Pretty easily, yes.
 
 '''
 

@@ -1,4 +1,3 @@
-from urllib.request import OpenerDirector
 import requests
 import os
 from pathlib import Path

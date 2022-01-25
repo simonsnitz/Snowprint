@@ -1,11 +1,6 @@
 from Bio.Blast.NCBIWWW import qblast
 from Bio.Blast.NCBIXML import read
 
-#from pathlib import Path
-#from pprint import pprint
-
-#from Bio import SeqIO
-#from Bio.SeqRecord import SeqRecord
 import requests
 import pickle
 
