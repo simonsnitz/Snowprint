@@ -1,16 +1,18 @@
 from Bio.Blast.NCBIWWW import qblast
-from Bio.Blast.NCBIXML import read
+from Bio.Blast.NCBIXML import read, parse
+
+from sqlalchemy import create_engine, MetaData, insert
+from sqlalchemy.orm import sessionmaker
 
 import requests
-import pickle
+import json
+from pathlib import Path
 
-''' functions:
-accID2sequnce - get sequence in fasta format from an input protein refseq ID (API query)
-blast_and_cache - blast input protein sequence, cache output file.
-homologs2accID_ident - extract accessionIDs and percent identity from homologs, store them in dictionary as output
-homologs2residueFrequency - Input: xml blast file. Output: residues + their frequencies found at each position
-acc2homologList - compiler function. Runs acc2ID2sequence, blast_and_cache, and homologs2accID_ident (1st 2 if needed)
-'''
+    # Cache locations:
+cache = Path("./cache")
+blast_tmp = cache / "blast_results.xml"
+alignment_tmp = cache / "alignment.json"
+
 
 
 def accID2sequence(accID):
@@ -19,97 +21,101 @@ def accID2sequence(accID):
     if response.ok:
         return response.text
     else:
-        print("bad request")
-        print(response.status_code)
+        print("bad request "+ str(response.status_code))
 
 
-#def blast_and_cache(sequence, acc, perc_ident=50, db="nr", hitlist_size=50):   hitlist_size would trump perc_ident
-def blast_and_cache(sequence, acc, hitlist_size=100, db="nr"):
-        with open(f'cache/blast_cache/{acc}.xml', mode="w+") as f:
-            print("BLASTing this sequence:\n"+sequence)
+
+    # Hitlist_size trumps perc_ident
+def blast_and_cache(sequence, hitlist_size=100, db="nr"):
+        with open(f'cache/blast_results.xml', mode="w+") as f:
+        #with open(blast_tmp, mode="w+") as f:      # did not work. Why???
+            print("Starting BLAST")
             blast_results = qblast("blastp", db, sequence, hitlist_size=hitlist_size)
             f.write(blast_results.read())
-            print('cached blast result for '+str(acc))
+            print('cached blast result')
             return blast_results.read()
 
 
-#def getHomologAccessionIDs(fileIN, fileOUT):
-def homologs2accID_ident(acc):
-    with open(f'cache/blast_cache/{acc}.xml', 'r') as f:
-        
-        blast_results = read(f)
-    
-    homologList = [{"accession":alignment.accession, "identity":round((hsp.identities/hsp.align_length)*100, 2)}
-            for alignment in blast_results.alignments
-                for hsp in alignment.hsps
-         ]
-    print("lowest percent identity: "+str(homologList[-1]["identity"]))
+
+def homologs2metadata():
+
+    with open(blast_tmp, mode="r") as f:
+
+        records = [record for record in parse(f)]
+        for record in records:
+            homologs = [
+                {"accession":alignment.accession, 
+                "identity":round((hsp.identities/hsp.align_length)*100, 2),
+                "coverage": round((hsp.align_length/record.query_length)*100, 2)
+                }
+                for alignment in record.alignments
+                    for hsp in alignment.hsps
+            ]
+
+    alignment = json.dumps(homologs, indent=4)
+    print(alignment)
   
-    with open(f'cache/homolog_metadata/{acc}.pkl', 'wb') as f:
-        pickle.dump(homologList, f)
-        # print('caching homolog acc and percent identity metadata')
+    with open(alignment_tmp, 'w+') as f:
+        f.write(alignment)
+        print('homolog acc/pident/qcov cached')
     
-    return homologList
+    return alignment
 
 
 
-def acc2homolog_list(acc, hitlist_size):
+def add_alignment_to_db(acc):
+    
+        # Create alignment data from blast cache
+    alignment = homologs2metadata()
 
-        #check to see if blast result is already cached
-    try:
-        homologs = homologs2accID_ident(acc)
-        print('existing BLAST cache found for '+str(acc))
-    except:
-        print('no existing cache found for '+str(acc))
-        sequence = accID2sequence(acc)
-        blast_and_cache(sequence, acc, hitlist_size)
-        homologs = homologs2accID_ident(acc)
-    return homologs
+        # Point to sqlite database
+    engine = create_engine('sqlite:///API/GroovIO.db')
 
+        # Connect to db and pull Alignment table
+    conn = engine.connect()
+    meta_data = MetaData(bind=engine)
+    MetaData.reflect(meta_data)
+    Alignment = meta_data.tables["alignment"]
 
-##########################################################
-
-
-
-def homologs2residueFrequency(acc, identity):
-    with open(f'cache/blast_cache/{acc}.xml', 'r') as f:
-
-        blast_result = read(f)
-            #extract useful info from blast xml file
-        metaData = [{"sequence": align.sbjct, "start": align.query_start, "end": align.query_end, "identity":round((align.identities/align.align_length)*100,2)}
-                for data in blast_result.alignments
-                    for align in data.hsps 
-        ]
-        #print(metaData)
+        # Create a new record with accession ID argument and alignment data
+    new_row = (
+        insert(Alignment).values(
+            query_id=acc,
+            homologs = alignment)
+        )
+    
+        # Add the new record and commit it to the DB
+    result = conn.execute(new_row)
+    conn.close()
+    
 
 
-            #create protein dataset (dictionaries within List)
-        reference = metaData[0]["sequence"]
-        protein = [{residue:1}
-            for residue in reference
-        ]
+def query_db_alignment(acc):
 
-        
-            #populate amino acid frequency list with homolog sequences that meet specified identity cutoff.    Maybe could use list comprehension?
-        for homolog in metaData[1:]:
-            if homolog["identity"] >= identity:
-                counter = 0
-                for pos in range(homolog["start"]-1,homolog["end"]):
-                    hresidue = homolog["sequence"][counter]
-                    try:
-                        protein[pos][hresidue] += 1
-                    except:
-                        protein[pos].update({hresidue:1})
-                    counter += 1
+        # Point to sqlite database
+    engine = create_engine('sqlite:///API/GroovIO.db')
 
-        print(protein)
+        # Connect to db. create session and pull Alignment table
+    conn = engine.connect()
+    Session = sessionmaker(bind=engine)
+    session = Session()
+    meta_data = MetaData(bind=engine)
+    MetaData.reflect(meta_data)
+    Alignment = meta_data.tables["alignment"]
+
+        # Extract record associated with accession ID argument
+    record = session.query(Alignment).filter_by(query_id=acc).first()
+
+        # Do something with extracted record
+    print(json.loads(record.homologs)[40])
+
+    conn.close()
+
+
 
 if __name__=="__main__":
-
-        #camr
-    #acc = "BAA03510"
 
         #alkx
     acc = "AEM66515"
 
-    homologs2residueFrequency(acc,70)
+

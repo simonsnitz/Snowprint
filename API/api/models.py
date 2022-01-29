@@ -1,5 +1,6 @@
 from api import db
 
+'''
 class Cluster(db.Model):
     __searchable__ = ['body']
     __tablename__ = "cluster"
@@ -30,7 +31,7 @@ class Cluster(db.Model):
 
     def __repr__(self):
         return '<Cluster {}>'.format(self.id)
-
+'''
 
 class Alignment(db.Model):
     __searchable__ = ['body']
@@ -57,7 +58,7 @@ class Regulator(db.Model):
 
     prot_id = db.Column(db.String(16), index=True, unique=True)
     genome_id = db.Column(db.String(16))
-    organism_id = db.Column(db.Integer(16))
+    organism_id = db.Column(db.Integer)
 
     operons = db.relationship("Association", back_populates="regulator")
 
@@ -91,11 +92,11 @@ class Operon(db.Model):
 class Association(db.Model):
     __tablename__ = "association"
 
-    regulator_id = db.Column(db.ForeignKey('Regulator.id'), primary_key=True)
-    operon_id = db.Column(db.ForeignKey('Operon.id'), primary_key=True)
+    regulator_id = db.Column(db.ForeignKey(Regulator.id), primary_key=True)
+    operon_id = db.Column(db.ForeignKey(Operon.id), primary_key=True)
 
-    reg_index = db.Column(db.Integer(16))
-    reg_type = db.Column(db.Integer(4))
+    reg_index = db.Column(db.Integer)
+    reg_type = db.Column(db.Integer)
     regulated_seq = db.Column(db.String(4096))
 
     operon = db.relationship("Operon", back_populates="regulators")
@@ -108,7 +109,7 @@ class Operator(db.Model):
 
     id = db.Column(db.Integer, primary_key=True, unique=True)
 
-    number_seqs = db.Column(db.Integer(128))
+    number_seqs = db.Column(db.Integer)
     consensus_score = db.Column(db.Float(128))
     validated = db.Column(db.Boolean)
 
@@ -119,3 +120,7 @@ class Operator(db.Model):
     aligned_seqs = db.Column(db.Text(4096))
 
     regulators = db.relationship("Regulator", foreign_keys="Regulator.operator", backref='operator', lazy='dynamic')
+
+
+    def __repr__(self):
+        return '<Operator {}>'.format(self.id)

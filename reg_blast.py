@@ -1,6 +1,6 @@
-from processing.acc2homologs import acc2homolog_list
-from processing.getIntergenic_batch import appendIntergenic_batch
-from processing.operator_utils import appendOperatorMetadata
+from src.acc2homologs import add_alignment_to_db, query_db_alignment
+from src.getIntergenic_batch import appendIntergenic_batch
+from src.operator_utils import appendOperatorMetadata
 
 from display.append_operon import create_operon_html
 from display.append_operator import create_operator_html
@@ -11,8 +11,23 @@ from pathlib import Path
 import pickle
 
 
-
 acc = "EHN63435"
+max_seqs = 50
+
+# TODO: 1/27/2022
+
+# Fetch blast results with accession, pident, and qcov parameters
+# cache as a JSON object
+# Add it to the GroovIO SQL database
+# Access it from the database, to verify that it's there
+
+
+#add_alignment_to_db(acc)
+query_db_alignment(acc)
+#homologs2metadata()
+
+
+
 
     # Having period in accession name screws things up. Remove it
 if acc[-2] == ".":
@@ -44,6 +59,9 @@ ERRORS TO ADDRESS:
 # HTML pages: 'cache/HTML/{date}.html
 
 
+
+
+'''
     # Takes a regulator accession ID and outputs a dictionary with predicted operator data
 def acc2operator_data(acc, max_seqs):
 
@@ -65,6 +83,9 @@ operon = [operon]
 
 print(operon)
 print(operators)
+'''
+
+
 
 
 '''
@@ -123,7 +144,6 @@ Operon:
 
 Operator:
     ID:
-    aligned_seq:            *** change name from "input_seq"
     lowest_perc_ident:
     num_seqs:
     consensus_score:
@@ -151,8 +171,8 @@ Does this allow flexibility to:
 '''
 
     # update operon and operator JS files
-create_operon_html(operon)
-create_operator_html(operators) 
+#create_operon_html(operon)
+#create_operator_html(operators) 
 
 
     # Open updated HTML page
