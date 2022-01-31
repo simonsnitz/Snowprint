@@ -58,6 +58,10 @@ class Regulator(db.Model):
 
     prot_id = db.Column(db.String(16), index=True, unique=True)
     genome_id = db.Column(db.String(16))
+    organism = db.Column(db.String(128))
+    start = db.Column(db.Integer)
+    stop = db.Column(db.Integer)
+    strand = db.Column(db.String(4))
     organism_id = db.Column(db.Integer)
 
     operons = db.relationship("Association", back_populates="regulator")
