@@ -1,37 +1,5 @@
 from api import db
 
-'''
-class Cluster(db.Model):
-    __searchable__ = ['body']
-    __tablename__ = "cluster"
-
-    id = db.Column(db.Integer, primary_key=True)
-
-        # cluster info
-    family = db.Column(db.String(16), index=True)
-    cluster_percent_identity = db.Column(db.Integer, index=True)
-
-        # info on representative protein
-    rep_EMBL = db.Column(db.String(16), index=True, unique=True)
-    rep_genome = db.Column(db.String(16), index=True)
-    rep_operon = db.Column(db.PickleType)
-    reg_index = db.Column(db.Integer, index=True)
-    rep_ligand_SMILES = db.Column(db.String(256), index=True)
-    rep_ligand_NAME = db.Column(db.String(256), index=True)
-    
-    homologs = db.Column(db.PickleType)
-
-        # essentially this is the operator motif
-    dna_binding_motif = db.Column(db.PickleType)
-        # compounds this cluster is known to recognize. SMILES with associated weights
-    ligand_binding_motif = db.Column(db.PickleType)
-        # name motif of genes in the associated operons
-    gene_context_motif = db.Column(db.PickleType)
-
-
-    def __repr__(self):
-        return '<Cluster {}>'.format(self.id)
-'''
 
 class Alignment(db.Model):
     __searchable__ = ['body']
@@ -59,8 +27,8 @@ class Regulator(db.Model):
     prot_id = db.Column(db.String(16), index=True, unique=True)
     genome_id = db.Column(db.String(16))
     organism = db.Column(db.String(128))
-    start = db.Column(db.Integer)
-    stop = db.Column(db.Integer)
+    start_pos = db.Column(db.Integer)
+    stop_pos = db.Column(db.Integer)
     strand = db.Column(db.String(4))
     organism_id = db.Column(db.Integer)
 
@@ -83,8 +51,13 @@ class Operon(db.Model):
     operon_seq = db.Column(db.String(4096))
 
         # Operon data
-        # [ {"acc": string, "annotation": string, "direction": string, "start": int, "stop": int}, {...}, ... ]
+        # [ {"acc": string, "annotation": str, "direction": str, "start": int, "stop": int}, {...}, ... ]
     operon = db.Column(db.Text(4096))
+
+        # New columns which help *define* an operon
+    genome_id = db.Column(db.String(16))
+    start_pos = db.Column(db.Integer)
+    stop_pos = db.Column(db.Integer)
 
     regulators = db.relationship("Association", back_populates="operon")
 
@@ -94,10 +67,13 @@ class Operon(db.Model):
 
 
 class Association(db.Model):
+    __searchable__ = ['body']
     __tablename__ = "association"
 
-    regulator_id = db.Column(db.ForeignKey(Regulator.id), primary_key=True)
-    operon_id = db.Column(db.ForeignKey(Operon.id), primary_key=True)
+    id = db.Column(db.Integer, primary_key=True, unique=True, autoincrement=True)
+
+    regulator_id = db.Column(db.ForeignKey(Regulator.id))
+    operon_id = db.Column(db.ForeignKey(Operon.id))
 
     reg_index = db.Column(db.Integer)
     reg_type = db.Column(db.Integer)
@@ -105,6 +81,10 @@ class Association(db.Model):
 
     operon = db.relationship("Operon", back_populates="regulators")
     regulator = db.relationship("Regulator", back_populates="operons")
+
+
+    def __repr__(self):
+        return '<Association {}>'.format(self.id)
 
 
 class Operator(db.Model):

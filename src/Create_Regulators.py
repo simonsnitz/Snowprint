@@ -7,8 +7,6 @@ from sqlalchemy import create_engine, MetaData, insert
 from sqlalchemy.orm import sessionmaker
 
 
-# TODO:
-# Fetch the organism ID (API request) and add it to the metadata dictionary / database
 
 
 headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36'} 
@@ -46,8 +44,9 @@ def batch_acc2MetaData(prot_acc_list: list):
                 stop = attribs['stop']
                 strand = attribs['strand']
                 organism = attribs['org']
+                org_id = attribs['taxid']
                 data = {'protein_acc':prot,'genome_acc':accver, 'start':start, 'stop':stop, \
-                    'strand':strand, 'organism': organism}
+                    'strand':strand, 'organism': organism, 'org_id': org_id}
                 metadata.append(data)
             except:
                 pos = prot_acc_list[len(metadata)]
@@ -103,8 +102,12 @@ def create_regulators(acc: str):
         for reg in reg_metadata:
             
             prot_acc = reg["protein_acc"]
+                # BLAST returns accession without the 'dot'. Removing it from Regulator for accessibility
+            if prot_acc[-2:] == ".1":
+                prot_acc = prot_acc[:-2]
             genome_acc = reg["genome_acc"]
             organism = reg["organism"]
+            organism_id = reg["org_id"]
             start = reg["start"]
             stop = reg["stop"]
             strand = reg["strand"]
@@ -112,8 +115,6 @@ def create_regulators(acc: str):
             regulator = session.query(Regulator).filter_by(prot_id= prot_acc).first()
 
             if regulator == None:    
-                print('Regulator not found for '+str(prot_acc))
-
 
                     # Create a new record with fetched metadata
                 new_row = (
@@ -121,8 +122,9 @@ def create_regulators(acc: str):
                         prot_id= prot_acc,
                         genome_id= genome_acc,
                         organism= organism,
-                        start= start,
-                        stop= stop,
+                        organism_id = organism_id,
+                        start_pos= start,
+                        stop_pos= stop,
                         strand= strand
                         )
                 )

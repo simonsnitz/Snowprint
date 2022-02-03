@@ -12,7 +12,7 @@ import os
 #One: KEGG annotations are different than NCBI annotations. NCBI may indicate that there is a gene in that region
 #Two: My program isn't catching it. Not using this filter for some reason, in this particular case.
 
-#def getIntergenicSeq(operon, regIndex, NCacc):
+
 def operon2Intergenic(operon, regIndex, NCacc):
 
     if operon[regIndex]["direction"] == "+":
@@ -28,7 +28,8 @@ def operon2Intergenic(operon, regIndex, NCacc):
                 start = operon[regIndex-1]["stop"]
                 stop = operon[regIndex]["start"]
                 testLength = int(stop) - int(start)
-                    #setting this to 100bp is somewhat arbitrary. Most intergenic regions >= 100bp. May need to tweak.
+                    # Setting this to 100bp is somewhat arbitrary. 
+                    # Most intergenic regions >= 100bp. May need to tweak.
                 if testLength > 100:
                     startPos = start
                     stopPos = stop
@@ -47,7 +48,8 @@ def operon2Intergenic(operon, regIndex, NCacc):
                 regType = "type 1"
                 break
             else:
-                    #counterintunitive use of "stop"/"start", since start < stop always true, regardless of direction
+                    # Counterintunitive use of "stop"/"start" ...
+                    # Start < stop always true, regardless of direction
                 start = operon[regIndex]["stop"]
                 stop = operon[regIndex+1]["start"]
                 testLength = int(stop) - int(start)
@@ -59,7 +61,7 @@ def operon2Intergenic(operon, regIndex, NCacc):
                     break
                 index += 1
 
-    length = int(stopPos) - int(startPos)
+    # length = int(stopPos) - int(startPos)
   
     URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id="+str(NCacc)+"&seq_start="+str(startPos)+"&seq_stop="+str(stopPos)+"&strand=1&rettype=fasta"
     response = requests.get(URL)
@@ -69,7 +71,8 @@ def operon2Intergenic(operon, regIndex, NCacc):
     else:
         print('bad request')
 
-         #800bp cutoff for an inter-operon region. A region too long makes analysis fuzzy and less accurate.
+         # 800bp cutoff for an inter-operon region. 
+         # A region too long makes analysis fuzzy and less accurate.
     output  = ""
     for i in intergenic.split('\n')[1:]:
         output += i
@@ -81,11 +84,13 @@ def operon2Intergenic(operon, regIndex, NCacc):
 
 
 
+
 def appendIntergenic_batch(acc):
+
+        # Get Alignment table for associated regulator
 
     inputPath = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', f"cache/homolog_metadata/{acc}.pkl"))
     updatedPath = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', f"cache/homolog_metadata/updated_metadata/{acc}.pkl"))
-
 
     try:
         with open(updatedPath, "rb") as f:
@@ -97,27 +102,34 @@ def appendIntergenic_batch(acc):
 
     operonProcessingTimes = [] 
 
+        # Check to see if Operon / Regulator Tables (?) already exist in DB
+
     if "regType" not in homologList[0]:
 
         getOperons_start = time.time()
 
-            # get operon
+            # get operon data
 
         accessions = [i["accession"] for i in homologList]
-
         data = a2os.batch_acc2operon(accessions)
         
+
+        # In this loop, create new Regulator, Operon, and Association records
+            # fill them with DATA!!!
+            # Of course, check to see if the record already exists
+
+
         for i in range(0, len(data)):
             try:
-                homologList[i]["regIndex"] = data[i]["data"]["regIndex"]
-                homologList[i]["operon"] = data[i]["data"]["operon"]           
-                        # efetch request
-                intergenic = operon2Intergenic(data[i]["data"]["operon"],\
+                homologList[i]["regIndex"] = data[i]["data"]["regIndex"]        # Association table
+                homologList[i]["operon"] = data[i]["data"]["operon"]            # Operon table 
+                intergenic = operon2Intergenic(data[i]["data"]["operon"],      
                      data[i]["data"]["regIndex"], data[i]["data"]["genome"])
-                homologList[i]["intergenic"] = intergenic["intergenicSeq"]
-                homologList[i]["regType"] = intergenic["regType"]
+                homologList[i]["intergenic"] = intergenic["intergenicSeq"]      # Association table
+                homologList[i]["regType"] = intergenic["regType"]               # Association table
                     
                 print('got intergenic region for '+str(i))
+
 
                     #cache results
                 with open(updatedPath, "wb") as f:
@@ -139,11 +151,6 @@ def appendIntergenic_batch(acc):
 
             # print statistics
         print("total time spent getting operons: "+str(sum(operonProcessingTimes)))
-        #try:
-        #    print("average processing time: "+str(statistics.mean(operonProcessingTimes)))
-        #    print("median processing time: "+str(statistics.median(operonProcessingTimes)))
-        #except:
-        #    pass
 
     
     else:
