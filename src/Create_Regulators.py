@@ -129,7 +129,7 @@ def create_regulators(acc: str):
                         )
                 )
                     # Add the new record and commit it to the DB
-                result = conn.execute(new_row)
+                conn.execute(new_row)
                 print('Added a regulator entry for '+str(prot_acc)+' to the DB')
 
             else:

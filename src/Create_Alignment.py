@@ -4,17 +4,23 @@ from Bio.Blast.NCBIXML import parse
 from sqlalchemy import create_engine, MetaData, insert
 from sqlalchemy.orm import sessionmaker
 
+from Bio.Blast.Applications import NcbiblastpCommandline
+
 import requests
 import json
+import time
 from pathlib import Path
 
-
+headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36'} 
 
     # Cache locations:
 cache = Path("./cache")
 blast_tmp = cache / "blast_results.xml"
 alignment_tmp = cache / "alignment.json"
-
+blast_db = "nr"
+#blast_db = "blast/Uniprot/TetR/TetRs"
+num_aligns = 1000
+pident_cutoff = 50.0
 
     # Input protein accession ID, output sequence in fasta format
 def accID2sequence(accID: str):
@@ -27,38 +33,30 @@ def accID2sequence(accID: str):
 
 
     # Input protein sequence. Output cached blast results
-def blast_and_cache(sequence: str, hitlist_size=100, db="nr"):
-        with open(f'cache/blast_results.xml', mode="w+") as f:
-        #with open(blast_tmp, mode="w+") as f:      # did not work. Why???
-            print("Starting BLAST")
-            blast_results = qblast("blastp", db, sequence, hitlist_size=hitlist_size)
-            f.write(blast_results.read())
-            print('cached blast result')
-            return blast_results.read()
+def blast(acc: str, num_aligns=num_aligns):
 
+    print("Starting BLAST")
 
-    # Input blast alignment results, output JSON dict with homolog data
-def homologs2metadata():
+    seq = accID2sequence(acc)
 
-    with open(blast_tmp, mode="r") as f:
-        try:
-            records = [record for record in parse(f)]
-            for record in records:
-                homologs = [
-                    {
-                        "accession":alignment.accession, 
-                        "identity":round((hsp.identities/hsp.align_length)*100, 2),
-                        "coverage": round((hsp.align_length/record.query_length)*100, 2)
-                    }
-                    for alignment in record.alignments
-                        for hsp in alignment.hsps
-                ]
+    blast_cline = NcbiblastpCommandline(db=blast_db, outfmt="6 sseqid pident qcovs", \
+        num_alignments=num_aligns, remote=True)
 
-            alignment = json.dumps(homologs, indent=4)
-            return alignment
+    results, err = blast_cline(stdin=seq)
 
-        except IndexError:
-            print('There is an issue with the cached BLAST record')
+    results = results.split("\n")[:-1]
+    
+    homologs = [{"accession": r.split("|")[1], \
+            "identity": r.split("|")[2].split("\t")[1], \
+            "coverage": r.split("|")[2].split("\t")[2].strip()} \
+             for r in results ]
+
+        # filter out homologs that don't meet the percent identity cutoff
+    homologs = [h for h in homologs if float(h["identity"]) >= pident_cutoff]
+
+    alignment = json.dumps(homologs, indent=4)
+    return alignment
+
 
 
 
@@ -84,9 +82,7 @@ def create_alignment(acc: str):
     if record == None:    
         print('Alignment not found for '+str(acc))
             # Fetch sequence, blast it, and create alignment data
-        seq = accID2sequence(acc)
-        blast_and_cache(seq)
-        alignment = homologs2metadata()
+        alignment = blast(acc)
             # Create a new record with accession ID and alignment data
         new_row = (
             insert(Alignment).values(
@@ -95,7 +91,7 @@ def create_alignment(acc: str):
                 )
         )
             # Add the new record and commit it to the DB
-        result = conn.execute(new_row)
+        conn.execute(new_row)
         print('Added an alignement for '+str(acc)+' to the DB')
 
     else:
@@ -110,7 +106,28 @@ def create_alignment(acc: str):
 
 if __name__=="__main__":
 
-        #alkx
-    acc = "AEM66515"
+    blast_db = "../blast/TetR/TetRs"
+
+    seq = accID2sequence("WP_000113282.1")
+
+    start = time.time()
+    blast_cline = NcbiblastpCommandline(db=blast_db, outfmt="6 sseqid pident qcovs", num_alignments=100)
 
 
+    results, err = blast_cline(stdin=seq)
+
+    results = results.split("\n")[:-1]
+    homologs = [{"protein_id": r.split("|")[1], \
+            "identity": r.split("|")[2].split("\t")[1], \
+            "coverage": r.split("|")[2].split("\t")[2].strip()} \
+             for r in results ]
+
+    #rep_protein = results.split("|")[1]
+    #identity = results.split("|")[2].split("\t")[1]
+    #coverage = results.split("|")[2].split("\t")[2].strip()
+
+    stop = time.time()
+
+    print(results)
+    print(homologs[0]["protein_id"])
+    #print("took "+str(stop-start)+" seconds")

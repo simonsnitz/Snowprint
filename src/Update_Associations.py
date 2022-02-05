@@ -31,6 +31,8 @@ def operon2Intergenic(operon, regIndex, genome_id):
                     stopPos = stop
                     regType = 2
                     break
+                if index == 0:
+                    return None
                 index -= 1
 
     elif operon[regIndex]["direction"] == "-":
@@ -53,6 +55,8 @@ def operon2Intergenic(operon, regIndex, genome_id):
                     stopPos = stop
                     regType = 2
                     break
+                if index > len(operon)-1:
+                    return None
                 index += 1
   
 
@@ -131,15 +135,16 @@ def update_associations(acc: str):
             operon = json.loads(operon_rec.operon)
             data = operon2Intergenic(operon, assoc.reg_index, operon_rec.genome_id)  
             
-                # Add data to the association record
-            add_regulated_seq = (
-                update(Association).
-                where(Association.c.id == assoc.id).
-                values(reg_type = data["reg_type"], \
-                    regulated_seq = data["regulated_seq"])
-            )
-            conn.execute(add_regulated_seq)
-            print('updated association entry for '+str(assoc.regulator_id))
+            if data != None:
+                    # Add data to the association record
+                add_regulated_seq = (
+                    update(Association).
+                    where(Association.c.id == assoc.id).
+                    values(reg_type = data["reg_type"], \
+                        regulated_seq = data["regulated_seq"])
+                )
+                conn.execute(add_regulated_seq)
+                print('updated association entry for '+str(assoc.regulator_id))
 
         else:
             continue
