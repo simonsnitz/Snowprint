@@ -2,14 +2,16 @@ from src.Create_Alignment import create_alignment
 from src.Create_Regulators import create_regulators
 from src.Create_Operons import create_operons
 from src.Update_Associations import update_associations
-
+from src.Create_Operators import create_operators
 
 #from src.getIntergenic_batch import appendIntergenic_batch
 #from src.operator_utils import appendOperatorMetadata
 
 
 tetr = "WP_000113282.1"
-acc = "EHN63435"
+#acc = "EHN63435"
+lplr = "WP_019744253"
+acc = lplr
 
 
 # TODO: 1/31/2022
@@ -17,10 +19,11 @@ acc = "EHN63435"
 # Add Create_Operators script
 
 
-#create_alignment(tetr)
-#create_regulators(tetr)
-#create_operons(tetr)
-update_associations(tetr)
+create_alignment(acc)
+#create_regulators(acc)
+#create_operons(acc)
+#update_associations(acc)
+#create_operators(acc)
 
 
 #fetch_operon_data(tetr)

@@ -19,7 +19,7 @@ blast_tmp = cache / "blast_results.xml"
 alignment_tmp = cache / "alignment.json"
 blast_db = "nr"
 #blast_db = "blast/Uniprot/TetR/TetRs"
-num_aligns = 1000
+num_aligns = 100
 pident_cutoff = 50.0
 
     # Input protein accession ID, output sequence in fasta format
