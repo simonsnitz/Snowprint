@@ -1,6 +1,6 @@
 import requests
 import json
-
+from pprint import pprint
 from sqlalchemy import create_engine, MetaData, update
 from sqlalchemy.orm import sessionmaker
 
@@ -31,9 +31,11 @@ def operon2Intergenic(operon, regIndex, genome_id):
                     stopPos = stop
                     regType = 2
                     break
-                if index == 0:
-                    return None
-                index -= 1
+                else:
+                    if index == 1:
+                        print('WARNING: Reached end of operon. This entry will be omitted')
+                        return None
+                    index -= 1
 
     elif operon[regIndex]["direction"] == "-":
         queryGenes = operon[regIndex+1:]
@@ -55,19 +57,20 @@ def operon2Intergenic(operon, regIndex, genome_id):
                     stopPos = stop
                     regType = 2
                     break
-                if index > len(operon)-1:
-                    return None
-                index += 1
+                else:
+                    if index == len(operon)-2:
+                        print('WARNING: Reached end of operon. This entry will be omitted')
+                        return None
+                    else:
+                        index += 1
   
-
-
     URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id="+str(genome_id)+"&seq_start="+str(startPos)+"&seq_stop="+str(stopPos)+"&strand=1&rettype=fasta"
     response = requests.get(URL)
 
     if response.ok:
         intergenic = response.text
     else:
-        print('bad request')
+        print('FATAL: Bad eFetch request')
 
          # 800bp cutoff for an inter-operon region. 
          # A region too long makes analysis fuzzy and less accurate.
@@ -77,7 +80,7 @@ def operon2Intergenic(operon, regIndex, genome_id):
     if len(output) <= 800:
         return {"regulated_seq": output, "reg_type": regType}
     else:
-        print('intergenic region over 800bp')
+        print('WARNING: Intergenic region is over 800bp')
         return None
 
 
@@ -104,18 +107,22 @@ def update_associations(acc: str):
     record = s.query(Alignment).filter_by(query_id=acc).first()
 
     if record == None:    
-        print('no alignment found for '+str(acc))
+        print('WARNING: No alignment found for '+str(acc))
+        return
 
         # Extract accession IDs for homologs within the alignment
     else:
         homologs = json.loads(record.homologs)
         accessions = [i['accession'] for i in homologs]
+            # Have to chop off the ".1" at the end of accessions for SQL queries to work
+        accessions = [i[:-2] for i in accessions if i[-2:] == ".1"]
 
 
         # Pull out regulators associated with the alignment
     regulators = [s.query(Regulator).filter_by(prot_id=acc).first() for acc in accessions]
         # Filter out empty Regulator records
     regulators = [reg for reg in regulators if reg != None]
+
 
         # Pull out association objects linked with each regulator
     assoc_list = [s.query(Association).filter_by(regulator_id=reg.id).first() for reg in regulators]
@@ -144,7 +151,7 @@ def update_associations(acc: str):
                         regulated_seq = data["regulated_seq"])
                 )
                 conn.execute(add_regulated_seq)
-                print('updated association entry for '+str(assoc.regulator_id))
+                print('UPDATE: updated association entry for '+str(assoc.regulator_id))
 
         else:
             continue

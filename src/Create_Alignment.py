@@ -29,13 +29,13 @@ def accID2sequence(accID: str):
     if response.ok:
         return response.text
     else:
-        print("bad request "+ str(response.status_code))
+        print("FATAL: Bad eFetch request "+ str(response.status_code))
 
 
     # Input protein sequence. Output cached blast results
 def blast(acc: str, num_aligns=num_aligns):
 
-    print("Starting BLAST")
+    print("UPDATE: Starting BLAST")
 
     seq = accID2sequence(acc)
 
@@ -80,7 +80,7 @@ def create_alignment(acc: str):
     record = session.query(Alignment).filter_by(query_id=acc).first()
 
     if record == None:    
-        print('Alignment not found for '+str(acc))
+        print('NOTE: Alignment not found for '+str(acc))
             # Fetch sequence, blast it, and create alignment data
         alignment = blast(acc)
             # Create a new record with accession ID and alignment data
@@ -92,10 +92,10 @@ def create_alignment(acc: str):
         )
             # Add the new record and commit it to the DB
         conn.execute(new_row)
-        print('Added an alignement for '+str(acc)+' to the DB')
+        print('UPDATE: Added an alignment for '+str(acc)+' to the DB')
 
     else:
-        print('DB alignment already exists for '+str(acc))
+        print('NOTE: DB alignment already exists for '+str(acc))
 
     conn.close()
 

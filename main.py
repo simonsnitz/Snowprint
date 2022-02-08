@@ -4,14 +4,15 @@ from src.Create_Operons import create_operons
 from src.Update_Associations import update_associations
 from src.Create_Operators import create_operators
 
-#from src.getIntergenic_batch import appendIntergenic_batch
-#from src.operator_utils import appendOperatorMetadata
+from display.quick_operator_analysis import operator_analysis
+
 
 
 tetr = "WP_000113282.1"
-#acc = "EHN63435"
+lmrr = "WP_011834386.1"
 lplr = "WP_019744253"
-acc = lplr
+ebrr = "WP_003976902"
+acc = ebrr
 
 
 # TODO: 1/31/2022
@@ -19,25 +20,15 @@ acc = lplr
 # Add Create_Operators script
 
 
-create_alignment(acc)
+#create_alignment(acc)
 #create_regulators(acc)
 #create_operons(acc)
 #update_associations(acc)
 #create_operators(acc)
 
-
-#fetch_operon_data(tetr)
-
+operator_analysis(acc)
 
 
-
-regulators = [acc]
-
-
-max_seqs = 50
-perc_ident = 50
-to_align = "find_inverted_repeat"
-# Options: [ "find_inverted_repeat", "whole_interoperon", or custom string]
 
 
 """
