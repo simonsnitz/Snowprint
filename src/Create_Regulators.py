@@ -27,7 +27,7 @@ def batch_acc2MetaData(prot_acc_list: list):
         
         with open(metadata_tmp, mode='wb') as f:
             f.write(data)
-            print('metadata cached')
+            print('NOTE: Metadata cached')
 
         
         tree = ET.parse(metadata_tmp)
@@ -50,7 +50,7 @@ def batch_acc2MetaData(prot_acc_list: list):
                 metadata.append(data)
             except:
                 pos = prot_acc_list[len(metadata)]
-                print("no data for "+str(pos))
+                print("WARNING: No data for "+str(pos))
                     # 'U00096.3' is used as a placeholder to avoid a downstream error
                     # this is jank, but shouldn't bias the result (interoperon won't align)
                 # data = {'protein_acc':'None','genome_acc':'U00096.3', 'start':'None', 'stop':'None', 'strand':'None'}
@@ -59,7 +59,7 @@ def batch_acc2MetaData(prot_acc_list: list):
 
     else:
             # I'll likely encounter a 'ProteinList KeyError' at some point and will need to deal with it.
-        print('efetch API request failed')
+        print('WARNING: eFetch API request failed')
 
 
 
@@ -81,7 +81,7 @@ def create_regulators(acc: str):
     record = session.query(Alignment).filter_by(query_id=acc).first()
 
     if record == None:    
-        print('no alignment found for '+str(acc))
+        print('NOTE: No alignment found for '+str(acc))
 
         # Extract accession IDs for homologs within the alignment
     else:
@@ -102,9 +102,10 @@ def create_regulators(acc: str):
         for reg in reg_metadata:
             
             prot_acc = reg["protein_acc"]
-                # BLAST returns accession without the 'dot'. Removing it from Regulator for accessibility
-            if prot_acc[-2:] == ".1":
-                prot_acc = prot_acc[:-2]
+                # BLAST returns accession without the 'dot'. SOMETIMES?.
+                # Remove it from Regulator for accessibility?
+                        #if prot_acc[-2:] == ".1":
+                        #    prot_acc = prot_acc[:-2]
             genome_acc = reg["genome_acc"]
             organism = reg["organism"]
             organism_id = reg["org_id"]
@@ -130,10 +131,10 @@ def create_regulators(acc: str):
                 )
                     # Add the new record and commit it to the DB
                 conn.execute(new_row)
-                print('Added a regulator entry for '+str(prot_acc)+' to the DB')
+                print('UPDATE: Added a regulator entry for '+str(prot_acc))
 
             else:
-                print('Regulator DB entry already exists for '+str(prot_acc))
+                print('NOTE: Regulator DB entry already exists for '+str(prot_acc))
 
 
     conn.close()

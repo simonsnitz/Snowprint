@@ -35,7 +35,7 @@ def accID2sequence(accID: str):
     # Input protein sequence. Output cached blast results
 def blast(acc: str, num_aligns=num_aligns):
 
-    print("UPDATE: Starting BLAST")
+    print("NOTE: Starting BLAST")
 
     seq = accID2sequence(acc)
 
@@ -121,10 +121,6 @@ if __name__=="__main__":
             "identity": r.split("|")[2].split("\t")[1], \
             "coverage": r.split("|")[2].split("\t")[2].strip()} \
              for r in results ]
-
-    #rep_protein = results.split("|")[1]
-    #identity = results.split("|")[2].split("\t")[1]
-    #coverage = results.split("|")[2].split("\t")[2].strip()
 
     stop = time.time()
 

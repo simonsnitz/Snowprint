@@ -1,5 +1,6 @@
 from Bio.pairwise2 import align
 import json
+from pprint import pprint
 
 from src.definitions.define_operators import findBestPalindrome
 
@@ -39,7 +40,7 @@ def findOperatorInIntergenic(intergenic, operator, ext_length=0):
         upstr_align, op_align, score, startPos, endPos = \
         align.localms(intergenic, operator, 2, -0.5, -100, 0)[0]
     except:
-        return "no intergenic region found"
+        return "WARNING: Regulated sequence alignment failed"
     
         # Heavily penalizing gap opening avoids errors with downstream data processing, but may miss out on interesting biological features
         # Returns the aligned operator sequence if a similarity threshold is met. Score threshold (7) should be tuned.
@@ -51,7 +52,7 @@ def findOperatorInIntergenic(intergenic, operator, ext_length=0):
         operator = extractOperator(upstr_align, op_align, ext_length)
         return {"operator":operator, "score":score}
     else:
-        print('alignment score is not above cutoff')
+        print('WARNING: Alignment score is not above cutoff')
         return {"operator":None,"score":0}
 
 
@@ -61,8 +62,8 @@ def findOperatorInIntergenic(intergenic, operator, ext_length=0):
 def getConsensus(metrics):
     
         # Filter by identity and by alignment score. Some alignments from ~80% homologs have crap scores
-    allOperators = [ i["operator"] for i in metrics 
-             if i["score"] != 0 ]
+    allOperators = [ i["predicted_operator"] for i in metrics 
+             if i["align_score"] != 0 ]
 
     num_seqs = len(allOperators)
 	    # Initialize list of dictionaries
@@ -125,7 +126,9 @@ def get_consensus_score(operator, consensus_data):
 
 
 
-def fetch_operator_data(regulated_seqs, acc):
+def fetch_operator_data(homolog_metadata, acc):
+
+    regulated_seqs = [h["regulated_seq"] for h in homolog_metadata]
 
         # Iterates this function through multiple relevant scoring parameters
     operators = []
@@ -146,29 +149,34 @@ def fetch_operator_data(regulated_seqs, acc):
         "aligned_seq": "None",
         "num_seqs": "None",
         "consensus_score": 0,
-        "motif": "None"
+        "motif": "None",
+        "aligned_seqs": "None"
     }
     
 
     for operator in operators:
         #print(operator)
         metrics = []
-        for i in regulated_seqs:
+        for h in homolog_metadata:
+            i = h["regulated_seq"]
             homolog = {}
-            homolog["operator"] =  findOperatorInIntergenic(i, \
-                operator["seq"])["operator"]
-            homolog["score"] =  findOperatorInIntergenic(i, \
-                operator["seq"])["score"]
-            #homolog["identity"] = i["identity"]
+            op = findOperatorInIntergenic(i, operator["seq"], ext_length=5)
+            homolog["predicted_operator"] =  op["operator"]
+            homolog["align_score"] =  op["score"]
+            homolog["identity"] = h["identity"]
+            homolog["coverage"] = h["coverage"]
+            homolog["accession"] = h["accession"]
+            #homolog["regulated_seq"] = i
+            homolog["organism"] = h["organism"]
 
             metrics.append(homolog)
 
+            # Create the consensus 'motif' and calculate its quality score
         consensus = getConsensus(metrics)
-
         consensus_score = get_consensus_score(operator["seq"], consensus)
-                
+            # Pull out the predicted operator from the original query protein
         operator["seq"] = findOperatorInIntergenic(regulated_seqs[0], \
-            operator["seq"], 3)["operator"]
+            operator["seq"], ext_length=5)["operator"]
 
         # Warning: Only the CONSENSUS SCORE is used to identify the 
             # best operator. This should also incorporate the
@@ -179,6 +187,7 @@ def fetch_operator_data(regulated_seqs, acc):
             operator_data["aligned_seq"] = operator["seq"]
             operator_data["num_seqs"] = consensus["num_seqs"]
             operator_data["motif"] = consensus["motif_data"]
+            operator_data["aligned_seqs"] = metrics
 
     return operator_data
 
@@ -216,8 +225,10 @@ def create_operators(acc: str):
     else:
         homologs = json.loads(record.homologs)
         accessions = [i['accession'] for i in homologs]
+            
+        #TODO: DO I THOUGH?    
             # Have to chop off the ".1" at the end of accessions for SQL queries to work
-        accessions = [i[:-2] for i in accessions if i[-2:] == ".1"]
+        #accessions = [i[:-2] for i in accessions if i[-2:] == ".1"]
 
 
         # Pull out regulators associated with the alignment
@@ -229,25 +240,41 @@ def create_operators(acc: str):
     assoc_list = [s.query(Association).filter_by(regulator_id=reg.id).first() for reg in regulators]
         # Filter out empty association records
     assoc_list = [assoc for assoc in assoc_list if assoc != None]
-
+        # Pull out all regulated sequences
     regulated_seqs = [assoc.regulated_seq for assoc in assoc_list if assoc.regulated_seq != None]
 
-
+        #create a dictionary with relevant metadata on all proteinhomologs
+    homolog_metadata = [{
+        "regulated_seq": assoc.regulated_seq,
+        "accession": s.query(Regulator).filter_by(id=assoc.regulator_id).first().prot_id,
+        "organism": s.query(Regulator).filter_by(id=assoc.regulator_id).first().organism
+    } for assoc in assoc_list]
+    for i in homolog_metadata:
+        homolog = [h for h in homologs if h["accession"] == i["accession"]]
+        if len(homolog) != 0:
+            i["identity"] = homolog[0]["identity"]
+            i["coverage"] = homolog[0]["coverage"]
+    
+        # Remove homologs that don't have a regulated seqeunce associated with them
+    homolog_metadata = [h for h in homolog_metadata if h["regulated_seq"] != None]
+    
     
     has_operator = regulators[0].operator_id
 
     if has_operator == None:
 
-        operator_data = fetch_operator_data(regulated_seqs, acc)
-
+        operator_data = fetch_operator_data(homolog_metadata, acc)
+        
             # Create a new operon record
         new_operator = (
             insert(Operator).values(
             motif= json.dumps(operator_data["motif"]),
             number_seqs= operator_data["num_seqs"],
-            consensus_score= operator_data["consensus_score"]
+            consensus_score= operator_data["consensus_score"],
+            aligned_seqs= json.dumps(operator_data["aligned_seqs"])
                     )
             )
+
         conn.execute(new_operator)
 
         operator = s.query(Operator).filter_by(motif=json.dumps(operator_data["motif"])).first()
@@ -262,6 +289,9 @@ def create_operators(acc: str):
             conn.execute(link_reg_to_operator)
 
         print('SUCCESS: Added an operator entry for '+str(operator_data["accession"]))
+        
+        conn.close()
 
     else:
-        print("An operator already exists for "+str(regulators[0].prot_id))
+        print("NOTE: An operator already exists for "+str(regulators[0].prot_id))
+        conn.close()

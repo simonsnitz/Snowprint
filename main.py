@@ -9,24 +9,37 @@ from display.quick_operator_analysis import operator_analysis
 
 
 tetr = "WP_000113282.1"
-lmrr = "WP_011834386.1"
 lplr = "WP_019744253"
+
+lmrr = "WP_011834386.1"
 ebrr = "WP_003976902"
-acc = ebrr
+mexr = "WP_003114897.1"
+ladr = "WP_003721913.1"
+vcer = "WP_001264144.1"
+mtrr = "WP_003693763.1"
+acrr = "WP_000101737"
+mepr = "WP_000397416.1"
+mdtr = "WP_003242592.1" # Took way too long ... 
+mexz = "WP_003088626.1"
+aden = "AGV28567.1"
+nfxb = "WP_033999467.1"
+
+acc = nfxb
+#accs = [vcer, mtrr, acrr, mepr, mdtr, mexz]
+
+# TODO: 2/8/2022
+# Edit Create_Operons to check if operon info already exists in DB
 
 
-# TODO: 1/31/2022
-# Add Update_Associations script
-# Add Create_Operators script
-
-
+# for acc in accs:
 #create_alignment(acc)
 #create_regulators(acc)
 #create_operons(acc)
 #update_associations(acc)
-#create_operators(acc)
+create_operators(acc)
 
-operator_analysis(acc)
+
+#operator_analysis(acc)
 
 
 

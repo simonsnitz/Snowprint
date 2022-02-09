@@ -61,6 +61,23 @@ def operator_analysis(acc: str):
 
         # Display the operator motif
     print("Operator motif: \n"+str(operator.motif))
+    print("Consensus score: \n"+str(operator.consensus_score))
+    print("number of aligned sequences: \n"+str(operator.number_seqs))
 
     consensus = "".join(i["base"] for i in json.loads(operator.motif))
     print("Consensus motif: "+str(consensus))
+
+
+if __name__ == "__main__":
+    lmrr = "WP_011834386.1"
+    ebrr = "WP_003976902"
+    mexr = "WP_003114897.1"
+    ladr = "WP_003721913.1"
+    vcer = "WP_001264144.1"
+    mtrr = "WP_003693763.1"
+    acrr = "WP_000101737"
+    mepr = "WP_000397416.1"
+    mdtr = "WP_003242592.1"
+    mexz = "WP_003088626.1"
+
+    operator_analysis(lmrr)

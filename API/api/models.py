@@ -101,7 +101,7 @@ class Operator(db.Model):
     motif = db.Column(db.Text(4096))
 
         # All sequences JSON. [ {"prot_id": str, "aligned_seq": str}, {...}, ...]
-    aligned_seqs = db.Column(db.Text(4096))
+    aligned_seqs = db.Column(db.Text(262144))
 
     regulators = db.relationship("Regulator", foreign_keys="Regulator.operator", backref='operator', lazy='dynamic')
 

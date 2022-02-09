@@ -27,7 +27,7 @@ def batch_NC2genome(genome_acc_list: list):
     # added sleep for 1/4 sec because I was getting 429 HTML errors that returned "efetch query unsuccessful..."
     # time.sleep(0.25) 
     
-    print('Fetching genomes ...\n')
+    print('NOTE: eFetching genomes ...\n')
     genome_accs = "".join(i+"," for i in genome_acc_list)[:-1]
     response = requests.get('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id='+genome_accs+'&rettype=fasta_cds_aa')
 
@@ -113,8 +113,10 @@ def fetch_operon_data(acc: str):
     else:
         homologs = json.loads(record.homologs)
         accessions = [i['accession'] for i in homologs]
+            
+        #TODO: DO I THOUGH?    
             # Have to chop off the ".1" at the end of accessions for SQL queries to work
-        accessions = [i[:-2] for i in accessions if i[-2:] == ".1"]
+        #accessions = [i[:-2] for i in accessions if i[-2:] == ".1"]
 
 
         regulators = [session.query(Regulator).filter_by(prot_id=acc).first() for acc in accessions]
@@ -147,7 +149,7 @@ def fetch_operon_data(acc: str):
                 operon_data.append(data)
 
             else:
-                print('data fetching failed')
+                print('FATAL: Genome eFetching failed')
         
         conn.close()
 
