@@ -51,9 +51,6 @@ def batch_acc2MetaData(prot_acc_list: list):
             except:
                 pos = prot_acc_list[len(metadata)]
                 print("WARNING: No data for "+str(pos))
-                    # 'U00096.3' is used as a placeholder to avoid a downstream error
-                    # this is jank, but shouldn't bias the result (interoperon won't align)
-                # data = {'protein_acc':'None','genome_acc':'U00096.3', 'start':'None', 'stop':'None', 'strand':'None'}
 
         return metadata
 
@@ -102,10 +99,6 @@ def create_regulators(acc: str):
         for reg in reg_metadata:
             
             prot_acc = reg["protein_acc"]
-                # BLAST returns accession without the 'dot'. SOMETIMES?.
-                # Remove it from Regulator for accessibility?
-                        #if prot_acc[-2:] == ".1":
-                        #    prot_acc = prot_acc[:-2]
             genome_acc = reg["genome_acc"]
             organism = reg["organism"]
             organism_id = reg["org_id"]
@@ -134,7 +127,6 @@ def create_regulators(acc: str):
                 print('UPDATE: Added a regulator entry for '+str(prot_acc))
 
             else:
-                print('NOTE: Regulator DB entry already exists for '+str(prot_acc))
-
+                continue
 
     conn.close()

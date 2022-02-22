@@ -11,9 +11,13 @@ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KH
 
 def operon2Intergenic(operon, regIndex, genome_id):
 
+
     if operon[regIndex]["direction"] == "+":
-        queryGenes = reversed(operon[0:regIndex])
+        queryGenes = list(reversed(operon[0:regIndex]))
         index = regIndex
+        if len(queryGenes) == 0:
+            print("WARNING: Tiny operon with too few genes. This entry will be omitted.")
+            return
         for i in queryGenes:
             if i["direction"] == "-":
                 startPos = i["stop"]
@@ -40,6 +44,9 @@ def operon2Intergenic(operon, regIndex, genome_id):
     elif operon[regIndex]["direction"] == "-":
         queryGenes = operon[regIndex+1:]
         index = regIndex
+        if len(queryGenes) == 0:
+            print("WARNING: Tiny operon with too few genes. This entry will be omitted.")
+            return
         for i in queryGenes:
             if i["direction"] == "+":
                 stopPos = i["start"]
@@ -114,8 +121,6 @@ def update_associations(acc: str):
     else:
         homologs = json.loads(record.homologs)
         accessions = [i['accession'] for i in homologs]
-            # Have to chop off the ".1" at the end of accessions for SQL queries to work
-        accessions = [i[:-2] for i in accessions if i[-2:] == ".1"]
 
 
         # Pull out regulators associated with the alignment

@@ -1,8 +1,8 @@
-"""empty message
+"""initialized databse
 
-Revision ID: c1f0bab1178f
+Revision ID: 2c0bd363fc65
 Revises: 
-Create Date: 2022-02-03 11:21:13.069391
+Create Date: 2022-02-22 09:52:07.618871
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'c1f0bab1178f'
+revision = '2c0bd363fc65'
 down_revision = None
 branch_labels = None
 depends_on = None
@@ -35,7 +35,7 @@ def upgrade():
     sa.Column('consensus_score', sa.Float(precision=128), nullable=True),
     sa.Column('validated', sa.Boolean(), nullable=True),
     sa.Column('motif', sa.Text(length=4096), nullable=True),
-    sa.Column('aligned_seqs', sa.Text(length=4096), nullable=True),
+    sa.Column('aligned_seqs', sa.Text(length=262144), nullable=True),
     sa.PrimaryKeyConstraint('id', name=op.f('pk_operator')),
     sa.UniqueConstraint('id'),
     sa.UniqueConstraint('id', name=op.f('uq_operator_id'))

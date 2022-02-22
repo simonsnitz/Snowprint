@@ -6,7 +6,7 @@ from src.Create_Operators import create_operators
 
 from display.quick_operator_analysis import operator_analysis
 
-
+import time
 
 tetr = "WP_000113282.1"
 lplr = "WP_019744253"
@@ -23,25 +23,31 @@ mdtr = "WP_003242592.1" # Took way too long ...
 mexz = "WP_003088626.1"
 aden = "AGV28567.1"
 nfxb = "WP_033999467.1"
+sco4008 = "WP_011029378.1"
+rv3066 = "WP_003416005.1"
 
-acc = nfxb
-#accs = [vcer, mtrr, acrr, mepr, mdtr, mexz]
+rifQ = "WP_013222564.1"
+rifQ2 = "WP_043781837.1"
+
+acc = mexr
 
 # TODO: 2/8/2022
-# Edit Create_Operons to check if operon info already exists in DB
+# 
 
+startTime = time.time()
 
 # for acc in accs:
-#create_alignment(acc)
-#create_regulators(acc)
-#create_operons(acc)
-#update_associations(acc)
+create_alignment(acc)
+create_regulators(acc)
+create_operons(acc)
+update_associations(acc)
 create_operators(acc)
 
+operator_analysis(acc)
 
-#operator_analysis(acc)
+endTime = time.time()
 
-
+print("total processing time: "+str(endTime-startTime)+" seconds")
 
 
 """

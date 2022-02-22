@@ -35,8 +35,6 @@ def operator_analysis(acc: str):
     else:
         homologs = json.loads(record.homologs)
         accessions = [i['accession'] for i in homologs]
-            # Have to chop off the ".1" at the end of accessions for SQL queries to work
-        accessions = [i[:-2] for i in accessions if i[-2:] == ".1"]
 
 
         # Pull out regulators associated with the alignment
@@ -49,6 +47,7 @@ def operator_analysis(acc: str):
     assoc_list = [s.query(Association).filter_by(regulator_id=reg.id).first() for reg in regulators]
         # Filter out empty association records
     assoc_list = [assoc for assoc in assoc_list if assoc != None]
+
 
         # Pull the operator object
     operator_id = regulators[0].operator_id

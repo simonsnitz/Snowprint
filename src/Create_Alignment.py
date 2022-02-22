@@ -13,14 +13,27 @@ from pathlib import Path
 
 headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36'} 
 
+
+
+
     # Cache locations:
 cache = Path("./cache")
 blast_tmp = cache / "blast_results.xml"
 alignment_tmp = cache / "alignment.json"
+
+
+
+
+    # Define which BLAST database to use here.
 blast_db = "nr"
 #blast_db = "blast/Uniprot/TetR/TetRs"
+
 num_aligns = 100
 pident_cutoff = 50.0
+
+
+
+
 
     # Input protein accession ID, output sequence in fasta format
 def accID2sequence(accID: str):
@@ -30,6 +43,10 @@ def accID2sequence(accID: str):
         return response.text
     else:
         print("FATAL: Bad eFetch request "+ str(response.status_code))
+        return None
+
+
+
 
 
     # Input protein sequence. Output cached blast results
@@ -39,23 +56,29 @@ def blast(acc: str, num_aligns=num_aligns):
 
     seq = accID2sequence(acc)
 
-    blast_cline = NcbiblastpCommandline(db=blast_db, outfmt="6 sseqid pident qcovs", \
-        num_alignments=num_aligns, remote=True)
+    if seq != None:
+            # Must have BLAST+ executables in PATH to run this
+        blast_cline = NcbiblastpCommandline(db=blast_db, outfmt="6 sseqid pident qcovs", \
+            num_alignments=num_aligns, remote=True)
 
-    results, err = blast_cline(stdin=seq)
+        results, err = blast_cline(stdin=seq)
 
-    results = results.split("\n")[:-1]
-    
-    homologs = [{"accession": r.split("|")[1], \
-            "identity": r.split("|")[2].split("\t")[1], \
-            "coverage": r.split("|")[2].split("\t")[2].strip()} \
-             for r in results ]
+        results = results.split("\n")[:-1]
+        
+        homologs = [{"accession": r.split("|")[1], \
+                "identity": r.split("|")[2].split("\t")[1], \
+                "coverage": r.split("|")[2].split("\t")[2].strip()} \
+                for r in results ]
 
-        # filter out homologs that don't meet the percent identity cutoff
-    homologs = [h for h in homologs if float(h["identity"]) >= pident_cutoff]
+            # filter out homologs that don't meet the percent identity cutoff
+        homologs = [h for h in homologs if float(h["identity"]) >= pident_cutoff]
 
-    alignment = json.dumps(homologs, indent=4)
-    return alignment
+        alignment = json.dumps(homologs, indent=4)
+        return alignment
+
+    else:
+        return None
+
 
 
 
@@ -81,18 +104,23 @@ def create_alignment(acc: str):
 
     if record == None:    
         print('NOTE: Alignment not found for '+str(acc))
+
             # Fetch sequence, blast it, and create alignment data
         alignment = blast(acc)
-            # Create a new record with accession ID and alignment data
-        new_row = (
-            insert(Alignment).values(
-                query_id=acc,
-                homologs = alignment
-                )
-        )
-            # Add the new record and commit it to the DB
-        conn.execute(new_row)
-        print('UPDATE: Added an alignment for '+str(acc)+' to the DB')
+
+        if alignment != None:
+                # Create a new record with accession ID and alignment data
+            new_row = (
+                insert(Alignment).values(
+                    query_id=acc,
+                    homologs = alignment
+                    )
+            )
+                # Add the new record and commit it to the DB
+            conn.execute(new_row)
+            print('UPDATE: Added an alignment for '+str(acc)+' to the DB')
+        else:
+            print("FATAL: No BLAST result was returned")
 
     else:
         print('NOTE: DB alignment already exists for '+str(acc))
