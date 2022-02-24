@@ -34,21 +34,74 @@ acc = mexr
 # TODO: 2/8/2022
 # 
 
-startTime = time.time()
+def predict_operator(acc):
 
-# for acc in accs:
-create_alignment(acc)
-create_regulators(acc)
-create_operons(acc)
-update_associations(acc)
-create_operators(acc)
+    startTime = time.time()
+    create_alignment(acc)
+    create_regulators(acc)
+    create_operons(acc)
+    update_associations(acc)
+    create_operators(acc)
 
-operator_analysis(acc)
+    #operator_analysis(acc)
+    endTime = time.time()
 
-endTime = time.time()
+    print("total processing time: "+str(endTime-startTime)+" seconds")
 
-print("total processing time: "+str(endTime-startTime)+" seconds")
 
+generalists = [
+    "WP_013959818.1",
+    "WP_083985583.1",
+    "AMY71450",
+    "WP_186291495.1",
+    "WP_088875094.1",
+    "WP_094082813.1",
+    "WP_014469484.1",
+    "WP_182273869.1",
+    "WP_007157064.1",
+    "WP_005824973.1",
+    "WP_005025228.1",
+    "WP_008787650.1",
+    "WP_002144350.1",
+    "WP_020881729.1",
+    "WP_127566094.1",
+    "HCY59852",
+    "WP_056942064.1",
+    "WP_058255363.1",
+    "WP_058454221.1",
+    "WP_059062301.1",
+    "WP_160829991.1",
+    "WP_065059692.1",
+    "OEU66612",
+    "WP_071084583.1",
+    "OJV33711",
+    "WP_088150953.1",
+    "TSJ75625",
+    "PCH78958",
+    "PCI06011",
+    "PJI41145",
+    "PMR76500",
+    "PWF24669",
+    "WP_109773820.1",
+    "WP_113958713.1",
+    "WP_126790924.1",
+    "WP_176943480.1",
+    "SEE04737",
+    "SEN57219",
+    "WP_218139940.1",
+    "SMC09139",
+    "WP_089262033.1"
+]
+
+
+
+#for g in generalists:
+#    print(g)
+#    operator_analysis(g)
+    #predict_operator(g)
+
+print("WP_094082813.1")
+print(operator_analysis("WP_094082813.1"))
 
 """
 ERRORS TO ADDRESS:
@@ -60,38 +113,12 @@ ERRORS TO ADDRESS:
 """
 
     # Cache file locations:
-# BLAST: 'cache/blast_cache/{acc}.xml'
-# Metadata: 'cache/homolog_metadata/{acc}.pkl'
-# Updated Metadata: 'cache//homolog_metadata/updated_metadata/{acc}.pkl'
-# Operator data: 'cache/operator_data/{acc}.pkl'
-# HTML pages: 'cache/HTML/{date}.html
+# BLAST: 'cache/blast_results.xml'
+# Genomes: 'cache/genomes.pkl'
+# Genomes: 'cache/genomes.txt'
+# Metadata: 'cache/regulator_metadata.xml'
 
 
-
-
-'''
-    # Takes a regulator accession ID and outputs a dictionary with predicted operator data
-def acc2operator_data(acc, max_seqs):
-
-    acc2homolog_list(acc, max_seqs)
-    appendIntergenic_batch(acc)
-    operator_data = appendOperatorMetadata(acc, to_align, perc_ident)
-    return operator_data
-
-    # Create operator object for each input regulator
-operators = [acc2operator_data(reg, max_seqs) for reg in regulators]
-
-
-    # Get operon object from cache
-with open(f'cache/homolog_metadata/updated_metadata/{acc}.pkl', mode="rb") as f:
-    operons = [i for i in pickle.load(f)]
-operon = operons[0]
-operon["organism"] = "placeholder"
-operon = [operon]
-
-print(operon)
-print(operators)
-'''
 
 
 

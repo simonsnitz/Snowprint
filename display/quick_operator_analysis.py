@@ -55,16 +55,19 @@ def operator_analysis(acc: str):
 
 
         # Display the regulated seq for the target regulator
-    print("Regulated sequence: \n"+str(assoc_list[0].regulated_seq))
+    #print("Regulated sequence: \n"+str(assoc_list[0].regulated_seq))
 
 
         # Display the operator motif
-    print("Operator motif: \n"+str(operator.motif))
+    #print("Operator motif: \n"+str(operator.motif))
     print("Consensus score: \n"+str(operator.consensus_score))
     print("number of aligned sequences: \n"+str(operator.number_seqs))
 
     consensus = "".join(i["base"] for i in json.loads(operator.motif))
     print("Consensus motif: "+str(consensus))
+
+    WT_operator = str(json.loads(operator.aligned_seqs)[0])
+    print("WT operator: "+WT_operator)
 
 
 if __name__ == "__main__":

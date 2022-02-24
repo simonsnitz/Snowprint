@@ -103,7 +103,7 @@ class Operator(db.Model):
         # All sequences JSON. [ {"prot_id": str, "aligned_seq": str}, {...}, ...]
     aligned_seqs = db.Column(db.Text(262144))
 
-    regulators = db.relationship("Regulator", foreign_keys="Regulator.operator", backref='operator', lazy='dynamic')
+    regulator = db.relationship("Regulator", back_populates='operator', lazy='dynamic')
 
 
     def __repr__(self):
