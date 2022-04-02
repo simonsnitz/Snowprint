@@ -38,4 +38,6 @@ $ python main.py
 This is a tool used by [The Biosensor Database](https://gbiosensors.com).
 
 ## License
+
 Work in the `src` directory is licensed under the MIT License, found in the LICENSE.txt file
+
