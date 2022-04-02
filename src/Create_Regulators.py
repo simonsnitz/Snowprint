@@ -12,8 +12,8 @@ from sqlalchemy.orm import sessionmaker
 headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36'} 
 
     # file locations:
-p = Path("./cache")
-metadata_tmp = p / "regulator_metadata.xml"
+tmp = Path("./cache/tmp")
+metadata_tmp = tmp / "regulator_metadata.xml"
 
 
     # efetch with a list of IDs

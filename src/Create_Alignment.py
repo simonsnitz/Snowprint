@@ -9,17 +9,8 @@ from Bio.Blast.Applications import NcbiblastpCommandline
 import requests
 import json
 import time
-from pathlib import Path
 
 headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36'} 
-
-
-
-
-    # Cache locations:
-cache = Path("./cache")
-blast_tmp = cache / "blast_results.xml"
-alignment_tmp = cache / "alignment.json"
 
 
 
@@ -30,7 +21,6 @@ blast_db = "nr"
 
 num_aligns = 100
 pident_cutoff = 50.0
-
 
 
 
