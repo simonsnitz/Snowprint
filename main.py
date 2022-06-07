@@ -28,7 +28,7 @@ def predict_operator(acc):
 
 
     # Open regulator ID file and predict operators for each
-with open("cache/reg_ids/reg_ids.txt", "r") as f:
+with open("cache/ids/reg_ids.txt", "r") as f:
     regs = [r.strip() for r in f.readlines() if r[0] != ">"]
 
 for r in regs:
