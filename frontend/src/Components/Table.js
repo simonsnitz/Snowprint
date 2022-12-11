@@ -1,13 +1,17 @@
 import { useState, useEffect } from 'react';
 import { Box } from "@mui/material";
 import { DataGrid } from '@mui/x-data-grid';
-import Logo from './Logo';
+import { Link, Routes, Route } from 'react-router-dom';
+
+import PleaseSelect from './PleaseSelect.js';
+import Sensor from './Sensor.js';
 
 
 export default function Table() {
 
 const [data, setData] = useState([]);
 const [rows, setRows] = useState([]);
+const [sensorRouteList, setSensorRouteList] = useState(null);
 
 //const [protein, setProtein] = useState([]);
 
@@ -29,29 +33,46 @@ useEffect(()=>{
     
 }, [])
 
-useEffect(()=>{
+useEffect(() => {
 
     const rowsToAdd = [];
+    const sensorRouteList = [];
 
     if (typeof data !== 'undefined') {
         let counter = 0;
         for (var entry in data) {
-            var entry = {
+            var protein = {
                 id: counter,
                 accession: data[entry].accession,
                 score: data[entry].score,
                 sequencesAligned: data[entry].sequencesAligned,
                 organism: data[entry].organism
             };
-            rowsToAdd.push(entry);
+            rowsToAdd.push(protein);
         
-            // Add code here to add Routes
+           
+            sensorRouteList.push(
+                <Route
+                  key={counter}
+                  path={data[entry].accession}
+                  element={
+                    <Sensor
+                        accession = {data[entry].accession} 
+                        score = {data[entry].score}
+                        sequencesAligned = {data[entry].sequencesAligned} 
+                        organism = {data[entry].organism}
+                    />
+                  }
+                />
+              );
+
 
         counter += 1;
     }
 
 
         setRows(rowsToAdd);
+        setSensorRouteList(sensorRouteList);
     }
   },[data])
 
@@ -65,7 +86,12 @@ const columns = [
     { 
         field: 'accession', 
         headerName: 'Accession', 
-        width: 200 },
+        width: 200,
+        renderCell: (params) => (
+            <Link to={params.value} >
+                {params.value}
+            </Link>
+        ) },
     {
         field: 'score',
         headerName: 'Score',
@@ -82,10 +108,6 @@ const columns = [
         headerName: 'Organism', 
         width: 200 },
   ];
-
-// const rows = [
-//     { id: 1, accession: data.accession, score: data.score, sequencesAligned: data.sequencesAligned, organism: data.organism }
-// ];
 
 
 
@@ -105,9 +127,10 @@ const columns = [
                     autoPageSize
             />
 
-            <Logo
-                data="PROTEIN"
-            />
+        <Routes>
+            <Route path="/" element={<PleaseSelect/>} />
+            {sensorRouteList}
+        </Routes>
 
         </Box>
 
