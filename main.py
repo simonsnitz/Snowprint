@@ -8,8 +8,6 @@ from display.quick_operator_analysis import operator_analysis
 import time
 
 
-
-
 def predict_operator(acc):
 
     startTime = time.time()
@@ -25,13 +23,20 @@ def predict_operator(acc):
     print("total processing time: "+str(endTime-startTime)+" seconds")
 
 
+r = "WP_010985616.1"
+print(r)
+predict_operator(r)
+
+    #TODO: Edit this function to update a JSON file, which stores all summary statistics.
+operator_analysis(r)
 
 
-    # Open regulator ID file and predict operators for each
-with open("cache/ids/reg_ids.txt", "r") as f:
-    regs = [r.strip() for r in f.readlines() if r[0] != ">"]
 
-for r in regs:
-    print(r)
-    predict_operator(r)
-    operator_analysis(r)
+#     # Open regulator ID file and predict operators for each
+# with open("cache/ids/reg_ids.txt", "r") as f:
+#     regs = [r.strip() for r in f.readlines() if r[0] != ">"]
+
+# for r in regs:
+#     print(r)
+#     predict_operator(r)
+#     operator_analysis(r)

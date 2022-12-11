@@ -1,0 +1,15 @@
+[
+    {
+        "accession": "WP_537237",
+        "score": 50,
+        "sequencesAligned": 50,
+        "organism": "Escherichia coli"
+    },
+    {
+        "accession": "WP_53457349857",
+        "score": 9000,
+        "sequencesAligned": 9000,
+        "organism": "Escherichia shmoli"
+    }
+
+]
