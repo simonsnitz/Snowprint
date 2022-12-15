@@ -1,6 +1,7 @@
 import json
 from sqlalchemy import create_engine, MetaData
 from sqlalchemy.orm import sessionmaker
+import os
 
 
 def operator_analysis(acc: str):
@@ -60,14 +61,51 @@ def operator_analysis(acc: str):
 
         # Display the operator motif
     #print("Operator motif: \n"+str(operator.motif))
-    print("Consensus score: \n"+str(operator.consensus_score))
-    print("number of aligned sequences: \n"+str(operator.number_seqs))
+    #print("Consensus score: \n"+str(operator.consensus_score))
+    #print("number of aligned sequences: \n"+str(operator.number_seqs))
 
-    consensus = "".join(i["base"] for i in json.loads(operator.motif))
-    print("Consensus motif: "+str(consensus))
+    #consensus = "".join(i["base"] for i in json.loads(operator.motif))
+    #print("Consensus motif: "+str(consensus))
 
-    WT_operator = str(json.loads(operator.aligned_seqs)[0])
-    print("WT operator: "+WT_operator)
+    #WT_operator = str(json.loads(operator.aligned_seqs)[0])
+    #print("WT operator: "+WT_operator)
+    all_seqs = json.loads(operator.aligned_seqs)
+    
+    entry = {
+            "accession": str(acc), 
+            "score": operator.consensus_score,
+            "sequencesAligned": operator.number_seqs,
+            "organism": "Escherichia coli",
+            "data": all_seqs
+            }
+
+    # function to add to JSON
+    def write_json(new_data, filename="./frontend/public/data.json"):
+        # If data.json doesn't already exist, create it.
+        if not os.path.exists(filename):
+            print('no existing file')
+            with open(filename, 'w+') as file:
+                file.write("[]")
+        with open(filename,'r+') as file:
+            # First we load existing data into a dict.
+            file_data = json.load(file)
+            # See if entry already exists
+            acc = entry["accession"]
+            all_accs = [i["accession"] for i in file_data]
+            if acc in all_accs:
+                print("Entry already exists in data.json")
+                return
+            else:
+                # Join new_data with file_data inside emp_details
+                file_data.append(new_data)
+                # Sets file's current position at offset.
+                file.seek(0)
+                # convert back to json.
+                json.dump(file_data, file, indent = 4)
+                print("Appended new entry to data.json")
+    
+    write_json(entry)
+
 
 
 if __name__ == "__main__":

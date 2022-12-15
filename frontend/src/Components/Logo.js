@@ -15,9 +15,10 @@ export default function Logo() {
   return (
     <Box>
       <Grid container spacing={4} columns={12} justifyContent="center">
-        <Grid item xs={10} mb={6}>
+        <Grid item xs={6} mb={6}>
 
-            <DNALogo ppm={CTCF_PPM} />
+            <DNALogo ppm={CTCF_PPM} 
+                height="200px"/>
 
         </Grid>
       </Grid>
