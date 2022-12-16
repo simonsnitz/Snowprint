@@ -11,7 +11,28 @@ const CTCF_PPM = [
     [0.44, 0.19, 0.29, 0.06]
   ];
 
-export default function Logo() {
+export default function Logo(props) {
+  
+
+  // Collect all operators. Assert same length and only ATCG characters
+  const operators = [];
+  const op_length = props.data[0]["predicted_operator"].length;
+
+  for (const entry of props.data) {
+    var op = entry["predicted_operator"].toUpperCase();
+    if (op.length === op_length && op.match(/^[ATCG]*$/)){
+      operators.push(op);
+      }
+    }
+  
+  console.log(operators);
+
+
+
+
+
+
+
   return (
     <Box>
       <Grid container spacing={4} columns={12} justifyContent="center">

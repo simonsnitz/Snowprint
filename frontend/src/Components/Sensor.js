@@ -23,7 +23,9 @@ export default function Sensor(props) {
 
                 {/* Logo */}
                 <Grid item xs={12}>
-                    <Logo/>
+                    <Logo 
+                        data = {props.data}
+                        />
                 </Grid>
 
             </Grid>
