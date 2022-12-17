@@ -1,0 +1,659 @@
+[
+    {
+        "accession": "AAY86547.1",
+        "score": 93.232,
+        "sequencesAligned": 81,
+        "organism": "Pseudomonas fluorescens",
+        "intergenic": "TAATTCAAAATCTCCAATATGGCGCTTGACAAAAGAGACTCAGGGTATAGGATTCTCTCGAAAAGCAATGAAACGGATCGTTTCGTTTTGTATGTTTATTTGATCTCAGCTTCTGCTTAGCAGCGGGCCTCTGGAGCGCTTATTGCCTCTATGTAGGGAAATCGGAGAAGGAAAGTCATAAAATTTTAACGCAACCTTAACGATACGGCACGTTTCGTATCATACATAACAATTGTACAAGAATAAACCCATTGTTCACATGCTGACCGGTAGGTTCCGCCTTGTGAACCTGCCTATTTACGGGCATAGGAGCGCCAGTATCACTTTGCGGGCACCAATAGATAGTTTCTAAATATTTCATGCGCTTGTCACGGCCCCCGGCCAACAGGTGAAAGAACGGAATCTGGAGGATGTACACA",
+        "data": [
+            {
+                "predicted_operator": "gcaatGAAACGGATCGTTTCgtttt",
+                "align_score": 22.5,
+                "identity": "100.000",
+                "coverage": "100",
+                "accession": "WP_109753234.1",
+                "organism": "Pseudomonas fluorescens"
+            },
+            {
+                "predicted_operator": "gcaatGAAACGGATCGTTTCgtttt",
+                "align_score": 22.5,
+                "identity": "100.000",
+                "coverage": "99",
+                "accession": "WP_212801077.1",
+                "organism": "Pseudomonas sp. St290"
+            },
+            {
+                "predicted_operator": "aaaacGAAACGATCCGTTTCattgc",
+                "align_score": 22.5,
+                "identity": "98.558",
+                "coverage": "100",
+                "accession": "WP_058542729.1",
+                "organism": "Pseudomonas brassicacearum"
+            },
+            {
+                "predicted_operator": "aaaacGAAACGATCCGTTTCattgc",
+                "align_score": 22.5,
+                "identity": "98.558",
+                "coverage": "100",
+                "accession": "WP_003200754.1",
+                "organism": "Pseudomonas sp. St386"
+            },
+            {
+                "predicted_operator": "gcaatGAAACGGATCGTTTCgtttt",
+                "align_score": 22.5,
+                "identity": "98.077",
+                "coverage": "100",
+                "accession": "WP_175360591.1",
+                "organism": "Pseudomonas brassicacearum"
+            },
+            {
+                "predicted_operator": "gcaatGAAACGGATCGTTTCgtttt",
+                "align_score": 22.5,
+                "identity": "98.077",
+                "coverage": "100",
+                "accession": "WP_063321691.1",
+                "organism": "Pseudomonas fluorescens"
+            },
+            {
+                "predicted_operator": "aaaacGAAACGATCCGTTTCattgc",
+                "align_score": 22.5,
+                "identity": "98.077",
+                "coverage": "100",
+                "accession": "WP_230147257.1",
+                "organism": "Pseudomonas brassicacearum"
+            },
+            {
+                "predicted_operator": "gcaatGAAACGGATCGTTTCgtttt",
+                "align_score": 22.5,
+                "identity": "98.558",
+                "coverage": "100",
+                "accession": "WP_212796342.1",
+                "organism": "Pseudomonas sp. St316"
+            },
+            {
+                "predicted_operator": "aaaacGAAACGATCCGTTTCattgc",
+                "align_score": 22.5,
+                "identity": "98.077",
+                "coverage": "100",
+                "accession": "WP_013693034.1",
+                "organism": "Pseudomonas brassicacearum subsp. brassicacearum NFM421"
+            },
+            {
+                "predicted_operator": "aaaacGAAACGATCCGTTTCattgc",
+                "align_score": 22.5,
+                "identity": "98.077",
+                "coverage": "100",
+                "accession": "WP_057447985.1",
+                "organism": "Pseudomonas sp. Root401"
+            },
+            {
+                "predicted_operator": "gcaatGAAACGGATCGTTTCgtttt",
+                "align_score": 22.5,
+                "identity": "98.558",
+                "coverage": "100",
+                "accession": "WP_053121965.1",
+                "organism": "Pseudomonas thivervalensis"
+            },
+            {
+                "predicted_operator": "aaaacGAAACGATCCGTTTCattgc",
+                "align_score": 22.5,
+                "identity": "98.077",
+                "coverage": "100",
+                "accession": "WP_100264156.1",
+                "organism": "Pseudomonas brassicacearum"
+            },
+            {
+                "predicted_operator": "gcaatGAAACGGATCGTTTCgtttt",
+                "align_score": 22.5,
+                "identity": "97.596",
+                "coverage": "100",
+                "accession": "WP_092412060.1",
+                "organism": "Pseudomonas sp. NFACC07-1"
+            },
+            {
+                "predicted_operator": "aaaacGAAACGATCCGTTTCattgc",
+                "align_score": 22.5,
+                "identity": "97.596",
+                "coverage": "100",
+                "accession": "WP_018600489.1",
+                "organism": "Pseudomonas sp. CFII68"
+            },
+            {
+                "predicted_operator": "aaaacGAAACGATCCGTTTCattgc",
+                "align_score": 22.5,
+                "identity": "98.077",
+                "coverage": "100",
+                "accession": "WP_041475886.1",
+                "organism": "Pseudomonas ogarae"
+            },
+            {
+                "predicted_operator": "aaaacGAAACGATCCGTTTCattgc",
+                "align_score": 22.5,
+                "identity": "98.068",
+                "coverage": "99",
+                "accession": "WP_024618315.1",
+                "organism": "Pseudomonas kilonensis"
+            },
+            {
+                "predicted_operator": "aaaacGAAACGATCCGTTTCattgc",
+                "align_score": 22.5,
+                "identity": "97.115",
+                "coverage": "100",
+                "accession": "WP_053187541.1",
+                "organism": "Pseudomonas kilonensis"
+            },
+            {
+                "predicted_operator": "gcaatGAAACGGATCGTTTCgtttt",
+                "align_score": 22.5,
+                "identity": "98.020",
+                "coverage": "97",
+                "accession": "WP_042728416.1",
+                "organism": "Pseudomonas sp. Cab53"
+            },
+            {
+                "predicted_operator": "aaaacGAAACGATCCGTTTCattgc",
+                "align_score": 22.5,
+                "identity": "99.005",
+                "coverage": "96",
+                "accession": "WP_003180738.1",
+                "organism": "Pseudomonas fluorescens Q2-87"
+            },
+            {
+                "predicted_operator": "aaaacGAAACGATCCGTTTCattgc",
+                "align_score": 22.5,
+                "identity": "97.525",
+                "coverage": "97",
+                "accession": "WP_215003323.1",
+                "organism": "Pseudomonas fluorescens"
+            },
+            {
+                "predicted_operator": "gaaatGAAACGGTCCGTTTCgtttc",
+                "align_score": 22.5,
+                "identity": "85.052",
+                "coverage": "93",
+                "accession": "WP_085594333.1",
+                "organism": "Pseudomonas sp. R26(2017)"
+            },
+            {
+                "predicted_operator": "gaaatGAAACGGTCCGTTTCgtttc",
+                "align_score": 22.5,
+                "identity": "85.567",
+                "coverage": "93",
+                "accession": "WP_041120332.1",
+                "organism": "Pseudomonas protegens Cab57"
+            },
+            {
+                "predicted_operator": "gaaatGAAACGGTCCGTTTCgtttc",
+                "align_score": 22.5,
+                "identity": "85.052",
+                "coverage": "93",
+                "accession": "WP_031320677.1",
+                "organism": "Pseudomonas aestus"
+            },
+            {
+                "predicted_operator": "gaaatGAAACGGTCCGTTTCgtttc",
+                "align_score": 22.5,
+                "identity": "85.052",
+                "coverage": "93",
+                "accession": "WP_053133785.1",
+                "organism": "Pseudomonas sp. CMR5c"
+            },
+            {
+                "predicted_operator": "gaaatGAAACGGTCCGTTTCgtttc",
+                "align_score": 22.5,
+                "identity": "85.567",
+                "coverage": "93",
+                "accession": "WP_210457900.1",
+                "organism": "Pseudomonas protegens"
+            },
+            {
+                "predicted_operator": "gaaatGAAACGGTCCGTTTCgtttc",
+                "align_score": 22.5,
+                "identity": "85.052",
+                "coverage": "93",
+                "accession": "WP_011064126.1",
+                "organism": "Pseudomonas protegens Pf-5"
+            },
+            {
+                "predicted_operator": "gcaacGAAACGGTCCGTTTCgtttc",
+                "align_score": 22.5,
+                "identity": "84.536",
+                "coverage": "93",
+                "accession": "WP_103302446.1",
+                "organism": "Pseudomonas sp. Seg1"
+            },
+            {
+                "predicted_operator": "gaaacGAAACGGACCGTTTCattcc",
+                "align_score": 22.5,
+                "identity": "84.536",
+                "coverage": "93",
+                "accession": "MBC2654200.1",
+                "organism": "Pseudomonas sp. MSSRFD41"
+            },
+            {
+                "predicted_operator": "gaaacGAAACGGACCGTTTCatttc",
+                "align_score": 22.5,
+                "identity": "85.052",
+                "coverage": "93",
+                "accession": "AAF20928.1",
+                "organism": "Pseudomonas protegens"
+            },
+            {
+                "predicted_operator": "gaaatGAAACGGTCCGTTTCgtttc",
+                "align_score": 22.5,
+                "identity": "85.052",
+                "coverage": "93",
+                "accession": "WP_102862169.1",
+                "organism": "Pseudomonas protegens"
+            },
+            {
+                "predicted_operator": "gaaacGAAACGGACCGTTTCatttc",
+                "align_score": 22.5,
+                "identity": "83.838",
+                "coverage": "95",
+                "accession": "WP_102881225.1",
+                "organism": "Pseudomonas protegens"
+            },
+            {
+                "predicted_operator": "gaaacGAAACGGACCGTTTCatttc",
+                "align_score": 22.5,
+                "identity": "84.536",
+                "coverage": "93",
+                "accession": "MCE4055016.1",
+                "organism": "Pseudomonas sp. Au-Pse12"
+            },
+            {
+                "predicted_operator": "gaaacGAAACGGACCGTTTCatttc",
+                "align_score": 22.5,
+                "identity": "84.536",
+                "coverage": "93",
+                "accession": "WP_092308538.1",
+                "organism": "Pseudomonas saponiphila"
+            },
+            {
+                "predicted_operator": "gaaatGAAACGGTCCGTTTCgtttc",
+                "align_score": 22.5,
+                "identity": "85.052",
+                "coverage": "93",
+                "accession": "WP_103033105.1",
+                "organism": "Pseudomonas sp. Ost2"
+            },
+            {
+                "predicted_operator": "gaaatGAAACGGTCCGTTTCgtttc",
+                "align_score": 22.5,
+                "identity": "84.536",
+                "coverage": "93",
+                "accession": "WP_016966053.1",
+                "organism": "Pseudomonas sp. Os17"
+            },
+            {
+                "predicted_operator": "gaaacGATACGTACCGTATCatagc",
+                "align_score": 17.5,
+                "identity": "84.021",
+                "coverage": "93",
+                "accession": "WP_242489314.1",
+                "organism": "Pseudomonas sp. TH06"
+            },
+            {
+                "predicted_operator": "gaaatGAAACGGTCCGTTTCgtttc",
+                "align_score": 22.5,
+                "identity": "84.536",
+                "coverage": "93",
+                "accession": "WP_060844920.1",
+                "organism": "Pseudomonas sp. St29"
+            },
+            {
+                "predicted_operator": "gaaacGAAACGGACCGTTTCatatc",
+                "align_score": 22.5,
+                "identity": "84.536",
+                "coverage": "93",
+                "accession": "WP_159893676.1",
+                "organism": "Pseudomonas sp. LD120"
+            },
+            {
+                "predicted_operator": "gccggCCAACGTCTCATTTTcgcca",
+                "align_score": 14.0,
+                "identity": "84.974",
+                "coverage": "92",
+                "accession": "APA32010.1",
+                "organism": "Synthetic plasmid ptevF-PhlF"
+            },
+            {
+                "predicted_operator": "gaaacGAAACGGACCGTTTCatttc",
+                "align_score": 22.5,
+                "identity": "84.536",
+                "coverage": "93",
+                "accession": "WP_246356578.1",
+                "organism": "Pseudomonas gingeri"
+            },
+            {
+                "predicted_operator": "gaaacGAAACGGACCGTTTCatttc",
+                "align_score": 22.5,
+                "identity": "84.021",
+                "coverage": "93",
+                "accession": "WP_110774761.1",
+                "organism": "Pseudomonas sp. TKO14"
+            },
+            {
+                "predicted_operator": "gaaatGAAACGGTCCGTTTCgtttc",
+                "align_score": 22.5,
+                "identity": "84.536",
+                "coverage": "93",
+                "accession": "WP_256262428.1",
+                "organism": "Pseudomonas gingeri"
+            },
+            {
+                "predicted_operator": "gccggCCAACGTCTCATTTTcgcca",
+                "align_score": 14.0,
+                "identity": "84.974",
+                "coverage": "92",
+                "accession": "APA32032.1",
+                "organism": "Synthetic plasmid pPoly-Deg"
+            },
+            {
+                "predicted_operator": "gcccgGAAGAGAGTCAATTCatggg",
+                "align_score": 12.5,
+                "identity": "82.990",
+                "coverage": "93",
+                "accession": "AYJ72227.1",
+                "organism": "Cloning vector pAJM.847"
+            },
+            {
+                "predicted_operator": "cctatAAAAATAGGCGTATCacgag",
+                "align_score": 13.0,
+                "identity": "82.902",
+                "coverage": "92",
+                "accession": "UYS97185.1",
+                "organism": "Cloning vector pKG331-sc101*-phlF"
+            },
+            {
+                "predicted_operator": "gccggCCAACGTCTCATTTTcgcca",
+                "align_score": 14.0,
+                "identity": "84.974",
+                "coverage": "92",
+                "accession": "APA32042.1",
+                "organism": "Synthetic plasmid pPoly-Switch"
+            },
+            {
+                "predicted_operator": "gaaacGAAACGGACCGTTTCatttc",
+                "align_score": 22.5,
+                "identity": "84.066",
+                "coverage": "87",
+                "accession": "WP_246195919.1",
+                "organism": "Pseudomonas sp. FW507-14TSA"
+            },
+            {
+                "predicted_operator": "gaaatGAAACGGTCCGTTTCgtttc",
+                "align_score": 22.5,
+                "identity": "84.615",
+                "coverage": "87",
+                "accession": "WP_246883400.1",
+                "organism": "Pseudomonas protegens"
+            },
+            {
+                "predicted_operator": "gaaatGAAACGGTCCGTTTCgtttc",
+                "align_score": 22.5,
+                "identity": "84.066",
+                "coverage": "87",
+                "accession": "WP_263860777.1",
+                "organism": "Pseudomonas protegens"
+            },
+            {
+                "predicted_operator": "gaaacGAAACGGACCGTTTCatttc",
+                "align_score": 22.5,
+                "identity": "84.066",
+                "coverage": "87",
+                "accession": "WP_186355257.1",
+                "organism": "Pseudomonas protegens"
+            },
+            {
+                "predicted_operator": "gaaacGAAACGGACCGTTTCattcc",
+                "align_score": 22.5,
+                "identity": "83.516",
+                "coverage": "87",
+                "accession": "WP_260497899.1",
+                "organism": "Pseudomonas sp. MSSRFD41"
+            },
+            {
+                "predicted_operator": "gaaacGAAACGGACCGTTTCatttc",
+                "align_score": 22.5,
+                "identity": "82.796",
+                "coverage": "89",
+                "accession": "WP_222933642.1",
+                "organism": "Pseudomonas sp. WS 5414"
+            },
+            {
+                "predicted_operator": "gaaacGAAACGGACCGTTTCatttc",
+                "align_score": 22.5,
+                "identity": "82.796",
+                "coverage": "89",
+                "accession": "WP_243433642.1",
+                "organism": "Pseudomonas sp. 50_B"
+            },
+            {
+                "predicted_operator": "gaaacGAAACGGACCGTTTCatttc",
+                "align_score": 22.5,
+                "identity": "83.516",
+                "coverage": "87",
+                "accession": "WP_267924412.1",
+                "organism": "Pseudomonas sp. Au-Pse12"
+            },
+            {
+                "predicted_operator": "gaaatGAAACGGTCCGTTTCgtttc",
+                "align_score": 22.5,
+                "identity": "83.516",
+                "coverage": "87",
+                "accession": "WP_181957166.1",
+                "organism": "Pseudomonas sp. ASV14"
+            },
+            {
+                "predicted_operator": "gccggCCAACGTCTCATTTTcgcca",
+                "align_score": 14.0,
+                "identity": "84.974",
+                "coverage": "92",
+                "accession": "APA32037.1",
+                "organism": "Synthetic plasmid pPoly-Rel"
+            },
+            {
+                "predicted_operator": "tactcGAAACGGTCCGTATCgtttc",
+                "align_score": 20.0,
+                "identity": "73.196",
+                "coverage": "93",
+                "accession": "WP_031288662.1",
+                "organism": "Pseudomonas sp. Sm006"
+            },
+            {
+                "predicted_operator": "taaccGAAACGGTCCGTATCgtttc",
+                "align_score": 20.0,
+                "identity": "71.500",
+                "coverage": "96",
+                "accession": "WP_263149514.1",
+                "organism": "Pseudomonas tohonis"
+            },
+            {
+                "predicted_operator": "taaccGAAACGGTCCGTATCgtttc",
+                "align_score": 20.0,
+                "identity": "73.196",
+                "coverage": "93",
+                "accession": "WP_111263608.1",
+                "organism": "Pseudomonas tohonis"
+            },
+            {
+                "predicted_operator": "aatacGATACGGCACGTTTCgtatc",
+                "align_score": 20.0,
+                "identity": "73.196",
+                "coverage": "93",
+                "accession": "WP_236209206.1",
+                "organism": "Pseudomonas tohonis"
+            },
+            {
+                "predicted_operator": "aatacGATACGGCACGTTTCgtatc",
+                "align_score": 20.0,
+                "identity": "73.196",
+                "coverage": "93",
+                "accession": "WP_173175432.1",
+                "organism": "Pseudomonas tohonis"
+            },
+            {
+                "predicted_operator": "taaccGAAACGGTCCGTATCgtttc",
+                "align_score": 20.0,
+                "identity": "73.196",
+                "coverage": "93",
+                "accession": "WP_213624870.1",
+                "organism": "Pseudomonas sp. Pc102"
+            },
+            {
+                "predicted_operator": "aaataGATACGGTACGTTTCgtatt",
+                "align_score": 20.0,
+                "identity": "73.196",
+                "coverage": "93",
+                "accession": "WP_044402906.1",
+                "organism": "Pseudomonas otitidis"
+            },
+            {
+                "predicted_operator": "aaataGATACGGTACGTTTCgtatt",
+                "align_score": 20.0,
+                "identity": "73.196",
+                "coverage": "93",
+                "accession": "WP_268195284.1",
+                "organism": "Pseudomonas otitidis"
+            },
+            {
+                "predicted_operator": "aaataGATACGGAACGTTTCgtatt",
+                "align_score": 20.0,
+                "identity": "72.680",
+                "coverage": "93",
+                "accession": "WP_069563226.1",
+                "organism": "Pseudomonas otitidis"
+            },
+            {
+                "predicted_operator": "aaaacGAAACGATCCGTTTCattgc",
+                "align_score": 22.5,
+                "identity": "97.241",
+                "coverage": "69",
+                "accession": "ALQ03169.1",
+                "organism": "Pseudomonas brassicacearum"
+            },
+            {
+                "predicted_operator": "aaaacGAAACGATCCGTTTCattgc",
+                "align_score": 22.5,
+                "identity": "96.552",
+                "coverage": "69",
+                "accession": "AEV62470.1",
+                "organism": "Pseudomonas ogarae"
+            },
+            {
+                "predicted_operator": "aaaacGAAACGTTTCGTTTTgttga",
+                "align_score": 20.5,
+                "identity": "67.876",
+                "coverage": "92",
+                "accession": "WP_103318746.1",
+                "organism": "Chromobacterium sinusclupearum"
+            },
+            {
+                "predicted_operator": "aaaacGAAACGTTTCGTTTTttctc",
+                "align_score": 20.5,
+                "identity": "67.876",
+                "coverage": "92",
+                "accession": "WP_021476361.1",
+                "organism": "Chromobacterium vaccinii"
+            },
+            {
+                "predicted_operator": "gaaatGAAACGGTCCGTTTCgtttc",
+                "align_score": 22.5,
+                "identity": "84.416",
+                "coverage": "74",
+                "accession": "WP_017125420.1",
+                "organism": "Pseudomonas gingeri NCPPB 3146 = LMG 5327"
+            },
+            {
+                "predicted_operator": "gaaatGAAACGGTCCGTTTCgtttc",
+                "align_score": 22.5,
+                "identity": "84.211",
+                "coverage": "73",
+                "accession": "ERO62892.1",
+                "organism": "Pseudomonas aestus"
+            },
+            {
+                "predicted_operator": "aaaacGAAACGTTTCGTTTTtattt",
+                "align_score": 20.5,
+                "identity": "69.022",
+                "coverage": "88",
+                "accession": "OHX14412.1",
+                "organism": "Chromobacterium sphagni"
+            },
+            {
+                "predicted_operator": "aaaacGAAACGTTTCGTTTTtattt",
+                "align_score": 20.5,
+                "identity": "68.681",
+                "coverage": "87",
+                "accession": "WP_204378042.1",
+                "organism": "Chromobacterium sphagni"
+            },
+            {
+                "predicted_operator": "aatacGATACGGCACGTTTCgtatc",
+                "align_score": 20.0,
+                "identity": "72.189",
+                "coverage": "81",
+                "accession": "GJN45613.1",
+                "organism": "Pseudomonas tohonis"
+            },
+            {
+                "predicted_operator": "aaataGATACGGTACGTTTCgtatc",
+                "align_score": 20.0,
+                "identity": "72.189",
+                "coverage": "81",
+                "accession": "EQM66682.1",
+                "organism": "Pseudomonas alcaligenes OT 69"
+            },
+            {
+                "predicted_operator": "tgcacGAAACGGTCCGTATCgtttc",
+                "align_score": 20.0,
+                "identity": "72.189",
+                "coverage": "81",
+                "accession": "KIV73800.1",
+                "organism": "Pseudomonas sp. FeS53a"
+            },
+            {
+                "predicted_operator": "gatacGAACCGTATCGTTTCtatat",
+                "align_score": 20.0,
+                "identity": "50.794",
+                "coverage": "90",
+                "accession": "WP_158591309.1",
+                "organism": "Kalamiella piersonii"
+            },
+            {
+                "predicted_operator": "cggtgCCATCTCGCGGTTTCgctgc",
+                "align_score": 11.0,
+                "identity": "50.794",
+                "coverage": "90",
+                "accession": "RTY52554.1",
+                "organism": "Pantoea sp. YU22"
+            },
+            {
+                "predicted_operator": "gcagcGAAACCGCGAGATGGcaccg",
+                "align_score": 11.0,
+                "identity": "50.794",
+                "coverage": "90",
+                "accession": "RKJ82756.1",
+                "organism": "Kalamiella piersonii"
+            },
+            {
+                "predicted_operator": "aagggGAAACGGAACGTACCgttca",
+                "align_score": 17.5,
+                "identity": "51.163",
+                "coverage": "82",
+                "accession": "WP_211886244.1",
+                "organism": "Roseomonas hellenica"
+            },
+            {
+                "predicted_operator": "cttatGGAACGCTCCGTTCCgtcac",
+                "align_score": 17.5,
+                "identity": "51.163",
+                "coverage": "82",
+                "accession": "WP_211855835.1",
+                "organism": "Roseomonas hellenica"
+            }
+        ]
+    }
+]

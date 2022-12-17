@@ -152,7 +152,8 @@ def fetch_operator_data(homolog_metadata, acc, ext_length=5):
         "num_seqs": "None",
         "consensus_score": 0,
         "motif": "None",
-        "aligned_seqs": "None"
+        "aligned_seqs": "None",
+        "intergenic": regulated_seqs[0],
     }
     
 
@@ -270,7 +271,8 @@ def create_operators(acc: str):
             motif= json.dumps(operator_data["motif"]),
             number_seqs= operator_data["num_seqs"],
             consensus_score= operator_data["consensus_score"],
-            aligned_seqs= json.dumps(operator_data["aligned_seqs"])
+            aligned_seqs= json.dumps(operator_data["aligned_seqs"]),
+            intergenic= operator_data["intergenic"]
                     )
             )
 

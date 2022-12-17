@@ -99,6 +99,7 @@ class Operator(db.Model):
 
         # Operator motif JSON. [ {"base": str, "score": float"}, {...}, ...]
     motif = db.Column(db.Text(4096))
+    intergenic = db.Column(db.Text(8192))
 
         # All sequences JSON. [ {"prot_id": str, "aligned_seq": str}, {...}, ...]
     aligned_seqs = db.Column(db.Text(262144))
