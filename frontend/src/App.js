@@ -7,7 +7,7 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <Box 
-      sx={{backgroundColor:"#edf4ff"}}>
+      sx={{backgroundColor:"white"}}>
 
         <Welcome/>
 
