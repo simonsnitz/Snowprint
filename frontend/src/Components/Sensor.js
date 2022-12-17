@@ -1,6 +1,7 @@
 import { Box, Grid, Typography } from '@mui/material';
 
 import Logo from './Logo.js';
+import MetadataTable from './MetadataTable.js';
 
 export default function Sensor(props) {
 
@@ -21,11 +22,10 @@ export default function Sensor(props) {
                     </Typography>
                 </Grid>
 
-                {/* Logo */}
-                <Grid item xs={12}>
-                    <Logo 
-                        data = {props.data}
-                        />
+                {/* Logo & Metadata */}
+                <Grid item xs={12} mb={5}>
+                    <Logo data={props.data} />
+                    <MetadataTable data={props.data}/>
                 </Grid>
 
             </Grid>
