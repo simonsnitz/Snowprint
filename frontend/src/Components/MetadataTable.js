@@ -33,7 +33,7 @@ useEffect(() => {
     
             setRows(rowsToAdd);
         }
-      },[props])
+      },[props.data, data])
 
 
 

@@ -61,6 +61,7 @@ useEffect(() => {
                         score = {data[entry].score}
                         sequencesAligned = {data[entry].sequencesAligned} 
                         organism = {data[entry].organism}
+                        intergenic = {data[entry].intergenic}
                         data = {data[entry].data}
                     />
                   }

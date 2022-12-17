@@ -23,7 +23,8 @@ def predict_operator(acc):
     print("total processing time: "+str(endTime-startTime)+" seconds")
 
 
-r = "WP_010985616.1"
+#r = "WP_010985616.1"
+r = "AAY86547.1"
 print(r)
 predict_operator(r)
 

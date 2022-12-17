@@ -69,13 +69,15 @@ def operator_analysis(acc: str):
 
     #WT_operator = str(json.loads(operator.aligned_seqs)[0])
     #print("WT operator: "+WT_operator)
+
     all_seqs = json.loads(operator.aligned_seqs)
     
     entry = {
             "accession": str(acc), 
             "score": operator.consensus_score,
             "sequencesAligned": operator.number_seqs,
-            "organism": "Escherichia coli",
+            "organism": all_seqs[0]["organism"],
+            "intergenic": operator.intergenic,
             "data": all_seqs
             }
 
