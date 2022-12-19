@@ -3,13 +3,14 @@ from src.Create_Regulators import create_regulators
 from src.Create_Operons import create_operons
 from src.Update_Associations import update_associations
 from src.Create_Operators import create_operators
-from display.quick_operator_analysis import operator_analysis
+from analysis import pull_operator, write_frontend_json, assess_model
 
 import time
 
 
-def predict_operator(acc):
 
+    # Perform the GroovIO workflow
+def predict_operator(acc):
     startTime = time.time()
 
     create_alignment(acc)
@@ -19,17 +20,53 @@ def predict_operator(acc):
     create_operators(acc)
 
     endTime = time.time()
-
     print("total processing time: "+str(endTime-startTime)+" seconds")
 
 
-#r = "WP_010985616.1"
-r = "AAY86547.1"
-print(r)
-predict_operator(r)
 
-    #TODO: Edit this function to update a JSON file, which stores all summary statistics.
-operator_analysis(r)
+    # Update data.json in the react app's public folder
+def update_frontend_data(r):
+    operator = pull_operator(r)
+    write_frontend_json(operator)
+
+
+
+def analyze_model(r, known_operator):
+    operator = pull_operator(r)
+    print("predicted operator: "+str(operator["data"][0]["predicted_operator"]))
+    print("known operator: "+str(known_operator))
+    assess_model(operator, known_operator)
+
+
+
+    # PhlF ()
+# r = "AAY86547.1"
+# known_operator = "TTATGTATGATACGAAACGTACCGTATCGTTAAGG"
+
+    # GenR ()
+#r = "ACY33523.1"
+#known_operator = "GCTGACGCATATCAACATTATGCTAATCATCAGTGTGCTGTTTATTTGA"
+
+    # TetR (90%)
+# r = "WP_000113282.1"
+# known_operator = "CACTCTATCATTGATAGGGA"
+
+    # RamR (40%)
+r = "WP_000113609.1"
+known_operator = "TATAATGAGTGAGTAAGCACTCATTATAA"
+
+
+print("accession: "+str(r))
+
+predict_operator(r)
+analyze_model(r, known_operator)
+
+
+
+
+
+
+
 
 
 

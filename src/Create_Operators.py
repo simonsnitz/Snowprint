@@ -38,7 +38,7 @@ def findOperatorInIntergenic(intergenic, operator, ext_length=0):
 
     try:
         upstr_align, op_align, score, startPos, endPos = \
-        align.localms(intergenic, operator, 2, -0.5, -100, 0)[0]
+            align.localms(intergenic, operator, 2, -0.5, -100, 0)[0]
     except:
         print("WARNING: Regulated sequence alignment failed")
         return None
