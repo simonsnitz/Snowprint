@@ -1,43 +1,69 @@
-# GroovIO
-Predicts the operator sequence for prokaryotic transcrition regulators.
+[![Source](https://img.shields.io/badge/source-GitHub-303030.svg?maxAge=2678400&style=flat-square)](https://github.com/simonsnitz/Snowprint/)
+[![Issues](https://img.shields.io/github/issues/althonos/pyfamsa.svg?style=flat-square&maxAge=600)](https://github.com/simonsnitz/Snowprint/issues)
 
-## Usage
-#### Perform analysis on a regulator
+
+# Snowprint [![Stars](https://img.shields.io/github/stars/simonsnitz/Snowprint.svg?style=social&maxAge=3600&label=Star)](https://github.com/simonsnitz/Snowprint/stargazers)
+
+
+## 🗺️ Overview
+
+Snowprint is a bioinformatic tool used to predict the DNA-binding sequence of transcription factors. As opposed to DNAse footprinting, it requires no experimentation.
+
+
+
+## 🔧 Installing
 
 1. Clone the repo
-```
-$ git clone https://github.com/simonsnitz/GroovIO.git
+```console
+$ git clone https://github.com/simonsnitz/Snowprint.git
 ```
 
-2. Activate the virtual environment
-```
+2. Setup the virtual environment
+```console
+$ python -m venv env
 $ source env/bin/activate
+$ pip install -r requirements.txt
 ```
 
-3. Install dependencies
+3. Install blast
+
+*On Mac*
+```console
+$ brew install blast
 ```
-$ pip -r requirements.txt
+*On Linux*
+```console
+$ sudo apt-get install ncbi-blast+
 ```
 
-4. Input your regulator accession ID(s) in the GroovIO/cache/reg_ids/reg_ids.txt file
+4. Setup the frontend interface
+#### Download node
+https://nodejs.org/en/download/
 
-5. Run the prediction algorithm on your regulators. These will be added to the SQL database
+#### Install node packages
+```console
+$ cd Snowprint/frontend
+$ npm install
 ```
-$ python main.py
+#### Launch the frontend interface
+```console
+$ npm start
+```
+*This will open the frontend interface in your browser*
+
+## Create a Snowprint prediction
+```console
+$ cd Snowprint
+$ python main.py {your RefSeq accession goes here}
 ```
 
-## Dependencies
-- python3-venv
-- python3-pip
-- biopython
-- requests
-- sqlalchemy
 
 
-## Notes
-This is a tool used by [The Biosensor Database](https://gbiosensors.com).
+## Caching
+- A SQLite database is used to cache intermediate data collected while creating a prediction to increase prediction speed.
+- The database is located in `Snowprint/Cache/Snowprint.db`
+- The database schema can be found in `Snowprint/Cache/models.py`
 
-## License
 
-Work in the `src` directory is licensed under the MIT License, found in the LICENSE.txt file
-
+## Display data
+- All data for frontend display is located in `Snowprint/frontend/public/data.json`

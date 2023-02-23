@@ -96,7 +96,7 @@ def operon2Intergenic(operon, regIndex, genome_id):
 def update_associations(acc: str):
 
         # Point to the sqlite database
-    engine = create_engine('sqlite:///API/GroovIO.db')
+    engine = create_engine('sqlite:///cache/Snowprint.db')
 
         # Connect to db, create session, and access the Alignment table
     conn = engine.connect()

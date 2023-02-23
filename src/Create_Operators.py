@@ -202,7 +202,7 @@ def fetch_operator_data(homolog_metadata, acc, ext_length=5):
 def create_operators(acc: str):
 
         # Point to the sqlite database
-    engine = create_engine('sqlite:///API/GroovIO.db')
+    engine = create_engine('sqlite:///cache/Snowprint.db')
 
         # Connect to db, create session, and access the Alignment table
     conn = engine.connect()

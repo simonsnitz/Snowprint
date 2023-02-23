@@ -78,7 +78,7 @@ def blast(acc: str, num_aligns=num_aligns):
 def create_alignment(acc: str):
 
         # Point to sqlite database
-    engine = create_engine('sqlite:///API/GroovIO.db')
+    engine = create_engine('sqlite:///cache/Snowprint.db')
 
         # Connect to db, create session, and access the Alignment table
     conn = engine.connect()
@@ -119,6 +119,8 @@ def create_alignment(acc: str):
 
 #TODO:
     # find a way to check if blast cache is for the query regulator
+
+
 
 
 

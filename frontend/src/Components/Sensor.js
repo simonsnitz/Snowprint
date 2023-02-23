@@ -1,7 +1,7 @@
 import { Box, Grid, Typography, Paper } from '@mui/material';
 
-import Logo from './Logo.js';
-import MetadataTable from './MetadataTable.js';
+import Snowprint from './sensor_components/Snowprint.js';
+import HomologTable from './sensor_components/HomologTable.js';
 
 export default function Sensor(props) {
 
@@ -18,7 +18,7 @@ export default function Sensor(props) {
 
                 {/* Logo & Metadata */}
                 <Grid item xs={12} mb={5}>
-                    <Logo data={props.data} />
+                    <Snowprint data={props.data} />
 
                     <Paper elevation={5} sx={{ padding: 3, mb: 5 }}>
                         <Typography
@@ -29,7 +29,7 @@ export default function Sensor(props) {
                         </Typography>
                     </Paper>
 
-                    <MetadataTable data={props.data}/>
+                    <HomologTable data={props.data}/>
                 </Grid>
 
             </Grid>

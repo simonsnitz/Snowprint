@@ -64,7 +64,7 @@ def batch_acc2MetaData(prot_acc_list: list):
 def create_regulators(acc: str):
 
         # Point to sqlite database
-    engine = create_engine('sqlite:///API/GroovIO.db')
+    engine = create_engine('sqlite:///cache/Snowprint.db')
 
         # Connect to db, create session, and access the Alignment table
     conn = engine.connect()

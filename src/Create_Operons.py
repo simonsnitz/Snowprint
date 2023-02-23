@@ -80,7 +80,7 @@ def parseGenome(genome_frag: str, start: str, stop: str):
 def create_operons(acc: str):
 
         # Point to the sqlite database
-    engine = create_engine('sqlite:///API/GroovIO.db')
+    engine = create_engine('sqlite:///cache/Snowprint.db')
 
         # Connect to db, create session, and access the Alignment table
     conn = engine.connect()
@@ -201,7 +201,7 @@ if __name__ == "__main__":
     #fetch_operon_data("WP_000113282.1")
 
             # Point to the sqlite database
-    engine = create_engine('sqlite:///API/GroovIO.db')
+    engine = create_engine('sqlite:///cache/Snowprint.db')
 
         # Connect to db, create session, and access the Alignment table
     conn = engine.connect()

@@ -1,6 +1,6 @@
 import {Box} from "@mui/material";
-import Welcome from "./Components/Welcome.js";
-import Table from "./Components/Table.js";
+import Header from "./Components/Header.js";
+import AllSensorsTable from "./Components/AllSensorsTable.js";
 
 import { Routes, Route } from 'react-router-dom';
 
@@ -9,11 +9,11 @@ function App() {
     <Box 
       sx={{backgroundColor:"white"}}>
 
-        <Welcome/>
+        <Header/>
 
           {/* Probably unecessary to use Routes here */}
         <Routes>
-          <Route path="/*" element={<Table />} />
+          <Route path="/*" element={<AllSensorsTable />} />
         </Routes>
 
     </Box>

@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<IPGReportSet xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.ncbi.nlm.nih.gov/data_specs/schema/other/seq_report/IPGReportSet.xsd">
+
+<IPGReport  ipg="108726551" product_acc="ANB66399.1">
+<Product  accver="ANB66399.1" name="PtxS" taxid="70775" slen="340" org="Pseudomonas plecoglossicida" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="ANB66399.1" source="INSDC" name="PtxS" taxid="70775" org="Pseudomonas plecoglossicida" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="KU168041.1" start="1" stop="1023" strand="+" taxid="70775" org="Pseudomonas plecoglossicida" kingdom_taxid="2" kingdom="Bacteria" strain="JUIM01"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="0"/></IPGReport>
+<IPGReport  ipg="570595339" product_acc="A0A167V873.2">
+<Product  accver="A0A167V873.2" name="HTH-type transcriptional regulator PtxS" taxid="70775" slen="340" org="Pseudomonas plecoglossicida" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="A0A167V873.2" source="Swiss-Prot" name="HTH-type transcriptional regulator PtxS" taxid="70775" org="Pseudomonas plecoglossicida" kingdom_taxid="2" kingdom="Bacteria" priority="0"/></ProteinList>
+<Statistics  prot_count="1" nuc_count="0" assmb_count="0"/></IPGReport>
+<IPGReport  ipg="146893434" product_acc="WP_084858276.1">
+<Product  accver="WP_084858276.1" name="LacI family DNA-binding transcriptional regulator" taxid="303" slen="340" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_084858276.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_NBWC01000030.1" start="85498" stop="86520" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="DZ-C18" assembly="GCF_002094795.1"/></CDSList></Protein>
+<Protein  accver="ORL62172.1" source="INSDC" name="transcriptional regulator" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="NBWC01000030.1" start="85498" stop="86520" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="DZ-C18" assembly="GCA_002094795.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="487748627" product_acc="WP_224456427.1">
+<Product  accver="WP_224456427.1" name="LacI family DNA-binding transcriptional regulator" taxid="2874628" slen="340" org="Pseudomonas sp. p1(2021b)" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_224456427.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="2874628" org="Pseudomonas sp. p1(2021b)" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP083746.1" start="3556783" stop="3557805" strand="-" taxid="2874628" org="Pseudomonas sp. p1(2021b)" kingdom_taxid="2" kingdom="Bacteria" strain="p1(2021b)" assembly="GCF_020151015.1"/></CDSList></Protein>
+<Protein  accver="UBM23981.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2874628" org="Pseudomonas sp. p1(2021b)" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP083746.1" start="3556783" stop="3557805" strand="-" taxid="2874628" org="Pseudomonas sp. p1(2021b)" kingdom_taxid="2" kingdom="Bacteria" strain="p1(2021b)" assembly="GCA_020151015.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="376724119" product_acc="MBF8743445.1">
+<Product  accver="MBF8743445.1" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" slen="340" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="MBF8743445.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="JADLJN010000057.1" start="12033" stop="13055" strand="+" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="20-MO00621-0" assembly="GCA_015680285.1"/></CDSList></Protein>
+<Protein  accver="MBF8751799.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JADLJP010000030.1" start="42786" stop="43808" strand="+" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="20-MO00623-0" assembly="GCA_015680325.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="376754811" product_acc="MBF8724228.1">
+<Product  accver="MBF8724228.1" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" slen="340" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="MBF8724228.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="JADLJL010000049.1" start="4809" stop="5831" strand="+" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="20-MO00619-0" assembly="GCA_015680235.1"/></CDSList></Protein>
+<Protein  accver="MBF8794334.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JADLSK010000021.1" start="74208" stop="75230" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="20-MO00625-0" assembly="GCA_015680735.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="491796684" product_acc="WP_225789346.1">
+<Product  accver="WP_225789346.1" name="LacI family DNA-binding transcriptional regulator" taxid="286" slen="340" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_225789346.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="286" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CAKAKK010000014.1" start="106499" stop="107521" strand="-" taxid="2866589" org="Pseudomonas sp. Marseille-P8916" kingdom_taxid="2" kingdom="Bacteria" strain="Marseille-P8916" assembly="GCF_916618875.1"/>
+<CDS  accver="NZ_JAOSGK010000015.1" start="63382" stop="64404" strand="-" taxid="930166" org="Pseudomonas brassicacearum" kingdom_taxid="2" kingdom="Bacteria" strain="S4446-2" assembly="GCF_025599415.1"/></CDSList></Protein>
+<Protein  accver="MCO7517080.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAMYBZ010000049.1" start="18393" stop="19415" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="S 311-8" assembly="GCA_024127415.1"/></CDSList></Protein>
+<Protein  accver="MCO7566710.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAMYBR010000034.1" start="1805" stop="2827" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="S 311-5" assembly="GCA_024126715.1"/></CDSList></Protein>
+<Protein  accver="MCO7595916.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAMYBK010000015.1" start="62982" stop="64004" strand="-" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="S 4446-10" assembly="GCA_024127895.1"/></CDSList></Protein>
+<Protein  accver="MCO7608089.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAMYBI010000075.1" start="18293" stop="19315" strand="-" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="S 311-3" assembly="GCA_024128175.1"/></CDSList></Protein>
+<Protein  accver="MCO7619441.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAMYBJ010000079.1" start="1804" stop="2826" strand="+" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="S 311-4" assembly="GCA_024127975.1"/></CDSList></Protein>
+<Protein  accver="MCO7632496.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAMYBH010000010.1" start="133178" stop="134200" strand="-" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="S 332-4" assembly="GCA_024128315.1"/></CDSList></Protein>
+<Protein  accver="MCO7643374.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2956727" org="Pseudomonas sp. S 311-6" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAMYBF010000113.1" start="18325" stop="19347" strand="-" taxid="2956727" org="Pseudomonas sp. S 311-6" kingdom_taxid="2" kingdom="Bacteria" strain="S 311-6" assembly="GCA_024128275.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="8" nuc_count="9" assmb_count="9"/></IPGReport>
+<IPGReport  ipg="114541046" product_acc="WP_070092511.1">
+<Product  accver="WP_070092511.1" name="LacI family DNA-binding transcriptional regulator" taxid="286" slen="337" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_070092511.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="286" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_BCAP01000028.1" start="114470" stop="115483" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="GTC 10899" assembly="GCF_001753835.1"/>
+<CDS  accver="NZ_CP016634.1" start="3558058" stop="3559071" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="IEC33019" assembly="GCF_002741075.1"/>
+<CDS  accver="NZ_JAGFUU010000012.1" start="114573" stop="115586" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="A29" assembly="GCF_019038355.1"/>
+<CDS  accver="NZ_JALKHN010000001.1" start="1635925" stop="1636938" strand="+" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="T1647" assembly="GCF_024520715.1"/>
+<CDS  accver="NZ_JALPNQ010000011.1" start="22698" stop="23711" strand="+" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="T305" assembly="GCF_024520695.1"/>
+<CDS  accver="NZ_JAMKDT010000015.1" start="22712" stop="23725" strand="+" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="CCBH28608" assembly="GCF_023572415.1"/></CDSList></Protein>
+<Protein  accver="ANY88748.1" source="INSDC" name="HTH-type transcriptional regulator KdgR" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP016634.1" start="3558058" stop="3559071" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="IEC33019" assembly="GCA_002741075.1"/></CDSList></Protein>
+<Protein  accver="MCL8305587.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAMKDT010000015.1" start="22712" stop="23725" strand="+" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="CCBH28608" assembly="GCA_023572415.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="8" assmb_count="8"/></IPGReport>
+<IPGReport  ipg="376732278" product_acc="WP_196164887.1">
+<Product  accver="WP_196164887.1" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" slen="337" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_196164887.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JADLJM010000019.1" start="22684" stop="23697" strand="+" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="20-MO00620-0" assembly="GCF_015680245.1"/></CDSList></Protein>
+<Protein  accver="MBF8757293.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JADLJM010000019.1" start="22684" stop="23697" strand="+" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="20-MO00620-0" assembly="GCA_015680245.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="380828841" product_acc="WP_197853250.1">
+<Product  accver="WP_197853250.1" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" slen="337" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_197853250.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JADTXL010000008.1" start="113200" stop="114213" strand="+" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="PSB00029" assembly="GCF_016008925.1"/></CDSList></Protein>
+<Protein  accver="MBH3359444.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JADTXL010000008.1" start="113200" stop="114213" strand="+" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="PSB00029" assembly="GCA_016008925.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="376752672" product_acc="WP_196169148.1">
+<Product  accver="WP_196169148.1" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" slen="337" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_196169148.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JADLJO010000005.1" start="130616" stop="131629" strand="+" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="20-MO00622-0" assembly="GCF_015680295.1"/></CDSList></Protein>
+<Protein  accver="MBF8730700.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JADLJO010000005.1" start="130616" stop="131629" strand="+" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="20-MO00622-0" assembly="GCA_015680295.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="554731766" product_acc="WP_250034878.1">
+<Product  accver="WP_250034878.1" name="LacI family DNA-binding transcriptional regulator" taxid="196821" slen="337" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_250034878.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="196821" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP072559.1" start="1549675" stop="1550688" strand="+" taxid="2816906" org="Pseudomonas sp. BYT-1" kingdom_taxid="2" kingdom="Bacteria" strain="BYT-1" assembly="GCF_023611805.1"/>
+<CDS  accver="NZ_CP097489.1" start="1549507" stop="1550520" strand="+" taxid="2944392" org="Pseudomonas sp. BYT-5" kingdom_taxid="2" kingdom="Bacteria" strain="BYT-5" assembly="GCF_023546785.1"/></CDSList></Protein>
+<Protein  accver="URD45076.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2944392" org="Pseudomonas sp. BYT-5" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP097489.1" start="1549507" stop="1550520" strand="+" taxid="2944392" org="Pseudomonas sp. BYT-5" kingdom_taxid="2" kingdom="Bacteria" strain="BYT-5" assembly="GCA_023546785.1"/></CDSList></Protein>
+<Protein  accver="URL00449.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2816906" org="Pseudomonas sp. BYT-1" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP072559.1" start="1549675" stop="1550688" strand="+" taxid="2816906" org="Pseudomonas sp. BYT-1" kingdom_taxid="2" kingdom="Bacteria" strain="BYT-1" assembly="GCA_023611805.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="4" assmb_count="4"/></IPGReport>
+<IPGReport  ipg="76210689" product_acc="WP_043210991.1">
+<Product  accver="WP_043210991.1" name="LacI family DNA-binding transcriptional regulator" taxid="286" slen="337" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_043210991.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="286" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_AMZE01000027.1" start="60553" stop="61566" strand="-" taxid="1240350" org="Pseudomonas putida MTCC 5279" kingdom_taxid="2" kingdom="Bacteria" strain="MTCC5279" assembly="GCF_000411615.1"/>
+<CDS  accver="NZ_AP022055.1" start="3876768" stop="3877781" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="WP4-W18-CRE-03" assembly="GCF_014169055.1"/>
+<CDS  accver="NZ_AP022227.1" start="1666342" stop="1667355" strand="+" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="WP8-W18-CRE-01" assembly="GCF_014162535.1"/>
+<CDS  accver="NZ_FMYX01000008.1" start="112672" stop="113685" strand="+" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="LMG 27394" assembly="GCF_900102675.1"/>
+<CDS  accver="NZ_JAMYBG010000003.1" start="384819" stop="385832" strand="-" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="VA160-2" assembly="GCF_024128115.1"/>
+<CDS  accver="NZ_VSJH01000007.1" start="104993" stop="106006" strand="-" taxid="2249759" org="Pseudomonas sp. CK-NBRI-02" kingdom_taxid="2" kingdom="Bacteria" strain="CK-NBRI-02" assembly="GCF_008124495.1"/></CDSList></Protein>
+<Protein  accver="BBR55173.1" source="INSDC" name="transcriptional regulator" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="AP022055.1" start="3876768" stop="3877781" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="WP4-W18-CRE-03" assembly="GCA_014169055.1"/></CDSList></Protein>
+<Protein  accver="BBT39226.1" source="INSDC" name="transcriptional regulator" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="AP022227.1" start="1666342" stop="1667355" strand="+" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="WP8-W18-CRE-01" assembly="GCA_014162535.1"/></CDSList></Protein>
+<Protein  accver="CAB5525138.1" source="INSDC" name="Ribose operon repressor" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CAHPQU010000005.1" start="159978" stop="160991" strand="+" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" assembly="GCA_903684265.1"/></CDSList></Protein>
+<Protein  accver="CAB5531020.1" source="INSDC" name="Ribose operon repressor" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CAHPQV010000008.1" start="115588" stop="116601" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" assembly="GCA_903684275.1"/></CDSList></Protein>
+<Protein  accver="CAB5574874.1" source="INSDC" name="Ribose operon repressor" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CAHPRH010000006.1" start="115588" stop="116601" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" assembly="GCA_903684455.1"/></CDSList></Protein>
+<Protein  accver="CAB5577273.1" source="INSDC" name="Ribose operon repressor" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CAHPRL010000007.1" start="126865" stop="127878" strand="+" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" assembly="GCA_903684435.1"/></CDSList></Protein>
+<Protein  accver="CAB5659085.1" source="INSDC" name="Ribose operon repressor" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CAHPRU010000007.1" start="115588" stop="116601" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" assembly="GCA_903684535.1"/></CDSList></Protein>
+<Protein  accver="CAB5685168.1" source="INSDC" name="Ribose operon repressor" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CAHPRX010000007.1" start="152154" stop="153167" strand="+" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" assembly="GCA_903684575.1"/></CDSList></Protein>
+<Protein  accver="CAB5686074.1" source="INSDC" name="Ribose operon repressor" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CAHPRZ010000007.1" start="115588" stop="116601" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" assembly="GCA_903684565.1"/></CDSList></Protein>
+<Protein  accver="CAC9234992.1" source="INSDC" name="Ribose operon repressor" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CAIIUC010000001.1" start="4388982" stop="4389995" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria"/></CDSList></Protein>
+<Protein  accver="MCO7621439.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAMYBG010000003.1" start="384819" stop="385832" strand="-" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="VA160-2" assembly="GCA_024128115.1"/></CDSList></Protein>
+<Protein  accver="SDD43512.1" source="INSDC" name="LacI family transcriptional regulator, kdg operon repressor" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="FMYX01000008.1" start="112672" stop="113685" strand="+" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="LMG 27394" assembly="GCA_900102675.1"/></CDSList></Protein>
+<Protein  accver="TYO83096.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2249759" org="Pseudomonas sp. CK-NBRI-02" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="VSJH01000007.1" start="104993" stop="106006" strand="-" taxid="2249759" org="Pseudomonas sp. CK-NBRI-02" kingdom_taxid="2" kingdom="Bacteria" strain="CK-NBRI-02" assembly="GCA_008124495.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="14" nuc_count="19" assmb_count="18"/></IPGReport>
+<IPGReport  ipg="120519591" product_acc="WP_070571559.1">
+<Product  accver="WP_070571559.1" name="LacI family DNA-binding transcriptional regulator" taxid="1581141" slen="337" org="Pseudomonas sp. HMSC08G10" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_070571559.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="1581141" org="Pseudomonas sp. HMSC08G10" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_KV793291.1" start="113630" stop="114643" strand="+" taxid="1581141" org="Pseudomonas sp. HMSC08G10" kingdom_taxid="2" kingdom="Bacteria" strain="HMSC08G10" assembly="GCF_001808425.1"/></CDSList></Protein>
+<Protein  accver="OFS76932.1" source="INSDC" name="transcriptional regulator" taxid="1581141" org="Pseudomonas sp. HMSC08G10" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="KV793291.1" start="113630" stop="114643" strand="+" taxid="1581141" org="Pseudomonas sp. HMSC08G10" kingdom_taxid="2" kingdom="Bacteria" strain="HMSC08G10" assembly="GCA_001808425.1"/>
+<CDS  accver="LWMZ01000014.1" start="113630" stop="114643" strand="+" taxid="1581141" org="Pseudomonas sp. HMSC08G10" kingdom_taxid="2" kingdom="Bacteria" strain="HMSC08G10" assembly="GCA_001808425.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="3" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="174485939" product_acc="WP_102081382.1">
+<Product  accver="WP_102081382.1" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" slen="337" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_102081382.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_PJCP01000002.1" start="369330" stop="370343" strand="-" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="MR119" assembly="GCF_002864915.1"/>
+<CDS  accver="NZ_PJCQ01000004.1" start="144598" stop="145611" strand="-" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="MR144" assembly="GCF_002864765.1"/>
+<CDS  accver="NZ_PJCR01000002.1" start="369330" stop="370343" strand="-" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="MR149" assembly="GCF_002864815.1"/></CDSList></Protein>
+<Protein  accver="PLV20248.1" source="INSDC" name="transcriptional regulator" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="PJCQ01000004.1" start="144598" stop="145611" strand="-" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="MR144" assembly="GCA_002864765.1"/></CDSList></Protein>
+<Protein  accver="PLV25826.1" source="INSDC" name="transcriptional regulator" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="PJCP01000002.1" start="369330" stop="370343" strand="-" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="MR119" assembly="GCA_002864915.1"/></CDSList></Protein>
+<Protein  accver="PLV30923.1" source="INSDC" name="transcriptional regulator" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="PJCR01000002.1" start="369330" stop="370343" strand="-" taxid="1288410" org="Pseudomonas guariconensis" kingdom_taxid="2" kingdom="Bacteria" strain="MR149" assembly="GCA_002864815.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="4" nuc_count="6" assmb_count="6"/></IPGReport>
+<IPGReport  ipg="194386223" product_acc="WP_116423262.1">
+<Product  accver="WP_116423262.1" name="LacI family DNA-binding transcriptional regulator" taxid="53408" slen="340" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_116423262.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_BGPP01000003.1" start="135611" stop="136633" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="LA18T" assembly="GCF_003402515.1"/></CDSList></Protein>
+<Protein  accver="GBL54895.1" source="INSDC" name="transcriptional regulator" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="BGPP01000003.1" start="135611" stop="136633" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="LA18T" assembly="GCA_003402515.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="59996996" product_acc="WP_141766162.1">
+<Product  accver="WP_141766162.1" name="LacI family DNA-binding transcriptional regulator" taxid="286" slen="340" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_141766162.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="286" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP113096.1" start="5641641" stop="5642663" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="G5Li.T10" assembly="GCF_026625105.1"/>
+<CDS  accver="NZ_JWMC01000011.1" start="180878" stop="181900" strand="+" taxid="1582493" org="Pseudomonas sp. PI1" kingdom_taxid="2" kingdom="Bacteria" strain="PI1" assembly="GCF_000812405.1"/>
+<CDS  accver="NZ_KL647098.1" start="235554" stop="236576" strand="-" taxid="1502784" org="Pseudomonas sp. AAC" kingdom_taxid="2" kingdom="Bacteria" strain="AAC" assembly="GCF_000725445.1"/>
+<CDS  accver="NZ_KV838421.1" start="12758" stop="13780" strand="+" taxid="1608908" org="Pseudomonas sp. HMSC75E02" kingdom_taxid="2" kingdom="Bacteria" strain="HMSC75E02" assembly="GCF_001838695.1"/></CDSList></Protein>
+<Protein  accver="KES22367.1" source="INSDC" name="transcriptional regulator" taxid="1502784" org="Pseudomonas sp. AAC" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JNCW01000015.1" start="235554" stop="236576" strand="-" taxid="1502784" org="Pseudomonas sp. AAC" kingdom_taxid="2" kingdom="Bacteria" strain="AAC" assembly="GCA_000725445.1"/>
+<CDS  accver="KL647098.1" start="235554" stop="236576" strand="-" taxid="1502784" org="Pseudomonas sp. AAC" kingdom_taxid="2" kingdom="Bacteria" strain="AAC" assembly="GCA_000725445.1"/></CDSList></Protein>
+<Protein  accver="MBH3435159.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JADUCQ010000046.1" start="12709" stop="13731" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="PSB00011" assembly="GCA_016009275.1"/></CDSList></Protein>
+<Protein  accver="WAB91348.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP113096.1" start="5641641" stop="5642663" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="G5Li.T10" assembly="GCA_026625105.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="4" nuc_count="8" assmb_count="7"/></IPGReport>
+<IPGReport  ipg="76256297" product_acc="WP_043272218.1">
+<Product  accver="WP_043272218.1" name="LacI family DNA-binding transcriptional regulator" taxid="53408" slen="337" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_043272218.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JADUCQ010000046.1" start="12718" stop="13731" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="PSB00011" assembly="GCF_016009275.1"/></CDSList></Protein>
+<Protein  accver="KWR84845.1" source="INSDC" name="transcriptional regulator" taxid="1582493" org="Pseudomonas sp. PI1" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JWMC01000011.1" start="180887" stop="181900" strand="+" taxid="1582493" org="Pseudomonas sp. PI1" kingdom_taxid="2" kingdom="Bacteria" strain="PI1" assembly="GCA_000812405.1"/></CDSList></Protein>
+<Protein  accver="OHS00864.1" source="INSDC" name="transcriptional regulator" taxid="1608908" org="Pseudomonas sp. HMSC75E02" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="KV838421.1" start="12767" stop="13780" strand="+" taxid="1608908" org="Pseudomonas sp. HMSC75E02" kingdom_taxid="2" kingdom="Bacteria" strain="HMSC75E02" assembly="GCA_001838695.1"/>
+<CDS  accver="LTNB01000325.1" start="1279" stop="2292" strand="+" taxid="1608908" org="Pseudomonas sp. HMSC75E02" kingdom_taxid="2" kingdom="Bacteria" strain="HMSC75E02" assembly="GCA_001838695.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="4" assmb_count="3"/></IPGReport>
+<IPGReport  ipg="46692190" product_acc="WP_024128724.1">
+<Product  accver="WP_024128724.1" name="LacI family DNA-binding transcriptional regulator" taxid="286" slen="340" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_024128724.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="286" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_BCZY01000046.1" start="49802" stop="50824" strand="-" taxid="1215097" org="Pseudomonas citronellolis NBRC 103043" kingdom_taxid="2" kingdom="Bacteria" strain="NBRC 103043" assembly="GCF_002091555.1"/>
+<CDS  accver="NZ_CP062122.1" start="7046651" stop="7047673" strand="-" taxid="2774873" org="Pseudomonas sp. ADPe" kingdom_taxid="2" kingdom="Bacteria" strain="ADPe" assembly="GCF_014843515.1"/>
+<CDS  accver="NZ_CP094343.1" start="2957662" stop="2958684" strand="+" taxid="95619" org="Pseudomonas sp. M1" kingdom_taxid="2" kingdom="Bacteria" strain="M1" assembly="GCF_022760135.1"/>
+<CDS  accver="NZ_CP101752.1" start="4185461" stop="4186483" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="C12" assembly="GCF_024496105.1"/>
+<CDS  accver="NZ_CP104727.1" start="3169032" stop="3170054" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="G5.80" assembly="GCF_025398795.1"/>
+<CDS  accver="NZ_FOLS01000005.1" start="59028" stop="60050" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="LMG 18378" assembly="GCF_900112375.1"/>
+<CDS  accver="NZ_JALJXO010000051.1" start="7556" stop="8578" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="3635H" assembly="GCF_024170125.1"/>
+<CDS  accver="NZ_JALJXT010000014.1" start="176571" stop="177593" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="155H" assembly="GCF_024170235.1"/>
+<CDS  accver="NZ_JALJYA010000051.1" start="6410" stop="7432" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="186G" assembly="GCF_024170345.1"/>
+<CDS  accver="NZ_JALJYB010000014.1" start="6055" stop="7077" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="3324D" assembly="GCF_024170385.1"/>
+<CDS  accver="NZ_JALJYD010000015.1" start="176875" stop="177897" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="3324G" assembly="GCF_024170415.1"/>
+<CDS  accver="NZ_JALJYE010000014.1" start="7648" stop="8670" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="155E" assembly="GCF_024170445.1"/>
+<CDS  accver="NZ_JALJYJ010000052.1" start="17123" stop="18145" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="3635E" assembly="GCF_024170585.1"/>
+<CDS  accver="NZ_JALJYQ010000013.1" start="176978" stop="178000" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="155B" assembly="GCF_024170725.1"/>
+<CDS  accver="NZ_JAMGSO010000001.1" start="559087" stop="560109" strand="-" taxid="2928708" org="Pseudomonas sp. R3.Fl" kingdom_taxid="2" kingdom="Bacteria" strain="R3.Fl" assembly="GCF_023516765.1"/>
+<CDS  accver="NZ_LKJO01000104.1" start="11811" stop="12833" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="TTU2014-008ASC" assembly="GCF_001446495.1"/>
+<CDS  accver="NZ_LKKN01000077.1" start="11896" stop="12918" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="TTU2014-011ASC" assembly="GCF_001446995.1"/>
+<CDS  accver="NZ_LZYC01000052.1" start="170306" stop="171328" strand="+" taxid="1524461" org="Pseudomonas sp. EGD-AKN5" kingdom_taxid="2" kingdom="Bacteria" strain="EGD-AKN5" assembly="GCF_001669755.1"/>
+<CDS  accver="NZ_PISI01000021.1" start="58898" stop="59920" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="DSM 50332" assembly="GCF_004745455.1"/></CDSList></Protein>
+<Protein  accver="MCL6687527.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2928708" org="Pseudomonas sp. R3.Fl" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAMGSO010000001.1" start="559087" stop="560109" strand="-" taxid="2928708" org="Pseudomonas sp. R3.Fl" kingdom_taxid="2" kingdom="Bacteria" strain="R3.Fl" assembly="GCA_023516765.1"/></CDSList></Protein>
+<Protein  accver="MCP1608050.1" source="INSDC" name="LacI family kdg operon repressor" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JALJXO010000051.1" start="7556" stop="8578" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="3635H" assembly="GCA_024170125.1"/></CDSList></Protein>
+<Protein  accver="MCP1644390.1" source="INSDC" name="LacI family kdg operon repressor" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JALJXT010000014.1" start="176571" stop="177593" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="155H" assembly="GCA_024170235.1"/></CDSList></Protein>
+<Protein  accver="MCP1658858.1" source="INSDC" name="LacI family kdg operon repressor" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JALJYA010000051.1" start="6410" stop="7432" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="186G" assembly="GCA_024170345.1"/></CDSList></Protein>
+<Protein  accver="MCP1667149.1" source="INSDC" name="LacI family kdg operon repressor" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JALJYB010000014.1" start="6055" stop="7077" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="3324D" assembly="GCA_024170385.1"/></CDSList></Protein>
+<Protein  accver="MCP1698226.1" source="INSDC" name="LacI family kdg operon repressor" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JALJYE010000014.1" start="7648" stop="8670" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="155E" assembly="GCA_024170445.1"/></CDSList></Protein>
+<Protein  accver="MCP1725815.1" source="INSDC" name="LacI family kdg operon repressor" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JALJYJ010000052.1" start="17123" stop="18145" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="3635E" assembly="GCA_024170585.1"/></CDSList></Protein>
+<Protein  accver="MCP1798814.1" source="INSDC" name="LacI family kdg operon repressor" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JALJYQ010000013.1" start="176978" stop="178000" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="155B" assembly="GCA_024170725.1"/></CDSList></Protein>
+<Protein  accver="NTX92996.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2576834" org="Pseudomonas sp. UMA643" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="SUQL01000079.1" start="17588" stop="18610" strand="+" taxid="2576834" org="Pseudomonas sp. UMA643" kingdom_taxid="2" kingdom="Bacteria" strain="UMA643" assembly="GCA_013337595.1"/></CDSList></Protein>
+<Protein  accver="NTY22050.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2576833" org="Pseudomonas sp. UMC3103" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="SWJU01000066.1" start="5980" stop="7002" strand="-" taxid="2576833" org="Pseudomonas sp. UMC3103" kingdom_taxid="2" kingdom="Bacteria" strain="UMC3103" assembly="GCA_013337545.1"/></CDSList></Protein>
+<Protein  accver="NTY28259.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2576835" org="Pseudomonas sp. UMA603" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="SUQS01000065.1" start="6005" stop="7027" strand="-" taxid="2576835" org="Pseudomonas sp. UMA603" kingdom_taxid="2" kingdom="Bacteria" strain="UMA603" assembly="GCA_013337585.1"/></CDSList></Protein>
+<Protein  accver="NTY34448.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2576831" org="Pseudomonas sp. UMC3129" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="SWJT01000055.1" start="5980" stop="7002" strand="-" taxid="2576831" org="Pseudomonas sp. UMC3129" kingdom_taxid="2" kingdom="Bacteria" strain="UMC3129" assembly="GCA_013337495.1"/></CDSList></Protein>
+<Protein  accver="NTY57109.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2576836" org="Pseudomonas sp. UMC631" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="SUQJ01000061.1" start="6027" stop="7049" strand="-" taxid="2576836" org="Pseudomonas sp. UMC631" kingdom_taxid="2" kingdom="Bacteria" strain="UMC631" assembly="GCA_013337505.1"/></CDSList></Protein>
+<Protein  accver="NTY69375.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2576832" org="Pseudomonas sp. UMC3106" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="SUQK01000055.1" start="28415" stop="29437" strand="+" taxid="2576832" org="Pseudomonas sp. UMC3106" kingdom_taxid="2" kingdom="Bacteria" strain="UMC3106" assembly="GCA_013337565.1"/></CDSList></Protein>
+<Protein  accver="NUA37705.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2576830" org="Pseudomonas sp. UMA601" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="SUQI01000058.1" start="28523" stop="29545" strand="+" taxid="2576830" org="Pseudomonas sp. UMA601" kingdom_taxid="2" kingdom="Bacteria" strain="UMA601" assembly="GCA_013337485.1"/></CDSList></Protein>
+<Protein  accver="QOF85029.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2774873" org="Pseudomonas sp. ADPe" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP062122.1" start="7046651" stop="7047673" strand="-" taxid="2774873" org="Pseudomonas sp. ADPe" kingdom_taxid="2" kingdom="Bacteria" strain="ADPe" assembly="GCA_014843515.1"/></CDSList></Protein>
+<Protein  accver="TGC27758.1" source="INSDC" name="transcriptional regulator" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="PISI01000021.1" start="58898" stop="59920" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="DSM 50332" assembly="GCA_004745455.1"/></CDSList></Protein>
+<Protein  accver="UNY91745.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="95619" org="Pseudomonas sp. M1" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP094343.1" start="2957662" stop="2958684" strand="+" taxid="95619" org="Pseudomonas sp. M1" kingdom_taxid="2" kingdom="Bacteria" strain="M1" assembly="GCA_022760135.1"/></CDSList></Protein>
+<Protein  accver="UUC47865.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP101752.1" start="4185461" stop="4186483" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="C12" assembly="GCA_024496105.1"/></CDSList></Protein>
+<Protein  accver="UXJ55308.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP104727.1" start="3169032" stop="3170054" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="G5.80" assembly="GCA_025398795.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="21" nuc_count="39" assmb_count="39"/></IPGReport>
+<IPGReport  ipg="31947788" product_acc="WP_009622620.1">
+<Product  accver="WP_009622620.1" name="LacI family DNA-binding transcriptional regulator" taxid="196821" slen="337" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_009622620.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="196821" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_LZZR01000009.1" start="50705" stop="51718" strand="+" taxid="1862318" org="Pseudomonas sp. UME83" kingdom_taxid="2" kingdom="Bacteria" strain="UME83" assembly="GCF_014170285.1"/>
+<CDS  accver="NZ_LZZY01000074.1" start="32138" stop="33151" strand="+" taxid="1862324" org="Pseudomonas sp. UMC76" kingdom_taxid="2" kingdom="Bacteria" strain="UMC76" assembly="GCF_014170435.1"/>
+<CDS  accver="NZ_SUQI01000058.1" start="28532" stop="29545" strand="+" taxid="2576830" org="Pseudomonas sp. UMA601" kingdom_taxid="2" kingdom="Bacteria" strain="UMA601" assembly="GCF_013337485.1"/>
+<CDS  accver="NZ_SUQJ01000061.1" start="6027" stop="7040" strand="-" taxid="2576836" org="Pseudomonas sp. UMC631" kingdom_taxid="2" kingdom="Bacteria" strain="UMC631" assembly="GCF_013337505.1"/>
+<CDS  accver="NZ_SUQK01000055.1" start="28424" stop="29437" strand="+" taxid="2576832" org="Pseudomonas sp. UMC3106" kingdom_taxid="2" kingdom="Bacteria" strain="UMC3106" assembly="GCF_013337565.1"/>
+<CDS  accver="NZ_SUQL01000079.1" start="17597" stop="18610" strand="+" taxid="2576834" org="Pseudomonas sp. UMA643" kingdom_taxid="2" kingdom="Bacteria" strain="UMA643" assembly="GCF_013337595.1"/>
+<CDS  accver="NZ_SUQS01000065.1" start="6005" stop="7018" strand="-" taxid="2576835" org="Pseudomonas sp. UMA603" kingdom_taxid="2" kingdom="Bacteria" strain="UMA603" assembly="GCF_013337585.1"/>
+<CDS  accver="NZ_SWJT01000055.1" start="5980" stop="6993" strand="-" taxid="2576831" org="Pseudomonas sp. UMC3129" kingdom_taxid="2" kingdom="Bacteria" strain="UMC3129" assembly="GCF_013337495.1"/>
+<CDS  accver="NZ_SWJU01000066.1" start="5980" stop="6993" strand="-" taxid="2576833" org="Pseudomonas sp. UMC3103" kingdom_taxid="2" kingdom="Bacteria" strain="UMC3103" assembly="GCF_013337545.1"/></CDSList></Protein>
+<Protein  accver="KRV70385.1" source="INSDC" name="transcriptional regulator" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="LKJO01000104.1" start="11811" stop="12824" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="TTU2014-008ASC" assembly="GCA_001446495.1"/></CDSList></Protein>
+<Protein  accver="KRW76849.1" source="INSDC" name="transcriptional regulator" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="LKKN01000077.1" start="11896" stop="12909" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="TTU2014-011ASC" assembly="GCA_001446995.1"/></CDSList></Protein>
+<Protein  accver="KSW23407.1" source="INSDC" name="transcriptional regulator" taxid="47660" org="Pseudomonas sp. ADP" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="LKAX01000011.1" start="361059" stop="362072" strand="-" taxid="47660" org="Pseudomonas sp. ADP" kingdom_taxid="2" kingdom="Bacteria" strain="ADP" assembly="GCA_001465445.1"/></CDSList></Protein>
+<Protein  accver="MBB1609065.1" source="INSDC" name="transcriptional regulator" taxid="1862324" org="Pseudomonas sp. UMC76" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="LZZY01000074.1" start="32138" stop="33151" strand="+" taxid="1862324" org="Pseudomonas sp. UMC76" kingdom_taxid="2" kingdom="Bacteria" strain="UMC76" assembly="GCA_014170435.1"/></CDSList></Protein>
+<Protein  accver="MBB1637068.1" source="INSDC" name="transcriptional regulator" taxid="1862318" org="Pseudomonas sp. UME83" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="LZZR01000009.1" start="50705" stop="51718" strand="+" taxid="1862318" org="Pseudomonas sp. UME83" kingdom_taxid="2" kingdom="Bacteria" strain="UME83" assembly="GCA_014170285.1"/></CDSList></Protein>
+<Protein  accver="MCP1705191.1" source="INSDC" name="LacI family kdg operon repressor" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JALJYD010000015.1" start="176875" stop="177888" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="3324G" assembly="GCA_024170415.1"/></CDSList></Protein>
+<Protein  accver="OBP10599.1" source="INSDC" name="transcriptional regulator" taxid="1524461" org="Pseudomonas sp. EGD-AKN5" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="LZYC01000052.1" start="170315" stop="171328" strand="+" taxid="1524461" org="Pseudomonas sp. EGD-AKN5" kingdom_taxid="2" kingdom="Bacteria" strain="EGD-AKN5" assembly="GCA_001669755.1"/></CDSList></Protein>
+<Protein  accver="SFC37216.1" source="INSDC" name="transcriptional regulator, LacI family" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="FOLS01000005.1" start="59037" stop="60050" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="LMG 18378" assembly="GCA_900112375.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="9" nuc_count="17" assmb_count="17"/></IPGReport>
+<IPGReport  ipg="266157002" product_acc="WP_145923911.1">
+<Product  accver="WP_145923911.1" name="LacI family DNA-binding transcriptional regulator" taxid="53408" slen="340" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_145923911.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP014158.1" start="3908467" stop="3909489" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="P3B5" assembly="GCF_001586155.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="241437897" product_acc="WP_134163422.1">
+<Product  accver="WP_134163422.1" name="LacI family DNA-binding transcriptional regulator" taxid="1826671" slen="340" org="Pseudomonas humi" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_134163422.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="1826671" org="Pseudomonas humi" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_BDGS01000001.1" start="5035892" stop="5036914" strand="+" taxid="1826671" org="Pseudomonas humi" kingdom_taxid="2" kingdom="Bacteria" strain="CCA1" assembly="GCF_001748265.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="105490452" product_acc="AMO76894.1">
+<Product  accver="AMO76894.1" name="HTH-type transcriptional regulator KdgR" taxid="53408" slen="337" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="AMO76894.1" source="INSDC" name="HTH-type transcriptional regulator KdgR" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="CP014158.1" start="3908467" stop="3909480" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="P3B5" assembly="GCA_001586155.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="608968978" product_acc="WP_269962987.1">
+<Product  accver="WP_269962987.1" name="LacI family DNA-binding transcriptional regulator" taxid="53408" slen="340" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_269962987.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP034688.1" start="213655" stop="214677" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="WXP-4" assembly="GCF_027569775.1"/></CDSList></Protein>
+<Protein  accver="WBG61527.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP034688.1" start="213655" stop="214677" strand="+" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="WXP-4" assembly="GCA_027569775.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="123771604" product_acc="SDJ16599.1">
+<Product  accver="SDJ16599.1" name="transcriptional regulator, LacI family" taxid="366289" slen="337" org="Pseudomonas delhiensis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="SDJ16599.1" source="INSDC" name="transcriptional regulator, LacI family" taxid="366289" org="Pseudomonas delhiensis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="FNEC01000013.1" start="107606" stop="108619" strand="+" taxid="366289" org="Pseudomonas delhiensis" kingdom_taxid="2" kingdom="Bacteria" strain="CCM 7361" assembly="GCA_900099945.1"/></CDSList></Protein>
+<Protein  accver="SNT18098.1" source="INSDC" name="transcriptional regulator, LacI family" taxid="366289" org="Pseudomonas delhiensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="FZPC01000016.1" start="58073" stop="59086" strand="-" taxid="366289" org="Pseudomonas delhiensis" kingdom_taxid="2" kingdom="Bacteria" strain="RLD-1" assembly="GCA_900187975.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="154725800" product_acc="WP_089392380.1">
+<Product  accver="WP_089392380.1" name="LacI family DNA-binding transcriptional regulator" taxid="366289" slen="340" org="Pseudomonas delhiensis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_089392380.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="366289" org="Pseudomonas delhiensis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_FNEC01000013.1" start="107597" stop="108619" strand="+" taxid="366289" org="Pseudomonas delhiensis" kingdom_taxid="2" kingdom="Bacteria" strain="CCM 7361" assembly="GCF_900099945.1"/>
+<CDS  accver="NZ_FZPC01000016.1" start="58073" stop="59095" strand="-" taxid="366289" org="Pseudomonas delhiensis" kingdom_taxid="2" kingdom="Bacteria" strain="RLD-1" assembly="GCF_900187975.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="164854001" product_acc="WP_099049056.1">
+<Product  accver="WP_099049056.1" name="LacI family DNA-binding transcriptional regulator" taxid="53408" slen="340" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_099049056.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP015878.1" start="3966435" stop="3967457" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="SJTE-3" assembly="GCF_001654435.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="110919509" product_acc="ANI18507.1">
+<Product  accver="ANI18507.1" name="transcriptional regulator" taxid="53408" slen="337" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="ANI18507.1" source="INSDC" name="transcriptional regulator" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="CP015878.1" start="3966435" stop="3967448" strand="-" taxid="53408" org="Pseudomonas citronellolis" kingdom_taxid="2" kingdom="Bacteria" strain="SJTE-3" assembly="GCA_001654435.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="188975656" product_acc="WP_109936266.1">
+<Product  accver="WP_109936266.1" name="LacI family DNA-binding transcriptional regulator" taxid="2202894" slen="340" org="Pseudomonas sp. RW407" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_109936266.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="2202894" org="Pseudomonas sp. RW407" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_QGSL01000107.1" start="616231" stop="617253" strand="+" taxid="2202894" org="Pseudomonas sp. RW407" kingdom_taxid="2" kingdom="Bacteria" strain="RW407" assembly="GCF_003176655.1"/></CDSList></Protein>
+<Protein  accver="PWU26212.1" source="INSDC" name="transcriptional regulator" taxid="2202894" org="Pseudomonas sp. RW407" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="QGSL01000107.1" start="616231" stop="617253" strand="+" taxid="2202894" org="Pseudomonas sp. RW407" kingdom_taxid="2" kingdom="Bacteria" strain="RW407" assembly="GCA_003176655.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="360583066" product_acc="WP_189660349.1">
+<Product  accver="WP_189660349.1" name="LacI family DNA-binding transcriptional regulator" taxid="78327" slen="350" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_189660349.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JABWRK010000020.1" start="58613" stop="59665" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="BW18S1" assembly="GCF_014268925.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="387151349" product_acc="MBI6899278.1">
+<Product  accver="MBI6899278.1" name="LacI family DNA-binding transcriptional regulator" taxid="303" slen="340" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="MBI6899278.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="JAEHTF010000074.1" start="24619" stop="25641" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="PSB00041" assembly="GCA_016337265.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="353016772" product_acc="MBC3453247.1">
+<Product  accver="MBC3453247.1" name="LacI family DNA-binding transcriptional regulator" taxid="78327" slen="340" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="MBC3453247.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="JABWRK010000020.1" start="58643" stop="59665" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="BW18S1" assembly="GCA_014268925.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="390629969" product_acc="WP_203652434.1">
+<Product  accver="WP_203652434.1" name="LacI family DNA-binding transcriptional regulator" taxid="286" slen="340" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_203652434.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="286" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_AP023348.2" start="4039433" stop="4040455" strand="-" taxid="2749999" org="Pseudomonas sp. RtIB026" kingdom_taxid="2" kingdom="Bacteria" strain="RtIB026" assembly="GCF_016861355.2"/>
+<CDS  accver="NZ_JANCLM010000013.1" start="406" stop="1428" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="DVZ6" assembly="GCF_024259445.1"/>
+<CDS  accver="NZ_JAQYZG010000057.1" start="24770" stop="25792" strand="-" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="DVZ24" assembly="GCF_028728275.1"/></CDSList></Protein>
+<Protein  accver="BCJ06697.1" source="INSDC" name="transcriptional regulator" taxid="2749999" org="Pseudomonas sp. RtIB026" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="AP023348.2" start="4039433" stop="4040455" strand="-" taxid="2749999" org="Pseudomonas sp. RtIB026" kingdom_taxid="2" kingdom="Bacteria" strain="RtIB026" assembly="GCA_016861355.2"/></CDSList></Protein>
+<Protein  accver="MCP8633578.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JANCLM010000013.1" start="406" stop="1428" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="DVZ6" assembly="GCA_024259445.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="5" assmb_count="5"/></IPGReport>
+<IPGReport  ipg="604138654" product_acc="WP_267967106.1">
+<Product  accver="WP_267967106.1" name="LacI family DNA-binding transcriptional regulator" taxid="2908652" slen="350" org="Pseudomonas sp. AA27" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_267967106.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="2908652" org="Pseudomonas sp. AA27" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAKEDX010000013.1" start="499" stop="1551" strand="+" taxid="2908652" org="Pseudomonas sp. AA27" kingdom_taxid="2" kingdom="Bacteria" strain="AA27" assembly="GCF_021462485.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="579373580" product_acc="WP_260269791.1">
+<Product  accver="WP_260269791.1" name="LacI family DNA-binding transcriptional regulator" taxid="78327" slen="340" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_260269791.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP104107.1" start="3187783" stop="3188805" strand="-" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="PH4" assembly="GCF_025163535.1"/></CDSList></Protein>
+<Protein  accver="UWS64951.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP104107.1" start="3187783" stop="3188805" strand="-" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="PH4" assembly="GCA_025163535.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="147263233" product_acc="WP_084942406.1">
+<Product  accver="WP_084942406.1" name="LacI family DNA-binding transcriptional regulator" taxid="78327" slen="340" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_084942406.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_MRVJ01000019.1" start="151226" stop="152248" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="WS2-TSB-10" assembly="GCF_002099255.1"/></CDSList></Protein>
+<Protein  accver="ORT68462.1" source="INSDC" name="transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="MRVJ01000019.1" start="151226" stop="152248" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="WS2-TSB-10" assembly="GCA_002099255.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="516337463" product_acc="MCF1487293.1">
+<Product  accver="MCF1487293.1" name="LacI family DNA-binding transcriptional regulator" taxid="2908652" slen="340" org="Pseudomonas sp. AA27" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="MCF1487293.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2908652" org="Pseudomonas sp. AA27" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="JAKEDX010000013.1" start="529" stop="1551" strand="+" taxid="2908652" org="Pseudomonas sp. AA27" kingdom_taxid="2" kingdom="Bacteria" strain="AA27" assembly="GCA_021462485.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="352992497" product_acc="MBV4507378.1">
+<Product  accver="MBV4507378.1" name="LacI family DNA-binding transcriptional regulator" taxid="2745488" slen="340" org="Pseudomonas peradeniyensis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="MBV4507378.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2745488" org="Pseudomonas peradeniyensis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="JABWRJ020000004.1" start="218802" stop="219824" strand="-" taxid="2745488" org="Pseudomonas peradeniyensis" kingdom_taxid="2" kingdom="Bacteria" strain="BW13M1" assembly="GCA_014268935.2"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="189995964" product_acc="WP_110739820.1">
+<Product  accver="WP_110739820.1" name="LacI family DNA-binding transcriptional regulator" taxid="78327" slen="340" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_110739820.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_QJRP01000051.1" start="25501" stop="26523" strand="-" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="LB-090624" assembly="GCF_003205295.1"/></CDSList></Protein>
+<Protein  accver="PYC12016.1" source="INSDC" name="transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="QJRP01000051.1" start="25501" stop="26523" strand="-" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="LB-090624" assembly="GCA_003205295.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="160700613" product_acc="WP_096047920.1">
+<Product  accver="WP_096047920.1" name="LacI family DNA-binding transcriptional regulator" taxid="78327" slen="340" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_096047920.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP023299.1" start="104029" stop="105051" strand="-" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="BS011" assembly="GCF_002309555.1"/>
+<CDS  accver="NZ_CP024159.1" start="2597797" stop="2598819" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="PtA1" assembly="GCF_002736065.1"/>
+<CDS  accver="NZ_CP103054.1" start="2552984" stop="2554006" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="P33" assembly="GCF_024752495.1"/></CDSList></Protein>
+<Protein  accver="ATB63183.1" source="INSDC" name="transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP023299.1" start="104029" stop="105051" strand="-" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="BS011" assembly="GCA_002309555.1"/></CDSList></Protein>
+<Protein  accver="UVN46663.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP103054.1" start="2552984" stop="2554006" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="P33" assembly="GCA_024752495.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="5" assmb_count="5"/></IPGReport>
+<IPGReport  ipg="586102226" product_acc="WP_262974264.1">
+<Product  accver="WP_262974264.1" name="LacI family DNA-binding transcriptional regulator" taxid="2745488" slen="340" org="Pseudomonas peradeniyensis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_262974264.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="2745488" org="Pseudomonas peradeniyensis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAOSLB010000009.1" start="19535" stop="20557" strand="+" taxid="2745488" org="Pseudomonas peradeniyensis" kingdom_taxid="2" kingdom="Bacteria" strain="COR22" assembly="GCF_025599785.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="56693883" product_acc="WP_028692132.1">
+<Product  accver="WP_028692132.1" name="LacI family DNA-binding transcriptional regulator" taxid="286" slen="340" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_028692132.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="286" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_BQIL01000049.1" start="12723" stop="13745" strand="-" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="BML-PP044" assembly="GCF_021602505.1"/>
+<CDS  accver="NZ_BQIT01000053.1" start="647" stop="1669" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="BML-PP052" assembly="GCF_021602665.1"/>
+<CDS  accver="NZ_CP081966.1" start="2753307" stop="2754329" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="DSM 17497" assembly="GCF_019823065.1"/>
+<CDS  accver="NZ_CP095556.1" start="2617770" stop="2618792" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="923" assembly="GCF_023065975.1"/>
+<CDS  accver="NZ_JAMKDR010000096.1" start="455" stop="1477" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="CCBH28871" assembly="GCF_023572355.1"/>
+<CDS  accver="NZ_JAMKDY010000058.1" start="455" stop="1477" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="CCBH27450" assembly="GCF_023572565.1"/>
+<CDS  accver="NZ_JHYW01000038.1" start="722" stop="1744" strand="+" taxid="1403339" org="Pseudomonas mosselii DSM 17497" kingdom_taxid="2" kingdom="Bacteria" strain="DSM 17497" assembly="GCF_000621225.1"/>
+<CDS  accver="NZ_LSLE01000024.1" start="463" stop="1485" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="BW11M1" assembly="GCF_001562525.1"/>
+<CDS  accver="NZ_LZCV01000034.1" start="12614" stop="13636" strand="-" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="Gil3" assembly="GCF_001709215.1"/>
+<CDS  accver="NZ_NIBE01000115.1" start="542" stop="1564" strand="+" taxid="2006091" org="Pseudomonas sp. DrBHI1" kingdom_taxid="2" kingdom="Bacteria" strain="DrBHI1" assembly="GCF_002205115.1"/></CDSList></Protein>
+<Protein  accver="KXG80467.1" source="INSDC" name="transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="LSLE01000024.1" start="463" stop="1485" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="BW11M1" assembly="GCA_001562525.1"/></CDSList></Protein>
+<Protein  accver="MBA6068529.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JACGDE010000034.1" start="1206" stop="2228" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="14802" assembly="GCA_014062065.1"/></CDSList></Protein>
+<Protein  accver="MBC3459415.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JABWRL010000050.1" start="12667" stop="13689" strand="-" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="RW5S2" assembly="GCA_014268895.1"/></CDSList></Protein>
+<Protein  accver="MBH3310639.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JADTVX010000055.1" start="33770" stop="34792" strand="-" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="PSB00034" assembly="GCA_016008825.1"/></CDSList></Protein>
+<Protein  accver="MBH3325749.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JADTVY010000036.1" start="33771" stop="34793" strand="-" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="PSB00033" assembly="GCA_016008855.1"/></CDSList></Protein>
+<Protein  accver="MBS9763977.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAGFPB010000089.1" start="546" stop="1568" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="PAH16" assembly="GCA_018457075.1"/></CDSList></Protein>
+<Protein  accver="MCE0888469.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSRJ010000049.1" start="532" stop="1554" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI4849_14" assembly="GCA_021283375.1"/></CDSList></Protein>
+<Protein  accver="MCL8302873.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAMKDR010000096.1" start="455" stop="1477" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="CCBH28871" assembly="GCA_023572355.1"/></CDSList></Protein>
+<Protein  accver="MCL8342513.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAMKDY010000058.1" start="455" stop="1477" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="CCBH27450" assembly="GCA_023572565.1"/></CDSList></Protein>
+<Protein  accver="ODB38356.1" source="INSDC" name="transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="LZCV01000034.1" start="12614" stop="13636" strand="-" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="Gil3" assembly="GCA_001709215.1"/></CDSList></Protein>
+<Protein  accver="OWQ34031.1" source="INSDC" name="transcriptional regulator" taxid="2006091" org="Pseudomonas sp. DrBHI1" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="NIBE01000115.1" start="542" stop="1564" strand="+" taxid="2006091" org="Pseudomonas sp. DrBHI1" kingdom_taxid="2" kingdom="Bacteria" strain="DrBHI1" assembly="GCA_002205115.1"/></CDSList></Protein>
+<Protein  accver="QZP29166.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP081966.1" start="2753307" stop="2754329" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="DSM 17497" assembly="GCA_019823065.1"/></CDSList></Protein>
+<Protein  accver="UPF06354.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP095556.1" start="2617770" stop="2618792" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="923" assembly="GCA_023065975.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="14" nuc_count="23" assmb_count="23"/></IPGReport>
+<IPGReport  ipg="586083665" product_acc="WP_262951634.1">
+<Product  accver="WP_262951634.1" name="LacI family DNA-binding transcriptional regulator" taxid="2745488" slen="340" org="Pseudomonas peradeniyensis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_262951634.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="2745488" org="Pseudomonas peradeniyensis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAOSLA010000018.1" start="76844" stop="77866" strand="+" taxid="2745488" org="Pseudomonas peradeniyensis" kingdom_taxid="2" kingdom="Bacteria" strain="COR51" assembly="GCF_025599755.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="352986556" product_acc="MBC3434592.1">
+<Product  accver="MBC3434592.1" name="LacI family DNA-binding transcriptional regulator" taxid="2745489" slen="340" org="Pseudomonas sp. BW16M2" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="MBC3434592.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2745489" org="Pseudomonas sp. BW16M2" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="JABWRI010000002.1" start="258104" stop="259126" strand="-" taxid="2745489" org="Pseudomonas sp. BW16M2" kingdom_taxid="2" kingdom="Bacteria" strain="BW16M2" assembly="GCA_014268865.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="512365470" product_acc="MCE0915736.1">
+<Product  accver="MCE0915736.1" name="LacI family DNA-binding transcriptional regulator" taxid="2903147" slen="340" org="Pseudomonas sp. NMI760_13" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="MCE0915736.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2903147" org="Pseudomonas sp. NMI760_13" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="JAJSRC010000013.1" start="118605" stop="119627" strand="-" taxid="2903147" org="Pseudomonas sp. NMI760_13" kingdom_taxid="2" kingdom="Bacteria" strain="NMI760_13" assembly="GCA_021283245.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="104310838" product_acc="WP_062573880.1">
+<Product  accver="WP_062573880.1" name="LacI family DNA-binding transcriptional regulator" taxid="303" slen="340" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_062573880.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP014343.1" start="2576645" stop="2577667" strand="+" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="1A00316" assembly="GCF_001515585.1"/></CDSList></Protein>
+<Protein  accver="AMK30947.1" source="INSDC" name="2-ketogluconate utilization repressor PtxS" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP014343.1" start="2576645" stop="2577667" strand="+" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="1A00316" assembly="GCA_001515585.2"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="87695268" product_acc="WP_050705807.1">
+<Product  accver="WP_050705807.1" name="LacI family DNA-binding transcriptional regulator" taxid="196821" slen="340" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_050705807.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="196821" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP081016.1" start="2466217" stop="2467239" strand="+" taxid="2866626" org="Pseudomonas sp. 2hn" kingdom_taxid="2" kingdom="Bacteria" assembly="GCF_019646095.1"/>
+<CDS  accver="NZ_JHEE01000097.1" start="21133" stop="22155" strand="-" taxid="1478142" org="Pseudomonas sp. 250J" kingdom_taxid="2" kingdom="Bacteria" strain="250J" assembly="GCF_001259595.1"/></CDSList></Protein>
+<Protein  accver="KNX77762.1" source="INSDC" name="transcriptional regulator" taxid="1478142" org="Pseudomonas sp. 250J" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JHEE01000097.1" start="21133" stop="22155" strand="-" taxid="1478142" org="Pseudomonas sp. 250J" kingdom_taxid="2" kingdom="Bacteria" strain="250J" assembly="GCA_001259595.1"/></CDSList></Protein>
+<Protein  accver="QZA56581.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2866626" org="Pseudomonas sp. 2hn" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP081016.1" start="2466217" stop="2467239" strand="+" taxid="2866626" org="Pseudomonas sp. 2hn" kingdom_taxid="2" kingdom="Bacteria" assembly="GCA_019646095.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="4" assmb_count="4"/></IPGReport>
+<IPGReport  ipg="531212860" product_acc="WP_241413562.1">
+<Product  accver="WP_241413562.1" name="LacI family DNA-binding transcriptional regulator" taxid="78327" slen="340" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_241413562.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAKZGW010000093.1" start="459" stop="1481" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="9-1" assembly="GCF_022557355.1"/></CDSList></Protein>
+<Protein  accver="MCH7420910.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAKZGW010000093.1" start="459" stop="1481" strand="+" taxid="78327" org="Pseudomonas mosselii" kingdom_taxid="2" kingdom="Bacteria" strain="9-1" assembly="GCA_022557355.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="62732560" product_acc="WP_038706251.1">
+<Product  accver="WP_038706251.1" name="LacI family DNA-binding transcriptional regulator" taxid="1306993" slen="340" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_038706251.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="1306993" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP009365.1" start="2382201" stop="2383223" strand="-" taxid="1306993" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria" strain="SJ10" assembly="GCF_000498975.2"/></CDSList></Protein>
+<Protein  accver="AIN58855.1" source="INSDC" name="transcriptional regulator" taxid="1306993" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP009365.1" start="2382201" stop="2383223" strand="-" taxid="1306993" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria" strain="SJ10" assembly="GCA_000498975.2"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="126455256" product_acc="WP_094012526.1">
+<Product  accver="WP_094012526.1" name="LacI family DNA-binding transcriptional regulator" taxid="286" slen="340" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_094012526.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="286" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP026386.1" start="56045" stop="57067" strand="+" taxid="1636610" org="Pseudomonas sp. PONIH3" kingdom_taxid="2" kingdom="Bacteria" strain="PONIH3" assembly="GCF_002934345.1"/>
+<CDS  accver="NZ_FOEQ01000018.1" start="20028" stop="21050" strand="-" taxid="1306993" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria" strain="LMG 27941" assembly="GCF_900110655.1"/></CDSList></Protein>
+<Protein  accver="AUY31747.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="1636610" org="Pseudomonas sp. PONIH3" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP026386.1" start="56045" stop="57067" strand="+" taxid="1636610" org="Pseudomonas sp. PONIH3" kingdom_taxid="2" kingdom="Bacteria" strain="PONIH3" assembly="GCA_002934345.1"/></CDSList></Protein>
+<Protein  accver="SES04199.1" source="INSDC" name="transcriptional regulator, LacI family" taxid="1306993" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="FOEQ01000018.1" start="20028" stop="21050" strand="-" taxid="1306993" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria" strain="LMG 27941" assembly="GCA_900110655.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="4" assmb_count="4"/></IPGReport>
+<IPGReport  ipg="468417103" product_acc="WP_217869479.1">
+<Product  accver="WP_217869479.1" name="LacI family DNA-binding transcriptional regulator" taxid="2842354" slen="340" org="Pseudomonas maumuensis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_217869479.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="2842354" org="Pseudomonas maumuensis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP077077.1" start="2524720" stop="2525742" strand="+" taxid="2842354" org="Pseudomonas maumuensis" kingdom_taxid="2" kingdom="Bacteria" strain="COW77" assembly="GCF_019139675.1"/></CDSList></Protein>
+<Protein  accver="QXH58794.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2842354" org="Pseudomonas maumuensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP077077.1" start="2524720" stop="2525742" strand="+" taxid="2842354" org="Pseudomonas maumuensis" kingdom_taxid="2" kingdom="Bacteria" strain="COW77" assembly="GCA_019139675.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="574938338" product_acc="WP_258701533.1">
+<Product  accver="WP_258701533.1" name="LacI family DNA-binding transcriptional regulator" taxid="2895488" slen="340" org="Pseudomonas sp. B21-044" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_258701533.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="2895488" org="Pseudomonas sp. B21-044" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP087172.1" start="2529760" stop="2530782" strand="+" taxid="2895488" org="Pseudomonas sp. B21-044" kingdom_taxid="2" kingdom="Bacteria" strain="B21-044" assembly="GCF_024748735.1"/></CDSList></Protein>
+<Protein  accver="UVL21485.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2895488" org="Pseudomonas sp. B21-044" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP087172.1" start="2529760" stop="2530782" strand="+" taxid="2895488" org="Pseudomonas sp. B21-044" kingdom_taxid="2" kingdom="Bacteria" strain="B21-044" assembly="GCA_024748735.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="455103640" product_acc="WP_214501761.1">
+<Product  accver="WP_214501761.1" name="LacI family DNA-binding transcriptional regulator" taxid="2834406" slen="340" org="Pseudomonas sp. RC3H12" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_214501761.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="2834406" org="Pseudomonas sp. RC3H12" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP075595.1" start="2331153" stop="2332175" strand="-" taxid="2834406" org="Pseudomonas sp. RC3H12" kingdom_taxid="2" kingdom="Bacteria" strain="RC3H12" assembly="GCF_018596375.1"/></CDSList></Protein>
+<Protein  accver="QWA31295.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2834406" org="Pseudomonas sp. RC3H12" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP075595.1" start="2331153" stop="2332175" strand="-" taxid="2834406" org="Pseudomonas sp. RC3H12" kingdom_taxid="2" kingdom="Bacteria" strain="RC3H12" assembly="GCA_018596375.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="175708162" product_acc="WP_102685246.1">
+<Product  accver="WP_102685246.1" name="LacI family DNA-binding transcriptional regulator" taxid="196821" slen="340" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_102685246.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="196821" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_POHX01000062.1" start="548" stop="1570" strand="+" taxid="2070676" org="Pseudomonas sp. DP16D-E2" kingdom_taxid="2" kingdom="Bacteria" strain="DP16D-E2" assembly="GCF_002884365.1"/>
+<CDS  accver="NZ_POHY01000074.1" start="19958" stop="20980" strand="-" taxid="2070677" org="Pseudomonas sp. FW305-42" kingdom_taxid="2" kingdom="Bacteria" strain="FW305-42" assembly="GCF_002883975.1"/>
+<CDS  accver="NZ_POHZ01000059.1" start="516" stop="1538" strand="+" taxid="2070678" org="Pseudomonas sp. MPR-R1B" kingdom_taxid="2" kingdom="Bacteria" strain="MPR-R1B" assembly="GCF_002884015.1"/>
+<CDS  accver="NZ_POIA01000001.1" start="307476" stop="308498" strand="-" taxid="2070679" org="Pseudomonas sp. GW531-E2" kingdom_taxid="2" kingdom="Bacteria" strain="GW531-E2" assembly="GCF_002883995.1"/>
+<CDS  accver="NZ_POIB01000057.1" start="508" stop="1530" strand="+" taxid="2070680" org="Pseudomonas sp. FW305-127" kingdom_taxid="2" kingdom="Bacteria" strain="FW305-127" assembly="GCF_002884395.1"/>
+<CDS  accver="NZ_POIC01000005.1" start="190395" stop="191417" strand="-" taxid="2070681" org="Pseudomonas sp. FW305-17" kingdom_taxid="2" kingdom="Bacteria" strain="FW305-17" assembly="GCF_002884415.1"/></CDSList></Protein>
+<Protein  accver="PMZ88688.1" source="INSDC" name="transcriptional regulator" taxid="2070677" org="Pseudomonas sp. FW305-42" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="POHY01000074.1" start="19958" stop="20980" strand="-" taxid="2070677" org="Pseudomonas sp. FW305-42" kingdom_taxid="2" kingdom="Bacteria" strain="FW305-42" assembly="GCA_002883975.1"/></CDSList></Protein>
+<Protein  accver="PNA19631.1" source="INSDC" name="transcriptional regulator" taxid="2070678" org="Pseudomonas sp. MPR-R1B" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="POHZ01000059.1" start="516" stop="1538" strand="+" taxid="2070678" org="Pseudomonas sp. MPR-R1B" kingdom_taxid="2" kingdom="Bacteria" strain="MPR-R1B" assembly="GCA_002884015.1"/></CDSList></Protein>
+<Protein  accver="PNB19739.1" source="INSDC" name="transcriptional regulator" taxid="2070676" org="Pseudomonas sp. DP16D-E2" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="POHX01000062.1" start="548" stop="1570" strand="+" taxid="2070676" org="Pseudomonas sp. DP16D-E2" kingdom_taxid="2" kingdom="Bacteria" strain="DP16D-E2" assembly="GCA_002884365.1"/></CDSList></Protein>
+<Protein  accver="PNB44632.1" source="INSDC" name="transcriptional regulator" taxid="2070681" org="Pseudomonas sp. FW305-17" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="POIC01000005.1" start="190395" stop="191417" strand="-" taxid="2070681" org="Pseudomonas sp. FW305-17" kingdom_taxid="2" kingdom="Bacteria" strain="FW305-17" assembly="GCA_002884415.1"/></CDSList></Protein>
+<Protein  accver="PNB64859.1" source="INSDC" name="transcriptional regulator" taxid="2070679" org="Pseudomonas sp. GW531-E2" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="POIA01000001.1" start="307476" stop="308498" strand="-" taxid="2070679" org="Pseudomonas sp. GW531-E2" kingdom_taxid="2" kingdom="Bacteria" strain="GW531-E2" assembly="GCA_002883995.1"/></CDSList></Protein>
+<Protein  accver="PNB65219.1" source="INSDC" name="transcriptional regulator" taxid="2070680" org="Pseudomonas sp. FW305-127" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="POIB01000057.1" start="508" stop="1530" strand="+" taxid="2070680" org="Pseudomonas sp. FW305-127" kingdom_taxid="2" kingdom="Bacteria" strain="FW305-127" assembly="GCA_002884395.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="7" nuc_count="12" assmb_count="12"/></IPGReport>
+<IPGReport  ipg="562147516" product_acc="WP_253097066.1">
+<Product  accver="WP_253097066.1" name="substrate-binding domain-containing protein" taxid="196821" slen="340" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_253097066.1" source="RefSeq" name="substrate-binding domain-containing protein" taxid="196821" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAMYBV010000025.1" start="28684" stop="29706" strand="-" taxid="2956728" org="Pseudomonas sp. VA159-2" kingdom_taxid="2" kingdom="Bacteria" strain="VA159-2" assembly="GCF_024126635.1"/>
+<CDS  accver="NZ_JAMYCB010000002.1" start="163274" stop="164296" strand="+" taxid="488747" org="Pseudomonas sp. 1" kingdom_taxid="2" kingdom="Bacteria" strain="VA159-1" assembly="GCF_024127465.1"/></CDSList></Protein>
+<Protein  accver="MCO7518491.1" source="INSDC" name="substrate-binding domain-containing protein" taxid="488747" org="Pseudomonas sp. 1" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAMYCB010000002.1" start="163274" stop="164296" strand="+" taxid="488747" org="Pseudomonas sp. 1" kingdom_taxid="2" kingdom="Bacteria" strain="VA159-1" assembly="GCA_024127465.1"/></CDSList></Protein>
+<Protein  accver="MCO7542288.1" source="INSDC" name="substrate-binding domain-containing protein" taxid="2956728" org="Pseudomonas sp. VA159-2" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAMYBV010000025.1" start="28684" stop="29706" strand="-" taxid="2956728" org="Pseudomonas sp. VA159-2" kingdom_taxid="2" kingdom="Bacteria" strain="VA159-2" assembly="GCA_024126635.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="4" assmb_count="4"/></IPGReport>
+<IPGReport  ipg="387158147" product_acc="MBI6955193.1">
+<Product  accver="MBI6955193.1" name="LacI family DNA-binding transcriptional regulator" taxid="1649877" slen="340" org="Pseudomonas sp. CCOS 191" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="MBI6955193.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="1649877" org="Pseudomonas sp. CCOS 191" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="JAEHTB010000050.1" start="18062" stop="19084" strand="+" taxid="1649877" org="Pseudomonas sp. CCOS 191" kingdom_taxid="2" kingdom="Bacteria" strain="PSB00046" assembly="GCA_016337145.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="82075606" product_acc="WP_046855373.1">
+<Product  accver="WP_046855373.1" name="LacI family DNA-binding transcriptional regulator" taxid="1649877" slen="340" org="Pseudomonas sp. CCOS 191" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_046855373.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="1649877" org="Pseudomonas sp. CCOS 191" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_LN847264.1" start="2614397" stop="2615419" strand="+" taxid="1649877" org="Pseudomonas sp. CCOS 191" kingdom_taxid="2" kingdom="Bacteria" strain="CCOS 191" assembly="GCF_001007005.1"/></CDSList></Protein>
+<Protein  accver="CRI56882.1" source="INSDC" name="transcriptional regulator PtxS" taxid="1649877" org="Pseudomonas sp. CCOS 191" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="LN847264.1" start="2614397" stop="2615419" strand="+" taxid="1649877" org="Pseudomonas sp. CCOS 191" kingdom_taxid="2" kingdom="Bacteria" strain="CCOS 191" assembly="GCA_001007005.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="189976015" product_acc="WP_110704020.1">
+<Product  accver="WP_110704020.1" name="LacI family DNA-binding transcriptional regulator" taxid="286" slen="340" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_110704020.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="286" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_QJRO01000026.1" start="37517" stop="38539" strand="+" taxid="1306993" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria" strain="LBp-160603" assembly="GCF_003205305.1"/>
+<CDS  accver="NZ_QKZD01000015.1" start="41023" stop="42045" strand="+" taxid="2183926" org="Pseudomonas sp. 2848" kingdom_taxid="2" kingdom="Bacteria" strain="2848" assembly="GCF_003253945.1"/></CDSList></Protein>
+<Protein  accver="PYB74814.1" source="INSDC" name="transcriptional regulator" taxid="1306993" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="QJRO01000026.1" start="37517" stop="38539" strand="+" taxid="1306993" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria" strain="LBp-160603" assembly="GCA_003205305.1"/></CDSList></Protein>
+<Protein  accver="PZW74534.1" source="INSDC" name="LacI family transcriptional regulator" taxid="2183926" org="Pseudomonas sp. 2848" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="QKZD01000015.1" start="41023" stop="42045" strand="+" taxid="2183926" org="Pseudomonas sp. 2848" kingdom_taxid="2" kingdom="Bacteria" strain="2848" assembly="GCA_003253945.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="4" assmb_count="4"/></IPGReport>
+<IPGReport  ipg="190008203" product_acc="WP_110605640.1">
+<Product  accver="WP_110605640.1" name="LacI family DNA-binding transcriptional regulator" taxid="1306993" slen="340" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_110605640.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="1306993" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_QJRQ01000027.1" start="19257" stop="20279" strand="-" taxid="1306993" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria" strain="57B-090714" assembly="GCF_003205475.1"/></CDSList></Protein>
+<Protein  accver="PYC33721.1" source="INSDC" name="transcriptional regulator" taxid="1306993" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="QJRQ01000027.1" start="19257" stop="20279" strand="-" taxid="1306993" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria" strain="57B-090714" assembly="GCA_003205475.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="256394099" product_acc="WP_139670639.1">
+<Product  accver="WP_139670639.1" name="LacI family DNA-binding transcriptional regulator" taxid="196821" slen="340" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_139670639.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="196821" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP087190.1" start="2530680" stop="2531702" strand="+" taxid="2895477" org="Pseudomonas sp. B21-023" kingdom_taxid="2" kingdom="Bacteria" strain="B21-023" assembly="GCF_024749165.1"/>
+<CDS  accver="NZ_OLMN01000061.1" start="19921" stop="20943" strand="-" taxid="2093746" org="Pseudomonas sp. F16(2018)" kingdom_taxid="2" kingdom="Bacteria" assembly="GCF_900291905.1"/></CDSList></Protein>
+<Protein  accver="UVM18888.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2895477" org="Pseudomonas sp. B21-023" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP087190.1" start="2530680" stop="2531702" strand="+" taxid="2895477" org="Pseudomonas sp. B21-023" kingdom_taxid="2" kingdom="Bacteria" strain="B21-023" assembly="GCA_024749165.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="3" assmb_count="3"/></IPGReport>
+<IPGReport  ipg="468400256" product_acc="WP_217847667.1">
+<Product  accver="WP_217847667.1" name="substrate-binding domain-containing protein" taxid="2842357" slen="340" org="Pseudomonas muyukensis" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_217847667.1" source="RefSeq" name="substrate-binding domain-containing protein" taxid="2842357" org="Pseudomonas muyukensis" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP077073.1" start="3056384" stop="3057406" strand="+" taxid="2842357" org="Pseudomonas muyukensis" kingdom_taxid="2" kingdom="Bacteria" strain="COW39" assembly="GCF_019139535.1"/></CDSList></Protein>
+<Protein  accver="QXH33288.1" source="INSDC" name="substrate-binding domain-containing protein" taxid="2842357" org="Pseudomonas muyukensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP077073.1" start="3056384" stop="3057406" strand="+" taxid="2842357" org="Pseudomonas muyukensis" kingdom_taxid="2" kingdom="Bacteria" strain="COW39" assembly="GCA_019139535.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="292751358" product_acc="MCE0824145.1">
+<Product  accver="MCE0824145.1" name="LacI family DNA-binding transcriptional regulator" taxid="1306993" slen="340" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="MCE0824145.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="1306993" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="JAJSRS010000023.1" start="20227" stop="21249" strand="-" taxid="1306993" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria" strain="NMI4264_15" assembly="GCA_021283165.1"/></CDSList></Protein>
+<Protein  accver="NBK41123.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="1306993" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="SDSP01000057.1" start="35612" stop="36634" strand="+" taxid="1306993" org="Pseudomonas soli" kingdom_taxid="2" kingdom="Bacteria" strain="BCW_7429" assembly="GCA_009914935.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="597352154" product_acc="WP_267303173.1">
+<Product  accver="WP_267303173.1" name="LacI family DNA-binding transcriptional regulator" taxid="2986525" slen="340" org="Pseudomonas sp. BJa3" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_267303173.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="2986525" org="Pseudomonas sp. BJa3" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAOXMC010000027.1" start="19429" stop="20451" strand="-" taxid="2986525" org="Pseudomonas sp. BJa3" kingdom_taxid="2" kingdom="Bacteria" strain="BJa3" assembly="GCF_026343815.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="353004945" product_acc="WP_186654277.1">
+<Product  accver="WP_186654277.1" name="substrate-binding domain-containing protein" taxid="2745490" slen="340" org="Pseudomonas xantholysinigenes" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_186654277.1" source="RefSeq" name="substrate-binding domain-containing protein" taxid="2745490" org="Pseudomonas xantholysinigenes" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP077095.1" start="3280167" stop="3281189" strand="-" taxid="2745490" org="Pseudomonas xantholysinigenes" kingdom_taxid="2" kingdom="Bacteria" strain="RW9S1A" assembly="GCF_014268885.2"/></CDSList></Protein>
+<Protein  accver="QXI36562.1" source="INSDC" name="substrate-binding domain-containing protein" taxid="2745490" org="Pseudomonas xantholysinigenes" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP077095.1" start="3280167" stop="3281189" strand="-" taxid="2745490" org="Pseudomonas xantholysinigenes" kingdom_taxid="2" kingdom="Bacteria" strain="RW9S1A" assembly="GCA_014268885.2"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="241596687" product_acc="WP_134692074.1">
+<Product  accver="WP_134692074.1" name="substrate-binding domain-containing protein" taxid="2559075" slen="340" org="Pseudomonas sp. RIT623" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_134692074.1" source="RefSeq" name="substrate-binding domain-containing protein" taxid="2559075" org="Pseudomonas sp. RIT623" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_SOZA01000018.1" start="79362" stop="80384" strand="+" taxid="2559075" org="Pseudomonas sp. RIT623" kingdom_taxid="2" kingdom="Bacteria" strain="RIT623" assembly="GCF_004519305.1"/></CDSList></Protein>
+<Protein  accver="TFF39510.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2559075" org="Pseudomonas sp. RIT623" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="SOZA01000018.1" start="79362" stop="80384" strand="+" taxid="2559075" org="Pseudomonas sp. RIT623" kingdom_taxid="2" kingdom="Bacteria" strain="RIT623" assembly="GCA_004519305.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="95742844" product_acc="WP_056796981.1">
+<Product  accver="WP_056796981.1" name="transcriptional regulator PtxS" taxid="1736226" slen="339" org="Pseudomonas sp. Leaf58" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_056796981.1" source="RefSeq" name="transcriptional regulator PtxS" taxid="1736226" org="Pseudomonas sp. Leaf58" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP032677.1" start="2585038" stop="2586057" strand="+" taxid="1736226" org="Pseudomonas sp. Leaf58" kingdom_taxid="2" kingdom="Bacteria" strain="Leaf58" assembly="GCF_003627215.1"/>
+<CDS  accver="NZ_LMLL01000003.1" start="2259" stop="3278" strand="+" taxid="1736226" org="Pseudomonas sp. Leaf58" kingdom_taxid="2" kingdom="Bacteria" strain="Leaf58" assembly="GCF_001422615.1"/></CDSList></Protein>
+<Protein  accver="AYG44974.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="1736226" org="Pseudomonas sp. Leaf58" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP032677.1" start="2585038" stop="2586057" strand="+" taxid="1736226" org="Pseudomonas sp. Leaf58" kingdom_taxid="2" kingdom="Bacteria" strain="Leaf58" assembly="GCA_003627215.1"/></CDSList></Protein>
+<Protein  accver="KQN65115.1" source="INSDC" name="transcriptional regulator" taxid="1736226" org="Pseudomonas sp. Leaf58" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="LMLL01000003.1" start="2259" stop="3278" strand="+" taxid="1736226" org="Pseudomonas sp. Leaf58" kingdom_taxid="2" kingdom="Bacteria" strain="Leaf58" assembly="GCA_001422615.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="4" assmb_count="4"/></IPGReport>
+<IPGReport  ipg="148576766" product_acc="WP_085679978.1">
+<Product  accver="WP_085679978.1" name="LacI family DNA-binding transcriptional regulator" taxid="196821" slen="340" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_085679978.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="196821" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_NEHD01000019.1" start="69181" stop="70203" strand="+" taxid="1981674" org="Pseudomonas sp. R9(2017)" kingdom_taxid="2" kingdom="Bacteria" strain="R9(2017)" assembly="GCF_002113325.1"/>
+<CDS  accver="NZ_NEHW01000021.1" start="69181" stop="70203" strand="+" taxid="1981693" org="Pseudomonas sp. R28(2017)" kingdom_taxid="2" kingdom="Bacteria" strain="R28(2017)" assembly="GCF_002112505.1"/>
+<CDS  accver="NZ_NEIG01000029.1" start="276" stop="1298" strand="+" taxid="1981703" org="Pseudomonas sp. R17(2017)" kingdom_taxid="2" kingdom="Bacteria" strain="R17(2017)" assembly="GCF_002112665.1"/>
+<CDS  accver="NZ_NEIJ01000033.1" start="276" stop="1298" strand="+" taxid="1981706" org="Pseudomonas sp. R14(2017)" kingdom_taxid="2" kingdom="Bacteria" strain="R14(2017)" assembly="GCF_002113525.1"/>
+<CDS  accver="NZ_NEIL01000019.1" start="69181" stop="70203" strand="+" taxid="1981708" org="Pseudomonas sp. R11(2017)" kingdom_taxid="2" kingdom="Bacteria" strain="R11(2017)" assembly="GCF_002112695.1"/>
+<CDS  accver="NZ_NEIM01000064.1" start="276" stop="1298" strand="+" taxid="1981709" org="Pseudomonas sp. R10(2017)" kingdom_taxid="2" kingdom="Bacteria" strain="R10(2017)" assembly="GCF_002113545.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="6" assmb_count="6"/></IPGReport>
+<IPGReport  ipg="426012472" product_acc="MBO9551016.1">
+<Product  accver="MBO9551016.1" name="LacI family DNA-binding transcriptional regulator" taxid="306" slen="340" org="Pseudomonas sp." kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="MBO9551016.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="306" org="Pseudomonas sp." kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="JAGIBG010000023.1" start="11904" stop="12926" strand="-" taxid="306" org="Pseudomonas sp." kingdom_taxid="2" kingdom="Bacteria" assembly="GCA_017744435.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="277856084" product_acc="WP_152957378.1">
+<Product  accver="WP_152957378.1" name="LacI family DNA-binding transcriptional regulator" taxid="1366632" slen="340" org="Pseudomonas sp. MN1F" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_152957378.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="1366632" org="Pseudomonas sp. MN1F" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_VZII01000037.1" start="29262" stop="30284" strand="+" taxid="1366632" org="Pseudomonas sp. MN1F" kingdom_taxid="2" kingdom="Bacteria" strain="MN1F" assembly="GCF_009391885.1"/></CDSList></Protein>
+<Protein  accver="MQG94635.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="1366632" org="Pseudomonas sp. MN1F" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="VZII01000037.1" start="29262" stop="30284" strand="+" taxid="1366632" org="Pseudomonas sp. MN1F" kingdom_taxid="2" kingdom="Bacteria" strain="MN1F" assembly="GCA_009391885.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="102941030" product_acc="WP_060499916.1">
+<Product  accver="WP_060499916.1" name="transcriptional regulator PtxS" taxid="286" slen="339" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_060499916.1" source="RefSeq" name="transcriptional regulator PtxS" taxid="286" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_BCBJ01000083.1" start="54305" stop="55324" strand="+" taxid="1661048" org="Pseudomonas sp. NBRC 111133" kingdom_taxid="2" kingdom="Bacteria" strain="NBRC 111133" assembly="GCF_001320605.1"/>
+<CDS  accver="NZ_CP043395.1" start="2902327" stop="2903346" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="170918607" assembly="GCF_011045675.1"/>
+<CDS  accver="NZ_CP043396.1" start="2901218" stop="2902237" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="170620603RE" assembly="GCF_011045695.1"/>
+<CDS  accver="NZ_JABWSB020000022.1" start="20848" stop="21867" strand="-" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" strain="RW1P2" assembly="GCF_014269245.2"/>
+<CDS  accver="NZ_JACGDB010000003.1" start="608366" stop="609385" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="10963" assembly="GCF_014062225.1"/>
+<CDS  accver="NZ_JAIWWB010000185.1" start="5053" stop="6072" strand="-" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" strain="5344" assembly="GCF_020251485.1"/>
+<CDS  accver="NZ_JAJSQW010000008.1" start="228413" stop="229432" strand="+" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" strain="NMI3456_12" assembly="GCF_021283125.1"/>
+<CDS  accver="NZ_JAJSRD010000008.1" start="228413" stop="229432" strand="+" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" strain="NMI3044_13" assembly="GCF_021283255.1"/>
+<CDS  accver="NZ_JALKHD010000008.1" start="8115" stop="9134" strand="-" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" strain="T2904" assembly="GCF_024520455.1"/>
+<CDS  accver="NZ_JALKHE010000002.1" start="660219" stop="661238" strand="+" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" strain="T2909-1" assembly="GCF_024520475.1"/>
+<CDS  accver="NZ_JALKHM010000010.1" start="228488" stop="229507" strand="+" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" strain="T103" assembly="GCF_024520675.1"/>
+<CDS  accver="NZ_JALKHO010000008.1" start="228413" stop="229432" strand="+" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" strain="T363" assembly="GCF_024520725.1"/>
+<CDS  accver="NZ_JALPNR010000008.1" start="36243" stop="37262" strand="-" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" strain="T362" assembly="GCF_024520745.1"/>
+<CDS  accver="NZ_WEIK01000003.1" start="138884" stop="139903" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="597/14" assembly="GCF_009746725.1"/></CDSList></Protein>
+<Protein  accver="MBA6137146.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JACGDB010000003.1" start="608366" stop="609385" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="10963" assembly="GCA_014062225.1"/></CDSList></Protein>
+<Protein  accver="MBV4518114.1" source="INSDC" name="transcriptional regulator PtxS" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JABWSB020000022.1" start="20848" stop="21867" strand="-" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" strain="RW1P2" assembly="GCA_014269245.2"/></CDSList></Protein>
+<Protein  accver="MCA4078395.1" source="INSDC" name="transcriptional regulator PtxS" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAIWWB010000185.1" start="5053" stop="6072" strand="-" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" strain="5344" assembly="GCA_020251485.1"/></CDSList></Protein>
+<Protein  accver="MCE0910579.1" source="INSDC" name="transcriptional regulator PtxS" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSRD010000008.1" start="228413" stop="229432" strand="+" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" strain="NMI3044_13" assembly="GCA_021283255.1"/></CDSList></Protein>
+<Protein  accver="MCE0950018.1" source="INSDC" name="transcriptional regulator PtxS" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSQW010000008.1" start="228413" stop="229432" strand="+" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" strain="NMI3456_12" assembly="GCA_021283125.1"/></CDSList></Protein>
+<Protein  accver="MVF48655.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="WEIK01000003.1" start="138884" stop="139903" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="597/14" assembly="GCA_009746725.1"/></CDSList></Protein>
+<Protein  accver="QIG18780.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP043395.1" start="2902327" stop="2903346" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="170918607" assembly="GCA_011045675.1"/></CDSList></Protein>
+<Protein  accver="QIG24035.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP043396.1" start="2901218" stop="2902237" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="170620603RE" assembly="GCA_011045695.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="9" nuc_count="22" assmb_count="22"/></IPGReport>
+<IPGReport  ipg="563884242" product_acc="WP_254479980.1">
+<Product  accver="WP_254479980.1" name="LacI family DNA-binding transcriptional regulator" taxid="294" slen="340" org="Pseudomonas fluorescens" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_254479980.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="294" org="Pseudomonas fluorescens" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP100660.1" start="3055848" stop="3056870" strand="-" taxid="294" org="Pseudomonas fluorescens" kingdom_taxid="2" kingdom="Bacteria" strain="ZL22" assembly="GCF_024266685.1"/></CDSList></Protein>
+<Protein  accver="UTL88600.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="294" org="Pseudomonas fluorescens" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP100660.1" start="3055848" stop="3056870" strand="-" taxid="294" org="Pseudomonas fluorescens" kingdom_taxid="2" kingdom="Bacteria" strain="ZL22" assembly="GCA_024266685.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="557035845" product_acc="WP_261944194.1">
+<Product  accver="WP_261944194.1" name="LacI family DNA-binding transcriptional regulator" taxid="2944234" slen="340" org="Pseudomonas sp. LRP2-20" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_261944194.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="2944234" org="Pseudomonas sp. LRP2-20" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_AP025944.1" start="2958661" stop="2959683" strand="+" taxid="2944234" org="Pseudomonas sp. LRP2-20" kingdom_taxid="2" kingdom="Bacteria" strain="LRP2-20" assembly="GCF_024349685.1"/></CDSList></Protein>
+<Protein  accver="BDM22807.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2944234" org="Pseudomonas sp. LRP2-20" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="AP025944.1" start="2958661" stop="2959683" strand="+" taxid="2944234" org="Pseudomonas sp. LRP2-20" kingdom_taxid="2" kingdom="Bacteria" strain="LRP2-20" assembly="GCA_024349685.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="187193586" product_acc="WP_110638515.1">
+<Product  accver="WP_110638515.1" name="LacI family DNA-binding transcriptional regulator" taxid="1378075" slen="340" org="Pseudomonas sp. CC120222-01a" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_110638515.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="1378075" org="Pseudomonas sp. CC120222-01a" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_QEQQ01000032.1" start="11829" stop="12851" strand="-" taxid="1378075" org="Pseudomonas sp. CC120222-01a" kingdom_taxid="2" kingdom="Bacteria" strain="CC120222-01a" assembly="GCF_003097235.1"/></CDSList></Protein>
+<Protein  accver="PVZ32447.1" source="INSDC" name="LacI family transcriptional regulator" taxid="1378075" org="Pseudomonas sp. CC120222-01a" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="QEQQ01000032.1" start="11829" stop="12851" strand="-" taxid="1378075" org="Pseudomonas sp. CC120222-01a" kingdom_taxid="2" kingdom="Bacteria" strain="CC120222-01a" assembly="GCA_003097235.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="265068592" product_acc="WP_144173362.1">
+<Product  accver="WP_144173362.1" name="transcriptional regulator PtxS" taxid="2093744" slen="339" org="Pseudomonas sp. Kh13" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_144173362.1" source="RefSeq" name="transcriptional regulator PtxS" taxid="2093744" org="Pseudomonas sp. Kh13" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_OLKL01000033.1" start="220844" stop="221863" strand="-" taxid="2093744" org="Pseudomonas sp. Kh13" kingdom_taxid="2" kingdom="Bacteria" assembly="GCF_900291015.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="76737712" product_acc="WP_051101069.1">
+<Product  accver="WP_051101069.1" name="transcriptional regulator PtxS" taxid="1546029" slen="339" org="Pseudomonas sp. 10-1B" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_051101069.1" source="RefSeq" name="transcriptional regulator PtxS" taxid="1546029" org="Pseudomonas sp. 10-1B" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JYKS01000058.1" start="14694" stop="15713" strand="+" taxid="1546029" org="Pseudomonas sp. 10-1B" kingdom_taxid="2" kingdom="Bacteria" strain="10-1B" assembly="GCF_000935045.1"/></CDSList></Protein>
+<Protein  accver="KIY37985.1" source="INSDC" name="transcriptional regulator" taxid="1546029" org="Pseudomonas sp. 10-1B" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JYKS01000058.1" start="14694" stop="15713" strand="+" taxid="1546029" org="Pseudomonas sp. 10-1B" kingdom_taxid="2" kingdom="Bacteria" strain="10-1B" assembly="GCA_000935045.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="574934184" product_acc="WP_258714882.1">
+<Product  accver="WP_258714882.1" name="LacI family DNA-binding transcriptional regulator" taxid="2895489" slen="340" org="Pseudomonas sp. B21-047" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_258714882.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="2895489" org="Pseudomonas sp. B21-047" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP087169.1" start="2954305" stop="2955327" strand="-" taxid="2895489" org="Pseudomonas sp. B21-047" kingdom_taxid="2" kingdom="Bacteria" strain="B21-047" assembly="GCF_024748775.1"/></CDSList></Protein>
+<Protein  accver="UVL06455.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2895489" org="Pseudomonas sp. B21-047" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP087169.1" start="2954305" stop="2955327" strand="-" taxid="2895489" org="Pseudomonas sp. B21-047" kingdom_taxid="2" kingdom="Bacteria" strain="B21-047" assembly="GCA_024748775.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="60332626" product_acc="WP_033697973.1">
+<Product  accver="WP_033697973.1" name="LacI family DNA-binding transcriptional regulator" taxid="286" slen="340" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_033697973.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="286" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP072013.1" start="4767416" stop="4768438" strand="+" taxid="2821559" org="Pseudomonas sp. IsoF" kingdom_taxid="2" kingdom="Bacteria" strain="IsoF" assembly="GCF_023101365.1"/>
+<CDS  accver="NZ_CP085704.1" start="3031225" stop="3032247" strand="-" taxid="2886360" org="Pseudomonas sp. HN2-3" kingdom_taxid="2" kingdom="Bacteria" assembly="GCF_020691745.1"/>
+<CDS  accver="NZ_CP116669.1" start="2940877" stop="2941899" strand="-" taxid="1495066" org="Pseudomonas capeferrum" kingdom_taxid="2" kingdom="Bacteria" strain="TDA1" assembly="GCF_028370115.1"/>
+<CDS  accver="NZ_FYDW01000006.1" start="245045" stop="246067" strand="+" taxid="2009146" org="Pseudomonas sp. Irchel s3f19" kingdom_taxid="2" kingdom="Bacteria" assembly="GCF_900187555.1"/>
+<CDS  accver="NZ_JAKNRD010000134.1" start="4834" stop="5856" strand="-" taxid="1495066" org="Pseudomonas capeferrum" kingdom_taxid="2" kingdom="Bacteria" strain="WCS358" assembly="GCF_022548835.1"/>
+<CDS  accver="NZ_JANIAK010000006.1" start="341802" stop="342824" strand="+" taxid="2967216" org="Pseudomonas sp. 25571" kingdom_taxid="2" kingdom="Bacteria" strain="25571" assembly="GCF_028682495.1"/>
+<CDS  accver="NZ_JANIAQ010000010.1" start="143612" stop="144634" strand="+" taxid="2967217" org="Pseudomonas sp. 17391" kingdom_taxid="2" kingdom="Bacteria" strain="17391" assembly="GCF_028682775.1"/>
+<CDS  accver="NZ_JMIT01000001.1" start="1170223" stop="1171245" strand="-" taxid="1495066" org="Pseudomonas capeferrum" kingdom_taxid="2" kingdom="Bacteria" strain="WCS358" assembly="GCF_000731675.1"/>
+<CDS  accver="NZ_JRPO01000026.1" start="88074" stop="89096" strand="-" taxid="658612" org="Pseudomonas sp. H2" kingdom_taxid="2" kingdom="Bacteria" strain="H2" assembly="GCF_000763225.1"/>
+<CDS  accver="NZ_WOVH01000004.1" start="95913" stop="96935" strand="+" taxid="2681304" org="Pseudomonas sp. TDA1" kingdom_taxid="2" kingdom="Bacteria" strain="TDA1" assembly="GCF_009737195.1"/></CDSList></Protein>
+<Protein  accver="KEY88542.1" source="INSDC" name="transcriptional regulator" taxid="1495066" org="Pseudomonas capeferrum" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JMIT01000001.1" start="1170223" stop="1171245" strand="-" taxid="1495066" org="Pseudomonas capeferrum" kingdom_taxid="2" kingdom="Bacteria" strain="WCS358" assembly="GCA_000731675.1"/></CDSList></Protein>
+<Protein  accver="KGI92636.1" source="INSDC" name="transcriptional regulator" taxid="658612" org="Pseudomonas sp. H2" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JRPO01000026.1" start="88074" stop="89096" strand="-" taxid="658612" org="Pseudomonas sp. H2" kingdom_taxid="2" kingdom="Bacteria" strain="H2" assembly="GCA_000763225.1"/></CDSList></Protein>
+<Protein  accver="MCH7301394.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="1495066" org="Pseudomonas capeferrum" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAKNRD010000134.1" start="4834" stop="5856" strand="-" taxid="1495066" org="Pseudomonas capeferrum" kingdom_taxid="2" kingdom="Bacteria" strain="WCS358" assembly="GCA_022548835.1"/></CDSList></Protein>
+<Protein  accver="MUT50227.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2681304" org="Pseudomonas sp. TDA1" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="WOVH01000004.1" start="95913" stop="96935" strand="+" taxid="2681304" org="Pseudomonas sp. TDA1" kingdom_taxid="2" kingdom="Bacteria" strain="TDA1" assembly="GCA_009737195.1"/></CDSList></Protein>
+<Protein  accver="UDU78869.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2886360" org="Pseudomonas sp. HN2-3" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP085704.1" start="3031225" stop="3032247" strand="-" taxid="2886360" org="Pseudomonas sp. HN2-3" kingdom_taxid="2" kingdom="Bacteria" assembly="GCA_020691745.1"/></CDSList></Protein>
+<Protein  accver="UPL08592.1" source="INSDC" name="Kdg operon repressor" taxid="2821559" org="Pseudomonas sp. IsoF" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP072013.1" start="4767416" stop="4768438" strand="+" taxid="2821559" org="Pseudomonas sp. IsoF" kingdom_taxid="2" kingdom="Bacteria" strain="IsoF" assembly="GCA_023101365.1"/></CDSList></Protein>
+<Protein  accver="WCI02794.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="1495066" org="Pseudomonas capeferrum" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP116669.1" start="2940877" stop="2941899" strand="-" taxid="1495066" org="Pseudomonas capeferrum" kingdom_taxid="2" kingdom="Bacteria" strain="TDA1" assembly="GCA_028370115.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="8" nuc_count="17" assmb_count="17"/></IPGReport>
+<IPGReport  ipg="539485296" product_acc="WP_243055937.1">
+<Product  accver="WP_243055937.1" name="transcriptional regulator PtxS" taxid="286" slen="339" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_243055937.1" source="RefSeq" name="transcriptional regulator PtxS" taxid="286" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAFBKA010000033.1" start="7802" stop="8821" strand="-" taxid="2976152" org="Pseudomonas sp. BP01" kingdom_taxid="2" kingdom="Bacteria" strain="BP01" assembly="GCF_022760795.1"/>
+<CDS  accver="NZ_JANUDS010000012.1" start="7474" stop="8493" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="BIGb0470" assembly="GCF_024807695.1"/></CDSList></Protein>
+<Protein  accver="MCS4064063.1" source="INSDC" name="LacI family kdg operon repressor" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JANUDS010000012.1" start="7474" stop="8493" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="BIGb0470" assembly="GCA_024807695.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="3" assmb_count="3"/></IPGReport>
+<IPGReport  ipg="574956171" product_acc="WP_258657324.1">
+<Product  accver="WP_258657324.1" name="transcriptional regulator PtxS" taxid="303" slen="339" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_258657324.1" source="RefSeq" name="transcriptional regulator PtxS" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP087183.1" start="2963632" stop="2964651" strand="+" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="B21-029" assembly="GCF_024749025.1"/></CDSList></Protein>
+<Protein  accver="UVL81036.1" source="INSDC" name="transcriptional regulator PtxS" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP087183.1" start="2963632" stop="2964651" strand="+" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="B21-029" assembly="GCA_024749025.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="181991653" product_acc="WP_105947659.1">
+<Product  accver="WP_105947659.1" name="transcriptional regulator PtxS" taxid="1812180" slen="339" org="Pseudomonas sp. LLC-1" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_105947659.1" source="RefSeq" name="transcriptional regulator PtxS" taxid="1812180" org="Pseudomonas sp. LLC-1" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_LUVY01000017.1" start="314713" stop="315732" strand="+" taxid="1812180" org="Pseudomonas sp. LLC-1" kingdom_taxid="2" kingdom="Bacteria" strain="LLC-1" assembly="GCF_002992185.1"/></CDSList></Protein>
+<Protein  accver="PRN03386.1" source="INSDC" name="transcriptional regulator" taxid="1812180" org="Pseudomonas sp. LLC-1" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="LUVY01000017.1" start="314713" stop="315732" strand="+" taxid="1812180" org="Pseudomonas sp. LLC-1" kingdom_taxid="2" kingdom="Bacteria" strain="LLC-1" assembly="GCA_002992185.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="297234662" product_acc="QHG65287.2">
+<Product  accver="QHG65287.2" name="LacI family DNA-binding transcriptional regulator" taxid="303" slen="378" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="QHG65287.2" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="CP026115.2" start="5858127" stop="5859263" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="W5" assembly="GCA_009883635.2"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="209621422" product_acc="WP_119369852.1">
+<Product  accver="WP_119369852.1" name="transcriptional regulator PtxS" taxid="286" slen="339" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_119369852.1" source="RefSeq" name="transcriptional regulator PtxS" taxid="286" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JANIAP010000038.1" start="6859" stop="7878" strand="-" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" strain="17428" assembly="GCF_028682735.1"/>
+<CDS  accver="NZ_QWLL01000029.1" start="47800" stop="48819" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="BCN3" assembly="GCF_003576045.1"/></CDSList></Protein>
+<Protein  accver="RII77625.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="QWLL01000029.1" start="47800" stop="48819" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="BCN3" assembly="GCA_003576045.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="3" assmb_count="3"/></IPGReport>
+<IPGReport  ipg="190456662" product_acc="WP_110742483.1">
+<Product  accver="WP_110742483.1" name="transcriptional regulator PtxS" taxid="196821" slen="339" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_110742483.1" source="RefSeq" name="transcriptional regulator PtxS" taxid="196821" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_QKMP01000031.1" start="7321" stop="8340" strand="-" taxid="1378074" org="Pseudomonas sp. RV120224-01c" kingdom_taxid="2" kingdom="Bacteria" strain="RV120224-01c" assembly="GCF_003208135.1"/>
+<CDS  accver="NZ_QKMQ01000032.1" start="7229" stop="8248" strand="-" taxid="1378083" org="Pseudomonas sp. RV120224-01b" kingdom_taxid="2" kingdom="Bacteria" strain="RV120224-01b" assembly="GCF_003208145.1"/></CDSList></Protein>
+<Protein  accver="PYG72011.1" source="INSDC" name="LacI family transcriptional regulator" taxid="1378074" org="Pseudomonas sp. RV120224-01c" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="QKMP01000031.1" start="7321" stop="8340" strand="-" taxid="1378074" org="Pseudomonas sp. RV120224-01c" kingdom_taxid="2" kingdom="Bacteria" strain="RV120224-01c" assembly="GCA_003208135.1"/></CDSList></Protein>
+<Protein  accver="PYG76394.1" source="INSDC" name="LacI family transcriptional regulator" taxid="1378083" org="Pseudomonas sp. RV120224-01b" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="QKMQ01000032.1" start="7229" stop="8248" strand="-" taxid="1378083" org="Pseudomonas sp. RV120224-01b" kingdom_taxid="2" kingdom="Bacteria" strain="RV120224-01b" assembly="GCA_003208145.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="4" assmb_count="4"/></IPGReport>
+<IPGReport  ipg="102945365" product_acc="WP_060511673.1">
+<Product  accver="WP_060511673.1" name="LacI family DNA-binding transcriptional regulator" taxid="1661039" slen="340" org="Pseudomonas sp. NBRC 111124" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_060511673.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="1661039" org="Pseudomonas sp. NBRC 111124" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_BCBA01000043.1" start="120188" stop="121210" strand="-" taxid="1661039" org="Pseudomonas sp. NBRC 111124" kingdom_taxid="2" kingdom="Bacteria" strain="NBRC 111124" assembly="GCF_001320245.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="353000144" product_acc="WP_186665442.1">
+<Product  accver="WP_186665442.1" name="LacI family DNA-binding transcriptional regulator" taxid="196821" slen="340" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_186665442.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="196821" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JABWRT010000009.1" start="98574" stop="99596" strand="+" taxid="2745487" org="Pseudomonas sp. SWRI59" kingdom_taxid="2" kingdom="Bacteria" strain="SWRI59" assembly="GCF_014269115.1"/>
+<CDS  accver="NZ_JABWRU010000018.1" start="92204" stop="93226" strand="-" taxid="2745486" org="Pseudomonas sp. SWRI68" kingdom_taxid="2" kingdom="Bacteria" strain="SWRI68" assembly="GCF_014269165.1"/></CDSList></Protein>
+<Protein  accver="MBC3502387.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2745487" org="Pseudomonas sp. SWRI59" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JABWRT010000009.1" start="98574" stop="99596" strand="+" taxid="2745487" org="Pseudomonas sp. SWRI59" kingdom_taxid="2" kingdom="Bacteria" strain="SWRI59" assembly="GCA_014269115.1"/></CDSList></Protein>
+<Protein  accver="MBC3509193.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2745486" org="Pseudomonas sp. SWRI68" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JABWRU010000018.1" start="92204" stop="93226" strand="-" taxid="2745486" org="Pseudomonas sp. SWRI68" kingdom_taxid="2" kingdom="Bacteria" strain="SWRI68" assembly="GCA_014269165.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="4" assmb_count="4"/></IPGReport>
+<IPGReport  ipg="93979759" product_acc="WP_054886065.1">
+<Product  accver="WP_054886065.1" name="LacI family DNA-binding transcriptional regulator" taxid="196821" slen="340" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_054886065.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="196821" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_BCBG01000033.1" start="24343" stop="25365" strand="+" taxid="1661045" org="Pseudomonas sp. NBRC 111130" kingdom_taxid="2" kingdom="Bacteria" strain="NBRC 111130" assembly="GCF_001320485.1"/>
+<CDS  accver="NZ_JAENRQ010000002.1" start="1574712" stop="1575734" strand="+" taxid="2800904" org="Pseudomonas sp. PCH44" kingdom_taxid="2" kingdom="Bacteria" strain="PCH44" assembly="GCF_018304925.1"/>
+<CDS  accver="NZ_PEMX01000003.1" start="328640" stop="329662" strand="+" taxid="1751969" org="Pseudomonas sp. 382" kingdom_taxid="2" kingdom="Bacteria" strain="382" assembly="GCF_002759075.1"/></CDSList></Protein>
+<Protein  accver="MBS3185038.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2800904" org="Pseudomonas sp. PCH44" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAENRQ010000002.1" start="1574712" stop="1575734" strand="+" taxid="2800904" org="Pseudomonas sp. PCH44" kingdom_taxid="2" kingdom="Bacteria" strain="PCH44" assembly="GCA_018304925.1"/></CDSList></Protein>
+<Protein  accver="PIK79706.1" source="INSDC" name="transcriptional regulator" taxid="1751969" org="Pseudomonas sp. 382" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="PEMX01000003.1" start="328640" stop="329662" strand="+" taxid="1751969" org="Pseudomonas sp. 382" kingdom_taxid="2" kingdom="Bacteria" strain="382" assembly="GCA_002759075.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="5" assmb_count="5"/></IPGReport>
+<IPGReport  ipg="517606287" product_acc="WP_235199870.1">
+<Product  accver="WP_235199870.1" name="transcriptional regulator PtxS" taxid="76759" slen="339" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_235199870.1" source="RefSeq" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP060595.1" start="2895751" stop="2896770" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="A2" assembly="GCF_021497465.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="623802669" product_acc="GLO15033.1">
+<Product  accver="GLO15033.1" name="transcriptional regulator" taxid="303" slen="339" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="GLO15033.1" source="INSDC" name="transcriptional regulator" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="BSKF01000011.1" start="6778" stop="7797" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="JCM 20028"/></CDSList></Protein>
+<Protein  accver="GLO38267.1" source="INSDC" name="transcriptional regulator" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="BSKJ01000018.1" start="6778" stop="7797" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="NBRC 14671"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="0"/></IPGReport>
+<IPGReport  ipg="576120810" product_acc="WP_258910155.1">
+<Product  accver="WP_258910155.1" name="transcriptional regulator PtxS" taxid="303" slen="339" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_258910155.1" source="RefSeq" name="transcriptional regulator PtxS" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAMOFX010000002.1" start="1108428" stop="1109447" strand="+" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="E36" assembly="GCF_024762065.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="1" nuc_count="1" assmb_count="1"/></IPGReport>
+<IPGReport  ipg="108299753" product_acc="WP_063424834.1">
+<Product  accver="WP_063424834.1" name="transcriptional regulator PtxS" taxid="303" slen="339" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_063424834.1" source="RefSeq" name="transcriptional regulator PtxS" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP050951.1" start="3256846" stop="3257865" strand="+" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="JQ581" assembly="GCF_001630725.2"/></CDSList></Protein>
+<Protein  accver="QJQ10598.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP050951.1" start="3256846" stop="3257865" strand="+" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="JQ581" assembly="GCA_001630725.2"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="56615197" product_acc="WP_028612947.1">
+<Product  accver="WP_028612947.1" name="transcriptional regulator PtxS" taxid="303" slen="339" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_028612947.1" source="RefSeq" name="transcriptional regulator PtxS" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP010979.1" start="1533027" stop="1534046" strand="+" taxid="1384061" org="Pseudomonas putida S13.1.2" kingdom_taxid="2" kingdom="Bacteria" strain="S13.1.2" assembly="GCF_000498395.2"/></CDSList></Protein>
+<Protein  accver="AJQ46979.1" source="INSDC" name="transcriptional regulator" taxid="1384061" org="Pseudomonas putida S13.1.2" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP010979.1" start="1533027" stop="1534046" strand="+" taxid="1384061" org="Pseudomonas putida S13.1.2" kingdom_taxid="2" kingdom="Bacteria" strain="S13.1.2" assembly="GCA_000498395.3"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="208647187" product_acc="WP_262109258.1">
+<Product  accver="WP_262109258.1" name="LacI family DNA-binding transcriptional regulator" taxid="485888" slen="340" org="Pseudomonas vlassakiae" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_262109258.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="485888" org="Pseudomonas vlassakiae" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAOEJR010000009.1" start="131878" stop="132900" strand="+" taxid="485888" org="Pseudomonas vlassakiae" kingdom_taxid="2" kingdom="Bacteria" strain="RW4S1" assembly="GCF_025447535.1"/></CDSList></Protein>
+<Protein  accver="HCV41165.1" source="INSDC" name="transcriptional regulator" taxid="306" org="Pseudomonas sp." kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="DPLI01000602.1" start="1697" stop="2719" strand="-" taxid="306" org="Pseudomonas sp." kingdom_taxid="2" kingdom="Bacteria" assembly="GCA_003542075.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="39711504" product_acc="WP_019098761.1">
+<Product  accver="WP_019098761.1" name="transcriptional regulator PtxS" taxid="286" slen="339" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_019098761.1" source="RefSeq" name="transcriptional regulator PtxS" taxid="286" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_AP022324.1" start="3252983" stop="3254002" strand="+" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="TS312" assembly="GCF_009938035.1"/>
+<CDS  accver="NZ_AXXQ01000024.1" start="6708" stop="7727" strand="-" taxid="1283282" org="Pseudomonas sp. URIL14HWK12:I4" kingdom_taxid="2" kingdom="Bacteria" strain="URIL14HWK12:I4" assembly="GCF_000483105.1"/>
+<CDS  accver="NZ_AZUL01000037.1" start="6323" stop="7342" strand="+" taxid="1265484" org="Pseudomonas sp. LAIL14HWK12:I5" kingdom_taxid="2" kingdom="Bacteria" strain="LAIL14HWK12:I5" assembly="GCF_000527055.1"/>
+<CDS  accver="NZ_AZVQ01000019.1" start="6950" stop="7969" strand="+" taxid="1259806" org="Pseudomonas sp. LAIL14HWK12:I6" kingdom_taxid="2" kingdom="Bacteria" strain="LAIL14HWK12:I6" assembly="GCF_000514295.1"/>
+<CDS  accver="NZ_AZVR01000020.1" start="7181" stop="8200" strand="-" taxid="1259804" org="Pseudomonas sp. LAIL14HWK12:I9" kingdom_taxid="2" kingdom="Bacteria" strain="LAIL14HWK12:I9" assembly="GCF_000514315.1"/>
+<CDS  accver="NZ_AZVS01000020.1" start="7716" stop="8735" strand="-" taxid="1259803" org="Pseudomonas sp. LAIL14HWK12:I12" kingdom_taxid="2" kingdom="Bacteria" strain="LAIL14HWK12:I12" assembly="GCF_000514335.1"/>
+<CDS  accver="NZ_AZVT01000025.1" start="7122" stop="8141" strand="-" taxid="1259800" org="Pseudomonas sp. LAMO17WK12:I4" kingdom_taxid="2" kingdom="Bacteria" strain="LAMO17WK12:I4" assembly="GCF_000514355.1"/>
+<CDS  accver="NZ_CAED01000183.1" start="6228" stop="7247" strand="+" taxid="1048261" org="Pseudomonas putida B001" kingdom_taxid="2" kingdom="Bacteria" strain="B001" assembly="GCF_000285395.1"/>
+<CDS  accver="NZ_CP040324.1" start="2774837" stop="2775856" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="TCU-CK1" assembly="GCF_009831395.1"/>
+<CDS  accver="NZ_FWXQ01000018.1" start="7779" stop="8798" strand="+" taxid="1261630" org="Pseudomonas sp. URIL14HWK12:I5" kingdom_taxid="2" kingdom="Bacteria" strain="URIL14HWK12:I5" assembly="GCF_900176445.1"/>
+<CDS  accver="NZ_FYEI01000019.1" start="7180" stop="8199" strand="-" taxid="1265489" org="Pseudomonas sp. URIL14HWK12:I8" kingdom_taxid="2" kingdom="Bacteria" strain="URIL14HWK12:I8" assembly="GCF_900187915.1"/>
+<CDS  accver="NZ_FZOZ01000018.1" start="7108" stop="8127" strand="+" taxid="1265488" org="Pseudomonas sp. LAMO17WK12:I8" kingdom_taxid="2" kingdom="Bacteria" strain="LAMO17WK12:I8" assembly="GCF_900188365.1"/>
+<CDS  accver="NZ_JAAAKY010000002.1" start="10925" stop="11944" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="ODNR6CL" assembly="GCF_009905655.1"/>
+<CDS  accver="NZ_JACHYK010000016.1" start="6708" stop="7727" strand="-" taxid="2587037" org="Pseudomonas sp. OG7" kingdom_taxid="2" kingdom="Bacteria" strain="OG7" assembly="GCF_014192825.1"/>
+<CDS  accver="NZ_JADTXR010000058.1" start="6740" stop="7759" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="PSB00006" assembly="GCF_016009375.1"/>
+<CDS  accver="NZ_JADUCJ010000075.1" start="6228" stop="7247" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="PSB00021" assembly="GCF_016009095.1"/>
+<CDS  accver="NZ_JALIFT010000018.1" start="6740" stop="7759" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="HB41" assembly="GCF_022867785.1"/>
+<CDS  accver="NZ_JANIAO010000001.1" start="2548244" stop="2549263" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="17453" assembly="GCF_028682695.1"/>
+<CDS  accver="NZ_OBDU01000020.1" start="7047" stop="8066" strand="-" taxid="1286369" org="Pseudomonas sp. LAMO17WK12:I12" kingdom_taxid="2" kingdom="Bacteria" strain="LAMO17WK12:I12" assembly="GCF_900215275.1"/>
+<CDS  accver="NZ_OBDV01000019.1" start="7036" stop="8055" strand="-" taxid="1286368" org="Pseudomonas sp. LAMO17WK12:I11" kingdom_taxid="2" kingdom="Bacteria" strain="LAMO17WK12:I11" assembly="GCF_900215195.1"/>
+<CDS  accver="NZ_OBDW01000018.1" start="7147" stop="8166" strand="+" taxid="1286367" org="Pseudomonas sp. LAMO17WK12:I7" kingdom_taxid="2" kingdom="Bacteria" strain="LAMO17WK12:I7" assembly="GCF_900215235.1"/>
+<CDS  accver="NZ_OCMM01000017.1" start="6926" stop="7945" strand="+" taxid="1265483" org="Pseudomonas sp. LAIL14HWK12:I3" kingdom_taxid="2" kingdom="Bacteria" strain="LAIL14HWK12:I3" assembly="GCF_900230135.1"/>
+<CDS  accver="NZ_QJKG01000017.1" start="6926" stop="7945" strand="+" taxid="1259805" org="Pseudomonas sp. LAIL14HWK12:I1" kingdom_taxid="2" kingdom="Bacteria" strain="LAIL14HWK12:I1" assembly="GCF_003202095.1"/></CDSList></Protein>
+<Protein  accver="BBU45007.1" source="INSDC" name="transcriptional regulator" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="AP022324.1" start="3252983" stop="3254002" strand="+" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="TS312" assembly="GCA_009938035.1"/></CDSList></Protein>
+<Protein  accver="MBB3274173.1" source="INSDC" name="LacI family kdg operon repressor" taxid="2587037" org="Pseudomonas sp. OG7" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JACHYK010000016.1" start="6708" stop="7727" strand="-" taxid="2587037" org="Pseudomonas sp. OG7" kingdom_taxid="2" kingdom="Bacteria" strain="OG7" assembly="GCA_014192825.1"/></CDSList></Protein>
+<Protein  accver="MBH3397708.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JADUCJ010000075.1" start="6228" stop="7247" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="PSB00021" assembly="GCA_016009095.1"/></CDSList></Protein>
+<Protein  accver="MBH3458049.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JADTXR010000058.1" start="6740" stop="7759" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="PSB00006" assembly="GCA_016009375.1"/></CDSList></Protein>
+<Protein  accver="MCJ7854648.1" source="INSDC" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JALIFT010000018.1" start="6740" stop="7759" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="HB41" assembly="GCA_022867785.1"/></CDSList></Protein>
+<Protein  accver="NBB03627.1" source="INSDC" name="substrate-binding domain-containing protein" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAAAKY010000002.1" start="10925" stop="11944" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="ODNR6CL" assembly="GCA_009905655.1"/></CDSList></Protein>
+<Protein  accver="PXX58311.1" source="INSDC" name="LacI family transcriptional regulator" taxid="1259805" org="Pseudomonas sp. LAIL14HWK12:I1" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="QJKG01000017.1" start="6926" stop="7945" strand="+" taxid="1259805" org="Pseudomonas sp. LAIL14HWK12:I1" kingdom_taxid="2" kingdom="Bacteria" strain="LAIL14HWK12:I1" assembly="GCA_003202095.1"/></CDSList></Protein>
+<Protein  accver="QHB27890.1" source="INSDC" name="transcriptional regulator" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP040324.1" start="2774837" stop="2775856" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="TCU-CK1" assembly="GCA_009831395.1"/></CDSList></Protein>
+<Protein  accver="SMD18666.1" source="INSDC" name="transcriptional regulator, LacI family" taxid="1261630" org="Pseudomonas sp. URIL14HWK12:I5" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="FWXQ01000018.1" start="7779" stop="8798" strand="+" taxid="1261630" org="Pseudomonas sp. URIL14HWK12:I5" kingdom_taxid="2" kingdom="Bacteria" strain="URIL14HWK12:I5" assembly="GCA_900176445.1"/></CDSList></Protein>
+<Protein  accver="SNB86524.1" source="INSDC" name="transcriptional regulator, LacI family" taxid="1265489" org="Pseudomonas sp. URIL14HWK12:I8" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="FYEI01000019.1" start="7180" stop="8199" strand="-" taxid="1265489" org="Pseudomonas sp. URIL14HWK12:I8" kingdom_taxid="2" kingdom="Bacteria" strain="URIL14HWK12:I8" assembly="GCA_900187915.1"/></CDSList></Protein>
+<Protein  accver="SNT51457.1" source="INSDC" name="transcriptional regulator, LacI family" taxid="1265488" org="Pseudomonas sp. LAMO17WK12:I8" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="FZOZ01000018.1" start="7108" stop="8127" strand="+" taxid="1265488" org="Pseudomonas sp. LAMO17WK12:I8" kingdom_taxid="2" kingdom="Bacteria" strain="LAMO17WK12:I8" assembly="GCA_900188365.1"/></CDSList></Protein>
+<Protein  accver="SNY44508.1" source="INSDC" name="transcriptional regulator, LacI family" taxid="1286368" org="Pseudomonas sp. LAMO17WK12:I11" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="OBDV01000019.1" start="7036" stop="8055" strand="-" taxid="1286368" org="Pseudomonas sp. LAMO17WK12:I11" kingdom_taxid="2" kingdom="Bacteria" strain="LAMO17WK12:I11" assembly="GCA_900215195.1"/></CDSList></Protein>
+<Protein  accver="SNY44614.1" source="INSDC" name="transcriptional regulator, LacI family" taxid="1286367" org="Pseudomonas sp. LAMO17WK12:I7" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="OBDW01000018.1" start="7147" stop="8166" strand="+" taxid="1286367" org="Pseudomonas sp. LAMO17WK12:I7" kingdom_taxid="2" kingdom="Bacteria" strain="LAMO17WK12:I7" assembly="GCA_900215235.1"/></CDSList></Protein>
+<Protein  accver="SNY44851.1" source="INSDC" name="transcriptional regulator, LacI family" taxid="1286369" org="Pseudomonas sp. LAMO17WK12:I12" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="OBDU01000020.1" start="7047" stop="8066" strand="-" taxid="1286369" org="Pseudomonas sp. LAMO17WK12:I12" kingdom_taxid="2" kingdom="Bacteria" strain="LAMO17WK12:I12" assembly="GCA_900215275.1"/></CDSList></Protein>
+<Protein  accver="SOD00161.1" source="INSDC" name="transcriptional regulator, LacI family" taxid="1265483" org="Pseudomonas sp. LAIL14HWK12:I3" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="OCMM01000017.1" start="6926" stop="7945" strand="+" taxid="1265483" org="Pseudomonas sp. LAIL14HWK12:I3" kingdom_taxid="2" kingdom="Bacteria" strain="LAIL14HWK12:I3" assembly="GCA_900230135.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="16" nuc_count="38" assmb_count="38"/></IPGReport>
+<IPGReport  ipg="180201437" product_acc="WP_104834695.1">
+<Product  accver="WP_104834695.1" name="transcriptional regulator PtxS" taxid="76759" slen="339" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_104834695.1" source="RefSeq" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_CP014062.1" start="4487329" stop="4488348" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="FDAARGOS_171" assembly="GCF_002943995.1"/></CDSList></Protein>
+<Protein  accver="AVH38710.1" source="INSDC" name="transcriptional regulator" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP014062.1" start="4487329" stop="4488348" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="FDAARGOS_171" assembly="GCA_002943995.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="353100290" product_acc="WP_186653485.1">
+<Product  accver="WP_186653485.1" name="LacI family DNA-binding transcriptional regulator" taxid="2745485" slen="340" org="Pseudomonas sp. SWRI77" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_186653485.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="2745485" org="Pseudomonas sp. SWRI77" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JABWRV010000002.1" start="220705" stop="221727" strand="-" taxid="2745485" org="Pseudomonas sp. SWRI77" kingdom_taxid="2" kingdom="Bacteria" strain="SWRI77" assembly="GCF_014269105.1"/></CDSList></Protein>
+<Protein  accver="MBC3479648.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2745485" org="Pseudomonas sp. SWRI77" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JABWRV010000002.1" start="220705" stop="221727" strand="-" taxid="2745485" org="Pseudomonas sp. SWRI77" kingdom_taxid="2" kingdom="Bacteria" strain="SWRI77" assembly="GCA_014269105.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="2" assmb_count="2"/></IPGReport>
+<IPGReport  ipg="37294432" product_acc="WP_016714059.1">
+<Product  accver="WP_016714059.1" name="transcriptional regulator PtxS" taxid="286" slen="339" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_016714059.1" source="RefSeq" name="transcriptional regulator PtxS" taxid="286" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_AHGZ01000143.1" start="7895" stop="8914" strand="+" taxid="1123524" org="Pseudomonas monteilii QM" kingdom_taxid="2" kingdom="Bacteria" strain="QM" assembly="GCF_000262005.1"/>
+<CDS  accver="NZ_BBIS01000012.1" start="6613" stop="7632" strand="-" taxid="1215110" org="Pseudomonas monteilii NBRC 103158 = DSM 14164" kingdom_taxid="2" kingdom="Bacteria" strain="NBRC 103158" assembly="GCF_000730605.1"/>
+<CDS  accver="NZ_CP022562.1" start="3091211" stop="3092230" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="B5" assembly="GCF_003671975.1"/>
+<CDS  accver="NZ_CP033104.1" start="3042699" stop="3043718" strand="+" taxid="2479393" org="Pseudomonas sp. LTGT-11-2Z" kingdom_taxid="2" kingdom="Bacteria" strain="LTGT-11-2Z" assembly="GCF_003691445.1"/>
+<CDS  accver="NZ_JAAMRL010000037.1" start="6740" stop="7759" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="HS5" assembly="GCF_013522605.1"/>
+<CDS  accver="NZ_JACGCV010000048.1" start="7004" stop="8023" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="13526" assembly="GCF_014062095.1"/>
+<CDS  accver="NZ_JACGCW010000046.1" start="6740" stop="7759" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="13402" assembly="GCF_014062125.1"/>
+<CDS  accver="NZ_JAJSPS010000047.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI985_06" assembly="GCF_021282525.1"/>
+<CDS  accver="NZ_JAJSQA010000005.1" start="284970" stop="285989" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI2188_10" assembly="GCF_021282545.1"/>
+<CDS  accver="NZ_JAJSQI010000042.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI4421_11" assembly="GCF_021282935.1"/>
+<CDS  accver="NZ_JAJSQJ010000005.1" start="284971" stop="285990" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI5622_11" assembly="GCF_021283135.1"/>
+<CDS  accver="NZ_JAJSQK010000041.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI5219_11" assembly="GCF_021283025.1"/>
+<CDS  accver="NZ_JAJSQL010000005.1" start="284970" stop="285989" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI811_11" assembly="GCF_021283285.1"/>
+<CDS  accver="NZ_JAJSQM010000045.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI5530_11" assembly="GCF_021282665.1"/>
+<CDS  accver="NZ_JAJSQN010000042.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI8712_11" assembly="GCF_021282625.1"/>
+<CDS  accver="NZ_JAJSQO010000042.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI10873_11" assembly="GCF_021282645.1"/>
+<CDS  accver="NZ_JAJSQR010000059.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI4182_12" assembly="GCF_021283005.1"/>
+<CDS  accver="NZ_JAJSQU010000040.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI6266_12" assembly="GCF_021283365.1"/>
+<CDS  accver="NZ_JAJSRA010000039.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI2219_13" assembly="GCF_021282885.1"/>
+<CDS  accver="NZ_JAJSRB010000038.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI1259_13" assembly="GCF_021282835.1"/>
+<CDS  accver="NZ_JAJSRG010000052.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI160_14" assembly="GCF_021283505.1"/>
+<CDS  accver="NZ_JAJSRU010000048.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI135_16" assembly="GCF_021283055.1"/>
+<CDS  accver="NZ_JHYV01000007.1" start="283710" stop="284729" strand="+" taxid="1215110" org="Pseudomonas monteilii NBRC 103158 = DSM 14164" kingdom_taxid="2" kingdom="Bacteria" strain="DSM 14164" assembly="GCF_000621245.1"/>
+<CDS  accver="NZ_LKKT01000100.1" start="6613" stop="7632" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="HB4184" assembly="GCF_001306515.1"/>
+<CDS  accver="NZ_LSTU01000044.1" start="7000" stop="8019" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="CD10_2" assembly="GCF_001643215.1"/></CDSList></Protein>
+<Protein  accver="AYN16282.1" source="INSDC" name="transcriptional regulator" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP022562.1" start="3091211" stop="3092230" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="B5" assembly="GCA_003671975.1"/></CDSList></Protein>
+<Protein  accver="AYO00042.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="2479393" org="Pseudomonas sp. LTGT-11-2Z" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="CP033104.1" start="3042699" stop="3043718" strand="+" taxid="2479393" org="Pseudomonas sp. LTGT-11-2Z" kingdom_taxid="2" kingdom="Bacteria" strain="LTGT-11-2Z" assembly="GCA_003691445.1"/></CDSList></Protein>
+<Protein  accver="KPM59071.1" source="INSDC" name="transcriptional regulator" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="LKKT01000100.1" start="6613" stop="7632" strand="-" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="HB4184" assembly="GCA_001306515.1"/></CDSList></Protein>
+<Protein  accver="MBA1319222.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAAMRL010000037.1" start="6740" stop="7759" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="HS5" assembly="GCA_013522605.1"/></CDSList></Protein>
+<Protein  accver="MBA6092666.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JACGCV010000048.1" start="7004" stop="8023" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="13526" assembly="GCA_014062095.1"/></CDSList></Protein>
+<Protein  accver="MBA6105955.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JACGCW010000046.1" start="6740" stop="7759" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="13402" assembly="GCA_014062125.1"/></CDSList></Protein>
+<Protein  accver="MCE0859729.1" source="INSDC" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSRU010000048.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI135_16" assembly="GCA_021283055.1"/></CDSList></Protein>
+<Protein  accver="MCE0877326.1" source="INSDC" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSRG010000052.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI160_14" assembly="GCA_021283505.1"/></CDSList></Protein>
+<Protein  accver="MCE0929580.1" source="INSDC" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSRB010000038.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI1259_13" assembly="GCA_021282835.1"/></CDSList></Protein>
+<Protein  accver="MCE0935233.1" source="INSDC" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSRA010000039.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI2219_13" assembly="GCA_021282885.1"/></CDSList></Protein>
+<Protein  accver="MCE0981934.1" source="INSDC" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSQR010000059.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI4182_12" assembly="GCA_021283005.1"/></CDSList></Protein>
+<Protein  accver="MCE0987582.1" source="INSDC" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSQO010000042.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI10873_11" assembly="GCA_021282645.1"/></CDSList></Protein>
+<Protein  accver="MCE0998919.1" source="INSDC" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSQU010000040.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI6266_12" assembly="GCA_021283365.1"/></CDSList></Protein>
+<Protein  accver="MCE1010305.1" source="INSDC" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSQM010000045.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI5530_11" assembly="GCA_021282665.1"/></CDSList></Protein>
+<Protein  accver="MCE1015741.1" source="INSDC" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSQK010000041.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI5219_11" assembly="GCA_021283025.1"/></CDSList></Protein>
+<Protein  accver="MCE1017517.1" source="INSDC" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSQL010000005.1" start="284970" stop="285989" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI811_11" assembly="GCA_021283285.1"/></CDSList></Protein>
+<Protein  accver="MCE1027184.1" source="INSDC" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSQN010000042.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI8712_11" assembly="GCA_021282625.1"/></CDSList></Protein>
+<Protein  accver="MCE1034660.1" source="INSDC" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSQJ010000005.1" start="284971" stop="285990" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI5622_11" assembly="GCA_021283135.1"/></CDSList></Protein>
+<Protein  accver="MCE1044431.1" source="INSDC" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSQI010000042.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI4421_11" assembly="GCA_021282935.1"/></CDSList></Protein>
+<Protein  accver="MCE1086522.1" source="INSDC" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSQA010000005.1" start="284970" stop="285989" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI2188_10" assembly="GCA_021282545.1"/></CDSList></Protein>
+<Protein  accver="MCE1124754.1" source="INSDC" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSPS010000047.1" start="6690" stop="7709" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="NMI985_06" assembly="GCA_021282525.1"/></CDSList></Protein>
+<Protein  accver="OAH47762.1" source="INSDC" name="transcriptional regulator" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="LSTU01000044.1" start="7000" stop="8019" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="CD10_2" assembly="GCA_001643215.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="23" nuc_count="47" assmb_count="47"/></IPGReport>
+<IPGReport  ipg="387145115" product_acc="WP_198753454.1">
+<Product  accver="WP_198753454.1" name="transcriptional regulator PtxS" taxid="286" slen="339" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_198753454.1" source="RefSeq" name="transcriptional regulator PtxS" taxid="286" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAEHTA010000082.1" start="6248" stop="7267" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="PSB00047" assembly="GCF_016337135.1"/>
+<CDS  accver="NZ_JAJSQZ010000049.1" start="6325" stop="7344" strand="+" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" strain="NMI4034_13" assembly="GCF_021282905.1"/></CDSList></Protein>
+<Protein  accver="MBI6922889.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAEHTA010000082.1" start="6248" stop="7267" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="PSB00047" assembly="GCA_016337135.1"/></CDSList></Protein>
+<Protein  accver="MCE0941053.1" source="INSDC" name="transcriptional regulator PtxS" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSQZ010000049.1" start="6325" stop="7344" strand="+" taxid="485880" org="Pseudomonas kurunegalensis" kingdom_taxid="2" kingdom="Bacteria" strain="NMI4034_13" assembly="GCA_021282905.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="4" assmb_count="4"/></IPGReport>
+<IPGReport  ipg="420307063" product_acc="WP_207832629.1">
+<Product  accver="WP_207832629.1" name="transcriptional regulator PtxS" taxid="196821" slen="339" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_207832629.1" source="RefSeq" name="transcriptional regulator PtxS" taxid="196821" org="unclassified Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_JAFGYJ010000012.1" start="87117" stop="88136" strand="+" taxid="2813560" org="Pseudomonas sp. 43(2021)" kingdom_taxid="2" kingdom="Bacteria" strain="43(2021)" assembly="GCF_017490805.1"/>
+<CDS  accver="NZ_JAJSDJ010000018.1" start="30185" stop="31204" strand="+" taxid="2899114" org="Pseudomonas sp. KCA11" kingdom_taxid="2" kingdom="Bacteria" strain="KCA11" assembly="GCF_021378935.1"/></CDSList></Protein>
+<Protein  accver="MCE5994953.1" source="INSDC" name="transcriptional regulator PtxS" taxid="2899114" org="Pseudomonas sp. KCA11" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAJSDJ010000018.1" start="30185" stop="31204" strand="+" taxid="2899114" org="Pseudomonas sp. KCA11" kingdom_taxid="2" kingdom="Bacteria" strain="KCA11" assembly="GCA_021378935.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="2" nuc_count="3" assmb_count="3"/></IPGReport>
+<IPGReport  ipg="333365762" product_acc="WP_176507235.1">
+<Product  accver="WP_176507235.1" name="LacI family DNA-binding transcriptional regulator" taxid="286" slen="340" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_176507235.1" source="RefSeq" name="LacI family DNA-binding transcriptional regulator" taxid="286" org="Pseudomonas" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_BLXQ01000014.1" start="40047" stop="41069" strand="-" taxid="2740517" org="Pseudomonas urethralis" kingdom_taxid="2" kingdom="Bacteria" strain="BML-PP042" assembly="GCF_013373915.1"/>
+<CDS  accver="NZ_BQIJ01000008.1" start="57891" stop="58913" strand="-" taxid="2740517" org="Pseudomonas urethralis" kingdom_taxid="2" kingdom="Bacteria" strain="BML-PP042" assembly="GCF_021602465.1"/>
+<CDS  accver="NZ_JABWRP020000007.1" start="224363" stop="225385" strand="-" taxid="485888" org="Pseudomonas vlassakiae" kingdom_taxid="2" kingdom="Bacteria" strain="RW4S2" assembly="GCF_014269035.2"/>
+<CDS  accver="NZ_JADTWD010000001.1" start="101752" stop="102774" strand="+" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="PSB00017" assembly="GCF_016009185.1"/></CDSList></Protein>
+<Protein  accver="MBH3409276.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JADTWD010000001.1" start="101752" stop="102774" strand="+" taxid="303" org="Pseudomonas putida" kingdom_taxid="2" kingdom="Bacteria" strain="PSB00017" assembly="GCA_016009185.1"/></CDSList></Protein>
+<Protein  accver="MBV4541754.1" source="INSDC" name="LacI family DNA-binding transcriptional regulator" taxid="485888" org="Pseudomonas vlassakiae" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JABWRP020000007.1" start="224363" stop="225385" strand="-" taxid="485888" org="Pseudomonas vlassakiae" kingdom_taxid="2" kingdom="Bacteria" strain="RW4S2" assembly="GCA_014269035.2"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="3" nuc_count="6" assmb_count="6"/></IPGReport>
+<IPGReport  ipg="365215573" product_acc="WP_200929369.1">
+<Product  accver="WP_200929369.1" name="transcriptional regulator PtxS" taxid="76759" slen="339" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria"/>
+<ProteinList>
+<Protein  accver="WP_200929369.1" source="RefSeq" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="0">
+<CDSList>
+<CDS  accver="NZ_AP022473.1" start="2383044" stop="2384063" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="STW0522-72" assembly="GCF_015136515.1"/>
+<CDS  accver="NZ_JAFMZB010000018.1" start="54000" stop="55019" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="ZDHY354" assembly="GCF_019991045.1"/>
+<CDS  accver="NZ_JAFMZC010000018.1" start="54000" stop="55019" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="ZDHY373" assembly="GCF_019991015.1"/></CDSList></Protein>
+<Protein  accver="BBV96817.1" source="INSDC" name="transcriptional regulator" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="AP022473.1" start="2383044" stop="2384063" strand="-" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="STW0522-72" assembly="GCA_015136515.1"/></CDSList></Protein>
+<Protein  accver="MBZ3666533.1" source="INSDC" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAFMZC010000018.1" start="54000" stop="55019" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="ZDHY373" assembly="GCA_019991015.1"/></CDSList></Protein>
+<Protein  accver="MBZ3671877.1" source="INSDC" name="transcriptional regulator PtxS" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" priority="60">
+<CDSList>
+<CDS  accver="JAFMZB010000018.1" start="54000" stop="55019" strand="+" taxid="76759" org="Pseudomonas monteilii" kingdom_taxid="2" kingdom="Bacteria" strain="ZDHY354" assembly="GCA_019991045.1"/></CDSList></Protein></ProteinList>
+<Statistics  prot_count="4" nuc_count="6" assmb_count="6"/></IPGReport></IPGReportSet>
