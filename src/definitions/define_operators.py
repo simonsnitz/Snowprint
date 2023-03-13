@@ -42,10 +42,11 @@ def findImperfectPalindromes(intergenic, size, winScore, lossScore):
                 except:
                     allScores.append({"seq":"None","score":0})
     
-    best_score = max([i["score"] for i in allScores])            
-    best_operators = [i for i in allScores if i["score"] == best_score]
-    
-    return best_operators
+    if len(allScores) > 0:      # sometimes you get an empty array
+        best_score = max([i["score"] for i in allScores])            
+        best_operators = [i for i in allScores if i["score"] == best_score]
+        
+        return best_operators
 
 
 
@@ -58,8 +59,9 @@ def findBestPalindrome(intergenic, shortest, longest, winScore, lossScore):
     
     for i in range(shortest, longest):
         ops = findImperfectPalindromes(intergenic, i, winScore, lossScore)
-        for j in ops:
-            operators.append(j)
+        if ops != None:
+            for j in ops:
+                operators.append(j)
 
     max_score = max([i["score"] for i in operators])
     best_operators = [i for i in operators if i["score"] == max_score]

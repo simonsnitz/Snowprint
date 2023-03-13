@@ -2,9 +2,10 @@ import json
 from sqlalchemy import create_engine, MetaData
 from sqlalchemy.orm import sessionmaker
 import os
+from pprint import pprint
 
 from Bio.pairwise2 import align
-
+from src.definitions.define_operators import findBestPalindrome, complement
 
 def pull_operator(acc: str):
 
@@ -116,16 +117,48 @@ def write_frontend_json(new_data, filename="./frontend/public/data.json"):
 
 
 
+#############################################################################################
+
+
+
     # function to collect perfomance metrics on a model
 def assess_model(entry, known_operator: str):
 
-        # Is the known operator within the intergenic seqeunce?
-    # ...
+
+    known_operator = known_operator.upper()
 
 
 
         # What is the "inverted repeat character" of the known operator?
-    # ...
+    IR = findBestPalindrome(
+        intergenic=known_operator, 
+        shortest=4, 
+        longest=15, 
+        winScore=1, 
+        lossScore=-1
+        )[0]
+
+
+    IR_score = IR["score"]/2
+
+
+
+
+
+        # Is the known operator within the intergenic sequence?
+    intergenic = entry["intergenic"]
+    comp_known_operator = complement(known_operator)
+
+        # alignment with known operator
+    op_align, int_align, score, startPos, endPos = \
+        align.localms(known_operator, intergenic, 1, 0, -100, 0)[0]
+        # alignment with complement of known operator
+    Cop_align, Cint_align, Cscore, CstartPos, CendPos = \
+        align.localms(comp_known_operator, intergenic, 1, 0, -100, 0)[0]
+
+
+    region_align_score = (max(score,Cscore)/len(known_operator))*100
+
 
     
 
@@ -135,13 +168,21 @@ def assess_model(entry, known_operator: str):
     upstr_align, op_align, score, startPos, endPos = \
         align.localms(known_operator, predicted_operator, 1, 0, -100, 0)[0]
 
-    print(upstr_align)
-    print(op_align)
-
     min_len = min(len(predicted_operator), len(known_operator))
     score = (score/min_len)*100
-    
-    print("score: "+str(round(score,2))+"%")
+
+    operator_align_score = round(score,2)
+
+
+
+    performance_metrics = {
+        "IR score": IR_score,
+        "Region align score": region_align_score,
+        "Operator align score": operator_align_score
+    }
+
+    return performance_metrics
+
 
 
 

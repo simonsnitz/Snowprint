@@ -9,6 +9,8 @@ importlib-metadata==4.11.3
 keyring==17.1.1
 keyrings.alt==3.1.1
 numpy==1.21.5
+openpyxl==3.1.2
+pandas==1.5.3
 pycrypto==2.6.1
 pyxdg==0.25
 requests==2.28.2
