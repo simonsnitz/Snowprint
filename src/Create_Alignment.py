@@ -42,7 +42,7 @@ def accID2sequence(accID: str):
     # Input protein sequence. Output cached blast results
 def blast(acc: str, num_aligns=num_aligns):
 
-    print("NOTE: Starting BLAST")
+    # print("NOTE: Starting BLAST")
 
     seq = accID2sequence(acc)
 
@@ -93,7 +93,7 @@ def create_alignment(acc: str):
     record = session.query(Alignment).filter_by(query_id=acc).first()
 
     if record == None:    
-        print('NOTE: Alignment not found for '+str(acc))
+        # print('NOTE: Alignment not found for '+str(acc))
 
             # Fetch sequence, blast it, and create alignment data
         alignment = blast(acc)
@@ -108,12 +108,12 @@ def create_alignment(acc: str):
             )
                 # Add the new record and commit it to the DB
             conn.execute(new_row)
-            print('UPDATE: Added an alignment for '+str(acc)+' to the DB')
+            # print('UPDATE: Added an alignment for '+str(acc)+' to the DB')
         else:
             print("FATAL: No BLAST result was returned")
 
-    else:
-        print('NOTE: DB alignment already exists for '+str(acc))
+    #else:
+        # print('NOTE: DB alignment already exists for '+str(acc))
 
     conn.close()
 

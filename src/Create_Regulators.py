@@ -27,7 +27,7 @@ def batch_acc2MetaData(prot_acc_list: list):
         
         with open(metadata_tmp, mode='wb') as f:
             f.write(data)
-            print('NOTE: Metadata cached')
+            # print('NOTE: Metadata cached')
 
         
         tree = ET.parse(metadata_tmp)
@@ -50,7 +50,7 @@ def batch_acc2MetaData(prot_acc_list: list):
                 metadata.append(data)
             except:
                 pos = prot_acc_list[len(metadata)]
-                print("WARNING: No data for "+str(pos))
+                # print("WARNING: No data for "+str(pos))
 
         return metadata
 
@@ -78,7 +78,8 @@ def create_regulators(acc: str):
     record = session.query(Alignment).filter_by(query_id=acc).first()
 
     if record == None:    
-        print('NOTE: No alignment found for '+str(acc))
+        pass
+        # print('NOTE: No alignment found for '+str(acc))
 
         # Extract accession IDs for homologs within the alignment
     else:
@@ -124,7 +125,7 @@ def create_regulators(acc: str):
                 )
                     # Add the new record and commit it to the DB
                 conn.execute(new_row)
-                print('UPDATE: Added a regulator entry for '+str(prot_acc))
+                # print('UPDATE: Added a regulator entry for '+str(prot_acc))
 
             else:
                 continue

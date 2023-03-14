@@ -39,7 +39,7 @@ def acc2genome_frag(genome_id, startPos, stopPos):
         with open(genomes_tmp, mode='w+') as f:
             f.write(data)
     else:
-        print(response.status_code)
+        # print(response.status_code)
         print('FATAL: genomes efetch failed. Re-trying ...')
         return
 
@@ -153,7 +153,7 @@ def create_operons(acc: str):
                         )
                 )
                 conn.execute(new_operon)
-                print('UPDATE: Added an operon entry for '+str(operon["prot_id"]))
+                # print('UPDATE: Added an operon entry for '+str(operon["prot_id"]))
 
             else:
                 continue
@@ -184,7 +184,7 @@ def create_operons(acc: str):
 
                 conn.execute(new_association)
 
-                print('UPDATE: Added an association entry for '+str(operon["prot_id"]))
+                # print('UPDATE: Added an association entry for '+str(operon["prot_id"]))
             
             else:
                 continue

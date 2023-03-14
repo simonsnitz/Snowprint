@@ -5,24 +5,41 @@ from src.Update_Associations import update_associations
 from src.Create_Operators import create_operators
 from src.Analyze_Result import pull_operator, write_frontend_json, assess_model
 
+from alive_progress import alive_bar
 import pandas as pd
 import time
 import sys
 from pprint import pprint
 
 
+
+
     # Perform the Snowprint workflow
 def predict_operator(acc):
-    startTime = time.time()
 
-    create_alignment(acc)
-    create_regulators(acc)
-    create_operons(acc)
-    update_associations(acc)
-    create_operators(acc)
+    with alive_bar(5, dual_line=True, title='Snowprint') as bar:
+      
+        bar.text = f'-> Collecting homologs for {acc}'
+        create_alignment(acc)
+        bar()
 
-    endTime = time.time()
-    print("total processing time: "+str(endTime-startTime)+" seconds")
+        bar.text = f'-> Collecting metadata for {acc} homologs'
+        create_regulators(acc)
+        bar()
+
+        bar.text = f'-> Collecting genetic context for {acc} homologs'
+        create_operons(acc)
+        bar()
+
+        bar.text = f'-> Extracting operators for {acc} homologs'
+        update_associations(acc)
+        bar()
+
+        bar.text = f'-> Aligning operators and generating metrics for {acc}'
+        create_operators(acc)
+        bar()
+
+
 
 
 
@@ -38,33 +55,45 @@ def predict_operator(acc):
 
 def benchmark():
 
-    with open("Snowprint_metrics.xlsx", "rb+") as f:
+    with open("Snowprint_benchmarking.xlsx", "rb+") as f:
 
-        sheet_name = "LacI"
+        xl = pd.ExcelFile(f)
+        families = xl.sheet_names
 
-        df = pd.read_excel(f, sheet_name=sheet_name)
+        for family in families:
 
-        IDs = df.loc[:,"Protein ID"].values
-        Operators = df.loc[:,"Known operator"].values
+            df = pd.read_excel(f, sheet_name=family)
 
-        for i in range(0, len(IDs)):
-            
-            predict_operator(IDs[i])
-            operator_data = pull_operator(IDs[i])
-            metrics = assess_model(operator_data, Operators[i])
+            IDs = df.loc[:,"Protein ID"].values
+            Operators = df.loc[:,"Known operator"].values
 
-            df.loc[i,"Inverted repeat score"] = metrics["IR score"]
-            
-            df.loc[i,"Region align score"] = metrics["Region align score"]
+            for i in range(0, len(IDs)):
 
-            df.loc[i,"Operator align score"] = metrics["Operator align score"]
+                start = time.time()
+                
+                predict_operator(IDs[i])
+                operator_data = pull_operator(IDs[i])
+                metrics = assess_model(operator_data, Operators[i])
 
-            df.loc[i,"Number aligned seqs"] = operator_data["sequencesAligned"]
+                end = time.time()
+                elapsed_time = end-start
 
-            df.loc[i,"Consensus Score"] = operator_data["score"]
+                df.loc[i,"Predicted operator"] = operator_data["data"][0]["predicted_operator"]             
 
-            df.to_excel("Snowprint_metrics.xlsx", sheet_name=sheet_name)
-            print("Updated Snowprint_metrics.xlsx")
+                df.loc[i,"Time to complete"] = elapsed_time    
+
+                df.loc[i,"Inverted repeat score"] = metrics["IR score"]
+                
+                df.loc[i,"Region align score"] = metrics["Region align score"]
+
+                df.loc[i,"Operator align score"] = metrics["Operator align score"]
+
+                df.loc[i,"Number aligned seqs"] = operator_data["sequencesAligned"]
+
+                df.loc[i,"Consensus Score"] = operator_data["score"]
+
+                df.to_excel("Snowprint_benchmarking.xlsx", sheet_name=family)
+                print("Updated Snowprint_benchmarking.xlsx")
 
 
 benchmark()

@@ -16,7 +16,7 @@ def operon2Intergenic(operon, regIndex, genome_id):
         queryGenes = list(reversed(operon[0:regIndex]))
         index = regIndex
         if len(queryGenes) == 0:
-            print("WARNING: Tiny operon with too few genes. This entry will be omitted.")
+            # print("WARNING: Tiny operon with too few genes. This entry will be omitted.")
             return
         for i in queryGenes:
             if i["direction"] == "-":
@@ -37,7 +37,7 @@ def operon2Intergenic(operon, regIndex, genome_id):
                     break
                 else:
                     if index == 1:
-                        print('WARNING: Reached end of operon. This entry will be omitted')
+                        # print('WARNING: Reached end of operon. This entry will be omitted')
                         return None
                     index -= 1
 
@@ -45,7 +45,7 @@ def operon2Intergenic(operon, regIndex, genome_id):
         queryGenes = operon[regIndex+1:]
         index = regIndex
         if len(queryGenes) == 0:
-            print("WARNING: Tiny operon with too few genes. This entry will be omitted.")
+            # print("WARNING: Tiny operon with too few genes. This entry will be omitted.")
             return
         for i in queryGenes:
             if i["direction"] == "+":
@@ -66,7 +66,7 @@ def operon2Intergenic(operon, regIndex, genome_id):
                     break
                 else:
                     if index == len(operon)-2:
-                        print('WARNING: Reached end of operon. This entry will be omitted')
+                        # print('WARNING: Reached end of operon. This entry will be omitted')
                         return None
                     else:
                         index += 1
@@ -87,7 +87,7 @@ def operon2Intergenic(operon, regIndex, genome_id):
     if len(output) <= 800:
         return {"regulated_seq": output, "reg_type": regType}
     else:
-        print('WARNING: Intergenic region is over 800bp')
+        # print('WARNING: Intergenic region is over 800bp')
         return None
 
 
@@ -114,7 +114,7 @@ def update_associations(acc: str):
     record = s.query(Alignment).filter_by(query_id=acc).first()
 
     if record == None:    
-        print('WARNING: No alignment found for '+str(acc))
+        # print('WARNING: No alignment found for '+str(acc))
         return
 
         # Extract accession IDs for homologs within the alignment
@@ -156,7 +156,7 @@ def update_associations(acc: str):
                         regulated_seq = data["regulated_seq"])
                 )
                 conn.execute(add_regulated_seq)
-                print('UPDATE: updated association entry for '+str(assoc.regulator_id))
+                # print('UPDATE: updated association entry for '+str(assoc.regulator_id))
 
         else:
             continue

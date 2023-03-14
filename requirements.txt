@@ -1,8 +1,11 @@
+about-time==4.2.1
+alive-progress==3.0.1
 asn1crypto==0.24.0
 biopython==1.81
 certifi==2021.10.8
 charset-normalizer==2.0.12
 entrypoints==0.3
+grapheme==0.6.0
 greenlet==1.1.2
 idna==3.3
 importlib-metadata==4.11.3
