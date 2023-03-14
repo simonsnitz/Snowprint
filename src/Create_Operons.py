@@ -71,7 +71,7 @@ def parseGenome(genome_frag: str, start: str, stop: str):
         return allGenes, regIndex
     except:
         print('FATAL: regulator not found in genome\n')
-        return
+        return None, None
                 
 
 
@@ -120,7 +120,7 @@ def create_operons(acc: str):
 
             allGenes, index = parseGenome(genome_frag, str(reg.start_pos), str(reg.stop_pos))
 
-            if allGenes != "None":
+            if allGenes != None:
 
                 operon_genes, regIndex = getOperon(allGenes, index, reg.start_pos, reg.strand)
                 
