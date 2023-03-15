@@ -42,14 +42,14 @@ def predict_operator(acc):
 
 
 
-
     # Update data.json in the react app's public folder
-# def update_frontend_data(acc):
-#     operator = pull_operator(acc)
-#     write_frontend_json(operator)
+def update_frontend_data(acc):
+    operator = pull_operator(acc)
+    write_frontend_json(operator)
 
 
-
+#predict_operator("WP_000113609.1")
+#update_frontend_data("WP_000113609.1")
 
 
 
@@ -69,31 +69,34 @@ def benchmark():
 
             for i in range(0, len(IDs)):
 
-                start = time.time()
-                
-                predict_operator(IDs[i])
-                operator_data = pull_operator(IDs[i])
-                metrics = assess_model(operator_data, Operators[i])
+                if pd.isna(df.loc[i,"Predicted operator"]):
 
-                end = time.time()
-                elapsed_time = end-start
+                    start = time.time()
+                    
+                    predict_operator(IDs[i])
+                    operator_data = pull_operator(IDs[i])
+                    if operator_data != None:
+                        metrics = assess_model(operator_data, Operators[i])
 
-                df.loc[i,"Predicted operator"] = operator_data["data"][0]["predicted_operator"]             
+                        end = time.time()
+                        elapsed_time = end-start
 
-                df.loc[i,"Time to complete"] = elapsed_time    
+                        df.loc[i,"Predicted operator"] = operator_data["data"][0]["predicted_operator"]             
 
-                df.loc[i,"Inverted repeat score"] = metrics["IR score"]
-                
-                df.loc[i,"Region align score"] = metrics["Region align score"]
+                        df.loc[i,"Time to complete"] = elapsed_time    
 
-                df.loc[i,"Operator align score"] = metrics["Operator align score"]
+                        df.loc[i,"Inverted repeat score"] = metrics["IR score"]
+                        
+                        df.loc[i,"Region align score"] = metrics["Region align score"]
 
-                df.loc[i,"Number aligned seqs"] = operator_data["sequencesAligned"]
+                        df.loc[i,"Operator align score"] = metrics["Operator align score"]
 
-                df.loc[i,"Consensus Score"] = operator_data["score"]
+                        df.loc[i,"Number aligned seqs"] = operator_data["sequencesAligned"]
 
-                df.to_excel("Snowprint_benchmarking.xlsx", sheet_name=family)
-                print("Updated Snowprint_benchmarking.xlsx")
+                        df.loc[i,"Consensus Score"] = operator_data["score"]
+
+                        df.to_excel("Snowprint_benchmarking.xlsx", sheet_name=family)
+                        print("Updated Snowprint_benchmarking.xlsx")
 
 
 benchmark()
