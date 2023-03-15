@@ -76,19 +76,21 @@ def operon2Intergenic(operon, regIndex, genome_id):
 
     if response.ok:
         intergenic = response.text
+        output  = ""
+        for i in intergenic.split('\n')[1:]:
+            output += i
+        if len(output) <= 800:
+            return {"regulated_seq": output, "reg_type": regType}
+        else:
+            # print('WARNING: Intergenic region is over 800bp')
+            return None
     else:
         print('FATAL: Bad eFetch request')
+        return None
 
          # 800bp cutoff for an inter-operon region. 
          # A region too long makes analysis fuzzy and less accurate.
-    output  = ""
-    for i in intergenic.split('\n')[1:]:
-        output += i
-    if len(output) <= 800:
-        return {"regulated_seq": output, "reg_type": regType}
-    else:
-        # print('WARNING: Intergenic region is over 800bp')
-        return None
+    
 
 
 

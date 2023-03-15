@@ -31,9 +31,11 @@ def pull_operator(acc: str):
             # Extract Alignment record associated with accession ID argument
     record = s.query(Alignment).filter_by(query_id=acc).first()
 
+
+        # TODO: have do deal with this edge case.
     if record == None:    
         print('WARNING: No alignment found for '+str(acc))
-        return
+        return None
 
         # Extract accession IDs for homologs within the alignment
     else:
@@ -149,15 +151,19 @@ def assess_model(entry, known_operator: str):
     intergenic = entry["intergenic"]
     comp_known_operator = complement(known_operator)
 
-        # alignment with known operator
-    op_align, int_align, score, startPos, endPos = \
-        align.localms(known_operator, intergenic, 1, 0, -100, 0)[0]
-        # alignment with complement of known operator
-    Cop_align, Cint_align, Cscore, CstartPos, CendPos = \
-        align.localms(comp_known_operator, intergenic, 1, 0, -100, 0)[0]
+        # catch an edge case
+    if intergenic == None:
+        region_align_score = 0
+    else:
+            # alignment with known operator
+        op_align, int_align, score, startPos, endPos = \
+            align.localms(known_operator, intergenic, 1, 0, -100, 0)[0]
+            # alignment with complement of known operator
+        Cop_align, Cint_align, Cscore, CstartPos, CendPos = \
+            align.localms(comp_known_operator, intergenic, 1, 0, -100, 0)[0]
 
 
-    region_align_score = (max(score,Cscore)/len(known_operator))*100
+        region_align_score = (max(score,Cscore)/len(known_operator))*100
 
 
     

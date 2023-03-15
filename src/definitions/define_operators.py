@@ -7,7 +7,7 @@ def complement(sequence):
         try:
             complement += compDNA[i]
         except:
-            print('non standard base found when running complement() function')
+            #print('non standard base found when running complement() function')
             break
     return complement
 
