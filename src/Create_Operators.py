@@ -256,43 +256,49 @@ def create_operators(acc: str):
     
         # Remove homologs that don't have a regulated seqeunce associated with them
     homolog_metadata = [h for h in homolog_metadata if h["regulated_seq"] != None]
+
     
-    
-    has_operator = regulators[0].operator_id
-
-
-    if has_operator == None:
-
-        operator_data = fetch_operator_data(homolog_metadata, acc)
-        
-            # Create a new operon record
-        new_operator = (
-            insert(Operator).values(
-            motif= json.dumps(operator_data["motif"]),
-            number_seqs= operator_data["num_seqs"],
-            consensus_score= operator_data["consensus_score"],
-            aligned_seqs= json.dumps(operator_data["aligned_seqs"]),
-            intergenic= operator_data["intergenic"]
-                    )
-            )
-
-        conn.execute(new_operator)
-
-        operator = s.query(Operator).filter_by(motif=json.dumps(operator_data["motif"])).first()
-
-        for reg in regulators:
-                # Add data to the association record
-            link_reg_to_operator = (
-                update(Regulator).
-                where(Regulator.c.id == reg.id).
-                values(operator_id = operator.id)
-                )
-            conn.execute(link_reg_to_operator)
-
-        print('SUCCESS: Added an operator entry for '+str(operator_data["accession"]))
-        
+    if len(homolog_metadata) == 0:
         conn.close()
-
+        print("FATAL: No homolog data found")
+    
     else:
-        print("NOTE: An operator already exists for "+str(regulators[0].prot_id))
-        conn.close()
+        
+        has_operator = regulators[0].operator_id
+
+
+        if has_operator == None:
+
+            operator_data = fetch_operator_data(homolog_metadata, acc)
+            
+                # Create a new operon record
+            new_operator = (
+                insert(Operator).values(
+                motif= json.dumps(operator_data["motif"]),
+                number_seqs= operator_data["num_seqs"],
+                consensus_score= operator_data["consensus_score"],
+                aligned_seqs= json.dumps(operator_data["aligned_seqs"]),
+                intergenic= operator_data["intergenic"]
+                        )
+                )
+
+            conn.execute(new_operator)
+
+            operator = s.query(Operator).filter_by(motif=json.dumps(operator_data["motif"])).first()
+
+            for reg in regulators:
+                    # Add data to the association record
+                link_reg_to_operator = (
+                    update(Regulator).
+                    where(Regulator.c.id == reg.id).
+                    values(operator_id = operator.id)
+                    )
+                conn.execute(link_reg_to_operator)
+
+            print('SUCCESS: Added an operator entry for '+str(operator_data["accession"]))
+            
+            conn.close()
+
+        else:
+            print("NOTE: An operator already exists for "+str(regulators[0].prot_id))
+            conn.close()

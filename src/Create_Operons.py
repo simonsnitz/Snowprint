@@ -40,8 +40,8 @@ def acc2genome_frag(genome_id, startPos, stopPos):
             f.write(data)
     else:
         # print(response.status_code)
-        print('FATAL: genomes efetch failed. Re-trying ...')
-        return
+        print('FATAL: genomes efetch failed.')
+        return None
 
         # Cache genomes text file
     with open(genomes_tmp, mode='r') as f:
@@ -118,22 +118,27 @@ def create_operons(acc: str):
 
             genome_frag = acc2genome_frag(reg.genome_id, reg.start_pos, reg.stop_pos)
 
-            allGenes, index = parseGenome(genome_frag, str(reg.start_pos), str(reg.stop_pos))
+            if genome_frag != None:
 
-            if allGenes != None:
+                allGenes, index = parseGenome(genome_frag, str(reg.start_pos), str(reg.stop_pos))
 
-                operon_genes, regIndex = getOperon(allGenes, index, reg.start_pos, reg.strand)
-                
-                operon_start = operon_genes[0]["start"]
-                operon_stop = operon_genes[-1]["stop"]
+                if allGenes != None:
 
-                operon = {"prot_id": reg.prot_id, "genome_id": reg.genome_id, \
-                     "operon": operon_genes, "regIndex": regIndex, "start": operon_start,\
-                        "stop": operon_stop}
+                    operon_genes, regIndex = getOperon(allGenes, index, reg.start_pos, reg.strand)
+                    
+                    operon_start = operon_genes[0]["start"]
+                    operon_stop = operon_genes[-1]["stop"]
 
+                    operon = {"prot_id": reg.prot_id, "genome_id": reg.genome_id, \
+                        "operon": operon_genes, "regIndex": regIndex, "start": operon_start,\
+                            "stop": operon_stop}
+
+                else:
+                    print('FATAL: Genome parsing failed')
+                    return None
             else:
-                print('FATAL: Genome parsing failed')
-                return
+                print('FATAL: Could not fetch the genome')
+                return None
 
                 # Check to see if a DB record already exists for the operon.
             operon_record = session.query(Operon).filter_by(

@@ -57,46 +57,46 @@ def benchmark():
 
     with open("Snowprint_benchmarking.xlsx", "rb+") as f:
 
-        xl = pd.ExcelFile(f)
-        families = xl.sheet_names
+        df = pd.read_excel(f)
 
-        for family in families:
+        IDs = df.loc[:,"Protein ID"].values
+        Operators = df.loc[:,"Known operator"].values
 
-            df = pd.read_excel(f, sheet_name=family)
+        for i in range(0, len(IDs)):
 
-            IDs = df.loc[:,"Protein ID"].values
-            Operators = df.loc[:,"Known operator"].values
+            if pd.isna(df.loc[i,"Predicted operator"]):
 
-            for i in range(0, len(IDs)):
+                start = time.time()
 
-                if pd.isna(df.loc[i,"Predicted operator"]):
+                print("starting: "+str(IDs[i]))
+                
+                predict_operator(IDs[i])
+                operator_data = pull_operator(IDs[i])
+                if operator_data != None:
+                    metrics = assess_model(operator_data, Operators[i])
 
-                    start = time.time()
+                    end = time.time()
+                    elapsed_time = end-start
+
+                    df.loc[i,"Predicted operator"] = operator_data["data"][0]["predicted_operator"]             
+
+                    df.loc[i,"Time to complete"] = elapsed_time    
+
+                    df.loc[i,"Inverted repeat score"] = metrics["IR score"]
                     
-                    predict_operator(IDs[i])
-                    operator_data = pull_operator(IDs[i])
-                    if operator_data != None:
-                        metrics = assess_model(operator_data, Operators[i])
+                    df.loc[i,"Region align score"] = metrics["Region align score"]
 
-                        end = time.time()
-                        elapsed_time = end-start
+                    df.loc[i,"Operator align score"] = metrics["Operator align score"]
 
-                        df.loc[i,"Predicted operator"] = operator_data["data"][0]["predicted_operator"]             
+                    df.loc[i,"Number aligned seqs"] = operator_data["sequencesAligned"]
 
-                        df.loc[i,"Time to complete"] = elapsed_time    
+                    df.loc[i,"Consensus Score"] = operator_data["score"]
 
-                        df.loc[i,"Inverted repeat score"] = metrics["IR score"]
-                        
-                        df.loc[i,"Region align score"] = metrics["Region align score"]
-
-                        df.loc[i,"Operator align score"] = metrics["Operator align score"]
-
-                        df.loc[i,"Number aligned seqs"] = operator_data["sequencesAligned"]
-
-                        df.loc[i,"Consensus Score"] = operator_data["score"]
-
-                        df.to_excel("Snowprint_benchmarking.xlsx", sheet_name=family)
-                        print("Updated Snowprint_benchmarking.xlsx")
+                    df.to_excel("Snowprint_benchmarking.xlsx")
+                    print("Updated Snowprint_benchmarking.xlsx")
+                    
+                else:
+                    print("Snowprint failed for "+str(IDs[i]))
 
 
 benchmark()
@@ -131,4 +131,5 @@ def snowprint(acc):
 
 
 # acc = sys.argv[1]
+# acc = "NP_416175.1"
 # snowprint(acc)
