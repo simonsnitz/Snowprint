@@ -46,7 +46,8 @@ useEffect(() => {
                 accession: data[entry].accession,
                 score: data[entry].score,
                 sequencesAligned: data[entry].sequencesAligned,
-                organism: data[entry].organism
+                organism: data[entry].organism,
+                consensus: data[entry].consensus
             };
             rowsToAdd.push(protein);
         
@@ -108,7 +109,11 @@ const columns = [
     { 
         field: 'organism', 
         headerName: 'Organism', 
-        width: 200 },
+        width: 250 },
+      { 
+        field: 'consensus', 
+        headerName: 'Consensus', 
+        width: 300 },
   ];
 
 
