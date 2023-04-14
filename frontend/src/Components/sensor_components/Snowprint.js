@@ -56,9 +56,9 @@ console.log(operators);
   return (
     <Box>
       <Grid container spacing={4} columns={12} justifyContent="center">
-        <Grid item xs={12} mb={6}>
+        <Grid item xs={12}>
 
-            <DNALogo ppm={matrix} 
+            <DNALogo ppm={matrix} overflow="scroll"
                 height="200px"/>
 
         </Grid>

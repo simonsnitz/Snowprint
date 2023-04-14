@@ -86,7 +86,7 @@ const columns = [
 
 
         <Box
-            sx={{ height: 600, width: '90%', backgroundColor: "white", margin: "auto" }}
+            sx={{ height: 600, width: '100%', backgroundColor: "white", margin: "auto" }}
         >
 
             <DataGrid

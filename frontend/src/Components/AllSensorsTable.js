@@ -115,7 +115,7 @@ const columns = [
   const selectionPrompt = () => {
     return (
       <Box>
-        <Grid container spacing={4} columns={12} mt={8} justifyContent="center">
+        <Grid container spacing={4} columns={12} mt={5} justifyContent="center">
           <Grid item xs={10} mb={6}>
             <Typography
               sx={{ fontSize: { xs: 22, md: 24 }, textAlign: 'center' }}
@@ -136,7 +136,11 @@ const columns = [
         <Box 
             sx={{ height: 400, width: '90%', backgroundColor: "white", margin: "auto" }}
         >
-
+            <Typography
+              sx={{ fontSize: { xs: 18, md: 22 }, fontWeight: 300, textAlign: 'left', mb:2 }}
+            >
+              Processed regulators
+            </Typography>
             <DataGrid
                     rows={rows}
                     columns={columns}
