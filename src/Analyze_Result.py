@@ -69,8 +69,8 @@ def pull_operator(acc: str):
     #print("Consensus score: \n"+str(operator.consensus_score))
     #print("number of aligned sequences: \n"+str(operator.number_seqs))
 
-    #consensus = "".join(i["base"] for i in json.loads(operator.motif))
-    #print("Consensus motif: "+str(consensus))
+    consensus = "".join(i["base"] for i in json.loads(operator.motif))
+    # print("Consensus motif: "+str(consensus))
 
     #WT_operator = str(json.loads(operator.aligned_seqs)[0])
     #print("WT operator: "+WT_operator)
@@ -84,7 +84,8 @@ def pull_operator(acc: str):
                 "sequencesAligned": operator.number_seqs,
                 "organism": all_seqs[0]["organism"],
                 "intergenic": operator.intergenic,
-                "data": all_seqs
+                "data": all_seqs,
+                "consensus": consensus
                 }
 
         return entry
@@ -172,7 +173,9 @@ def assess_model(entry, known_operator: str):
     
 
         # How well does the predicted operator match the known operator?
-    predicted_operator = (entry["data"][0]["predicted_operator"]).upper()
+            #updated this.
+    predicted_operator = (entry["consensus"]).upper()
+    # predicted_operator = (entry["data"][0]["predicted_operator"]).upper()
 
     upstr_align, op_align, score, startPos, endPos = \
         align.localms(known_operator, predicted_operator, 1, 0, -100, 0)[0]

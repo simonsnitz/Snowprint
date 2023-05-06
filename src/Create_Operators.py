@@ -1,4 +1,4 @@
-from Bio.pairwise2 import align
+from Bio.pairwise2 import align, format_alignment
 import json
 from pprint import pprint
 
@@ -116,6 +116,8 @@ def get_consensus_score(operator, consensus_data, ext_length):
     max_score = 0
     consensus_score = 0
 
+    #TODO: confirm that the consensus_data is not empty. Otherwise it might crash
+
     for i in range(0,len(operator)):
         if operator[i].isupper():
             max_score += 1
@@ -128,20 +130,24 @@ def get_consensus_score(operator, consensus_data, ext_length):
 
 
 
-def fetch_operator_data(homolog_metadata, acc, ext_length=5):
+def fetch_operator_data(homolog_metadata, acc, ext_length=5, **kwargs):
 
     regulated_seqs = [h["regulated_seq"] for h in homolog_metadata]
 
-        # Iterates the palindrome locater function through multiple relevant scoring parameters
-    operators = []
+    if 'known_operator' in kwargs:
+        operators = [{"seq": kwargs.get('known_operator')}]
+    else:
 
-    test_params = [{"w":2,"l":-2}, {"w":2,"l":-3}, {"w":2,"l":-4}]
+            # Iterates the palindrome locater function through multiple relevant scoring parameters
+        operators = []
 
-    for i in test_params:
-        ops = [findBestPalindrome(intergenic=regulated_seqs[0], \
-        shortest=5, longest=15, winScore=i["w"], lossScore=i["l"])][0]
-        for operator in ops:
-            operators.append(operator)
+        test_params = [{"w":2,"l":-2}, {"w":2,"l":-3}, {"w":2,"l":-4}]
+
+        for i in test_params:
+            ops = [findBestPalindrome(intergenic=regulated_seqs[0], \
+            shortest=5, longest=15, winScore=i["w"], lossScore=i["l"])][0]
+            for operator in ops:
+                operators.append(operator)
 
 
 
@@ -179,8 +185,10 @@ def fetch_operator_data(homolog_metadata, acc, ext_length=5):
         consensus = getConsensus(metrics)
         consensus_score = get_consensus_score(operator["seq"], consensus, ext_length)
             # Pull out the predicted operator from the original query protein
-        operator["seq"] = findOperatorInIntergenic(regulated_seqs[0], \
-            operator["seq"], ext_length=5)["operator"]
+        opSeq = findOperatorInIntergenic(regulated_seqs[0], \
+            operator["seq"], ext_length=5)
+        if opSeq != None:
+            operator["seq"] = opSeq["operator"]
 
         # Warning: Only the CONSENSUS SCORE is used to identify the 
             # best operator. This should also incorporate the
@@ -199,7 +207,7 @@ def fetch_operator_data(homolog_metadata, acc, ext_length=5):
 
 
 
-def create_operators(acc: str):
+def create_operators(acc: str, **kwargs):
 
         # Point to the sqlite database
     engine = create_engine('sqlite:///cache/Snowprint.db')
@@ -269,7 +277,11 @@ def create_operators(acc: str):
 
         if has_operator == None:
 
-            operator_data = fetch_operator_data(homolog_metadata, acc)
+            if 'known_operator' in kwargs:
+                operator_data = fetch_operator_data(homolog_metadata, acc, known_operator=kwargs.get('known_operator'))
+            else:
+                operator_data = fetch_operator_data(homolog_metadata, acc)
+
             
                 # Create a new operon record
             new_operator = (
@@ -302,3 +314,12 @@ def create_operators(acc: str):
         else:
             print("NOTE: An operator already exists for "+str(regulators[0].prot_id))
             conn.close()
+
+
+if __name__ == "__main__":
+
+    s1 = "​TGGGACAAGCTGGA"
+    s2 = "TGGAACGtCGTTCC"
+
+    data = align.localms(s1, s2, 1, -0.5, -10, 0)
+    print(format_alignment(*data[0]))

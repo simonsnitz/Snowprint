@@ -63,7 +63,8 @@ def findBestPalindrome(intergenic, shortest, longest, winScore, lossScore):
             for j in ops:
                 operators.append(j)
 
+    #TODO: crashes if no operators are found
     max_score = max([i["score"] for i in operators])
     best_operators = [i for i in operators if i["score"] == max_score]
-
+    
     return best_operators

@@ -54,15 +54,21 @@ $ npm start
 ## Create a Snowprint prediction
 ```console
 $ cd Snowprint
-$ python main.py {your RefSeq accession goes here}
+$ python snowprint.py {your RefSeq or GenBank accession goes here}
 ```
 
 
+## Include a 'seed sequence' to guide your search
+- In some cases you may know an validated operator sequence for a closely related transcriptional regulator
+- You can guide the operator search with this sequence by passing it in the program as a second argument
+```console
+$ python snowprint.py {your RefSeq or GenBank accession} {your seed sequence}
+```
 
 ## Caching
 - A SQLite database is used to cache intermediate data collected while creating a prediction to increase prediction speed.
-- The database is located in `Snowprint/Cache/Snowprint.db`
-- The database schema can be found in `Snowprint/Cache/models.py`
+- The database is located in `Snowprint/cache/Snowprint.db`
+- The database schema can be found in `Snowprint/cache/models.py`
 
 
 ## Display data
